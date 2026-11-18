@@ -31,6 +31,9 @@ Tre er det første du trenger. Alt annet begynner med det.
   Etter noen sekunder løsner en kloss og faller ned som en liten versjon av seg
   selv.
 
+![Hogging av et eiketre med bare hånda. Stammen har fått sprekker, og tre
+stammer ligger allerede i raden nederst på skjermen](hogg-tre.png)
+
 - [ ] Gå over den lille klossen for å plukke den opp.
 
 - [ ] Hogg til du har minst fem stammer. Du ser dem i raden nederst på skjermen.
@@ -50,6 +53,10 @@ to ruter. Det er et enkelt verksted.
 
 - [ ] Klikk på stammene, og legg én stamme i en av rutene i rutenettet. Til
   høyre ser du fire planker. Klikk på dem for å ta dem.
+
+![Sekken er åpen. Én stamme ligger i rutenettet på to ganger to ruter øverst til
+høyre, og bak pila ligger fire planker. Den grønne boka under rutenettet er
+oppskriftsboka](sekk-planker.png)
 
 - [ ] Gjør om alle stammene til planker.
 
@@ -80,6 +87,9 @@ bare bryte med riktig verktøy.
 
 - [ ] Lag en **trehakke**: Tre planker på øverste rad, og to pinner under
   hverandre i midten.
+
+![Arbeidsbenken med tre planker på øverste rad og to pinner under hverandre i
+midten. Bak pila ligger trehakken](arbeidsbenk-trehakke.png)
 
 - [ ] Finn stein. Den er grå og ligger ofte i åssider eller rett under jorda.
   Bryt minst ti steinklosser med hakken. De blir til brostein (cobblestone).
@@ -112,6 +122,9 @@ edderkopper og Creepere.
   inn.
 
 - [ ] Ta med arbeidsbenken inn, eller lag en ny. Du har tid å slå i hjel.
+
+![En liten hytte av brostein om natta, med fakler på veggen og et lite vindu.
+Utenfor står en Creeper, et skjelett og en zombie](ly-om-natta.png)
 
 ## Lys {.protip}
 

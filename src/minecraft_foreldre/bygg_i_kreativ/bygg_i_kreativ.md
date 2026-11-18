@@ -24,7 +24,10 @@ Du skal bygge noe du selv bestemmer. Det finnes ingen fasit.
   I Java finner du den under fanen `World`. I Bedrock heter det `Flat World` og
   ligger under avanserte innstillinger.
 
-- [ ] Trykk `Create`.
+![Fanen World på skjermen for ny verden i Java, med World Type:
+Superflat](superflat.png)
+
+- [ ] Trykk `Create New World` (Java) eller `Create` (Bedrock).
 
 
 # Steg 2: Lær å fly {.activity}
@@ -54,6 +57,9 @@ fargede klosser, planter, redstone og mye mer.
 
 - [ ] Bruk søkefeltet. Skriv for eksempel `glass` eller `brick`.
 
+![Kreativ-menyen med søkefanen åpen. Søket brick viser mange slags murstein.
+Nederst er raden med klossene du har valgt](kreativ-sok.png)
+
 - [ ] Dra noen klosser ned i raden nederst. Lukk med `E`.
 
 - [ ] Velg kloss med tallene `1` til `9`. Høyreklikk for å sette den ut.
@@ -76,6 +82,9 @@ Velg ett av forslagene, eller finn på noe selv.
 - En kopi av huset dere bor i, eller rommet du sitter i.
 
 - En bro over en elv eller en dal.
+
+![Et lite hus på en flat verden. Veggene er av planker med stokker i hjørnene,
+taket er av teglstein, og det har vinduer, dør og blomster foran](hus.png)
 
 ## Sjekkliste {.check}
 

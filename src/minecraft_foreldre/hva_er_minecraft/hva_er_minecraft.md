@@ -102,11 +102,18 @@ uten stress.
 
 - [ ] Start Minecraft og trykk `Singleplayer` (Java) eller `Play` (Bedrock).
 
+![Tittelskjermen i Minecraft Java med knappene Singleplayer, Multiplayer,
+Minecraft Realms, Options og Quit Game](tittelskjerm.png)
+
 - [ ] Trykk `Create New World` (Java) eller `Create New` (Bedrock).
 
 - [ ] Gi verdenen et navn. Velg `Survival` og vanskelighetsgrad `Peaceful`.
 
-- [ ] Trykk `Create`. Gå litt rundt. Se på dyrene, trærne og landskapet.
+![Skjermen for ny verden i Java. Fanen Game er valgt, med Game Mode: Survival og
+Difficulty: Peaceful](ny-verden.png)
+
+- [ ] Trykk `Create New World` (Java) eller `Create` (Bedrock). Gå litt rundt.
+  Se på dyrene, trærne og landskapet.
 
 ## Tips {.protip}
 

@@ -25,8 +25,8 @@ slått av fra start.
 ## Sjekkliste {.check}
 
 - [ ] Logg inn på
-  [account.microsoft.com/family](https://account.microsoft.com/family) med
-  din egen konto, og se om barnet er med i familiegruppen.
+  [account.microsoft.com/family](https://account.microsoft.com/family) med din
+  egen konto, og se om barnet er med i familiegruppen.
 
 - [ ] Er det ikke det, legg det til. Microsoft forklarer hvordan på
   [support.microsoft.com](https://support.microsoft.com/nb-no/family-safety/add-people-to-your-family-group).
@@ -68,6 +68,9 @@ for Minecraft:
 I Java kan barnet skjule all chat under `Options`, `Chat Settings`. Inne i et
 spill med andre kan barnet skjule eller rapportere en spiller under `Player
 Reporting` i pausemenyen.
+
+![Chat Settings i Minecraft Java. Øverst til venstre står Chat: Shown. Klikk på
+den for å velge Commands Only eller Hidden](chatinnstillinger.png)
 
 
 # Steg 3: Servere og Realms {.activity}

@@ -10,9 +10,9 @@ spill. Tenk på det som digital Lego, med tyngdekraft, døgn, vær og farer.
 
 Dette kurset er for voksne. Du skal spille selv, gjerne sammen med barnet ditt.
 Hver oppgave tar deg gjennom en side av spillet: spenningen i overlevelse,
-gleden ved å bygge, kunnskapen barna deler med hverandre, logikken i redstone
-og veien videre til programmering. Til slutt i hver oppgave står det litt om
-hva barnet ditt opplever når det spiller på samme måte.
+gleden ved å bygge, kunnskapen barna deler med hverandre, logikken i redstone og
+veien videre til programmering. Til slutt i hver oppgave står det litt om hva
+barnet ditt opplever når det spiller på samme måte.
 
 Du trenger ingen erfaring med spill. Det er helt greit å dø, gå seg vill og
 bygge stygge hus. Det gjør alle.
@@ -25,12 +25,12 @@ bygge stygge hus. Det gjør alle.
 
 - Ta oppgavene i rekkefølge. Hver tar fra en halvtime til en time.
 
-- Oppgaven [La barnet vise deg](la_barnet_vise_deg/la_barnet_vise_deg.html)
-  er kanskje den viktigste. Gjør den gjerne tidlig, hvis barnet ditt allerede
+- Oppgaven [La barnet vise deg](la_barnet_vise_deg/la_barnet_vise_deg.html) er
+  kanskje den viktigste. Gjør den gjerne tidlig, hvis barnet ditt allerede
   spiller.
 
-- Når du er ferdig, kan barnet gå videre til kurset
-  [Codeling](../codeling), der man programmerer en robot inne i Minecraft.
+- Når du er ferdig, kan barnet gå videre til kurset [Codeling](../codeling), der
+  man programmerer en robot inne i Minecraft.
 
 Kurset er ikke laget av eller godkjent av Mojang eller Microsoft. Minecraft er
 et varemerke som tilhører Mojang Synergies AB.

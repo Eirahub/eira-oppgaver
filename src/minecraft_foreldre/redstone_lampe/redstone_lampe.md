@@ -44,6 +44,9 @@ eller søk på `redstone`.
 
 - [ ] Høyreklikk igjen. Lampen slukker.
 
+![To redstone-lamper med hver sin spak på siden. Til venstre er spaken av, og
+lampen er mørk. Til høyre er spaken på, og lampen lyser](lampe-spak.png)
+
 
 # Steg 3: Trekk en ledning {.activity}
 
@@ -80,6 +83,9 @@ Strømmen i redstone blir svakere for hver kloss. Etter 15 klosser er den borte.
 
 - [ ] Prøv alle fire kombinasjonene: begge av, bare den første på, bare den
   andre på, begge på.
+
+![To spaker med hver sin ledning av redstone-støv. Ledningene møtes og går
+videre til lampen. Én spak er på, og lampen lyser](eller-port.png)
 
 ## Test prosjektet {.flag}
 
@@ -125,6 +131,9 @@ En jerndør kan du ikke åpne med hånda. Den trenger strøm.
 
 - [ ] Legg trykkplata på bakken rett foran døra.
 
+![En jerndør i en mur av steinmurstein, med en trykkplate av stein på bakken
+rett foran døra](jerndor.png)
+
 ## Test prosjektet {.flag}
 
 - [ ] Gå på trykkplata. Åpner døra seg?
@@ -139,6 +148,10 @@ til høyre, og redstone-støv oppå klossen i midten. Sett en spak på baksiden 
 venstre og høyre kloss. Sett så en redstone-fakkel på forsiden av klossen i
 midten, og en lampe foran den. Klarer du å forklare hvorfor det virker? Spør
 gjerne barnet ditt om hjelp.
+
+![OG-porten sett skrått bakfra. Tre steinklosser på rad, med en spak bak den
+venstre og den høyre, redstone-fakler oppå dem og redstone-støv oppå den i
+midten. Begge spakene er på, og lampen foran lyser](og-port.png)
 
 
 # Steg 7: Til deg som forelder {.activity}
