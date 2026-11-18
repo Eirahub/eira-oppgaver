@@ -153,8 +153,8 @@ hvilken modell hver tilstand bruker. Rubinklossen har bare én tilstand, `""`.
 `cube_all` er en kube med samme tekstur på alle sider. Itemet bruker samme
 modell som klossen, så det ser ut som en liten kloss i inventaret.
 
-<!-- BILDE: Teksturen til rubinklossen forstørret, 16 x 16 piksler, med et
-rutemønster i rødt. -->
+![Teksturen til rubinklossen forstørret, 16 x 16 piksler, tegnet i et
+rutenett](rubinkloss_rutenett.png)
 
 
 # Steg 3: Navn {.activity}

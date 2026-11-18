@@ -289,8 +289,10 @@ boksene i modellen, brettet ut som en pappeske. Grisemodellen bruker et bilde p√
 - [ ] Lagre den som
   `src/main/resources/assets/rubinmod/textures/entity/rubingris.png`.
 
-<!-- BILDE: Teksturen til rubingrisen, 64 x 64 piksler, med de utbrettede delene
-av hodet, kroppen og beina merket. -->
+![Teksturen til rubingrisen, 64 x 64 piksler, tegnet i et rutenett. Delene er
+merket med fargede rammer](rubingris_rutenett.png)
+
+Gul ramme: hodet. Cyan: snuten. Hvit: kroppen. Gr√∏nn: beina.
 
 ## Tips {.protip}
 

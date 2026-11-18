@@ -9,7 +9,8 @@ steg for steg. Den starter tom og får rubiner, en rubinkloss, rubinmalm i
 verden, et sverd, et eple, en rubingris og en stav som sender lyn.
 
 Kurset bruker **Fabric**, **Minecraft 26.3**, **Java 25** og **IntelliJ IDEA**.
-Det passer fra 8. trinn og oppover.
+Mot slutten får moden også virke med **NeoForge** og **Minecraft 1.21.11**. Det
+passer fra 8. trinn og oppover.
 
 ## Før du starter
 
@@ -53,11 +54,15 @@ Mens du lager moden, starter du spillet fra IntelliJ uten å logge inn.
 
 8. **Oppførsel**: en stav som sender lyn, en egen kommando og en hendelse.
 
-Disse kommer senere:
+9. **Felleskode**: én mod som virker med både Fabric og NeoForge.
 
-- **Felleskode**: én mod som virker med både Fabric og NeoForge.
+10. **Flere versjoner**: samme mod for Minecraft 26.3 og 1.21.11.
 
-- **Flere versjoner**: én mod for flere Minecraft-versjoner.
+11. **Del moden**: bygg jar-fila, installer den i vanlig Minecraft og del den
+  trygt.
+
+Oppgave 9 og 10 er for deg som vil gå videre. Del moden kan du ta rett etter
+Oppførsel.
 
 Kurset er ikke laget av eller godkjent av Mojang eller Microsoft. Minecraft er
 et varemerke som tilhører Mojang Synergies AB.

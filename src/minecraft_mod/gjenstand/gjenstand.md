@@ -161,8 +161,7 @@ piksler.
 
 - [ ] Lagre bildet som `rubin.png` i mappa `textures/item`.
 
-<!-- BILDE: Piskel med et rutenett på 16 x 16 piksler og en rød rubin tegnet
-midt i. -->
+![Rubinen tegnet i et rutenett på 16 x 16 piksler](rubin_rutenett.png)
 
 Vil du ikke tegne nå, kan du kopiere `rubin.png` fra løsningen til steget
 `03_gjenstand` og tegne din egen senere. <!-- LENKE: løsningsrepo -->

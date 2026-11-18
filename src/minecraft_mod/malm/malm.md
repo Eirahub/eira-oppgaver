@@ -129,8 +129,8 @@ Malmen trenger de samme filene som rubinklossen. Lag dem på samme måte.
   }
   ```
 
-<!-- BILDE: Teksturen til rubinmalmen forstørret: grå stein med røde krystaller.
--->
+![Teksturen til rubinmalmen forstørret: grå stein med røde krystaller, tegnet i
+et rutenett på 16 x 16 piksler](rubinmalm_rutenett.png)
 
 
 # Steg 3: Hva malmen dropper {.activity}
