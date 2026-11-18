@@ -1,0 +1,11 @@
+sortindex: 1
+title:
+  nb: 'Java fra start'
+  nn: 'Java frå start'
+  en: 'Java from the start'
+lessons:
+  - hei_java
+  - variabler
+  - valg_og_lokker
+  - metoder
+  - lister
