@@ -25,8 +25,8 @@ litt Minecraft før.
 
 ## Ressurser
 
-- Codeling er åpen kildekode: [github.com/Eirahub/MinecraftCodeling
-  ](https://github.com/Eirahub/MinecraftCodeling).
+- Codeling er åpen kildekode:
+  [github.com/Eirahub/MinecraftCodeling](https://github.com/Eirahub/MinecraftCodeling).
 
 - [Veiledning for spillere](https://github.com/Eirahub/MinecraftCodeling/blob/main/docs/player/guide-nb.md)
   med alle robotkommandoene.
