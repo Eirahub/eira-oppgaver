@@ -24,13 +24,12 @@ slått av fra start.
 
 ## Sjekkliste {.check}
 
-- [ ] Logg inn på [account.microsoft.com/family
-  ](https://account.microsoft.com/family) med din egen konto, og se om barnet er
-  med i familiegruppen.
+- [ ] Logg inn på
+  [account.microsoft.com/family](https://account.microsoft.com/family) med
+  din egen konto, og se om barnet er med i familiegruppen.
 
 - [ ] Er det ikke det, legg det til. Microsoft forklarer hvordan på
-  [support.microsoft.com
-  ](https://support.microsoft.com/nb-no/family-safety/add-people-to-your-family-group).
+  [support.microsoft.com](https://support.microsoft.com/nb-no/family-safety/add-people-to-your-family-group).
 
 - [ ] Last ned appen **Xbox Family Settings** på mobilen. Den gjør det enklere å
   endre innstillingene. Innstillingene for flerspiller og chat følger kontoen,

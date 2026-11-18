@@ -19,17 +19,18 @@ bygge stygge hus. Det gjør alle.
 
 ## Hvordan komme i gang
 
-- Begynn med `Hva er Minecraft?`. Den forklarer utgavene, hva spillet koster,
-  aldersgrensen og hvilke valg du gjør når du lager en verden.
+- Begynn med [Hva er Minecraft?](hva_er_minecraft/hva_er_minecraft.html). Den
+  forklarer utgavene, hva spillet koster, aldersgrensen og hvilke valg du gjør
+  når du lager en verden.
 
 - Ta oppgavene i rekkefølge. Hver tar fra en halvtime til en time.
 
-- Oppgaven `La barnet vise deg` er kanskje den viktigste. Gjør den gjerne
-  tidlig, hvis barnet ditt allerede spiller.
+- Oppgaven [La barnet vise deg](la_barnet_vise_deg/la_barnet_vise_deg.html)
+  er kanskje den viktigste. Gjør den gjerne tidlig, hvis barnet ditt allerede
+  spiller.
 
 - Når du er ferdig, kan barnet gå videre til kurset
-  [Codeling](https://oppgaver.kidsakoder.no/codeling), der man programmerer en
-  robot inne i Minecraft.
+  [Codeling](../codeling), der man programmerer en robot inne i Minecraft.
 
 Kurset er ikke laget av eller godkjent av Mojang eller Microsoft. Minecraft er
 et varemerke som tilhører Mojang Synergies AB.

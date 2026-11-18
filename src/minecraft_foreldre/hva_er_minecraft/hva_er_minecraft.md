@@ -55,8 +55,7 @@ Java Edition på en datamaskin.
 - **Konto:** Du trenger en Microsoft-konto for å kjøpe og spille, også på
   PlayStation og Switch. Barn får en egen barnekonto som er knyttet til en
   voksen i en Microsoft-familiegruppe. Det kommer vi tilbake til i oppgaven
-  [Trygt
-  spill](https://oppgaver.kidsakoder.no/minecraft_foreldre/trygt_spill/trygt_spill).
+  [Trygt spill](../trygt_spill/trygt_spill.html).
 
 - **Pris:** Java & Bedrock for PC koster rundt 350 kroner i Microsoft Store. På
   konsoll, nettbrett og mobil kjøper du i plattformens egen butikk, og prisen

@@ -28,7 +28,7 @@ Codeling er en mod, og modder lastes inn av et lite program som heter
 ## Sjekkliste {.check}
 
 - [ ] Følg [installasjonsveiledningen for
-  Codeling](https://oppgaver.kidsakoder.no/codeling/installasjon/installasjon)
+  Codeling](../../codeling/installasjon/installasjon.html)
   steg for steg.
 
 - [ ] Start Minecraft med Fabric-profilen, og sjekk at spillet starter.
@@ -37,7 +37,7 @@ Codeling er en mod, og modder lastes inn av et lite program som heter
 
 Fabric og Codeling hentes fra de offisielle sidene som står i
 installasjonsveiledningen. Det er det samme prinsippet som i oppgaven [Trygt
-spill](https://oppgaver.kidsakoder.no/minecraft_foreldre/trygt_spill/trygt_spill):
+spill](../trygt_spill/trygt_spill.html):
 modder er programmer, og skal komme fra kilder du stoler på.
 
 
@@ -46,7 +46,7 @@ modder er programmer, og skal komme fra kilder du stoler på.
 ## Sjekkliste {.check}
 
 - [ ] Sett deg sammen med barnet, og åpne oppgaven [Kom i
-  gang](https://oppgaver.kidsakoder.no/codeling/kom_i_gang/kom_i_gang).
+  gang](../../codeling/kom_i_gang/kom_i_gang.html).
 
 - [ ] La barnet lese og gjøre oppgaven selv. Hjelp bare når det står fast.
 
