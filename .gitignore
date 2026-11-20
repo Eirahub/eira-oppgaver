@@ -66,3 +66,6 @@ site/dist
 site/.astro
 # "lib/" over gjelder Python, ikke sidens kode
 !site/src/lib/
+
+# Lokale Claude-innstillinger
+.claude/settings.local.json
