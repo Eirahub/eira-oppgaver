@@ -1,0 +1,13 @@
+sortindex: 1
+title:
+  nb: 'Test moden med MultiMC'
+  nn: 'Test moden med MultiMC'
+  en: 'Test your mod with MultiMC'
+lessons:
+  - installasjon
+  - java_for_minecraft
+  - instanser
+  - mod_loadere
+  - test_moden
+  - logger
+  - modpakker
