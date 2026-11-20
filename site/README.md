@@ -16,6 +16,7 @@ npm install
 npm run dev          # http://localhost:4321
 npm run build        # bygger til site/dist
 npm run check:site   # sjekker dist for døde lenker og viktige sider
+npm test             # tester for logikk uten DOM (scripts/*.test.mjs)
 npm run preview      # viser dist lokalt
 ```
 
@@ -114,6 +115,42 @@ legges inn i `partners` med logoene i `profiles/lkk/public/`.
 - ` ```microbit ` tegnes av MakeCode i en skjult iframe
   (`makecode.microbit.org/--docs?render=1`), som i codeclub-viewer. Koden står
   som tekst til bildet er klart, og blir stående hvis MakeCode ikke svarer.
+
+### Prøv selv (` ```html-live `)
+
+En kodeblokk med info-strengen `html-live` inneholder et helt HTML-dokument
+(HTML, CSS i `<style>`, JavaScript i `<script>`). Her blir den et kodefelt
+med resultatet ved siden av. I codeclub-viewer vises den som en vanlig
+kodeblokk, så innholdet virker også oppstrøms.
+
+````markdown
+```html-live
+<!DOCTYPE html>
+<html>
+<head>
+  <style>h1 { color: tomato; }</style>
+</head>
+<body>
+  <h1>Hei!</h1>
+  <script>console.log('Hei fra konsollen');</script>
+</body>
+</html>
+```
+````
+
+- Resultatet kjører i `<iframe sandbox="allow-scripts allow-modals" srcdoc>`,
+  uten `allow-same-origin`. Koden når verken siden eller `localStorage` til
+  siden.
+- Resultatet oppdateres mens eleven skriver, og med "Kjør". "Tilbakestill"
+  henter den opprinnelige koden, og "Last ned som fil" lagrer `index.html`
+  for å jobbe videre i VS Code.
+- `console.log` og feil vises under resultatet.
+- Endringer lagres i `localStorage` per side og blokk.
+- Tab gir to mellomrom. Esc og så Tab, Shift+Tab eller Ctrl+M slipper
+  fokus ut av feltet.
+- Uten JavaScript og på utskrift vises bare koden.
+- Logikken er i `src/scripts/html-live.js` og `html-live-doc.js`
+  (testet med `npm test`).
 
 ### Video i oppgaver
 

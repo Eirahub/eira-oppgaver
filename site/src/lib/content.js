@@ -168,6 +168,10 @@ const md = new MarkdownIt({
       // Rendered in the browser (scratchblocks / MakeCode), see src/scripts/lesson.js.
       return `<pre class="${lang}">${escapeHtml(code)}</pre>`;
     }
+    if (lang === 'html-live') {
+      // "Prøv selv": plain highlighted HTML without JS and in print, an editor in the browser (src/scripts/html-live.js).
+      return `<pre class="html-live"><code class="language-html">${hljs.highlight(code, { language: 'html', ignoreIllegals: true }).value}</code></pre>`;
+    }
     lang = HL_ALIASES[lang] ?? lang;
     if (lang && hljs.getLanguage(lang)) return hljs.highlight(code, { language: lang, ignoreIllegals: true }).value;
     return ''; // plain, escaped by markdown-it
