@@ -9,6 +9,7 @@ og om det er med i første versjon av den nye siden (v1) eller kommer senere.
 |---|---|
 | Liste over kurs med logo (`logo-black.png`) og antall oppgaver | v1 |
 | Egen seksjon for kurs på andre nettsider (`isExternal: true`), lenker ut | v1 |
+| Kurs etter teknologi (gruppert, standard) eller alfabetisk, valget lagres. Grupper i `site/src/data/kursgrupper.yml` | ny |
 | Info-popover med kursets introtekst | senere |
 | Filter på forsiden (språk, tema, fag, trinn) som skjuler kurs | senere |
 | Visning av spillelister i stedet for kurs ("Oppgavesamlinger") | senere |
