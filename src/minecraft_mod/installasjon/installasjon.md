@@ -55,7 +55,8 @@ Har du tatt Java-kurset, har du dette allerede. Gå videre til steg 3.
 ## Tips {.tip}
 
 Minecraft 26.3 krever Java 25. Prosjektet laster ned Java 25 selv hvis det
-mangler, men det går raskere når det allerede ligger på maskinen.
+mangler, men det går raskere når det allerede ligger på maskinen. Eldre Minecraft-versjoner
+trenger eldre Java. Det står i [Java for Minecraft](../../multimc/java_for_minecraft/java_for_minecraft.html).
 
 
 # Steg 3: Installer Minecraft Development {.activity}
