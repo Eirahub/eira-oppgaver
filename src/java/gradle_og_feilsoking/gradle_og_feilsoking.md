@@ -35,14 +35,15 @@ Du lærer snarveiene `Ctrl + klikk`, `F8` og brytpunkt i debuggeren.
 - [ ] Vent til IntelliJ er ferdig. Første gang laster Gradle ned mye, og det kan
   ta noen minutter.
 
-<!-- BILDE: Vinduet New Project med Build system Gradle og Gradle DSL Kotlin
-valgt. -->
+![New Project med Gradle og Gradle DSL Kotlin](new-project-gradle.png)
 
 Se på filene IntelliJ har laget:
 
 - `build.gradle.kts` sier hvordan prosjektet bygges.
 
-- `settings.gradle.kts` sier hva prosjektet heter.
+- `settings.gradle.kts` sier hva prosjektet heter. IntelliJ legger til
+  `org.example` foran navnet i prosjektvinduet. Det kommer fra linja
+  `group = "org.example"` i `build.gradle.kts`, og du kan la det stå.
 
 - `gradlew` og mappa `gradle` lar alle bygge prosjektet med samme versjon av
   Gradle, uten å installere noe.
@@ -163,14 +164,14 @@ deg stoppe programmet og se på alle variablene.
 
 - [ ] Programmet stopper på brytpunktet. Nederst ser du variablene. Hva er `id`?
 
-- [ ] Åpne `KLOSSER` i variabellista. Hvilke nøkler finnes?
+- [ ] Åpne **static members of Main** i variabellista, og deretter `KLOSSER`.
+  Hvilke nøkler finnes?
 
 - [ ] Trykk `F8` for å gå én linje videre. Hva er `kloss` nå?
 
 - [ ] Trykk `F9` for å la programmet kjøre videre til neste brytpunkt.
 
-<!-- BILDE: Debuggeren i IntelliJ stoppet på et brytpunkt, med variabelen
-KLOSSER åpnet. -->
+![Debuggeren stoppet på brytpunktet med KLOSSER åpnet](debugger-klosser.png)
 
 ## Test prosjektet {.flag}
 

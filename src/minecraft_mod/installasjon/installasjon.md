@@ -21,8 +21,8 @@ Du skal:
 
 - starte Minecraft med moden din fra IntelliJ
 
-<!-- BILDE: IntelliJ med prosjektet rubinmod åpent og Gradle-panelet til høyre,
-der runClient er markert. -->
+![IntelliJ med prosjektet rubinmod og runClient markert i
+Gradle-panelet](rubinmod-gradle.png)
 
 
 # Steg 1: Dette trenger du {.activity}
@@ -66,6 +66,10 @@ ikon ved klassene Minecraft kaller.
 
 ## Sjekkliste {.check}
 
+Når du åpner et Fabric-prosjekt, foreslår IntelliJ ofte selv å installere
+Minecraft Development. Da kan du klikke på forslaget og hoppe over stegene
+under.
+
 - [ ] Åpne IntelliJ og velg **File**, **Settings** (på Mac: **IntelliJ IDEA**,
   **Settings**).
 
@@ -75,8 +79,8 @@ ikon ved klassene Minecraft kaller.
 
 - [ ] Start IntelliJ på nytt når den spør om det.
 
-<!-- BILDE: Plugins-vinduet i IntelliJ med Minecraft Development i
-søkeresultatet. -->
+![Plugins-vinduet med Minecraft Development øverst i
+søkeresultatet](plugins-minecraft-development.png)
 
 
 # Steg 4: Hent prosjektet {.activity}
@@ -142,7 +146,7 @@ brukes til å teste stegene og ta bilder til kurset. Du kan se bort fra den.
 
 - [ ] Vent til Minecraft starter. Første gang tar det litt tid.
 
-<!-- BILDE: Gradle-panelet i IntelliJ med Tasks, fabric og runClient åpnet. -->
+![Gradle-panelet med Tasks, fabric og runClient åpnet](gradle-runclient.png)
 
 Du kan også starte spillet i terminalen nederst i IntelliJ:
 
@@ -165,6 +169,10 @@ På Windows i PowerShell skriver du `.\gradlew runClient`.
 
 Etter første gang blir runClient-oppgaven liggende øverst til høyre i IntelliJ,
 ved siden av den grønne trekanten. Da kan du starte spillet med ett klikk.
+
+Lista øverst til høyre har også **Minecraft Server** og **Gametest Minecraft
+Client Game Test**. Pass på at **Minecraft Client** er valgt før du klikker på
+trekanten.
 
 
 # Steg 7: Hvis noe går galt {.activity}

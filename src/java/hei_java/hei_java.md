@@ -18,8 +18,7 @@ skriver: det fullfører ord, finner feil og retter dem for deg.
 I denne oppgaven lager du ditt første program, og du lager en feil med vilje for
 å se hvordan IntelliJ hjelper deg.
 
-<!-- BILDE: IntelliJ med programmet Hei.java åpent og utskriften i konsollen
-nederst. -->
+![IntelliJ med Hei.java åpent og Hei, Java! i vinduet Run](hei-java-kjort.png)
 
 ## Tips {.tip}
 

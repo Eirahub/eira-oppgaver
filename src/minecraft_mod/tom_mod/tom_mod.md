@@ -43,8 +43,8 @@ er dine. Resten hører til Gradle.
 `src/main/java` og `src/main/resources` er moden din. Nesten alt du gjør i
 kurset, skjer i de to mappene.
 
-<!-- BILDE: Prosjektvinduet i IntelliJ med src/main/java og src/main/resources
-åpnet. -->
+![Prosjektvinduet med src/main/java og src/main/resources
+åpnet](prosjektvindu.png)
 
 
 # Steg 2: fabric.mod.json {.activity}

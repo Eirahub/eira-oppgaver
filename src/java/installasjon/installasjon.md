@@ -21,8 +21,7 @@ Du skal installere to ting:
 
 Til slutt lager du et lite prosjekt og sjekker at alt virker.
 
-<!-- BILDE: IntelliJ IDEA med et lite Java-prosjekt åpent og teksten "Hei,
-Java!" i konsollen nederst. -->
+![hei_java i IntelliJ med Hei, Java! i vinduet Run](intellij-hei-java.png)
 
 
 # Steg 1: Dette trenger du {.activity}
@@ -83,8 +82,7 @@ oppdaterer IntelliJ. Det er praktisk hvis du vil holde flere maskiner oppdatert.
 
 - [ ] Kryss av for **Add sample code**, og klikk **Create**.
 
-<!-- BILDE: Vinduet New Project i IntelliJ med Java valgt, Build system IntelliJ
-og JDK 25. -->
+![New Project med Java, Build system IntelliJ og JDK 25](new-project-java.png)
 
 IntelliJ laster ned JDK-en og lager prosjektet. Det kan ta et par minutter. Følg
 med på framdriften nederst i vinduet.

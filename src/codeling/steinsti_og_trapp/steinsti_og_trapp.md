@@ -70,8 +70,8 @@ En trapp med ti trinn ville trengt 30 blokker. I stedet bruker vi en løkke.
 
 - [ ] Endre `4` til `10`.
 
-<!-- BILDE: robot gi eikeplanker 64 i plass 1, og gjenta 10 ganger med flytt opp
-1, flytt fremover 1, plasser ned inni. -->
+![Programmet for trappa: gi eikeplanker, gjenta 10 ganger med flytt opp,
+flytt fremover og plasser ned](program_trapp.png)
 
 ## Test prosjektet {.flag}
 
@@ -94,15 +94,16 @@ sti.
 
 - [ ] Legg til `robot velg plass 1`, så roboten bygger med brosteinen.
 
-- [ ] Legg til `robot hjelp plasser ved flytting på`.
+- [ ] Legg til `robot hjelp plasser ved flytting sann`.
 
 - [ ] Legg til en `gjenta 4 ganger` med `robot flytt fremover med 3` og `robot
   snu venstre` inni.
 
-- [ ] Etter løkka: `robot hjelp plasser ved flytting av`, så roboten slutter å
+- [ ] Etter løkka: `robot hjelp plasser ved flytting usann`, så roboten slutter å
   bygge.
 
-<!-- BILDE: Programmet for steinstien med gjenta 4 ganger. -->
+![Programmet for steinstien: gjenta 4 ganger med flytt fremover 3 og snu
+venstre](program_sti.png)
 
 ## Test prosjektet {.flag}
 

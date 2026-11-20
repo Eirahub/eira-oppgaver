@@ -52,8 +52,7 @@ Programmene skriver du i nettleseren, i Codeling-editoren.
 - [ ] Til venstre ser du simulatoren med `Kjør`-knappen under. I midten er
   kategoriene med blokker. Til høyre er arbeidsflaten der du bygger programmet.
 
-<!-- BILDE: Editoren med et tomt prosjekt. Kategorien Robot (grønn) er markert.
--->
+![Editoren med tomt prosjekt og kategorien Robot markert](editor_tom.png)
 
 ## Tips {.protip}
 
@@ -72,7 +71,7 @@ Robotblokkene ligger i kategorien `Robot`, som er grønn.
 
 - [ ] Klikk på tallet `1` og skriv `3`.
 
-<!-- BILDE: Programmet: ved start, robot flytt fremover med 3. -->
+![Programmet: ved start, robot flytt fremover med 3](program_fremover.png)
 
 ## Test prosjektet {.flag}
 
@@ -102,8 +101,7 @@ ned.
 
 - [ ] Til slutt: dra `robot si` inn nederst, og skriv `Hei!` i feltet.
 
-<!-- BILDE: Programmet: flytt fremover 3, snu høyre, flytt fremover 2, si
-"Hei!". -->
+![Programmet: flytt fremover 3, snu høyre, flytt fremover 2, si Hei!](program_hei.png)
 
 ## Test prosjektet {.flag}
 
