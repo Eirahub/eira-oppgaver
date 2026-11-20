@@ -9,6 +9,8 @@ Den opphavlege ComputerCraft-modden fungerer ikkje lenger. Bruk i staden
 [CC: Tweaked](https://tweaked.cc/), som er vidareføringa av han. Nokre steg
 kan sjå litt annleis ut enn i denne oppgåva.
 
+Kurset [CC: Tweaked](../cc_tweaked/) er oppdatert for CC: Tweaked.
+
 ComputerCraft er ein mod til Minecraft som gir deg moglegheita til å byggje og
 programmere datamaskiner inne i Mincecraft-verda i eit språk som heiter Lua.
 Sjekk det ut!
