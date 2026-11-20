@@ -15,6 +15,9 @@ er gratis og finnes for Windows, Mac og Linux.
 I denne oppgaven installerer du VS Code, lager din første fil og ser den i
 nettleseren.
 
+Vil du lære mer om VS Code, for eksempel Python, Git og feilsøking, se kurset
+[VS Code](../../vs_code/).
+
 ## Til voksne {.tip}
 
 Installering krever ofte en voksen eller administrator på skolemaskiner. Gjør
