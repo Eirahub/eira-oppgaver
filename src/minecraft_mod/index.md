@@ -9,7 +9,8 @@ steg for steg. Den starter tom og får rubiner, en rubinkloss, rubinmalm i
 verden, et sverd, et eple, en rubingris og en stav som sender lyn.
 
 Kurset bruker **Fabric**, **Minecraft 26.3**, **Java 25** og **IntelliJ IDEA**.
-Mot slutten får moden også virke med **NeoForge** og **Minecraft 1.21.11**. Det
+Hvilken Java-versjon som passer til hvilken Minecraft-versjon, står i [Java for
+Minecraft](../multimc/java_for_minecraft/java_for_minecraft.html). Mot slutten får moden også virke med **NeoForge** og **Minecraft 1.21.11**. Det
 passer fra 8. trinn og oppover.
 
 ## Før du starter
