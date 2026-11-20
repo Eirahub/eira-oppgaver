@@ -89,3 +89,40 @@ jobs:
             const old = comments.find((c) => c.user.type === 'Bot' && c.body.includes(marker));
             if (old) await github.rest.issues.updateComment({ owner, repo, comment_id: old.id, body });
             else await github.rest.issues.createComment({ owner, repo, issue_number, body });
+
+  # Demo of the LKK profile on Cloudflare Pages (https://lkk-demo.eira-oppgaver.pages.dev).
+  # Not indexed by search engines. Skips with a notice when the Cloudflare secrets are missing.
+  lkk-demo:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      HAS_CLOUDFLARE: ${{ secrets.CLOUDFLARE_API_TOKEN != '' && secrets.CLOUDFLARE_ACCOUNT_ID != '' }}
+      SITE_PROFILE: lkk
+      SITE_NOINDEX: '1'
+    steps:
+      - if: env.HAS_CLOUDFLARE != 'true'
+        run: echo "::notice title=Ingen LKK-demo::CLOUDFLARE_API_TOKEN eller CLOUDFLARE_ACCOUNT_ID mangler. Hopper over."
+      - if: env.HAS_CLOUDFLARE == 'true'
+        uses: actions/checkout@v7
+      - if: env.HAS_CLOUDFLARE == 'true'
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - if: env.HAS_CLOUDFLARE == 'true'
+        working-directory: site
+        run: |
+          npm ci
+          npm run build
+          npm run check:site
+          rm -f dist/CNAME
+          printf '/*\n  X-Robots-Tag: noindex\n' > dist/_headers
+      - if: env.HAS_CLOUDFLARE == 'true'
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy site/dist --project-name=eira-oppgaver --branch=lkk-demo --commit-hash=${{ github.sha }}
