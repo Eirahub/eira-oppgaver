@@ -158,13 +158,21 @@ kodeblokk, så innholdet virker også oppstrøms.
   siden lastes), så en halvskrevet løkke ikke henger fanen. "Tilbakestill"
   henter den opprinnelige koden, og "Last ned som fil" lagrer `index.html`
   for å jobbe videre i VS Code.
+- Løkkevern som i JS Bin: før koden kjøres, får hver `for`-, `while`- og
+  `do`-løkke i `<script>` og i `onclick=` og lignende et kall først i
+  løkka. Bruker løkkene mer enn ett sekund uten pause for nettleseren, stoppes
+  koden, og konsollen viser "Løkka stoppet etter for lang tid. Har den en
+  slutt?" med linjenummeret. En løkke som venter (`await`, `setTimeout`),
+  stoppes ikke. Koden leses med [acorn](https://www.npmjs.com/package/acorn),
+  som bare lastes når koden har JavaScript. Kode acorn ikke kan lese, kjøres
+  uten vern, som før. "Last ned som fil" lagrer koden uten vernet.
 - `console.log` og feil vises under resultatet.
 - Endringer lagres i `localStorage` per side og blokk.
 - Tab gir to mellomrom. Esc og så Tab, Shift+Tab eller Ctrl+M slipper
   fokus ut av feltet.
 - Uten JavaScript og på utskrift vises bare koden.
-- Logikken er i `src/scripts/html-live.js` og `html-live-doc.js`
-  (testet med `npm test`).
+- Logikken er i `src/scripts/html-live.js`, `html-live-doc.js` og
+  `html-live-guard.js` (løkkevernet), testet med `npm test`.
 
 ### Video i oppgaver
 
