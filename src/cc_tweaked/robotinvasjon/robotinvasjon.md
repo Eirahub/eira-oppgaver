@@ -1,6 +1,6 @@
 ---
 title: Robotinvasjon
-author: "Geir Arne Hjelle (tilpasset CC: Tweaked av Tor Einar Enne)"
+author: Tor Einar Enne
 language: nb
 ---
 
@@ -446,3 +446,6 @@ if finnes and kloss.name == 'minecraft:bedrock' then
     print('Her er grunnfjellet!')
 end
 ```
+
+*Basert på en oppgave til ComputerCraft av Geir Arne Hjelle,
+delt under CC BY-SA 4.0.*

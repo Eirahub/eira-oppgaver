@@ -1,6 +1,6 @@
 ---
 title: Hendelser
-author: "Geir Arne Hjelle (tilpasset CC: Tweaked av Tor Einar Enne)"
+author: Tor Einar Enne
 language: nb
 ---
 
@@ -560,3 +560,6 @@ du variabelen `hendelse` for å se hva som skjedde.
 Når du tegner, må du klikke for hvert punkt. Det hadde vært bedre å holde
 knappen nede og dra musen. Se på hendelsen `mouse_drag` og prøv å forbedre
 programmet.
+
+*Basert på en oppgave til ComputerCraft av Geir Arne Hjelle,
+delt under CC BY-SA 4.0.*

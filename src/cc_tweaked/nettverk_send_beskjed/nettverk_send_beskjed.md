@@ -1,6 +1,6 @@
 ---
 title: Send en beskjed
-author: "Teodor Heggelund (tilpasset CC: Tweaked av Tor Einar Enne)"
+author: Tor Einar Enne
 language: nb
 ---
 
@@ -159,3 +159,6 @@ laget din egen chat!
 Vil du gå videre? I [Fjernstyr en
 robot](../fjernstyr_en_robot/fjernstyr_en_robot.html) bruker vi beskjeder til å
 styre en robot.
+
+*Basert på en oppgave til ComputerCraft av Teodor Heggelund,
+delt under CC BY-SA 4.0.*
