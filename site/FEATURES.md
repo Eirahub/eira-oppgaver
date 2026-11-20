@@ -60,6 +60,7 @@ og om det er med i første versjon av den nye siden (v1) eller kommer senere.
 | KaTeX-matematikk | senere (brukes ikke i innholdet nå) |
 | Emoji-koder (`:smile:`) | senere (brukes ikke i innholdet nå) |
 | Elev- og lærermodus | v1, se under |
+| "Prøv selv": ` ```html-live ` blir kodefelt med levende resultat i en sandkasse, konsoll, "Tilbakestill" og "Last ned som fil" (erstatter JS Bin) | ny, se `README.md` |
 
 ## Hele siden
 
