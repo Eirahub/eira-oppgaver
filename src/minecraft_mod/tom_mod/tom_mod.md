@@ -18,7 +18,7 @@ finner loggen når noe går galt.
 
 Før du starter, må maskinen være klar. Følg
 
-[installasjonsveiledningen](https://oppgaver.kidsakoder.no/minecraft_mod/installasjon/installasjon)
+[installasjonsveiledningen](../installasjon/installasjon.html)
 
 først.
 

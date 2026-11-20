@@ -23,7 +23,7 @@ Du trenger et kort program å øve på. Det er best om det er KI-skrevet.
 
 - [ ] Be en KI om et kort program i Scratch eller Python, gjerne et spill eller
   en quiz. Du kan bruke programmet fra oppgaven [Hva er en KI-kodehjelper?
-  ](https://oppgaver.kidsakoder.no/ki_veiledere/hva_er_ki/hva_er_ki).
+  ](../hva_er_ki/hva_er_ki.html).
 
 - [ ] Sørg for at programmet virker. Rett det om nødvendig.
 
