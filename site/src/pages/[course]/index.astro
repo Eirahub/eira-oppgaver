@@ -11,7 +11,7 @@ const { c } = Astro.props;
 const infoHtml = renderMarkdown(c.infoBody, `/${c.course}/`);
 const LEVELS = { 1: 'Introduksjon', 2: 'Nybegynner', 3: 'Erfaren', 4: 'Ekspert', 0: 'Uten nivå' };
 const listed = c.lessons.filter((l) => l.indexed && mainFile(l));
-const byTitle = (a, b) => mainFile(a).title.localeCompare(mainFile(b).title, 'nb');
+const byTitle = (a, b) => ((a.pos ?? 1e9) - (b.pos ?? 1e9)) || mainFile(a).title.localeCompare(mainFile(b).title, 'nb');
 const levels = [1, 2, 3, 4, 0]
   .map((level) => ({ level, lessons: listed.filter((l) => l.level === level).sort(byTitle) }))
   .filter((g) => g.lessons.length);

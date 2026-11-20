@@ -4,5 +4,6 @@ title:
   nn: 'Frå første steg til robotlag'
   en: 'From first steps to robot team'
 lessons:
+  - installasjon
   - kom_i_gang
   - steinsti_og_trapp

@@ -49,13 +49,14 @@ Har du tatt Java-kurset, har du dette allerede. Gå videre til steg 3.
 ## Sjekkliste {.check}
 
 - [ ] Følg [installasjonsveiledningen i
-  Java-kurset](https://oppgaver.kidsakoder.no/java/installasjon/installasjon).
+  Java-kurset](../../java/installasjon/installasjon.html).
   Den viser hvordan du installerer IntelliJ IDEA og laster ned JDK 25.
 
 ## Tips {.tip}
 
 Minecraft 26.3 krever Java 25. Prosjektet laster ned Java 25 selv hvis det
-mangler, men det går raskere når det allerede ligger på maskinen.
+mangler, men det går raskere når det allerede ligger på maskinen. Eldre Minecraft-versjoner
+trenger eldre Java. Det står i [Java for Minecraft](../../multimc/java_for_minecraft/java_for_minecraft.html).
 
 
 # Steg 3: Installer Minecraft Development {.activity}
@@ -195,4 +196,4 @@ trekanten.
   et annet nett, eller be IT-ansvarlig om hjelp.
 
 Nå er du klar for første oppgave, [Tom
-mod](https://oppgaver.kidsakoder.no/minecraft_mod/tom_mod/tom_mod).
+mod](../tom_mod/tom_mod.html).
