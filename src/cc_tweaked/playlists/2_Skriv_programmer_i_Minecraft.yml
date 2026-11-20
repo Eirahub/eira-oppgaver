@@ -1,0 +1,14 @@
+sortindex: 2
+title:
+  nb: 'Skriv programmer i Minecraft'
+  nn: 'Skriv program i Minecraft'
+  en: 'Write programs in Minecraft'
+lessons:
+  - installasjon
+  - bli_kjent_med_datamaskinen
+  - robotinvasjon
+  - hendelser
+  - bygg_et_hus
+  - sprettball
+  - nettverk_send_beskjed
+  - fjernstyr_en_robot
