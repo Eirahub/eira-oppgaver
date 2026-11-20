@@ -2,6 +2,8 @@
 # En profil kan bytte ut hele lista med profiles/<navn>/kursgrupper.yml.
 # courses: mappenavn i src/, i den rekkefølgen de skal vises.
 # Gruppen uten courses får alle kurs som ikke står i en annen gruppe.
+- title: Kom i gang
+  courses: [datamaskin]
 - title: Scratch
   courses: [scratch]
 - title: Python
