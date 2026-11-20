@@ -1,0 +1,21 @@
+# Kursgrupper på forsiden ("Etter teknologi"). Gjelder alle profiler.
+# En profil kan bytte ut hele lista med profiles/<navn>/kursgrupper.yml.
+# courses: mappenavn i src/, i den rekkefølgen de skal vises.
+# Gruppen uten courses får alle kurs som ikke står i en annen gruppe.
+- title: Scratch
+  courses: [scratch, scratchjr]
+- title: Python
+  courses: [python]
+- title: micro:bit og MakeCode
+  courses: [microbit, microbit_videoer]
+- title: Minecraft
+  courses: [minecraft_foreldre, codeling, cc_tweaked, minecraft_mod, multimc]
+- title: Web
+  courses: [web, codecademy, khan_academy]
+- title: Java
+  courses: [java]
+- title: Elektronikk og roboter
+  courses: [arduino, legomindstorms, raspberry_pi]
+- title: Apper
+  courses: [appinventor]
+- title: Andre

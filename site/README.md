@@ -72,7 +72,8 @@ legges inn i `partners` med logoene i `profiles/lkk/public/`.
 | Fil | Hva den gjør |
 |---|---|
 | `src/lib/content.js` | Leser kurs, oppgaver, spillelister og tagger, og gjør markdown om til HTML (markdown-it med samme tillegg som codeclub-viewer: attrs, header-sections, implicit-figures, task-checkbox). |
-| `src/pages/index.astro` | Forsiden: kurs og kurs på andre nettsider. |
+| `src/pages/index.astro` | Forsiden: kursene etter teknologi eller alfabetisk (se under). |
+| `src/data/kursgrupper.yml` | Gruppene på forsiden: tittel og kursmapper i rekkefølge. Gruppen uten `courses` får resten. En profil kan ha sin egen `kursgrupper.yml`. |
 | `src/pages/[course]/index.astro` | Kurssiden `/<kurs>/`: kursinfo, oppgavesamlinger, alle oppgaver per nivå og filteret. |
 | `src/pages/[course]/[lesson]/[file].astro` | Oppgaver og lærerveiledninger, `/<kurs>/<mappe>/<fil>`. |
 | `src/pages/om-oppgavene.astro` | Viser `om.md` fra profilen. |
@@ -102,6 +103,16 @@ legges inn i `partners` med logoene i `profiles/lkk/public/`.
   oppgavene går til samme sti på https://oppgaver.kidsakoder.no og merkes med
   ↗. Filene ligger fortsatt i `src/`, så vi kan flette fra upstream som før.
   Profilen `lkk` bygger dem (`exclude: null`).
+
+### Kursene på forsiden
+
+Forsiden viser kursene "Etter teknologi" (standard, også uten JavaScript)
+eller "Alfabetisk". Valget lagres i `localStorage` under `kursvisning`.
+Gruppene står i `src/data/kursgrupper.yml`, fordi taggene i `course.yml` ikke
+sier hvilken teknologi kurset bruker. Et nytt kurs som ikke står der, havner
+i "Andre". I gruppene står kurs på andre nettsider sammen med de andre, merket
+↗. Den alfabetiske visningen har dem i egen seksjon, som før. `npm test`
+sjekker at alle navnene i fila finnes i `src/`.
 
 ### Scratch og micro:bit
 
