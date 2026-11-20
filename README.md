@@ -22,6 +22,9 @@ tilbake. Takk til alle forfattere og oversettere.
 Mappene `src/`, `filtertags/` og `linter/` holdes like upstream, så vi kan flette
 begge veier. All kode for nettsiden ligger i `site/`.
 
+Skal Lær Kidsa Koding ta i bruk den nye siden? Se
+[docs/overlevering-lkk.md](docs/overlevering-lkk.md).
+
 ## Kjøre siden lokalt
 
 Krever Node 24.

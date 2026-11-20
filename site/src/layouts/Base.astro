@@ -15,6 +15,7 @@ const { logo, lockup } = profile;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
+    {process.env.SITE_NOINDEX && <meta name="robots" content="noindex" />}
     {profile.favicon && <link rel="icon" href={profile.favicon} />}
     {(profile.preload || []).map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}
     <meta name="theme-color" content={profile.tokens['--brand-primary']} />
