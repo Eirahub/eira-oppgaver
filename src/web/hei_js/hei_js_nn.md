@@ -11,49 +11,42 @@ language: nn
 I denne oppgåva skal du møte programmeringsspråket JavaScript. Du skal gjere den
 klassiske oppgåva *Hallo, verda* med ein katt.
 
-![Bilete av ein ASCII-katt som seier "Mjau, Arve!" i konsollen](jsbin.png)
+<!-- BILDE: Katten som seier "Mjau, Arve!" under resultatet i Prøv sjølv-blokka
+-->
 
 
-# Steg 1: Bruke JS Bin {.activity}
+# Steg 1: Prøv sjølv-blokka {.activity}
 
-Du skal bruke ei nettside som heiter *JS Bin* for å løyse denne oppgåva. JS Bin
-er ei nettside som let deg programmere JavaScript. Me kunne ha brukt nettlesaren
-din direkte, men i JS Bin blir stega like for alle, uavhengig av om du brukar
-Microsoft Edge, Mozilla Firefox, Chrome, Opera, Safari eller ein annan
-nettlesar. I tillegg er det mogleg å gjere denne oppgåva på eit nettbrett ved å
-bruke JS Bin.
+I denne oppgåva skriv du koden rett på sida, i ei *Prøv sjølv*-blokk. Blokka
+under er ei heil nettside. JavaScript-koden står mellom `<script>` og
+`</script>`. Når du endrar koden, ser du resultatet under. Det som blir skrive
+ut med `console.log`, blir òg vist under resultatet.
 
-## Tips {.tip}
-
-Her er fleire måtar å køyre JavaScript-kode på:
-
-- Lagre ei `.js`-fil i favoritt-teksteditoren din og åpne den i ein nettlesar.
-
-- Skriv kode mellom `<script> </script>` i `<body>` eller `<head>` i ei
-  HTML-fil, og åpne den i ein nettlesar.
-
-- Skrive `<script src="fil_namn.js"></script>` i `<head>`.
+```html-live
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <title>Hei JavaScript</title>
+  </head>
+  <body>
+    <script>
+      console.log("Hallo, verda");
+    </script>
+  </body>
+</html>
+```
 
 ## Sjekkliste {.check}
 
-- [ ] Åpne JS Bin (http://jsbin.com/?js,console) i eit eige vindauge.
-
-- [ ] Legg merke til at du får opp to faner; **JavaScript** og **Console**.
-
-- [ ] Koden skal skrivast i **JavaScript**.
-
-- [ ] I **Console** visast tekstbeskjedar som blir skrive ut.
-
-- [ ] Skriv inn denne koden i fana **JavaScript**:
-
-  ```js
-  console.log("Hallo, verda");
-  ```
-
-- [ ] Trykk `ctrl + enter` (eller bruk knappen <button>Run</button>) og sjå kva
-  som skjer i **Console**.
+- [ ] Står det `Hallo, verda` under resultatet?
 
 - [ ] Kan du endre koden til å skrive namnet ditt?
+
+## Tips {.tip}
+
+Du kan også skrive koden i VS Code. Trykk **Last ned som fil** under dømet,
+eller lag ei ny fil. Sjå oppgåva [VS Code](../vs_code/vs_code.html).
 
 ## Forklaring {.tip}
 
@@ -61,7 +54,9 @@ Her er ei forklaring til koden over:
 
 - `console.log()` tyder at me ynskjer å køyre kommandoen med namnet
   `console.log`. Den skriv ut det som er mellom parentesene til `log()` i
-  konsollen.
+  konsollen. Konsollen er ein stad der program kan skrive beskjedar. I denne
+  oppgåva blir han vist under resultatet. I nettlesaren finn du han ved å
+  trykkje **F12** og velje **Console**.
 
 - `.log` er ein av fleire utskriftsmetodar. Prøv `console.error`. Ser du kva som
   skil den frå `console.log`?
@@ -70,6 +65,16 @@ Her er ei forklaring til koden over:
   `"Hallo, verda"`.
 
 - `;` tyder at kodesetninga er ferdig.
+
+## Andre måtar å køyre JavaScript på {.tip}
+
+- Skriv kode mellom `<script>` og `</script>` i ei HTML-fil, og åpne fila i ein
+  nettlesar. Det er det Prøv sjølv-blokka gjer.
+
+- Lagre koden i ei eiga fil, til dømes `katt.js`, og hent den inn frå HTML-fila
+  med `<script src="katt.js"></script>`.
+
+- Skriv kode rett i konsollen i nettlesaren (**F12**, så **Console**).
 
 
 # Steg 2: Lage ein funksjon {.activity}
@@ -81,9 +86,10 @@ heite `hei`, ta imot eit `namn` og skrive namnet til konsollen.
 
 ## Sjekkliste {.check}
 
-- [ ] Slett koden din frå steg 1.
+- [ ] Slett koden din frå steg 1 (det som står mellom `<script>` og
+  `</script>`).
 
-- [ ] Skriv inn denne koden:
+- [ ] Skriv inn denne koden i staden:
 
   ```js
   function hei(namn) {
@@ -117,25 +123,29 @@ heite `hei`, ta imot eit `namn` og skrive namnet til konsollen.
 
 - [ ] `hei("Emma")` tyder at me skal køyre funksjonen og sende inn `"Emma"`.
 
-- [ ] Trykk `ctrl + enter` for å køyre koden.
-
-- [ ] Ser du både `"Emma"` og `"Jens"` i konsollen?
+- [ ] Ser du både `Emma` og `Jens` under resultatet?
 
 Koden til no:
 
-```js
-function hei(namn){
-    console.log(namn)
-}
+```html-live
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <title>Hei JavaScript</title>
+  </head>
+  <body>
+    <script>
+      function hei(namn) {
+        console.log(namn);
+      }
 
-hei("Emma");
-hei("Jens");
+      hei("Emma");
+      hei("Jens");
+    </script>
+  </body>
+</html>
 ```
-
-## Tips {.tip}
-
-Du kan slette historia i **Console** ved å trykkje på knappen
-<button>Clear</button>, eller leggje inn `console.clear();` i koden din.
 
 
 # Steg 3: Hei, namn! {.activity}
@@ -157,9 +167,7 @@ I steg 2 gjorde me ikkje noko anna enn det som `console.log` gjer. No skal du f�
 
 - [ ] Her har me lagt saman `"Hei, "`, namnet som blir sendt inn og `"!"`
 
-- [ ] Køyr koden din.
-
-- [ ] Står det `"Hei, Emma!"` og `"Hei, Jens!"` i **Console**?
+- [ ] Står det `Hei, Emma!` og `Hei, Jens!` under resultatet?
 
 - [ ] Kan du endre koden slik at den skriv ut namnet ditt?
 
@@ -173,7 +181,7 @@ bruke variablar mykje framover.
 
 # Steg 4: Katten seier hei {.activity}
 
-I dette siste steget skal du lage ein katt som seier hei.
+I dette steget skal du lage ein katt som seier hei.
 
 ## Sjekkliste {.check}
 
@@ -181,19 +189,44 @@ I dette siste steget skal du lage ein katt som seier hei.
 
   ```js
   function hei(namn) {
-    console.log("< Mjau, " + namn + "! >                 ");
-    console.log("    \\                           ");
-    console.log("      /\\___/\\                   ");
-    console.log("     (  o o  )                  ");
-    console.log("      \\ =0= /                   ");
+    console.log("< Mjau, " + namn + "! >");
+    console.log("    \\");
+    console.log("      /\\___/\\");
+    console.log("     (  o o  )");
+    console.log("      \\ =0= /");
   }
   ```
 
 - [ ] Køyr `hei` med ditt eige namn.
 
-- [ ] Er det ein katt som seier mjau til deg i konsollen?
+- [ ] Er det ein katt som seier mjau til deg under resultatet?
 
 - [ ] Klarar du å lage ein hund eller eit anna dyr?
+
+Koden til no:
+
+```html-live
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <title>Katten seier hei</title>
+  </head>
+  <body>
+    <script>
+      function hei(namn) {
+        console.log("< Mjau, " + namn + "! >");
+        console.log("    \\");
+        console.log("      /\\___/\\");
+        console.log("     (  o o  )");
+        console.log("      \\ =0= /");
+      }
+
+      hei("Arve");
+    </script>
+  </body>
+</html>
+```
 
 ## Bakoverstrek {.tip}
 
@@ -201,12 +234,33 @@ I dette siste steget skal du lage ein katt som seier hei.
 du skrive `\\` viss du vil ha ein vanleg bakoverstrek.
 
 
-# Steg 5: Dele prosjektet {.activity}
+# Steg 5: Katten på nettsida {.activity}
 
 Kanskje hadde det vore kult å sende ei kattehelsing til nokre av dei beste
-venene dine? La oss lage ei personleg helsing til kvar av dei!
+venene dine? Då bør katten visast på sjølve nettsida. Venene dine kjem ikkje til
+å leite i konsollen.
+
+Me lagar eit `<pre>`-element. Tekst i `<pre>` blir vist akkurat slik han er
+skriven, med alle mellomrom og linjeskift. Det passar perfekt til ein katt av
+teikn.
 
 ## Sjekkliste {.check}
+
+- [ ] Bytt ut `function hei` med denne koden:
+
+  ```js
+  function hei(namn) {
+    const katt = document.createElement("pre");
+    katt.textContent += "< Mjau, " + namn + "! >\n";
+    katt.textContent += "    \\\n";
+    katt.textContent += "      /\\___/\\\n";
+    katt.textContent += "     (  o o  )\n";
+    katt.textContent += "      \\ =0= /\n";
+    document.body.append(katt);
+  }
+  ```
+
+- [ ] Blir katten vist i resultatet no?
 
 - [ ] Syt for at du køyrer `hei` med namnet til venen din:
 
@@ -214,114 +268,95 @@ venene dine? La oss lage ei personleg helsing til kvar av dei!
   hei("Namnet til venen din");
   ```
 
-- [ ] Hald inne `ctrl + S` for å lagre.
+## Forklaring {.tip}
 
-- [ ] Legg merke til at det no står eit tal i adressa. Talet er versjonen av
-  programmet ditt.
+- `document.createElement("pre")` lagar eit nytt `<pre>`-element. Me tek vare på
+  det i variabelen `katt`. Me brukar `const` fordi `katt` heile tida er det same
+  elementet.
 
-  **Versjon 9:** <img height="25" src="versjon.png" alt="Skjermbilete som viser
-  at me har versjon 9">
+- `katt.textContent += "..."` legg til tekst i elementet. `\n` på slutten gir ny
+  linje.
 
-  Kvar gong du endrar programmet og trykkar `ctrl + S` får programmet ein ny
-  versjon. Slik kan du lage fleire variantar av same program, med ulike namn.
+- `document.body.append(katt)` legg elementet til nedst på sida. Fyrst no blir
+  katten vist.
 
-- [ ] Trykk på **JavaScript** slik at kodefana blir skjult:
+Koden til no:
 
-  <img height="35" src="faner.png" alt="Bilete av fanene">
+```html-live
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <title>Kattehelsing</title>
+  </head>
+  <body>
+    <script>
+      function hei(namn) {
+        const katt = document.createElement("pre");
+        katt.textContent += "< Mjau, " + namn + "! >\n";
+        katt.textContent += "    \\\n";
+        katt.textContent += "      /\\___/\\\n";
+        katt.textContent += "     (  o o  )\n";
+        katt.textContent += "      \\ =0= /\n";
+        document.body.append(katt);
+      }
 
-- [ ] Trykk på <button>Run</button> og sjekk at det ser riktig ut.
-
-- [ ] Kopier nettaddressa og del med venen din.
-
-- [ ] Gjenta stega for fleire av venene dine.
-
-- [ ] Viss du vil åpne prosjektet att seinare kan du berre ta vare på ei av
-  lenkene du sendte til venene dine.
-
-## Ei anna måte å dele programmet {.tip}
-
-Hugsar du oppgåva [HTML: Publiser nettsida di](../publiser/publiser_nn.html)?
-Kanskje du kan laste opp JavaScript-koden til `GitHub`-sida di? Eit lite tips er
-å leggje JavaScript-koden inn i `<head>`-taggen ved å bruke desse taggane:
-
-```html
-<script>
-</script>
-```
-
-Du kan òg lagre JavaScript-koden i ei eiga `.js`-fil, til dømes `katt.js`. Så
-kan du referere til den frå ei HTML-fil på denne måten:
-
-```html
-<head>
-    <script src="katt.js"></script>
-</head>
-```
-
-Hugs at `katt.js` må liggje i same mappe som HTML-fila. Dette skal me prøve ut
-seinare.
-
-For at dette skal fungere må me skrive om `console.log()` til:
-
-```js
-document.writeln();
-```
-
-Denne kommandoen skriv rett på HTML-sida og ikkje i `konsollen`. På denne måten
-kan venene dine sjå koden utan å åpne `konsollen`. Problemet med
-`document.writeln()` er at me ikkje får kvar utskrift på ei eiga linje, så me må
-leggje til denne CSS-en:
-
-```js
-document.body.style.whiteSpace = "pre"; //gjer at du kan ha fleire mellomrom etter kvarandre
-```
-
-`document.writeln()` legg til eit linjeskift etter at den har skrive ut teksten.
-Viss du ikkje ynskjer det kan du bruke `document.write()`.
-
-No ser koden slik ut:
-
-```js
-function hei(namn) {
-    document.writeln("< Mjau, " + namn + "! >                 ");
-    document.writeln("    \\                           ");
-    document.writeln("      /\\___/\\                   ");
-    document.writeln("     ( o o  )                  ");
-    document.writeln("      \\ =0= /                   ");
-}
-document.body.style.whiteSpace = "pre";
+      hei("Namnet til venen din");
+    </script>
+  </body>
+</html>
 ```
 
 
-# Steg 6: Lagre prosjektet på datamaskina di {.activity}
+# Steg 6: Lagre og dele prosjektet {.activity}
 
-Det er mogleg å laste ned prosjektet og lagre det på datamaskina di. La oss
-gjere det.
+No skal du lagre kattehelsinga som ei fil på datamaskina di. Fila kan du sende
+til venen din.
 
 ## Sjekkliste {.check}
 
-- [ ] Trykk på **File** > **Download**.
+- [ ] Trykk på **Last ned som fil** under Prøv sjølv-blokka.
 
-- [ ] Ei `.html`-fil blir lasta ned.
+- [ ] Ei fil som heiter `index.html` blir lasta ned. Gi henne gjerne eit nytt
+  namn, til dømes `katt.html`.
 
-- [ ] Når fila er lastet ned åpnar du fila.
+- [ ] Åpne fila i nettlesaren din ved å dobbeltklikke på henne.
 
-- [ ] Du får opp eit tomt vindauge, og utskrifta av katten blir sendt til
-  konsoll. La oss åpne konsollen i nettlesaren din.
+- [ ] Ser du katten som mjauar til venen din?
 
-- [ ] **Chrome og Firefox:** Trykk på knappen **F12**. Vel **Console**.
+- [ ] Send fila til venen din. Når venen åpnar fila, blir katten vist.
 
-- [ ] **Internet Explorer og Microsoft Edge:** Trykk på knappen **F12**. Vel
-  **Konsoll**.
+- [ ] Gjenta stega for fleire av venene dine.
+
+## Sjå konsollen i nettlesaren {.tip}
+
+Lagrar du koden frå steg 4, blir katten berre skriven til konsollen. Då ser du
+eit tomt vindauge når du åpnar fila. Slik finn du konsollen:
+
+- [ ] Trykk på knappen **F12**, og vel **Console** (eller **Konsoll**).
 
 - [ ] I konsollen skal du sjå katten mjaue til deg.
 
   ![Bilete av ASCII-katten som mjauar til deg](konsoll.png)
 
-  Viss du ikkje ser katten, gjer neste steg.
+- [ ] Du kan òg skrive kode rett i konsollen. Skriv inn `hei("Namnet ditt");` og
+  trykk **Enter**. Kva skjer?
 
-- [ ] Skriv inn `hei("Namnet ditt");` og trykk **Enter**.
+## Ei anna måte å dele programmet {.tip}
 
-- [ ] Kva skjer?
+Hugsar du oppgåva [HTML: Publiser nettsida di](../publiser/publiser_nn.html)?
+Der lærer du å leggje ei nettside ut på internett, slik at du kan dele ei lenke
+i staden for ei fil.
+
+Du kan òg lagre JavaScript-koden i ei eiga `.js`-fil, til dømes `katt.js`. Så
+kan du referere til den frå ei HTML-fil på denne måten:
+
+```html
+<body>
+  <script src="katt.js"></script>
+</body>
+```
+
+Hugs at `katt.js` då må liggje i same mappe som HTML-fila.
 
 __Gratulerer!__ Du har skrive ditt fyrste JavaScript-program!
