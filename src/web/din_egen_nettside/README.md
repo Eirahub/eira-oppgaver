@@ -59,7 +59,7 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 - [ ] __Forutsetninger__: God kjennskap til HTML, CSS og JavaScript
 
-- [ ] __Utstyr__: Datamaskin med internett og tekstbehandlingsverktøy
+- [ ] __Utstyr__: Datamaskin med internett og [VS Code](../vs_code/vs_code.html)
 
 ## Fremgangsmåte
 
