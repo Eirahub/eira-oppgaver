@@ -12,7 +12,7 @@ med vennene dine. Spillet kalles *Trykkomania* fordi det handler om å trykke p�
 en ball flest mulig ganger før tiden renner ut.
 
 Oppgaven henter ideer fra utvikling av web-applikasjoner med bibliotek som
-[React](https://react.dev/) og [Mithril](http://mithril.js.org/),
+[React](https://react.dev/) og [Mithril](https://mithril.js.org/),
 der elementer i spillet lages som inviduelle komponenter. Komponentene ligner på
 objektorientert programmering, men bruker teknikken "closures" (funksjoner som
 husker konteksten de ble laget i).
@@ -77,7 +77,9 @@ __Tidsbruk__: Dobbeltime eller mer.
 - [ ] __Forutsetninger__: Oppgaven er *kun* javascript, men det lønner seg å ha
   kjennskap til HTML og CSS.
 
-- [ ] __Utstyr__: Datamaskin med internett.
+- [ ] __Utstyr__: Datamaskin med internett. Elevene skriver koden i
+  Prøv selv-boksene i oppgaven, eller i VS Code (se oppgaven
+  [VS Code](../vs_code/vs_code.html)).
 
 ## Konsepter brukt i oppgaven {.challenge}
 
@@ -93,7 +95,7 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 - [ ] [CSS-stil] via javascript
 
-- [ ] [`onclick`]
+- [ ] [`addEventListener`]
 
 - [ ] [`setInterval`]
 
@@ -103,8 +105,8 @@ __Tidsbruk__: Dobbeltime eller mer.
 [Closures]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 [HTML-elementer]:https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
 [CSS-stil]:https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
-[`onclick`]:https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
-[`setInterval`]:https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval
+[`addEventListener`]:https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+[`setInterval`]:https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval
 
 
 # Løsning {.challenge}
@@ -165,9 +167,9 @@ oppgaven. [Klikk her for å se oppgaveteksten.](trykkomania.html){target=_blank}
 - [ ] Elevene må kopiere koden akkurat som den står oppført, hvis ikke blir det
   fort feil.
 
-- [ ] __Merk:__ Det er en liten forskjell i koden gitt i dette steget og koden som det er linket til i fasitene.
-
-  `el.style.bottom` er satt til `50px` (i motsettning til `5px`). Dette er for at den ikke skal ende opp bak reklamen som kan dukke opp på bunnen av editoren.
+- [ ] `ball.addEventListener('click', poeng.øk)` sender inn funksjonen uten
+  `()`. Elever som skriver `poeng.øk()` får poeng én gang med en gang, og
+  ingenting ved klikk.
 
 
 # Steg 8: Begrense tiden {.activity}
