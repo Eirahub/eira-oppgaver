@@ -81,6 +81,7 @@ og om det er med i første versjon av den nye siden (v1) eller kommer senere.
 | Velge språk for brukergrensesnittet (nb, nn, en, is, ua) | senere (bare bokmål nå) |
 | Skrift for dyslektikere | senere |
 | Navigasjon til kidsakoder.no-sider (Nyheter, Finn kodeklubb osv.) | v1 i profilen `lkk`, ikke i `eira` |
+| Søk i oppgavene (Pagefind, statisk indeks, filter på kurs) på forsiden | ny, se `README.md` |
 | Sitemap | senere |
 | Lenke til forum.kidsakoder.no | fjernet |
 
