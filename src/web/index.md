@@ -34,14 +34,26 @@ ulikt. Og nettsidene kan være alt mulig rart;
 
 - blog ([wordpress.com](https://wordpress.com))
 
-- spill ([html5games.com](http://html5games.com))
+- spill ([html5games.com](https://html5games.com))
 
 - nettbutikk ([komplett.no](https://www.komplett.no))
 
 Og enda en ting, alt dette er mulig uten at noe installeres. Du trenger bare
-åpne en adresse i nettleseren din. Så om du har lyst å lære mer om dette, hopp
-rett i det med oppgaven
+åpne en adresse i nettleseren din.
 
-[Introduksjon til web](introduksjon_til_web/introduksjon_til_web.html).
+### Slik kommer du i gang
+
+Start med [Hva er en nettside?](hva_er_en_nettside/hva_er_en_nettside.html)
+og fortsett med [Min første
+nettside](min_forste_nettside/min_forste_nettside.html).
+
+I mange oppgaver finner du en **Prøv selv**-boks. Der skriver du koden, og
+resultatet vises med en gang. Du trenger ikke installere noe. Med **Reset**
+får du tilbake koden slik den var, og med **Last ned som fil** tar du vare på
+den som `index.html`.
+
+Når du vil lage større nettsider med flere filer og egne bilder, bruker du
+programmet VS Code. Oppgaven [Lag nettsider i VS Code](vs_code/vs_code.html)
+viser hvordan du kommer i gang.
 
 Lykke til!
