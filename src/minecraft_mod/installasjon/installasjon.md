@@ -49,7 +49,7 @@ Har du tatt Java-kurset, har du dette allerede. Gå videre til steg 3.
 ## Sjekkliste {.check}
 
 - [ ] Følg [installasjonsveiledningen i
-  Java-kurset](https://oppgaver.kidsakoder.no/java/installasjon/installasjon).
+  Java-kurset](../../java/installasjon/installasjon.html).
   Den viser hvordan du installerer IntelliJ IDEA og laster ned JDK 25.
 
 ## Tips {.tip}
@@ -195,4 +195,4 @@ trekanten.
   et annet nett, eller be IT-ansvarlig om hjelp.
 
 Nå er du klar for første oppgave, [Tom
-mod](https://oppgaver.kidsakoder.no/minecraft_mod/tom_mod/tom_mod).
+mod](../tom_mod/tom_mod.html).

@@ -37,7 +37,7 @@ Før dere skriver noe, må dere vite hva dere er enige og uenige om.
 ## Tips {.tip}
 
 Ta med det dere fant ut i oppgaven [Personvern og aldersgrenser
-](https://oppgaver.kidsakoder.no/ki_veiledere/personvern_og_alder/personvern_og_alder).
+](../personvern_og_alder/personvern_og_alder.html).
 Aldersgrenser og skolens regler setter rammene. Klubbens regel må holde seg
 innenfor dem.
 
