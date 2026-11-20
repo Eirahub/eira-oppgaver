@@ -1,0 +1,13 @@
+sortindex: 1
+title:
+  nb: 'Kom i gang med VS Code'
+  nn: 'Kom i gang med VS Code'
+  en: 'Get started with VS Code'
+lessons:
+  - installer_vs_code
+  - bli_kjent
+  - python_i_vs_code
+  - web_i_vs_code
+  - feilsoking
+  - git_i_vs_code
+  - utvidelser_og_ki
