@@ -8,7 +8,7 @@ language: nb
 # Introduksjon {.intro}
 
 I denne oppgaven skal vi ta utgangspunkt i animasjone vi lagde i oppgaven
-[Partikkel-animasjon](https://oppgaver.kidsakoder.no/web/partikkel_animasjon/partikkel_animasjon){target=_blank}.
+[Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon.html){target=_blank}.
 Dersom du ikke har gjort denne oppgaven anbefaler vi deg om å gå tilbake å gjøre
 den før du fortsetter her.
 
@@ -19,9 +19,9 @@ for å få det til. Til slutt kommer det til å se noe slik ut:
 <script>
 
 
-        var canvas, ctx;
+        let canvas, ctx;
 
-        var particle = {
+        const particle = {
             x: 125,
             y: 0,
             gravity: 0.05,
@@ -30,11 +30,11 @@ for å få det til. Til slutt kommer det til å se noe slik ut:
 
         };
 
-        window.onload = function() {
+        window.addEventListener("load", function () {
             canvas = document.getElementById("canvas");
             ctx = canvas.getContext("2d");
             setInterval(draw, 30);
-        };
+        });
 
 
         function draw() {
@@ -46,7 +46,7 @@ for å få det til. Til slutt kommer det til å se noe slik ut:
             particle.gravitySpeed += particle.gravity;
             particle.y += particle.gravitySpeed;
 
-            kant = canvas.height - particle.size;
+            const kant = canvas.height - particle.size;
             if(particle.y > kant){
                 particle.y = kant;
                 particle.gravitySpeed = 0;
@@ -130,51 +130,123 @@ Nå som vi har fått gravitasjon på partikkelen vårt kan vi legge til styring 
 partikkelen ved hjelp av knapper. Vi skal nå programmere slik at når du trykker
 `pil opp` så gir vi partikkelen negativ akselerasjon og når vi slipper så blir
 den påvirket av gravitasjonen. Får å gjøre dette bruker vi noe som heter
-`onkeyup`, `onkeydown` og `keyCode`.
+`keydown`, `keyup` og `event.key`.
 
 For å kunne utføre en operasjon når vi trykker på en knapp må vi ha denne koden:
 
 ```js
-window.onkeydown = function(inputKey) {
-    var key = inputKey.keyCode ? inputKey.keyCode : inputKey.which;
-
-    if (key == //knapp-koden) {
+window.addEventListener("keydown", function (event) {
+    if (event.key === "ArrowUp") {
         // Kode som skal utføres
     }
-}
+});
 ```
 
-- [ ] Bruk [keycode.info](http://keycode.info) til å finne ut hvilke
-  `knapp-kode` knappen du vil bruke har.
+- [ ] Bytt ut `"ArrowUp"` hvis du vil bruke en annen tast. Pil ned heter
+  `"ArrowDown"`, mellomrom heter `" "` og bokstaven a heter `"a"`.
 
 ## Forklaring {.challenge}
 
-- `window.onkeydown` er en funksjon som sjekker om en knapp trykkes ned, dersom
-  den gjør det, så kjøres funksjonen med `knapp-kode` `inputKey`.
+- `window.addEventListener("keydown", ...)` lytter etter at en tast trykkes ned.
+  Da kjøres funksjonen, og `event` forteller hvilken tast det var.
 
-- `var key = inputKey.keyCode ? inputKey.keyCode : inputKey.which;` er en
-  enklere måte å skrive dette på:
+- `event.key` er navnet på tasten, som tekst. Er du usikker på hva en tast
+  heter, kan du skrive `console.log(event.key);` inni funksjonen og trykke på
+  tasten. Du finner også alle navnene på
+  [MDN](https://developer.mozilla.org/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values){target=_blank}.
 
-```js
-if(inputKey.keyCode) {
-    var key = inputKey.keyCode;
-} else {
-    var key = inputKey.which;
-}
-```
-
-Grunnen til at du må bruke `keyCode` og `which` er fordi ikke alle nettlesere
-støtter `keyCode`, men bruker `which` istedet.
-
-+ I `if (key == //knapp-kode)` må du skrive kode for at gravitasjonen skal være
-  negativ, prøv med forskjellige tall.
+- I `if (event.key === "ArrowUp")` må du skrive kode for at gravitasjonen skal
+  være negativ. Prøv med forskjellige tall.
 
 ##
 
-- [ ] For at du skal få gravitasjonen tilbake når du slipper knappen må du lage
-  en funksjon for `window.onkeyup`.
+- [ ] For at du skal få gravitasjonen tilbake når du slipper knappen, må du
+  lytte etter `keyup` på samme måte.
 
-- [ ] Les mer om `window.onkeyup` osv her: [w3school](http://www.w3schools.com/jsref/event_onkeydown.asp){target=_blank}
+- [ ] Les mer om `keydown` og `keyup` her:
+  [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event){target=_blank}
 
-Dersom du står bomfast: [Forslag til
-kode](https://jsbin.com/sezumakiyo/edit?html,output){target=_blank}
+## Forslag til kode {.tip}
+
+Dersom du står bomfast, kan du se på koden under. Klikk på det svarte feltet
+først, så går tastetrykkene til animasjonen.
+
+```html-live
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Partikkel-gravitasjon</title>
+  <style>
+    body {
+      background-color: #666;
+    }
+
+    #canvas {
+      background-color: #000;
+    }
+  </style>
+  <script>
+    let canvas, ctx;
+
+    const particle = {
+      x: 245,
+      y: 0,
+      gravity: 0.05,
+      gravitySpeed: 0,
+      size: 10,
+      farge: "red"
+    };
+
+    window.addEventListener("load", function () {
+      canvas = document.getElementById("canvas");
+      ctx = canvas.getContext("2d");
+      setInterval(draw, 30);
+    });
+
+    // Pil opp gir negativ gravitasjon, så partikkelen flyr oppover
+    window.addEventListener("keydown", function (event) {
+      if (event.key === "ArrowUp") {
+        event.preventDefault(); // hindrer at siden ruller
+        particle.gravity = -0.1;
+      }
+    });
+
+    // Når tasten slippes, kommer gravitasjonen tilbake
+    window.addEventListener("keyup", function (event) {
+      if (event.key === "ArrowUp") {
+        particle.gravity = 0.05;
+      }
+    });
+
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      ctx.fillStyle = particle.farge;
+      ctx.fillRect(particle.x, particle.y, particle.size, particle.size);
+
+      particle.gravitySpeed += particle.gravity;
+      particle.y += particle.gravitySpeed;
+
+      const kant = canvas.height - particle.size;
+      if (particle.y > kant) {
+        particle.y = kant;
+        particle.gravitySpeed = 0;
+      }
+      if (particle.y < 0) {
+        particle.y = 0;
+        particle.gravitySpeed = 0;
+      }
+    }
+  </script>
+</head>
+<body>
+  <canvas id="canvas" width="500" height="500"></canvas>
+</body>
+</html>
+```
+
+## Tips {.tip}
+
+Du kan også skrive koden i VS Code. Trykk **Last ned som fil** under eksempelet,
+eller lag en ny fil. Se oppgaven [VS Code](../vs_code/vs_code.html).
