@@ -34,7 +34,8 @@ Ingen Docker. Bygg og sjekk lenker med `npm run build` og skriptene i
 ### Publisering
 
 `.github/workflows/` bygger `site/` og publiserer til GitHub Pages ved push
-til `main`. Domenet står i `site/public/CNAME`. Ingen hemmeligheter trengs.
+til `main`. Domenet står i `site/public/CNAME`. Pull requests får en
+forhåndsvisning på Cloudflare Pages (oppsett i `site/README.md`).
 
 ## Git
 

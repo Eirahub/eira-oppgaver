@@ -53,7 +53,8 @@ og om det er med i første versjon av den nye siden (v1) eller kommer senere.
 | "Forbedre denne siden" (rediger på GitHub, rapporter problem) | v1, repo og gren fra profilen |
 | Nivåikon ved tittelen | v1 |
 | Brødsmuler (forside, kurs, oppgave) | v1 |
-| PDF-nedlasting og utskriftsinfo | senere |
+| Utskrift og "lagre som PDF" (knapp, egen utskriftsstil for A4) | v1 |
+| Ferdige PDF-filer per oppgave til nedlasting | senere |
 | Video: HTML5 `<video>` med `<source>`/`<track>` fra oppgavemappen, og YouTube-nocookie/Vimeo-iframes, tilpasset skjermbredden | v1 |
 | Video-container (`::: video [url]`) fra codeclub-viewer | senere (brukes ikke i innholdet nå, HTML5 over dekker behovet) |
 | KaTeX-matematikk | senere (brukes ikke i innholdet nå) |

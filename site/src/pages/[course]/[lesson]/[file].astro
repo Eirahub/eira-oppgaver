@@ -1,5 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import '../../../styles/print.css';
 import { getCourses, renderMarkdown, renderInline, excerpt, pickLang, tagName } from '../../../lib/content.js';
 import profile from '../../../lib/profile.js';
 
@@ -41,6 +42,7 @@ const issue = `${profile.issueUrl}?title=${encodeURIComponent(`Problem med ${c.t
         {counterpart && (
           <a class:list={['button', { 'teacher-only': !f.isReadme }]} href={counterpart.url}>{f.isReadme ? 'Til oppgaven' : 'Til lærerveiledningen'}</a>
         )}
+        <button type="button" class="button secondary" id="print" hidden>Skriv ut / lagre som PDF</button>
         {variants.length > 0 && (
           <span class="variants">Også på:
             {variants.map((v) => <a href={v.url} hreflang={v.language === 'ua' ? 'uk' : v.language}>{tagName('language', v.language)}</a>)}

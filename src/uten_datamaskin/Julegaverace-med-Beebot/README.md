@@ -1,7 +1,7 @@
 ---
 title: "Julegaverace med Beebot"
 author: "Sigurd Schaathun"
-language: "nb"
+language: nb
 ---
 
 # Om Julegaverace med BeeBot{.activity}
@@ -42,7 +42,7 @@ Man kan måle tid det tar å kjøre løypen (inkludert programmering) eller hvor
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
 oppgaven. [Klikk her for å se
-oppgaveteksten.](../OPPGAVENAVN/OPPGAVENAVN.html){target=_blank}
+oppgaveteksten.](../Julegaverace-med-Beebot/Julegaverace-med-Beebot.html){target=_blank}
 
 # Steg 1:... {.activity}
 

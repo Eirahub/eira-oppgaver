@@ -4,6 +4,12 @@ author: Geir Arne Hjelle
 language: nb
 ---
 
+## Merk {.tip}
+
+Den opprinnelige ComputerCraft-modden fungerer ikke lenger. Bruk i stedet
+[CC: Tweaked](https://tweaked.cc/), som er videreføringen av den. Noen steg
+kan se litt annerledes ut enn i denne oppgaven.
+
 
 # Introduksjon {.intro}
 
