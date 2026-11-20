@@ -1,48 +1,62 @@
-_English version below._
+# Eira oppgaver
 
+Programmeringsoppgaver for barn og unge, publisert på
+**https://oppgaver.eirahub.no** av Eira, en frivillig organisasjon som driver
+gratis kodeklubber.
 
-# Lær Kidsa Koding sin oppgavesamling
+Oppgavene er laget av frivillige i [Lær Kidsa Koding](https://www.kidsakoder.no/).
+Dette repoet er en kopi (fork) av
+[kodeklubben/oppgaver](https://github.com/kodeklubben/oppgaver) med hele
+historikken. Vi henter endringer derfra og sender rettelser og nye oppgaver
+tilbake. Takk til alle forfattere og oversettere.
 
-Her finner du kilden til Lær Kidsa Koding sin oppgavesamling. Oppgavene er
-skrevet i formatet markdown, og konverteres så til nettsider. Hvis _du_ har lyst
-å bidra kan du åpne [wikien](https://github.com/kodeklubben/oppgaver/wiki) og
-lese veiledningene og retningslinjene for å bidra.
+## Innhold
 
-I wikien finner du veiledninger som hjelper deg å komme i gang med bruk av
-GitHub lokalt på datamaskinen din slik at du kan laste opp endringer og nye
-oppgaver på en praktisk og ordentlig måte. Der finner du tips til programvare å
-jobbe i, og tips til hvordan du skriver en god oppgave.
+| Mappe | Hva |
+|---|---|
+| `src/` | Oppgavene: ett kurs per mappe, markdown, bilder, `lesson.yml`. Samme struktur som upstream. |
+| `filtertags/` | Lovlige tagger og visningsnavn. |
+| `linter/` | Linteren fra upstream. |
+| `site/` | Nettsiden (Astro). Se [site/README.md](site/README.md). |
 
-Hvis du har funnet en feil eller har lyst å forbedre noe, så kan du gjerne sende
-en [issue](https://github.com/kodeklubben/oppgaver/issues). Særlig dersom du har et
-problem eller en idé som du ikke har en løsning på her og nå.
+Mappene `src/`, `filtertags/` og `linter/` holdes like upstream, så vi kan flette
+begge veier. All kode for nettsiden ligger i `site/`.
 
-Til slutt: Vi trenger din hjelp! Alle bidrag settes pris på og er nyttige for å
-gjøre nettsidene så gode som mulig. Ta gjerne kontakt for å komme i gang.
+## Kjøre siden lokalt
 
+Krever Node 24.
 
-# English version
+```
+cd site
+npm install
+npm run dev
+```
 
-This is the Norwegian movement _Teach the kids to code_'s (Lær Kidsa Koding)
-collection of programming assignments. These assignments are a tool to teach
-kids of all ages to code in different programming languages. The assignments are
-written in the markdown format, and then converted to web pages. If _you_ want
-to contribute, you can read up on our guidelines in the
-[wiki](https://github.com/kodeklubben/oppgaver/wiki) (currently only available
-in Norwegian).
+Åpne http://localhost:4321.
 
-Most assignments are only available in Norwegian as of this time. We would like
-to offer coding assignments in more languages. If you are interested in helping
-us add assignments in your language, please be in touch! 
+## Hente endringer fra upstream
 
-The wiki contains guidelines for getting started with GitHub on your computer to
-upload changes and new assignments in a practical and clean way. You will find
-recommendations for useful software and tips on how to write good assignments.
-There is a template for assignments as well.
+```
+git fetch upstream && git merge upstream/master
+```
 
-If you find any errors or want to improve something, you are welcome to raise an
-[issue](https://github.com/kodeklubben/oppgaver/issues). In particular if you have a
-problem or an idea which you do not have a solution for right here and now.
+Remoten `upstream` peker til https://github.com/kodeklubben/oppgaver. Vi har
+skrevet om denne README-en og byttet ut `.github/workflows/test-and-deploy.yml`,
+så endrer upstream de filene, blir det en konflikt der. Behold vår versjon.
 
-Finally: we need your help! All contributions are highly valued and useful to
-make our websites as good as possible.
+## Bidra
+
+Funnet en feil? Hver oppgave har en lenke "Rediger på GitHub". Endringer som
+gjelder selve oppgavene, sender vi gjerne videre til
+[kodeklubben/oppgaver](https://github.com/kodeklubben/oppgaver), der
+[wikien](https://github.com/kodeklubben/oppgaver/wiki) beskriver hvordan
+oppgavene skrives.
+
+## Lisens
+
+Innholdet er i hovedsak delt under
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.no). Noen
+oppgaver har en annen lisens, og den står i oppgavens `lesson.yml` og nederst på
+siden. Oppgaver med vilkårene til Code Club World Limited er ikke
+Creative Commons og publiseres ikke på siden vår. Endringene Eira gjør, deler vi
+under samme lisens som innholdet.
