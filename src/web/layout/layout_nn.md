@@ -24,7 +24,7 @@ HTML5-taggar, så brukar me det i denne oppgåva.
 
 - [ ] Last ned og pakk ut [layout.zip](ressurser/layout.zip).
 
-- [ ] Åpne `index.html` i favoritt-teksteditoren din.
+- [ ] Opne mappa i [VS Code](../vs_code/vs_code.html) og opne `index.html`.
 
 - [ ] Legg til biletet `header.jpg` innanfor taggen `<header>` (hugs å leggje
   til `alt`-tekst).
@@ -363,7 +363,7 @@ __TADA! Du har laga ei flott nettside du kan byggje vidare på!__
 
 - [ ] Bruk
 
-  [w3schools.com/css/css_link.asp](http://www.w3schools.com/css/css_link.asp){target=_blank}
+  [w3schools.com/css/css_link.asp](https://www.w3schools.com/css/css_link.asp){target=_blank}
 
   til å leggje til forandring på lenkene når du heldt over dei.
 
@@ -373,7 +373,7 @@ __TADA! Du har laga ei flott nettside du kan byggje vidare på!__
 - [ ] Legg teksten på sida i `div`-ar og set ulik stil på dei.
 
 - [ ] Del inn `section` slik at du kan få ulike delar på sida, hent gjerne
-  inspirasjon frå Internett. Til dømes [vg.no](http://vg.no){target=_blank}
+  inspirasjon frå Internett. Til dømes [vg.no](https://www.vg.no){target=_blank}
 
 
 # Døme på kode for nettsida {.activity}

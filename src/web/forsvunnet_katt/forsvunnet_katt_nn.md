@@ -17,13 +17,14 @@ kjem til å sjå den viss du lagar ei nettside.
 
 # Steg 1: Felix har forsvunne! {.activity}
 
-- [ ] Lag ei ny mappe som du kallar Felix.
+- [ ] Lag ei ny mappe som du kallar Felix, og opne ho i [VS
+  Code](../vs_code/vs_code.html).
 
 - [ ] Lag eit nytt dokument med namnet `index.html` og lagre det i mappa du
   kalla Felix.
 
-- [ ] No kan du setje opp dokumentet ditt slik du lærte i [Introduksjon til
-  web](../introduksjon_til_web/introduksjon_til_web_nn.html).
+- [ ] No kan du setje opp dokumentet ditt slik du lærte i [Hva er en
+  nettside?](../hva_er_en_nettside/hva_er_en_nettside.html).
 
 ```html
 <!doctype html>
@@ -213,10 +214,33 @@ Og nokre nøkkelord, separert med komma
 
 No ser sida vår omlag slik ut:
 
-![Bilete av korleis sida ser ut i nettlesaren så langt](screenshot_jsbin.png)
+```html-live
+<!DOCTYPE html>
+<html lang="nn">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Namnet ditt">
+    <meta name="description" content="Ei side laga for å finne katten Felix">
+    <meta name="keywords" content="Felix, katt, forsvunne">
+    <title>Katten Felix er forsvunnen</title>
+  </head>
+  <body>
+    <!-- Dette er eit Kodeklubb-prosjekt. Felix er ikkje ekte. -->
+    <h1>Forsvunnen</h1>
+    <h2>Katten Felix</h2>
+    <img src="felix.jpg" alt="bilete av Felix" width="400">
+    <p>Felix er ein veldig snill katt. Han likar å kose, sitje framfor
+      varmepumpa og leikemusa si. Pelsen hans er oransje.</p>
+    <p>Han forsvann frå hagen i går.</p>
+    <p>Har du sett Felix? <em>Ver venleg og</em> kontakt eigaren hans på
+      <a href="mailto:eigarentilfelix@email.com">eigarentilfelix@email.com</a></p>
+    <p><strong>Tusen takk!</strong></p>
+  </body>
+</html>
+```
 
-Til venstre har me HTML-koden og til høgre ser du korleis nettlesaren viser sida
-vår.
+I Prøv selv-boksen finst ikkje `felix.jpg`, så nettlesaren viser `alt`-teksten
+i staden. I mappa di i VS Code blir biletet vist.
 
 ## Kva kan du gjere vidare? {.challenge}
 

@@ -245,7 +245,7 @@ Del inn nettsiden](../del_inn_nettsiden/del_inn_nettsiden.html).
 
 - [ ] Hvordan vil du endre siden for å få den til å se bedre ut? Hvorfor ikke
   prøve å bruke din favorittskrifttype, farge, osv? Bruk gjerne
-  [w3schools.com/css](http://www.w3schools.com/css/) for å utforske CSS-ens
+  [w3schools.com/css](https://www.w3schools.com/css/) for å utforske CSS-ens
   verden.
 
 - [ ] Hvis du er tidlig ferdig. Gå tilbake og legg på en stil i HTML dokumentet
@@ -253,7 +253,7 @@ Del inn nettsiden](../del_inn_nettsiden/del_inn_nettsiden.html).
 
 - [ ] Forresten, visste du at egenskapene for bakgrunn, ikke bare lar deg endre
   farger, men også legge til et bilde? ([Hint: w3schools.com/css -
-  background-image](http://www.w3schools.com/cssref/pr_background-image.asp))
+  background-image](https://www.w3schools.com/cssref/pr_background-image.asp))
 
 
 # Eksempel på hvordan det kan se ut {.activity}
@@ -332,7 +332,7 @@ Del inn nettsiden](../del_inn_nettsiden/del_inn_nettsiden.html).
 <!-- Dette er et Kodeklubb-prosjekt. Felix er ikke ekte og er egentlig ikke forsvunnet. -->
     <h1>Forvunnet</h1>
     <h2>Katten Felix</h2>
-    <img src="http://kodeklubben.github.io/web/forsvunnet_katt/missingcat.png" alt="bilde av Felix" width="400">
+    <img src="felix.jpg" alt="bilde av Felix" width="400">
     <p>Felix er en veldig snill katt. Han liker å kose, sitte foran varmepumpa og lekemusa si. Pelsen hans er <span>oransje</span>. </p>
     <p class="stor">Han forvant fra hagen i går.</p>
     <p id="uthevet">Har du sett Felix? Vennligst kontakt eieren hans på <a href="mailto:eierentilfelix@email.com">eierentilfelix@email.com</a></p>
