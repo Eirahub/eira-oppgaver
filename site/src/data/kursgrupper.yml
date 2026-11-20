@@ -3,7 +3,7 @@
 # courses: mappenavn i src/, i den rekkefølgen de skal vises.
 # Gruppen uten courses får alle kurs som ikke står i en annen gruppe.
 - title: Scratch
-  courses: [scratch, scratchjr]
+  courses: [scratch]
 - title: Python
   courses: [python]
 - title: micro:bit og MakeCode
