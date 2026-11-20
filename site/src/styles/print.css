@@ -8,7 +8,7 @@
 
   /* Site chrome and controls */
   .skip-link, .site-header, .site-footer, .breadcrumb,
-  .lesson-actions, .progress, .improve, button, iframe { display: none !important; }
+  .lesson-actions, .progress, .sync-status, .improve, button, iframe, dialog { display: none !important; }
   main.wrap { max-width: none; padding: 0; min-height: 0; }
   .lesson, .prose { max-width: none; }
   h1 { font-size: 22pt; margin-top: 0; }
