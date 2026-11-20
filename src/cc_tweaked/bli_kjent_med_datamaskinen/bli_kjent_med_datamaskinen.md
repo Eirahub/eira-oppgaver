@@ -1,6 +1,6 @@
 ---
 title: Bli kjent med datamaskinen
-author: "Geir Arne Hjelle (tilpasset CC: Tweaked av Tor Einar Enne)"
+author: Tor Einar Enne
 language: nb
 ---
 
@@ -424,3 +424,6 @@ passord som er skrevet.
 Nå kjenner du datamaskinene. I
 [Robotinvasjon](../robotinvasjon/robotinvasjon.html) lærer du å programmere
 roboter.
+
+*Basert på en oppgave til ComputerCraft av Geir Arne Hjelle,
+delt under CC BY-SA 4.0.*
