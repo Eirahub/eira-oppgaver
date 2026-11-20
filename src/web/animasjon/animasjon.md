@@ -155,8 +155,8 @@ men det er da litt vanskeligere å finne ut hva som er hva:
 
 ## Utfordring {.challenge}
 
-- [ ] Skriv koden inn i din favoritt teksteditor, lagre det som en `.html`-fil
-  og gjør oppgavene under.
+- [ ] Skriv koden inn i [VS Code](../vs_code/vs_code.html), lagre den som en
+  `.html`-fil og gjør oppgavene under.
 
 - [ ] Få animasjonen til å bytte farge fra blå til rød underveis.
 
@@ -285,7 +285,7 @@ treffer en klosse](ressurser/out.gif)
 
 + Last ned og pakk ut [minecraft_animasjon.zip](minecraft_animasjon.zip).
 
-+ Åpne `index.html` i din favoritt teksteditor og i en nettleser.
++ Åpne `index.html` i [VS Code](../vs_code/vs_code.html) og i en nettleser.
 
 Du vil nå ha en nettside som ser noe sånt ut:
 

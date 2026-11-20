@@ -36,7 +36,7 @@ Prøv hinta under, og pass på at sidene ligg i same mappe.
  </hide>
 </toggle>
 
-Viss du brukar [`<nav>`-taggen](http://www.w3schools.com/tags/tag_nav.asp){target=_blank} frå
+Viss du brukar [`<nav>`-taggen](https://www.w3schools.com/tags/tag_nav.asp){target=_blank} frå
 oppgåva [Del inn nettsida](../del_inn_nettsiden/del_inn_nettsiden_nn.html){target=_blank}, så
 kan du leggje lenkene inne i `<nav>`-taggen.
 
@@ -82,6 +82,6 @@ me deler inn nettsida ved hjelp av `<div>`- og `<nav>`-taggar.
 
 # TIPS {.challenge}
 
-Du må gjerne bruke [w3schools](http://www.w3schools.com/){target=_blank} for å få endå meir
+Du må gjerne bruke [w3schools](https://www.w3schools.com/){target=_blank} for å få endå meir
 hjelp eller lese meir om HTML-taggar. Viss det er vanskeleg språk så spør du ein
 vaksen, lærarar eller rettleiaren din.

@@ -95,4 +95,4 @@ oppgaven. [Klikk her for å se oppgaveteksten.](hvor_er_html.html){target=_blank
 
 - [ ] Elevene kan gjøre det samme med andre nettsteder. Hva med å få dem til å
   endre dagens nyheter eller legge til egne lover i
-  [lovdata.no](http://lovdata.no){target=_blank}?
+  [lovdata.no](https://lovdata.no){target=_blank}?
