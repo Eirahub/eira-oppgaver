@@ -8,7 +8,7 @@
 
   /* Site chrome and controls */
   .skip-link, .site-header, .site-footer, .breadcrumb,
-  .lesson-actions, .progress, .improve, button, iframe { display: none !important; }
+  .lesson-actions, .progress, .sync-status, .improve, button, iframe, dialog { display: none !important; }
   /* "Prøv selv": the code only, as in the lesson */
   .live-editor { display: none !important; }
   .lesson-content pre.html-live.enhanced { display: block !important; }

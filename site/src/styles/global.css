@@ -199,6 +199,19 @@ details[open] > summary { border-bottom: 1px solid var(--border-card); }
 .byline { margin: var(--space-1) 0; color: var(--ink-2); font-style: italic; }
 .lesson-actions { display: flex; flex-wrap: wrap; gap: var(--space-3) var(--space-5); align-items: center; margin: var(--space-4) 0; }
 .variants { display: inline-flex; flex-wrap: wrap; gap: var(--space-3); }
+.button.secondary[aria-pressed="true"] { background: var(--brand-primary); color: #fff; }
+.sync-status:empty { display: none; }
+.sync-status { font-weight: 600; }
+/* "Åpne på mobilen": not needed on a phone */
+@media (max-width: 40rem) { .lesson-actions #qr-open { display: none; } }
+.qr-dialog { max-width: min(24rem, calc(100vw - 2 * var(--space-4))); border: 0; border-radius: var(--radius-card); padding: var(--space-4) var(--space-5); background: var(--surface-raised); color: var(--ink); box-shadow: var(--shadow-card); }
+.qr-dialog::backdrop { background: rgb(0 0 0 / 0.5); }
+.qr-dialog h2 { margin-top: 0; }
+/* QR code: always black on white with its own quiet zone, whatever the theme */
+.qr-code svg { display: block; width: 100%; max-width: 16rem; height: auto; margin: 0 auto var(--space-3); shape-rendering: crispEdges; }
+.qr-dialog label { display: block; font-weight: 600; }
+.qr-dialog input { width: 100%; font: inherit; padding: var(--space-2); border: 1px solid var(--border-card); border-radius: 4px; background: var(--surface-raised); color: var(--ink); }
+.qr-buttons { display: flex; flex-wrap: wrap; gap: var(--space-3); }
 .progress { display: flex; flex-wrap: wrap; gap: var(--space-3); align-items: center; margin: var(--space-3) 0; padding: var(--space-3) var(--space-4); background: var(--surface-raised); border-radius: var(--radius-card); box-shadow: var(--shadow-card); position: sticky; top: 0; z-index: 2; }
 .progress progress { flex: 1 1 10rem; height: 12px; accent-color: var(--brand-primary); }
 .lesson-footer { margin-top: var(--space-7); border-top: 1px solid var(--border-card); padding-top: var(--space-4); color: var(--ink-2); }

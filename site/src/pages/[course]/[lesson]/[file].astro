@@ -43,6 +43,8 @@ const issue = `${profile.issueUrl}?title=${encodeURIComponent(`Problem med ${c.t
           <a class:list={['button', { 'teacher-only': !f.isReadme }]} href={counterpart.url}>{f.isReadme ? 'Til oppgaven' : 'Til lærerveiledningen'}</a>
         )}
         <button type="button" class="button secondary" id="print" hidden>Skriv ut / lagre som PDF</button>
+        <button type="button" class="button secondary" id="qr-open" aria-haspopup="dialog" hidden>Åpne på mobilen</button>
+        <button type="button" class="button secondary" id="wake" aria-pressed="false" hidden>Hold skjermen på</button>
         {variants.length > 0 && (
           <span class="variants">Også på:
             {variants.map((v) => <a href={v.url} hreflang={v.language === 'ua' ? 'uk' : v.language}>{tagName('language', v.language)}</a>)}
@@ -54,6 +56,19 @@ const issue = `${profile.issueUrl}?title=${encodeURIComponent(`Problem med ${c.t
         <span id="progress-text"></span>
         <button type="button" class="button secondary" id="reset">Fjern avkrysninger</button>
       </div>
+      <p class="sync-status" id="sync-status" role="status" lang="nb"></p>
+      <dialog class="qr-dialog" id="qr-dialog" aria-labelledby="qr-title" lang="nb">
+        <h2 id="qr-title">Åpne på mobilen</h2>
+        <p>Skann koden med kameraet på mobilen. Avkrysningene dine blir med.</p>
+        <div class="qr-code" id="qr-code"></div>
+        <label for="qr-url">Lenke til siden</label>
+        <input id="qr-url" type="text" readonly />
+        <p class="qr-buttons">
+          <button type="button" class="button" id="qr-copy">Kopier lenke</button>
+          <button type="button" class="button secondary" id="qr-close">Lukk</button>
+        </p>
+        <p id="qr-copy-status" role="status"></p>
+      </dialog>
     </header>
 
     <div class="lesson-content" data-content data-lang={f.language} data-key={`checkboxes_${c.course}/${lesson.lesson}/${f.file}`} set:html={html} />
