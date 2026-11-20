@@ -250,7 +250,7 @@ Del inn nettsida](../del_inn_nettsiden/del_inn_nettsiden_nn.html).
 
 - [ ] Korleis vil du endre sida for å få den til å sjå betre ut? Kanskje du kan
   prøve å bruke favorittskrifttypen din, favorittfarga di og så bortetter? Bruk
-  gjerne [w3schools.com/css](http://www.w3schools.com/css/) for å utforske
+  gjerne [w3schools.com/css](https://www.w3schools.com/css/) for å utforske
   CSS-verda.
 
 - [ ] Viss du er tidleg ferdig kan du gå tilbake og leggje på ein stil i
@@ -258,7 +258,7 @@ Del inn nettsida](../del_inn_nettsiden/del_inn_nettsiden_nn.html).
 
 - [ ] Forresten, visste du at eigenskapane for bakgrunn ikkje berre let deg
   endre farger, men òg å leggje til eit bilete? [Hint: w3schools.com/css -
-  background-image](http://www.w3schools.com/cssref/pr_background-image.asp)
+  background-image](https://www.w3schools.com/cssref/pr_background-image.asp)
 
 
 # Døme på korleis det kan sjå ut {.activity}
@@ -337,7 +337,7 @@ Del inn nettsida](../del_inn_nettsiden/del_inn_nettsiden_nn.html).
 <!-- Dette er eit Kodeklubb-prosjekt. Felix er ikkje ekte og er ikkje borte. -->
     <h1>Forvunne</h1>
     <h2>Katten Felix</h2>
-    <img src="http://kodeklubben.github.io/web/forsvunnet_katt/missingcat.png"
+    <img src="felix.jpg"
       alt="bilete av Felix" width="400">
     <p>Felix er ein veldig snill katt. Han likar å kose, sitje framfor
       varmepumpa og leikemusa si. Pelsen hans er <span>oransje</span>. </p>

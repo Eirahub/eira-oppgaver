@@ -314,8 +314,8 @@ bokstavane A-F. Me set dei saman i ein kombinasjon av 6 tal og/eller bokstavar.
 Sidan det tek veldig lang tid å prøve ut desse for å finne fargene me vil ha, så
 kan me bruke eit hjelpemiddel:
 
-- [ ] Gå inn på [paletton.com](http://paletton.com) eller
-  [colorpicker.com](http://colorpicker.com) og vel mellom mange forskjellige
+- [ ] Gå inn på [paletton.com](https://paletton.com) eller
+  [colorpicker.com](https://colorpicker.com) og vel mellom mange forskjellige
   farger.
 
 - [ ] Erstatt dei fargene du har med andre du likar ved å bruke `#` framfor

@@ -23,7 +23,7 @@ nettlesaren! La oss ta ein kikk.
 
 ## Aktivitetar {.check}
 
-- [ ] Gå til [oppgaver.kidsakoder.no](http://oppgaver.kidsakoder.no) i Chrome
+- [ ] Gå til [oppgaver.kidsakoder.no](https://oppgaver.kidsakoder.no) i Chrome
   eller Firefox
 
 - [ ] Høgreklikk på katten og trykk `Inspiser` (norsk) eller `Inspect`
