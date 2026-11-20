@@ -331,3 +331,13 @@ details[open] > summary { border-bottom: 1px solid var(--border-card); }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+/* Search (Pagefind) on the front page: the results use the site's colours and font. */
+.site-search { margin: var(--space-3) 0 var(--space-5); max-width: 44rem; }
+.site-search .pagefind-ui {
+  --pagefind-ui-font: var(--font-sans);
+  --pagefind-ui-primary: var(--brand-primary);
+  --pagefind-ui-text: var(--ink);
+  --pagefind-ui-border: var(--ink-3);
+}
+@media print { .site-search { display: none !important; } }

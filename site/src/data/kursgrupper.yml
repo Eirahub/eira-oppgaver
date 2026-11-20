@@ -20,4 +20,6 @@
   courses: [arduino, legomindstorms, raspberry_pi]
 - title: Apper
   courses: [appinventor]
+- title: Verktøy
+  courses: [vs_code]
 - title: Andre
