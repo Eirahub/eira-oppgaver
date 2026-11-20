@@ -44,7 +44,7 @@ __Tidsbruk__: Dobbeltime
 - [ ] __Forutsetninger__: Kjennskap til HTML, CSS og JavaScript. Har en gyldig
   epost-adresse.
 
-- [ ] __Utstyr__: Datamaskin med internett og teksteditor.
+- [ ] __Utstyr__: Datamaskin med internett og [VS Code](../vs_code/vs_code.html).
 
 ## Fremgangsmåte
 

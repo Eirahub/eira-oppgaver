@@ -66,9 +66,11 @@ Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske
 oppgaven. [Klikk her for å se oppgaveteksten.](hei_js.html){target=_blank}
 
 
-# Steg 1: Bruke JS Bin {.activity}
+# Steg 1: Prøv selv-blokken {.activity}
 
-- [ ] Her kan det være at elevene ikke skriver inn riktig URL/Link
+- [ ] Elevene skriver koden i Prøv selv-blokken på oppgavesiden. Utskrift fra
+  `console.log` vises under resultatet. Vil dere heller jobbe i en editor, se
+  oppgaven [VS Code](../vs_code/vs_code.html).
 
 - [ ] Elevene kan fort skrive feil eller glemme et tegn når de skal skrive til
   konsoll.
@@ -91,17 +93,19 @@ oppgaven. [Klikk her for å se oppgaveteksten.](hei_js.html){target=_blank}
   mangle et tegn som gjør at funksjonen _hei_ ikke klarer å kjøre.
 
 
-# Steg 5: Dele prosjektet {.activity}
+# Steg 5: Katten på nettsiden {.activity}
 
-- [ ] Når elevene deler prosjektet er det viktig at elevene som skal åpne
-  prosjektet må sende riktig nettadresse. Nettadressen har gjerne tall, små og
-  store bokstaver.
+- [ ] Her møter elevene `const`, `document.createElement` og `textContent`.
+  Pass på at `
+` kommer med på slutten av hver linje.
 
 
-# Steg 5: Lagre prosjektet på datamaskinen din {.activity}
+# Steg 6: Lagre og dele prosjektet {.activity}
 
 - [ ] Elevene må huske hvor de har lagret filen, slik at de klarer å finne den
   igjen.
+
+- [ ] Filen kan sendes som vedlegg eller deles på en felles lagringsplass.
 
 ## Variasjoner {.challenge}
 

@@ -60,10 +60,10 @@ __Tidsbruk__: Dobbelttime
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Forutsetninger__: Bør ha gjort oppgaven [Vi bygger
-  hjemmeside](../en_hjemmeside/en_hjemmeside.html){target=_blank}.
+- [ ] __Forutsetninger__: Bør ha gjort oppgaven [Min første
+  nettside](../min_forste_nettside/min_forste_nettside.html){target=_blank}.
 
-- [ ] __Utstyr__: Datamaskiner med internett og tekstbehandlingsprogram.
+- [ ] __Utstyr__: Datamaskiner med internett og [VS Code](../vs_code/vs_code.html).
 
 ## Fremgangsmåte
 

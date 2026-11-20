@@ -23,7 +23,7 @@ bruke HTML5-tagger, så bruker vi det i denne oppgaven.
 
 - [ ] Last ned og pakk ut [layout.zip](ressurser/layout.zip)
 
-- [ ] Åpne `index.html` i din favoritt teksteditor
+- [ ] Åpne mappa i [VS Code](../vs_code/vs_code.html) og åpne `index.html`
 
 - [ ] Legg nå til bildet `header.jpg` innenfor taggen `<header>` (husk å legge
   til `alt`-tekst)
@@ -361,7 +361,7 @@ __TADA! Du har nå laget en flott nettside som du kan bygge videre på!__
 
 - [ ] Bruk
 
-      [w3schools.com/css/css_link.asp](http://www.w3schools.com/css/css_link.asp){target=_blank}
+      [w3schools.com/css/css_link.asp](https://www.w3schools.com/css/css_link.asp){target=_blank}
 
       til å legge til forandring på linkene når du holder over dem
 
@@ -371,7 +371,7 @@ __TADA! Du har nå laget en flott nettside som du kan bygge videre på!__
 - [ ] Legg teksten på siden i en `div`-er og sett forskjellig stil på dem
 
 - [ ] Del inn `section` slik at du kan få forskjellige deler på siden, hent
-  gjerne inspirasjon fra internett. Feks: [vg.no](http://vg.no){target=_blank}
+  gjerne inspirasjon fra internett. Feks: [vg.no](https://www.vg.no){target=_blank}
 
 
 # Eksempel på kode for nettsiden {.activity}

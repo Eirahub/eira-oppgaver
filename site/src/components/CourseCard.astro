@@ -1,0 +1,20 @@
+---
+// A course on the front page. External courses (isExternal) link out and are marked ↗.
+const { c } = Astro.props;
+const count = c.lessons.filter((l) => l.indexed).length;
+---
+<li>
+  {c.isExternal ? (
+    <a class="course-card" href={c.external || `/${c.course}/`} rel="noopener">
+      {c.hasLogo ? <img src={`/${c.course}/logo-black.png`} alt="" width="64" height="64" loading="lazy" /> : <span class="logo-placeholder" aria-hidden="true">{c.title[0]}</span>}
+      <span class="course-name">{c.title} <span class="ext" aria-label="(ekstern side)">↗</span></span>
+      <span class="course-meta">På en annen nettside</span>
+    </a>
+  ) : (
+    <a class="course-card" href={`/${c.course}/`}>
+      {c.hasLogo ? <img src={`/${c.course}/logo-black.png`} alt="" width="64" height="64" loading="lazy" /> : <span class="logo-placeholder" aria-hidden="true">{c.title[0]}</span>}
+      <span class="course-name">{c.title}</span>
+      <span class="course-meta">{count} oppgaver</span>
+    </a>
+  )}
+</li>
