@@ -138,6 +138,10 @@ taggen `<track>`.
 
 - [ ] Start videoen. Ser du tekst nederst i bildet?
 
+  ![Videoen med en svart-hvitt-scene fra et kontor. Nederst i bildet står
+  teksten "Somebody must've stolen the crown
+  jewels".](video_med_teksting.png)
+
 - [ ] Fjern ordet `default` i `<track>`. Nå må teksten slås på med knappen for
   teksting i videoen.
 
