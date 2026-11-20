@@ -25,7 +25,7 @@ to.
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Forutsetninger__: Kurset [Java](https://oppgaver.kidsakoder.no/java),
+- [ ] __Forutsetninger__: Kurset [Java](../../java/),
   særlig delen **Java for moddere**. Elevene bør kjenne klasser, arv og
   `@Override`, lister og lambdaer.
 

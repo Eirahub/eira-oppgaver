@@ -21,6 +21,11 @@ Du skal installere to ting:
 
 Til slutt lager du et lite prosjekt og sjekker at alt virker.
 
+## Tips {.tip}
+
+Skal du bruke Java til Minecraft, trenger spillet bestemte Java-versjoner. Se
+[Java for Minecraft](../../multimc/java_for_minecraft/java_for_minecraft.html).
+
 ![hei_java i IntelliJ med Hei, Java! i vinduet Run](intellij-hei-java.png)
 
 
