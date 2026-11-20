@@ -1,4 +1,4 @@
-// Lesson page behaviour: checklists, Scratch blocks and micro:bit blocks.
+// Lesson page behaviour: checklists, print button, Scratch blocks and micro:bit blocks.
 const content = document.querySelector('.lesson-content');
 const lang = content?.dataset.lang || 'nb';
 
@@ -37,6 +37,13 @@ if (key && boxes.length) {
     showProgress();
   });
   showProgress();
+}
+
+// ---------- Print / save as PDF (shown only when JS runs) ----------
+const printButton = document.getElementById('print');
+if (printButton) {
+  printButton.hidden = false;
+  printButton.addEventListener('click', () => window.print());
 }
 
 // ---------- Scratch blocks ----------

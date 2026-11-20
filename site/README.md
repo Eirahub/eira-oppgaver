@@ -31,6 +31,7 @@ Kommandoene må kjøres fra `site/`, fordi innholdet finnes via `../src`.
 | `src/pages/[course]/[lesson]/[file].astro` | Oppgaver og lærerveiledninger, `/<kurs>/<mappe>/<fil>`. |
 | `src/pages/om-oppgavene.astro` | Om oppgavene, lisens og kreditering. |
 | `src/scripts/lesson.js` | I nettleseren: sjekklister (lagres i `localStorage`), Scratch-klosser og micro:bit-klosser. |
+| `src/styles/print.css` | Utskrift av oppgaver og lærerveiledninger (A4). Knappen "Skriv ut / lagre som PDF" kaller `window.print()`. Det lages ingen PDF-filer ved bygg. |
 | `src/styles/global.css` | Eira-profilen (Palette A "Fjord & Ember") og stilen på oppgavene. |
 | `astro.config.mjs` | `build.format: 'preserve'` gir `/scratch/index.html` og `/scratch/astrokatt/astrokatt.html`. En liten integrasjon serverer bilder og andre filer fra `../src` i dev og kopierer dem til `dist` ved bygg. |
 | `scripts/check-site.mjs` | Lenkesjekk etter bygg. |
@@ -109,4 +110,29 @@ Steder med kjente grenser er merket `shortcut:` i koden.
 `.github/workflows/deploy.yml` bygger og sjekker ved hver push og pull request,
 og publiserer til GitHub Pages ved push til `main`. Domenet står i
 `public/CNAME`. I GitHub må Pages være satt til "GitHub Actions" under
-Settings, Pages. Ingen hemmeligheter trengs.
+Settings, Pages. Publiseringen til GitHub Pages trenger ingen hemmeligheter.
+
+### Forhåndsvisning per pull request
+
+GitHub Pages kan ikke vise en egen versjon per PR. Derfor laster jobben
+`preview` i samme workflow opp den ferdige `dist` til Cloudflare Pages
+(prosjektet `eira-oppgaver`, gren `pr-<nummer>`) og skriver lenken i én
+kommentar på PR-en, som oppdateres ved hver ny push. Adressen blir
+`https://pr-<nummer>.eira-oppgaver.pages.dev`. Siden bruker lenker som
+starter på `/` og har ingen `base` i `astro.config.mjs`, så den virker fra
+roten av sitt eget underdomene. Mangler hemmelighetene (ikke satt opp ennå,
+eller PR fra en fork), hopper jobben over med en melding og feiler ikke.
+
+Oppsett, én gang:
+
+1. Lag prosjektet i Cloudflare: Workers & Pages, Create, Pages, "Use direct
+   upload", navn `eira-oppgaver`. Eller med Wrangler:
+   `npx wrangler pages project create eira-oppgaver --production-branch=main`.
+2. Lag en API-token: My Profile, API Tokens, Create Token, Custom token, med
+   tillatelsen Account, Cloudflare Pages, Edit, begrenset til kontoen.
+3. Finn Account ID (står i oversikten i Cloudflare-dashbordet).
+4. Legg inn to hemmeligheter i GitHub, Eirahub/eira-oppgaver, Settings,
+   Secrets and variables, Actions, New repository secret:
+   `CLOUDFLARE_API_TOKEN` og `CLOUDFLARE_ACCOUNT_ID`.
+
+Verdiene skal bare ligge i GitHub-hemmelighetene, aldri i repoet.
