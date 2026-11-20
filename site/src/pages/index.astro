@@ -24,6 +24,38 @@ const slug = (s) => `gruppe-${s.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
     <div class="lead" set:html={renderMarkdown(profile.hero.lead)} />
   </section>
 
+  <section class="site-search" id="sok" aria-labelledby="sok-tittel" hidden>
+    <h2 class="section-title" id="sok-tittel">Søk i oppgavene</h2>
+    <div id="sok-felt"></div>
+  </section>
+  <script is:inline>
+    // Pagefind's default UI. The index is built after `astro build` (npm run build), so in `npm run dev`
+    // and without JavaScript the search stays hidden.
+    (() => {
+      const box = document.getElementById('sok');
+      const css = Object.assign(document.createElement('link'), { rel: 'stylesheet', href: '/pagefind/pagefind-ui.css' });
+      const js = Object.assign(document.createElement('script'), { src: '/pagefind/pagefind-ui.js' });
+      const clean = (url) => url.replace(/\.html(?=$|#)/, ''); // same URLs as the links on the site
+      js.onload = () => {
+        new PagefindUI({
+          element: '#sok-felt',
+          showImages: false,
+          showSubResults: true,
+          resetStyles: false,
+          translations: { placeholder: 'Søk i oppgavene', zero_results: 'Fant ingen oppgaver med [SEARCH_TERM]' },
+          processResult: (r) => {
+            r.url = clean(r.url);
+            for (const s of r.sub_results || []) s.url = clean(s.url);
+            return r;
+          },
+        });
+        box.querySelector('input')?.setAttribute('aria-labelledby', 'sok-tittel');
+        box.hidden = false;
+      };
+      document.head.append(css, js);
+    })();
+  </script>
+
   {profile.teacherInfo && (
     <section class="teacher-info teacher-only" set:html={renderMarkdown(profile.teacherInfo, '/')} />
   )}
