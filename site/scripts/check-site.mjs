@@ -1,14 +1,15 @@
 // Scans dist/ for internal links, images and video files (src, href, poster) that point to nothing,
 // and checks that some known pages exist. Run after `npm run build`.
 //
-// Broken links inside lesson/course text (between data-content and data-content-end)
-// come from ../src and are reported as content errors. They do not fail the check
+// Broken links inside lesson/course text (between data-content and data-content-end),
+// or in HTML files copied as-is from ../src, come from ../src and are reported as content errors. They do not fail the check
 // unless --strict is given, since src/ is kept identical to upstream.
 // Broken links anywhere else are site bugs and fail the check.
 import fs from 'node:fs';
 import path from 'node:path';
 
 const DIST = path.resolve(import.meta.dirname, '..', 'dist');
+const SRC = path.resolve(import.meta.dirname, '..', '..', 'src');
 const strict = process.argv.includes('--strict');
 
 const MUST_EXIST = [
@@ -56,7 +57,8 @@ for (const file of htmlFiles) {
     let p;
     try { p = decodeURIComponent(target.pathname); } catch { p = target.pathname; }
     if (exists(p)) continue;
-    const inContent = start >= 0 && m.index > start && m.index < end;
+    // HTML files copied as-is from ../src are content too.
+    const inContent = (start >= 0 && m.index > start && m.index < end) || fs.existsSync(path.join(SRC, rel));
     (inContent ? contentErrors : siteErrors).push(`${rel}: ${raw}`);
   }
 }

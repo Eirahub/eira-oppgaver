@@ -1,8 +1,12 @@
 ---
 import 'highlight.js/styles/github.css';
 import '../styles/global.css';
-const { title, description = 'Gratis programmeringsoppgaver for barn og unge: Scratch, Python, micro:bit og mer. Fra Eira sine kodeklubber.' } = Astro.props;
-const fullTitle = title ? `${title} | Eira oppgaver` : 'Eira oppgaver';
+import profile from '../lib/profile.js';
+import { renderMarkdown } from '../lib/content.js';
+const { title, description = profile.description } = Astro.props;
+const fullTitle = title ? `${title} | ${profile.name}` : profile.name;
+const tokens = `:root{${Object.entries(profile.tokens).map(([k, v]) => `${k}:${v}`).join(';')}}`;
+const { logo, lockup } = profile;
 ---
 <!doctype html>
 <html lang="nb">
@@ -11,21 +15,30 @@ const fullTitle = title ? `${title} | Eira oppgaver` : 'Eira oppgaver';
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
-    <meta name="theme-color" content="#1E3A8A" />
+    {profile.favicon && <link rel="icon" href={profile.favicon} />}
+    {(profile.preload || []).map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}
+    <meta name="theme-color" content={profile.tokens['--brand-primary']} />
+    <style is:inline set:html={tokens}></style>
+    <script is:inline>
+      // Teacher mode before first paint. Same key and values as codeclub-viewer, so the choice carries over.
+      try { if (localStorage.getItem('isStudentMode') === 'false') document.documentElement.dataset.mode = 'teacher'; } catch { /* blocked storage: student mode */ }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#innhold">Hopp til innhold</a>
     <header class="site-header">
       <div class="wrap header-inner">
-        <a class="lockup" href="/" aria-label="Eira Ryfylke Kodeklubb, til forsiden">
-          <span class="lockup-mark">eira</span>
-          <span class="lockup-kicker">Ryfylke&nbsp;· Kodeklubb</span>
-        </a>
+        {logo ? (
+          <a class="lockup" href="/"><img src={logo.src} alt={logo.alt} width={logo.width} height={logo.height} /></a>
+        ) : (
+          <a class="lockup" href="/" aria-label={`${lockup.label}, til forsiden`}>
+            <span class="lockup-mark">{lockup.mark}</span>
+            <span class="lockup-kicker">{lockup.kicker}</span>
+          </a>
+        )}
         <nav aria-label="Hovedmeny">
-          <a href="/">Oppgaver</a>
-          <a href="/om-oppgavene">Om oppgavene</a>
+          {profile.nav.map((l) => <a href={l.href}>{l.label}</a>)}
+          <button type="button" class="mode-toggle" id="mode-toggle" aria-pressed="false" hidden>Lærermodus</button>
         </nav>
       </div>
     </header>
@@ -34,16 +47,28 @@ const fullTitle = title ? `${title} | Eira oppgaver` : 'Eira oppgaver';
     </main>
     <footer class="site-footer">
       <div class="wrap">
-        <p>
-          Oppgavene er laget av frivillige i <a href="https://www.kidsakoder.no/">Lær Kidsa Koding</a>
-          og hentet fra <a href="https://github.com/kodeklubben/oppgaver">kodeklubben/oppgaver</a>.
-          Innholdet er i hovedsak delt under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.no">CC BY-SA 4.0</a>.
-        </p>
-        <p>
-          <a href="/om-oppgavene">Om oppgavene og lisens</a> ·
-          <a href="https://github.com/Eirahub/eira-oppgaver">Kildekoden på GitHub</a>
-        </p>
+        <Fragment set:html={renderMarkdown(profile.footer || '')} />
+        {profile.partners.length > 0 && (
+          <ul class="partners" aria-label="Samarbeidspartnere">
+            {profile.partners.map((p) => <li><a href={p.href}><img src={p.logo} alt={p.name} /></a></li>)}
+          </ul>
+        )}
       </div>
     </footer>
+    <script is:inline>
+      (() => {
+        const root = document.documentElement;
+        const button = document.getElementById('mode-toggle');
+        const sync = () => button.setAttribute('aria-pressed', String(root.dataset.mode === 'teacher'));
+        button.hidden = false; // without JavaScript the site stays in student mode
+        sync();
+        button.addEventListener('click', () => {
+          const teacher = root.dataset.mode !== 'teacher';
+          if (teacher) root.dataset.mode = 'teacher'; else delete root.dataset.mode;
+          try { localStorage.setItem('isStudentMode', JSON.stringify(!teacher)); } catch { /* not saved, still switches */ }
+          sync();
+        });
+      })();
+    </script>
   </body>
 </html>

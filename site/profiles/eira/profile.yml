@@ -1,0 +1,77 @@
+# Profil for https://oppgaver.eirahub.no. Feltene er forklart i site/README.md.
+name: Eira oppgaver
+url: https://oppgaver.eirahub.no
+description: >-
+  Gratis programmeringsoppgaver for barn og unge: Scratch, Python, micro:bit og
+  mer. Fra Eira sine kodeklubber.
+
+# GitHub-repoet for "Rediger på GitHub" og "Rapporter et problem".
+repo: Eirahub/eira-oppgaver
+branch: main
+
+# Logo i toppen: enten `logo` (bilde i public/) eller `lockup` (levende tekst).
+lockup:
+  mark: eira
+  kicker: Ryfylke · Kodeklubb
+  label: Eira Ryfylke Kodeklubb
+favicon: /favicon.svg
+preload:
+  - /fonts/inter-latin-wght-normal.woff2
+
+nav:
+  - { label: Oppgaver, href: / }
+  - { label: Om oppgavene, href: /om-oppgavene }
+
+hero:
+  eyebrow: Gratis oppgaver
+  title: Lær å programmere
+  lead: >-
+    Oppgaver i Scratch, Python, micro:bit og mye mer, til kodeklubben, skolen og
+    hjemme. Oppgavene er laget av [Lær Kidsa Koding](https://www.kidsakoder.no/).
+
+# Vises på forsiden i lærermodus (markdown).
+teacherInfo: |
+  ## Du er i lærermodus
+
+  Nå ser du lenker til lærerveiledningene i oppgavelistene og på hver oppgave.
+  Veiledningene sier hva oppgaven lærer bort, og gir tips til hvordan du kan
+  bruke den. Bytt tilbake med knappen "Lærermodus" øverst på siden.
+
+# Bunnteksten (markdown).
+footer: |
+  Oppgavene er laget av frivillige i [Lær Kidsa Koding](https://www.kidsakoder.no/)
+  og hentet fra [kodeklubben/oppgaver](https://github.com/kodeklubben/oppgaver).
+  Innholdet er i hovedsak delt under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.no).
+
+  [Om oppgavene og lisens](/om-oppgavene) ·
+  [Kildekoden på GitHub](https://github.com/Eirahub/eira-oppgaver)
+
+# Logoer i bunnen: - { name: Navn, href: https://..., logo: /fil-i-public.png }
+partners: []
+
+# Oppgaver med denne lisensen bygges ikke. Lenker til dem går til linkTo + samme sti.
+exclude:
+  license: Code Club World
+  linkTo: https://oppgaver.kidsakoder.no
+
+# Farger og skrift (Palette A "Fjord & Ember" fra design-system-eira).
+tokens:
+  --brand-primary: "#1E3A8A"
+  --brand-primary-hover: "#16306F"
+  --brand-primary-tint: rgba(30, 58, 138, 0.12)
+  --border-card: rgba(30, 58, 138, 0.15)
+  --accent-teen: "#FF8A4C"
+  --accent-teen-ink: "#4A1A00"
+  --accent-senior: "#F4D35E"
+  --accent-senior-ink: "#3D2E00"
+  --surface-canvas: "#F5F2ED"
+  --surface-raised: "#FFFFFF"
+  --ink: "#1B1B1F"
+  --ink-2: "#3D3D42"
+  --ink-3: "#75757B"
+  --header-bg: "#1E3A8A"
+  --header-ink: "#FFFFFF"
+  --shadow-card: 0 2px 12px rgba(30, 58, 138, 0.10)
+  --shadow-lift: 0 8px 28px rgba(30, 58, 138, 0.18)
+  --font-display: '"Baloo 2", "Baloo", system-ui, sans-serif'
+  --font-sans: '"Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif'

@@ -12,9 +12,9 @@ og om det er med i første versjon av den nye siden (v1) eller kommer senere.
 | Info-popover med kursets introtekst | senere |
 | Filter på forsiden (språk, tema, fag, trinn) som skjuler kurs | senere |
 | Visning av spillelister i stedet for kurs ("Oppgavesamlinger") | senere |
-| Lærer-infoboks i lærermodus | senere |
+| Lærer-infoboks i lærermodus | v1, tekst fra profilen (`teacherInfo`) |
 | "Sist besøkt"-knapp (fortsett der du slapp) | senere |
-| Sponsorlogoer og lenker (NTNU, Samsung, excITEd, ibok osv.) | fjernet |
+| Sponsorlogoer og lenker (NTNU, Samsung, excITEd, ibok osv.) | v1 som tom liste `partners` i profilen |
 
 ## Kursside
 
@@ -31,7 +31,7 @@ og om det er med i første versjon av den nye siden (v1) eller kommer senere.
 | Eksterne oppgaver (`external:`) lenker ut | v1 |
 | Fremdriftslinje per oppgave i listen | senere |
 | Info-popover med oppgavens introtekst | senere |
-| Lenke til lærerveiledning fra listen (lærermodus) | senere |
+| Lenke til lærerveiledning fra listen (lærermodus) | v1 |
 
 ## Oppgaveside
 
@@ -48,9 +48,9 @@ og om det er med i første versjon av den nye siden (v1) eller kommer senere.
 | Bilder med alt-tekst, bildetekst for bilder alene i avsnitt | v1 |
 | `<toggle>`-hint som kan åpnes og lukkes | v1 |
 | Bunntekst med forfatter, oversetter og lisens | v1 |
-| Lenke til lærerveiledning (`README`) og tilbake til oppgaven | v1 |
+| Lenke til lærerveiledning (`README`) og tilbake til oppgaven | v1, "Til lærerveiledningen" bare i lærermodus, som før |
 | Bytte mellom språkversjoner som finnes | v1 |
-| "Forbedre denne siden" (rediger på GitHub, rapporter problem) | v1, peker til Eirahub/eira-oppgaver |
+| "Forbedre denne siden" (rediger på GitHub, rapporter problem) | v1, repo og gren fra profilen |
 | Nivåikon ved tittelen | v1 |
 | Brødsmuler (forside, kurs, oppgave) | v1 |
 | Utskrift og "lagre som PDF" (knapp, egen utskriftsstil for A4) | v1 |
@@ -59,7 +59,7 @@ og om det er med i første versjon av den nye siden (v1) eller kommer senere.
 | Video-container (`::: video [url]`) fra codeclub-viewer | senere (brukes ikke i innholdet nå, HTML5 over dekker behovet) |
 | KaTeX-matematikk | senere (brukes ikke i innholdet nå) |
 | Emoji-koder (`:smile:`) | senere (brukes ikke i innholdet nå) |
-| Elev- og lærermodus | senere |
+| Elev- og lærermodus | v1, se under |
 
 ## Hele siden
 
@@ -67,7 +67,8 @@ og om det er med i første versjon av den nye siden (v1) eller kommer senere.
 |---|---|
 | Samme URL-er: `/<kurs>/`, `/<kurs>/<mappe>/<fil>`, `/<kurs>/<mappe>/README` | v1 |
 | 404-side | v1 |
-| Eira-profil, "eira Ryfylke Kodeklubb"-logo i levende typografi, favicon | v1 |
+| Profiler (`site/profiles/`): `eira` med logo i levende typografi, `lkk` med logo, farger og meny fra codeclub-viewer | v1 |
+| Lenker til oppgaver som er holdt utenfor, går til oppgaver.kidsakoder.no (merket ↗) | v1, når profilen har `exclude` |
 | Side "Om oppgavene" med lisens og kreditering | v1 |
 | Kreditering av Lær Kidsa Koding og kodeklubben/oppgaver | v1 |
 | Oppgaver med "Code Club World"-lisens bygges ikke | v1 |
@@ -75,6 +76,21 @@ og om det er med i første versjon av den nye siden (v1) eller kommer senere.
 | Mobilvennlig, tastaturnavigering, god kontrast | v1 |
 | Velge språk for brukergrensesnittet (nb, nn, en, is, ua) | senere (bare bokmål nå) |
 | Skrift for dyslektikere | senere |
-| Navigasjon til kidsakoder.no-sider (Nyheter, Finn kodeklubb osv.) | fjernet |
+| Navigasjon til kidsakoder.no-sider (Nyheter, Finn kodeklubb osv.) | v1 i profilen `lkk`, ikke i `eira` |
 | Sitemap | senere |
 | Lenke til forum.kidsakoder.no | fjernet |
+
+## Elev- og lærermodus
+
+Som i codeclub-viewer:
+
+- Knappen "Lærermodus" står i toppen på alle sider. Det er en vanlig knapp med
+  `aria-pressed`. Uten JavaScript vises den ikke, og siden er i elevmodus.
+- Elevmodus er standard. Valget lagres i `localStorage` under `isStudentMode`
+  (`true`/`false`), samme nøkkel som codeclub-viewer, slik at valget følger med
+  på oppgaver.kidsakoder.no. Blokkert lagring gir elevmodus.
+- Lærermodus viser lærer-infoboksen på forsiden, en lenke "Lærerveiledning" ved
+  hver oppgave i kurslistene og knappen "Til lærerveiledningen" på oppgaven.
+  "Til oppgaven" på lærerveiledningen vises alltid.
+- Ikke med: codeclub-viewer byttet også fargetema (grønt for elev, blått for
+  lærer). Her viser bare knappen hvilken modus som er på.

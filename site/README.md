@@ -21,6 +21,51 @@ npm run preview      # viser dist lokalt
 
 Kommandoene må kjøres fra `site/`, fordi innholdet finnes via `../src`.
 
+## Profiler
+
+Alt som gjør siden til Eira sin eller Lær Kidsa Koding sin, ligger i
+`profiles/<navn>/`. Resten av koden har ingen navn, farger eller lenker.
+
+```
+profiles/<navn>/
+  profile.yml   navn, url, repo og gren, logo, meny, tekster, farger, partnere, exclude
+  om.md         innholdet på /om-oppgavene
+  public/       logo, favicon og CNAME (kopieres til roten av dist)
+```
+
+Velg profil med miljøvariabelen `SITE_PROFILE` (standard `eira`):
+
+```
+SITE_PROFILE=lkk npm run dev
+SITE_PROFILE=lkk npm run build && npm run check:site
+```
+
+PowerShell: `$env:SITE_PROFILE='lkk'; npm run build`.
+
+| Felt i `profile.yml` | Hva det styrer |
+|---|---|
+| `name`, `description`, `url` | Sidetittel, meta-beskrivelse og adressen siden ligger på |
+| `repo`, `branch` | "Rediger på GitHub" og "Rapporter et problem" |
+| `logo` eller `lockup` | Bilde fra `public/`, eller logo i levende tekst |
+| `favicon`, `preload` | Favicon og fonter som lastes tidlig |
+| `nav` | Lenkene i toppen |
+| `hero`, `teacherInfo`, `footer` | Tekst (markdown) på forsiden, i lærermodus og i bunnen |
+| `partners` | Logoer i bunnen: `{ name, href, logo }`. Tom liste viser ingenting |
+| `exclude` | `{ license, linkTo }`: oppgaver med lisensen bygges ikke, og lenker til dem går til `linkTo` + samme sti. `null` bygger alt |
+| `tokens` | CSS-variabler: farger, skygger, `--font-display`, `--font-sans` |
+
+Ny profil: kopier en mappe i `profiles/`, endre filene og bygg med
+`SITE_PROFILE=<navn>`. Alle feltene i `tokens` må være med, fordi
+`global.css` ikke har egne fargeverdier.
+
+**Lær Kidsa Koding:** profilen `lkk` har logoen, fargene, menyen og
+bunnteksten fra codeclub-viewer, `kodeklubben/oppgaver` på `master` og
+https://oppgaver.kidsakoder.no. Den bygger også Code Club World-oppgavene.
+I `.github/workflows/test-and-deploy.yml` kan LKK bytte ut kloning og bygging
+av codeclub-viewer med `npm ci && npm run build` i `site/` med
+`SITE_PROFILE=lkk`, og publisere `site/dist` som før. Samarbeidspartnere
+legges inn i `partners` med logoene i `profiles/lkk/public/`.
+
 ## Slik henger det sammen
 
 | Fil | Hva den gjør |
@@ -29,13 +74,14 @@ Kommandoene må kjøres fra `site/`, fordi innholdet finnes via `../src`.
 | `src/pages/index.astro` | Forsiden: kurs og kurs på andre nettsider. |
 | `src/pages/[course]/index.astro` | Kurssiden `/<kurs>/`: kursinfo, oppgavesamlinger, alle oppgaver per nivå og filteret. |
 | `src/pages/[course]/[lesson]/[file].astro` | Oppgaver og lærerveiledninger, `/<kurs>/<mappe>/<fil>`. |
-| `src/pages/om-oppgavene.astro` | Om oppgavene, lisens og kreditering. |
+| `src/pages/om-oppgavene.astro` | Viser `om.md` fra profilen. |
+| `src/lib/profile.js` | Leser profilen valgt med `SITE_PROFILE`. |
 | `src/scripts/lesson.js` | I nettleseren: sjekklister (lagres i `localStorage`), Scratch-klosser og micro:bit-klosser. |
 | `src/styles/print.css` | Utskrift av oppgaver og lærerveiledninger (A4). Knappen "Skriv ut / lagre som PDF" kaller `window.print()`. Det lages ingen PDF-filer ved bygg. |
-| `src/styles/global.css` | Eira-profilen (Palette A "Fjord & Ember") og stilen på oppgavene. |
-| `astro.config.mjs` | `build.format: 'preserve'` gir `/scratch/index.html` og `/scratch/astrokatt/astrokatt.html`. En liten integrasjon serverer bilder og andre filer fra `../src` i dev og kopierer dem til `dist` ved bygg. |
+| `src/styles/global.css` | Stilen på siden og oppgavene. Farger og skrift kommer fra profilen. |
+| `astro.config.mjs` | `build.format: 'preserve'` gir `/scratch/index.html` og `/scratch/astrokatt/astrokatt.html`. En liten integrasjon serverer bilder og andre filer fra `../src` og profilens `public/` i dev og kopierer dem til `dist` ved bygg. |
 | `scripts/check-site.mjs` | Lenkesjekk etter bygg. |
-| `public/` | Fonter (Inter og Baloo 2, OFL), nivåikoner og overskriftsikoner fra codeclub-viewer, favicon og `CNAME`. |
+| `public/` | Fonter (Inter og Baloo 2, OFL), nivåikoner og overskriftsikoner fra codeclub-viewer. |
 
 ### Regler for hva som bygges
 
@@ -48,11 +94,13 @@ Kommandoene må kjøres fra `site/`, fordi innholdet finnes via `../src`.
 - `indexed: false` i `lesson.yml`: siden bygges, men vises ikke i "Alle oppgaver".
 - `unpublished/` og mapper uten `course.yml` (for eksempel `src/sponsorer`)
   bygges ikke.
-- **Code Club World:** Oppgaver der lisensen i `lesson.yml` eller i front matter
-  nevner "Code Club World", bygges ikke, og filene deres kopieres ikke. Vilkårene
-  deres er ikke Creative Commons. Bygget skriver ut hvor mange som er holdt
-  utenfor (nå 24). Filene ligger fortsatt i `src/`, så vi kan flette fra
-  upstream som før.
+- **Code Club World:** Med profilen `eira` bygges ikke oppgaver der lisensen i
+  `lesson.yml` eller i front matter nevner "Code Club World", og filene deres
+  kopieres ikke. Vilkårene deres er ikke Creative Commons. Bygget skriver ut
+  hvor mange som er holdt utenfor (nå 24). Lenker i innholdet til disse
+  oppgavene går til samme sti på https://oppgaver.kidsakoder.no og merkes med
+  ↗. Filene ligger fortsatt i `src/`, så vi kan flette fra upstream som før.
+  Profilen `lkk` bygger dem (`exclude: null`).
 
 ### Scratch og micro:bit
 
@@ -95,8 +143,8 @@ markdown. Det virker både her og i codeclub-viewer:
 
 - Lenker og bilder i selve oppgaveteksten eller kursinfoen som ikke peker noe
   sted, er **innholdsfeil**. De skrives ut, men stopper ikke sjekken, fordi
-  `src/` skal være lik upstream. Med `--strict` stopper de også. Mange av dem
-  er lenker til Code Club World-oppgavene som er holdt utenfor.
+  `src/` skal være lik upstream. Med `--strict` stopper de også. HTML-filer
+  som er kopiert rett fra `src/`, regnes også som innhold.
 - Døde lenker andre steder er feil i siden, og da feiler sjekken.
 - Sjekken krever også at noen kjente sider finnes (forsiden, `/scratch/`,
   astrokatt med lærerveiledning og nynorsk, og de nye kursene).
