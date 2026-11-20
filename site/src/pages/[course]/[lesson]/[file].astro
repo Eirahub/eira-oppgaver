@@ -28,7 +28,9 @@ const issue = `${profile.issueUrl}?title=${encodeURIComponent(`Problem med ${c.t
     <span aria-current="page">{f.title}</span>
   </nav>
 
-  <article class="lesson" lang={htmlLang}>
+  {/* Search (Pagefind) indexes lessons only, not teacher guides: title from the h1, course as filter. */}
+  <article class="lesson" lang={htmlLang} data-pagefind-body={f.isReadme ? undefined : ''}>
+    {!f.isReadme && <span hidden data-pagefind-filter="Kurs" data-pagefind-meta="kurs">{c.title}</span>}
     <header class="lesson-header">
       {f.isReadme && <p class="eyebrow" lang="nb">Lærerveiledning</p>}
       <h1>
@@ -38,7 +40,7 @@ const issue = `${profile.issueUrl}?title=${encodeURIComponent(`Problem med ${c.t
       {f.author && <p class="byline">Skrevet av: <Fragment set:html={renderInline(f.author)} /></p>}
       {f.translator && <p class="byline">Oversatt av: <Fragment set:html={renderInline(f.translator)} /></p>}
 
-      <div class="lesson-actions" lang="nb">
+      <div class="lesson-actions" lang="nb" data-pagefind-ignore="all">
         {counterpart && (
           <a class:list={['button', { 'teacher-only': !f.isReadme }]} href={counterpart.url}>{f.isReadme ? 'Til oppgaven' : 'Til lærerveiledningen'}</a>
         )}
@@ -51,13 +53,13 @@ const issue = `${profile.issueUrl}?title=${encodeURIComponent(`Problem med ${c.t
           </span>
         )}
       </div>
-      <div class="progress" id="progress" hidden lang="nb">
+      <div class="progress" id="progress" hidden lang="nb" data-pagefind-ignore="all">
         <progress id="progress-bar" max="1" value="0" aria-labelledby="progress-text"></progress>
         <span id="progress-text"></span>
         <button type="button" class="button secondary" id="reset">Fjern avkrysninger</button>
       </div>
       <p class="sync-status" id="sync-status" role="status" lang="nb"></p>
-      <dialog class="qr-dialog" id="qr-dialog" aria-labelledby="qr-title" lang="nb">
+      <dialog class="qr-dialog" id="qr-dialog" aria-labelledby="qr-title" lang="nb" data-pagefind-ignore="all">
         <h2 id="qr-title">Åpne på mobilen</h2>
         <p>Skann koden med kameraet på mobilen. Avkrysningene dine blir med.</p>
         <div class="qr-code" id="qr-code"></div>
@@ -74,7 +76,7 @@ const issue = `${profile.issueUrl}?title=${encodeURIComponent(`Problem med ${c.t
     <div class="lesson-content" data-content data-lang={f.language} data-key={`checkboxes_${c.course}/${lesson.lesson}/${f.file}`} set:html={html} />
     <span data-content-end hidden></span>
 
-    <footer class="lesson-footer" lang="nb">
+    <footer class="lesson-footer" lang="nb" data-pagefind-ignore="all">
       <p>Lisens: <Fragment set:html={renderInline(lesson.license)} /></p>
       <section class="improve" aria-labelledby="forbedre">
         <h2 id="forbedre">Forbedre denne siden</h2>
