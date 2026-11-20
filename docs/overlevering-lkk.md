@@ -147,8 +147,8 @@ bør bestemme om de vil beholde den mørkere grønnen eller den opprinnelige.
 - 24 oppgaver har lisensen "Code Club World Limited Terms of Service". De er
   ikke Creative Commons. Eira-profilen bygger dem ikke og lenker til
   oppgaver.kidsakoder.no i stedet. LKK-profilen bygger dem (`exclude: null`).
-- Koden i `site/`: repoet har foreløpig ingen lisensfil for den. Eira tilbyr
-  den på samme vilkår som codeclub-viewer (ISC).
+- Koden i `site/` er MIT-lisensiert (`site/LICENSE`). LKK kan ta den inn,
+  endre den og bruke den fritt.
 
 ## Kontakt
 
