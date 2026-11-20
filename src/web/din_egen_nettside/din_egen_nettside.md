@@ -13,9 +13,11 @@ at nettsiden skal handle om og lage innholdet selv (tekst, bilder, video etc.)
 
 Dersom du ikke har gjort dem allerede, anbefaler vi å ta en titt på oppgavene i samlingen _Intro til web_ før du setter i gang med denne oppgaven:
 
-- [HTML: Introduksjon til Web](../introduksjon_til_web/introduksjon_til_web.html){target=_blank}
+- [HTML: Hva er en nettside?](../hva_er_en_nettside/hva_er_en_nettside.html){target=_blank}
 
-- [HTML: Vi bygger hjemmeside](../en_hjemmeside/en_hjemmeside.html){target=_blank}
+- [HTML: Min første nettside](../min_forste_nettside/min_forste_nettside.html){target=_blank}
+
+- [Lag nettsider i VS Code](../vs_code/vs_code.html){target=_blank}
 
 - [HTML: Forsvunnet katt](../forsvunnet_katt/forsvunnet_katt.html){target=_blank}
 
@@ -23,9 +25,7 @@ Dersom du ikke har gjort dem allerede, anbefaler vi å ta en titt på oppgavene 
 
 - [CSS: Endre utseende og stil på tekst](../tekststil/tekststil.html){target=_blank}
 
-- [CSS: Skjul ninjaene](../skjul_ninjaene/skjul_ninjaene.html){target=_blank}
-
-- [HTML: Legg til lyd og video](../lyd_og_video/lyd_og_video.html){target=_blank}
+- [HTML: Video og lyd](../video_og_lyd/video_og_lyd.html){target=_blank}
 
 # Steg 1: Utforming av nettsiden {.activity}
 
