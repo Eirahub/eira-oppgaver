@@ -4,6 +4,7 @@ title:
   nn: 'Java frå start'
   en: 'Java from the start'
 lessons:
+  - installasjon
   - hei_java
   - variabler
   - valg_og_lokker

@@ -123,6 +123,7 @@ function loadCourse(course) {
       };
     }).filter((p) => p.lessons.length).sort((a, b) => a.sortindex - b.sortindex)
     : [];
+  playlists.flatMap((p) => p.lessons).forEach((l, i) => { l.pos ??= i; }); // order in the playlists
   const info = pickLang(infos) || { title: course, external: '', body: '' };
   return {
     course, lessons, excluded, playlists,
