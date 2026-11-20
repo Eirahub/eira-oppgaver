@@ -9,15 +9,15 @@ import mdSections from 'markdown-it-header-sections';
 import mdFigures from 'markdown-it-implicit-figures';
 import mdTaskCheckbox from 'markdown-it-task-checkbox';
 import hljs from 'highlight.js';
+import profile from './profile.js';
 
 export const REPO = path.resolve(process.cwd(), '..');
 export const SRC = path.join(REPO, 'src');
 const FILTERTAGS = path.join(REPO, 'filtertags');
-export const EDIT_BASE = 'https://github.com/Eirahub/eira-oppgaver/edit/main/src';
-export const ISSUE_URL = 'https://github.com/Eirahub/eira-oppgaver/issues/new';
 const DEFAULT_LICENSE = '[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.no)';
-// Lessons under these terms are not CC licensed and are left out of the build.
-const EXCLUDED_LICENSE = /code club world/i;
+// Lessons under this license are left out of the build if the profile says so (exclude.license).
+const EXCLUDED_LICENSE = profile.exclude?.license?.toLowerCase();
+const isExcluded = (license) => !!EXCLUDED_LICENSE && license.toLowerCase().includes(EXCLUDED_LICENSE);
 
 const readYaml = (file) => YAML.parse(fs.readFileSync(file, 'utf8')) || {};
 const isDir = (p) => fs.existsSync(p) && fs.statSync(p).isDirectory();
@@ -91,7 +91,7 @@ function loadLesson(course, lesson, dir) {
     tags: cleanTags(yml.tags),
     indexed: yml.indexed !== false,
     license: license || DEFAULT_LICENSE,
-    excluded: EXCLUDED_LICENSE.test(license) || files.some((f) => EXCLUDED_LICENSE.test(f.license)),
+    excluded: isExcluded(license) || files.some((f) => isExcluded(f.license)),
   };
 }
 
@@ -142,9 +142,9 @@ export function getCourses() {
     .map(loadCourse)
     .sort((a, b) => a.title.localeCompare(b.title, 'nb'));
   const excluded = cache.flatMap((c) => c.excluded);
-  if (globalThis.eiraLogged) return cache; // the config and the pages load this module separately
-  globalThis.eiraLogged = true;
-  console.log(`[eira] ${excluded.length} oppgaver med "Code Club World"-lisens er holdt utenfor bygget.`);
+  if (globalThis.siteLogged || !EXCLUDED_LICENSE) return cache; // the config and the pages load this module separately
+  globalThis.siteLogged = true;
+  console.log(`[${profile.name}] ${excluded.length} oppgaver med "${profile.exclude.license}"-lisens er holdt utenfor bygget.`);
   return cache;
 }
 
@@ -179,8 +179,23 @@ const md = new MarkdownIt({
 
 const ICONS = { check: 'check', flag: 'flag', save: 'save' };
 
-export function renderMarkdown(body) {
-  return md.render(body)
+// Links to excluded lessons go to the same path on exclude.linkTo, marked as external.
+function linkExcluded(html, pageUrl) {
+  if (!EXCLUDED_LICENSE || !pageUrl) return html;
+  const excluded = new Set(getCourses().flatMap((c) => c.excluded.map((l) => `${c.course}/${l.lesson}`)));
+  return html.replace(/<a href="([^"]*)"/g, (m, href) => {
+    if (/^(#|[a-z][a-z0-9+.-]*:|\/\/)/i.test(href)) return m; // anchors, http:, mailto: ...
+    const u = new URL(href.replace(/&amp;/g, '&'), `https://x.invalid${pageUrl}`);
+    let [, course, lesson] = u.pathname.split('/');
+    try { course = decodeURIComponent(course); lesson = decodeURIComponent(lesson ?? ''); } catch { return m; }
+    if (!excluded.has(`${course}/${lesson}`)) return m;
+    return `<a class="external" href="${profile.exclude.linkTo}${u.pathname}${u.search}${u.hash}"`;
+  });
+}
+
+// pageUrl is the URL of the page the markdown is shown on, for resolving relative links.
+export function renderMarkdown(body, pageUrl) {
+  return linkExcluded(md.render(body), pageUrl)
     // <toggle><strong>Hint</strong><hide>...</hide></toggle> becomes a native disclosure.
     .replace(/<toggle>\s*(?:<strong>([\s\S]*?)<\/strong>)?\s*<hide>/g, (_, label) =>
       `<details class="toggle"><summary>${label || 'Hint'}</summary><div>`)

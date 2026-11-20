@@ -1,5 +1,4 @@
-/* Eira design tokens, Palette A "Fjord & Ember", from design-system-eira/colors_and_type.css.
-   Fonts are self-hosted in public/fonts (no font CDN). */
+/* Site styles. Fonts are self-hosted in public/fonts (no font CDN); a profile picks which to use. */
 @font-face {
   font-family: "Inter";
   src: url("/fonts/inter-latin-wght-normal.woff2") format("woff2");
@@ -22,23 +21,8 @@
 }
 
 :root {
-  --brand-primary: #1E3A8A;
-  --brand-primary-hover: #16306F;
-  --brand-primary-press: #0E2655;
-  --brand-primary-tint: rgba(30, 58, 138, 0.12);
-  --border-card: rgba(30, 58, 138, 0.15);
-  --accent-teen: #FF8A4C;
-  --accent-teen-ink: #4A1A00;
-  --accent-senior: #F4D35E;
-  --accent-senior-ink: #3D2E00;
-  --surface-canvas: #F5F2ED;
-  --surface-raised: #FFFFFF;
-  --ink: #1B1B1F;
-  --ink-2: #3D3D42;
-  --ink-3: #75757B;
-
-  --font-display: "Baloo 2", "Baloo", system-ui, sans-serif;
-  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  /* Colours, shadows, --font-display and --font-sans come from the site profile
+     (profiles/<name>/profile.yml, written into <head> by Base.astro). */
   --font-mono: ui-monospace, "Cascadia Code", Consolas, "Liberation Mono", monospace;
 
   --fs-eyebrow: 0.75rem;
@@ -54,8 +38,6 @@
   --radius-pill: 8px;
   --radius-card: 16px;
   --radius-full: 9999px;
-  --shadow-card: 0 2px 12px rgba(30, 58, 138, 0.10);
-  --shadow-lift: 0 8px 28px rgba(30, 58, 138, 0.18);
   --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
   --dur-base: 200ms;
 }
@@ -104,21 +86,39 @@ main.wrap { padding-bottom: var(--space-7); min-height: 60vh; }
 .button.secondary { background: var(--surface-raised); color: var(--brand-primary); }
 .button.secondary:hover { background: var(--brand-primary-tint); color: var(--brand-primary); }
 
-/* ---------- Header: blue band with the live-type lockup ---------- */
-.site-header { background: var(--brand-primary); color: #fff; }
+/* ---------- Header: band with the logo or live-type lockup ---------- */
+.site-header { background: var(--header-bg); color: var(--header-ink); }
 .header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-2) var(--space-5); padding-top: var(--space-3); padding-bottom: var(--space-3); }
-.site-header :focus-visible { outline-color: #fff; }
-.lockup { display: inline-flex; align-items: baseline; gap: 12px; line-height: 1; text-decoration: none; color: #fff; }
-.lockup:hover { color: #fff; }
+.site-header :focus-visible { outline-color: var(--header-ink); }
+.lockup { display: inline-flex; align-items: baseline; gap: 12px; line-height: 1; text-decoration: none; color: var(--header-ink); }
+.lockup:hover { color: var(--header-ink); }
+.lockup img { display: block; height: auto; }
 .lockup-mark { font-family: var(--font-display); font-weight: 700; font-size: 44px; letter-spacing: -0.015em; }
-.lockup-kicker { font: 700 10px/1 "Inter", sans-serif; letter-spacing: 0.28em; text-transform: uppercase; color: rgba(255, 255, 255, 0.82); padding-bottom: 5px; }
-.site-header nav { display: flex; gap: var(--space-2); }
-.site-header nav a { color: #fff; font-weight: 600; text-decoration: none; padding: var(--space-3) var(--space-3); border-radius: var(--radius-pill); }
-.site-header nav a:hover { background: rgba(255, 255, 255, 0.12); text-decoration: underline; }
+.lockup-kicker { font: 700 10px/1 var(--font-sans); letter-spacing: 0.28em; text-transform: uppercase; color: color-mix(in srgb, var(--header-ink) 82%, transparent); padding-bottom: 5px; }
+.site-header nav { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-1) var(--space-2); }
+.site-header nav a { color: var(--header-ink); font-weight: 600; text-decoration: none; padding: var(--space-3) var(--space-3); border-radius: var(--radius-pill); }
+.site-header nav a:hover { background: color-mix(in srgb, var(--header-ink) 12%, transparent); text-decoration: underline; }
+
+/* Student/teacher mode: html[data-mode="teacher"] is set from localStorage before paint */
+.mode-toggle {
+  display: inline-flex; align-items: center; gap: var(--space-2); min-height: 44px; padding: var(--space-2) var(--space-3);
+  border: 2px solid var(--header-ink); border-radius: var(--radius-pill); background: transparent; color: var(--header-ink);
+  font: 600 var(--fs-body-sm)/1.2 var(--font-sans); cursor: pointer;
+}
+.mode-toggle::before { content: ""; width: 1.6em; height: 0.9em; border-radius: var(--radius-full); border: 2px solid currentColor; background: radial-gradient(circle at 30% 50%, currentColor 32%, transparent 36%); }
+.mode-toggle[aria-pressed="true"] { background: var(--header-ink); color: var(--header-bg); }
+.mode-toggle[aria-pressed="true"]::before { background: radial-gradient(circle at 70% 50%, currentColor 32%, transparent 36%); }
+html:not([data-mode="teacher"]) .teacher-only { display: none !important; }
+.teacher-info { background: var(--surface-raised); border-left: 6px solid var(--brand-primary); border-radius: var(--radius-card); box-shadow: var(--shadow-card); padding: var(--space-1) var(--space-5) var(--space-3); margin-top: var(--space-5); max-width: 52rem; }
+.teacher-info h2 { margin-top: var(--space-3); }
+.lesson-readme { font-size: var(--fs-body-sm); white-space: nowrap; }
+a.external::after { content: " ↗" / " (ekstern side)"; }
 
 /* ---------- Footer ---------- */
 .site-footer { background: var(--surface-raised); border-top: 1px solid var(--border-card); color: var(--ink-2); font-size: var(--fs-body-sm); padding: var(--space-5) 0; }
 .site-footer p { margin: var(--space-2) 0; }
+.partners { display: flex; flex-wrap: wrap; gap: var(--space-4); align-items: center; list-style: none; padding: 0; margin: var(--space-4) 0 0; }
+.partners img { height: 50px; width: auto; }
 
 /* ---------- Front page ---------- */
 .hero { padding: var(--space-6) 0 var(--space-3); max-width: 44rem; }

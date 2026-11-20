@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
-import { getCourses, renderMarkdown, renderInline, excerpt, pickLang, tagName, EDIT_BASE, ISSUE_URL } from '../../../lib/content.js';
+import { getCourses, renderMarkdown, renderInline, excerpt, pickLang, tagName } from '../../../lib/content.js';
+import profile from '../../../lib/profile.js';
 
 export function getStaticPaths() {
   return getCourses().filter((c) => !c.isExternal).flatMap((c) =>
@@ -11,13 +12,13 @@ export function getStaticPaths() {
 }
 
 const { c, lesson, f } = Astro.props;
-const html = renderMarkdown(f.body);
+const html = renderMarkdown(f.body, f.url);
 const internal = lesson.files.filter((x) => !x.external);
 const counterpart = pickLang(internal.filter((x) => x.isReadme !== f.isReadme), f.language);
 const variants = internal.filter((x) => x.isReadme === f.isReadme && x !== f);
 const htmlLang = f.language === 'ua' ? 'uk' : f.language;
-const pageUrl = `https://oppgaver.eirahub.no${f.url}`;
-const issue = `${ISSUE_URL}?title=${encodeURIComponent(`Problem med ${c.title}: ${f.title}`)}&body=${encodeURIComponent(`Side: ${pageUrl}\nKilde: ${EDIT_BASE.replace('/edit/', '/blob/')}/${f.source}\n\nBeskriv problemet her.\n`)}`;
+const pageUrl = `${profile.url}${f.url}`;
+const issue = `${profile.issueUrl}?title=${encodeURIComponent(`Problem med ${c.title}: ${f.title}`)}&body=${encodeURIComponent(`Side: ${pageUrl}\nKilde: ${profile.blobBase}/${f.source}\n\nBeskriv problemet her.\n`)}`;
 ---
 <Base title={f.isReadme ? `Lærerveiledning: ${f.title}` : f.title} description={excerpt(html)}>
   <nav class="breadcrumb" aria-label="Brødsmuler">
@@ -38,7 +39,7 @@ const issue = `${ISSUE_URL}?title=${encodeURIComponent(`Problem med ${c.title}: 
 
       <div class="lesson-actions" lang="nb">
         {counterpart && (
-          <a class="button" href={counterpart.url}>{f.isReadme ? 'Til oppgaven' : 'Til lærerveiledningen'}</a>
+          <a class:list={['button', { 'teacher-only': !f.isReadme }]} href={counterpart.url}>{f.isReadme ? 'Til oppgaven' : 'Til lærerveiledningen'}</a>
         )}
         {variants.length > 0 && (
           <span class="variants">Også på:
@@ -62,7 +63,7 @@ const issue = `${ISSUE_URL}?title=${encodeURIComponent(`Problem med ${c.title}: 
         <h2 id="forbedre">Forbedre denne siden</h2>
         <p>Funnet en feil eller noe som kunne vært bedre? Si fra, eller rett det selv på GitHub.</p>
         <p>
-          <a class="button" href={`${EDIT_BASE}/${f.source}`}>Rediger på GitHub</a>
+          <a class="button" href={`${profile.editBase}/${f.source}`}>Rediger på GitHub</a>
           <a class="button secondary" href={issue}>Rapporter et problem</a>
         </p>
       </section>

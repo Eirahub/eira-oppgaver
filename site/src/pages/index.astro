@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
-import { getCourses } from '../lib/content.js';
+import { getCourses, renderMarkdown } from '../lib/content.js';
+import profile from '../lib/profile.js';
 
 const courses = getCourses();
 const internal = courses.filter((c) => !c.isExternal && c.lessons.length);
@@ -9,13 +10,14 @@ const count = (c) => c.lessons.filter((l) => l.indexed).length;
 ---
 <Base>
   <section class="hero">
-    <p class="eyebrow">Gratis oppgaver</p>
-    <h1>Lær å programmere</h1>
-    <p class="lead">
-      Oppgaver i Scratch, Python, micro:bit og mye mer, til kodeklubben, skolen og hjemme.
-      Oppgavene er laget av <a href="https://www.kidsakoder.no/">Lær Kidsa Koding</a>.
-    </p>
+    <p class="eyebrow">{profile.hero.eyebrow}</p>
+    <h1>{profile.hero.title}</h1>
+    <div class="lead" set:html={renderMarkdown(profile.hero.lead)} />
   </section>
+
+  {profile.teacherInfo && (
+    <section class="teacher-info teacher-only" set:html={renderMarkdown(profile.teacherInfo, '/')} />
+  )}
 
   <h2 class="section-title">Kurs</h2>
   <ul class="course-grid">

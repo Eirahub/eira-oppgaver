@@ -1,8 +1,9 @@
 ---
-import { mainFile, tagName } from '../lib/content.js';
+import { mainFile, pickLang, tagName } from '../lib/content.js';
 const { lesson } = Astro.props;
 const main = mainFile(lesson);
 const others = lesson.files.filter((f) => !f.isReadme && f !== main);
+const readme = main && pickLang(lesson.files.filter((f) => f.isReadme && !f.external), main.language);
 const langs = [...new Set(lesson.files.filter((f) => !f.isReadme).map((f) => f.language))];
 const tags = Object.entries(lesson.tags).flatMap(([g, list]) => list.map((t) => `${g}:${t}`));
 ---
@@ -13,6 +14,7 @@ const tags = Object.entries(lesson.tags).flatMap(([g, list]) => list.map((t) => 
       <span>{main.title}</span>
       {main.external && <span class="ext" aria-label="(ekstern side)">↗</span>}
     </a>
+    {readme && <a class="lesson-readme teacher-only" href={readme.url}>Lærerveiledning</a>}
     {others.length > 0 && (
       <span class="lesson-langs">
         {others.map((f) => <a href={f.external || f.url} hreflang={f.language === 'ua' ? 'uk' : f.language}>{tagName('language', f.language)}</a>)}

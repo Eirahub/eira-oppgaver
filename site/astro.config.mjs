@@ -3,23 +3,27 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { getCourses, SRC } from './src/lib/content.js';
+import profile, { PROFILE_DIR } from './src/lib/profile.js';
 
-// Lesson images and other files live next to the markdown in ../src.
-// They are served from there in dev and copied into dist on build,
-// except markdown/yaml, excluded lessons and folders that are not courses.
+// Lesson images and other files live next to the markdown in ../src, and the profile's
+// logo, favicon and CNAME in profiles/<name>/public. They are served from there in dev
+// and copied into dist on build, except markdown/yaml, excluded lessons and folders
+// that are not courses. Returns a map from URL path (no leading slash) to file.
 function assetPaths() {
-  const out = [];
-  const walk = (dir, rel, skip) => {
+  const out = new Map();
+  const walk = (dir, rel, skip, base) => {
     for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
       const r = rel ? `${rel}/${e.name}` : e.name;
       if (skip.has(r)) continue;
-      if (e.isDirectory()) walk(path.join(dir, e.name), r, skip);
-      else if (!/\.(md|ya?ml)$/i.test(e.name)) out.push(r);
+      if (e.isDirectory()) walk(path.join(dir, e.name), r, skip, base);
+      else if (!/\.(md|ya?ml)$/i.test(e.name)) out.set(r, path.join(base, r));
     }
   };
   for (const c of getCourses()) {
-    walk(path.join(SRC, c.course), c.course, new Set(c.excluded.map((l) => `${c.course}/${l.lesson}`)));
+    walk(path.join(SRC, c.course), c.course, new Set(c.excluded.map((l) => `${c.course}/${l.lesson}`)), SRC);
   }
+  const pub = path.join(PROFILE_DIR, 'public');
+  if (fs.existsSync(pub)) walk(pub, '', new Set(), pub);
   return out;
 }
 
@@ -27,34 +31,34 @@ function assetPaths() {
 const TYPES = { '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.gif': 'image/gif', '.pdf': 'application/pdf', '.mp4': 'video/mp4', '.webm': 'video/webm', '.vtt': 'text/vtt' };
 
 const lessonAssets = {
-  name: 'eira-lesson-assets',
+  name: 'lesson-assets',
   hooks: {
     'astro:server:setup': ({ server }) => {
-      const allowed = new Set(assetPaths());
+      const allowed = assetPaths();
       server.middlewares.use((req, res, next) => {
         const rel = decodeURIComponent((req.url || '').split('?')[0]).replace(/^\//, '');
         if (!allowed.has(rel)) return next();
         const type = TYPES[path.extname(rel).toLowerCase()];
         if (type) res.setHeader('Content-Type', type);
         res.setHeader('Cache-Control', 'no-cache');
-        fs.createReadStream(path.join(SRC, rel)).pipe(res);
+        fs.createReadStream(allowed.get(rel)).pipe(res);
       });
     },
     'astro:build:done': ({ dir, logger }) => {
       const dist = fileURLToPath(dir);
       const files = assetPaths();
-      for (const rel of files) {
+      for (const [rel, from] of files) {
         const to = path.join(dist, rel);
         fs.mkdirSync(path.dirname(to), { recursive: true });
-        fs.copyFileSync(path.join(SRC, rel), to);
+        fs.copyFileSync(from, to);
       }
-      logger.info(`Kopierte ${files.length} filer fra ../src`);
+      logger.info(`Kopierte ${files.size} filer fra ../src og profilen "${profile.name}"`);
     },
   },
 };
 
 export default defineConfig({
-  site: 'https://oppgaver.eirahub.no',
+  site: profile.url,
   // index.astro -> /kurs/index.html, [file].astro -> /kurs/mappe/fil.html (same URLs as the old site)
   build: { format: 'preserve' },
   integrations: [lessonAssets],
