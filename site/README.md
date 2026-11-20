@@ -16,7 +16,7 @@ npm install
 npm run dev          # http://localhost:4321
 npm run build        # bygger til site/dist
 npm run check:site   # sjekker dist for døde lenker og viktige sider
-npm test             # tester koden for fremdrift i lenken (node --test)
+npm test             # tester for logikk uten DOM (scripts/*.test.mjs)
 npm run preview      # viser dist lokalt
 ```
 
@@ -72,7 +72,8 @@ legges inn i `partners` med logoene i `profiles/lkk/public/`.
 | Fil | Hva den gjør |
 |---|---|
 | `src/lib/content.js` | Leser kurs, oppgaver, spillelister og tagger, og gjør markdown om til HTML (markdown-it med samme tillegg som codeclub-viewer: attrs, header-sections, implicit-figures, task-checkbox). |
-| `src/pages/index.astro` | Forsiden: kurs og kurs på andre nettsider. |
+| `src/pages/index.astro` | Forsiden: kursene etter teknologi eller alfabetisk (se under). |
+| `src/data/kursgrupper.yml` | Gruppene på forsiden: tittel og kursmapper i rekkefølge. Gruppen uten `courses` får resten. En profil kan ha sin egen `kursgrupper.yml`. |
 | `src/pages/[course]/index.astro` | Kurssiden `/<kurs>/`: kursinfo, oppgavesamlinger, alle oppgaver per nivå og filteret. |
 | `src/pages/[course]/[lesson]/[file].astro` | Oppgaver og lærerveiledninger, `/<kurs>/<mappe>/<fil>`. |
 | `src/pages/om-oppgavene.astro` | Viser `om.md` fra profilen. |
@@ -104,6 +105,16 @@ legges inn i `partners` med logoene i `profiles/lkk/public/`.
   ↗. Filene ligger fortsatt i `src/`, så vi kan flette fra upstream som før.
   Profilen `lkk` bygger dem (`exclude: null`).
 
+### Kursene på forsiden
+
+Forsiden viser kursene "Etter teknologi" (standard, også uten JavaScript)
+eller "Alfabetisk". Valget lagres i `localStorage` under `kursvisning`.
+Gruppene står i `src/data/kursgrupper.yml`, fordi taggene i `course.yml` ikke
+sier hvilken teknologi kurset bruker. Et nytt kurs som ikke står der, havner
+i "Andre". I gruppene står kurs på andre nettsider sammen med de andre, merket
+↗. Den alfabetiske visningen har dem i egen seksjon, som før. `npm test`
+sjekker at alle navnene i fila finnes i `src/`.
+
 ### Scratch og micro:bit
 
 - ` ```blocks ` og `` `...`{.b} `` tegnes i nettleseren med
@@ -116,6 +127,44 @@ legges inn i `partners` med logoene i `profiles/lkk/public/`.
 - ` ```microbit ` tegnes av MakeCode i en skjult iframe
   (`makecode.microbit.org/--docs?render=1`), som i codeclub-viewer. Koden står
   som tekst til bildet er klart, og blir stående hvis MakeCode ikke svarer.
+
+### Prøv selv (` ```html-live `)
+
+En kodeblokk med info-strengen `html-live` inneholder et helt HTML-dokument
+(HTML, CSS i `<style>`, JavaScript i `<script>`). Her blir den et kodefelt
+med resultatet ved siden av. I codeclub-viewer vises den som en vanlig
+kodeblokk, så innholdet virker også oppstrøms.
+
+````markdown
+```html-live
+<!DOCTYPE html>
+<html>
+<head>
+  <style>h1 { color: tomato; }</style>
+</head>
+<body>
+  <h1>Hei!</h1>
+  <script>console.log('Hei fra konsollen');</script>
+</body>
+</html>
+```
+````
+
+- Resultatet kjører i `<iframe sandbox="allow-scripts allow-modals" srcdoc>`,
+  uten `allow-same-origin`. Koden når verken siden eller `localStorage` til
+  siden.
+- Resultatet oppdateres mens eleven skriver, og med "Kjør". Kode med
+  `<script>` eller `onclick=` og lignende kjøres bare med "Kjør" (og når
+  siden lastes), så en halvskrevet løkke ikke henger fanen. "Tilbakestill"
+  henter den opprinnelige koden, og "Last ned som fil" lagrer `index.html`
+  for å jobbe videre i VS Code.
+- `console.log` og feil vises under resultatet.
+- Endringer lagres i `localStorage` per side og blokk.
+- Tab gir to mellomrom. Esc og så Tab, Shift+Tab eller Ctrl+M slipper
+  fokus ut av feltet.
+- Uten JavaScript og på utskrift vises bare koden.
+- Logikken er i `src/scripts/html-live.js` og `html-live-doc.js`
+  (testet med `npm test`).
 
 ### Video i oppgaver
 

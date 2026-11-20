@@ -65,7 +65,7 @@ __Tidsbruk__: Enkelttime
 - [ ] __Forutsetninger__: God kjennskap til HTML og gjort [CSS: Style
   nettsider](../style_nettsider/style_nettsider.html){target=_blank}.
 
-- [ ] __Utstyr__: Datamaskin med internett og tekstbehandlingsverktøy
+- [ ] __Utstyr__: Datamaskin med internett og [VS Code](../vs_code/vs_code.html)
 
 ## Fremgangsmåte
 

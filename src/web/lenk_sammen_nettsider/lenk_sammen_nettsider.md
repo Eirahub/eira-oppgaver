@@ -37,7 +37,7 @@ Prøv hintene under og sørg for at sidene ligger i samme mappe.
 
 <br/>
 
-Dersom du bruker [`<nav>`-taggen](http://www.w3schools.com/tags/tag_nav.asp){target=_blank} fra
+Dersom du bruker [`<nav>`-taggen](https://www.w3schools.com/tags/tag_nav.asp){target=_blank} fra
 oppgave [“Del inn nettsiden"](../del_inn_nettsiden/del_inn_nettsiden.html){target=_blank}, så
 kan du legge lenkene inne i `<nav>`-taggen.
 
@@ -83,6 +83,6 @@ hvordan vi delte inn nettsiden ved hjelp av `<div>`- og `<nav>`-tagger.
 
 # TIPS {.challenge}
 
-Bruk gjerne [w3schools](http://www.w3schools.com/){target=_blank} for å få enda mer hjelp eller
+Bruk gjerne [w3schools](https://www.w3schools.com/){target=_blank} for å få enda mer hjelp eller
 lese mer om HTML-tagger. Dersom det er vanskelig språk så spør du en voksen,
 lærere eller veileder.

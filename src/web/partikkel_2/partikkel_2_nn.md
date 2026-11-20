@@ -9,28 +9,28 @@ language: nn
 # Introduksjon {.intro}
 
 Denne oppgåva byggjer på koden du skreiv i oppgåva
-[Partikkel-animasjon](https://oppgaver.kidsakoder.no/web/partikkel_animasjon/partikkel_animasjon_nn). 
-Så viss du ikkje har gjort den anbefalar me at du ser på den før du fortset 
-med denne oppgåva.
+[Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon_nn.html). Så
+viss du ikkje har gjort den anbefalar me at du ser på den før du fortset med
+denne oppgåva.
 
 Her skal me vidareutvikle `partikkel`-animasjonen vår slik at den ser slik ut:
 
 <canvas id="canvas" width="500" height="500"></canvas>
 
 <script>
-        var canvas, ctx;
-        var partikkelListe = [];
+        let canvas, ctx;
+        const partikkelListe = [];
 
-        window.onload = function(){
+        window.addEventListener("load", function () {
             canvas = document.getElementById("canvas");
             ctx = canvas.getContext("2d");
             setInterval(draw, 30);
-        };
+        });
 
         //Teiknar og skyt particle opp
         function draw(){
 
-            var particle = {
+            let particle = {
                 x: 250,
                 y: 250,
                 xSpeed: Math.floor(Math.random()*20 - Math.random()*20),
@@ -44,7 +44,7 @@ Her skal me vidareutvikle `partikkel`-animasjonen vår slik at den ser slik ut:
             ctx.clearRect(0,0,500,500);
 
 
-            for (var i=0; i<partikkelListe.length; i++) {
+            for (let i = 0; i < partikkelListe.length; i++) {
                 particle = partikkelListe[i];
 
 
@@ -101,7 +101,7 @@ Me skal analysere punkta og sjå på kva me må programmere. Me startar på topp
 ## {.tip}
 
 ```js
-xSpeed: Math.floor(Math.random()*20 - Math.random()*20));
+xSpeed: Math.floor(Math.random()*20 - Math.random()*20),
 ```
 
 Dette gjer at du får eit positivt eller negativt tal med varierande hastigheit
@@ -120,6 +120,65 @@ til å bevege seg over alt på skjermen.
 
 __Prøv sjølv fyrst! Viss du ikkje får det til kan du nytte hinta under.__
 
+Start med koden frå
+[Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon_nn.html). Den
+teiknar éin partikkel som flyttar seg. Byggj vidare på den:
+
+```html-live
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Partikkel-fest</title>
+  <style>
+    body {
+      background-color: #666;
+    }
+
+    #canvas {
+      background-color: #000;
+    }
+  </style>
+  <script>
+    let canvas, ctx;
+
+    const particle = {
+      x: 250,
+      y: 250,
+      xSpeed: 2,
+      ySpeed: 2,
+      size: 10,
+      farge: "red"
+    };
+
+    window.addEventListener("load", function () {
+      canvas = document.getElementById("canvas");
+      ctx = canvas.getContext("2d");
+      setInterval(draw, 30);
+    });
+
+    function draw() {
+      ctx.clearRect(0, 0, 500, 500);
+
+      ctx.fillStyle = particle.farge;
+      ctx.fillRect(particle.x, particle.y, particle.size, particle.size);
+
+      particle.x = particle.x + particle.xSpeed;
+      particle.y = particle.y + particle.ySpeed;
+    }
+  </script>
+</head>
+<body>
+  <canvas id="canvas" width="500" height="500"></canvas>
+</body>
+</html>
+```
+
+## Tips {.tip}
+
+Du kan også skrive koden i VS Code. Trykk **Last ned som fil** under dømet,
+eller lag ei ny fil. Sjå oppgåva [VS Code](../vs_code/vs_code.html).
+
 
 # Hint {.activity}
 
@@ -128,9 +187,9 @@ __Prøv sjølv fyrst! Viss du ikkje får det til kan du nytte hinta under.__
 - Ei `for`-løkke som skal gå gjennom ei liste ser slik ut:
 
 ```js
-for(var i = 0; i<listeNavn.length; i++){
+for (let i = 0; i < listeNavn.length; i++) {
     //kode
-    element = listeNavn[i] // element blir lagt til det i-te elementet i lista,
+    const element = listeNavn[i]; // element blir lagt til det i-te elementet i lista,
                            // og i er eit tal frå 0 til lengda av lista.
   }
 ```

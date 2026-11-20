@@ -16,10 +16,22 @@ som lever på disse datamaskinene.
 For å legge nettsiden vår på internett skal vi nå bruke [Github
 Pages](https://pages.github.com){target=_blank}. Det er det __Kodeklubben__ bruker:
 `kodeklubben.github.io`. For at du skal kunne gjøre dette må du ha en
-epost-adresse. Du kan enten lage din egen ([Gmail](http://gmail.com){target=_blank}), bruk den
+epost-adresse. Du kan enten lage din egen ([Gmail](https://gmail.com){target=_blank}), bruk den
 du har på skolen eller spørre om å låne foreldrene dine sin. Det er viktig her
 at du husker hvilken epost du har brukt, du må også ha tilgang til eposten slik
 at du får godkjent brukeren på `Github`.
+
+## Aldersgrense {.tip}
+
+Du må være minst 13 år for å lage en konto på GitHub (se [GitHubs
+vilkår](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service){target=_blank}).
+Er du yngre, kan du likevel vise frem siden din:
+
+- En lærer eller en forelder kan publisere siden for deg fra sin egen konto.
+
+- Du kan trykke **Last ned som fil** under en Prøv selv-boks, eller ta med
+  mappa fra [VS Code](../vs_code/vs_code.html), og sende fila til noen. De
+  åpner `index.html` i nettleseren sin.
 
 
 # Github {.activity}
@@ -30,7 +42,7 @@ prosjekt vi kan bidra på. På denne måten kan vi enkelt hjelpe, samarbeide og
 dele med alle som driver med programmering i verden. Vi skal nå lage en
 `GitHub`-bruker.
 
-- [ ] Gå inn på [Github.com](http://github.com){target=_blank}
+- [ ] Gå inn på [Github.com](https://github.com){target=_blank}
 
 - [ ] Skriv inn `Username`(brukernavn), `epost` og `password`(passord) før du
   trykker `Sign up for Github` (se bilde under)
@@ -44,7 +56,7 @@ dele med alle som driver med programmering i verden. Vi skal nå lage en
 
 Nå som vi har en `Github-bruker` kan vi registrere en `github.io`-side.
 
-- [ ] Logg inn på [Github.com](http://github.com){target=_blank} med den nye brukeren din, hvis
+- [ ] Logg inn på [Github.com](https://github.com){target=_blank} med den nye brukeren din, hvis
   du ikke allerede er logget inn
 
 - [ ] Trykk på `New repository` (Grønn knapp til høyre eller `+` øverst i høyre
@@ -104,7 +116,7 @@ Nå som vi har en `Github-bruker` kan vi registrere en `github.io`-side.
 
   <img src="ressurser/skrivebord.png" alt="Bilde av GitHub mappen på skrivebordet" width="100%">
 
-- [ ] Åpne din favoritt `teksteditor` (Atom, NodePad, Brackets IO, NodePad++)
+- [ ] Åpne mappa i [VS Code](../vs_code/vs_code.html)
 
 - [ ] Lag `index.html` og lagre den i mappen `ditt-brukernavn.github.io`. Dette
   skal være startsiden til nettsiden vår.
@@ -149,7 +161,7 @@ Nå skal vi laste opp denne filen til `ditt-brukernavn.github.io`.
   og litt mer detaljert beskrivelse av hva som er gjort i `Description`, som
   vist på bildet over
 
-- [ ] Trykk på `Commit to master` når du har skrevet om endringene som er gjor
+- [ ] Trykk på `Commit to main` (i eldre versjoner `Commit to master`) når du har skrevet om endringene som er gjor
 
 - [ ] Nå kan du trykke på `Publish` øverst til høyre
 
@@ -176,4 +188,4 @@ hvis du vil lære mer sjekk ut tipsene under:
 
 Les mer om GitHub her: [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials){target=_blank} eller på [Kodeklubbens wiki](https://github.com/kodeklubben/oppgaver/wiki/Komme-i-gang-med-Git){target=_blank}
 
-Søk på `GitHub Tutorials` på [YouTube](http://youtube.com){target=_blank} F.eks: [GitHub for noobs](https://www.youtube.com/watch?v=BKr8lbx3uFY){target=_blank}
+Søk på `GitHub Tutorials` på [YouTube](https://www.youtube.com){target=_blank} F.eks: [GitHub for noobs](https://www.youtube.com/watch?v=BKr8lbx3uFY){target=_blank}

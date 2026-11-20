@@ -79,4 +79,4 @@ oppgåveteksten.](hvor_er_html_nn.html){target=_blank}
 
 ## Variasjonar {.challenge}
 
-- [ ] Elevane kan gjere det same med andre nettstader. Kva med å få de til å endre dagens nyheiter eller leggje til eigne lover i [lovdata.no](http://lovdata.no){target=_blank}?
+- [ ] Elevane kan gjere det same med andre nettstader. Kva med å få de til å endre dagens nyheiter eller leggje til eigne lover i [lovdata.no](https://lovdata.no){target=_blank}?
