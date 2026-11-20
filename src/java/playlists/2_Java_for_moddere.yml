@@ -1,0 +1,11 @@
+sortindex: 2
+title:
+  nb: 'Java for moddere'
+  nn: 'Java for moddarar'
+  en: 'Java for modders'
+lessons:
+  - klasser_og_objekter
+  - arv
+  - grensesnitt_og_lambdaer
+  - register
+  - gradle_og_feilsoking
