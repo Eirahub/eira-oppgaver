@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Øv på snarveier</title>
+<style>
+  :root { --bg: #f4f7fb; --ink: #1d2433; --accent: #0b6e99; --ok: #1f8a3b; --card: #fff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 1.25rem/1.5 system-ui, sans-serif; color: var(--ink); background: var(--bg); }
+  header { padding: 12px 16px; background: var(--card); border-bottom: 2px solid #d6dde8; }
+  header a { color: var(--accent); }
+  main { max-width: 900px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 1.6rem; margin: 0 0 8px; }
+  section { background: var(--card); border: 3px solid #d6dde8; border-radius: 16px; padding: 16px; margin: 0 0 16px; }
+  section.done { border-color: var(--ok); }
+  section.done h2::after { content: " \2713"; color: var(--ok); }
+  h2 { font-size: 1.3rem; margin: 0 0 8px; }
+  textarea { font: 1.4rem/1.4 system-ui, sans-serif; width: 100%; padding: 8px 12px; border: 3px solid #9aa6b5; border-radius: 10px; margin: 4px 0 8px; resize: vertical; }
+  textarea:focus { outline: 3px solid var(--accent); }
+  label { font-weight: 700; }
+  .hint { min-height: 1.5em; margin: 0; color: #8a4b00; }
+  kbd { font: inherit; padding: 0 8px; border: 2px solid #9aa6b5; border-bottom-width: 4px; border-radius: 6px; background: #fff; white-space: nowrap; }
+  .story span { cursor: pointer; border-radius: 4px; }
+  .story span.found { background: #b7e4c2; }
+  button { font: inherit; padding: 6px 14px; border-radius: 10px; border: 2px solid var(--accent); background: var(--card); color: var(--accent); cursor: pointer; }
+</style>
+</head>
+<body>
+<header><a href="snarveier.html">Tilbake til oppgaven</a></header>
+<main>
+  <h1>Øv på snarveier</h1>
+  <p>Har du Mac? Bruk <kbd>Cmd</kbd> der det står <kbd>Ctrl</kbd>.</p>
+
+  <section id="s1">
+    <h2>1. Kopier og lim inn</h2>
+    <p>Klikk i den øverste ruta. Trykk <kbd>Ctrl</kbd> + <kbd>A</kbd> for å
+    merke alt. Trykk <kbd>Ctrl</kbd> + <kbd>C</kbd> for å kopiere. Klikk i
+    den nederste ruta, og trykk <kbd>Ctrl</kbd> + <kbd>V</kbd> for å lime
+    inn.</p>
+    <label for="from1">Herfra:</label>
+    <textarea id="from1" rows="2" readonly>Koding er gøy! 🚀</textarea>
+    <label for="to1">Hit:</label>
+    <textarea id="to1" rows="2" aria-describedby="h1"></textarea>
+    <p class="hint" id="h1" aria-live="polite"></p>
+  </section>
+
+  <section id="s2">
+    <h2>2. Klipp ut og lim inn</h2>
+    <p>Ordet <b>banan</b> ligger i feil kurv. Merk ordet ved å dobbeltklikke på
+    det. Trykk <kbd>Ctrl</kbd> + <kbd>X</kbd> for å klippe det ut. Klikk i
+    fruktkurven, og trykk <kbd>Ctrl</kbd> + <kbd>V</kbd>.</p>
+    <label for="veg">Grønnsaker:</label>
+    <textarea id="veg" rows="2">gulrot agurk banan</textarea>
+    <label for="fruit">Frukt:</label>
+    <textarea id="fruit" rows="2" aria-describedby="h2">eple pære </textarea>
+    <p class="hint" id="h2" aria-live="polite"></p>
+  </section>
+
+  <section id="s3">
+    <h2>3. Angre</h2>
+    <p>Klikk i ruta. Trykk <kbd>Ctrl</kbd> + <kbd>A</kbd> og så
+    <kbd>Delete</kbd>. Nå er alt borte! Trykk <kbd>Ctrl</kbd> +
+    <kbd>Z</kbd> for å angre. Da kommer teksten tilbake.</p>
+    <textarea id="undo" rows="2" aria-label="Tekst som skal viskes ut og hentes tilbake" aria-describedby="h3">Ikke slett meg, er du snill!</textarea>
+    <p class="hint" id="h3" aria-live="polite"></p>
+  </section>
+
+  <section id="s4">
+    <h2>4. Finn et ord</h2>
+    <p>Et sted i teksten under gjemmer det seg en <b>pingvin</b>. Trykk
+    <kbd>Ctrl</kbd> + <kbd>F</kbd>, og skriv <b>pingvin</b>. Nettleseren
+    viser deg hvor ordet er. Trykk <kbd>Esc</kbd>, og klikk på ordet.</p>
+    <p class="story" id="story"></p>
+    <p class="hint" id="h4" aria-live="polite"></p>
+  </section>
+
+  <section id="s5">
+    <h2>5. Større og mindre</h2>
+    <p>Hold <kbd>Ctrl</kbd> inne og trykk <kbd>+</kbd>. Alt på siden blir
+    større. Trykk <kbd>Ctrl</kbd> + <kbd>0</kbd> (null) for å gå tilbake til
+    vanlig størrelse.</p>
+    <p class="hint" id="h5" aria-live="polite"></p>
+    <button id="zoomdone" type="button">Jeg fikk det til</button>
+  </section>
+
+  <p id="all" hidden><b>Bra jobba! Du kan de viktigste snarveiene.</b></p>
+</main>
+<script>
+const done = new Set();
+function finish(id) {
+  document.getElementById(id).classList.add('done');
+  done.add(id);
+  document.getElementById('all').hidden = done.size < 5;
+}
+const hint = (n, t) => { document.getElementById(`h${n}`).textContent = t; };
+
+// 1. The pasted text must match the source.
+const from1 = document.getElementById('from1');
+const to1 = document.getElementById('to1');
+to1.addEventListener('input', () => {
+  if (to1.value.trim() === from1.value.trim()) { hint(1, 'Helt likt! Du kopierte og limte inn.'); finish('s1'); }
+  else if (to1.value) hint(1, 'Ikke helt likt. Visk ut og prøv igjen med Ctrl + V.');
+});
+
+// 2. "banan" must leave the vegetables and arrive among the fruit.
+const veg = document.getElementById('veg');
+const fruit = document.getElementById('fruit');
+const check2 = () => {
+  const gone = !/banan/i.test(veg.value);
+  const there = /banan/i.test(fruit.value);
+  if (gone && there) { hint(2, 'Bananen er i riktig kurv!'); finish('s2'); }
+  else if (gone) hint(2, 'Bananen er klippet ut. Klikk i fruktkurven, og trykk Ctrl + V.');
+};
+veg.addEventListener('input', check2);
+fruit.addEventListener('input', check2);
+
+// 3. The text must disappear and then come back.
+const undo = document.getElementById('undo');
+const original = undo.value;
+let emptied = false;
+undo.addEventListener('input', () => {
+  if (!undo.value.trim()) { emptied = true; hint(3, 'Alt er borte! Trykk Ctrl + Z.'); }
+  else if (emptied && undo.value === original) { hint(3, 'Teksten kom tilbake. Ctrl + Z redder deg!'); finish('s3'); }
+});
+
+// 4. A long text with one penguin to find.
+const words = 'katt hund mus hest ku sau gris høne and gås rev elg bjørn ulv gaupe hare ekorn piggsvin frosk fisk'.split(' ');
+const story = document.getElementById('story');
+const hide = 40 + Math.floor(Math.random() * 40);
+for (let i = 0; i < 100; i++) {
+  const s = document.createElement('span');
+  s.textContent = i === hide ? 'pingvin' : words[(i * 7) % words.length];
+  story.append(s, ' ');
+}
+story.addEventListener('click', (e) => {
+  if (e.target.tagName !== 'SPAN') return;
+  if (e.target.textContent === 'pingvin') { e.target.classList.add('found'); hint(4, 'Du fant pingvinen!'); finish('s4'); }
+  else hint(4, `Det var en ${e.target.textContent}. Bruk Ctrl + F for å finne pingvinen.`);
+});
+
+// 5. Zoom changes devicePixelRatio in most browsers. The button is a fallback where it does not.
+const startRatio = window.devicePixelRatio;
+let zoomedIn = false;
+window.addEventListener('resize', () => {
+  if (window.devicePixelRatio > startRatio + 0.01) { zoomedIn = true; hint(5, 'Nå er alt større! Trykk Ctrl + 0 for å gå tilbake.'); }
+  else if (zoomedIn && Math.abs(window.devicePixelRatio - startRatio) < 0.01) { hint(5, 'Tilbake til vanlig størrelse. Flott!'); finish('s5'); }
+});
+document.getElementById('zoomdone').addEventListener('click', () => { hint(5, 'Flott!'); finish('s5'); });
+</script>
+</body>
+</html>

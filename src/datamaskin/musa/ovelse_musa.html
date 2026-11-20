@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Øv på musa</title>
+<style>
+  :root { --bg: #f4f7fb; --ink: #1d2433; --accent: #0b6e99; --ok: #1f8a3b; --card: #fff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 1.25rem/1.5 system-ui, sans-serif; color: var(--ink); background: var(--bg); }
+  header { padding: 12px 16px; background: var(--card); border-bottom: 2px solid #d6dde8; }
+  header a { color: var(--accent); }
+  main { max-width: 900px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 1.6rem; margin: 0 0 8px; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+  nav button, .next { font: inherit; padding: 6px 14px; border-radius: 10px; border: 2px solid var(--accent); background: var(--card); color: var(--accent); cursor: pointer; }
+  nav button[aria-current="step"] { background: var(--accent); color: #fff; }
+  nav button.done::after { content: " \2713"; }
+  .task { font-size: 1.4rem; font-weight: 700; margin: 8px 0; }
+  .hint { min-height: 1.6em; color: #8a4b00; }
+  .stage { position: relative; height: 420px; background: var(--card); border: 3px solid #d6dde8; border-radius: 16px; overflow: hidden; user-select: none; -webkit-user-select: none; touch-action: none; }
+  .big { position: absolute; display: grid; place-items: center; border: 0; border-radius: 50%; font-size: 3rem; cursor: pointer; background: transparent; }
+  .balloon { width: 110px; height: 110px; background: #ffd1dc; }
+  .gift { left: calc(50% - 80px); top: 120px; width: 160px; height: 160px; border-radius: 20px; background: #ffe9a8; font-size: 5rem; }
+  .box { left: calc(50% - 90px); top: 110px; width: 180px; height: 180px; border-radius: 20px; background: #b8c2cf; }
+  .menu { position: absolute; z-index: 5; background: var(--card); border: 2px solid #9aa6b5; border-radius: 8px; padding: 4px; box-shadow: 0 6px 20px rgba(0,0,0,.2); }
+  .menu button { display: block; width: 100%; text-align: left; font: inherit; padding: 6px 16px; border: 0; background: none; cursor: pointer; }
+  .menu button:hover, .menu button:focus { background: #e3eef6; }
+  .apple { width: 90px; height: 90px; font-size: 3.5rem; cursor: grab; touch-action: none; }
+  .apple.dragging { cursor: grabbing; z-index: 4; }
+  .basket { position: absolute; right: 24px; bottom: 24px; width: 200px; height: 160px; border: 4px dashed #8a5a2b; border-radius: 20px; display: grid; place-items: center; font-size: 5rem; background: #fff6ea; }
+  .basket.over { background: #ffe2b8; }
+  .scroller { height: 100%; overflow-y: scroll; padding: 16px; touch-action: pan-y; }
+  .scroller p { margin: 0 0 120px; color: #6b7685; }
+  .star { position: static; display: inline-grid; width: 120px; height: 120px; background: #fff3b0; }
+  .win { font-size: 2rem; text-align: center; padding-top: 120px; }
+  .sr { position: absolute; left: -9999px; }
+</style>
+</head>
+<body>
+<header><a href="musa.html">Tilbake til oppgaven</a></header>
+<main>
+  <h1>Øv på musa</h1>
+  <nav aria-label="Øvelser"></nav>
+  <p class="task" id="task"></p>
+  <p class="hint" id="hint" aria-live="polite"></p>
+  <div class="stage" id="stage"></div>
+  <p><button class="next" id="next" hidden>Neste øvelse</button></p>
+</main>
+<script>
+const stage = document.getElementById('stage');
+const taskEl = document.getElementById('task');
+const hint = document.getElementById('hint');
+const next = document.getElementById('next');
+const nav = document.querySelector('nav');
+let current = 0;
+
+const say = (t) => { hint.textContent = t; };
+const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; };
+const place = (e, w, h) => {
+  e.style.left = Math.random() * (stage.clientWidth - w) + 'px';
+  e.style.top = Math.random() * (stage.clientHeight - h) + 'px';
+};
+
+function finish() {
+  nav.children[current].classList.add('done');
+  next.hidden = current === steps.length - 1;
+  if (next.hidden) {
+    stage.replaceChildren(el('p', 'win', 'Bra jobba! Du klarte alle øvelsene.'));
+  }
+}
+
+const steps = [
+  {
+    name: 'Klikk',
+    task: 'Klikk på ballongen. Trykk én gang på venstre knapp.',
+    start() {
+      let left = 5;
+      const b = el('button', 'big balloon', '\u{1F388}');
+      b.setAttribute('aria-label', 'Ballong');
+      const move = () => { place(b, 110, 110); say(`${left} ballonger igjen.`); };
+      b.addEventListener('click', () => {
+        left -= 1;
+        if (left === 0) { b.remove(); say('Pang! Du kan klikke.'); finish(); } else move();
+      });
+      stage.append(b);
+      move();
+    },
+  },
+  {
+    name: 'Dobbeltklikk',
+    task: 'Dobbeltklikk på pakken. Klikk to ganger fort, uten å flytte musa.',
+    start() {
+      let left = 3;
+      const g = el('button', 'big gift', '\u{1F381}');
+      g.setAttribute('aria-label', 'Pakke');
+      g.addEventListener('click', (e) => { if (e.detail === 1) say('Det var ett klikk. Prøv to klikk raskt etter hverandre.'); });
+      g.addEventListener('dblclick', () => {
+        left -= 1;
+        g.textContent = '\u{1F389}';
+        if (left === 0) { say('Pakken er åpen! Du kan dobbeltklikke.'); g.disabled = true; finish(); return; }
+        say(`Flott! ${left} igjen.`);
+        setTimeout(() => { g.textContent = '\u{1F381}'; }, 600);
+      });
+      stage.append(g);
+    },
+  },
+  {
+    name: 'Høyreklikk',
+    task: 'Høyreklikk på den grå boksen. Velg en farge i menyen som kommer opp.',
+    start() {
+      const box = el('div', 'big box');
+      box.tabIndex = 0;
+      box.setAttribute('aria-label', 'Grå boks');
+      let menu;
+      const close = () => { if (menu) menu.remove(); menu = null; };
+      box.addEventListener('click', () => say('Det var venstre knapp. Trykk på den høyre knappen i stedet.'));
+      box.addEventListener('contextmenu', (e) => {
+        e.preventDefault();
+        close();
+        menu = el('div', 'menu');
+        menu.setAttribute('role', 'menu');
+        for (const [name, color] of [['Gjør den grønn', '#7ccf8f'], ['Gjør den blå', '#7fb6ea'], ['Gjør den rosa', '#f4a6c6']]) {
+          const item = el('button', '', name);
+          item.setAttribute('role', 'menuitem');
+          item.addEventListener('click', () => { box.style.background = color; close(); say('Supert! Høyreklikk gir en meny med valg.'); finish(); });
+          menu.append(item);
+        }
+        const r = stage.getBoundingClientRect();
+        menu.style.left = Math.min(e.clientX - r.left, stage.clientWidth - 200) + 'px';
+        menu.style.top = Math.min(e.clientY - r.top, stage.clientHeight - 140) + 'px';
+        stage.append(menu);
+        say('Der kom menyen. Klikk på en farge med venstre knapp.');
+      });
+      stage.onclick = (e) => { if (menu && !menu.contains(e.target)) close(); };
+      stage.append(box);
+    },
+  },
+  {
+    name: 'Dra og slipp',
+    task: 'Dra eplene ned i kurven. Hold venstre knapp inne, flytt musa, og slipp.',
+    start() {
+      const basket = el('div', 'basket', '\u{1F9FA}');
+      stage.append(basket);
+      let left = 3;
+      for (let i = 0; i < 3; i++) {
+        const a = el('div', 'big apple', '\u{1F34E}');
+        a.style.left = 20 + i * Math.min(120, (stage.clientWidth - 130) / 2) + 'px';
+        a.style.top = 40 + (i % 2) * 120 + 'px';
+        let dx = 0, dy = 0, dragging = false;
+        const overBasket = (e) => {
+          const b = basket.getBoundingClientRect();
+          return e.clientX > b.left && e.clientX < b.right && e.clientY > b.top && e.clientY < b.bottom;
+        };
+        a.addEventListener('pointerdown', (e) => {
+          if (e.button !== 0) return;
+          dragging = true;
+          a.setPointerCapture(e.pointerId);
+          a.classList.add('dragging');
+          dx = e.clientX - a.offsetLeft; dy = e.clientY - a.offsetTop;
+        });
+        a.addEventListener('pointermove', (e) => {
+          if (!dragging) return;
+          a.style.left = e.clientX - dx + 'px';
+          a.style.top = e.clientY - dy + 'px';
+          basket.classList.toggle('over', overBasket(e));
+        });
+        a.addEventListener('pointerup', (e) => {
+          if (!dragging) return;
+          dragging = false;
+          a.classList.remove('dragging');
+          basket.classList.remove('over');
+          if (overBasket(e)) {
+            a.remove();
+            left -= 1;
+            say(left ? `Ett eple i kurven! ${left} igjen.` : 'Alle eplene er i kurven!');
+            if (!left) finish();
+          } else {
+            say('Du slapp eplet utenfor kurven. Prøv igjen. Hold knappen inne hele veien.');
+          }
+        });
+        stage.append(a);
+      }
+    },
+  },
+  {
+    name: 'Rull',
+    task: 'Det gjemmer seg en stjerne langt nede. Rull ned med hjulet på musa, og klikk på stjernen.',
+    start() {
+      const s = el('div', 'scroller');
+      for (let i = 1; i <= 8; i++) s.append(el('p', '', i < 8 ? 'Rull videre ned ...' : 'Nesten der!'));
+      const star = el('button', 'big star', '⭐');
+      star.setAttribute('aria-label', 'Stjerne');
+      star.addEventListener('click', () => { say('Du fant stjernen! Rull opp igjen hvis du vil.'); star.textContent = '\u{1F31F}'; finish(); });
+      s.append(star);
+      stage.append(s);
+    },
+  },
+];
+
+function show(i) {
+  current = i;
+  [...nav.children].forEach((b, j) => b.setAttribute('aria-current', j === i ? 'step' : 'false'));
+  taskEl.textContent = `${i + 1}. ${steps[i].task}`;
+  say('');
+  next.hidden = true;
+  stage.replaceChildren();
+  stage.onclick = null;
+  steps[i].start();
+}
+
+steps.forEach((s, i) => {
+  const b = el('button', '', `${i + 1}. ${s.name}`);
+  b.addEventListener('click', () => show(i));
+  nav.append(b);
+});
+next.addEventListener('click', () => show(current + 1));
+const fromHash = parseInt(location.hash.slice(1), 10);
+show(fromHash >= 1 && fromHash <= steps.length ? fromHash - 1 : 0);
+</script>
+</body>
+</html>

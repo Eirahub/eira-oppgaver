@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Øv på tastaturet</title>
+<style>
+  :root { --bg: #f4f7fb; --ink: #1d2433; --accent: #0b6e99; --ok: #1f8a3b; --bad: #b3261e; --card: #fff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 1.25rem/1.5 system-ui, sans-serif; color: var(--ink); background: var(--bg); }
+  header { padding: 12px 16px; background: var(--card); border-bottom: 2px solid #d6dde8; }
+  header a { color: var(--accent); }
+  main { max-width: 900px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 1.6rem; margin: 0 0 8px; }
+  section { background: var(--card); border: 3px solid #d6dde8; border-radius: 16px; padding: 16px; margin: 0 0 16px; }
+  section.done { border-color: var(--ok); }
+  section.done h2::after { content: " \2713"; color: var(--ok); }
+  h2 { font-size: 1.3rem; margin: 0 0 8px; }
+  .target { font: 1.5rem/1.4 ui-monospace, Consolas, monospace; background: #eef3f8; padding: 8px 12px; border-radius: 8px; letter-spacing: .05em; }
+  .target .ok { color: var(--ok); }
+  .target .bad { color: #fff; background: var(--bad); }
+  input { font: 1.5rem ui-monospace, Consolas, monospace; width: 100%; padding: 8px 12px; border: 3px solid #9aa6b5; border-radius: 10px; margin: 8px 0; }
+  input:focus { outline: 3px solid var(--accent); }
+  .hint { min-height: 1.5em; margin: 0; color: #8a4b00; }
+  kbd { font: inherit; padding: 0 8px; border: 2px solid #9aa6b5; border-bottom-width: 4px; border-radius: 6px; background: #fff; white-space: nowrap; }
+  .grid { display: grid; grid-template-columns: repeat(7, 56px); gap: 4px; padding: 8px; border-radius: 10px; width: max-content; max-width: 100%; }
+  .grid:focus { outline: 3px solid var(--accent); }
+  .cell { width: 56px; height: 56px; display: grid; place-items: center; background: #eef3f8; border-radius: 8px; font-size: 2rem; }
+</style>
+</head>
+<body>
+<header><a href="tastaturet.html">Tilbake til oppgaven</a></header>
+<main>
+  <h1>Øv på tastaturet</h1>
+  <p>Klikk i den hvite ruta under hver øvelse før du skriver. Da blinker en
+  liten strek der bokstavene kommer.</p>
+
+  <section id="s1">
+    <h2>1. Navnet ditt</h2>
+    <p>Skriv fornavnet ditt med stor forbokstav. Hold <kbd>Shift</kbd> inne
+    mens du trykker den første bokstaven. Trykk <kbd>Enter</kbd> når du er
+    ferdig.</p>
+    <input id="name" autocomplete="off" spellcheck="false" aria-describedby="h1">
+    <p class="hint" id="h1" aria-live="polite"></p>
+  </section>
+
+  <section id="s2" data-target="Blåbær og rødgrøt er godt.">
+    <h2>2. Æ, ø og å</h2>
+    <p>Skriv setningen akkurat slik den står. Rødt betyr at noe er feil. Bruk
+    <kbd>Backspace</kbd> for å viske ut. Trykk <kbd>Enter</kbd> til slutt.</p>
+  </section>
+
+  <section id="s3" data-target="ola@eksempel.no">
+    <h2>3. Krøllalfa @</h2>
+    <p>Skriv e-postadressen. Krøllalfa lager du slik: hold
+    <kbd>AltGr</kbd> inne og trykk <kbd>2</kbd>. Trykk <kbd>Enter</kbd> til
+    slutt.</p>
+  </section>
+
+  <section id="s4">
+    <h2>4. Backspace og Delete</h2>
+    <p>Det er én bokstav for mye i hvert ord. <kbd>Backspace</kbd> visker ut
+    bokstaven til <b>venstre</b> for streken. <kbd>Delete</kbd> visker ut
+    bokstaven til <b>høyre</b> for streken.</p>
+    <p>Streken står bakerst. Bruk <kbd>Backspace</kbd> for å få <b>Katt</b>:</p>
+    <input id="bs" value="Katts" autocomplete="off" spellcheck="false" aria-describedby="h4">
+    <p>Streken står først. Bruk <kbd>Delete</kbd> for å få <b>Mus</b>:</p>
+    <input id="del" value="xMus" autocomplete="off" spellcheck="false" aria-describedby="h4">
+    <p class="hint" id="h4" aria-live="polite"></p>
+  </section>
+
+  <section id="s5">
+    <h2>5. Tab</h2>
+    <p>Klikk i den første ruta og skriv byen du bor i. Trykk så
+    <kbd>Tab</kbd>. Da hopper du til neste rute. Skriv alderen din der.</p>
+    <input id="town" placeholder="By" autocomplete="off" aria-label="By">
+    <input id="age" placeholder="Alder" autocomplete="off" aria-label="Alder" aria-describedby="h5">
+    <p class="hint" id="h5" aria-live="polite"></p>
+  </section>
+
+  <section id="s6">
+    <h2>6. Piltastene</h2>
+    <p>Klikk på brettet. Bruk piltastene <kbd>&uarr;</kbd> <kbd>&darr;</kbd>
+    <kbd>&larr;</kbd> <kbd>&rarr;</kbd> for å flytte musen til osten.</p>
+    <div class="grid" id="grid" tabindex="0" aria-label="Brett. Bruk piltastene." aria-describedby="h6"></div>
+    <p class="hint" id="h6" aria-live="polite"></p>
+  </section>
+
+  <p id="all" hidden><b>Bra jobba! Du klarte alle øvelsene.</b></p>
+</main>
+<script>
+const done = new Set();
+function finish(id) {
+  document.getElementById(id).classList.add('done');
+  done.add(id);
+  document.getElementById('all').hidden = done.size < 6;
+}
+
+// 1. Name with a capital first letter, confirmed with Enter.
+const name = document.getElementById('name');
+name.addEventListener('keydown', (e) => {
+  if (e.key !== 'Enter') return;
+  const v = name.value.trim();
+  const h = document.getElementById('h1');
+  if (v.length < 2) h.textContent = 'Skriv hele fornavnet ditt først.';
+  else if (v[0] === v[0].toLocaleLowerCase('nb')) h.textContent = 'Den første bokstaven skal være stor. Visk ut, og hold Shift mens du trykker den.';
+  else { h.textContent = `Hei, ${v}! Det var en stor forbokstav.`; finish('s1'); }
+});
+
+// 2 and 3. Copy a sentence; letters turn green while right, red where wrong.
+for (const id of ['s2', 's3']) {
+  const sec = document.getElementById(id);
+  const target = sec.dataset.target;
+  const show = document.createElement('p');
+  show.className = 'target';
+  const input = document.createElement('input');
+  input.autocomplete = 'off';
+  input.spellcheck = false;
+  input.setAttribute('aria-label', `Skriv: ${target}`);
+  const hint = document.createElement('p');
+  hint.className = 'hint';
+  hint.setAttribute('aria-live', 'polite');
+  sec.append(show, input, hint);
+  const paint = () => {
+    const v = input.value;
+    show.replaceChildren(...[...target].map((ch, i) => {
+      const s = document.createElement('span');
+      s.textContent = ch;
+      if (i < v.length) s.className = v[i] === ch ? 'ok' : 'bad';
+      return s;
+    }));
+  };
+  input.addEventListener('input', paint);
+  input.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter') return;
+    if (input.value === target) { hint.textContent = 'Helt riktig!'; finish(id); }
+    else if (input.value.length < target.length) hint.textContent = 'Det mangler noe. Se etter det som ikke er grønt.';
+    else hint.textContent = 'Noe er ikke helt likt. Finn de røde bokstavene.';
+  });
+  paint();
+}
+
+// 4. Backspace and Delete. The caret starts at the end or the start of the word.
+const bs = document.getElementById('bs');
+const del = document.getElementById('del');
+const h4 = document.getElementById('h4');
+// A click places the caret where the mouse is, so it is moved back while the word is still untouched.
+const pin = (input, start, pos) => {
+  const put = () => { if (input.value === start) input.setSelectionRange(pos, pos); };
+  input.addEventListener('focus', () => setTimeout(put));
+  input.addEventListener('mouseup', () => setTimeout(put));
+};
+pin(bs, 'Katts', 5);
+pin(del, 'xMus', 0);
+const check4 = () => {
+  const a = bs.value === 'Katt';
+  const b = del.value === 'Mus';
+  h4.textContent = a && b ? 'Begge ordene er riktige!' : a ? 'Katt er riktig. Nå Mus.' : b ? 'Mus er riktig. Nå Katt.' : '';
+  if (a && b) finish('s4');
+};
+bs.addEventListener('input', check4);
+del.addEventListener('input', check4);
+
+// 5. Tab from one field to the next.
+const town = document.getElementById('town');
+const age = document.getElementById('age');
+let tabbed = false;
+town.addEventListener('keydown', (e) => { if (e.key === 'Tab' && !e.shiftKey) tabbed = true; });
+age.addEventListener('focus', () => {
+  const h = document.getElementById('h5');
+  if (tabbed && town.value.trim()) { h.textContent = 'Du hoppet med Tab. Skriv alderen din også.'; }
+});
+age.addEventListener('input', () => {
+  if (tabbed && town.value.trim() && age.value.trim()) { document.getElementById('h5').textContent = 'Flott! Tab hopper til neste rute.'; finish('s5'); }
+});
+
+// 6. Arrow keys move the mouse to the cheese.
+const grid = document.getElementById('grid');
+const W = 7, H = 5, goal = { x: 6, y: 4 };
+let pos = { x: 0, y: 0 }, moves = 0;
+const draw = () => {
+  grid.replaceChildren();
+  for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
+    const c = document.createElement('div');
+    c.className = 'cell';
+    c.textContent = x === pos.x && y === pos.y ? '\u{1F42D}' : x === goal.x && y === goal.y ? '\u{1F9C0}' : '';
+    grid.append(c);
+  }
+};
+grid.addEventListener('keydown', (e) => {
+  const d = { ArrowUp: [0, -1], ArrowDown: [0, 1], ArrowLeft: [-1, 0], ArrowRight: [1, 0] }[e.key];
+  const h = document.getElementById('h6');
+  if (!d) { if (e.key.length === 1) h.textContent = 'Bruk piltastene, ikke bokstavene.'; return; }
+  e.preventDefault();
+  pos = { x: Math.min(W - 1, Math.max(0, pos.x + d[0])), y: Math.min(H - 1, Math.max(0, pos.y + d[1])) };
+  moves += 1;
+  draw();
+  if (pos.x === goal.x && pos.y === goal.y) { h.textContent = `Mmm, ost! Du brukte ${moves} trykk.`; finish('s6'); }
+  else h.textContent = '';
+});
+draw();
+</script>
+</body>
+</html>
