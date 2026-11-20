@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Hendelser
-author: "Susanne Rynning Seip (tilpasset CC: Tweaked av Tor Einar Enne)"
+author: Tor Einar Enne
 language: nb
 ---
 
@@ -76,3 +76,6 @@ Tips til CC: Tweaked:
 ## Eksterne ressurser {.challenge}
 
 - [ ] Dokumentasjonen til CC: Tweaked (engelsk): <https://tweaked.cc/>
+
+*Basert på en lærerveiledning til ComputerCraft av Susanne Rynning Seip,
+delt under CC BY-SA 4.0.*

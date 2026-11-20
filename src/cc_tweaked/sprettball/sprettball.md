@@ -1,6 +1,6 @@
 ---
 title: Sprettball
-author: "Geir Arne Hjelle (tilpasset CC: Tweaked av Tor Einar Enne)"
+author: Tor Einar Enne
 language: nb
 ---
 
@@ -580,3 +580,6 @@ Med en __Advanced Monitor__ kan du også bruke farger, og skjermen merker når
 noen høyreklikker på den. Prøv `skjerm.setTextColour(colours.red)` før du
 skriver teksten. Hendelsen `monitor_touch` gir deg `x` og `y` der noen klikket.
 Kan du lage en knapp på skjermen som åpner en dør?
+
+*Basert på en oppgave til ComputerCraft av Geir Arne Hjelle,
+delt under CC BY-SA 4.0.*
