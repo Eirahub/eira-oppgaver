@@ -1,0 +1,44 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCourses } from '../lib/content.js';
+
+const courses = getCourses();
+const internal = courses.filter((c) => !c.isExternal && c.lessons.length);
+const external = courses.filter((c) => c.isExternal);
+const count = (c) => c.lessons.filter((l) => l.indexed).length;
+---
+<Base>
+  <section class="hero">
+    <p class="eyebrow">Gratis oppgaver</p>
+    <h1>Lær å programmere</h1>
+    <p class="lead">
+      Oppgaver i Scratch, Python, micro:bit og mye mer, til kodeklubben, skolen og hjemme.
+      Oppgavene er laget av <a href="https://www.kidsakoder.no/">Lær Kidsa Koding</a>.
+    </p>
+  </section>
+
+  <h2 class="section-title">Kurs</h2>
+  <ul class="course-grid">
+    {internal.map((c) => (
+      <li>
+        <a class="course-card" href={`/${c.course}/`}>
+          {c.hasLogo ? <img src={`/${c.course}/logo-black.png`} alt="" width="64" height="64" loading="lazy" /> : <span class="logo-placeholder" aria-hidden="true">{c.title[0]}</span>}
+          <span class="course-name">{c.title}</span>
+          <span class="course-meta">{count(c)} oppgaver</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  <h2 class="section-title">Kurs på andre nettsider</h2>
+  <ul class="course-grid">
+    {external.map((c) => (
+      <li>
+        <a class="course-card" href={c.external || `/${c.course}/`} rel="noopener">
+          {c.hasLogo ? <img src={`/${c.course}/logo-black.png`} alt="" width="64" height="64" loading="lazy" /> : <span class="logo-placeholder" aria-hidden="true">{c.title[0]}</span>}
+          <span class="course-name">{c.title} <span class="ext" aria-label="(ekstern side)">↗</span></span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Base>

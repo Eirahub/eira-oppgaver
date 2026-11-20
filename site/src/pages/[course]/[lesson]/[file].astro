@@ -1,0 +1,75 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCourses, renderMarkdown, renderInline, excerpt, pickLang, tagName, EDIT_BASE, ISSUE_URL } from '../../../lib/content.js';
+
+export function getStaticPaths() {
+  return getCourses().filter((c) => !c.isExternal).flatMap((c) =>
+    c.lessons.flatMap((lesson) => lesson.files.filter((f) => !f.external).map((f) => ({
+      params: { course: c.course, lesson: lesson.lesson, file: f.file },
+      props: { c, lesson, f },
+    }))));
+}
+
+const { c, lesson, f } = Astro.props;
+const html = renderMarkdown(f.body);
+const internal = lesson.files.filter((x) => !x.external);
+const counterpart = pickLang(internal.filter((x) => x.isReadme !== f.isReadme), f.language);
+const variants = internal.filter((x) => x.isReadme === f.isReadme && x !== f);
+const htmlLang = f.language === 'ua' ? 'uk' : f.language;
+const pageUrl = `https://oppgaver.eirahub.no${f.url}`;
+const issue = `${ISSUE_URL}?title=${encodeURIComponent(`Problem med ${c.title}: ${f.title}`)}&body=${encodeURIComponent(`Side: ${pageUrl}\nKilde: ${EDIT_BASE.replace('/edit/', '/blob/')}/${f.source}\n\nBeskriv problemet her.\n`)}`;
+---
+<Base title={f.isReadme ? `Lærerveiledning: ${f.title}` : f.title} description={excerpt(html)}>
+  <nav class="breadcrumb" aria-label="Brødsmuler">
+    <a href="/">Oppgaver</a> <span aria-hidden="true">{" › "}</span>
+    <a href={`/${c.course}/`}>{c.title}</a> <span aria-hidden="true">{" › "}</span>
+    <span aria-current="page">{f.title}</span>
+  </nav>
+
+  <article class="lesson" lang={htmlLang}>
+    <header class="lesson-header">
+      {f.isReadme && <p class="eyebrow" lang="nb">Lærerveiledning</p>}
+      <h1>
+        {lesson.level > 0 && <img class="level-icon" src={`/graphics/level-${lesson.level}.svg`} alt={`Nivå ${lesson.level}`} width="40" height="40" />}
+        {f.title}
+      </h1>
+      {f.author && <p class="byline">Skrevet av: <Fragment set:html={renderInline(f.author)} /></p>}
+      {f.translator && <p class="byline">Oversatt av: <Fragment set:html={renderInline(f.translator)} /></p>}
+
+      <div class="lesson-actions" lang="nb">
+        {counterpart && (
+          <a class="button" href={counterpart.url}>{f.isReadme ? 'Til oppgaven' : 'Til lærerveiledningen'}</a>
+        )}
+        {variants.length > 0 && (
+          <span class="variants">Også på:
+            {variants.map((v) => <a href={v.url} hreflang={v.language === 'ua' ? 'uk' : v.language}>{tagName('language', v.language)}</a>)}
+          </span>
+        )}
+      </div>
+      <div class="progress" id="progress" hidden lang="nb">
+        <progress id="progress-bar" max="1" value="0" aria-labelledby="progress-text"></progress>
+        <span id="progress-text"></span>
+        <button type="button" class="button secondary" id="reset">Fjern avkrysninger</button>
+      </div>
+    </header>
+
+    <div class="lesson-content" data-content data-lang={f.language} data-key={`checkboxes_${c.course}/${lesson.lesson}/${f.file}`} set:html={html} />
+    <span data-content-end hidden></span>
+
+    <footer class="lesson-footer" lang="nb">
+      <p>Lisens: <Fragment set:html={renderInline(lesson.license)} /></p>
+      <section class="improve" aria-labelledby="forbedre">
+        <h2 id="forbedre">Forbedre denne siden</h2>
+        <p>Funnet en feil eller noe som kunne vært bedre? Si fra, eller rett det selv på GitHub.</p>
+        <p>
+          <a class="button" href={`${EDIT_BASE}/${f.source}`}>Rediger på GitHub</a>
+          <a class="button secondary" href={issue}>Rapporter et problem</a>
+        </p>
+      </section>
+    </footer>
+  </article>
+</Base>
+
+<script>
+  import '../../../scripts/lesson.js';
+</script>

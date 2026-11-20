@@ -1,0 +1,49 @@
+---
+import 'highlight.js/styles/github.css';
+import '../styles/global.css';
+const { title, description = 'Gratis programmeringsoppgaver for barn og unge: Scratch, Python, micro:bit og mer. Fra Eira sine kodeklubber.' } = Astro.props;
+const fullTitle = title ? `${title} | Eira oppgaver` : 'Eira oppgaver';
+---
+<!doctype html>
+<html lang="nb">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <meta name="theme-color" content="#1E3A8A" />
+  </head>
+  <body>
+    <a class="skip-link" href="#innhold">Hopp til innhold</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="lockup" href="/" aria-label="Eira Ryfylke Kodeklubb, til forsiden">
+          <span class="lockup-mark">eira</span>
+          <span class="lockup-kicker">Ryfylke&nbsp;· Kodeklubb</span>
+        </a>
+        <nav aria-label="Hovedmeny">
+          <a href="/">Oppgaver</a>
+          <a href="/om-oppgavene">Om oppgavene</a>
+        </nav>
+      </div>
+    </header>
+    <main id="innhold" class="wrap">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Oppgavene er laget av frivillige i <a href="https://www.kidsakoder.no/">Lær Kidsa Koding</a>
+          og hentet fra <a href="https://github.com/kodeklubben/oppgaver">kodeklubben/oppgaver</a>.
+          Innholdet er i hovedsak delt under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.no">CC BY-SA 4.0</a>.
+        </p>
+        <p>
+          <a href="/om-oppgavene">Om oppgavene og lisens</a> ·
+          <a href="https://github.com/Eirahub/eira-oppgaver">Kildekoden på GitHub</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

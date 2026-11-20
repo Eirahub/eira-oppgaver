@@ -1,0 +1,22 @@
+---
+import { mainFile, tagName } from '../lib/content.js';
+const { lesson } = Astro.props;
+const main = mainFile(lesson);
+const others = lesson.files.filter((f) => !f.isReadme && f !== main);
+const langs = [...new Set(lesson.files.filter((f) => !f.isReadme).map((f) => f.language))];
+const tags = Object.entries(lesson.tags).flatMap(([g, list]) => list.map((t) => `${g}:${t}`));
+---
+{main && (
+  <li class="lesson-item" data-langs={langs.join(' ')} data-tags={tags.join(' ')}>
+    <a class="lesson-link" href={main.external || main.url} rel={main.external ? 'noopener' : undefined}>
+      {lesson.level > 0 && <img class="level-icon" src={`/graphics/level-${lesson.level}.svg`} alt={`Nivå ${lesson.level}`} width="24" height="24" />}
+      <span>{main.title}</span>
+      {main.external && <span class="ext" aria-label="(ekstern side)">↗</span>}
+    </a>
+    {others.length > 0 && (
+      <span class="lesson-langs">
+        {others.map((f) => <a href={f.external || f.url} hreflang={f.language === 'ua' ? 'uk' : f.language}>{tagName('language', f.language)}</a>)}
+      </span>
+    )}
+  </li>
+)}

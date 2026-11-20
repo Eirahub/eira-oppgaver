@@ -60,3 +60,9 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+# Eira-siden (site/)
+site/node_modules
+site/dist
+site/.astro
+# "lib/" over gjelder Python, ikke sidens kode
+!site/src/lib/

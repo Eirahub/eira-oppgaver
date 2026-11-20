@@ -1,0 +1,120 @@
+---
+import Base from '../../layouts/Base.astro';
+import LessonItem from '../../components/LessonItem.astro';
+import { getCourses, renderMarkdown, excerpt, filterKeys, groupName, tagName, lessonLanguages, mainFile } from '../../lib/content.js';
+
+export function getStaticPaths() {
+  return getCourses().filter((c) => !c.isExternal).map((c) => ({ params: { course: c.course }, props: { c } }));
+}
+
+const { c } = Astro.props;
+const infoHtml = renderMarkdown(c.infoBody);
+const LEVELS = { 1: 'Introduksjon', 2: 'Nybegynner', 3: 'Erfaren', 4: 'Ekspert', 0: 'Uten nivå' };
+const listed = c.lessons.filter((l) => l.indexed && mainFile(l));
+const byTitle = (a, b) => mainFile(a).title.localeCompare(mainFile(b).title, 'nb');
+const levels = [1, 2, 3, 4, 0]
+  .map((level) => ({ level, lessons: listed.filter((l) => l.level === level).sort(byTitle) }))
+  .filter((g) => g.lessons.length);
+
+// Only offer tags that at least one listed lesson has.
+const present = { language: new Set(listed.flatMap(lessonLanguages)) };
+for (const l of listed) for (const [g, tags] of Object.entries(l.tags)) tags.forEach((t) => (present[g] ??= new Set()).add(t));
+const groups = Object.keys(filterKeys)
+  .map((g) => ({ g, tags: filterKeys[g].filter((t) => present[g]?.has(t)) }))
+  .filter((x) => x.tags.length > 1 || (x.g !== 'language' && x.tags.length));
+---
+<Base title={c.title} description={excerpt(infoHtml)}>
+  <nav class="breadcrumb" aria-label="Brødsmuler"><a href="/">Oppgaver</a> <span aria-hidden="true">{" › "}</span> <span aria-current="page">{c.title}</span></nav>
+  <h1>{c.title}</h1>
+
+  {c.infoBody.trim() && (
+    <details class="course-info">
+      <summary>Informasjon om kurset</summary>
+      <div class="content" data-content set:html={infoHtml} />
+      <span data-content-end hidden></span>
+    </details>
+  )}
+
+  {c.playlists.length > 0 && (
+    <section class="playlists" aria-labelledby="samlinger">
+      <h2 id="samlinger">Oppgavesamlinger</h2>
+      {c.playlists.map((p) => (
+        <details class="playlist">
+          <summary><span>{p.title}</span> <span class="badge">{p.lessons.length}</span></summary>
+          <ol class="lesson-list">{p.lessons.map((l) => <LessonItem lesson={l} />)}</ol>
+        </details>
+      ))}
+    </section>
+  )}
+
+  <section class="all-lessons" aria-labelledby="alle">
+    <h2 id="alle">Alle oppgaver</h2>
+    <div class="course-layout">
+      {groups.length > 0 && (
+        <details class="filter-box">
+        <summary>Filter: språk, tema, fag og trinn</summary>
+        <form class="filter" id="filter" aria-label="Filtrer oppgaver">
+          {groups.map(({ g, tags }) => (
+            <fieldset data-group={g}>
+              <legend>{groupName(g)}</legend>
+              {tags.map((t) => (
+                <label><input type="checkbox" name={g} value={t} /> {tagName(g, t)}</label>
+              ))}
+            </fieldset>
+          ))}
+          <button type="reset" class="button secondary">Nullstill filter</button>
+        </form>
+        </details>
+      )}
+      <div class="levels">
+        <nav class="jump" aria-label="Hopp til nivå">
+          Hopp til:
+          {levels.map(({ level }) => <a href={`#niva-${level}`} data-jump={level}>{LEVELS[level]}</a>)}
+        </nav>
+        {levels.map(({ level, lessons }) => (
+          <section class="level" data-level={level} aria-labelledby={`niva-${level}`}>
+            <h3 id={`niva-${level}`}>
+              {level > 0 && <img class="level-icon" src={`/graphics/level-${level}.svg`} alt="" width="28" height="28" />}
+              {LEVELS[level]}{level > 0 && ` (nivå ${level})`}
+            </h3>
+            <ul class="lesson-list">{lessons.map((l) => <LessonItem lesson={l} />)}</ul>
+          </section>
+        ))}
+        <p class="no-match" id="no-match" hidden>Ingen oppgaver passer til filteret.</p>
+        <p class="sr-only" id="filter-status" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script>
+  const form = document.getElementById('filter') as HTMLFormElement | null;
+  const items = [...document.querySelectorAll<HTMLElement>('.all-lessons .lesson-item')];
+
+  function apply() {
+    const checked: Record<string, string[]> = {};
+    for (const box of form?.querySelectorAll<HTMLInputElement>('input:checked') ?? []) (checked[box.name] ??= []).push(box.value);
+    let shown = 0;
+    for (const li of items) {
+      const langs = (li.dataset.langs || '').split(' ');
+      const tags = (li.dataset.tags || '').split(' ');
+      // Language is OR (any checked language), the other groups are AND (all checked tags).
+      const ok = Object.entries(checked).every(([g, values]) =>
+        g === 'language' ? values.some((v) => langs.includes(v)) : values.every((v) => tags.includes(`${g}:${v}`)));
+      li.hidden = !ok;
+      if (ok) shown++;
+    }
+    for (const section of document.querySelectorAll<HTMLElement>('.level')) {
+      const empty = !section.querySelector('.lesson-item:not([hidden])');
+      section.hidden = empty;
+      const jump = document.querySelector<HTMLElement>(`[data-jump="${section.dataset.level}"]`);
+      if (jump) jump.hidden = empty;
+    }
+    document.getElementById('no-match')!.hidden = shown > 0;
+    document.querySelector<HTMLElement>('.jump')!.hidden = shown === 0;
+    document.getElementById('filter-status')!.textContent = `${shown} oppgaver vises`;
+  }
+
+  form?.addEventListener('change', apply);
+  form?.addEventListener('reset', () => setTimeout(apply));
+</script>
