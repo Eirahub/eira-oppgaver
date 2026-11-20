@@ -61,5 +61,7 @@ Innholdet er i hovedsak delt under
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.no). Noen
 oppgaver har en annen lisens, og den står i oppgavens `lesson.yml` og nederst på
 siden. Oppgaver med vilkårene til Code Club World Limited er ikke
-Creative Commons og publiseres ikke på siden vår. Endringene Eira gjør, deler vi
-under samme lisens som innholdet.
+Creative Commons og publiseres ikke på siden vår. Endringene Eira gjør i
+innholdet, deler vi under samme lisens som innholdet.
+
+Koden til nettsiden i `site/` er lisensiert under MIT (`site/LICENSE`).
