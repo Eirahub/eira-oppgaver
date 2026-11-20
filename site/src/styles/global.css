@@ -139,6 +139,18 @@ a.external::after { content: " ↗" / " (ekstern side)"; }
 .course-name { font-weight: 700; font-size: var(--fs-body-lg); line-height: 1.2; }
 .course-meta { color: var(--ink-2); font-size: var(--fs-body-sm); }
 .ext { font-weight: 400; }
+/* "Etter teknologi" / "Alfabetisk": native radios styled as a segmented control */
+.courses-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: var(--space-3) var(--space-5); margin-top: var(--space-7); }
+.courses-head .section-title { margin: 0; }
+.view-switch { display: inline-flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); border: 0; margin: 0; padding: 0; }
+.view-switch legend { float: left; margin-right: var(--space-2); font-weight: 600; color: var(--ink-2); font-size: var(--fs-body-sm); }
+.view-switch label { position: relative; display: inline-flex; align-items: center; min-height: 44px; padding: var(--space-2) var(--space-4); border: 2px solid var(--brand-primary); border-radius: var(--radius-pill); background: var(--surface-raised); color: var(--brand-primary); font-weight: 600; font-size: var(--fs-body-sm); cursor: pointer; }
+.view-switch input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.view-switch label:has(input:checked) { background: var(--brand-primary); color: #fff; }
+.view-switch label:has(input:focus-visible) { outline: 3px solid var(--brand-primary); outline-offset: 2px; }
+.course-group h3 { margin: var(--space-6) 0 var(--space-3); }
+#kurs-alfabetisk > .course-grid:first-child { margin-top: var(--space-5); }
+@media (max-width: 40rem) { .view-switch legend { float: none; width: 100%; margin-bottom: var(--space-1); } }
 
 /* ---------- Course page ---------- */
 .breadcrumb { padding-top: var(--space-4); font-size: var(--fs-body-sm); color: var(--ink-2); }
@@ -279,6 +291,24 @@ details[open] > summary { border-bottom: 1px solid var(--border-card); }
 .lesson-content iframe { max-width: 100%; border: 0; }
 /* YouTube (nocookie) and Vimeo embeds scale with the column */
 .lesson-content iframe[src*="youtube"], .lesson-content iframe[src*="vimeo.com"] { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; margin: var(--space-4) 0; }
+
+/* "Prøv selv" (```html-live): editor and result side by side, stacked on narrow screens.
+   The original <pre> stays in the page for print (print.css). */
+.lesson-content pre.html-live.enhanced { display: none; }
+.live-editor { margin: var(--space-4) 0; padding: var(--space-3); background: var(--surface-raised); border: 1px solid var(--border-card); border-radius: 12px; }
+.live-toolbar { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-bottom: var(--space-3); }
+.live-panes { display: grid; gap: var(--space-3); }
+@media (min-width: 48rem) { .live-panes { grid-template-columns: 1fr 1fr; } }
+.live-pane { display: flex; flex-direction: column; gap: var(--space-1); min-width: 0; }
+.live-label { font-weight: 700; font-size: var(--fs-body-sm); color: var(--ink-2); }
+.live-code { width: 100%; min-height: 16rem; flex: 1; resize: vertical; padding: var(--space-3); font: 0.875rem/1.5 var(--font-mono); tab-size: 2; white-space: pre; overflow: auto; color: var(--ink); background: var(--surface-canvas); border: 1px solid var(--border-card); border-radius: 8px; }
+.live-result { width: 100%; min-height: 16rem; flex: 1; background: #fff; border: 1px solid var(--border-card) !important; border-radius: 8px; }
+.live-console ol { list-style: none; margin: 0; padding: var(--space-2) var(--space-3); max-height: 10rem; overflow: auto; font: 0.8125rem/1.4 var(--font-mono); background: var(--surface-canvas); border: 1px solid var(--border-card); border-radius: 8px; }
+.live-console li { margin: 0; white-space: pre-wrap; }
+.live-hint { margin: 0; font-size: var(--fs-body-sm); color: var(--ink-2); }
+.live-hint:empty { display: none; }
+.live-console .live-warn { color: #8A5A00; }
+.live-console .live-error { color: #B3261E; }
 
 @media (max-width: 40rem) {
   .lockup-mark { font-size: 36px; }
