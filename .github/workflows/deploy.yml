@@ -1,34 +1,49 @@
-name: Oppgaver
+name: Bygg og publiser
 
 on:
   push:
-    branches:
-      - master
-      
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          node-version: '10'
-      - name: Clone codeclub-viewer
-        run: git clone --depth=1 --branch=master https://github.com/kodeklubben/codeclub-viewer.git ../codeclub-viewer
-      - name: Install Dependencies
-        run: |
-          cd ../codeclub-viewer
-          yarn install
-      - name: Build
-        run: |
-          cd ../codeclub-viewer
-          yarn build:travis
-      - name: Deploy
-        if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
-        uses: peaceiris/actions-gh-pages@v3
+          node-version: 24
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: npm ci
+      - run: npm run build
+      - run: npm run check:site
+      - uses: actions/upload-pages-artifact@v5
+        if: github.event_name != 'pull_request'
         with:
-          deploy_key: ${{ secrets.NORWEGIANMANGO }}
-          publish_branch: master
-          publish_dir: ../codeclub-viewer/dist
-          cname: oppgaver.kidsakoder.no
-          external_repository: kodeklubben/kodeklubben.github.io
+          path: site/dist
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
