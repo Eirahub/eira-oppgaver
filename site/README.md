@@ -14,7 +14,7 @@ Krever Node 24.
 cd site
 npm install
 npm run dev          # http://localhost:4321
-npm run build        # bygger til site/dist
+npm run build        # bygger til site/dist og lager søket (Pagefind)
 npm run check:site   # sjekker dist for døde lenker og viktige sider
 npm test             # tester for logikk uten DOM (scripts/*.test.mjs)
 npm run preview      # viser dist lokalt
@@ -158,13 +158,38 @@ kodeblokk, så innholdet virker også oppstrøms.
   siden lastes), så en halvskrevet løkke ikke henger fanen. "Tilbakestill"
   henter den opprinnelige koden, og "Last ned som fil" lagrer `index.html`
   for å jobbe videre i VS Code.
+- Løkkevern som i JS Bin: før koden kjøres, får hver `for`-, `while`- og
+  `do`-løkke i `<script>` og i `onclick=` og lignende et kall først i
+  løkka. Bruker løkkene mer enn ett sekund uten pause for nettleseren, stoppes
+  koden, og konsollen viser "Løkka stoppet etter for lang tid. Har den en
+  slutt?" med linjenummeret. En løkke som venter (`await`, `setTimeout`),
+  stoppes ikke. Koden leses med [acorn](https://www.npmjs.com/package/acorn),
+  som bare lastes når koden har JavaScript. Kode acorn ikke kan lese, kjøres
+  uten vern, som før. "Last ned som fil" lagrer koden uten vernet.
 - `console.log` og feil vises under resultatet.
 - Endringer lagres i `localStorage` per side og blokk.
 - Tab gir to mellomrom. Esc og så Tab, Shift+Tab eller Ctrl+M slipper
   fokus ut av feltet.
 - Uten JavaScript og på utskrift vises bare koden.
-- Logikken er i `src/scripts/html-live.js` og `html-live-doc.js`
-  (testet med `npm test`).
+- Logikken er i `src/scripts/html-live.js`, `html-live-doc.js` og
+  `html-live-guard.js` (løkkevernet), testet med `npm test`.
+
+### Søk
+
+Forsiden har et søkefelt ("Søk i oppgavene"). Det bruker
+[Pagefind](https://pagefind.app/) 1.6.0 (MIT), som lager en statisk
+søkeindeks i `dist/pagefind/` etter `astro build` (`npm run build` kjører
+`pagefind --site dist`). Ingen server trengs.
+
+- Bare oppgaver indekseres: `data-pagefind-body` står på `<article>` i
+  oppgavesidene, ikke på lærerveiledninger og andre sider. Knapper, dialogen
+  og bunnteksten har `data-pagefind-ignore`.
+- Tittelen kommer fra `<h1>`. Kursnavnet er filteret "Kurs" og metadata `kurs`.
+- Søkefeltet er Pagefinds standard-UI med norske tekster. Treffene lenker til
+  samme URL-er som resten av siden (uten `.html`).
+- I `npm run dev` finnes ingen indeks, så søkefeltet vises ikke. Bygg og kjør
+  `npm run preview` for å prøve søket. Uten JavaScript og på utskrift vises
+  det heller ikke.
 
 ### Video i oppgaver
 

@@ -63,7 +63,7 @@ og om det er med i første versjon av den nye siden (v1) eller kommer senere.
 | KaTeX-matematikk | senere (brukes ikke i innholdet nå) |
 | Emoji-koder (`:smile:`) | senere (brukes ikke i innholdet nå) |
 | Elev- og lærermodus | v1, se under |
-| "Prøv selv": ` ```html-live ` blir kodefelt med levende resultat i en sandkasse, konsoll, "Tilbakestill" og "Last ned som fil" (erstatter JS Bin) | ny, se `README.md` |
+| "Prøv selv": ` ```html-live ` blir kodefelt med levende resultat i en sandkasse, konsoll, "Tilbakestill", "Last ned som fil" og løkkevern som stopper uendelige løkker (erstatter JS Bin) | ny, se `README.md` |
 
 ## Hele siden
 
@@ -81,6 +81,7 @@ og om det er med i første versjon av den nye siden (v1) eller kommer senere.
 | Velge språk for brukergrensesnittet (nb, nn, en, is, ua) | senere (bare bokmål nå) |
 | Skrift for dyslektikere | senere |
 | Navigasjon til kidsakoder.no-sider (Nyheter, Finn kodeklubb osv.) | v1 i profilen `lkk`, ikke i `eira` |
+| Søk i oppgavene (Pagefind, statisk indeks, filter på kurs) på forsiden | ny, se `README.md` |
 | Sitemap | senere |
 | Lenke til forum.kidsakoder.no | fjernet |
 
