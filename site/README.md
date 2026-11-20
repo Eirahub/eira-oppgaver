@@ -31,6 +31,7 @@ Kommandoene må kjøres fra `site/`, fordi innholdet finnes via `../src`.
 | `src/pages/[course]/[lesson]/[file].astro` | Oppgaver og lærerveiledninger, `/<kurs>/<mappe>/<fil>`. |
 | `src/pages/om-oppgavene.astro` | Om oppgavene, lisens og kreditering. |
 | `src/scripts/lesson.js` | I nettleseren: sjekklister (lagres i `localStorage`), Scratch-klosser og micro:bit-klosser. |
+| `src/styles/print.css` | Utskrift av oppgaver og lærerveiledninger (A4). Knappen "Skriv ut / lagre som PDF" kaller `window.print()`. Det lages ingen PDF-filer ved bygg. |
 | `src/styles/global.css` | Eira-profilen (Palette A "Fjord & Ember") og stilen på oppgavene. |
 | `astro.config.mjs` | `build.format: 'preserve'` gir `/scratch/index.html` og `/scratch/astrokatt/astrokatt.html`. En liten integrasjon serverer bilder og andre filer fra `../src` i dev og kopierer dem til `dist` ved bygg. |
 | `scripts/check-site.mjs` | Lenkesjekk etter bygg. |
