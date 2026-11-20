@@ -1,6 +1,6 @@
 ---
 title: Fjernstyr en robot
-author: "Teodor Heggelund (tilpasset CC: Tweaked av Tor Einar Enne)"
+author: Tor Einar Enne
 language: nb
 ---
 
@@ -437,3 +437,6 @@ Jeg flytter den dit den skal begynne å grave ...
 ![Bilde av en gruverobot som har gravd et hull](ssh_3.png)
 
 ... og der har den kommet et godt stykke!
+
+*Basert på en oppgave til ComputerCraft av Teodor Heggelund,
+delt under CC BY-SA 4.0.*

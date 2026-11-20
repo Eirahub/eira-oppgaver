@@ -1,6 +1,6 @@
 ---
 title: Bygg et hus
-author: "Geir Arne Hjelle (tilpasset CC: Tweaked av Tor Einar Enne)"
+author: Tor Einar Enne
 language: nb
 ---
 
@@ -565,3 +565,6 @@ Det er bedre å si hvor stort huset skal være når vi starter programmet.
 - [ ] Kjører du programmet ved å bare skrive `bygghus`, får du beskjed om at du
   også må oppgi høyde, bredde og dybde. Skriv for eksempel `bygghus 3 5 4` for å
   starte husbyggeroboten.
+
+*Basert på en oppgave til ComputerCraft av Geir Arne Hjelle,
+delt under CC BY-SA 4.0.*
