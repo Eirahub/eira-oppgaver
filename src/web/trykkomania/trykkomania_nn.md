@@ -13,41 +13,56 @@ med venene dine. Spelet heiter *Trykkomania* fordi det handlar om å trykke på
 ein ball flest mogleg gonger før tida renn ut.
 
 Før du startar med denne oppgåva bør du ha ein del erfaring med variablar,
-funksjonar og eventListeners i JavaScript. Viss du ikkje har det anbefalar me at
-du gjer nokre av dei enklare oppgåvene fyrst.
+funksjonar og hendingar (`addEventListener`) i JavaScript. Viss du ikkje har
+det, anbefalar me at du gjer nokre av dei enklare oppgåvene fyrst.
 
 ![Animasjon av spelet Trykkomania](trykkomania.gif)
 
 
-# Steg 1: Åpne JS Bin {.activity}
+# Steg 1: Prøv sjølv-boksen {.activity}
 
-Me skal bruke JS Bin (http://jsbin.com) for å lage spelet. Viss du ikkje har
-brukt JS Bin før bør du ta ein kikk på oppgåva [Hei,
-JavaScript](../hei_js/hei_js_nn.html). Viss du heller vil lage spelet i ei eiga
-fil på PC-en din, så kan du åpne favoritt-teksteditoren din og hoppe til steg 2.
+Me skal lage spelet i ein **Prøv selv**-boks rett her på sida. Boksen under er
+ei heil nettside. Du skriv koden i editoren, og resultatet visast under. Viss du
+aldri har programmert JavaScript før, ta ein kikk på oppgåva [Hei,
+JavaScript](../hei_js/hei_js_nn.html) fyrst.
 
 ## Sjekkliste {.check}
 
-- [ ] Åpne adressa [jsbin.com](http://jsbin.com) i eit nytt vindauge.
+- [ ] Sjå på koden i boksen under. Det meste er HTML som du ikkje treng å endre.
 
-- [ ] Vel å vise **JavaScript** og **Output**. Skjul dei andre fanene ved å
-  trykkje på dei.
+- [ ] All JavaScript-koden i denne oppgåva skal stå mellom `<script>` og
+  `</script>`. Der står det no berre ein kommentar.
 
-  ![Bilete av JS Bin med fanene Javascript og Output](faner.png)
+- [ ] Viss du gjer noko gale, kan du trykkje **Reset** for å starte på nytt.
 
-- [ ] I **JavaScript** skriv me koden.
+```html-live
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trykkomania</title>
+  </head>
+  <body>
+    <script>
+      // Her skriv du JavaScript-koden
+    </script>
+  </body>
+</html>
+```
 
-- [ ] I **Output** vidast nettsida.
+## Tips {.tip}
 
-- [ ] Når du startar er begge fanene tomme.
+Du kan også skrive koden i VS Code. Trykk **Last ned som fil** under døme, eller
+lag ei ny fil. Sjå oppgåva [VS Code](../vs_code/vs_code.html).
 
 
 # Steg 2: Lage ein ball {.activity}
 
 Me skal bruke JavaScript til å lage innhaldet på nettsida. Dette tyder at me
 skal bruke JavaScript til å lage HTML. Du treng ikkje kunne noko spesielt om
-HTML, men viss du vil lære meir om det fyrst kan du sjå på oppgåva [Introduksjon
-til web](../introduksjon_til_web/introduksjon_til_web_nn.html).
+HTML, men viss du vil lære meir om det fyrst kan du sjå på oppgåva [Hva er en
+nettside?](../hva_er_en_nettside/hva_er_en_nettside.html).
 
 ## Sjekkliste {.check}
 
@@ -63,17 +78,18 @@ til web](../introduksjon_til_web/introduksjon_til_web_nn.html).
 
   ```js
   function Ball() {
-    var el = document.createElement('div');
+    const el = document.createElement('div');
   }
   ```
 
-- [ ] `var el` tyder at elementet får namnet `el`.
+- [ ] `const el` tyder at elementet får namnet `el`. `const` brukast når namnet
+  alltid skal peike på det same, her det same elementet.
 
 - [ ] No kan me gi elementet ein stil:
 
   ```js
   function Ball() {
-    var el = document.createElement('div');
+    const el = document.createElement('div');
     el.style.backgroundColor = 'black';
     el.style.width = '60px';
     el.style.height = '60px';
@@ -91,7 +107,7 @@ til web](../introduksjon_til_web/introduksjon_til_web_nn.html).
 
   ```js
   function Ball() {
-    var el = document.createElement('div');
+    const el = document.createElement('div');
     el.style.backgroundColor = 'black';
     el.style.width = '60px';
     el.style.height = '60px';
@@ -105,9 +121,7 @@ til web](../introduksjon_til_web/introduksjon_til_web_nn.html).
   Ball();
   ```
 
-- [ ] Ser du ein "ball" i **Output**?
-
-  ![Bilete av ein firkanta ball i Output](firkantet_ball.png)
+- [ ] Ser du ein svart firkant i resultatet?
 
 Så ballen vår er ikkje akkurat rund. Me kan bruke `el.style.borderRadius` for å
 runde av hjørnene. Sidan ballen er `60px` brei og høg, så avrundar me kantane
@@ -128,13 +142,37 @@ Korleis ser det ut med `5px`?
 
 ## Tips {.protip}
 
-Viss du sit fast kan du sjå på [koden så
-langt](http://jsbin.com/pozova/1/edit?js,output).
+Viss du sit fast kan du sjå på koden så langt:
+
+```html-live
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trykkomania</title>
+  </head>
+  <body>
+    <script>
+      function Ball() {
+        const el = document.createElement('div');
+        el.style.backgroundColor = 'black';
+        el.style.width = '60px';
+        el.style.height = '60px';
+        el.style.borderRadius = '30px';
+        document.body.appendChild(el);
+      }
+
+      Ball();
+    </script>
+  </body>
+</html>
+```
 
 
 # Steg 3: Flytte ballen {.activity}
 
-Akkurat no visast ballen heilt øvst til venstre i **Output**. La oss flytte den
+Akkurat no visast ballen heilt øvst til venstre i resultatet. La oss flytte den
 rundt omkring.
 
 Me brukar `el.style.position = 'fixed'` for å fortelje at me ynskjer å plassere
@@ -143,7 +181,7 @@ ballen i forhold til kantane i vindauget. Halvparten (`50 %`) frå toppen blir d
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til ein posisjon for ballen:
+- [ ] Legg til ein posisjon for ballen inne i `Ball`:
 
   ```js
   el.style.position = 'fixed';
@@ -164,8 +202,35 @@ ballen i forhold til kantane i vindauget. Halvparten (`50 %`) frå toppen blir d
 
 ## Tips {.protip}
 
-Viss du står fast kan du sjå på [koden så
-langt](http://jsbin.com/pozova/2/edit?js,output).
+Viss du står fast kan du sjå på koden så langt:
+
+```html-live
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trykkomania</title>
+  </head>
+  <body>
+    <script>
+      function Ball() {
+        const el = document.createElement('div');
+        el.style.backgroundColor = 'black';
+        el.style.width = '60px';
+        el.style.height = '60px';
+        el.style.borderRadius = '30px';
+        el.style.position = 'fixed';
+        el.style.top = '80%';
+        el.style.left = '30%';
+        document.body.appendChild(el);
+      }
+
+      Ball();
+    </script>
+  </body>
+</html>
+```
 
 
 # Steg 4: Flytte ballen med ein funksjon {.activity}
@@ -176,8 +241,7 @@ ein funksjon som flyttar ballen.
 ## Sjekkliste {.check}
 
 - [ ] Inne i `Ball` lagar du ein funksjon som heiter `el.posisjon`. Denne
-  funksjonen skal ta inn ein `x`- og ein `y`-verdi, plassere elementet og
-  returnere elementet.
+  funksjonen skal ta inn ein `x`- og ein `y`-verdi og plassere elementet.
 
   ```js
   function Ball() {
@@ -197,8 +261,10 @@ ein funksjon som flyttar ballen.
    };
   ```
 
-- [ ] Returner `el` slik at me kan bruke funksjonane til ballen. Når elementet
-  `el` returnerast vil `el` oppdaterast med ny plassering.
+- [ ] No bestemmer `posisjon` kvar ballen er. Slett linjene med `el.style.top`
+  og `el.style.left` frå steg 3, men behald `el.style.position = 'fixed'`.
+
+- [ ] Returner `el` slik at me kan bruke funksjonane til ballen utanfor `Ball`.
 
   ```js
   function Ball() {
@@ -212,17 +278,50 @@ ein funksjon som flyttar ballen.
   }
   ```
 
-- [ ] No kan du flytte ballen slik som dette:
+- [ ] Byt ut `Ball();` med denne koden. Då kan du flytte ballen:
 
   ```js
-  var ball = Ball();  // lagar ballen
+  const ball = Ball();  // lagar ballen
   ball.posisjon('10%', '20%');  // flyttar til x = 10% og y = 20%
   ```
 
 ## Tips {.protip}
 
-Viss du står fast kan du sjå på [koden så
-langt](http://jsbin.com/hipepuy/edit?js,output).
+Viss du står fast kan du sjå på koden så langt:
+
+```html-live
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trykkomania</title>
+  </head>
+  <body>
+    <script>
+      function Ball() {
+        const el = document.createElement('div');
+        el.style.backgroundColor = 'black';
+        el.style.width = '60px';
+        el.style.height = '60px';
+        el.style.borderRadius = '30px';
+        el.style.position = 'fixed';
+        document.body.appendChild(el);
+
+        el.posisjon = function (x, y) {
+          el.style.left = x;
+          el.style.top = y;
+        };
+
+        return el;
+      }
+
+      const ball = Ball();
+      ball.posisjon('10%', '20%');
+    </script>
+  </body>
+</html>
+```
 
 
 # Steg 5: Vel ei tilfeldig plassering {.activity}
@@ -232,64 +331,99 @@ og 1. La oss bruke denne slik at ballen blir plassert på ein tilfeldig stad.
 
 ## Sjekkliste {.check}
 
-- [ ] Trykk på fana **Console**.
+- [ ] Skriv denne linja nedst i koden:
 
-- [ ] Skriv inn `Math.random()` og trykk enter.
+  ```js
+  console.log(Math.random());
+  ```
 
-  ![Bilete av output frå "Math.random()"](tilfeldig.png)
+- [ ] `console.log` skriv ut ein verdi. Utskrifta visast under resultatet. Fekk
+  du eit tal mellom 0 og 1?
 
-- [ ] Fekk du eit tal mellom 0 og 1
+- [ ] Me kan gjere om talet til prosent ved å gange med 100. Prøv det sjølv:
 
-- [ ] Me kan gjere om talet til prosent ved å gange med 100. Prøv det sjølv.
-
-  ![Bilete av output multiplisert med 100](prosent1.png)
+  ```js
+  console.log(Math.random() * 100);
+  ```
 
 - [ ] Me kan leggje til prosentteiknet med `+ '%'`:
 
-  ![Bilete av output i prosent](prosent2.png)
+  ```js
+  console.log(Math.random() * 100 + '%');
+  ```
 
-- [ ] Legg merke til at me får nye tal kvar gong me køyrer kommandoen. Det er
-  dette som kallast *tilfeldig*.
+- [ ] Legg merke til at me får nye tal kvar gong koden køyrer. Det er dette som
+  kallast *tilfeldig*.
 
-- [ ] Lukk **Console** ved å trykkje på den.
+- [ ] Slett linjene med `console.log` att.
 
-- [ ] La oss bruke `Math.random` til å plassere ballen:
+- [ ] La oss bruke `Math.random` til å plassere ballen. Byt ut
+  `ball.posisjon('10%', '20%');` med:
 
   ```js
-  var x = Math.random() * 100 + '%';
-  var y = Math.random() * 100 + '%';
+  const x = Math.random() * 100 + '%';
+  const y = Math.random() * 100 + '%';
   ball.posisjon(x, y);
   ```
 
 Her har me laga to variablar, `x` og `y`. Begge heldt på kvart sitt tilfeldige
 tal. Dette talet blir sendt inn i funksjonen `posisjon(x,y)` me laga i stad.
 
-- [ ] Flyttar ballen på seg viss du trykkar på knappen <button>Run with
-  JS</button>?
+- [ ] Køyr koden fleire gonger, til dømes ved å endre han litt. Hamnar ballen på
+  ein ny stad kvar gong?
 
-  ![Bilete av ballen som får ei ny tilfeldig
-  plassering](tilfeldig_plassering.gif)
-
-- [ ] Viss du har haka av **Auto-run JS** vil koden køyre kvar gong du endrar
-  koden.
-
-- [ ] Trykkar du mange nok gonger kan du leggje merke til at ballen nokre gonger
-  kjem utanfor botnen og høgre side.
+- [ ] Køyrer du koden mange nok gonger kan du leggje merke til at ballen nokre
+  gonger kjem utanfor botnen og høgre side.
 
 - [ ] For å unngå dette kan me avgrense flyttinga til 80 %:
 
   ```js
-  var x = Math.random() * 80 + '%';
-  var y = Math.random() * 80 + '%';
+  const x = Math.random() * 80 + '%';
+  const y = Math.random() * 80 + '%';
   ```
 
 - [ ] Sidan `Math.random()` maksimalt er 1 og me gangar med 80, så vil aldri
-  ballen flytte seng lengre ut frå toppen eller venstre side enn 80 %.
+  ballen flytte seg lengre ut frå toppen eller venstre side enn 80 %.
 
 ## Tips {.protip}
 
-Viss du står fast kan du sjå på [koden så
-langt](http://jsbin.com/digiqa/1/edit?js,output).
+Viss du står fast kan du sjå på koden så langt:
+
+```html-live
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trykkomania</title>
+  </head>
+  <body>
+    <script>
+      function Ball() {
+        const el = document.createElement('div');
+        el.style.backgroundColor = 'black';
+        el.style.width = '60px';
+        el.style.height = '60px';
+        el.style.borderRadius = '30px';
+        el.style.position = 'fixed';
+        document.body.appendChild(el);
+
+        el.posisjon = function (x, y) {
+          el.style.left = x;
+          el.style.top = y;
+        };
+
+        return el;
+      }
+
+      const ball = Ball();
+      const x = Math.random() * 80 + '%';
+      const y = Math.random() * 80 + '%';
+      ball.posisjon(x, y);
+    </script>
+  </body>
+</html>
+```
 
 
 # Steg 6: Flytte ballen kvart andre sekund {.activity}
@@ -298,9 +432,9 @@ Me vil at ballen skal flytte seg heile tida. No skal me bruke `setInterval` for
 å flytte ballen kvart andre sekund.
 
 ```js
-setInterval(function(){
-    //koden som skal køyrast i intervall
-}, antall_millisekunder); // Kor ofte den skal køyre
+setInterval(function () {
+  // koden som skal køyrast i intervall
+}, antall_millisekunder); // kor ofte den skal køyre
 ```
 
 ## Sjekkliste {.check}
@@ -309,8 +443,8 @@ setInterval(function(){
 
   ```js
   setInterval(function () {
-    var x = Math.random() * 80 + '%';
-    var y = Math.random() * 80 + '%';
+    const x = Math.random() * 80 + '%';
+    const y = Math.random() * 80 + '%';
     ball.posisjon(x, y);
   }, 2000);
   ```
@@ -323,8 +457,45 @@ setInterval(function(){
 
 ## Tips {.protip}
 
-Viss du står fast kan du sjå på [koden så
-langt](http://jsbin.com/lecamej/1/edit?js,output).
+Viss du står fast kan du sjå på koden så langt:
+
+```html-live
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trykkomania</title>
+  </head>
+  <body>
+    <script>
+      function Ball() {
+        const el = document.createElement('div');
+        el.style.backgroundColor = 'black';
+        el.style.width = '60px';
+        el.style.height = '60px';
+        el.style.borderRadius = '30px';
+        el.style.position = 'fixed';
+        document.body.appendChild(el);
+
+        el.posisjon = function (x, y) {
+          el.style.left = x;
+          el.style.top = y;
+        };
+
+        return el;
+      }
+
+      const ball = Ball();
+      setInterval(function () {
+        const x = Math.random() * 80 + '%';
+        const y = Math.random() * 80 + '%';
+        ball.posisjon(x, y);
+      }, 2000);
+    </script>
+  </body>
+</html>
+```
 
 
 # Steg 7: Poeng {.activity}
@@ -342,40 +513,43 @@ på same måte som `Ball`, så du må gjerne lese gjennom og sjå om du forstår
    * Poeng - viser poengsum nede i venstre hjørne.
    *
    * Bruk:
-   *   var poeng = Poeng();  // viser poengsummen
+   *   const poeng = Poeng();  // viser poengsummen
    *   poeng.auk();  // aukar poengsummen med 100
    *   poeng.nullstill();  // set poengsummen til 0
    *
    */
   function Poeng() {
-    var el = document.createElement('div');
+    const el = document.createElement('div');
 
     // CSS til "el"
     el.style.position = 'fixed';
-    el.style.bottom = '50px';
+    el.style.bottom = '5px';
     el.style.left = '8px';
     el.style.padding = '5px';
     el.style.backgroundColor = 'black';
     el.style.color = 'white';
 
     // Viser poengsum på skjermen, og lagar variabelen "_poeng"
-    var _poeng = 0;
-    el.innerHTML = _poeng + ' poeng';
+    let _poeng = 0;
+    el.textContent = _poeng + ' poeng';
     document.body.appendChild(el);
 
     // To funksjonar som aukar eller nullstiller poenga
     el.auk = function () {
       _poeng += 100;
-      el.innerHTML = _poeng + ' poeng';
+      el.textContent = _poeng + ' poeng';
     };
     el.nullstill = function () {
       _poeng = 0;
-      el.innerHTML = _poeng + ' poeng';
+      el.textContent = _poeng + ' poeng';
     };
 
     return el;
   }
   ```
+
+- [ ] `_poeng` blir laga med `let` og ikkje `const`, fordi verdien skal endrast.
+  `textContent` er teksten inne i elementet.
 
 - [ ] For at poengsummen skal visast må me køyre `Poeng()` ein gong, slik me
   gjorde med `Ball()`.
@@ -383,19 +557,19 @@ på same måte som `Ball`, så du må gjerne lese gjennom og sjå om du forstår
 - [ ] Legg denne linja over `Ball()`:
 
   ```js
-  var poeng = Poeng();
-  var ball = Ball();
+  const poeng = Poeng();
+  const ball = Ball();
   ```
 
-- [ ] Visast "**Poeng 0**"?
+- [ ] Visast "**0 poeng**"?
 
 - [ ] For å halde orden på programmet er det lurt å ha det som skjer i toppen.
   Funksjonar kan brukast sjølv om dei ikkje står fyrst, så flytt `function Ball`
   og `function Poeng` ned til botnen.
 
   ```js
-  var poeng = Poeng();
-  var ball = Ball();
+  const poeng = Poeng();
+  const ball = Ball();
   setInterval(function () {
     ...
   }, 2000);
@@ -412,32 +586,97 @@ på same måte som `Ball`, så du må gjerne lese gjennom og sjå om du forstår
 
 - [ ] No står det som skjer i toppen:
 
-  - Vis poenga: `var poeng = Poeng()`.
+  - Vis poenga: `const poeng = Poeng()`.
 
-  - Vis ballen: `var ball = Ball()`.
+  - Vis ballen: `const ball = Ball()`.
 
-  - Flytt ballen kvart andre sekund: `setInterval(..., 2000)`.`
+  - Flytt ballen kvart andre sekund: `setInterval(..., 2000)`.
 
 - [ ] No vel me å køyre funksjonen `poeng.auk` kvar gong ballen blir trykka.
+  Legg denne linja rett under `const ball = Ball();`:
 
   ```js
-  ball.onclick = poeng.auk;
+  ball.addEventListener('click', poeng.auk);
   ```
 
   **OBS!** Det skal **ikkje** vere `()` på slutten av `poeng.auk`. Det er fordi
   funksjonen ikkje blir køyrt her, men kvar gong nokon klikkar på ballen.
 
-- [ ] `ball.onclick = poeng.auk;` tyder at funksjonen `poeng.auk()` køyrast når
-  nokon klikkar på ballen.
+- [ ] `ball.addEventListener('click', poeng.auk);` tyder at funksjonen
+  `poeng.auk()` køyrast når nokon klikkar på ballen. `'click'` er namnet på
+  hendinga.
 
 - [ ] Sjekk at du får poeng når du treffer ballen med eit klikk.
 
-  ![Animasjon av at du får poeng når du treff ballen med eit klikk](poeng.gif)
-
 ## Tips {.protip}
 
-Viss du står fast kan du sjå på [koden så
-langt](http://jsbin.com/mewole/1/edit?js,output).
+Viss du står fast kan du sjå på koden så langt:
+
+```html-live
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trykkomania</title>
+  </head>
+  <body>
+    <script>
+      const poeng = Poeng();
+      const ball = Ball();
+      ball.addEventListener('click', poeng.auk);
+      setInterval(function () {
+        const x = Math.random() * 80 + '%';
+        const y = Math.random() * 80 + '%';
+        ball.posisjon(x, y);
+      }, 2000);
+
+
+      function Ball() {
+        const el = document.createElement('div');
+        el.style.backgroundColor = 'black';
+        el.style.width = '60px';
+        el.style.height = '60px';
+        el.style.borderRadius = '30px';
+        el.style.position = 'fixed';
+        document.body.appendChild(el);
+
+        el.posisjon = function (x, y) {
+          el.style.left = x;
+          el.style.top = y;
+        };
+
+        return el;
+      }
+
+      function Poeng() {
+        const el = document.createElement('div');
+        el.style.position = 'fixed';
+        el.style.bottom = '5px';
+        el.style.left = '8px';
+        el.style.padding = '5px';
+        el.style.backgroundColor = 'black';
+        el.style.color = 'white';
+
+        let _poeng = 0;
+        el.textContent = _poeng + ' poeng';
+        document.body.appendChild(el);
+
+        el.auk = function () {
+          _poeng += 100;
+          el.textContent = _poeng + ' poeng';
+        };
+        el.nullstill = function () {
+          _poeng = 0;
+          el.textContent = _poeng + ' poeng';
+        };
+
+        return el;
+      }
+    </script>
+  </body>
+</html>
+```
 
 ## Teste spelet {.flag}
 
@@ -447,31 +686,17 @@ mobiltelefonen din.
 
 ## Sjekkliste {.check}
 
-- [ ] Nokre mobiltelefonar zoomar når ein dobbeltklikkar på skjermen, difor skal
-  me slå av zooming.
+- [ ] Linja `<meta name="viewport" ...>` i toppen av koden gjer at sida passar
+  til skjermen på ein mobiltelefon. Den står der allereie.
 
-- [ ] Åpne fana **HTML** ved å trykkje på den.
+- [ ] Det enklaste er å åpne denne oppgåva på mobilen og spele i resultatet
+  under koden over.
 
-- [ ] Finn linja med `<meta name="viewport" ...`.
+- [ ] Du kan også trykkje **Last ned som fil**, sende fila `index.html` til
+  mobilen og åpne den i nettlesaren der.
 
-- [ ] Endre linja til:
-
-  ```html
-  <meta name="viewport" content="width=device-width, user-scalable=no">
-  ```
-
-- [ ] Lukk fana **HTML** ved å trykkje på den.
-
-- [ ] Øvst i nettlesaren din står adressa til sida.
-
-  ![Bilete av adressa til sida øvst i nettlesaren](adresse.png)
-
-- [ ] Adressa du treng å taste inn på mobilen er det som står *før*
-  '/edit?js,output'.
-
-- [ ] I dømet over er adressa `jsbin.com/dutebe`.
-
-- [ ] Tast adressa *di* inn på mobiltelefonen.
+- [ ] Vil du at andre skal kunne åpne spelet med ei adresse, kan du publisere
+  det. Sjå oppgåva [Publiser nettsida di](../publiser/publiser_nn.html).
 
 - [ ] Spel!
 
@@ -491,12 +716,12 @@ klikk på 10 sekund.
    * Nedteljing - Ei linje som viser at tida renn ut.
    *
    * Bruk:
-   *   var nedteljing = Nedteljing(slutt);  // funksjonen `slutt` blir køyrt når tida er ute
+   *   const nedteljing = Nedteljing(slutt);  // funksjonen `slutt` blir køyrt når tida er ute
    *   nedteljing.telNed(10);  // tel ned 10 sekund
    *
    */
-  function Nedteljing (ferdig) {
-    var el = document.createElement('div');
+  function Nedteljing(ferdig) {
+    const el = document.createElement('div');
 
     // CSSen til elementet "el"
     el.style.position = 'fixed';
@@ -508,18 +733,18 @@ klikk på 10 sekund.
     document.body.appendChild(el);
 
     // Reknar ut prosenten av kor lang tid det er att
-    function prosent (slutt, tid) {
+    function prosent(slutt, tid) {
       return (slutt - Date.now()) / tid / 10;
     }
 
     // Funksjon som tel ned og stoppar når den har kome til null
     el.telNed = function (tid) {
-      var slutt = Date.now() + tid * 1000;
-      var intervall = setInterval(teikn, 20);
+      const slutt = Date.now() + tid * 1000;
+      const intervall = setInterval(teikn, 20);
 
       // Teiknar streken på venstre side til tida er ute
-      function teikn () {
-        var p = prosent(slutt, tid);
+      function teikn() {
+        const p = prosent(slutt, tid);
         if (p < 0) {
           el.style.height = '0%';
           clearInterval(intervall);
@@ -527,7 +752,7 @@ klikk på 10 sekund.
         }
         el.style.height = p + '%';
       }
-    }
+    };
 
     return el;
   }
@@ -536,14 +761,13 @@ klikk på 10 sekund.
 - [ ] I toppen startar me nedteljinga.
 
   ```js
-  var nedteljing = Nedteljing();
+  const nedteljing = Nedteljing();
   nedteljing.telNed(10);
   ```
 
 - [ ] Dette lagar ei nedteljing på 10 sekund.
 
-- [ ] Viss du trykkar på <button>Run with JS</button> ser du nedteljinga, men
-  ingenting skjer når tida er ute.
+- [ ] No ser du nedteljinga, men ingenting skjer når tida er ute.
 
 - [ ] Lag funksjonen `stopp` som fortel kva som skal skje når tida er ute.
 
@@ -575,7 +799,7 @@ klikk på 10 sekund.
   ute.
 
   ```js
-  var nedteljing = Nedteljing(stopp);
+  const nedteljing = Nedteljing(stopp);
   ```
 
 - [ ] Forsvinn ballen når tida er ute.
@@ -584,14 +808,124 @@ klikk på 10 sekund.
 
 ## Tips {.protip}
 
-Viss du står fast kan du sjå på [koden så
-langt](http://jsbin.com/tukiwu/1/edit?js,output).
+Viss du står fast kan du sjå på koden så langt:
+
+```html-live
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trykkomania</title>
+  </head>
+  <body>
+    <script>
+      const poeng = Poeng();
+      const ball = Ball();
+      ball.addEventListener('click', poeng.auk);
+      setInterval(function () {
+        const x = Math.random() * 80 + '%';
+        const y = Math.random() * 80 + '%';
+        ball.posisjon(x, y);
+      }, 2000);
+
+      const nedteljing = Nedteljing(stopp);
+      nedteljing.telNed(10);
+
+      function stopp() {
+        ball.skjul();
+      }
+
+
+      function Ball() {
+        const el = document.createElement('div');
+        el.style.backgroundColor = 'black';
+        el.style.width = '60px';
+        el.style.height = '60px';
+        el.style.borderRadius = '30px';
+        el.style.position = 'fixed';
+        document.body.appendChild(el);
+
+        el.posisjon = function (x, y) {
+          el.style.left = x;
+          el.style.top = y;
+        };
+        el.skjul = function () {
+          el.style.display = 'none';
+        };
+        el.vis = function () {
+          el.style.display = '';
+        };
+
+        return el;
+      }
+
+      function Poeng() {
+        const el = document.createElement('div');
+        el.style.position = 'fixed';
+        el.style.bottom = '5px';
+        el.style.left = '8px';
+        el.style.padding = '5px';
+        el.style.backgroundColor = 'black';
+        el.style.color = 'white';
+
+        let _poeng = 0;
+        el.textContent = _poeng + ' poeng';
+        document.body.appendChild(el);
+
+        el.auk = function () {
+          _poeng += 100;
+          el.textContent = _poeng + ' poeng';
+        };
+        el.nullstill = function () {
+          _poeng = 0;
+          el.textContent = _poeng + ' poeng';
+        };
+
+        return el;
+      }
+
+      function Nedteljing(ferdig) {
+        const el = document.createElement('div');
+        el.style.position = 'fixed';
+        el.style.left = '0';
+        el.style.bottom = '0';
+        el.style.height = '100%';
+        el.style.width = '3px';
+        el.style.backgroundColor = 'red';
+        document.body.appendChild(el);
+
+        function prosent(slutt, tid) {
+          return (slutt - Date.now()) / tid / 10;
+        }
+
+        el.telNed = function (tid) {
+          const slutt = Date.now() + tid * 1000;
+          const intervall = setInterval(teikn, 20);
+
+          function teikn() {
+            const p = prosent(slutt, tid);
+            if (p < 0) {
+              el.style.height = '0%';
+              clearInterval(intervall);
+              ferdig();
+            }
+            el.style.height = p + '%';
+          }
+        };
+
+        return el;
+      }
+    </script>
+  </body>
+</html>
+```
 
 
 # Steg 9: Starte spelet på nytt {.activity}
 
-No kan me starte spelet om att ved å oppdatere nettlesaren. Er det ikkje
-stiligare med ein knapp som startar spelet?
+No kan me starte spelet om att ved å køyre koden på nytt. Er det ikkje stiligare
+med ein knapp som startar spelet?
 
 ## Sjekkliste {.check}
 
@@ -624,14 +958,14 @@ stiligare med ein knapp som startar spelet?
    * Ein knapp som ligg midt på sida.
    *
    * Bruk:
-   *   var knapp = Knapp('trykk på meg');  // lagar ein knapp som ligg midt på sida
+   *   const knapp = Knapp('trykk på meg');  // lagar ein knapp som ligg midt på sida
    *   knapp.vis();  // viser knappen
    *   knapp.skjul();  // skjuler knappen
    */
   function Knapp(tekst) {
-    var el = document.createElement('button');
+    const el = document.createElement('button');
     el.style.display = 'none';
-    el.innerText = tekst;
+    el.textContent = tekst;
     el.style.position = 'fixed';
     el.style.top = '50%';
     el.style.left = '50%';
@@ -646,8 +980,8 @@ stiligare med ein knapp som startar spelet?
       el.style.display = '';
       // plasser akkurat på midten
       // midten av skjermen er 50 % minus halvparten av storleiken til knappen
-      var w = el.offsetWidth / 2;
-      var h = el.offsetHeight / 2;
+      const w = el.offsetWidth / 2;
+      const h = el.offsetHeight / 2;
       el.style.marginLeft = '-' + w + 'px';
       el.style.marginTop = '-' + h + 'px';
     };
@@ -659,11 +993,12 @@ stiligare med ein knapp som startar spelet?
 - [ ] I toppen legg me til knappen.
 
   ```js
-  var knapp = Knapp('Prøv ein gong til');
-  knapp.onclick = start;
+  const knapp = Knapp('Prøv ein gong til');
+  knapp.addEventListener('click', start);
   ```
 
-- [ ] `knapp.onclick` bestemmer kva som skal skje når me klikkar på knappen.
+- [ ] `knapp.addEventListener('click', start)` bestemmer kva som skal skje når
+  me klikkar på knappen.
 
 - [ ] Knappen visast ikkje, så me må bestemme at den skal visast når spelet er
   over.
@@ -689,12 +1024,160 @@ stiligare med ein knapp som startar spelet?
   }
   ```
 
-- [ ] Spelet er ferdig! Del adressa med venene dine, og sjå kven som klarar
-  flest poeng.
+- [ ] Spelet er ferdig! Last ned spelet som fil eller publiser det, og sjå kven
+  av venene dine som klarar flest poeng.
 
 ## Tips {.protip}
 
-Her er [fasiten](losning_nn.js).
+Her er fasiten:
+
+```html-live
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trykkomania</title>
+  </head>
+  <body>
+    <script>
+      const poeng = Poeng();
+      const ball = Ball();
+      ball.addEventListener('click', poeng.auk);
+      setInterval(function () {
+        const x = Math.random() * 80 + '%';
+        const y = Math.random() * 80 + '%';
+        ball.posisjon(x, y);
+      }, 2000);
+
+      const knapp = Knapp('Prøv ein gong til');
+      knapp.addEventListener('click', start);
+
+      const nedteljing = Nedteljing(stopp);
+      nedteljing.telNed(10);
+
+      function start() {
+        poeng.nullstill();
+        nedteljing.telNed(10);
+        ball.vis();
+        knapp.skjul();
+      }
+
+      function stopp() {
+        ball.skjul();
+        knapp.vis();
+      }
+
+
+      function Ball() {
+        const el = document.createElement('div');
+        el.style.backgroundColor = 'black';
+        el.style.width = '60px';
+        el.style.height = '60px';
+        el.style.borderRadius = '30px';
+        el.style.position = 'fixed';
+        document.body.appendChild(el);
+
+        el.posisjon = function (x, y) {
+          el.style.left = x;
+          el.style.top = y;
+        };
+        el.skjul = function () {
+          el.style.display = 'none';
+        };
+        el.vis = function () {
+          el.style.display = '';
+        };
+
+        return el;
+      }
+
+      function Poeng() {
+        const el = document.createElement('div');
+        el.style.position = 'fixed';
+        el.style.bottom = '5px';
+        el.style.left = '8px';
+        el.style.padding = '5px';
+        el.style.backgroundColor = 'black';
+        el.style.color = 'white';
+
+        let _poeng = 0;
+        el.textContent = _poeng + ' poeng';
+        document.body.appendChild(el);
+
+        el.auk = function () {
+          _poeng += 100;
+          el.textContent = _poeng + ' poeng';
+        };
+        el.nullstill = function () {
+          _poeng = 0;
+          el.textContent = _poeng + ' poeng';
+        };
+
+        return el;
+      }
+
+      function Nedteljing(ferdig) {
+        const el = document.createElement('div');
+        el.style.position = 'fixed';
+        el.style.left = '0';
+        el.style.bottom = '0';
+        el.style.height = '100%';
+        el.style.width = '3px';
+        el.style.backgroundColor = 'red';
+        document.body.appendChild(el);
+
+        function prosent(slutt, tid) {
+          return (slutt - Date.now()) / tid / 10;
+        }
+
+        el.telNed = function (tid) {
+          const slutt = Date.now() + tid * 1000;
+          const intervall = setInterval(teikn, 20);
+
+          function teikn() {
+            const p = prosent(slutt, tid);
+            if (p < 0) {
+              el.style.height = '0%';
+              clearInterval(intervall);
+              ferdig();
+            }
+            el.style.height = p + '%';
+          }
+        };
+
+        return el;
+      }
+
+      function Knapp(tekst) {
+        const el = document.createElement('button');
+        el.style.display = 'none';
+        el.textContent = tekst;
+        el.style.position = 'fixed';
+        el.style.top = '50%';
+        el.style.left = '50%';
+        el.style.padding = '20px';
+        el.style.border = 'solid 1px';
+        document.body.appendChild(el);
+
+        el.skjul = function () {
+          el.style.display = 'none';
+        };
+        el.vis = function () {
+          el.style.display = '';
+          // midten av skjermen er 50 % minus halvparten av storleiken til knappen
+          const w = el.offsetWidth / 2;
+          const h = el.offsetHeight / 2;
+          el.style.marginLeft = '-' + w + 'px';
+          el.style.marginTop = '-' + h + 'px';
+        };
+
+        return el;
+      }
+    </script>
+  </body>
+</html>
+```
 
 ## Utfordringar {.challenge}
 
