@@ -55,6 +55,8 @@ og om det er med i første versjon av den nye siden (v1) eller kommer senere.
 | Brødsmuler (forside, kurs, oppgave) | v1 |
 | Utskrift og "lagre som PDF" (knapp, egen utskriftsstil for A4) | v1 |
 | Ferdige PDF-filer per oppgave til nedlasting | senere |
+| "Åpne på mobilen": QR-kode og lenke til siden, med avkrysningene (se under) | v1, ny |
+| "Hold skjermen på" (Screen Wake Lock) der nettleseren støtter det | v1, ny |
 | Video: HTML5 `<video>` med `<source>`/`<track>` fra oppgavemappen, og YouTube-nocookie/Vimeo-iframes, tilpasset skjermbredden | v1 |
 | Video-container (`::: video [url]`) fra codeclub-viewer | senere (brukes ikke i innholdet nå, HTML5 over dekker behovet) |
 | KaTeX-matematikk | senere (brukes ikke i innholdet nå) |
@@ -79,6 +81,23 @@ og om det er med i første versjon av den nye siden (v1) eller kommer senere.
 | Navigasjon til kidsakoder.no-sider (Nyheter, Finn kodeklubb osv.) | v1 i profilen `lkk`, ikke i `eira` |
 | Sitemap | senere |
 | Lenke til forum.kidsakoder.no | fjernet |
+
+## Andre skjerm: mobilen ved siden av PC-en
+
+- Knappen "Åpne på mobilen" på oppgaver og lærerveiledninger åpner en dialog
+  med QR-kode, lenken som tekst og "Kopier lenke". Knappen vises ikke på smale
+  skjermer (da er man allerede på mobilen), ikke uten JavaScript og ikke på
+  utskrift. QR-koden lages i nettleseren med `qrcode-generator` (MIT), som
+  bare lastes når dialogen åpnes.
+- Avkrysningene blir med i lenken som `#fremdrift=<kode>`: en bitmaske over
+  sjekkpunktene i siderekkefølge, skrevet i base36 (punkt 1 og 5 gir
+  `#fremdrift=h`). Når siden åpnes med koden, legges punktene til de som
+  allerede er lagret (union), lagres i `localStorage`, og koden fjernes fra
+  adressen. Ugyldige koder og punkter siden ikke har, ignoreres. Det er et
+  øyeblikksbilde, ikke synkronisering. Ingen konto, ingen server.
+- "Hold skjermen på" holder skjermen våken mens oppgaven er åpen, og tar låsen
+  igjen når fanen blir synlig. Valget lagres ikke, så det gjelder bare siden
+  du er på.
 
 ## Elev- og lærermodus
 

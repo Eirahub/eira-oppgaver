@@ -16,6 +16,7 @@ npm install
 npm run dev          # http://localhost:4321
 npm run build        # bygger til site/dist
 npm run check:site   # sjekker dist for døde lenker og viktige sider
+npm test             # tester koden for fremdrift i lenken (node --test)
 npm run preview      # viser dist lokalt
 ```
 
@@ -76,7 +77,8 @@ legges inn i `partners` med logoene i `profiles/lkk/public/`.
 | `src/pages/[course]/[lesson]/[file].astro` | Oppgaver og lærerveiledninger, `/<kurs>/<mappe>/<fil>`. |
 | `src/pages/om-oppgavene.astro` | Viser `om.md` fra profilen. |
 | `src/lib/profile.js` | Leser profilen valgt med `SITE_PROFILE`. |
-| `src/scripts/lesson.js` | I nettleseren: sjekklister (lagres i `localStorage`), Scratch-klosser og micro:bit-klosser. |
+| `src/scripts/lesson.js` | I nettleseren: sjekklister (lagres i `localStorage`), "Åpne på mobilen" (QR-kode), "Hold skjermen på", Scratch-klosser og micro:bit-klosser. |
+| `src/scripts/progress-link.js` | Gjør avkrysningene om til `#fremdrift=` i lenken og tilbake. Testes av `scripts/progress-link.test.mjs`. |
 | `src/styles/print.css` | Utskrift av oppgaver og lærerveiledninger (A4). Knappen "Skriv ut / lagre som PDF" kaller `window.print()`. Det lages ingen PDF-filer ved bygg. |
 | `src/styles/global.css` | Stilen på siden og oppgavene. Farger og skrift kommer fra profilen. |
 | `astro.config.mjs` | `build.format: 'preserve'` gir `/scratch/index.html` og `/scratch/astrokatt/astrokatt.html`. En liten integrasjon serverer bilder og andre filer fra `../src` og profilens `public/` i dev og kopierer dem til `dist` ved bygg. |

@@ -1,4 +1,6 @@
-// Lesson page behaviour: checklists, print button, Scratch blocks and micro:bit blocks.
+// Lesson page behaviour: checklists, print button, "Åpne på mobilen", wake lock, Scratch blocks and micro:bit blocks.
+import { PARAM, encode, decode, merge } from './progress-link.js';
+
 const content = document.querySelector('.lesson-content');
 const lang = content?.dataset.lang || 'nb';
 
@@ -21,7 +23,15 @@ function showProgress() {
 }
 
 if (key && boxes.length) {
-  const state = load();
+  let state = load();
+  // Progress from a QR code or link made on another device: merge it in once, then clean the address bar.
+  const fromLink = decode(location.hash, boxes.length);
+  if (fromLink) {
+    state = merge(state, fromLink.map((i) => labelOf(boxes[i])));
+    save(state);
+    history.replaceState(history.state, '', location.pathname + location.search);
+    document.getElementById('sync-status').textContent = 'Fremdriften fra den andre enheten er hentet.';
+  }
   for (const box of boxes) {
     box.checked = !!state[labelOf(box)];
     box.addEventListener('change', () => {
@@ -44,6 +54,67 @@ const printButton = document.getElementById('print');
 if (printButton) {
   printButton.hidden = false;
   printButton.addEventListener('click', () => window.print());
+}
+
+// ---------- "Åpne på mobilen": QR code and link to this page, with the checked boxes in the fragment ----------
+const qrOpen = document.getElementById('qr-open');
+const qrDialog = document.getElementById('qr-dialog');
+if (qrOpen && qrDialog?.showModal) {
+  const urlField = document.getElementById('qr-url');
+  const copyStatus = document.getElementById('qr-copy-status');
+  qrOpen.hidden = false;
+  qrOpen.addEventListener('click', async () => {
+    const code = encode(boxes.map((b) => b.checked));
+    const url = location.origin + location.pathname + location.search + (code ? `#${PARAM}=${code}` : '');
+    const { default: qrcode } = await import('qrcode-generator');
+    const qr = qrcode(0, 'M');
+    qr.addData(url); // location gives a percent-encoded ASCII URL, so byte mode is safe
+    qr.make();
+    // White background and black modules from the library, 4-module quiet zone.
+    document.getElementById('qr-code').innerHTML = qr.createSvgTag({ cellSize: 1, margin: 4, scalable: true, title: 'QR-kode med lenke til denne siden' });
+    urlField.value = url;
+    copyStatus.textContent = '';
+    qrDialog.showModal();
+  });
+  document.getElementById('qr-close').addEventListener('click', () => qrDialog.close());
+  qrDialog.addEventListener('close', () => qrOpen.focus());
+  document.getElementById('qr-copy').addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(urlField.value);
+      copyStatus.textContent = 'Lenken er kopiert.';
+    } catch {
+      urlField.focus();
+      urlField.select();
+      copyStatus.textContent = 'Lenken er merket. Kopier den med Ctrl+C.';
+    }
+  });
+}
+
+// ---------- "Hold skjermen på" (Screen Wake Lock), only where the browser supports it ----------
+// Not saved between pages: a lock that follows you around drains the battery, so it is a choice per page.
+const wakeButton = document.getElementById('wake');
+if (wakeButton && 'wakeLock' in navigator) {
+  let wanted = false;
+  let lock = null;
+  const setWanted = (on) => { wanted = on; wakeButton.setAttribute('aria-pressed', String(on)); };
+  async function acquire() {
+    try {
+      lock = await navigator.wakeLock.request('screen');
+      lock.addEventListener('release', () => { lock = null; });
+      if (!wanted) lock.release(); // switched off while the request was pending
+    } catch {
+      setWanted(false); // refused, e.g. low battery
+    }
+  }
+  wakeButton.hidden = false;
+  wakeButton.addEventListener('click', () => {
+    setWanted(!wanted);
+    if (wanted) acquire(); else lock?.release();
+  });
+  // The browser releases the lock when the tab is hidden; take it again when the page is back.
+  document.addEventListener('visibilitychange', () => {
+    if (wanted && !lock && document.visibilityState === 'visible') acquire();
+  });
 }
 
 // ---------- Scratch blocks ----------
