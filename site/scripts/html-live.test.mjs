@@ -2,7 +2,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
-import { withConsole, CONSOLE_BRIDGE } from '../src/scripts/html-live-doc.js';
+import { withConsole, hasScript, CONSOLE_BRIDGE } from '../src/scripts/html-live-doc.js';
 
 test('bridge goes right after <head>', () => {
   const doc = '<!DOCTYPE html>\n<html>\n<head lang="nb">\n<title>x</title></head><body></body></html>';
@@ -37,4 +37,14 @@ test('bridge forwards console calls and errors as text', () => {
     [1, 'error', 'TypeError: feil'],
     [1, 'error', 'x is not defined (linje 7)'],
   ]);
+});
+
+test('hasScript finds <script> and inline handlers, not plain HTML and CSS', () => {
+  assert.ok(hasScript('<p>hei</p><SCRIPT>while (true) {}</SCRIPT>'));
+  assert.ok(hasScript('<script src="x.js"></script>'));
+  assert.ok(hasScript('<button onclick="go()">Gå</button>'));
+  assert.ok(hasScript('<body\n  onload = "start()">'));
+  assert.ok(!hasScript('<style>h1 { color: tomato; }</style><h1>Hei</h1>'));
+  assert.ok(!hasScript('<p>Jeg er online=ja</p><noscript>x</noscript>'));
+  assert.ok(!hasScript('<p class="button">one</p>'));
 });

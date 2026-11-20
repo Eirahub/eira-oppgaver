@@ -18,3 +18,7 @@ export function withConsole(code) {
   const i = at ? at.index + at[0].length : 0;
   return code.slice(0, i) + CONSOLE_BRIDGE + code.slice(i);
 }
+
+// True when the code can run JavaScript: a <script> tag or an inline handler such as onclick=.
+// Such code is not run while typing, so a half-typed loop cannot hang the tab.
+export const hasScript = (code) => /<script\b/i.test(code) || /<[^>]*\son[a-z]+\s*=/i.test(code);
