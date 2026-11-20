@@ -7,12 +7,13 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
     "check:site": "node scripts/check-site.mjs",
     "test": "node --test \"scripts/*.test.mjs\""
   },
   "dependencies": {
+    "acorn": "8.19.0",
     "astro": "^7.4.13",
     "highlight.js": "^11.12.0",
     "markdown-it": "^15.0.3",
@@ -20,6 +21,7 @@
     "markdown-it-header-sections": "^1.0.0",
     "markdown-it-implicit-figures": "^0.12.0",
     "markdown-it-task-checkbox": "^1.0.6",
+    "pagefind": "1.6.0",
     "qrcode-generator": "^2.0.4",
     "scratchblocks": "^3.7.1",
     "yaml": "^2.9.1"
