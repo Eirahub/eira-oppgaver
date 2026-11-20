@@ -152,7 +152,9 @@ kodeblokk, så innholdet virker også oppstrøms.
 - Resultatet kjører i `<iframe sandbox="allow-scripts allow-modals" srcdoc>`,
   uten `allow-same-origin`. Koden når verken siden eller `localStorage` til
   siden.
-- Resultatet oppdateres mens eleven skriver, og med "Kjør". "Tilbakestill"
+- Resultatet oppdateres mens eleven skriver, og med "Kjør". Kode med
+  `<script>` eller `onclick=` og lignende kjøres bare med "Kjør" (og når
+  siden lastes), så en halvskrevet løkke ikke henger fanen. "Tilbakestill"
   henter den opprinnelige koden, og "Last ned som fil" lagrer `index.html`
   for å jobbe videre i VS Code.
 - `console.log` og feil vises under resultatet.
