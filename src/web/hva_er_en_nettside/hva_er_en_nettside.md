@@ -15,6 +15,10 @@ du gjør dine første endringer på en ekte nettside.
 Du trenger ikke installere noe. Alt gjøres i en **Prøv selv**-boks rett her på
 siden.
 
+![En Prøv selv-boks med knappene Kjør, Tilbakestill og Last ned som fil. Til
+venstre står HTML-koden under overskriften Koden din, og til høyre viser
+Resultat overskriften "Hei, verden!" og et avsnitt.](prov_selv_boks.png)
+
 
 # Steg 1: Fra adresse til ferdig side {.activity}
 
@@ -78,7 +82,8 @@ slik nettleseren tegner det.
 - [ ] Lag et avsnitt til. Skriv en ny linje med `<p>` og `</p>` under det
   første.
 
-- [ ] Har du ødelagt noe? Trykk **Reset**, så får du tilbake koden slik den var.
+- [ ] Har du ødelagt noe? Trykk **Tilbakestill**, så får du tilbake koden slik
+  den var.
 
 ## Forklaring {.tip}
 

@@ -32,7 +32,7 @@ JavaScript](../hei_js/hei_js.html) først.
 - [ ] All JavaScript-koden i denne oppgaven skal stå mellom `<script>` og
   `</script>`. Der står det nå bare en kommentar.
 
-- [ ] Hvis du gjør noe galt, kan du trykke **Reset** for å starte på nytt.
+- [ ] Hvis du gjør noe galt, kan du trykke **Tilbakestill** for å starte på nytt.
 
 ```html-live
 <!DOCTYPE html>

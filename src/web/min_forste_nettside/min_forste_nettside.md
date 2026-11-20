@@ -11,6 +11,10 @@ I denne oppgaven lager du en nettside om noe du liker: et dyr, en hobby, et
 spill eller en bok. Underveis lærer du de viktigste HTML-taggene: overskrifter,
 avsnitt, lister, bilder og lenker. Til slutt pynter du siden med litt CSS.
 
+![Den ferdige pandasiden: overskriften "Alt om pandaer" i grønt, en tegning av
+en panda med bambus, et avsnitt, overskriftene "Hva spiser pandaen?" og "Fakta"
+og en liste med fakta om pandaer.](ferdig_pandaside.png)
+
 Har du ikke gjort [Hva er en
 nettside?](../hva_er_en_nettside/hva_er_en_nettside.html), er det lurt å starte
 der.
@@ -98,7 +102,7 @@ Et bilde legger vi inn med `<img>`. Den har ingen slutt-tagg. I stedet forteller
 vi alt i *attributter*:
 
 ```html
-<img src="panda.jpg" alt="En panda som sitter og tygger på bambus">
+<img src="panda.svg" alt="Tegning av en panda som tygger på bambus">
 ```
 
 - `src` er navnet på bildefila.
@@ -108,19 +112,33 @@ vi alt i *attributter*:
 
 ## Sjekkliste {.check}
 
-- [ ] Legg `<img>`-linjen over inn i siden din, under `<h1>`.
+- [ ] Legg `<img>`-linjen over inn i siden din, under `<h1>`. Fila `panda.svg`
+  ligger ved siden av denne oppgaven, så pandaen dukker opp i resultatet.
 
-- [ ] I Prøv selv-boksen finnes ikke fila `panda.jpg`. Ser du at nettleseren
-  viser `alt`-teksten i stedet? Derfor er `alt` så viktig.
+- [ ] Skriv filnavnet feil med vilje: endre `panda.svg` til `pandaa.svg`. Nå
+  finner ikke nettleseren bildet. Ser du at den viser `alt`-teksten i stedet,
+  ofte med et lite ikon for et ødelagt bilde? Den som ikke kan se bildet, får i
+  det minste vite hva det skulle vist. Derfor er `alt` så viktig.
+
+  ![Resultatet med feil filnavn: i stedet for pandategningen står et lite ikon
+  for et ødelagt bilde og teksten "Tegning av en panda som tygger på
+  bambus".](alt_tekst_vises.png)
+
+- [ ] Rett filnavnet tilbake til `panda.svg`.
 
 - [ ] Skriv en `alt`-tekst som forteller hva som er på *ditt* bilde. Tenk deg at
   du beskriver bildet for noen i telefonen.
 
 ## Bilde fra egen maskin {.tip}
 
-Vil du se et ekte bilde, må du jobbe i VS Code. Legg bildet i samme mappe som
-`index.html`, og skriv filnavnet i `src`, for eksempel `src="panda.jpg"`. Bruk
-bilder du har tatt selv, eller bilder du har lov til å bruke.
+Prøv selv-boksen kan bare vise bilder som ligger på nettet, slik som `panda.svg`
+her. Vil du bruke dine egne bilder, må du jobbe i VS Code. Legg bildet i samme
+mappe som `index.html`, og skriv filnavnet i `src`, for eksempel
+`src="hunden-min.jpg"`. Bruk bilder du har tatt selv, eller bilder du har lov
+til å bruke.
+
+Tar du med pandasiden over i VS Code, må du også lagre [panda.svg](panda.svg) i
+samme mappe som `index.html`.
 
 
 # Steg 5: Lenker {.activity}
@@ -178,7 +196,7 @@ Bruk den som eksempel, eller lim inn `<style>`-delen i din egen side.
   </head>
   <body>
     <h1>Alt om pandaer</h1>
-    <img src="panda.jpg" alt="En panda som sitter og tygger på bambus">
+    <img src="panda.svg" alt="Tegning av en panda som tygger på bambus">
     <p>Pandaer bor i fjellskoger i Kina og spiser nesten bare bambus.</p>
 
     <h2>Hva spiser pandaen?</h2>
@@ -212,9 +230,10 @@ Bruk den som eksempel, eller lim inn `<style>`-delen i din egen side.
 
 ## Lagre {.save}
 
-Prøv selv-boksen husker ikke koden din når du lukker siden. Trykk **Last ned som
-fil** for å ta vare på den. Da får du fila `index.html`, som du kan åpne i
-nettleseren eller jobbe videre med i [VS Code](../vs_code/vs_code.html).
+Prøv selv-boksen husker koden din bare i denne nettleseren på denne maskinen.
+Trykk **Last ned som fil** for å ta vare på den. Da får du fila `index.html`,
+som du kan åpne i nettleseren eller jobbe videre med i [VS
+Code](../vs_code/vs_code.html).
 
 
 # Utfordringer {.challenge}
