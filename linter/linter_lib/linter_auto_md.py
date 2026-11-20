@@ -622,7 +622,7 @@ def fix_codeblocks(codeblock):
     # This block might be removed if many new languages emerges
     # The supported languages can be changed in the PROGRAMMING_LANGUAGE
     # variable. Located in 'linter_defaults'
-    has_language = re.search('( *)(`{3,}) *(\w*)([^`\r\n]*)', first_line)
+    has_language = re.search('( *)(`{3,}) *([\w-]*)([^`\r\n]*)', first_line)
     indent = has_language.group(1)
     backticks = has_language.group(2)
     if has_language.group(3).strip():
