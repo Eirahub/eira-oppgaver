@@ -75,7 +75,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Fremgangsmåte
 
 [Klikk her for å se
-oppgaveteksten.](../orienteringslop/orienteringslop.html){target=_blank}
+oppgaveteksten.](../orienteringslopet/orienteringslopet.html){target=_blank}
 
 Oppfordre gjerne først til å prøve den meste åpenbare løsningen de kommer på. Gi
 dem "easy wins".

@@ -49,7 +49,7 @@ Oppgaven er grunnleggende, og kan ikke brukes alene for vurdering av kompetansem
 ## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
-oppgaven. [Klikk her for å se oppgaveteksten.](../pxt_temperaturforandinger/temperaturforandringer.html){target=_blank}
+oppgaven. [Klikk her for å se oppgaveteksten.](../pxt_temperaturforandringer/temperaturforandringer.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda._
