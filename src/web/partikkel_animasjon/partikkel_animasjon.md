@@ -18,9 +18,9 @@ derfor er det viktig å forstå det som skjer i denne oppgaven.
 
 <script>
 
-        var canvas, ctx;
+        let canvas, ctx;
 
-        var particle = {
+        const particle = {
             x: 0,
             y: 0,
             xSpeed: 2,
@@ -29,11 +29,11 @@ derfor er det viktig å forstå det som skjer i denne oppgaven.
 
         };
 
-        window.onload = function() {
+        window.addEventListener("load", function () {
             canvas = document.getElementById("canvas");
             ctx = canvas.getContext("2d");
             setInterval(draw, 30);
-        };
+        });
 
 
         function draw() {
@@ -67,14 +67,12 @@ I HTML bruker vi `<canvas>` til å tegne figurer ved hjelp av JavaScript. Selve
 JavaScript til å fortelle hva slags grafikk `<canvas>`-elementet skal inneholde.
 La oss skrive det som trengs for å jobbe med `canvas`:
 
-- [ ] Åpne favoritt teksteditoren din
+- [ ] Skriv koden rett i eksempelet under, eller lag en ny fil som heter
+  `partikler.html` i VS Code og kopier koden inn i den:
 
-- [ ] Lag en ny HTML-fil som heter `partikler.html`
-
-- [ ] Kopier koden under inn i `partikler.html`:
-
-```html
-<html>
+```html-live
+<!DOCTYPE html>
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <title>Partikkel-fest</title>
@@ -96,6 +94,11 @@ La oss skrive det som trengs for å jobbe med `canvas`:
 </html>
 ```
 
+## Tips {.tip}
+
+Du kan også skrive koden i VS Code. Trykk **Last ned som fil** under eksempelet,
+eller lag en ny fil. Se oppgaven [VS Code](../vs_code/vs_code.html).
+
 ## Forklaring: Canvas {.tip}
 
 - `<canvas id="canvas" width="500" height="500"></canvas>` er selve
@@ -115,18 +118,18 @@ Nå som vi vet hvordan `canvas` ser ut er det på tide å prøve det ut:
 - [ ] Lag to tomme variabeler:
 
 ```js
-var canvas;
-var ctx;
+let canvas;
+let ctx;
 ```
 
-- [ ] Vi skal nå fylle disse variablene når siden vår lastes, da bruker vi noe
-  som heter `window.onload`:
+- [ ] Vi skal nå fylle disse variablene når siden er ferdig lastet. Da ber vi
+  nettleseren lytte etter hendelsen `load` med `window.addEventListener`:
 
 ```js
-window.onload = function() {
+window.addEventListener("load", function () {
     canvas = document.getElementById("canvas");
     ctx = canvas.getContext("2d");
-}
+});
 ```
 
 `canvas`-variabelen holder nå på HTML-elementet vårt.
@@ -146,9 +149,9 @@ variabel som kan holde på flere verdier eller variabler, som vi ofte kaller for
 `attributter`. La oss se på et raskt eksempel med en bil:
 
 ```js
-var bil = {
+const bil = {
     navn: "Volkswagen",
-    modell: "Golf"
+    modell: "Golf",
     antallSeter: 5,
     farge: "blue",
 };
@@ -159,7 +162,7 @@ følgende:
 
 ```js
 console.log(bil.navn); // Skriver ut navnet på bilen: Volkswagen
-console.log(bil.farge); // Skriver ut fargen på bilen: Blå
+console.log(bil.farge); // Skriver ut fargen på bilen: blue
 ```
 
 For å endre på ett av attributtene gjør vi bare følgende:
@@ -168,7 +171,8 @@ For å endre på ett av attributtene gjør vi bare følgende:
 bil.farge = "red";
 ```
 
-Nå vil attributtet `farge` bli endret fra blå (`blue`), til rød (`red`). Vi bruker engelske navn på fargene, slik at vi kan bruke dem i koden senere.
+Nå vil attributtet `farge` bli endret fra blå (`blue`), til rød (`red`). Vi
+bruker engelske navn på fargene, slik at vi kan bruke dem i koden senere.
 
 På denne måten slipper vi å lage mange variabler, som skal høre til samme
 element, vi bruker bare `objekter`.
@@ -224,9 +228,9 @@ som vi setter på både `bredde` og `høyde` for å få et kvadrat.
 
 Forslag til koden så langt:
 
-```html
-CTYPE html>
-<html lang="en">
+```html-live
+<!DOCTYPE html>
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <title></title>
@@ -242,21 +246,21 @@ CTYPE html>
     </style>
     <script>
 
-        var canvas;
-        var ctx;
+        let canvas;
+        let ctx;
 
-        var particle = {
+        const particle = {
             x: 0,
             y: 0,
             size: 10,
             farge: "red"
         };
 
-        window.onload = function() {
+        window.addEventListener("load", function () {
             canvas = document.getElementById("canvas");
             ctx = canvas.getContext("2d");
             draw();
-        };
+        });
 
 
         //Tegner particle
@@ -356,9 +360,9 @@ __Gratulere du har laget din første animasjon i JavaScript!__
 
 Ekssempel på ferdig kode til oppgaven:
 
-```js
+```html-live
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <title></title>
@@ -374,10 +378,10 @@ Ekssempel på ferdig kode til oppgaven:
     </style>
     <script>
 
-        var canvas, ctx;
+        let canvas, ctx;
 
 
-        var particle = {
+        const particle = {
             x: 0,
             y: 0,
             xSpeed: 2,
@@ -386,11 +390,11 @@ Ekssempel på ferdig kode til oppgaven:
             farge: "red"
         };
 
-        window.onload = function() {
+        window.addEventListener("load", function () {
             canvas = document.getElementById("canvas");
             ctx = canvas.getContext("2d");
             setInterval(draw, 30);
-        };
+        });
 
 
         //Tegner og skyter particle opp
