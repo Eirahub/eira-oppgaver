@@ -1,12 +1,21 @@
 ---
+import fs from 'node:fs';
+import path from 'node:path';
+import YAML from 'yaml';
 import Base from '../layouts/Base.astro';
+import CourseCard from '../components/CourseCard.astro';
 import { getCourses, renderMarkdown } from '../lib/content.js';
-import profile from '../lib/profile.js';
+import { groupCourses } from '../lib/kursgrupper.js';
+import profile, { PROFILE_DIR } from '../lib/profile.js';
 
 const courses = getCourses();
 const internal = courses.filter((c) => !c.isExternal && c.lessons.length);
 const external = courses.filter((c) => c.isExternal);
-const count = (c) => c.lessons.filter((l) => l.indexed).length;
+// Shared groups in src/data, unless the profile has its own list.
+const groupFile = [path.join(PROFILE_DIR, 'kursgrupper.yml'), 'src/data/kursgrupper.yml'].find((f) => fs.existsSync(f));
+// External courses join their technology group here (marked ↗); the alphabetical view keeps them in their own section.
+const groups = groupCourses([...internal, ...external], YAML.parse(fs.readFileSync(groupFile, 'utf8')));
+const slug = (s) => `gruppe-${s.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 ---
 <Base>
   <section class="hero">
@@ -19,28 +28,47 @@ const count = (c) => c.lessons.filter((l) => l.indexed).length;
     <section class="teacher-info teacher-only" set:html={renderMarkdown(profile.teacherInfo, '/')} />
   )}
 
-  <h2 class="section-title">Kurs</h2>
-  <ul class="course-grid">
-    {internal.map((c) => (
-      <li>
-        <a class="course-card" href={`/${c.course}/`}>
-          {c.hasLogo ? <img src={`/${c.course}/logo-black.png`} alt="" width="64" height="64" loading="lazy" /> : <span class="logo-placeholder" aria-hidden="true">{c.title[0]}</span>}
-          <span class="course-name">{c.title}</span>
-          <span class="course-meta">{count(c)} oppgaver</span>
-        </a>
-      </li>
-    ))}
-  </ul>
+  <div class="courses-head">
+    <h2 class="section-title">Kurs</h2>
+    <fieldset class="view-switch" id="course-view" hidden>
+      <legend>Vis kursene</legend>
+      <label><input type="radio" name="kursvisning" value="teknologi" checked /> Etter teknologi</label>
+      <label><input type="radio" name="kursvisning" value="alfabetisk" /> Alfabetisk</label>
+    </fieldset>
+  </div>
 
-  <h2 class="section-title">Kurs på andre nettsider</h2>
-  <ul class="course-grid">
-    {external.map((c) => (
-      <li>
-        <a class="course-card" href={c.external || `/${c.course}/`} rel="noopener">
-          {c.hasLogo ? <img src={`/${c.course}/logo-black.png`} alt="" width="64" height="64" loading="lazy" /> : <span class="logo-placeholder" aria-hidden="true">{c.title[0]}</span>}
-          <span class="course-name">{c.title} <span class="ext" aria-label="(ekstern side)">↗</span></span>
-        </a>
-      </li>
+  <div id="kurs-teknologi">
+    {groups.map((g) => (
+      <section class="course-group" aria-labelledby={slug(g.title)}>
+        <h3 id={slug(g.title)}>{g.title}</h3>
+        <ul class="course-grid">{g.courses.map((c) => <CourseCard c={c} />)}</ul>
+      </section>
     ))}
-  </ul>
+  </div>
+
+  <div id="kurs-alfabetisk" hidden>
+    <ul class="course-grid">{internal.map((c) => <CourseCard c={c} />)}</ul>
+    <h2 class="section-title">Kurs på andre nettsider</h2>
+    <ul class="course-grid">{external.map((c) => <CourseCard c={c} />)}</ul>
+  </div>
+
+  <script is:inline>
+    // Right after the lists, so a saved "Alfabetisk" shows before first paint. Without JS: grouped by technology.
+    (() => {
+      const KEY = 'kursvisning';
+      const views = { teknologi: document.getElementById('kurs-teknologi'), alfabetisk: document.getElementById('kurs-alfabetisk') };
+      const show = (view) => { for (const [name, el] of Object.entries(views)) el.hidden = name !== view; };
+      let saved = null;
+      try { saved = localStorage.getItem(KEY); } catch { /* blocked storage: default view */ }
+      const view = views[saved] ? saved : 'teknologi';
+      const switcher = document.getElementById('course-view');
+      switcher.querySelector(`input[value="${view}"]`).checked = true;
+      show(view);
+      switcher.hidden = false;
+      switcher.addEventListener('change', (e) => {
+        show(e.target.value);
+        try { localStorage.setItem(KEY, e.target.value); } catch { /* not saved, still switches */ }
+      });
+    })();
+  </script>
 </Base>

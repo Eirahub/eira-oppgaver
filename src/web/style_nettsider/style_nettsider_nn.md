@@ -122,7 +122,7 @@ green`, `lime`, `maroon`, `navy`, `olive`, `purple`, `red`, `silver`, `teal`,
 
 Dei fleste nettlesarar støttar i tillegg 130 andre fargenamn. Du finn heile
 lista i alfabetisk rekkefølgje på
-[http://www.w3.org/TR/css3-color/#svg-color](http://www.w3.org/TR/css3-color/#svg-color).
+[MDN: named-color](https://developer.mozilla.org/en-US/docs/Web/CSS/named-color).
 Er favorittfarga di i lista?
 
 - [ ] Me kan bruke endå fleire farger gjennom å bruke den heksadesimale koden i
@@ -148,7 +148,7 @@ Er favorittfarga di i lista?
    </hide>
 </toggle>
 
-- [ ] Bruk [www.colorpicker.com](http://www.colorpicker.com) til å finne ei
+- [ ] Bruk [www.colorpicker.com](https://www.colorpicker.com) til å finne ei
   farge du likar. Colorpicker genererer det nummeret du treng, så du kan enkelt
   klyppe og lime det inn i koden din.
 
@@ -339,7 +339,7 @@ ut.__
 <!-- Dette er eit Kodeklubb-prosjekt. Felix er ikkje ekte og er ikkje borte. -->
     <h1>Forsvunne</h1>
     <h2>Katten Felix</h2>
-    <img src="http://kodeklubben.github.io/web/forsvunnet_katt/missingcat.png"
+    <img src="felix.jpg"
       alt="bilete av Felix" width="400">
     <p>Felix er ein veldig snill katt. Han likar å kose, sitje framfor
       varmepumpa og leikemusa si. Pelsen hans er <span>oransje</span>. </p>

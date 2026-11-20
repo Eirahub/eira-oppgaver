@@ -45,7 +45,7 @@ slik:
 ```html
 <head>
     <style>
-        <--! Her skal vi skrive CSS-en -->
+        /* Her skal vi skrive CSS-en */
     </style>
 </head>
 ```
@@ -121,7 +121,7 @@ green, lime, maroon, navy, olive, purple, red, silver, teal, white, og yellow.
 
 De fleste nettlesere støtter i tillegg 130 andre fargenavn, hele listen i
 alfabetisk rekkefølge kan dere finne på
-[http://www.w3.org/TR/css3-color/#svg-color](http://www.w3.org/TR/css3-color/#svg-color).
+[MDN: named-color](https://developer.mozilla.org/en-US/docs/Web/CSS/named-color).
 Er din favorittfargen i listen?
 
 - [ ] Men vi kan bruke enda flere farger gjennom å bruke den heksadesimale koden
@@ -147,7 +147,7 @@ Er din favorittfargen i listen?
    </hide>
 </toggle>
 
-- [ ] Bruk [www.colorpicker.com](http://www.colorpicker.com) til å finne en
+- [ ] Bruk [www.colorpicker.com](https://www.colorpicker.com) til å finne en
   farge du liker. Colorpicker genererer det nummer du trenger, så kan du enkelt
   klippe og lime det inn i koden din.
 
@@ -327,7 +327,7 @@ forsiktig, det finnes noen stiler som ikke blir videreført.
 <!-- Dette er et Kodeklubb-prosjekt. Felix er ikke ekte og er egentlig ikke forsvunnet. -->
     <h1>Forsvunnet</h1>
     <h2>Katten Felix</h2>
-    <img src="http://kodeklubben.github.io/web/forsvunnet_katt/missingcat.png" alt="bilde av Felix" width="400">
+    <img src="felix.jpg" alt="bilde av Felix" width="400">
     <p>Felix er en veldig snill katt. Han liker å kose, sitte foran varmepumpa og lekemusa si. Pelsen hans er <span>oransje</span>. </p>
     <p>Han forvant fra hagen i går.</p>
     <p>Har du sett Felix? Vennligst kontakt eieren hans på <a href="mailto:eierentilfelix@email.com">eierentilfelix@email.com</a></p>

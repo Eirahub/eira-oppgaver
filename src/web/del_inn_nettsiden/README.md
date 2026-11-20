@@ -54,7 +54,7 @@ __Tidsbruk__: Dobbeltime
 
 - [ ] __Forutsetninger__: Grunnleggende HTML og CSS.
 
-- [ ] __Utstyr__: Datamaskin med internett og tekstbehandlingsverktøy.
+- [ ] __Utstyr__: Datamaskin med internett og [VS Code](../vs_code/vs_code.html).
 
 ## Fremgangsmåte
 

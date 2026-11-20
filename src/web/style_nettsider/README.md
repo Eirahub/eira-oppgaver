@@ -68,7 +68,7 @@ __Tidsbruk__: Dobbeltime
 - [ ] __Forutsetninger__: God kjennskap til HTML og gjort [CSS: Forsvunnet
   katt](../forsvunnet_katt/forsvunnet_katt.html){target=_blank}.
 
-- [ ] __Utstyr__: Datamaskin med internett og tekstbehandlingsverktøy
+- [ ] __Utstyr__: Datamaskin med internett og [VS Code](../vs_code/vs_code.html)
 
 ## Fremgangsmåte
 

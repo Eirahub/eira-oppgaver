@@ -15,9 +15,11 @@ videoar og så bortetter).
 
 Dersom du ikkje har gjort de allereie, tilråder me å ta ein titt på oppgåvane i samlinga _Intro til web_ før du set i gang med denne oppgåva:
 
-- [HTML: Introduksjon til Web](../introduksjon_til_web/introduksjon_til_web_nn.html){target=_blank}
+- [HTML: Hva er en nettside?](../hva_er_en_nettside/hva_er_en_nettside.html){target=_blank}
 
-- [HTML: Me byggjer heimmeside](../en_hjemmeside/en_hjemmeside_nn.html){target=_blank}
+- [HTML: Min første nettside](../min_forste_nettside/min_forste_nettside.html){target=_blank}
+
+- [Lag nettsider i VS Code](../vs_code/vs_code.html){target=_blank}
 
 - [HTML: Forsvunne katt](../forsvunnet_katt/forsvunnet_katt_nn.html){target=_blank}
 
@@ -25,9 +27,7 @@ Dersom du ikkje har gjort de allereie, tilråder me å ta ein titt på oppgåvan
 
 - [CSS: Endre utsjånad og stil på tekst](../tekststil/tekststil_nn.html){target=_blank}
 
-- [CSS: Skjul ninjaane](../skjul_ninjaene/skjul_ninjaene_nn.html){target=_blank}
-
-- [HTML: Legg til lyd og video](../lyd_og_video/lyd_og_video_nn.html){target=_blank}
+- [HTML: Video og lyd](../video_og_lyd/video_og_lyd.html){target=_blank}
 
 # Steg 1: Utforming av nettsida {.activity}
 
