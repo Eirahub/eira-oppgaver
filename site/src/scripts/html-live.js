@@ -3,7 +3,8 @@
 // no-JS and print version. The result runs in <iframe sandbox="allow-scripts allow-modals"> with srcdoc:
 // no allow-same-origin, so the reader's code gets an opaque origin and cannot reach this page or its storage.
 // Code with JavaScript only runs on "Kjør" (and on load), so a half-typed loop is not run while typing.
-// shortcut: no infinite-loop protection, so a `while (true)` run with "Kjør" can still hang the tab until reload; add a loop-guard transform (like JS Bin) if that bites in class.
+// Loops get a guard first (html-live-guard.js, like JS Bin), so a `while (true)` stops after about a second.
+// shortcut: code the guard cannot parse runs unguarded, and slow code without loops is not stopped; run the frame in a worker or its own process if that bites in class.
 import { withConsole, hasScript } from './html-live-doc.js';
 
 const blocks = [...document.querySelectorAll('.lesson-content pre.html-live')];
@@ -54,11 +55,18 @@ blocks.forEach((pre, i) => {
   area.value = load(i) ?? original;
   area.rows = Math.min(Math.max(area.value.split('\n').length + 1, 12), 30);
 
-  function run() {
+  let runs = 0;
+  async function run() {
+    const n = ++runs;
     list.replaceChildren();
     consoleBox.hidden = true;
     hint.textContent = '';
-    frame.srcdoc = withConsole(area.value);
+    let code = area.value;
+    if (hasScript(code)) {
+      try { code = (await import('./html-live-guard.js')).guardLoops(code); } catch { /* not loaded: run unguarded, as before */ }
+      if (n !== runs) return; // a newer run started while the guard loaded
+    }
+    frame.srcdoc = withConsole(code);
   }
   let timer;
   area.addEventListener('input', () => {
