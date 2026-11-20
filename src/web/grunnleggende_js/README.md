@@ -68,8 +68,9 @@ __Tidsbruk__: Dobbelttime
 - [ ] __Forutsetninger__: Ingen forutsetninger, men kan være greit å kunne litt
   HTML og CSS selvom dette ikke brukes i oppgaven.
 
-- [ ] __Utstyr__: Datamaskin med internett og tekstbehandlingverktøy
-  ([JSbin.com](https://jsbin.com/?js,console) er anbefalt)
+- [ ] __Utstyr__: Datamaskin med internett. Elevene skriver koden i Prøv
+  selv-blokkene på oppgavesiden. Alternativt kan de bruke VS Code (se oppgaven
+  [VS Code](../vs_code/vs_code.html)).
 
 ## Fremgangsmåte
 
