@@ -16,7 +16,7 @@ REGEX_LISTS = re.compile(
 PROGRAMMING_LANGUAGES = [
     'apache', 'blocks', 'c', 'clojure', 'cpp', 'crystal',
     'csharp', 'css', 'csv', 'diff', 'elixir',
-    'erb', 'elm', 'go', 'html', 'http', 'java',
+    'erb', 'elm', 'go', 'html', 'html-live', 'http', 'java',
     'javascript', 'js', 'json', 'julia', 'kotlin', 'less',
     'lua', 'markdown', 'matlab', 'pascal', 'processing',
     'PHP', 'Perl', 'python', 'rust', 'salt',
