@@ -145,6 +145,12 @@ gjør ikke det, men vennene dine kan ikke se det på jar-fila.
   spill](../../minecraft_foreldre/trygt_spill/trygt_spill.html). Den forklarer
   for foreldre hvordan man henter modder trygt.
 
+## Tips {.tip}
+
+Vil du teste moden slik en spiller ville gjort, med jar-fila i en egen
+Minecraft-installasjon, finner du det i kurset
+[Test moden med MultiMC](../../multimc/).
+
 
 # Steg 4: Velg en lisens {.activity}
 

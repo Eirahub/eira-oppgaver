@@ -520,6 +520,11 @@ og 26.3-fila blir hoppet over.
   versjon. De ligger i `<loader>/versions/<versjon>/build/libs/`, for eksempel
   `fabric/versions/1.21.11/build/libs/rubinmod-fabric-1.21.11-1.0.0.jar`.
 
+- [ ] Test at jar-filene virker utenfor IntelliJ, med oppgaven [Test
+  moden](../../multimc/test_moden/test_moden.html). Eldre Minecraft-versjoner
+  trenger eldre Java, for eksempel Java 21 til 1.21.11. Se [Java for
+  Minecraft](../../multimc/java_for_minecraft/java_for_minecraft.html).
+
 ![Natt i Minecraft 1.21.11. Rubinstaven har sendt et lyn ned i gresset foran
 spilleren](10-fabric-1.21.11-rubinstav-lyn.png)
 
