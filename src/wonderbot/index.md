@@ -93,7 +93,7 @@ ikke passord, så alle i rommet kan bruke den.
 Programvaren på Raspberry Pi-en (teenne/wonderbot) er ikke offentlig ennå.
 Kurset kan derfor foreløpig bare brukes der den er satt opp. Klossene i
 MakeCode er offentlige:
-[teenne/pxt-wonderbot](https://github.com/teenne/pxt-wonderbot).
+[teenne/pxt-botbridge](https://github.com/teenne/pxt-botbridge).
 
 Gatewayen har egne grenser: kjøring 1-100 cm, sving 1-360 grader, fart og
 svingrate fra -100 til 100 %, tidsstyrt kjøring i høyst 10 sekunder og hodet

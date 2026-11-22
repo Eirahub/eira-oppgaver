@@ -28,7 +28,7 @@ til som en **utvidelse**.
 
 - [ ] Lim inn denne adressen i søkefeltet, og trykk Enter:
 
-  `https://github.com/teenne/pxt-wonderbot`
+  `https://github.com/teenne/pxt-botbridge`
 
 - [ ] Klikk på **wonderbot** i resultatet.
 
