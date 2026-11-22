@@ -1,0 +1,61 @@
+# Introvideo for Wonderbot. Felter og skuddtyper: se MANUS.md.
+# assets/dash.jpg: "Dash & Dot Robots", Texas State Library and Archives
+# Commission, CC BY 2.0, beskåret. Se assets/KILDER.md.
+skudd:
+  - src: assets/dash.jpg
+    H: 600
+    look: true
+    text: Kan en micro:bit styre en robot?
+    pan: { scale: 1.5, from: [0.25, 0.45], to: [0.62, 0.42] }
+  - kind: build
+    src: assets/wb_hei1.png
+    H: 440
+    plain: true
+    look: true
+    text: Du setter sammen klosser i MakeCode.
+    pieces:
+      - [[0, 0, 482, 112], [0, 112, 48, 428], [0, 428, 960, 508]]
+      - [[48, 112, 784, 208], [784, 112, 960, 198], [482, 96, 960, 112]]
+      - [[48, 208, 960, 305], [784, 198, 960, 208]]
+      - [[48, 305, 960, 428]]
+      - [[960, 0, 1482, 508]]
+  - src: assets/dash.jpg
+    H: 600
+    look: true
+    text: Dash gjør det klossene sier.
+    pan: { scale: 1.6, from: [0.62, 0.38], to: [0.62, 0.38] }
+    glow: { x: 0.66, y: 0.33, color: "0, 230, 60" }
+  - kind: build
+    src: assets/wb_dans2.png
+    H: 540
+    plain: true
+    look: true
+    text: Få roboten til å danse
+    pieces:
+      - [[0, 0, 482, 112], [0, 112, 48, 656], [0, 656, 880, 736]]
+      - [[48, 112, 426, 208], [426, 112, 880, 198], [482, 96, 880, 112], [48, 208, 80, 592], [48, 592, 880, 656]]
+      - [[80, 208, 880, 305], [426, 198, 880, 208]]
+      - [[80, 305, 464, 400], [464, 305, 880, 392]]
+      - [[80, 400, 880, 497], [464, 392, 880, 400]]
+      - [[80, 497, 880, 592]]
+      - [[880, 0, 1420, 736]]
+  - kind: build
+    src: assets/wb_fj1.png
+    H: 300
+    plain: true
+    look: true
+    text: En fjernkontroll du har laget selv
+    pieces:
+      - [[0, 0, 590, 112], [0, 112, 48, 208], [0, 208, 590, 288]]
+      - [[48, 112, 590, 208]]
+      - [[590, 0, 967, 112], [590, 112, 638, 208], [590, 208, 1334, 288]]
+      - [[638, 112, 1334, 208], [967, 96, 1334, 112]]
+  - src: assets/wb_hei1.png
+    H: 440
+    plain: true
+    look: true
+    text: "Første steg: få Dash til å lyse."
+    term: { word: kloss, x: 0.355, y: 0.73 }
+  - kind: logo
+    course: microbit
+    text: Etterpå kan du lage mer med micro:bit.

@@ -93,10 +93,9 @@ følger nettsiden.
 **Hvor logoene står:** bare i bilde 8, nede i title-safe-sonen. Hovedlogoen
 står til venstre og LKK-logoen til høyre, med teksten under. Bilde 1 til 7
 har ingen logo, fordi de første sekundene skal vise prosjektet (Heath,
-Loewenstein). Teksten under logoen i bilde 8:
-
-- LKK-kurs: "Oppgaver fra Lær Kidsa Koding · CC BY-SA 4.0"
-- Eira-kurs: "Laget av Eira · CC BY-SA 4.0"
+Loewenstein). Bilde 8 har bare spørsmålet, Eira-lockupen med eirahub.no og
+LKK-logoen med kidsakoder.no. Kreditering og lisens står i tekstversjonen på
+kurssiden, ikke i videoen, så sluttbildet ikke blir for tett.
 
 Hva LKK-logoen skal bety på Eira-kurs, må avtales med LKK. Den kan ikke
 antyde at LKK har laget kurset.
