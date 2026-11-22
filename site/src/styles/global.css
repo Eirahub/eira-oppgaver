@@ -299,6 +299,7 @@ details[open] > summary { border-bottom: 1px solid var(--border-card); }
 .lesson-content code.microbitpins { background: #B22222; color: #fff; }
 .lesson-content code.microbitserial { background: #002050; color: #fff; }
 .lesson-content code.microbitcontrol { background: #333333; color: #fff; }
+.lesson-content code.microbitwonderbot { background: #0096D6; color: #fff; }
 
 .lesson-content video { display: block; max-width: 100%; height: auto; margin: var(--space-4) 0; border-radius: 8px; background: #000; }
 .lesson-content iframe { max-width: 100%; border: 0; }

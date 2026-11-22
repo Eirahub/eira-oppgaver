@@ -9,7 +9,7 @@
 - title: Python
   courses: [python]
 - title: micro:bit og MakeCode
-  courses: [microbit, microbit_videoer]
+  courses: [microbit, microbit_videoer, wonderbot]
 - title: Minecraft
   courses: [minecraft_foreldre, codeling, cc_tweaked, minecraft_mod, multimc]
 - title: Web
