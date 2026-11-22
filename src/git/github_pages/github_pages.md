@@ -13,8 +13,8 @@ gratis. Hver gang du pusher en endring, oppdateres siden.
 I denne oppgaven lager du en enkel side og publiserer den. Har du laget en
 nettside i [Web-kurset](../../web/), kan du bruke den i stedet.
 
-<!-- BILDE: En enkel nettside på adressen brukernavn.github.io/min-side i
-nettleseren -->
+![Den ferdige siden i nettleseren, med overskriften Hei, verden! og en
+setning under](min_side.png)
 
 ## Aldersgrense {.tip}
 

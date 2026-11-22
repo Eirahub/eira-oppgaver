@@ -14,8 +14,8 @@ virker. Blir den bra, fletter du den inn. Blir den dårlig, kaster du grenen.
 Du fortsetter med `gjett_tallet` fra [Tilbake i tid](../tidsreise/tidsreise). Du
 trenger ingen GitHub-konto.
 
-<!-- BILDE: Statuslinja nederst i VS Code med navnet på grenen, og menyen
-"Create new branch" åpen -->
+![Menyen som åpnes når du klikker på grennavnet main nederst til venstre i
+VS Code, med valget Create new branch øverst](ny_gren.png)
 
 
 # Steg 1: Hvilken gren er du på? {.activity}

@@ -16,8 +16,8 @@ du det med vilje og reparerer det med Git.
 
 Du trenger ingen GitHub-konto.
 
-<!-- BILDE: Timeline-panelet i VS Code med fire commits for filen
-gjett_tallet.py -->
+![Panelet Timeline i VS Code med fem commits for fila gjett_tallet.py, den
+nyeste øverst](timeline.png)
 
 ## Før du begynner {.tip}
 
