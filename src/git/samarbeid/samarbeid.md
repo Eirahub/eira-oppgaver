@@ -15,8 +15,8 @@ inn.
 Dere er to som jobber sammen. Den ene eier repoet og kalles **eier** her. Den
 andre kalles **hjelper**. Begge trenger en GitHub-konto.
 
-<!-- BILDE: En pull request på github.com med en kommentar og den grønne knappen
-Merge pull request -->
+![En pull request på github.com med tittelen Tell antall forsøk, en
+beskrivelse og en kommentar på en kodelinje](pull_request.png)
 
 ## Aldersgrense {.tip}
 

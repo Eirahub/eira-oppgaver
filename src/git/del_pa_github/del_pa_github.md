@@ -11,7 +11,8 @@ Nå skal `gjett_tallet` på GitHub. Da har du en kopi på nettet, du kan hente
 koden på en annen maskin, og du kan vise den til andre. Du skriver en README som
 forteller hva prosjektet er, og du lærer å holde filer utenfor Git.
 
-<!-- BILDE: Repoet gjett_tallet på github.com med README vist under fillista -->
+![Repoet gjett_tallet på github.com, med fillista øverst og README-en vist
+under](repo_pa_github.png)
 
 ## Aldersgrense {.tip}
 
