@@ -69,3 +69,6 @@ site/.astro
 
 # Lokale Claude-innstillinger
 .claude/settings.local.json
+
+# Hemmeligheter
+.env
