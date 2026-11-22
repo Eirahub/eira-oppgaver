@@ -156,6 +156,8 @@ const microbit = [...(content?.querySelectorAll('pre.microbit') ?? [])];
 if (microbit.length) {
   const MAKECODE = 'https://makecode.microbit.org';
   const LANGS = { nb: 'nb', nn: 'nn-NO', en: 'en', is: 'is' };
+  // MakeCode extensions loaded for code that uses their namespace (namespace: name=github:owner/repo).
+  const EXTENSIONS = { wonderbot: 'wonderbot=github:teenne/pxt-wonderbot#v0.1.0' };
   const frame = document.createElement('iframe');
   frame.src = `${MAKECODE}/--docs?render=1&lang=${LANGS[lang] || 'nb'}`;
   frame.title = 'MakeCode-tegner';
@@ -167,7 +169,11 @@ if (microbit.length) {
   window.addEventListener('message', (e) => {
     if (e.origin !== MAKECODE || e.data?.source !== 'makecode') return;
     if (e.data.type === 'renderready') {
-      for (const pre of microbit) frame.contentWindow.postMessage({ type: 'renderblocks', id: pre.id, code: pre.textContent }, MAKECODE);
+      for (const pre of microbit) {
+        const code = pre.textContent;
+        const pkg = Object.keys(EXTENSIONS).filter((ns) => code.includes(`${ns}.`)).map((ns) => EXTENSIONS[ns]).join(',');
+        frame.contentWindow.postMessage({ type: 'renderblocks', id: pre.id, code, options: pkg ? { package: pkg } : {} }, MAKECODE);
+      }
     } else if (e.data.type === 'renderblocks') {
       const pre = document.getElementById(e.data.id);
       if (pre && e.data.uri) {
