@@ -116,6 +116,13 @@ Nå lager dere en konflikt på GitHub og løser den.
 - [ ] Pull requesten fra `hei` sier nå **This branch has conflicts that must be
   resolved**.
 
+- [ ] **Hjelper:** skriv denne linja i terminalen én gang. Den sier at Git skal
+  flette når grenene har gått hver sin vei:
+
+  ```
+  git config --global pull.rebase false
+  ```
+
 - [ ] **Hjelper:** i VS Code, på grenen `hei`: trykk **...** i **Source
   Control**, velg **Pull, Push** og så **Pull from...**. Velg `origin/main`.
 
