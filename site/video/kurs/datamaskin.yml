@@ -1,0 +1,38 @@
+# Introvideo for Bli kjent med datamaskinen. Felter og skuddtyper: se MANUS.md.
+# Kurset har ingen bilder, så videoen bruker tekst fra oppgavene og logoen.
+skudd:
+  - kind: code
+    code: |
+      pingu@eksempel.no
+    text: Vet du hvordan du skriver @?
+  - kind: logo
+    course: datamaskin
+    look: true
+    text: Mobil kan du. Nå lærer du musa.
+    glow: { x: 0.38, y: 0.32, color: "255, 200, 60" }
+  - kind: code
+    code: |
+      Ctrl+C   Kopier
+      Ctrl+V   Lim inn
+      Ctrl+Z   Angre
+      Ctrl+S   Lagre
+    text: Snarveier gjør deg superrask.
+  - kind: code
+    code: |
+      Dokumenter
+        Mesterprove
+          favorittdyr
+          bilde
+    text: Din egen mappe med filer og bilder
+  - kind: code
+    code: |
+      oppgaver.eirahub.no
+    text: Du finner fram på nettet selv.
+  - kind: logo
+    course: datamaskin
+    look: true
+    text: "Første steg: klikk på ballongene."
+    term: { word: venstre knapp, x: 0.47, y: 0.32 }
+  - kind: logo
+    course: scratch
+    text: Etterpå er du klar for Scratch.

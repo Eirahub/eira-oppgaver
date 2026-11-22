@@ -1,0 +1,40 @@
+# Introvideo for KI i kodeklubben (for voksne). Felter og skuddtyper: se MANUS.md.
+skudd:
+  - src: src/ki_veiledere/hva_er_ki/ki_svar_scratch.png
+    look: true
+    text: Eleven har kode fra en KI. Hva gjør du?
+    pan: { scale: 1.8, from: [0.3, 0.3], to: [0.3, 0.55] }
+  - kind: code
+    code: |
+      "Lag et Python-program som spør om alderen din
+      og sier hvor gammel du er om ti år."
+    text: En KI svarer på sekunder.
+  - kind: code
+    code: |
+      "Kan du vise meg hvor programmet starter?"
+      "Hva gjør denne linjen?"
+      "Hvorfor står denne her, og ikke lenger ned?"
+    text: Nå vet du hva du skal spørre om.
+  - src: src/ki_veiledere/ki_som_laeringshjelp/hjelpeplakat.png
+    look: true
+    text: En plakat med gode hjelpespørsmål
+    pan: { scale: 1.5, from: [0.4, 0.25], to: [0.6, 0.3] }
+  - kind: code
+    code: |
+      KI-regel for [navn på klubben]
+
+      3. Vi skriver aldri inn navn, bilder, adresse, skole
+         eller passord.
+
+      4. Koden du viser frem, må du kunne forklare.
+
+      5. Spør en veileder eller en venn før du spør en KI.
+    text: En KI-regel for hele klubben
+  - src: src/ki_veiledere/hva_er_ki/ki_svar_scratch.png
+    look: true
+    text: "Første steg: finn feilene i et KI-svar."
+    pan: { scale: 1.6, from: [0.32, 0.5], to: [0.32, 0.4] }
+    glow: { x: 0.15, y: 0.36, color: "255, 190, 60" }
+  - kind: logo
+    course: vs_code
+    text: "Neste kurs: bli trygg i VS Code."

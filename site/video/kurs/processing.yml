@@ -1,0 +1,41 @@
+# Introvideo for Processing. Felter og skuddtyper: se MANUS.md.
+skudd:
+  - src: src/processing/verden_del1/PreviewGame.png
+    look: true
+    text: Kan du finne Europa på kartet?
+    pan: { scale: 1.4, from: [0.37, 0.45], to: [0.56, 0.3] }
+  - src: src/processing/farger/RGB.png
+    text: Skjermen blander rødt, grønt og blått.
+    pan: { scale: 1.3, from: [0.4, 0.35], to: [0.6, 0.62] }
+  - kind: code
+    code: |
+      void setup(){
+        size(640, 420);
+        background(0, 0, 0);
+      }
+
+      void draw(){
+        fill(100, 100, 255);
+        ellipse(mouseX, mouseY, 50, 50);
+      }
+    text: Nå skriver du koden selv.
+  - src: src/processing/tegnespillet/Gulsol.png
+    H: 620
+    look: true
+    text: Et tegneprogram der musa er penselen
+    pan: { scale: 1.3, from: [0.4, 0.6], to: [0.6, 0.35] }
+  - src: src/processing/trigonometri/Pentagram.png
+    H: 620
+    look: true
+    text: Stjerner tegnet med matematikk
+    pan: { scale: 1.3, from: [0.45, 0.3], to: [0.55, 0.6] }
+  - kind: code
+    code: |
+      void draw() {
+        background(0);
+        ellipse(320, 240, 100, 100);
+      }
+    text: "Første steg: tegn en ball i et vindu."
+  - kind: logo
+    course: python
+    text: Etterpå kan du lære Python.

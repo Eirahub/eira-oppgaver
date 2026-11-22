@@ -1,0 +1,42 @@
+# Introvideo for Java. Felter og skuddtyper: se MANUS.md.
+skudd:
+  - kind: code
+    code: |
+      Jeg tenker på et tall fra 1 til 100.
+      Du har 7 forsøk.
+      Forsøk 1: 50
+      For høyt!
+      Forsøk 2: 25
+      For lavt!
+      Forsøk 3: 37
+      Riktig! Du brukte 3 forsøk.
+    text: Klarer du å gjette tallet på sju forsøk?
+  - kind: logo
+    course: java
+    text: Java brukes i apper, banker og spill.
+    glow: { x: 0.5, y: 0.5, color: "255, 170, 60" }
+  - src: src/java/hei_java/hei-java-kjort.png
+    look: true
+    text: Nå skriver du Java selv, som proffene.
+    pan: { scale: 1.4, from: [0.45, 0.25], to: [0.38, 0.75] }
+  - kind: code
+    code: |
+      public class Zombie extends Monster {
+          public Zombie() {
+              super("Zombie", 20);
+          }
+      }
+    text: Dine egne monstre, med liv og lyder
+  - src: src/java/gradle_og_feilsoking/debugger-klosser.png
+    look: true
+    text: Et register for dine egne klosser
+    pan: { scale: 1.4, from: [0.45, 0.3], to: [0.4, 0.72] }
+  - kind: code
+    code: |
+      void main() {
+          IO.println("Hei, Java!");
+      }
+    text: "Første steg: få Java til å si hei."
+  - kind: logo
+    course: minecraft_mod
+    text: Etterpå lager du din egen Minecraft-mod.

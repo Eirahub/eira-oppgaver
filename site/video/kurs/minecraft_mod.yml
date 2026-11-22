@@ -1,0 +1,35 @@
+# Introvideo for Lag din egen Minecraft-mod. Felter og skuddtyper: se MANUS.md.
+skudd:
+  - src: src/minecraft_mod/oppforsel/08-rubinstav-lyn.png
+    look: true
+    text: Hvordan får en stav til å sende lyn?
+    pan: { scale: 1.5, from: [0.5, 0.6], to: [0.52, 0.35] }
+    glow: { x: 0.47, y: 0.45, color: "255, 200, 90" }
+  - src: src/minecraft_foreldre/hva_er_minecraft/tittelskjerm.png
+    text: Du spiller Minecraft Java Edition.
+    pan: { scale: 1.4, from: [0.5, 0.28], to: [0.5, 0.55] }
+  - kind: code
+    code: |
+      // Finn klossen spilleren ser på, opptil 50 klosser unna.
+      HitResult hit = player.pick(50.0, 1.0F, false);
+      if (bolt != null) {
+          bolt.snapTo(hit.getLocation());
+          serverLevel.addFreshEntity(bolt);
+      }
+    text: Nå skriver du din egen mod.
+  - src: src/minecraft_mod/vesen/07-rubingris.png
+    look: true
+    text: En rubingris som følger etter deg
+    pan: { scale: 1.6, from: [0.35, 0.55], to: [0.6, 0.6] }
+  - src: src/minecraft_mod/kloss/04-rubinkloss.png
+    look: true
+    text: En vegg av dine egne rubinklosser
+    pan: { scale: 1.4, from: [0.5, 0.28], to: [0.5, 0.5] }
+  - src: src/minecraft_mod/installasjon/rubinmod-gradle.png
+    look: true
+    text: "Første steg: start Minecraft fra IntelliJ."
+    pan: { scale: 1.8, from: [0.3, 0.25], to: [0.68, 0.8] }
+    term: { word: runClient, x: 0.76, y: 0.895 }
+  - kind: logo
+    course: multimc
+    text: "Etterpå: test moden med MultiMC."

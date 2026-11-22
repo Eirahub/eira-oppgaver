@@ -233,6 +233,8 @@ export function build(kurs) {
       let at = T0 + 0.1;
       s.code.replace(/\n+$/, '').split('\n').forEach((l, j) => {
         const n = Math.max(l.length, 1);
+        // a film that opens on code shows its first line at frame 0, so the poster is not empty
+        if (i === 0 && j === 0) { js.push(`tl.set("${id}-l0", { clipPath: "inset(0% 0% 0% 0%)" }, 0);`); return; }
         js.push(`tl.fromTo("${id}-l${j}", { clipPath: "inset(0% 100% 0% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: ${r1(n * 0.022)}, ease: "steps(${n})" }, ${r1(at)});`);
         at += n * 0.022 + 0.08;
       });
