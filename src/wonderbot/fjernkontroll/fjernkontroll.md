@@ -41,6 +41,9 @@ input.onButtonPressed(Button.AB, function () {
 
 ## Test prosjektet {.flag}
 
+- [ ] Last ned `.hex`-filen fra MakeCode og gi den til veilederen. Vent til
+  roboten er klar.
+
 - [ ] Kan du kjøre Dash rundt en stol med bare knapp A og B?
 
 - [ ] Hva skjer hvis du trykker på A mange ganger veldig fort? Vent til Dash

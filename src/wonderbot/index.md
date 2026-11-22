@@ -21,6 +21,16 @@ Hver robot har et navn, for eksempel `dash-01` eller `cue-02`. Veilederen
 forteller deg hvilken robot du har fått. Det er det navnet du skriver i
 klossene.
 
+## Slik får du programmet over på micro:biten
+
+- Klikk på **Last ned** i MakeCode. Du får en fil som slutter på `.hex`.
+
+- Gi `.hex`-filen til veilederen. Har veilederen sagt at du kan gjøre det
+  selv, laster du den opp på lab-siden på Raspberry Pi-en.
+
+- Veilederen sier fra når programmet er på micro:biten og roboten er klar.
+  Da kan du trykke på knappene.
+
 ## Sikkerhet
 
 - Roboten kjører på gulvet, med god plass rundt.
@@ -55,6 +65,28 @@ elevene.
   robotene.
 
 - Robotene er ladet og slått på. En Cue som står i laderen, har låste hjul.
+
+- Du har lab-siden på Raspberry Pi-en åpen i en nettleser på det lokale
+  nettet, og du har passordet som trengs for å gjøre noe der.
+
+Lab-siden viser robotene (på eller av, batteri, lading) og om micro:biten er
+koblet til. Den har en **Blink**-knapp for hver robot, så du finner riktig
+robot. Den har ingen knapper for å kjøre robotene. De kjører bare fra et
+micro:bit-program.
+
+Siden kjører én jobb om gangen. Du kan ikke laste et nytt program over på
+micro:biten mens broen kjører, fordi micro:biten startes på nytt når den får
+et nytt program. Når en elev har et nytt program, gjør du dette:
+
+1. Stopp broen på lab-siden.
+
+2. Last opp elevens `.hex`-fil, eller velg et lagret program. Raspberry Pi-en
+  kopierer det til micro:biten og sjekker at det gikk bra.
+
+3. Start broen for de robotene programmet bruker.
+
+Den røde stoppknappen på lab-siden stopper alle robotene og broen. Den trenger
+ikke passord, så alle i rommet kan bruke den.
 
 - Hver elev eller gruppe vet navnet på roboten sin.
 
