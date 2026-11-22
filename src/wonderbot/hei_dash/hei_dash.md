@@ -101,8 +101,11 @@ input.onButtonPressed(Button.AB, function () {
 
 ## Test prosjektet {.flag}
 
-- [ ] Klikk på **Last ned**. Spør veilederen hvordan du får programmet over på
-  micro:biten som står koblet til Raspberry Pi-en.
+- [ ] Klikk på **Last ned** i MakeCode. Gi `.hex`-filen til veilederen, eller
+  last den opp på lab-siden på Raspberry Pi-en hvis veilederen sier at du kan.
+  Se [kursets forside](../) for hvordan.
+
+- [ ] Vent til veilederen sier at roboten er klar.
 
 - [ ] Trykk på knapp A. Lyser Dash grønt og spiller en lyd?
 

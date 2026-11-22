@@ -51,8 +51,13 @@ Programmet sender lys og lyd til roboten, og eleven har en stoppknapp på A+B.
   roboten. Broen på Raspberry Pi-en må være startet for nettopp de robotene.
 
 - Den micro:biten som står i Raspberry Pi-en, er den programmet skal over på.
-  Bestem på forhånd hvordan `.hex`-filen fra elevens PC kommer over på den, for
-  eksempel at veileder kopierer den.
+  Eleven laster ned `.hex`-filen og gir den til deg, eller laster den opp på
+  lab-siden selv hvis du sier det. Rekkefølgen på lab-siden er alltid: stopp
+  broen, last opp `.hex`, start broen for robotene programmet bruker. Se "For
+  veiledere" på [kursets forside](../).
+
+- Bruk **Blink**-knappen på lab-siden hvis du er usikker på hvilken robot som
+  er hvilken.
 
 - Lyden `SYSTBIRTHDAY` er den eneste lyden som er testet. Andre lydnavn i Dash
   kan finnes, men er ikke prøvd med disse klossene.

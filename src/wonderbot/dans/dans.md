@@ -46,6 +46,9 @@ input.onButtonPressed(Button.AB, function () {
 
 ## Test prosjektet {.flag}
 
+- [ ] Last ned `.hex`-filen fra MakeCode og gi den til veilederen. Vent til
+  roboten er klar.
+
 - [ ] Rister Dash på hodet?
 
 - [ ] Få Dash til å se opp og nikke: endre `tilt` til `-20` og så tilbake til

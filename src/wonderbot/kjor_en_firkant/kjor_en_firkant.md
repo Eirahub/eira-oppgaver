@@ -49,7 +49,10 @@ input.onButtonPressed(Button.AB, function () {
 
 ## Test prosjektet {.flag}
 
-- [ ] Sett Dash på gulvet med god plass foran. Last ned og trykk på A.
+- [ ] Sett Dash på gulvet med god plass foran.
+
+- [ ] Last ned `.hex`-filen fra MakeCode og gi den til veilederen. Når
+  roboten er klar, trykker du på A.
 
 - [ ] Kjører Dash 20 cm fram og så tilbake dit den startet?
 
