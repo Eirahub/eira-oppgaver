@@ -39,7 +39,7 @@ forhåndsvisning på Cloudflare Pages (oppsett i `site/README.md`).
 
 ## Git
 
-- Remotes: `origin` = Eirahub/eira-oppgaver, `upstream` = kodeklubben/oppgaver.
+- Remotes: `origin` = Eirahub/kodeklubb-oppgaver, `upstream` = kodeklubben/oppgaver.
   `lokal` peker på den gamle arbeidskopien i
   `C:\Users\torei\Documents\Repos\06-open-source\oppgaver`.
 - Første versjon ble pushet rett til `main` med eiers ja (20.11.2026). Alt

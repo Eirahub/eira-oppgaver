@@ -14,7 +14,7 @@ Takk til alle forfattere og oversettere. Navnene deres står nederst på hver
 oppgave.
 
 Kildekoden til denne siden og vår kopi av oppgavene finner du i
-[Eirahub/eira-oppgaver](https://github.com/Eirahub/eira-oppgaver). Hver oppgave
+[Eirahub/kodeklubb-oppgaver](https://github.com/Eirahub/kodeklubb-oppgaver). Hver oppgave
 har en lenke for å rette feil direkte på GitHub.
 
 ## Lisens

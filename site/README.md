@@ -255,7 +255,7 @@ Oppsett, én gang:
 2. Lag en API-token: My Profile, API Tokens, Create Token, Custom token, med
    tillatelsen Account, Cloudflare Pages, Edit, begrenset til kontoen.
 3. Finn Account ID (står i oversikten i Cloudflare-dashbordet).
-4. Legg inn to hemmeligheter i GitHub, Eirahub/eira-oppgaver, Settings,
+4. Legg inn to hemmeligheter i GitHub, Eirahub/kodeklubb-oppgaver, Settings,
    Secrets and variables, Actions, New repository secret:
    `CLOUDFLARE_API_TOKEN` og `CLOUDFLARE_ACCOUNT_ID`.
 

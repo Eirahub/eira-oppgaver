@@ -6,7 +6,7 @@ description: >-
   mer. Fra Eira sine kodeklubber.
 
 # GitHub-repoet for "Rediger på GitHub" og "Rapporter et problem".
-repo: Eirahub/eira-oppgaver
+repo: Eirahub/kodeklubb-oppgaver
 branch: main
 
 # Logo i toppen: enten `logo` (bilde i public/) eller `lockup` (levende tekst).
@@ -44,7 +44,7 @@ footer: |
   Innholdet er i hovedsak delt under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.no).
 
   [Om oppgavene og lisens](/om-oppgavene) ·
-  [Kildekoden på GitHub](https://github.com/Eirahub/eira-oppgaver)
+  [Kildekoden på GitHub](https://github.com/Eirahub/kodeklubb-oppgaver)
 
 # Logoer i bunnen: - { name: Navn, href: https://..., logo: /fil-i-public.png }
 partners: []
