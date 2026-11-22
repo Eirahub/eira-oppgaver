@@ -157,7 +157,7 @@ if (microbit.length) {
   const MAKECODE = 'https://makecode.microbit.org';
   const LANGS = { nb: 'nb', nn: 'nn-NO', en: 'en', is: 'is' };
   // MakeCode extensions loaded for code that uses their namespace (namespace: name=github:owner/repo).
-  const EXTENSIONS = { wonderbot: 'wonderbot=github:teenne/pxt-wonderbot#v0.1.0' };
+  const EXTENSIONS = { wonderbot: 'wonderbot=github:teenne/pxt-botbridge#v0.1.0' };
   const frame = document.createElement('iframe');
   frame.src = `${MAKECODE}/--docs?render=1&lang=${LANGS[lang] || 'nb'}`;
   frame.title = 'MakeCode-tegner';
