@@ -1,0 +1,40 @@
+# Introvideo for Arduino. Felter og skuddtyper: se MANUS.md.
+skudd:
+  - src: src/arduino/7_segment_display/kaotisk.jpg
+    H: 600
+    look: true
+    text: Hvordan får du et tall til å lyse?
+    pan: { scale: 1.5, from: [0.38, 0.45], to: [0.66, 0.47] }
+    glow: { x: 0.745, y: 0.47, color: "255, 40, 40" }
+  - src: src/arduino/blinkende_lysdiode/brett.png
+    text: Små datamaskiner styrer lys og lyd.
+    pan: { scale: 1.4, from: [0.36, 0.3], to: [0.64, 0.65] }
+  - kind: code
+    code: |
+      int led = 8;
+      void setup(){
+        pinMode(led, OUTPUT);
+      }
+      void loop(){
+        digitalWrite(led, HIGH);
+        delay(1000);
+        digitalWrite(led, LOW);
+        delay(1000);
+      }
+    text: Nå skriver du koden selv.
+  - src: src/arduino/7_segment_display/fullkrets.jpg
+    look: true
+    text: Et display som teller fra 0 til 9
+    pan: { scale: 1.3, from: [0.385, 0.5], to: [0.615, 0.5] }
+  - src: src/arduino/ultralydsensor/utstyr.jpeg
+    look: true
+    text: En sensor som måler avstand
+    pan: { scale: 1.3, from: [0.45, 0.3], to: [0.615, 0.7] }
+  - src: src/arduino/blinkende_lysdiode/led.png
+    look: true
+    text: "Første steg: få en lysdiode til å blinke."
+    glow: { x: 0.49, y: 0.47, color: "255, 40, 40" }
+    term: { word: lysdiode, x: 0.42, y: 0.53, up: true }
+  - kind: logo
+    course: processing
+    text: Etterpå kan du lage grafikk i Processing.

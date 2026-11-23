@@ -1,0 +1,38 @@
+# Introvideo for CC: Tweaked. Felter og skuddtyper: se MANUS.md.
+skudd:
+  - src: src/cc_tweaked/bygg_et_hus/flerefarger.png
+    look: true
+    text: Kan en robot bygge et hus for deg?
+    pan: { scale: 1.4, from: [0.6, 0.3], to: [0.55, 0.7] }
+  - src: src/cc_tweaked/introduksjon_til_cc_tweaked/introduksjon_til_cc_tweaked.png
+    H: 560
+    look: true
+    text: I Minecraft kan du bygge datamaskiner.
+    glow: { x: 0.72, y: 0.6, color: "120, 200, 255" }
+  - kind: code
+    code: |
+      for i = 1, 4 do
+          for j = 1, 5 do
+              turtle.back()
+              turtle.place()
+          end
+          turtle.turnLeft()
+      end
+    text: Nå programmerer du roboten i Lua.
+  - src: src/cc_tweaked/sprettball/sprettball.png
+    look: true
+    H: 560
+    text: En sprettball på en kjempeskjerm
+    glow: { x: 0.615, y: 0.45, color: "255, 255, 255" }
+  - src: src/cc_tweaked/nettverk_send_beskjed/melding_sendulf.png
+    look: true
+    text: Datamaskiner som sender meldinger
+    pan: { scale: 1.6, from: [0.45, 0.25], to: [0.45, 0.5] }
+  - src: src/cc_tweaked/bli_kjent_med_datamaskinen/bli_kjent_med_datamaskinen.png
+    H: 560
+    look: true
+    text: "Første steg: bygg en datamaskin."
+    term: { word: datamaskin, x: 0.42, y: 0.7 }
+  - kind: logo
+    course: java
+    text: Etterpå kan du lære Java.

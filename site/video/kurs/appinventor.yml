@@ -1,0 +1,29 @@
+# Introvideo for App Inventor. Felter og skuddtyper: se MANUS.md.
+skudd:
+  - src: src/appinventor/spaceinvaders/media/spaceinvaders.png
+    H: 600
+    look: true
+    text: Hvordan lager du et romspill til mobilen?
+    glow: { x: 0.7, y: 0.35, color: "255, 140, 0" }
+  - src: src/appinventor/ta_ballen/init.png
+    text: Klossene ligner dem i Scratch.
+    pan: { scale: 1.4, from: [0.357, 0.4], to: [0.643, 0.6] }
+  - src: src/appinventor/KlaskEnMuldvarp/komponenteneinne.png
+    text: Nå lager du din egen app.
+    pan: { scale: 1.6, from: [0.3125, 0.3], to: [0.45, 0.5] }
+  - src: src/appinventor/ta_ballen/spill.png
+    look: true
+    text: En app der du tar en ball som spretter
+    glow: { x: 0.43, y: 0.54, color: "255, 40, 40" }
+  - src: src/appinventor/KlaskEnMuldvarp/spillbrettet.png
+    look: true
+    text: Et spill der du klasker en muldvarp
+    glow: { x: 0.21, y: 0.29, color: "255, 220, 0" }
+  - src: src/appinventor/KlaskEnMuldvarp/event.png
+    H: 300
+    look: true
+    text: "Første steg: gi poeng når du treffer."
+    term: { word: hendelse, x: 0.5, y: 0.1 }
+  - kind: logo
+    course: python
+    text: Etterpå kan du lære Python.

@@ -1,0 +1,32 @@
+# Introvideo for Test moden med MultiMC. Felter og skuddtyper: se MANUS.md.
+skudd:
+  - src: src/minecraft_mod/flere_versjoner/10-fabric-1.21.11-rubingris.png
+    look: true
+    text: Virker moden din hos andre?
+    pan: { scale: 1.5, from: [0.4, 0.55], to: [0.6, 0.5] }
+  - src: src/minecraft_mod/installasjon/rubinmod-gradle.png
+    look: true
+    text: Du har startet moden fra IntelliJ.
+    pan: { scale: 1.8, from: [0.3, 0.25], to: [0.68, 0.8] }
+  - src: src/minecraft_foreldre/hva_er_minecraft/tittelskjerm.png
+    text: Nå tester du den slik spillerne gjør.
+    pan: { scale: 1.4, from: [0.5, 0.3], to: [0.35, 0.75] }
+  - src: src/minecraft_mod/flere_versjoner/10-fabric-1.21.11-rubinstav-lyn.png
+    look: true
+    text: Én instans for hver versjon
+    pan: { scale: 1.5, from: [0.45, 0.55], to: [0.48, 0.35] }
+    glow: { x: 0.5, y: 0.44, color: "255, 200, 90" }
+  - kind: code
+    code: |
+      java.lang.NullPointerException: Cannot invoke "Level.isClientSide()" because
+      "level" is null
+          at no.kidsakoder.rubinmod.RubinStav.use(RubinStav.java:42)
+    text: Les krasjrapporten og finn feilen
+  - kind: code
+    code: |
+      java -version
+      openjdk version "25.0.1" 2025-10-21 LTS
+    text: "Første steg: installer MultiMC og Java."
+  - kind: logo
+    course: minecraft_mod
+    text: Ingen mod ennå? Lag din egen.

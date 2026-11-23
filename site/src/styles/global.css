@@ -342,3 +342,10 @@ details[open] > summary { border-bottom: 1px solid var(--border-card); }
   --pagefind-ui-border: var(--ink-3);
 }
 @media print { .site-search { display: none !important; } }
+
+/* Introvideo på forsiden og kurssidene */
+.course-video { margin: var(--space-4) 0 var(--space-5); max-width: 960px; }
+.course-video video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border-radius: 16px; background: var(--surface-canvas, #F5F2ED); }
+.video-text { margin-top: var(--space-2); }
+.video-text p { margin: var(--space-1) 0; }
+.video-credit { font-size: 0.9em; opacity: 0.8; }
