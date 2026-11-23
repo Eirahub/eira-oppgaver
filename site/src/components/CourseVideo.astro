@@ -1,0 +1,12 @@
+---
+// Introvideo med plakat og tekstversjon. Starter bare ved klikk, går ikke i løkke og har ingen lyd.
+const { v, id } = Astro.props;
+---
+<figure class="course-video">
+  <video controls preload="none" playsinline poster={v.poster} src={v.src} width="1920" height="1080" aria-describedby={`video-tekst-${id}`}></video>
+  <details id={`video-tekst-${id}`} class="video-text">
+    <summary>Tekst i videoen</summary>
+    {v.tekst.map((t) => <p>{t}</p>)}
+    <p class="video-credit">Bildene er fra oppgavene og deles under CC BY-SA 4.0.{v.kreditt && ` Foto: ${v.kreditt}`}</p>
+  </details>
+</figure>
