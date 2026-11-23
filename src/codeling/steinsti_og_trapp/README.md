@@ -26,9 +26,15 @@ __Tidsbruk__: Omtrent en time. Dobbelttime med utfordringene.
 
 ## Kompetansemål {.challenge}
 
-Kompetansemål er ikke knyttet til oppgaven ennå. Hent eventuelle mål fra
-[læreplanverket på udir.no](https://www.udir.no/laring-og-trivsel/lareplanverket/) for trinnet og faget dere bruker
-oppgaven i.
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
+  variabler, vilkår og løkker
+
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
+
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

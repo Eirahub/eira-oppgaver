@@ -21,6 +21,11 @@ __Tema__: Objektorientert programmering, klasser, pakker
 
 __Tidsbruk__: Dobbeltime
 
+## Kompetansemål {.challenge}
+
+- [ ] __Informasjonsteknologi 2__: utvikle objektorienterte programmer med
+  klasser, objekter, metoder og arv
+
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan forklare forskjellen på en klasse og et objekt.

@@ -27,9 +27,9 @@ __Tidsbruk__: Dobbeltime. Publisering på Modrinth kan tas som egen oppgave.
 
 ## Kompetansemål {.challenge}
 
-Kompetansemål er ikke knyttet til oppgaven ennå. Hent eventuelle mål fra
-[læreplanen i informasjonsteknologi på
-udir.no](https://www.udir.no/lk20/inf01-02) som passer for gruppa.
+- [ ] __Samfunnsfag, 10. trinn__: utforske og reflektere over egne digitale spor
+  og muligheten for å få slettet sporene og verne om egen og andres rett til
+  privatliv, personvern og opphavsrett
 
 ## Forslag til læringsmål {.challenge}
 

@@ -30,7 +30,11 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal fra sensorer
+- [ ] __Naturfag, 7. trinn__: stille spørsmål og lage hypoteser om naturfaglige
+  fenomener, identifisere variabler og samle data for å finne svar
+
+- [ ] __Matematikk, 7. trinn__: logge, sortere, lese av og presentere data i
+  tabeller og diagrammer og forklare valget av framstilling
 
 ## Forslag til læringsmål {.challenge}
 

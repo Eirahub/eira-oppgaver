@@ -21,9 +21,11 @@ __Tidsbruk__: Dobbelttime eller mer
 
 ## Kompetansemål {.challenge}
 
-Kompetansemålene i den gamle lærerveiledningen var fra læreplanene før LK20, og
-er tatt ut. Hent eventuelle mål fra [LK20 på
-udir.no](https://www.udir.no/lk20/).
+- [ ] __Naturfag, 10. trinn__: utforske, forstå og lage teknologiske systemer
+  som består av en sender og en mottaker
+
+- [ ] __Informasjonsteknologi 1__: beskrive sentrale komponenter i datamaskiner
+  og nettverk og gjøre rede for hvilken funksjon de har
 
 ## Forslag til læringsmål {.challenge}
 

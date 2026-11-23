@@ -25,9 +25,9 @@ __Tidsbruk__: Omtrent en time, lenger med utfordringene.
 
 ## Kompetansemål {.challenge}
 
-Kompetansemål er ikke knyttet til oppgaven ennå. Hent eventuelle mål fra
-[læreplanen i informasjonsteknologi på
-udir.no](https://www.udir.no/lk20/inf01-02) som passer for gruppa.
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

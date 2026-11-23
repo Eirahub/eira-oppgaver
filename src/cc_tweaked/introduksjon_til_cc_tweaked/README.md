@@ -22,9 +22,14 @@ __Tidsbruk__: Dobbelttime eller mer
 
 ## Kompetansemål {.challenge}
 
-Kompetansemålene i den gamle lærerveiledningen var fra læreplanene før LK20, og
-er tatt ut. Hent eventuelle mål fra [LK20 på
-udir.no](https://www.udir.no/lk20/).
+- [ ] __Programmering, 8.-10. trinn__: gjøre rede for hvordan datamaskiner og
+  dataprogram fungerer, og forklare egne og andres koder
+
+- [ ] __Programmering, 8.-10. trinn__: bruke flere programmeringsspråk,
+  deriblant minst ett som er tekstbasert
+
+- [ ] __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
+  systemer som består av deler som virker sammen
 
 ## Forslag til læringsmål {.challenge}
 

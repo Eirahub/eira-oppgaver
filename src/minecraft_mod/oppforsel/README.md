@@ -27,9 +27,12 @@ __Tidsbruk__: To dobbeltimer. Oppgaven har tre deler som hver kan stå alene.
 
 ## Kompetansemål {.challenge}
 
-Kompetansemål er ikke knyttet til oppgaven ennå. Hent eventuelle mål fra
-[læreplanen i informasjonsteknologi på
-udir.no](https://www.udir.no/lk20/inf01-02) som passer for gruppa.
+- [ ] __Informasjonsteknologi 2__: utvikle objektorienterte programmer med
+  klasser, objekter, metoder og arv
+
+- [ ] __Programmering, 8.-10. trinn__: utvikle og feilsøke dataprogram som løser
+  definerte problemer, inkludert kontrollering eller simulering av fysiske
+  objekter
 
 ## Forslag til læringsmål {.challenge}
 

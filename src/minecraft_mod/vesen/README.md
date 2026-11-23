@@ -22,6 +22,14 @@ __Tema__: Objektorientert programmering, arv, klient og server, Minecraft
 
 __Tidsbruk__: To dobbeltimer
 
+## Kompetansemål {.challenge}
+
+- [ ] __Informasjonsteknologi 2__: utvikle objektorienterte programmer med
+  klasser, objekter, metoder og arv
+
+- [ ] __Informasjonsteknologi 2__: anvende objektorientert modellering til å
+  beskrive et programs struktur
+
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan forklare forskjellen på klient og server i Minecraft, og

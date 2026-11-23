@@ -27,9 +27,9 @@ __Tidsbruk__: Kort, omtrent en halv time. En skoletime med utfordringene.
 
 ## Kompetansemål {.challenge}
 
-Kompetansemål er ikke knyttet til oppgaven ennå. Hent eventuelle mål fra
-[læreplanen i informasjonsteknologi på
-udir.no](https://www.udir.no/lk20/inf01-02) som passer for gruppa.
+- [ ] __Informasjonsteknologi 1__: gjøre rede for og vurdere hvordan ulike typer
+  informasjon kan representeres digitalt og struktureres ved hjelp av ulike
+  datalagringsmetoder
 
 ## Forslag til læringsmål {.challenge}
 

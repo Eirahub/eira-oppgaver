@@ -1,7 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import '../../../styles/print.css';
-import { getCourses, renderMarkdown, renderInline, excerpt, pickLang, tagName } from '../../../lib/content.js';
+import { getCourses, renderMarkdown, renderInline, excerpt, pickLang, tagName, linkReadmeGoals } from '../../../lib/content.js';
 import profile from '../../../lib/profile.js';
 
 export function getStaticPaths() {
@@ -13,7 +13,7 @@ export function getStaticPaths() {
 }
 
 const { c, lesson, f } = Astro.props;
-const html = renderMarkdown(f.body, f.url);
+const html = renderMarkdown(f.isReadme ? linkReadmeGoals(f).body : f.body, f.url);
 const internal = lesson.files.filter((x) => !x.external);
 const counterpart = pickLang(internal.filter((x) => x.isReadme !== f.isReadme), f.language);
 const variants = internal.filter((x) => x.isReadme === f.isReadme && x !== f);

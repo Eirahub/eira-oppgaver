@@ -16,6 +16,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
@@ -24,7 +25,8 @@ CACHE = os.path.expanduser("~/.cache/kodeklubb-udir")
 # Læreplaner som kodeoppgavene viser til. Utgåtte planer følges til sin erstatning.
 PLANER = ["MAT01-06", "NAT01-05", "KHV01-03", "MUS01-03", "PRG01-02", "TPR01-02",
           "MAT07-02", "INF01-03", "TNF01-03", "PRM01-02", "ITK02-01", "MAT09-02",
-          "MAT01-05", "NAT01-04", "KHV01-02", "MUS01-02", "INF01-02"]
+          "MAT01-05", "NAT01-04", "KHV01-02", "MUS01-02", "INF01-02", "SAF01-05",
+          "NOR01-08", "ENG01-06", "ARB01-03", "RLE01-04", "ENG03-02"]
 
 funn = []
 
@@ -38,8 +40,17 @@ def hent(url):
     f = os.path.join(CACHE, re.sub(r"[^A-Za-z0-9.-]", "_", url[len(API):]) + ".json")
     if not os.path.exists(f) or time.time() - os.path.getmtime(f) > 7 * 86400:
         req = urllib.request.Request(url, headers={"Accept": "application/json"})
-        with urllib.request.urlopen(req, timeout=30) as r, open(f, "wb") as out:
-            out.write(r.read())
+        for forsok in range(6):
+            try:
+                with urllib.request.urlopen(req, timeout=30) as r:
+                    data = r.read()
+                break
+            except urllib.error.HTTPError as e:
+                if e.code != 429 or forsok == 5:
+                    raise
+                time.sleep(2 ** forsok)  # Udir begrenser antall kall
+        with open(f, "wb") as out:
+            out.write(data)
     return json.load(open(f, encoding="utf-8"))
 
 
@@ -61,8 +72,8 @@ def norm(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
-def lk20():
-    """Alle kompetansemål: liste av (normalisert tekst, plan, utgått->ny, trinn, ordlyd)."""
+def lk20_maal():
+    """Alle kompetansemål i PLANER som dicts: kode, plan, fag, sett, trinn, nb, nn, ny (erstattes av)."""
     maal = []
     for kode in PLANER:
         try:
@@ -71,15 +82,34 @@ def lk20():
             print(f"Advarsel: fikk ikke hentet {kode}: {e}", file=sys.stderr)
             continue
         ny = ",".join(p.get("kode", "") for p in plan.get("erstattes-av") or [])
+        fag, fag_nn = (re.sub(r" 1\.?[-–]10\.?( trinn)?$", "", tekst(plan.get("kortform"), (sp, "default")))
+                       for sp in ("nob", "nno"))
         for sett in re.findall(r'"url-data":\s*"([^"]*kompetansemaalsett-lk20/[^"]*)"', json.dumps(plan)):
             d = hent(sett)
-            trinn = tekst(d.get("tittel")).replace("Kompetansemål og vurdering", "").strip()
+            trinn = re.sub(r"(\d)\.(?=trinn)", r"\1. ", tekst(d.get("kortform"), ("nob", "default"))).strip()
+            if trinn.lower() == fag.lower():  # valgfag og vg-fag med ett sett: bruk årstrinnene
+                aar = [x.get("kode", "") for x in d.get("etter-aarstrinn") or []]
+                nr = [a[len("aarstrinn"):] for a in aar if a.startswith("aarstrinn")]
+                trinn = (f"{nr[0]}.-{nr[-1]}. trinn" if len(nr) > 1 else f"{nr[0]}. trinn") if nr \
+                    else ", ".join(a.capitalize() for a in aar)
             for m in d.get("kompetansemaal", []):
-                for sp in ("nob", "nno", "default"):
-                    t = tekst(m.get("tittel"), (sp,))
-                    if t:
-                        maal.append((norm(t), kode, ny, trinn, t))
+                if m.get("url-data") and not any(x.get("spraak") == "nob" for x in (m.get("tittel") or [])
+                                                 if isinstance(x, dict)):
+                    # nynorske planer har bokmål bare på hvert enkelt mål
+                    try:
+                        m = {**m, "tittel": hent(m["url-data"]).get("tittel")}
+                    except Exception:  # noqa: BLE001
+                        pass
+                nb, nn = (tekst(m.get("tittel"), (sp, "default")) for sp in ("nob", "nno"))
+                maal.append({"kode": m.get("kode", ""), "plan": kode, "fag": fag, "fagNn": fag_nn,
+                             "sett": d.get("kode", ""), "trinn": trinn, "nb": nb, "nn": nn, "ny": ny})
     return maal
+
+
+def lk20():
+    """Alle kompetansemål: liste av (normalisert tekst, plan, utgått->ny, trinn, ordlyd)."""
+    return [(norm(t), m["plan"], m["ny"], m["trinn"], t)
+            for m in lk20_maal() for t in dict.fromkeys((m["nb"], m["nn"])) if t]
 
 
 KM = re.compile(r"^\s*-\s*\[ \]\s*(?:__|\*\*)\s*(.+?)\s*:?\s*(?:__|\*\*)\s*:?\s*(.+)")

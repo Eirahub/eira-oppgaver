@@ -18,6 +18,8 @@ npm run build        # bygger til site/dist og lager søket (Pagefind)
 npm run check:site   # sjekker dist for døde lenker og viktige sider
 npm test             # tester for logikk uten DOM (scripts/*.test.mjs)
 npm run preview      # viser dist lokalt
+npm run rapport:kompetansemaal   # koblet/ukoblet kompetansemål (--alle lister alt)
+npm run data:kompetansemaal      # henter LK20-målene fra Udir på nytt (Python 3, nett)
 ```
 
 Kommandoene må kjøres fra `site/`, fordi innholdet finnes via `../src`.
@@ -77,6 +79,7 @@ legges inn i `partners` med logoene i `profiles/lkk/public/`.
 | `src/pages/[course]/index.astro` | Kurssiden `/<kurs>/`: kursinfo, oppgavesamlinger, alle oppgaver per nivå og filteret. |
 | `src/pages/[course]/[lesson]/[file].astro` | Oppgaver og lærerveiledninger, `/<kurs>/<mappe>/<fil>`. |
 | `src/pages/om-oppgavene.astro` | Viser `om.md` fra profilen. |
+| `src/pages/kompetansemaal.astro` | "Finn oppgaver etter kompetansemål" (se under). |
 | `src/lib/profile.js` | Leser profilen valgt med `SITE_PROFILE`. |
 | `src/scripts/lesson.js` | I nettleseren: sjekklister (lagres i `localStorage`), "Åpne på mobilen" (QR-kode), "Hold skjermen på", Scratch-klosser og micro:bit-klosser. |
 | `src/scripts/progress-link.js` | Gjør avkrysningene om til `#fremdrift=` i lenken og tilbake. Testes av `scripts/progress-link.test.mjs`. |
@@ -173,6 +176,25 @@ kodeblokk, så innholdet virker også oppstrøms.
 - Uten JavaScript og på utskrift vises bare koden.
 - Logikken er i `src/scripts/html-live.js`, `html-live-doc.js` og
   `html-live-guard.js` (løkkevernet), testet med `npm test`.
+
+### Kompetansemål (LK20)
+
+- `src/data/kompetansemaal.json` har LK20-målene i planene som oppgavene
+  viser til: kode, plan, fag, trinn, tekst på bokmål og nynorsk og lenke til
+  målet på udir.no (`.../kompetansemaal-og-vurdering/<kv>#<KM>`). `utgatte`
+  har målene i utgåtte planer, med `ny` = målet i den nye planen når teksten
+  er nesten lik. Fila ligger i git, så bygget trenger ikke nett.
+- `npm run data:kompetansemaal` lager fila på nytt med
+  `scripts/kompetansemaal.py`. Den bruker `PLANER` og hentingen i
+  `.claude/skills/gjennomga-kurs/sjekk_kurs.py` (mellomlager i
+  `~/.cache/kodeklubb-udir`, en uke). Ny plan: legg koden i `PLANER`.
+- `src/lib/kompetansemaal.js` kobler målene i lærerveiledningene (brukes av
+  bygget, rapporten og `npm test`). `src/pages/kompetansemaal.astro` er
+  siden "Finn oppgaver etter kompetansemål".
+- `npm run rapport:kompetansemaal` skriver ut hvor mange mål som er koblet,
+  og de ukoblede med fil og linje, gruppert på årsak: `LK06` (for eksempel
+  "IT1, VG2"), `utgått plan uten match`, `ikke ordrett` (med nærmeste mål)
+  og `ukjent`.
 
 ### Søk
 

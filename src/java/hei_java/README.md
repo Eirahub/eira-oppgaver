@@ -27,9 +27,11 @@ __Tidsbruk__: Omtrent en time. Lenger hvis installasjonen ikke er gjort.
 
 ## Kompetansemål {.challenge}
 
-Kompetansemål er ikke knyttet til oppgaven ennå. Hent eventuelle mål fra
-[læreplanen i informasjonsteknologi på
-udir.no](https://www.udir.no/lk20/inf01-02) som passer for gruppa.
+- [ ] __Programmering, 8.-10. trinn__: bruke flere programmeringsspråk,
+  deriblant minst ett som er tekstbasert
+
+- [ ] __Programmering, 8.-10. trinn__: gjøre rede for hvordan datamaskiner og
+  dataprogram fungerer, og forklare egne og andres koder
 
 ## Forslag til læringsmål {.challenge}
 
