@@ -1,0 +1,34 @@
+# Introvideo for Diverse (Twine og Swift). Felter og skuddtyper: se MANUS.md.
+skudd:
+  - kind: code
+    code: |
+      Du er i eit rom. Du ser ei dør. Du må gå ut! Kva gjer du?
+      [[åpna døra->utgang]]
+      [[ta ein tur rundt->rom]]
+    text: Kommer du deg ut av rommet?
+  - src: src/diverse/interaktiv-forteljing-i-twine/passasje.png
+    H: 480
+    text: Du leser historier og bruker apper.
+    glow: { x: 0.59, y: 0.79, color: "60, 140, 255" }
+  - kind: code
+    code: |
+      @IBAction func knapp(sender: AnyObject) {
+          etikett.text = "Knappen sier: Hei!"
+      }
+    text: Nå skriver du dem selv.
+  - src: src/diverse/hei_verden/change_label.png
+    look: true
+    text: En iPhone-app med en knapp som svarer
+    pan: { scale: 1.6, from: [0.3125, 0.4], to: [0.6, 0.45] }
+  - src: src/diverse/interaktiv-forteljing-i-twine/1.png
+    look: true
+    text: En historie der leseren velger veien
+    pan: { scale: 1.4, from: [0.64, 0.68], to: [0.46, 0.35] }
+  - src: src/diverse/hei_verden/drag_label.png
+    look: true
+    text: "Første steg: få appen til å si hei."
+    pan: { scale: 1.6, from: [0.45, 0.35], to: [0.36, 0.3] }
+    term: { word: etikett, x: 0.43, y: 0.29 }
+  - kind: logo
+    course: python
+    text: Etterpå kan du lære Python.

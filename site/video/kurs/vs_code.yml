@@ -1,0 +1,43 @@
+# Introvideo for VS Code. Felter og skuddtyper: se MANUS.md.
+skudd:
+  - kind: code
+    code: |
+      poeng = [7, 9, 4, 10]
+      sum = 0
+
+      for p in poeng:
+          sum = p
+
+      snitt = sum / len(poeng)
+      print("Gjennomsnitt:", snitt)
+    text: Hvorfor blir gjennomsnittet feil?
+  - src: src/vs_code/logo-black.png
+    plain: true
+    H: 340
+    text: Programmerere bruker VS Code hver dag.
+    glow: { x: 0.5, y: 0.5, color: "0, 150, 255" }
+  - kind: code
+    code: |
+      navn = input("Hva heter du? ")
+      print("Hei, " + navn + "!")
+    text: Nå kjører du ditt eget program.
+  - kind: code
+    code: |
+      <h1>Hei fra VS Code!</h1>
+
+      h1 {
+        color: darkblue;
+      }
+    text: En nettside du ser med en gang
+  - kind: code
+    code: |
+      git config --global user.name "Ola"
+      git config --global user.email "ola@example.com"
+    text: Lagre arbeidet ditt med Git
+  - kind: code
+    code: |
+      sudo snap install --classic code
+    text: "Første steg: installer VS Code."
+  - kind: logo
+    course: python
+    text: Etterpå kan du kode Python i VS Code.

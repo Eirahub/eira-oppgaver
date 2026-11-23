@@ -69,3 +69,10 @@ site/.astro
 
 # Lokale Claude-innstillinger
 .claude/settings.local.json
+
+# Hemmeligheter
+.env
+
+# Introvideoer, hentet fra releasen «videoer» av site/video/videoer.mjs
+site/public/video/
+site/src/data/videoer.json

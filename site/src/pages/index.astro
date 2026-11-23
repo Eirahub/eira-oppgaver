@@ -4,6 +4,8 @@ import path from 'node:path';
 import YAML from 'yaml';
 import Base from '../layouts/Base.astro';
 import CourseCard from '../components/CourseCard.astro';
+import CourseVideo from '../components/CourseVideo.astro';
+import { video } from '../lib/videoer.js';
 import { getCourses, renderMarkdown } from '../lib/content.js';
 import { groupCourses } from '../lib/kursgrupper.js';
 import profile, { PROFILE_DIR } from '../lib/profile.js';
@@ -15,6 +17,7 @@ const external = courses.filter((c) => c.isExternal);
 const groupFile = [path.join(PROFILE_DIR, 'kursgrupper.yml'), 'src/data/kursgrupper.yml'].find((f) => fs.existsSync(f));
 // External courses join their technology group here (marked ↗); the alphabetical view keeps them in their own section.
 const groups = groupCourses([...internal, ...external], YAML.parse(fs.readFileSync(groupFile, 'utf8')));
+const v = video('forside');
 const slug = (s) => `gruppe-${s.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 ---
 <Base>
@@ -22,6 +25,7 @@ const slug = (s) => `gruppe-${s.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
     <p class="eyebrow">{profile.hero.eyebrow}</p>
     <h1>{profile.hero.title}</h1>
     <div class="lead" set:html={renderMarkdown(profile.hero.lead)} />
+    {v && <CourseVideo v={v} id="forside" />}
   </section>
 
   <section class="site-search" id="sok" aria-labelledby="sok-tittel" hidden>

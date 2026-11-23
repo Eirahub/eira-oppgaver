@@ -121,6 +121,8 @@ Windows-fiksene (`os.replace`, `indexed` i `KEYS_YML`) er med i dette repoet.
 - `.claude/skills/ny-oppgave`: lage ny oppgave eller nytt kurs.
 - `.claude/skills/vurder-trinn`: foreslå `grade` og `level` ut fra lignende
   oppgaver (`trinnstatistikk.py`) og hva oppgaven krever.
+- `.claude/skills/gjennomga-kurs`: kvalitetssjekk av et kurs eller en oppgave
+  (format, nivå, forklaringer, kode og kompetansemål mot LK20).
 
 ## Regler
 
