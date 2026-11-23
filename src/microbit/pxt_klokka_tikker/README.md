@@ -20,8 +20,6 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn:__ utforske og beskrive strukturer og mønster i lek og spill
-
 - [ ] __Matematikk, 4. trinn__: lage algoritmer og uttrykke dem ved bruk av
   variabler, vilkår og løkker
 

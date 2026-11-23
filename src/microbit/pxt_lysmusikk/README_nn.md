@@ -29,9 +29,11 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __Teknologi og design, 10. trinn:__ lage prototypar for teknologiske produkt og reflektere over korleis desse kan betrast eller utviklast vidare
+- [ ] __Musikk, 10. trinn__: skape og programmere musikalske forløp ved å
+  eksperimentere med lyd frå ulike kjelder
 
-- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal frå sensorar
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
 
 ## Forslag til læringsmål {.challenge}
 

@@ -27,11 +27,15 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Matematikk, 9. trinn:__ berekne og vurdere sannsyn i statistikk og spel
 
-- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilledesign og egne spill
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+  vurdere spilldesign og egne spill
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
-- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle eit produkt
+- [ ] __Naturfag, 10. trinn__: utforske, forstå og lage teknologiske system som
+  består av ein sendar og ein mottakar
 
 ## Forslag til læringsmål {.challenge}
 
