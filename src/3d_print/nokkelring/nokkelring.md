@@ -16,10 +16,8 @@ minutter å printe.
 
 Det er lurt å ha gjort [Navneskilt](../navneskilt/navneskilt) først.
 
-![Den ferdige modellen i BlocksCAD: en brikke med hull i den ene enden og
-fire prikker på rad](nokkelring_modell.png)
-
-<!-- BILDE: bytt til foto av ferdig print -->
+![Illustrasjon av en ferdig printet nøkkelring i oransje plast med hull i
+den ene enden og fire opphøyde prikker på rad](nokkelring_print.jpg)
 
 
 # Steg 1: Lag brikken {.activity}

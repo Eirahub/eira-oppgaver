@@ -14,10 +14,8 @@ klubbens 3D-printer.
 Skiltet blir omtrent 8 cm langt, 2,5 cm høyt og et halvt centimeter tykt. Det
 tar omtrent 10 til 20 minutter å printe.
 
-![Den ferdige modellen i BlocksCAD: en flat plate med navnet Ola i
-opphøyde bokstaver](navneskilt_modell.png)
-
-<!-- BILDE: bytt til foto av ferdig print -->
+![Illustrasjon av et ferdig printet navneskilt i blå plast med navnet Ola i
+opphøyde bokstaver](navneskilt_print.jpg)
 
 
 # Steg 1: Åpne BlocksCAD {.activity}

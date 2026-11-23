@@ -70,6 +70,8 @@ forklare hva X, Y og Z betyr og hvorfor teksten flyttes 3 mm opp.
 
 ### Hva er testet
 
-Klossnavn, menyer og knapper er hentet fra kildekoden til blockscad3d.com/editor
-(engelsk og norsk språkfil) 22.11.2026. Oppgaven er ikke bygget ferdig i
-editoren, og ingen skilt er printet ennå. Målene og printtiden er anslag.
+Klossene er bygget i BlocksCAD (blockscad3d.com/editor) 23.11.2026, og
+skjermbildene i oppgaven er tatt der. Ingen skilt er printet ennå. Bildet øverst
+i oppgaven er en illustrasjon laget fra modellen, ikke et foto. Målene og
+printtiden er anslag. Print gjerne én selv før timen, så du vet at tekst og små
+detaljer blir pene på deres printer.

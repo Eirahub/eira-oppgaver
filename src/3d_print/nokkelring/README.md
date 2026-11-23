@@ -69,6 +69,8 @@ løkke, og kan forklare hvordan X regnes ut for hver runde i løkka.
 
 ### Hva er testet
 
-Klossnavn, menyer og knapper er hentet fra kildekoden til blockscad3d.com/editor
-22.11.2026. Oppgaven er ikke bygget ferdig i editoren, og ingen nøkkelring er
-printet ennå. Målene og printtiden er anslag.
+Klossene er bygget i BlocksCAD (blockscad3d.com/editor) 23.11.2026, og
+skjermbildene i oppgaven er tatt der. Ingen nøkkelring er printet ennå. Bildet
+øverst i oppgaven er en illustrasjon laget fra modellen, ikke et foto. Målene og
+printtiden er anslag. Print gjerne én selv før timen, så du vet at tekst og små
+detaljer blir pene på deres printer.
