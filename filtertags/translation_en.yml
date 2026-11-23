@@ -54,6 +54,9 @@ topic:
     cryptography:
       NAME: Cryptography
       TOOLTIP: Learn about computer security.
+    ai:
+      NAME: Artificial intelligence
+      TOOLTIP: Train and use your own machine learning model.
 subject:
   NAME: Subject
   TAGS:

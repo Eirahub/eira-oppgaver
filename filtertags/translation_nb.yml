@@ -54,6 +54,9 @@ topic:
     cryptography:
       NAME: Kryptografi
       TOOLTIP: Lær om datasikkerhet.
+    ai:
+      NAME: Kunstig intelligens
+      TOOLTIP: Tren og bruk din egen maskinlæringsmodell.
 subject:
   NAME: Fag
   TAGS:
