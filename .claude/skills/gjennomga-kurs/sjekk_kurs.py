@@ -136,7 +136,7 @@ def sjekk_md(fil, alle):
     if "external:" in fm:
         return
     for n, l in enumerate(linjer, 1):
-        if "—" in l:
+        if "\u2014" in l:
             meld(fil, n, "tankestrek", "U+2014 er ikke lov")
         if re.search(r"<!--\s*BILDE|TODO", l):
             meld(fil, n, "mangler", l.strip()[:100])
