@@ -23,6 +23,12 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
+- [ ] __Norsk, 7. trinn__: utforske og beskrive samspillet mellom skrift, bilder
+  og andre uttrykksformer og lage egne sammensatte tekster
+
+- [ ] __Norsk, 10. trinn__: lage sammensatte tekster og begrunne valg av
+  uttrykksformer
+
 - [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
 - [ ] __Informasjonsteknologi 1__: utvikle nettsider ved hjelp av

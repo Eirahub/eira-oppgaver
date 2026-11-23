@@ -25,12 +25,12 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Engelsk, 2. årstrinn__: tileigne seg ord og kulturell kunnskap gjennom
-      engelskspråkleg barnelitteratur og barnekultur
+- [ ] __Engelsk, 2. trinn__: tileigne seg ord og kulturell kunnskap gjennom
+  engelskspråkleg barnelitteratur og barnekultur
 
-- [ ] __Engelsk, 7. årstrinn__: utforske levemåtar og tradisjonar i ulike
-      samfunn i den engelskspråklege verda og i Noreg og reflektere over
-      identitet og kulturell tilhørighet
+- [ ] __Engelsk, 7. trinn__: utforske levemåtar og tradisjonar i ulike samfunn i
+  den engelskspråklege verda og i Noreg og reflektere over identitet og
+  kulturell tilhøyrsel
 
 - [ ] __Kunst og handverk, 4. trinn__: gjennomføre kunst- og designprosessar ved
   å søkje inspirasjon, utforske moglegheiter, gjere val og lage eigne produkt

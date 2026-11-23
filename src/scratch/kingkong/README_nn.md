@@ -25,8 +25,7 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Engelsk, 10. trinn__: lese, diskutere og vidareformidle innhald frå
-      ulike typar tekstar, inkludert selvvalgte tekstar
+- [ ] __Engelsk, 10. trinn__: bruke kjelder på ein kritisk og etterretteleg måte
 
 - [ ] __Engelsk, 7. trinn__: bruke digitale ressursar og ulike ordbøker i
       språklæring, tekstskaping og samhandling

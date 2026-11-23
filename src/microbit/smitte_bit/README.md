@@ -46,7 +46,8 @@ I denne oppgaven skal vi lære om radioblokkene og bruke det for å simulere smi
 
 - [ ] **KRLE, 10. trinn**: identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon
 
-- [ ] **KRLE, 10. trinn**: identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, urfolks rettigheter, bærekraft og fattigdom
+- [ ] __KRLE, 10. trinn__: identifisere og drøfte aktuelle etiske
+  problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom
 
 
 

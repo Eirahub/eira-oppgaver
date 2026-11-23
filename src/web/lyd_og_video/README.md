@@ -24,6 +24,9 @@ __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
+- [ ] __Norsk, 10. trinn__: lage sammensatte tekster og begrunne valg av
+  uttrykksformer
+
 - [ ] __Kunst og håndverk, 7. trinn__: bruke digitale verktøy til å planlegge og presentere prosesser og produkter
 
 - [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk

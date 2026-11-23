@@ -26,7 +26,7 @@ CACHE = os.path.expanduser("~/.cache/kodeklubb-udir")
 PLANER = ["MAT01-06", "NAT01-05", "KHV01-03", "MUS01-03", "PRG01-02", "TPR01-02",
           "MAT07-02", "INF01-03", "TNF01-03", "PRM01-02", "ITK02-01", "MAT09-02",
           "MAT01-05", "NAT01-04", "KHV01-02", "MUS01-02", "INF01-02", "SAF01-05",
-          "NOR01-08", "ENG01-06", "ARB01-03", "RLE01-04"]
+          "NOR01-08", "ENG01-06", "ARB01-03", "RLE01-04", "ENG03-02"]
 
 funn = []
 

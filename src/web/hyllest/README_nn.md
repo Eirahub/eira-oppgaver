@@ -40,6 +40,12 @@ I denne oppgåva skal elevane laga ei nettside med html og css. Dei skal laga ei
 - [ ] __Informasjonsteknologi 1__: utvikle nettsider ved hjelp av
   markeringsspråk
 
+- [ ] __Norsk, 7. trinn__: utforske og beskrive samspelet mellom skrift, bilete
+  og andre uttrykksformer og lage eigne samansette tekstar
+
+- [ ] __Norsk, 10. trinn__: lage samansette tekstar og grunngi val av
+  uttrykksformer
+
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Presentera og samanlikna data, ved å laga ei programvare som genererer eit diagram frå fleire datasett.

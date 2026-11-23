@@ -28,9 +28,9 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 - [ ] __Matematikk, 9. trinn__: berekne og vurdere sannsyn i statistikk og spel
 
-- [ ] __Norsk, 7. årstrinn__: orientere seg i faglege kjelder på bibliotek og
-      digitalt, vurdera kor pålitelege kjeldene er, og vise til kjelder i eigne
-      tekstar
+- [ ] __Norsk, 7. trinn__: orientere seg i faglege kjelder på bibliotek og
+  digitalt, vurdere kor pålitelege kjeldene er, og vise til kjelder i eigne
+  tekstar
 
 ## Forslag til læringsmål {.challenge}
 

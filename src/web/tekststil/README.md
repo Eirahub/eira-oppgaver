@@ -29,6 +29,12 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
+- [ ] __Norsk, 7. trinn__: utforske og beskrive samspillet mellom skrift, bilder
+  og andre uttrykksformer og lage egne sammensatte tekster
+
+- [ ] __Norsk, 10. trinn__: lage sammensatte tekster og begrunne valg av
+  uttrykksformer
+
 - [ ] __Kunst og håndverk, 7. trinn__: bruke digitale verktøy til å planlegge og presentere prosesser og produkter
 
 - [ ] __Kunst og håndverk, 10. trinn__: utforske hvordan digitale verktøy og ny teknologi kan gi muligheter for kommunikasjonsformer og opplevelser i skapende prosesser og produkter
