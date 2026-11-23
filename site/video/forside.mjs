@@ -3,13 +3,12 @@
 // A wall of course tiles; the camera travels through it (whip pans along a row, zoom out/in between
 // rows), each tile has motion inside it, then the camera pulls out to the whole wall.
 import fs from 'node:fs';
+import { B, SUF } from './merke.mjs';
 import path from 'node:path';
 
 const HERE = path.dirname(new URL(import.meta.url).pathname);
 const REPO = path.resolve(HERE, '..', '..');
 const ASSETS = path.join(HERE, 'assets');
-const B = { canvas: '#F5F2ED', ink: '#1B1B1F', ink2: '#3D3D42', primary: '#1E3A8A', accent: '#FF8A4C', accentInk: '#4A1A00',
-  mark: 'eira', kicker: 'Ryfylke · Kodeklubb', url: 'eirahub.no' };
 const src = (p) => (p.startsWith('a:') ? path.join(ASSETS, p.slice(2)) : path.join(REPO, 'src', p));
 
 // visit order; grid position follows a snake through a 3x3 wall
@@ -53,7 +52,7 @@ const BOX = { x: 80, y: 190, w: 1760, h: 820 }; // image box inside a tile
 const HOLD_S = 0.9; // camera scale while a tile is in view (its edges and neighbours show)
 const r2 = (x) => Math.round(x * 100) / 100;
 
-const dir = path.join(HERE, 'build', 'forside');
+const dir = path.join(HERE, 'build', 'forside' + SUF);
 fs.rmSync(dir, { recursive: true, force: true });
 fs.mkdirSync(path.join(dir, 'assets', 'fonts'), { recursive: true });
 for (const f of ['baloo-2-latin-700-normal.woff2', 'inter-latin-wght-normal.woff2'])
@@ -224,11 +223,11 @@ fs.writeFileSync(path.join(dir, 'index.html'), `<!doctype html>
       #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: ${B.canvas}; font-family: "Inter", sans-serif; }
       #world { position: absolute; left: 0; top: 0; width: ${WORLD_W}px; height: ${WORLD_H}px; transform-origin: 0 0; }
       .tile { position: absolute; width: ${TW}px; height: ${TH}px; }
-      .tile .bg { position: absolute; inset: 0; border-radius: 56px; background: #fff; box-shadow: 0 18px 50px rgba(30,58,138,0.16); }
+      .tile .bg { position: absolute; inset: 0; border-radius: 56px; background: #fff; box-shadow: 0 18px 50px ${B.shadow}0.16); }
       .pic { position: absolute; overflow: hidden; border-radius: 20px; }
       .pic img { display: block; width: 100%; height: 100%; }
       .label { position: absolute; left: 80px; top: 56px; padding: 6px 34px; border-radius: 999px; background: ${B.accent}; color: ${B.accentInk};
-        font: 700 72px/1.25 "Baloo 2", sans-serif; }
+        font: 700 72px/1.25 ${B.display}; }
       .patch, .sprite { position: absolute; }
       .patch { -webkit-mask-image: linear-gradient(to right, transparent, #000 7px, #000 calc(100% - 7px), transparent), linear-gradient(transparent, #000 7px, #000 calc(100% - 7px), transparent); -webkit-mask-composite: source-in; mask-composite: intersect; }
       .koch { position: absolute; left: 0; top: 0; }
@@ -237,26 +236,26 @@ fs.writeFileSync(path.join(dir, 'index.html'), `<!doctype html>
       .code { position: absolute; border-radius: 20px; background: #1B1B1F; padding: 60px 50px; display: flex; flex-direction: column; gap: 34px; }
       .cl { font: 600 44px/1.3 "DejaVu Sans Mono", monospace; color: #FFD7BF; white-space: nowrap; clip-path: inset(0% 100% 0% 0%); }
       .result { position: absolute; border-radius: 20px; background: #fff; border: 4px solid #E4DFD6; padding: 60px 50px; }
-      .result h1 { font: 700 84px/1.1 "Baloo 2", sans-serif; color: ${B.primary}; opacity: 0; }
+      .result h1 { font: 700 84px/1.1 ${B.display}; color: ${B.primary}; opacity: 0; }
       .result p { margin-top: 28px; font: 500 40px/1.4 "Inter", sans-serif; color: ${B.ink2}; opacity: 0; }
-      .result button { margin-top: 44px; padding: 18px 40px; border: 0; border-radius: 16px; background: ${B.accent}; color: ${B.accentInk}; font: 700 44px/1 "Baloo 2", sans-serif; opacity: 0; }
+      .result button { margin-top: 44px; padding: 18px 40px; border: 0; border-radius: 16px; background: ${B.accent}; color: ${B.accentInk}; font: 700 44px/1 ${B.display}; opacity: 0; }
       .sprite { background-repeat: no-repeat; }
       .glow { position: absolute; width: 380px; height: 380px; margin: -190px 0 0 -190px; border-radius: 50%; mix-blend-mode: screen; }
       #blockwrap { position: absolute; left: 1180px; top: 520px; }
       #blockimg { display: block; width: 562px; height: 272px; }
       #bcursor { position: absolute; left: 70px; top: 80px; filter: drop-shadow(0 2px 3px rgba(0,0,0,0.35)); }
       .w { display: inline-block; opacity: 0; }
-      #line { position: absolute; left: 120px; right: 120px; top: 430px; text-align: center; font: 700 136px/1.15 "Baloo 2", sans-serif; color: ${B.ink}; }
-      #end-q { position: absolute; left: 192px; right: 192px; top: 240px; text-align: center; font: 700 128px/1.2 "Baloo 2", sans-serif; color: ${B.ink}; }
+      #line { position: absolute; left: 120px; right: 120px; top: 430px; text-align: center; font: 700 136px/1.15 ${B.display}; color: ${B.ink}; }
+      #end-q { position: absolute; left: 192px; right: 192px; top: 240px; text-align: center; font: 700 128px/1.2 ${B.display}; color: ${B.ink}; }
       #end-bar { position: absolute; left: 860px; top: 420px; width: 200px; height: 12px; border-radius: 6px; background: ${B.accent}; transform: scaleX(0); }
       #end-logos { position: absolute; left: 192px; right: 192px; top: 520px; display: flex; align-items: center; justify-content: center; gap: 96px; opacity: 0; }
       .lockup { display: flex; flex-direction: column; gap: 14px; color: ${B.primary}; }
       .lockrow { display: flex; align-items: baseline; gap: 22px; }
-      .mark { font: 700 132px/1 "Baloo 2", sans-serif; letter-spacing: -0.015em; }
+      .mark { font: 700 132px/1 ${B.display}; letter-spacing: -0.015em; }
       .kicker { font: 700 30px/1 "Inter", sans-serif; letter-spacing: 0.28em; text-transform: uppercase; color: ${B.ink2}; padding-bottom: 14px; }
       .lockurl { font: 500 40px/1.2 "Inter", sans-serif; color: ${B.ink2}; }
       .sep { width: 4px; height: 150px; background: ${B.ink2}; opacity: 0.25; border-radius: 2px; }
-      .lkk { height: 210px; width: auto; display: block; }
+      .lkk { height: ${B.lockup ? 210 : 260}px; width: auto; display: block; }
     </style>
   </head>
   <body>
@@ -269,8 +268,8 @@ fs.writeFileSync(path.join(dir, 'index.html'), `<!doctype html>
       <div id="end-q">${words('Hva vil du lage?')}</div>
       <div id="end-bar"></div>
       <div id="end-logos">
-        <div class="lockup"><div class="lockrow"><span class="mark">${B.mark}</span><span class="kicker">${B.kicker}</span></div><span class="lockurl">${B.url}</span></div>
-        <div class="sep"></div>
+        ${B.lockup ? `<div class="lockup"><div class="lockrow"><span class="mark">${B.mark}</span><span class="kicker">${B.kicker}</span></div><span class="lockurl">${B.url}</span></div>` : ''}
+        ${B.lockup ? '<div class="sep"></div>' : ''}
         <img class="lkk" src="assets/lkk-logo.png" alt="Lær Kidsa Koding" />
       </div>
     </div>

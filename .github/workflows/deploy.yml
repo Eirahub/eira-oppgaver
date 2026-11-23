@@ -108,7 +108,7 @@ jobs:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write # laste opp nye LKK-videoer til releasen «videoer»
     env:
       HAS_CLOUDFLARE: ${{ secrets.CLOUDFLARE_API_TOKEN != '' && secrets.CLOUDFLARE_ACCOUNT_ID != '' }}
       SITE_PROFILE: lkk
@@ -126,8 +126,12 @@ jobs:
           cache-dependency-path: site/package-lock.json
       - if: env.HAS_CLOUDFLARE == 'true'
         working-directory: site
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           npm ci
+          if ! command -v ffmpeg >/dev/null; then sudo apt-get update -q && sudo apt-get install -y -q ffmpeg; fi
+          node video/videoer.mjs
           npm run build
           npm run check:site
           rm -f dist/CNAME

@@ -5,6 +5,7 @@
 //
 // Uten kurs lages alle som har manus. Skuddtypene og feltene står i site/video/MANUS.md.
 import fs from 'node:fs';
+import { B, SUF } from './merke.mjs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import YAML from 'yaml';
@@ -14,11 +15,6 @@ const REPO = path.resolve(HERE, '..', '..');
 const BUILD = path.join(HERE, 'build');
 const HF = process.env.HYPERFRAMES ?? 'hyperframes';
 
-// Eira-profilen (palett A "Fjord & Ember"). LKK-profilen kommer når den trengs.
-const B = {
-  canvas: '#F5F2ED', ink: '#1B1B1F', ink2: '#3D3D42', primary: '#1E3A8A', accent: '#FF8A4C', accentInk: '#4A1A00',
-  mark: 'eira', kicker: 'Ryfylke · Kodeklubb', url: 'eirahub.no',
-};
 
 // ---- små hjelpere ----
 const r1 = (x) => Math.round(x * 100) / 100;
@@ -60,8 +56,8 @@ function shotHtml(i, s, file, dir) {
     return `<div class="shot" id="${id}">
         <div class="end-bar" id="${id}-bar"></div>
         <div class="end-logos" id="${id}-logos">
-          <div class="lockup"><div class="lockrow"><span class="mark">${B.mark}</span><span class="kicker">${B.kicker}</span></div><span class="lockurl">${B.url}</span></div>
-          <div class="sep"></div>
+          ${B.lockup ? `<div class="lockup"><div class="lockrow"><span class="mark">${B.mark}</span><span class="kicker">${B.kicker}</span></div><span class="lockurl">${B.url}</span></div>` : ''}
+          ${B.lockup ? '<div class="sep"></div>' : ''}
           <img class="lkk" src="assets/lkk-logo.png" alt="Lær Kidsa Koding" />
         </div>
       </div>`;
@@ -129,7 +125,7 @@ export function build(kurs) {
   const cps = manus.tempo ?? tempo(kurs);
   const shots = manus.skudd.map((s) => ({ ...s }));
   if (shots.at(-1)?.kind !== 'end') shots.push({ kind: 'end', text: 'Hva vil du lage?' });
-  const dir = path.join(BUILD, kurs);
+  const dir = path.join(BUILD, kurs + SUF);
   fs.rmSync(dir, { recursive: true, force: true });
   fs.mkdirSync(path.join(dir, 'assets', 'fonts'), { recursive: true });
   for (const f of ['baloo-2-latin-700-normal.woff2', 'inter-latin-wght-normal.woff2'])
@@ -259,7 +255,7 @@ export function build(kurs) {
       html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: ${B.canvas}; }
       #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; font-family: "Inter", sans-serif; background: ${B.canvas}; }
       .shot { position: absolute; left: 0; top: 70px; width: 1920px; height: 660px; display: flex; align-items: center; justify-content: center; }
-      .frame { position: relative; overflow: hidden; border-radius: 32px; background: #fff; box-shadow: 0 10px 34px rgba(30,58,138,0.18); display: flex; align-items: center; justify-content: center; }
+      .frame { position: relative; overflow: hidden; border-radius: 32px; background: #fff; box-shadow: 0 10px 34px ${B.shadow}0.18); display: flex; align-items: center; justify-content: center; }
       .frame.plain { background: transparent; box-shadow: none; border-radius: 0; overflow: visible; }
       .cam { position: relative; flex: none; }
       .cam img { display: block; }
@@ -271,21 +267,21 @@ export function build(kurs) {
       .cursor { position: absolute; filter: drop-shadow(0 2px 3px rgba(0,0,0,0.35)); }
       .snapbox { position: relative; }
       .term { position: absolute; transform: translate(0, -50%); white-space: nowrap; }
-      .term span { display: inline-block; padding: 10px 26px; border-radius: 999px; background: ${B.accent}; color: ${B.accentInk}; font: 700 44px/1.2 "Baloo 2", sans-serif; box-shadow: 0 6px 18px rgba(0,0,0,0.18); }
-      .code { max-width: 1600px; padding: 50px 60px; border-radius: 28px; background: #1B1B1F; box-shadow: 0 10px 34px rgba(30,58,138,0.18); }
+      .term span { display: inline-block; padding: 10px 26px; border-radius: 999px; background: ${B.accent}; color: ${B.accentInk}; font: 700 44px/1.2 ${B.display}; box-shadow: 0 6px 18px rgba(0,0,0,0.18); }
+      .code { max-width: 1600px; padding: 50px 60px; border-radius: 28px; background: #1B1B1F; box-shadow: 0 10px 34px ${B.shadow}0.18); }
       .cl { font-family: "DejaVu Sans Mono", monospace; font-weight: 600; line-height: 1.45; color: #FFD7BF; white-space: pre; clip-path: inset(0% 100% 0% 0%); }
-      .cap { position: absolute; left: 192px; right: 192px; top: 800px; text-align: center; font: 700 76px/1.3 "Baloo 2", sans-serif; color: ${B.ink}; }
+      .cap { position: absolute; left: 192px; right: 192px; top: 800px; text-align: center; font: 700 76px/1.3 ${B.display}; color: ${B.ink}; }
       .cap.endq { top: 240px; font-size: 128px; }
       .w { display: inline-block; opacity: 0; }
       .end-bar { position: absolute; left: 860px; top: 340px; width: 200px; height: 12px; border-radius: 6px; background: ${B.accent}; }
       .end-logos { position: absolute; left: 192px; right: 192px; top: 430px; display: flex; align-items: center; justify-content: center; gap: 96px; }
       .lockup { display: flex; flex-direction: column; gap: 14px; color: ${B.primary}; }
       .lockrow { display: flex; align-items: baseline; gap: 22px; }
-      .mark { font: 700 132px/1 "Baloo 2", sans-serif; letter-spacing: -0.015em; }
+      .mark { font: 700 132px/1 ${B.display}; letter-spacing: -0.015em; }
       .kicker { font: 700 30px/1 "Inter", sans-serif; letter-spacing: 0.28em; text-transform: uppercase; color: ${B.ink2}; padding-bottom: 14px; }
       .lockurl { font: 500 40px/1.2 "Inter", sans-serif; color: ${B.ink2}; }
       .sep { width: 4px; height: 150px; background: ${B.ink2}; opacity: 0.25; border-radius: 2px; }
-      .lkk { height: 210px; width: auto; display: block; }
+      .lkk { height: ${B.lockup ? 210 : 260}px; width: auto; display: block; }
     </style>
   </head>
   <body>
@@ -318,7 +314,7 @@ for (const kurs of list.length ? list : all) {
   console.log(`${kurs}: ${total} s`);
   if (render) {
     fs.mkdirSync(path.join(BUILD, 'out'), { recursive: true });
-    const raw = path.join(BUILD, 'out', `${kurs}.raw.mp4`), out = path.join(BUILD, 'out', `${kurs}.mp4`);
+    const raw = path.join(BUILD, 'out', `${kurs}${SUF}.raw.mp4`), out = path.join(BUILD, 'out', `${kurs}${SUF}.mp4`);
     execFileSync(HF, ['render', '--quality', 'looks', '-o', raw], { cwd: dir, stdio: 'inherit', shell: HF.includes(' ') });
     // web: H.264, uten lyd, faststart
     execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', raw, '-c:v', 'libx264', '-crf', '28', '-preset', 'slow', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', '-an', out]);
