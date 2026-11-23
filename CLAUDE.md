@@ -81,6 +81,10 @@ site/                                  nettsiden (Astro)
 - URL-er: kurs `/<kurs>/`, oppgave `/<kurs>/<mappe>/<fil>`, lærerveiledning
   `/<kurs>/<mappe>/README`. Samme som den gamle siden.
 - Lenker mellom oppgaver skrives relativt, ikke med fullt domene.
+- Kompetansemål i lærerveiledningen: `- [ ] __Fag, N. trinn__: målet` med
+  ordrett tekst fra LK20 (nynorsk i `_nn`). Bygget kobler dem til Udir.
+  `npm run rapport:kompetansemaal` i `site/` viser mål som ikke kobles, og
+  `npm run data:kompetansemaal` henter målene fra Udir på nytt.
 
 ## Markdown-konvensjoner
 

@@ -10,6 +10,7 @@ import mdFigures from 'markdown-it-implicit-figures';
 import mdTaskCheckbox from 'markdown-it-task-checkbox';
 import hljs from 'highlight.js';
 import profile from './profile.js';
+import { makeIndex, linkGoals } from './kompetansemaal.js';
 
 export const REPO = path.resolve(process.cwd(), '..');
 export const SRC = path.join(REPO, 'src');
@@ -214,4 +215,32 @@ export const renderInline = (text) => md.renderInline(text || '');
 export function excerpt(html) {
   const p = /<p>([\s\S]*?)<\/p>/.exec(html);
   return p ? p[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().slice(0, 200) : '';
+}
+
+// ---------- Kompetansemål (LK20) ----------
+
+let goalIndexCache;
+export const goalIndex = () =>
+  (goalIndexCache ??= makeIndex(JSON.parse(fs.readFileSync(path.resolve('src/data/kompetansemaal.json'), 'utf8'))));
+
+// Teacher guide body with linked goals (label, official text, link to Udir), see lib/kompetansemaal.js.
+export const linkReadmeGoals = (f) => linkGoals(f.body, goalIndex(), f.language);
+
+// Goal code -> [{ c, lesson, main, readme }] for every built lesson whose teacher guides name the goal.
+let lessonsByGoalCache;
+export function lessonsByGoal() {
+  if (lessonsByGoalCache) return lessonsByGoalCache;
+  lessonsByGoalCache = new Map();
+  for (const c of getCourses().filter((x) => !x.isExternal)) {
+    for (const lesson of c.lessons) {
+      const main = mainFile(lesson);
+      const readmes = lesson.files.filter((f) => f.isReadme && !f.external);
+      if (!main || !readmes.length) continue;
+      const readme = pickLang(readmes, main.language);
+      for (const code of new Set(readmes.flatMap((f) => linkReadmeGoals(f).codes))) {
+        lessonsByGoalCache.set(code, [...(lessonsByGoalCache.get(code) || []), { c, lesson, main, readme }]);
+      }
+    }
+  }
+  return lessonsByGoalCache;
 }

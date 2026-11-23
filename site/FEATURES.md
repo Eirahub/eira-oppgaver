@@ -82,6 +82,7 @@ og om det er med i første versjon av den nye siden (v1) eller kommer senere.
 | Skrift for dyslektikere | senere |
 | Navigasjon til kidsakoder.no-sider (Nyheter, Finn kodeklubb osv.) | v1 i profilen `lkk`, ikke i `eira` |
 | Søk i oppgavene (Pagefind, statisk indeks, filter på kurs) på forsiden | ny, se `README.md` |
+| Kompetansemål i lærerveiledningene koblet til LK20 hos Udir (fag, trinn, lenke), og siden `/kompetansemaal` "Finn oppgaver etter kompetansemål" | ny, se under |
 | Sitemap | senere |
 | Lenke til forum.kidsakoder.no | fjernet |
 
@@ -116,3 +117,20 @@ Som i codeclub-viewer:
   "Til oppgaven" på lærerveiledningen vises alltid.
 - Ikke med: codeclub-viewer byttet også fargetema (grønt for elev, blått for
   lærer). Her viser bare knappen hvilken modus som er på.
+
+## Kompetansemål (LK20)
+
+- Bygget leser `## Kompetansemål` i hver lærerveiledning og kobler hvert
+  punkt (`- [ ] __Fag, trinn__: målet`) til et mål i LK20 med kode (KM...).
+  Teksten må være lik målet hos Udir, bortsett fra store og små bokstaver,
+  tegnsetting og mellomrom. Mål fra utgåtte planer (MAT01-05, NAT01-04,
+  KHV01-02, MUS01-02, INF01-02) kobles til målet i den nye planen bare når
+  teksten er nesten lik (minst 0,9 på tegnnivå).
+- Koblede mål vises med fag og trinn og teksten fra Udir (nynorsk på
+  `_nn`-sider) og lenken "KM... hos Udir". Ukoblede mål vises som før.
+- `/kompetansemaal`: alle mål som minst én oppgave dekker, gruppert på fag og
+  trinn, med lenke til oppgaven og lærerveiledningen. Uten JavaScript vises
+  alt med "Hopp til". Med JavaScript velger man fag og trinn, og valget står
+  i adressen (`?fag=Matematikk&trinn=5. trinn`). Lenken står i lærermodus på
+  forsiden.
+- `src/` endres ikke av bygget. Data og rapport: se `README.md`.

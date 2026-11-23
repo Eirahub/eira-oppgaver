@@ -1,0 +1,127 @@
+---
+import Base from '../layouts/Base.astro';
+import { goalIndex, lessonsByGoal } from '../lib/content.js';
+import { goalLabel } from '../lib/kompetansemaal.js';
+
+// Covered goals only, grouped by subject and year in Udir's order.
+const covered = lessonsByGoal();
+const groups = [];
+for (const g of goalIndex().all) {
+  const lessons = covered.get(g.kode);
+  if (!lessons) continue;
+  let fag = groups.find((x) => x.fag === g.fag);
+  if (!fag) groups.push(fag = { fag: g.fag, trinn: [] });
+  let trinn = fag.trinn.find((x) => x.trinn === g.trinn);
+  if (!trinn) fag.trinn.push(trinn = { trinn: g.trinn, label: goalLabel(g), goals: [] });
+  const byTitle = (a, b) => a.c.title.localeCompare(b.c.title, 'nb') || a.main.title.localeCompare(b.main.title, 'nb');
+  trinn.goals.push({ g, lessons: [...lessons].sort(byTitle) });
+}
+groups.sort((a, b) => a.fag.localeCompare(b.fag, 'nb'));
+const slug = (...s) => `km-${s.join('-').toLowerCase().replace(/[^a-z0-9æøå]+/g, '-')}`;
+const total = groups.reduce((n, f) => n + f.trinn.reduce((m, t) => m + t.goals.length, 0), 0);
+---
+<Base title="Finn oppgaver etter kompetansemål" description="Velg fag og trinn og se hvilke oppgaver som dekker kompetansemålene i LK20.">
+  <nav class="breadcrumb" aria-label="Brødsmuler"><a href="/">Oppgaver</a> <span aria-hidden="true">{" › "}</span> <span aria-current="page">Kompetansemål</span></nav>
+  <h1>Finn oppgaver etter kompetansemål</h1>
+  <p class="lead">
+    Kompetansemålene er fra læreplanene i LK20 hos Udir. En oppgave står under et mål når
+    lærerveiledningen nevner målet. Her er {total} mål som minst én oppgave dekker.
+  </p>
+
+  <form class="km-filter" id="km-filter" aria-label="Velg fag og trinn" hidden>
+    <label>Fag
+      <select name="fag">
+        <option value="">Alle fag</option>
+        {groups.map((f) => <option value={f.fag}>{f.fag}</option>)}
+      </select>
+    </label>
+    <label>Trinn
+      <select name="trinn">
+        <option value="">Alle trinn</option>
+        {groups.flatMap((f) => f.trinn.map((t) => <option value={t.trinn} data-fag={f.fag}>{t.trinn}</option>))}
+      </select>
+    </label>
+    <p class="sr-only" id="km-status" aria-live="polite"></p>
+  </form>
+
+  <nav class="jump km-jump" id="km-jump" aria-label="Hopp til fag">
+    Hopp til:
+    {groups.map((f) => <a href={`#${slug(f.fag)}`}>{f.fag}</a>)}
+  </nav>
+
+  {groups.map((f) => (
+    <section class="km-fag" data-fag={f.fag} aria-labelledby={slug(f.fag)}>
+      <h2 id={slug(f.fag)}>{f.fag}</h2>
+      {f.trinn.map((t) => (
+        <section class="km-trinn" data-trinn={t.trinn} aria-labelledby={slug(f.fag, t.trinn)}>
+          <h3 id={slug(f.fag, t.trinn)}>{t.label}</h3>
+          <ul class="km-goals">
+            {t.goals.map(({ g, lessons }) => (
+              <li class="km-goal">
+                <p>{g.nb} <a class="km-udir" href={g.url}>{g.kode} hos Udir</a></p>
+                <details class="playlist">
+                  <summary><span>Oppgaver</span> <span class="badge">{lessons.length}</span></summary>
+                  <ul class="lesson-list">
+                    {lessons.map(({ c, lesson, main, readme }) => (
+                      <li class="lesson-item">
+                        <a class="lesson-link" href={main.external || main.url} rel={main.external ? 'noopener' : undefined}>
+                          {lesson.level > 0 && <img class="level-icon" src={`/graphics/level-${lesson.level}.svg`} alt={`Nivå ${lesson.level}`} width="24" height="24" />}
+                          <span>{main.title}</span>
+                          {main.external && <span class="ext" aria-label="(ekstern side)">↗</span>}
+                        </a>
+                        <span class="km-course">{c.title}</span>
+                        <a class="lesson-readme" href={readme.url}>Lærerveiledning</a>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </section>
+  ))}
+</Base>
+
+<script>
+  // Without JavaScript every subject is shown, with links to jump between them.
+  const form = document.getElementById('km-filter') as HTMLFormElement;
+  const fag = form.elements.namedItem('fag') as HTMLSelectElement;
+  const trinn = form.elements.namedItem('trinn') as HTMLSelectElement;
+
+  function apply() {
+    // Only offer the years of the chosen subject, each year once when all subjects are shown.
+    const want = trinn.value;
+    const seen = new Set<string>();
+    for (const o of trinn.options) {
+      o.hidden = !!o.value && (fag.value ? o.dataset.fag !== fag.value : seen.has(o.value));
+      seen.add(o.value);
+    }
+    const pick = [...trinn.options].find((o) => !o.hidden && o.value === want);
+    trinn.value = '';
+    if (pick) pick.selected = true;
+    let shown = 0;
+    for (const s of document.querySelectorAll<HTMLElement>('.km-fag')) {
+      let any = false;
+      for (const t of s.querySelectorAll<HTMLElement>('.km-trinn')) {
+        t.hidden = (!!fag.value && s.dataset.fag !== fag.value) || (!!trinn.value && t.dataset.trinn !== trinn.value);
+        if (!t.hidden) { any = true; shown += t.querySelectorAll('.km-goal').length; }
+      }
+      s.hidden = !any;
+    }
+    document.getElementById('km-jump')!.hidden = !!fag.value;
+    document.getElementById('km-status')!.textContent = `${shown} kompetansemål vises`;
+    const q = new URLSearchParams();
+    if (fag.value) q.set('fag', fag.value);
+    if (trinn.value) q.set('trinn', trinn.value);
+    history.replaceState(null, '', q.size ? `?${q}` : location.pathname);
+  }
+
+  const q = new URLSearchParams(location.search);
+  fag.value = q.get('fag') || '';
+  trinn.value = q.get('trinn') || '';
+  form.hidden = false;
+  form.addEventListener('change', apply);
+  apply();
+</script>

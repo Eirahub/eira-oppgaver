@@ -13,7 +13,7 @@ const SRC = path.resolve(import.meta.dirname, '..', '..', 'src');
 const strict = process.argv.includes('--strict');
 
 const MUST_EXIST = [
-  '/', '/404', '/om-oppgavene',
+  '/', '/404', '/om-oppgavene', '/kompetansemaal',
   '/scratch/', '/scratch/astrokatt/astrokatt', '/scratch/astrokatt/README', '/scratch/astrokatt/astrokatt_nn',
   '/python/', '/microbit/', '/minecraft_foreldre/',
   '/codeling/', '/java/', '/minecraft_mod/', '/ki_veiledere/', '/datamaskin/', '/wonderbot/',
