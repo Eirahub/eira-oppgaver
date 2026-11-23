@@ -1,0 +1,31 @@
+# Introvideo for LEGO Mindstorms. Felter og skuddtyper: se MANUS.md.
+skudd:
+  - src: src/legomindstorms/lyd_6ball/lego_mindstorms_ball_2.png
+    look: true
+    text: Kan en LEGO-robot slå en ball?
+    glow: { x: 0.85, y: 0.755, color: "255, 40, 40" }
+  - src: src/legomindstorms/lyd_1ultralydsensor/lego_mindstorms_ultralydsensor_1.png
+    H: 420
+    text: Du har bygget med LEGO før.
+    glow: { x: 0.6, y: 0.56, color: "255, 40, 40" }
+  - src: src/legomindstorms/trykk_4bil/lego_mindstorms_bil_2.png
+    look: true
+    text: Nå programmerer du roboten selv.
+    pan: { scale: 1.3, from: [0.4, 0.4], to: [0.6, 0.45] }
+  - src: src/legomindstorms/lys_7folgelinje/lego_mindstorms_folglinje_2.png
+    look: true
+    text: En robot som følger en svart linje
+    pan: { scale: 1.3, from: [0.4, 0.35], to: [0.6, 0.6] }
+  - src: src/legomindstorms/trykk_1trykksensor/lego_mindstorms_trykksensor_1.png
+    H: 360
+    look: true
+    text: En bil du styrer med trykksensorer
+    glow: { x: 0.19, y: 0.45, color: "255, 60, 30" }
+  - src: src/legomindstorms/genprog_1rettfram/lego_mindstorms_frem_1.png
+    H: 480
+    look: true
+    text: "Første steg: kjør rett fram."
+    term: { word: kloss, x: 0.72, y: 0.12 }
+  - kind: logo
+    course: microbit
+    text: Etterpå kan du lage mer med micro:bit.

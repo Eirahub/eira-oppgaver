@@ -1,6 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import LessonItem from '../../components/LessonItem.astro';
+import CourseVideo from '../../components/CourseVideo.astro';
+import { video } from '../../lib/videoer.js';
 import { getCourses, renderMarkdown, excerpt, filterKeys, groupName, tagName, lessonLanguages, mainFile } from '../../lib/content.js';
 
 export function getStaticPaths() {
@@ -8,6 +10,7 @@ export function getStaticPaths() {
 }
 
 const { c } = Astro.props;
+const v = video(c.course);
 const infoHtml = renderMarkdown(c.infoBody, `/${c.course}/`);
 const LEVELS = { 1: 'Introduksjon', 2: 'Nybegynner', 3: 'Erfaren', 4: 'Ekspert', 0: 'Uten nivå' };
 const listed = c.lessons.filter((l) => l.indexed && mainFile(l));
@@ -26,6 +29,7 @@ const groups = Object.keys(filterKeys)
 <Base title={c.title} description={excerpt(infoHtml)}>
   <nav class="breadcrumb" aria-label="Brødsmuler"><a href="/">Oppgaver</a> <span aria-hidden="true">{" › "}</span> <span aria-current="page">{c.title}</span></nav>
   <h1>{c.title}</h1>
+  {v && <CourseVideo v={v} id={c.course} />}
 
   {c.infoBody.trim() && (
     <details class="course-info">

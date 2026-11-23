@@ -16,6 +16,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # laste opp nye introvideoer til releasen «videoer»
     defaults:
       run:
         working-directory: site
@@ -27,6 +29,15 @@ jobs:
           cache: npm
           cache-dependency-path: site/package-lock.json
       - run: npm ci
+      # Introvideoene: rendrer og laster opp bare det som er endret, og henter resten.
+      # PR-er fra forks har bare lesetilgang og henter det som finnes.
+      - name: Introvideoer
+        env:
+          GH_TOKEN: ${{ github.token }}
+          IS_FORK: ${{ github.event.pull_request.head.repo.fork }}
+        run: |
+          if ! command -v ffmpeg >/dev/null; then sudo apt-get update -q && sudo apt-get install -y -q ffmpeg; fi
+          if [ "$IS_FORK" = "true" ]; then node video/videoer.mjs --hent; else node video/videoer.mjs; fi
       - run: npm run build
       - run: npm run check:site
       - run: npm test

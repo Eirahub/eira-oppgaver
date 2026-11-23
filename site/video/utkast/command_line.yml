@@ -1,0 +1,39 @@
+# Introvideo for Kommandolinje. Felter og skuddtyper: se MANUS.md.
+# UTKAST: alle oppgavene er eksterne og har verken bilder eller kode i repoet.
+# Kommandoene er hentet fra de eksterne oppgavene (Bandit, Linux Journey,
+# clmystery), ikke fra src/.
+skudd:
+  - kind: code
+    code: |
+      ssh bandit0@bandit.labs.overthewire.org -p 2220
+    text: Kan du finne passordet til neste nivå?
+  - src: src/datamaskin/logo-black.png
+    plain: true
+    H: 340
+    text: Du klikker på ikoner hver dag.
+    glow: { x: 0.5, y: 0.5, color: "60, 140, 255" }
+  - kind: code
+    code: |
+      pwd
+      ls
+      cd ..
+    text: Nå skriver du kommandoene selv.
+  - kind: code
+    code: |
+      cd clmystery
+      cat instructions
+    text: Et mordmysterium i terminalen
+  - kind: code
+    code: |
+      cat readme
+    text: Et spill der hvert nivå skjuler et passord
+  - src: src/command_line/logo-black.png
+    plain: true
+    H: 380
+    look: true
+    text: "Første steg: åpne terminalen."
+    glow: { x: 0.07, y: 0.3, color: "0, 230, 60" }
+    term: { word: terminal, x: 0.12, y: 0.3 }
+  - kind: logo
+    course: vs_code
+    text: Etterpå kan du kode i VS Code.

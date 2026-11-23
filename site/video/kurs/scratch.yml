@@ -1,0 +1,38 @@
+# Introvideo for Scratch. Felter og skuddtyper: se MANUS.md.
+skudd:
+  - src: assets/flaksefugl_clean.png
+    look: true
+    text: Hvordan får du fuglen til å fly?
+    sprites: [{ cut: assets/bird.png, rect: [172, 216, 52, 44], fly: 6, start: 0.3 }]
+  - src: assets/jafsefisk_clean.png
+    text: Du spiller spill hver dag.
+    sprites: [{ cut: assets/shark.png, rect: [92, 342, 294, 196], path: [[60, -10], [330, 40]], seg: 0.9 }]
+  - kind: build
+    src: assets/sk2.png
+    plain: true
+    look: true
+    text: Nå lager du ditt eget.
+    pieces:
+      - [[0, 0, 245, 135]]
+      - [[0, 135, 383, 220], [245, 120, 383, 135], [0, 220, 48, 395], [0, 395, 383, 468]]
+      - [[48, 220, 290, 305], [290, 220, 383, 298]]
+      - [[48, 305, 383, 395], [290, 298, 383, 305]]
+  - src: src/scratch/julekort/julekort.png
+    look: true
+    text: Et julekort som beveger seg
+    snow: 46
+  - src: assets/straffespark_clean.png
+    look: true
+    text: Et fotballspill der du tar straffe
+    sprites: [{ cut: assets/ball.png, rect: [148, 224, 26, 26], path: [[255, -42]], seg: 0.6, start: 1.1, spin: true }]
+  - kind: snap
+    a: assets/sk0.png
+    b: assets/sk1.png
+    scale: 2
+    dy: 84
+    look: true
+    text: "Første steg: sett sammen to klosser."
+    term: kloss
+  - kind: logo
+    course: python
+    text: Etterpå kan du lære Python.
