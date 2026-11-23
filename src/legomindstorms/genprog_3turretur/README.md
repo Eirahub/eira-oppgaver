@@ -23,14 +23,8 @@ __Tidsbruk__: En enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3.trinn__: bruke ulike måleenheter for lengde og masse i
-      praktiske situasjoner og grunngi valget av måleenhet
-
 - [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
   variabler, vilkår og løkker
-
-- [ ] __Matematikk, 6.trinn__: utforske og beskrive symmetri i mønster og utføre
-      kongruensavbildinger med og uten koordinatsystem
 
 - [ ] __Naturfag, 4. trinn__: utforske teknologiske systemer som er satt sammen
   av ulike deler, og beskrive hvordan delene fungerer og virker sammen

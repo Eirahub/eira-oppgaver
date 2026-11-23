@@ -28,6 +28,14 @@ __Tema__: Versjoner og bakoverkompatibilitet, byggeverktøy, Minecraft
 
 __Tidsbruk__: To dobbeltimer
 
+## Kompetansemål {.challenge}
+
+- [ ] __Informasjonsteknologi 2__: generalisere løsninger ved å utvikle og bruke
+  gjenbrukbar programkode
+
+- [ ] __Informasjonsteknologi 2__: utforske og vurdere alternative løsninger for
+  design og implementering av et program
+
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan forklare hvorfor en mod må bygges på nytt for hver

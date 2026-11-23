@@ -21,9 +21,12 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-Kompetansemålene i den gamle lærerveiledningen var fra læreplanene før LK20, og
-er tatt ut. Hent eventuelle mål fra [LK20 på
-udir.no](https://www.udir.no/lk20/).
+- [ ] __Naturfag, 10. trinn__: utforske, forstå og lage teknologiske systemer
+  som består av en sender og en mottaker
+
+- [ ] __Programmering, 8.-10. trinn__: utvikle og feilsøke dataprogram som løser
+  definerte problemer, inkludert kontrollering eller simulering av fysiske
+  objekter
 
 ## Forslag til læringsmål {.challenge}
 

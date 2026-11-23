@@ -33,8 +33,6 @@ __Tidsbruk__: 2 dobbelttimer eller mer
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __IT2, VG3:__ lage objektorienterte programmer som benytter klasser med metoder
-
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Oppgavene er en introduksjon til Processing, men elevene bør kjenne til enkle konsepter innen programmering og ha en grunnleggende forståelse for engelsk språk.

@@ -29,6 +29,17 @@ __Tema__: Grensesnitt, generiske typer, `Supplier`, modulær kode, Minecraft
 
 __Tidsbruk__: To til tre dobbeltimer
 
+## Kompetansemål {.challenge}
+
+- [ ] __Informasjonsteknologi 2__: generalisere løsninger ved å utvikle og bruke
+  gjenbrukbar programkode
+
+- [ ] __Informasjonsteknologi 2__: anvende objektorientert modellering til å
+  beskrive et programs struktur
+
+- [ ] __Informasjonsteknologi 2__: utvikle objektorienterte programmer med
+  klasser, objekter, metoder og arv
+
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan forklare hvorfor koden deles i `common` og en modul for hver

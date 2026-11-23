@@ -22,6 +22,12 @@ __Tema__: Tekstbasert programmering, Minecraft, datafiler (JSON)
 
 __Tidsbruk__: Dobbeltime
 
+## Kompetansemål {.challenge}
+
+- [ ] __Informasjonsteknologi 1__: gjøre rede for og vurdere hvordan ulike typer
+  informasjon kan representeres digitalt og struktureres ved hjelp av ulike
+  datalagringsmetoder
+
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan forklare forskjellen på en feature og en placed feature.

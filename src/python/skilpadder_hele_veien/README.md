@@ -26,9 +26,6 @@ __Tidsbruk__: Dobbelttime
 - [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
   programmering til å utforske geometriske figurer og mønstre
 
-- [ ] __Matematikk, 10.trinn__: beskrive, forklare og presentere strukturer og
-  utviklinger i geometriske mønster og i tallmønster
-
 - [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
   fenomener
 
@@ -41,6 +38,9 @@ __Tidsbruk__: Dobbelttime
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
   programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
    over bruken av disse
+
+- [ ] __Matematikk, 8. trinn__: utforske og generalisere geometriske mønstre og
+  tallmønstre med egne ord og algebraisk
 
 ## Forslag til læringsmål {.challenge}
 

@@ -32,11 +32,8 @@ __Tidsbruk__: En enkelttime
 - [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
   fenomener
 
-- [ ] __Teknologi og forskningslære, VG2__: utforske analoge og digitale
-      signaler fra sensorer
-
-- [ ] __Teknologi og forskningslære, VG2__: planlegge og utføre reproduserbare
-      forsøk og vurdere hvor pålitelig resultatet er
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
 
 ## Forslag til læringsmål {.challenge}
 

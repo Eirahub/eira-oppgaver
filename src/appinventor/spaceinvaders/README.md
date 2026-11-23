@@ -28,13 +28,6 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __IT1, VG2__: planlegge og implementere brukergrensesnitt
-
-- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
-      parametre og returverdier
-
-- [ ] __IT1, VG2__: lese, strukturere, analysere og kommentere programkode
-
 - [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
   vurdere spilldesign og egne spill
 

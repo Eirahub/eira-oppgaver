@@ -18,8 +18,6 @@ __Tema__: Spill, Sekvens, Hendelser (Events)
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn:__ utforske og beskrive strukturer og mønster i lek og spill
-
 - [ ] __Matematikk, 4. trinn__: lage algoritmer og uttrykke dem ved bruk av
   variabler, vilkår og løkker
 
@@ -30,6 +28,9 @@ __Tema__: Spill, Sekvens, Hendelser (Events)
 - [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilldesign og egne spill
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
+
+- [ ] __Matematikk, 4. trinn__: beskrive og utforske strukturer og mønstre i lek
+  og spill
 
 ## Forslag til læringsmål {.challenge}
 

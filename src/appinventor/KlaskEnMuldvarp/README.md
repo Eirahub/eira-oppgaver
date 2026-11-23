@@ -29,11 +29,6 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __IT1, VG2__: planlegge og implementere brukergrensesnitt
-
-- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
-      parametre og returverdier
-
 - [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
   interaktivitet og visuelle uttrykk
 

@@ -26,9 +26,11 @@ __Tidsbruk__: Dobbeltime.
 
 ## Kompetansemål {.challenge}
 
-Kompetansemål er ikke knyttet til oppgaven ennå. Hent eventuelle mål fra
-[læreplanen i informasjonsteknologi på
-udir.no](https://www.udir.no/lk20/inf01-02) som passer for gruppa.
+- [ ] __Informasjonsteknologi 2__: utvikle objektorienterte programmer med
+  klasser, objekter, metoder og arv
+
+- [ ] __Informasjonsteknologi 2__: anvende objektorientert modellering til å
+  beskrive et programs struktur
 
 ## Forslag til læringsmål {.challenge}
 

@@ -41,8 +41,8 @@ __Tidsbruk__: En enkelttime
 - [ ] __Programmering, 8.-10. trinn__: planlegge og skape et digitalt produkt og
   vurdere dette med tanke på brukervennlighet
 
-- [ ] __Teknologi og forskningslære, VG2__: utforske analoge og digitale
-      signaler fra sensorer
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
 
 ## Forslag til læringsmål {.challenge}
 

@@ -24,8 +24,6 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3. trinn:__ eksperimentere med og forklare plasseringer i koordinatsystemet
-
 - [ ] __Matematikk, 3. trinn__: lage og følge regler og trinnvise instruksjoner
   i lek og spill knyttet til koordinatsystemet
 

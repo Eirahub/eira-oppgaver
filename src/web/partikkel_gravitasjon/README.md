@@ -35,9 +35,8 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 - [ ] __Naturfag, VG1 og VG3 Påbygg:__ vurdere og lage programmer som modellerer naturfaglige fenomener
 
-- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
-
-- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
+- [ ] __Programmering og modellering X, Vg2, Vg3__: bruke matematiske modellar
+  for å simulere verkelege system og vurdere om modellane er gyldige
 
 ## Forslag til læringsmål {.challenge}
 

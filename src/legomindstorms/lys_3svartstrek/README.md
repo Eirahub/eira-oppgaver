@@ -31,11 +31,8 @@ __Tidsbruk__: En enkelttime
 - [ ] __Naturfag, 10. trinn__: utforske, forstå og lage teknologiske systemer
   som består av en sender og en mottaker
 
-- [ ] __Teknologi og forskningslære, VG2__: utforske analoge og digitale
-      signaler fra sensorer
-
-- [ ] __Teknologi og forskningslære, VG2__: planlegge og utføre reproduserbare
-      forsøk og vurdere hvor pålitelig resultatet er
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
 
 ## Forslag til læringsmål {.challenge}
 

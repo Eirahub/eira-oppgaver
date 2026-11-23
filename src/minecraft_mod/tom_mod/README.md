@@ -22,6 +22,14 @@ __Tema__: Tekstbasert programmering, Minecraft, oppsett av prosjekt
 
 __Tidsbruk__: Skoletime, pluss installasjonen hvis den ikke er gjort
 
+## Kompetansemål {.challenge}
+
+- [ ] __Programmering, 8.-10. trinn__: gjøre rede for hvordan datamaskiner og
+  dataprogram fungerer, og forklare egne og andres koder
+
+- [ ] __Informasjonsteknologi 2__: vurdere og bruke strategier for feilsøking og
+  testing av programkode
+
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan forklare hva `fabric.mod.json` gjør, og hva en mod-id er.

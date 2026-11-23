@@ -26,9 +26,12 @@ __Tidsbruk__: Omtrent en time. Dobbelttime hvis elevene tar utfordringene.
 
 ## Kompetansemål {.challenge}
 
-Kompetansemål er ikke knyttet til oppgaven ennå. Hent eventuelle mål fra
-[læreplanverket på udir.no](https://www.udir.no/laring-og-trivsel/lareplanverket/) for trinnet og faget dere bruker
-oppgaven i.
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
+  variabler, vilkår og løkker
+
+- [ ] __Programmering, 8.-10. trinn__: utvikle og feilsøke dataprogram som løser
+  definerte problemer, inkludert kontrollering eller simulering av fysiske
+  objekter
 
 ## Forslag til læringsmål {.challenge}
 

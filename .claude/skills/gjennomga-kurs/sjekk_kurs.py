@@ -25,7 +25,8 @@ CACHE = os.path.expanduser("~/.cache/kodeklubb-udir")
 # Læreplaner som kodeoppgavene viser til. Utgåtte planer følges til sin erstatning.
 PLANER = ["MAT01-06", "NAT01-05", "KHV01-03", "MUS01-03", "PRG01-02", "TPR01-02",
           "MAT07-02", "INF01-03", "TNF01-03", "PRM01-02", "ITK02-01", "MAT09-02",
-          "MAT01-05", "NAT01-04", "KHV01-02", "MUS01-02", "INF01-02", "SAF01-05"]
+          "MAT01-05", "NAT01-04", "KHV01-02", "MUS01-02", "INF01-02", "SAF01-05",
+          "NOR01-08", "ENG01-06", "ARB01-03", "RLE01-04"]
 
 funn = []
 
@@ -85,7 +86,7 @@ def lk20_maal():
                        for sp in ("nob", "nno"))
         for sett in re.findall(r'"url-data":\s*"([^"]*kompetansemaalsett-lk20/[^"]*)"', json.dumps(plan)):
             d = hent(sett)
-            trinn = re.sub(r"(\d)\.(?=trinn)", r"\1. ", tekst(d.get("kortform"), ("nob", "default")))
+            trinn = re.sub(r"(\d)\.(?=trinn)", r"\1. ", tekst(d.get("kortform"), ("nob", "default"))).strip()
             if trinn.lower() == fag.lower():  # valgfag og vg-fag med ett sett: bruk årstrinnene
                 aar = [x.get("kode", "") for x in d.get("etter-aarstrinn") or []]
                 nr = [a[len("aarstrinn"):] for a in aar if a.startswith("aarstrinn")]
