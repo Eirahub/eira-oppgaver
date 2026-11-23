@@ -1,0 +1,11 @@
+sortindex: 1
+title:
+  nb: 'Roboter med micro:bit'
+  nn: 'Robotar med micro:bit'
+  en: 'Robots with micro:bit'
+lessons:
+  - kjor_og_sving
+  - lys_og_lyd
+  - folg_linja
+  - unnga_hindringer
+  - fjernstyring
