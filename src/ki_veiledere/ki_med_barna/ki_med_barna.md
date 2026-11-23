@@ -67,9 +67,10 @@ den ikke vet svaret. De andre skal finne ut når roboten tar feil.
 
 # Steg 3: Oppgaver som passer etterpå {.activity}
 
-Samlingen har ingen egne oppgaver om KI ennå. Men flere oppgaver øver på det
-samme som KI krever: å lese kode kritisk, å finne feil og å forstå at en
-datamaskin bare gjør det den blir bedt om.
+Kurset [Lag din egen KI](../../ki_for_barn/) lar barna lære opp en KI selv,
+med Teachable Machine og Machine Learning for Kids. Flere andre oppgaver øver
+på det samme som KI krever: å lese kode kritisk, å finne feil og å forstå at
+en datamaskin bare gjør det den blir bedt om.
 
 ## Sjekkliste {.check}
 

@@ -5,7 +5,7 @@
 - title: Kom i gang
   courses: [datamaskin]
 - title: Scratch
-  courses: [scratch]
+  courses: [scratch, ki_for_barn]
 - title: Python
   courses: [python]
 - title: micro:bit og MakeCode

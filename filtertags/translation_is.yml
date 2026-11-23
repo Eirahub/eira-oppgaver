@@ -54,6 +54,9 @@ topic:
     cryptography:
       NAME: Dulritunarfræði
       TOOLTIP: Lærðu um tölvuöryggi.
+    ai:
+      NAME: Gervigreind
+      TOOLTIP: Þjálfaðu og notaðu þitt eigið vélnámslíkan.
 subject:
   NAME: Fag
   TAGS:

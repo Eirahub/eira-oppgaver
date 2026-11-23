@@ -16,6 +16,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
@@ -24,7 +25,7 @@ CACHE = os.path.expanduser("~/.cache/kodeklubb-udir")
 # Læreplaner som kodeoppgavene viser til. Utgåtte planer følges til sin erstatning.
 PLANER = ["MAT01-06", "NAT01-05", "KHV01-03", "MUS01-03", "PRG01-02", "TPR01-02",
           "MAT07-02", "INF01-03", "TNF01-03", "PRM01-02", "ITK02-01", "MAT09-02",
-          "MAT01-05", "NAT01-04", "KHV01-02", "MUS01-02", "INF01-02"]
+          "MAT01-05", "NAT01-04", "KHV01-02", "MUS01-02", "INF01-02", "SAF01-05"]
 
 funn = []
 
@@ -38,8 +39,17 @@ def hent(url):
     f = os.path.join(CACHE, re.sub(r"[^A-Za-z0-9.-]", "_", url[len(API):]) + ".json")
     if not os.path.exists(f) or time.time() - os.path.getmtime(f) > 7 * 86400:
         req = urllib.request.Request(url, headers={"Accept": "application/json"})
-        with urllib.request.urlopen(req, timeout=30) as r, open(f, "wb") as out:
-            out.write(r.read())
+        for forsok in range(6):
+            try:
+                with urllib.request.urlopen(req, timeout=30) as r:
+                    data = r.read()
+                break
+            except urllib.error.HTTPError as e:
+                if e.code != 429 or forsok == 5:
+                    raise
+                time.sleep(2 ** forsok)  # Udir begrenser antall kall
+        with open(f, "wb") as out:
+            out.write(data)
     return json.load(open(f, encoding="utf-8"))
 
 
@@ -75,6 +85,13 @@ def lk20():
             d = hent(sett)
             trinn = tekst(d.get("tittel")).replace("Kompetansemål og vurdering", "").strip()
             for m in d.get("kompetansemaal", []):
+                if m.get("url-data") and not any(x.get("spraak") == "nob" for x in (m.get("tittel") or [])
+                                                 if isinstance(x, dict)):
+                    # nynorske planer har bokmål bare på hvert enkelt mål
+                    try:
+                        m = {**m, "tittel": hent(m["url-data"]).get("tittel")}
+                    except Exception:  # noqa: BLE001
+                        pass
                 for sp in ("nob", "nno", "default"):
                     t = tekst(m.get("tittel"), (sp,))
                     if t:
