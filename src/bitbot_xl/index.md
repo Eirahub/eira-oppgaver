@@ -1,5 +1,5 @@
 ---
-title: Roboter med micro:bit
+title: Bit:Bot XL
 language: nb
 ---
 
@@ -8,7 +8,7 @@ programmet med klosser i MakeCode i nettleseren. Roboten kjører og svinger,
 lyser og piper, følger en svart linje på gulvet, ser hindringer og lar seg
 fjernstyre med en annen micro:bit.
 
-Kurset er skrevet for **Bit:Bot XL** fra 4tronix. Kurset passer fra rundt 5.
+Kurset er for roboten **Bit:Bot XL** fra 4tronix. Det passer fra rundt 5.
 trinn. Det er fint om du har prøvd MakeCode før, for eksempel i
 [micro:bit-kurset](../microbit/), men det er ikke nødvendig.
 
@@ -101,13 +101,11 @@ nytt, og utvidelsen ser hvilken robot den sitter i.
 - Har dere robotene Dash eller Cue, se kurset [Wonderbot](../wonderbot/).
 
 
-## Har dere en annen micro:bit-robot? {.tip}
+## Har dere en annen robot? {.tip}
 
-Det finnes mange robotbiler for micro:bit, og de fleste har sin egen
-utvidelse i MakeCode. Ideene i oppgavene (kjøre, svinge, lys, linjesensorer,
-avstand og radio) passer for mange av dem, men klossene har andre navn, og
-ikke alle robotene har de samme sensorene. Da må du eller veilederen finne de
-klossene som gjør det samme.
+Hvert robotkurs er skrevet for én robot, så klossene og sensorene stemmer.
+Under **Roboter** på forsiden finner du kursene for de andre robotene, for
+eksempel [Wonderbot](../wonderbot/) for Dash og Cue.
 
 
 # For veiledere {.tip}

@@ -9,15 +9,17 @@
 - title: Python
   courses: [python]
 - title: micro:bit og MakeCode
-  courses: [microbit, microbit_videoer, wonderbot, microbit_roboter]
+  courses: [microbit, microbit_videoer]
+- title: Roboter
+  courses: [bitbot_xl, wonderbot, legomindstorms]
 - title: Minecraft
   courses: [minecraft_foreldre, codeling, cc_tweaked, minecraft_mod, multimc]
 - title: Web
   courses: [web, codecademy, khan_academy]
 - title: Java
   courses: [java]
-- title: Elektronikk og roboter
-  courses: [arduino, legomindstorms, raspberry_pi]
+- title: Elektronikk
+  courses: [arduino, raspberry_pi]
 - title: Apper
   courses: [appinventor]
 - title: Verktøy
