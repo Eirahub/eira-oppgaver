@@ -32,10 +32,10 @@ Du kan finne ein eksempel av oppgåven ferdig koda [her](https://trinket.io/pyth
 ## Kompetansemål {.challenge}
 
 - [ ] __Matematikk, 7. trinn__: bruke programmering til å utforske data i
-  tabeller og datasett
+  tabellar og datasett
 
-- [ ] __Matematikk, 8. trinn__: utforske hvordan algoritmer kan skapes, testes
-  og forbedres ved hjelp av programmering
+- [ ] __Matematikk, 8. trinn__: utforske korleis algoritmar kan skapast,
+  testast og forbetrast ved hjelp av programmering
 
 - [ ] **Kunst og håndverk, 7.**:  bruke programmering til å skape interaktivitet og visuelle uttrykk
 

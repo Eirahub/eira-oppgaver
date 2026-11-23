@@ -35,6 +35,8 @@ __Tidsbruk__: Dobbelttime eller meir.
   programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
   over bruken av disse
 
+## Forslag til læringsmål {.challenge}
+
 - [ ] Elevane kan bruke eit koordinatsystem for å plassere og flytte ein figur.
 
 - [ ] Elevane kan bruke løkker til å få ein figur til å flytte seg fram til den

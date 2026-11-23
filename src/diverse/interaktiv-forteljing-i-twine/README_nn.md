@@ -22,11 +22,11 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn__: lage algoritmer og uttrykke dem ved bruk av
-  variabler, vilkår og løkker
+- [ ] __Matematikk, 4. trinn__: lage algoritmar og uttrykkje dei ved bruk av
+  variablar, vilkår og lykkjer
 
-- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
-  variabler, vilkår og løkker
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmar med bruk av
+  variablar, vilkår og lykkjer
 
 - [ ] __Matematikk, 7. trinn:__  bruke programmering til å skape interaktivitet og visuelle uttrykk
 
