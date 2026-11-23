@@ -30,6 +30,8 @@ __Tidsbruk__: Dobbelttime eller meir.
 - [ ] __Naturfag, 2. trinn__: samtale om korleis vi kan ta miljømedvitne val og
   gjennomføre lokale miljøtiltak
 
+- [ ] __Norsk, 4. trinn__: lage tekstar som kombinerer skrift med bilde
+
 - [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
   programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
   over bruken av disse

@@ -30,6 +30,9 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
+- [ ] __Engelsk fordypning, 10. trinn__: skape digitale produkter som kombinerer
+      ulike medietyper
+
 - [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
   interaktivitet og visuelle uttrykk
 
@@ -38,6 +41,8 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 - [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
   programmering til å utforske geometriske figurer og mønstre
+
+- [ ] __Norsk, 2. trinn__: lage tekster som kombinerer skrift med bilder
 
 ## Forslag til læringsmål {.challenge}
 

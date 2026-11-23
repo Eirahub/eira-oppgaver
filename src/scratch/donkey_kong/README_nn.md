@@ -27,6 +27,12 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
+- [ ] __Engelsk fordypning, 10. trinn__: utforske og presentere innhald, form og
+      formål i spel, film og musikk
+
+- [ ] __Engelsk, 4. trinn__: tileigne seg ord, frasar og kulturell kunnskap
+      gjennom engelskspråkleg litteratur og barnekultur
+
 - [ ] __Kunst og handverk, 2. trinn__: utforske ulike visuelle uttrykk og byggje
   vidare på ideane til andre i eige skapande arbeid
 

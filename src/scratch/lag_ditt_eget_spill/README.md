@@ -31,6 +31,9 @@ __Tidsbruk__: Minst to dobbelttimer.
 _Oppgaven kan avgrenses til å dekke mange kompetansemål, men vil i mange
 tilfeller kunne dekke følgende:_
 
+- [ ] __Arbeidslivsfag, 10. trinn__: kommunisere og samarbeide med andre i en
+      arbeidssituasjon
+
 - [ ] __Kunst og håndverk, 7. trinn__: bruke ulike strategier for idéutvikling
   og problemløsing
 
@@ -40,12 +43,22 @@ tilfeller kunne dekke følgende:_
 - [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
   vurdere spilldesign og egne spill
 
+- [ ] __Norsk, 4. trinn__: lage tekster som kombinerer ord, lyd og bilde, med og
+      uten digitale verktøy
+
 - [ ] __Programmering, 8.-10. trinn__: analysere problemer, gjøre dem om til
   delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
   programmering
 
 - [ ] __Programmering, 8.-10. trinn__: planlegge og skape et digitalt produkt og
   vurdere dette med tanke på brukervennlighet
+
+- [ ] __Teknologi i praksis, 10. trinn__: vurdere teknologiske produkt ut frå
+      brukartilpassing, HMS-krav og miljøtilpassing
+
+- [ ] __Teknologi i praksis, 10. trinn__: utvikle ein realistisk
+      kravspesifikasjon for eit teknologisk produkt og beskrive kva behov
+      produktet skal dekkje
 
 ## Forslag til læringsmål {.challenge}
 
