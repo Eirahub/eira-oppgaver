@@ -191,40 +191,28 @@ site/scripts/video.mjs        lager rader, regner hash, rendrer og laster opp
 
 ## Lagring og automatisk render
 
-- **R2-bøtte** `eira-oppgaver-video`, offentlig via eget domene, for
-  eksempel `video.eirahub.no`. `r2.dev`-adressen er strupet og passer ikke
-  til produksjon.
-- **Nøkkelen er innholdet:** `<profil>/<kurs>-<hash>.mp4` og `.jpg`. Hashen
-  regnes av alle variablene for kurset (manus, titler, bildefiler, farger,
-  logoer), malen og HyperFrames-versjonen. Endres noe, får videoen ny
-  nøkkel. Filene endres aldri, så de kan caches for alltid og trenger
-  aldri tømmes.
-- **Ny render bare ved endring:** for hvert kurs og hver profil sjekker
-  `video.mjs` om nøkkelen finnes (`HEAD` mot den offentlige URL-en, som
-  ikke trenger nøkler). Bare videoer som mangler, rendres med
-  `hyperframes render --batch` og lastes opp.
-- **Bygget** får `site/src/data/videoer.<profil>.json` med URL og tekst per
-  kurs, skrevet av renderjobben i samme kjøring. Filen ligger ikke i git.
-  Mangler den, bygges siden uten video.
-- **Workflow:** et nytt steg før `npm run build` i `build`, `preview` og
-  `lkk-demo` i `.github/workflows/deploy.yml`. Steget:
-  - installerer FFmpeg med apt hvis det mangler;
-  - kjører `hyperframes browser ensure` og `hyperframes telemetry disable`;
-  - kjører `node scripts/video.mjs --profil <profil>`.
-- **PR-er** får de endrede videoene i forhåndsvisningen på samme måte. PR-er
-  fra forks har ikke tilgang til hemmelighetene og bygges uten nye videoer,
-  akkurat som forhåndsvisningen hoppes over i dag.
-- **Hemmeligheter:** opplastingen bruker `wrangler r2 object put`. Hvis
-  `CLOUDFLARE_API_TOKEN` får tillatelsen "Workers R2 Storage: Edit", trengs
-  ingen nye hemmeligheter. Ellers lages en egen token, `R2_API_TOKEN`.
-  Ingenting i repoet.
-- **Tid:** 1 til 2 minutter per video. Første gang rendres 44 videoer
-  (22 kurs og 2 profiler), som tar en til halvannen time. Den kjøringen
-  startes for hånd med `workflow_dispatch`, eller kjøres lokalt. Etterpå
-  rendres bare det som endres.
-- **Opprydding:** gamle videoer blir liggende. 44 videoer på 2 til 5 MB er
-  godt under gratisgrensen på 10 GB i R2. En opprydding kan legges til hvis
-  det trengs.
+Bygget slik (endret fra R2: DNS for eirahub.no ligger ikke i Cloudflare, så
+R2 kan ikke få eget domene under eirahub.no).
+
+- **GitHub Pages:** videoene publiseres med resten av siden under
+  `oppgaver.eirahub.no/video/`. 22 videoer er ca. 25 MB; grensen er 1 GB.
+- **Lagring utenfor git:** filene ligger på GitHub-releasen `videoer`.
+- **Nøkkelen er innholdet:** `<kurs>-<hash>.mp4` og `.jpg`. Hashen regnes av
+  manuset, bildene det bruker, generatoren, fonter og logo og
+  HyperFrames-versjonen. Endres noe, får videoen nytt navn.
+- **Ny render bare ved endring:** `site/video/videoer.mjs` ser hvilke navn
+  som finnes på releasen, rendrer og laster opp bare de som mangler, og
+  henter så alle til `site/public/video/`. Den skriver
+  `site/src/data/videoer.json`, som kurssidene og forsiden leser. Ingen av
+  dem ligger i git. Mangler releasen, bygges siden uten video.
+- **Workflow:** steget «Introvideoer» før `npm run build` i `build`.
+  Jobben får `contents: write` for å laste opp. PR-er fra forks kjører
+  `--hent` og bare henter.
+- **Hemmeligheter:** ingen. Workflowen bruker sin egen `GITHUB_TOKEN`.
+- **Opprydding:** gamle videoer blir liggende på releasen. Kan ryddes for
+  hånd.
+- **Senere:** trafikkgrensen på GitHub Pages er 100 GB i måneden. Blir den
+  et problem, kan filene flyttes til R2 uten å endre kurssidene.
 
 ## Lisens
 
@@ -243,8 +231,7 @@ testen justerer vi tempo og tekst før resten lages.
 ## Må avklares
 
 1. **LKK-logoen.** Bruken må avtales med LKK, særlig på Eira-kurs.
-2. **Domene for R2.** Er `video.eirahub.no` greit, og ligger DNS for
-   eirahub.no i Cloudflare?
+2. **Domene for R2.** Avklart: GitHub Pages i stedet, se over.
 3. **Manus.** Skal jeg skrive utkast for alle 22 kursene, eller bare for
    piloten først?
 4. **Lisens for HyperFrames** til denne bruken, og om rendring i CI krever
