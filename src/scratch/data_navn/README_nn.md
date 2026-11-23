@@ -26,8 +26,7 @@ __Tidsbruk__: Dobbelttime eller meir.
 - [ ] __Matematikk, 7. årstrinn__: logge, sortere, presentere og lese data i
       tabellar og diagram og grunngi valet av framstilling
 
-- [ ] __Matematikk, 9. årstrinn__: berekne og vurdere sannsyn i statistikk
-      og spel
+- [ ] __Matematikk, 9. trinn__: berekne og vurdere sannsyn i statistikk og spel
 
 - [ ] __Norsk, 7. årstrinn__: orientere seg i faglege kjelder på bibliotek og
       digitalt, vurdera kor pålitelege kjeldene er, og vise til kjelder i eigne

@@ -26,11 +26,11 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Kunst og håndtverk, 2. trinn__: utforske ulike visuelle uttrykk og
-      bygge videre på andres ideer i eget skapende arbeid
+- [ ]  __Kunst og håndverk, 2. trinn__: utforske ulike visuelle uttrykk og bygge
+  videre på andres ideer i eget skapende arbeid
 
-- [ ]  __Kunst og håndtverk, 7. trinn__: tegne form, flate og rom ved hjelp av
-       virkemidler som kontraster, skygge, proporsjoner og perspektiv
+- [ ]  __Kunst og håndverk, 7. trinn__: tegne form, flate og rom ved hjelp av
+  virkemidler som kontraster, skygge, proporsjoner og perspektiv
 
 - [ ]  __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringer i
        koordinatsystemet

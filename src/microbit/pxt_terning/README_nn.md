@@ -23,7 +23,8 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Matematikk, 4. trinn:__ lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer
 
-- [ ] __Matematikk, 5. trinn:__ diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk
+- [ ] __Matematikk, 5. trinn__: utforske og beskrive tilfeldigheit og sannsyn i
+  spel og praktiske situasjonar, og knyte det til brøk
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
 

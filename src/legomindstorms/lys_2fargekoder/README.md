@@ -23,14 +23,14 @@ __Tidsbruk__: En enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Naturfag, 2.trinn__: utforske og beskrive observerbare egenskaper til
-      ulike objekter, materialer og stoffer og sortere etter egenskaper
+- [ ] __Naturfag, 2. trinn__: utforske og beskrive observerbare egenskaper til
+  ulike objekter, materialer og stoffer og sortere etter egenskaper
 
-- [ ] __Naturfag, 4.trinn__: undre seg, stille spørsmål og lage hypoteser og
-      utforske disse for å finne svar
+- [ ] __Naturfag, 4. trinn__: undre seg, stille spørsmål og lage hypoteser og
+  utforske disse for å finne svar
 
-- [ ] __Naturfag, 10.trinn__: bruke programmering til å utforske naturfaglige
-      fenomener
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
+  fenomener
 
 - [ ] __Teknologi og forskningslære, VG2__: utforske analoge og digitale
       signaler fra sensorer

@@ -28,7 +28,8 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Matematikk, 6. trinn:__ beskrive egenskaper ved og minimumsdefinisjoner av to- og tredimensjonale figurer og forklare hvilke egenskaper figurene har felles, og hvilke egenskaper som skiller dem fra hverandre
 
-- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
 
 - [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 

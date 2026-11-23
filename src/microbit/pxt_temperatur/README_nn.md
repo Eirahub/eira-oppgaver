@@ -24,11 +24,14 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
 
-- [ ] __Naturfag, 4. trinn:__ utforske teknologiske system som er satt saman av ulike delar, og beskrive korleis delane fungerer og verkar saman
+- [ ] __Naturfag, 4. trinn__: utforske teknologiske system som er sette saman av
+  ulike delar, og beskrive korleis delane fungerer og verkar saman
 
-- [ ] __Naturfag, 10. trinn:__ bruke programmering til å utforske naturfaglige fenomen
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglege
+  fenomen
 
-- [ ] __Naturfag, VG1 og VG3 Påbygg:__ vurdere og lage program som modellerer naturfaglige fenomen
+- [ ] __Naturfag, Vg1 SF__: vurdere og lage program som modellerer naturfaglege
+  fenomen
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
 

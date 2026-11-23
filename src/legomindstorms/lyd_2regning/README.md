@@ -29,18 +29,18 @@ __Tidsbruk__: En enkelttime
 - [ ] __Matematikk, 3.trinn__: bruke ulike måleenheter for lengde og masse i
       praktiske situasjoner og grunngi valget av måleenhet
 
-- [ ] __Naturfag, 7.trinn__: utforske, lage og programmere teknologiske
-      systemer som består av deler som virker sammen
+- [ ] __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
+  systemer som består av deler som virker sammen
 
-- [ ] __Naturfag, 10.trinn__: bruke programmering til å utforske naturfaglige
-      fenomener
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
+  fenomener
 
-- [ ] __Naturfag, 10.trinn__: utforske, forstå og lage teknologiske systemer
-      som består av en sender og en mottaker
+- [ ] __Naturfag, 10. trinn__: utforske, forstå og lage teknologiske systemer
+  som består av en sender og en mottaker
 
-- [ ] __Programmering, 10.trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som variabler, løkker, vilkår og funksjoner, og
-      reflektere over bruken av disse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 - [ ] __Teknologi og forskningslære, VG2__: utforske analoge og digitale
       signaler fra sensorer

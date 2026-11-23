@@ -27,18 +27,18 @@ __Tidsbruk__: En dobbeltime
 - [ ] __Matematikk, 3.trinn__: bruke ulike måleenheter for lengde og masse i
       praktiske situasjoner og grunngi valget av måleenhet
 
-- [ ] __Matematikk, 5.trinn__: lage og programmere algoritmer med bruk av
-      variabler, vilkår og løkker
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
+  variabler, vilkår og løkker
 
 - [ ] __Matematikk, 7.trinn__: logge, sortere, presentere og lese data i
       tabeller og diagram og grunngi valget av framstilling
 
-- [ ] __Naturfag, 4.trinn__: utforske, lage og programmere teknologiske systemer
-      som består av deler som virker sammen
+- [ ] __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
+  systemer som består av deler som virker sammen
 
-- [ ] __Programmering, 10.trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som variabler, løkker, vilkår og funksjoner, og
-      reflektere over bruken av disse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

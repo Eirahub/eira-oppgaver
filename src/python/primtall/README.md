@@ -31,8 +31,8 @@ __Tidsbruk__: Dobbeltime
 - [ ] __Matematikk, 8. trinn__: bruke potenser og kvadratrøtter i utforsking og
   problemløsing og argumentere for fremgangsmåter og resultater  
 
-- [ ] __Matematikk 1T, VG1__: formulere og løse problem ved hjelp av algoritmisk
-  tenking, ulike problemløsingsstrategier, digitale verktøy og programmering
+- [ ] __Matematikk T, 1T__: formulere og løse problemer ved hjelp av algoritmisk
+  tenkning, ulike problemløsingsstrategier, digitale verktøy og programmering
 
 - [ ] __IT1, VG2__:lage og bruke egne og andres funksjoner med og uten parametre
   og returverdier

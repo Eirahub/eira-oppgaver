@@ -24,11 +24,13 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Matematikk, 3. trinn:__ eksperimentere med og forklare plasseringer i koordinatsystemet
 
-- [ ] __Matematikk, 3. trinn:__ lage og følge regler og trinnvise instruksjoner i lek og spill knyttet til koordinatsystem
+- [ ] __Matematikk, 3. trinn__: lage og følge regler og trinnvise instruksjoner
+  i lek og spill knyttet til koordinatsystemet
 
 - [ ] __Matematikk, 4. trinn:__ utforske og beskrive strukturer og mønster i lek og spill
 
-- [ ] __Matematikk, 4. trinn:__ lage algoritmer og utrykke de ved bruk av variabler, vilkår og løkker
+- [ ] __Matematikk, 4. trinn__: lage algoritmer og uttrykke dem ved bruk av
+  variabler, vilkår og løkker
 
 - [ ] __Matematikk, 7. trinn:__ bruke tallinje i regning med positive og negative tall
 

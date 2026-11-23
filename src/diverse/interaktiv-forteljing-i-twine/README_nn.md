@@ -24,9 +24,11 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] **Kjerneelement - Språket som system og mulighet**: De skal beherske etablerte språk- og sjangernormer, og kunne leke, utforske og eksperimentere med språket på kreative måter.
 
-- [ ] __Matematikk, 4. trinn:__  lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer
+- [ ] __Matematikk, 4. trinn__: lage algoritmer og uttrykke dem ved bruk av
+  variabler, vilkår og løkker
 
-- [ ] __Matematikk, 5. trinn:__  lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
+  variabler, vilkår og løkker
 
 - [ ] __Matematikk, 7. trinn:__  bruke programmering til å skape interaktivitet og visuelle uttrykk
 

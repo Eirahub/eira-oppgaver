@@ -35,12 +35,12 @@ __Tidsbruk__: En enkelttime, kan fint slås sammen med "kjør rett fram" for en
 - [ ] __Matematikk, 6.trinn__: utforske og beskrive symmetri i mønster og utføre
       kongruensavbildinger med og uten koordinatsystem
 
-- [ ] __Naturfag, 4.trinn__: utforske teknologiske systemer som er satt sammen
-      av ulike deler, og beskrive hvordan delene fungerer og virker sammen
+- [ ] __Naturfag, 4. trinn__: utforske teknologiske systemer som er satt sammen
+  av ulike deler, og beskrive hvordan delene fungerer og virker sammen
 
-- [ ] __Programmering, 10.trinn__: utvikle og feilsøke dataprogram som løser
-      definerte problemer, inkludert kontrollering eller simulering av fysiske
-      objekter
+- [ ] __Programmering, 8.-10. trinn__: utvikle og feilsøke dataprogram som løser
+  definerte problemer, inkludert kontrollering eller simulering av fysiske
+  objekter
 
 ## Forslag til læringsmål {.challenge}
 

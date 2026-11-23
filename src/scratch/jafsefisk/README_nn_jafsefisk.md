@@ -28,8 +28,8 @@ __Tidsbruk__: Dobbelttime eller meir.
 - [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringar i
       koordinatsystemet
 
-- [ ] __Matematikk 5. trinn__: lage og programmere algoritmar med bruk av
-      variablar, vilkår og løkker
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmar med bruk av
+  variablar, vilkår og lykkjer
 
 - [ ] __Matematikk fordypning, 10. trinn__: diskutere, planleggje, lage og
       vurdere spilldesign og eigne spel

@@ -31,8 +31,8 @@ __Tidsbruk__: Dobbelttime eller meir.
        eigenskapar figurane har felles, og kva eigenskapar som skil dei frå
        kvarandre
 
-- [ ]  __Matematikk, 6. årstrinn__: bruke variablar, løkker, vilkår og
-       funksjonar i programmering til å utforske geometriske figurar og mønster
+- [ ]  __Matematikk, 6. trinn__: bruke variablar, lykkjer, vilkår og funksjonar
+  i programmering til å utforske geometriske figurar og mønster
 
 - [ ]  __Programmering, valgfag__: bruke grunnleggande prinsipp i
        programmering, slik som variablar, løkker, vilkår og funksjonar, og

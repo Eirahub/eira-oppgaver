@@ -20,9 +20,11 @@ __Tidsbruk__: 20 - 45 minutter
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 2. trinn__: lage og følgje reglar og trinnvise instruksjonar i leik og spel
+- [ ] __Matematikk, 2. trinn__: lage og følge regler og trinnvise instruksjoner
+  i lek og spill
 
-- [ ] __Matematikk, 3. trinn__: lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet
+- [ ] __Matematikk, 3. trinn__: lage og følge regler og trinnvise instruksjoner
+  i lek og spill knyttet til koordinatsystemet
 
 ## Forslag til læringsmål {.challenge}
 

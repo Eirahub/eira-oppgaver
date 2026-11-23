@@ -31,8 +31,8 @@ __Tidsbruk__: Dobbelttime eller meir.
 - [ ] __Kunst og handverk, 7. trinn__: teikne form, flate og rom ved hjelp av
       verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
 
-- [ ] __Matematikk, 3. trinn__: laga og følgje reglar og trinnvise instruksjonar
-      i leik og spel knytt til koordinatsystem
+- [ ] __Matematikk, 3. trinn__: lage og følgje reglar og trinnvise instruksjonar
+  i leik og spel knytte til koordinatsystemet
 
 - [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
       vurdere spilldesign og eigne spel

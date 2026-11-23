@@ -22,7 +22,8 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 8. trinn:__ utforske hvordan algoritmer kan skapes, testes og forbedres ved hjelp av programmering
+- [ ] __Matematikk, 8. trinn__: utforske korleis algoritmar kan skapast, testast
+  og forbetrast ved hjelp av programmering
 
 - [ ] __Matematikk, 9. trinn:__ berekne og vurdere sannsyn i statistikk og spel
 

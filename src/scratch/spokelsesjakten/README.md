@@ -33,7 +33,7 @@ __Tidsbruk__: Dobbelttime.
        i koordinatsystemet
 
 - [ ]  __Matematikk, 3. trinn__: lage og følge regler og trinnvise instruksjoner
-       i lek og spill knyttet til koordinatsystem
+  i lek og spill knyttet til koordinatsystemet
 
 - [ ]  __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og vurdere
        spilldesign og egne spill

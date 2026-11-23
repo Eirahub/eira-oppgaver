@@ -34,15 +34,15 @@ __Tidsbruk__: Dobbelttime eller mer.
       koordinatsystemet
 
 - [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
-      programmering til å utforske geometriske figurer og mønster
+  programmering til å utforske geometriske figurer og mønstre
 
 - [ ] __Norsk, 2. trinn__: lage tekster som kombinerer skrift med bilder
 
 - [ ] __Engelsk fordypning, 10. trinn__: skape digitale produkter som kombinerer
       ulike medietyper
 
-- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
-      interaktivitet og visuelle uttrykk
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
+  interaktivitet og visuelle uttrykk
 
 ## Forslag til læringsmål {.challenge}
 

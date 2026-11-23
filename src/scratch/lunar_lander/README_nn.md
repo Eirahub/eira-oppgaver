@@ -34,10 +34,10 @@ __Tidsbruk__: Dobbelttime eller meir.
       verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
 
 - [ ] __Kunst og handverk, 10. trinn__: visualisere form ved hjelp av
-      frihandteikningar, arbeidsteikningar, modeller og digitale verktøy
+  frihandsteikningar, arbeidsteikningar, modellar og digitale verktøy
 
-- [ ] __Matematikk, 4. trinn__: utforske og bruke målings og delingsdivisjon i
-      praktiske situasjonar
+- [ ] __Matematikk, 4. trinn__: utforske og bruke målings- og delingsdivisjon i
+  praktiske situasjonar
 
 - [ ] __Naturfag, 10. trinn__: bruke og lage modellar for å føreseie eller
       beskrive naturfaglige prosessar og system og gjere reie for styrkane til

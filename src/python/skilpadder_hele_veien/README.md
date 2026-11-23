@@ -23,8 +23,8 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 6. trinn__:  bruke variabler, løkker, vilkår og funksjoner
-  i programmering til å utforske geometriske figurer og mønster
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
 
 - [ ] __Matematikk, 10.trinn__: beskrive, forklare og presentere strukturer og
   utviklinger i geometriske mønster og i tallmønster
@@ -32,10 +32,10 @@ __Tidsbruk__: Dobbelttime
 - [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
   fenomener
 
-- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
   interaktivitet og visuelle uttrykk
 
-- [ ] __Kunst og håndtverk, 10. trinn__: visualisere form ved hjelp av
+- [ ] __Kunst og håndverk, 10. trinn__: visualisere form ved hjelp av
   frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i

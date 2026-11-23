@@ -28,18 +28,18 @@ __Tidsbruk__: En enkelttime
 - [ ] __Matematikk, 4.trinn__: utforske, beskrive og sammenligne egenskaper ved
       to- og tredimensjonale figurer ved å bruke vinkler, kanter og hjørner
 
-- [ ] __Matematikk, 5.trinn__: lage og programmere algoritmer med bruk av
-      variabler, vilkår og løkker
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
+  variabler, vilkår og løkker
 
 - [ ] __Matematikk, 7.trinn__: logge, sortere, presentere og lese data i
       tabeller og diagram og grunngi valget av framstilling
 
-- [ ] __Naturfag, 4.trinn__: utforske, lage og programmere teknologiske systemer
-      som består av deler som virker sammen
+- [ ] __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
+  systemer som består av deler som virker sammen
 
-- [ ] __Programmering, 10.trinn__: analysere problemer, gjøre dem om til
-      delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
-      programmering
+- [ ] __Programmering, 8.-10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
 ## Forslag til læringsmål {.challenge}
 

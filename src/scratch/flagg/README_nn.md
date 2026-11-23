@@ -38,13 +38,13 @@ __Tidsbruk__: Dobbelttime eller meir.
       interaktivitet og visuelle uttrykk
 
 - [ ] __Kunst og handverk, 10. trinn__: visualisere form ved hjelp av
-      frihandteikningar, arbeidsteikningar, modeller og digitale verktøy
+  frihandsteikningar, arbeidsteikningar, modellar og digitale verktøy
 
 - [ ] __Matematikk, 4. trinn__: utforske, beskrive og samanlikne eigenskapar
       ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne
 
-- [ ] __Matematikk, 6. trinn__: bruke variablar, løkker, vilkår og funksjonar i
-      programmering til å utforske geometriske figurar og mønster
+- [ ] __Matematikk, 6. trinn__: bruke variablar, lykkjer, vilkår og funksjonar i
+  programmering til å utforske geometriske figurar og mønster
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
       programmering, slik som variablar, løkker, vilkår og funksjonar, og

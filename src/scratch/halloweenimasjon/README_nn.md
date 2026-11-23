@@ -30,12 +30,11 @@ __Tidsbruk__: Dobbelttime eller meir.
       samfunn i den engelskspråklege verda og i Noreg og reflektere over
       identitet og kulturell tilhørighet
 
-- [ ] __Kunst og håndtverk, 4. årstrinn__: gjennomføre kunst- og designprosessar
-      ved å søka inspirasjon, utforske moglegheiter, gjere val og lage eigne
-      produkt
+- [ ] __Kunst og handverk, 4. trinn__: gjennomføre kunst- og designprosessar ved
+  å søkje inspirasjon, utforske moglegheiter, gjere val og lage eigne produkt
 
-- [ ] __Kunst og håndtverk, 7. årstrinn__: bruke programmering til å skape
-      interaktivitet og visuelle uttrykk
+- [ ] __Kunst og handverk, 7. trinn__: bruke programmering til å skape
+  interaktivitet og visuelle uttrykk
 
 - [ ] __Programmering, valgfag__: bruke grunnleggande prinsipp i programmering
       , slik som variablar, løkker, vilkår og funksjonar, og reflektere over

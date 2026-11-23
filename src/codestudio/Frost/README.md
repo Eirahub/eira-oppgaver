@@ -23,11 +23,13 @@ __Tema__: Tegning, Vinkler, Sekvens, Løkker, Funksjoner, Spill
 
 - [ ] __Matematikk, 4. trinn:__ utforske og beskrive strukturer og mønster i lek og spill
 
-- [ ] __Matematikk, 4. trinn:__ lage algoritmer og utrykke de ved bruk av variabler, vilkår og løkker
+- [ ] __Matematikk, 4. trinn__: lage algoritmer og uttrykke dem ved bruk av
+  variabler, vilkår og løkker
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 
-- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
 
 - [ ] __Matematikk, 8. trinn:__ utforske hvordan algoritmer kan skapes, testes og forbedres ved hjelp av programmering
 

@@ -31,8 +31,8 @@ __Tidsbruk__: Dobbelttime
        egenskaper figurene har felles, og hvilke egenskaper som skiller dem fra
        hverandre
 
-- [ ]  __Matematikk, 6. årstrinn__: bruke variabler, løkker, vilkår og
-       funksjoner i programmering til å utforske geometriske figurer og mønster
+- [ ]  __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
 
 - [ ]  __Programmering, valgfag__: bruke grunnleggende prinsipper i
        programmering, slik som variabler, løkker, vilkår og funksjoner, og

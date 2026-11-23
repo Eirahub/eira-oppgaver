@@ -26,7 +26,7 @@ __Tidsbruk__: Dobbelttime eller meir.
 ## Kompetansemål {.challenge}
 
 - [ ] __Kunst og handverk, 10. trinn__: visualisere form ved hjelp av
-      frihandteikningar, arbeidsteikningar, modeller og digitale verktøy
+  frihandsteikningar, arbeidsteikningar, modellar og digitale verktøy
 
 - [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringar i
       koordinatsystemet

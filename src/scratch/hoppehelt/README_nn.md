@@ -38,9 +38,9 @@ __Tidsbruk__: Dobbelttime eller meir.
 - [ ] __Matematikk, 10. trinn__: utforske matematiske eigenskapar og samanhengar
       ved å bruke programmering
 
-- [ ] __Musikk, 2. trinn__: leke med grunnelementa til musikken gjennom lyd og
-      stemme, lage mønster og setja saman mønstera til enkle improvisasjonar
-      og komposisjonar, også med digitale verktøy
+- [ ] __Musikk, 2. trinn__: leike med grunnelementa i musikken gjennom lyd og
+  stemme, lage mønster og setje saman mønstra til enkle improvisasjonar og
+  komposisjonar, òg med digitale verktøy
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
       programmering, slik som variablar, løkker, vilkår og funksjonar, og

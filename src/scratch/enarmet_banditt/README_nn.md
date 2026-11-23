@@ -25,8 +25,8 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Matematikk, 5. trinn__: diskutere tilfeldighet og sannsyn i spel
-       og praktiske situasjonar og knytte det til brøk
+- [ ]  __Matematikk, 5. trinn__: utforske og beskrive tilfeldigheit og sannsyn i
+  spel og praktiske situasjonar, og knyte det til brøk
 
 - [ ] __Matematikk, 7. trinn__: representere og bruke brøk, desimaltal og
       prosent på ulike måtar og utforske dei matematiske samanhengane mellom

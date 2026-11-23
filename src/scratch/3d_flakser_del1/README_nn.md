@@ -44,8 +44,8 @@ __Tidsbruk__: Dobbelttime eller meir.
 - [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
       vurdere spilldesign og eigne spel
 
-- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
-      fenomen
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglege
+  fenomen
 
 ## Forslag til læringsmål {.challenge}
 

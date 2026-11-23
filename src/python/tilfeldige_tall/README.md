@@ -29,7 +29,7 @@ __Tidsbruk__: Dobbeltime
 - [ ] __Matematikk, 7. trinn__: logge, sortere, presentere og lese data i
   tabeller og diagram og grunngi valget av framstilling
 
-- [ ] __Matematikk, 7. trinn__: bruk programmering til å utforske data i
+- [ ] __Matematikk, 7. trinn__: bruke programmering til å utforske data i
   tabeller og datasett
 
 - [ ] __Matematikk, 8. trinn__: utforske hvordan algoritmer kan skapes, testes

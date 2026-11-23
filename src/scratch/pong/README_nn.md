@@ -40,8 +40,8 @@ __Tidsbruk__: Dobbelttime eller meir.
 - [ ] __Matematikk, 6. trinn__: utforske og beskrive symmetri og mønster og
       utføre kongurensavbildinger med og utan koordinatsystem
 
-- [ ] __Matematikk, 6. trinn__: bruke variablar, løkker, vilkår og funksjonar i
-      programmering til å utforske geometriske figurar og mønster
+- [ ] __Matematikk, 6. trinn__: bruke variablar, lykkjer, vilkår og funksjonar i
+  programmering til å utforske geometriske figurar og mønster
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
       programmering, slik som variablar, løkker, vilkår og funksjonar, og

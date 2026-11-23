@@ -24,7 +24,8 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Matematikk, 2. trinn:__ eksperimentere med telling både fremlengs og baklengs, velge ulike startpunkt og ulik differanse og beskrevet mønster i tellingene
 
-- [ ] __Matematikk, 4. trinn:__ lage algoritmer og utrykke de ved bruk av variabler, vilkår og løkker
+- [ ] __Matematikk, 4. trinn__: lage algoritmer og uttrykke dem ved bruk av
+  variabler, vilkår og løkker
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 

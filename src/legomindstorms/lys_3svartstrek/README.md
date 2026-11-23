@@ -23,13 +23,13 @@ __Tidsbruk__: En enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Naturfag, 7.trinn__: designe og lage et produkt basert på brukerbehov
+- [ ] __Naturfag, 7. trinn__: designe og lage et produkt basert på brukerbehov
 
-- [ ] __Naturfag, 10.trinn__: bruke programmering til å utforske naturfaglige
-      fenomener
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
+  fenomener
 
-- [ ] __Naturfag, 10.trinn__: utforske, forstå og lage teknologiske systemer som
-      består av en sender og en mottaker
+- [ ] __Naturfag, 10. trinn__: utforske, forstå og lage teknologiske systemer
+  som består av en sender og en mottaker
 
 - [ ] __Teknologi og forskningslære, VG2__: utforske analoge og digitale
       signaler fra sensorer

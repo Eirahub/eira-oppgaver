@@ -29,12 +29,12 @@ __Tidsbruk__: Dobbelttime
 - [ ] __Matematikk, 6. årstrinn__: utforske og beskrive symmetri og mønster og
       utføre kongurensavbildinger med og uten koordinatsystem
 
-- [ ] __Matematikk fordypning, 10 årstrinn__: diskutere, planlegge, lage og
-      vurdere spilldesign og egne spill
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+  vurdere spilldesign og egne spill
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering
-      , slik som variabler, løkker, vilkår og funksjoner, og reflektere over
-      bruken av disse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

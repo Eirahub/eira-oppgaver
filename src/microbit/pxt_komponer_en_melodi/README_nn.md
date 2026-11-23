@@ -26,13 +26,16 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Musikk, 2. trinn:__ leke med grunnelementer til musikken gjennom lyd og stemme, lage mønster og setja saman mønstere til enkle improvisasjonar og komposisjonar, også med digitale verktøy
 
-- [ ] __Musikk, 4. trinn:__ eksperimentere med rytmar, melodiar og andre grunnelement, setja saman mønster til komposisjonar, også ved bruk av digitale verktøy, og beskrive arbeidsprosessar og resultat
+- [ ] __Musikk, 4. trinn__: eksperimenter med rytmar, melodiar og andre
+  grunnelement, setje saman mønster til komposisjonar, òg ved bruk av digitale
+  verktøy, og beskrive arbeidsprosessar og resultat
 
 - [ ] __Musikk, 7. trinn:__ bruke teknologi og digitale verktøy til å skape, øve inn og omarbeide musikk
 
 - [ ] __Musikk, 10. trinn:__ skape og programmere musikalske forløp ved å eksperimentere med lyd frå ulike kjelder
 
-- [ ] __Naturfag, 4. trinn:__ utforske teknologiske system som er satt saman av ulike delar, og beskrive korleis delane fungerer og verkar saman
+- [ ] __Naturfag, 4. trinn__: utforske teknologiske system som er sette saman av
+  ulike delar, og beskrive korleis delane fungerer og verkar saman
 
 - [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske system som består av delar som verkar saman
 

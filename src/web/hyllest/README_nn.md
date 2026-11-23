@@ -25,13 +25,21 @@ I denne oppgåva skal elevane laga ei nettside med html og css. Dei skal laga ei
 
 - [ ] **Kjerneelementer i norsk**: skriftleg skaping, språket som system og moglegheit,
 
-- [ ] **Samfunnsfag, 7.**: reflektere over variasjonar i identitetar, seksuell orientering og kjønnsuttrykk, og eigne og andre sine grenser knytte til kjensler, kropp, kjønn og seksualitet og drøfte kva ein kan gjere om grenser blir brotne
+- [ ] __Samfunnsfag, 7. trinn__: reflektere over variasjoner i identiteter,
+  seksuell orientering og kjønnsuttrykk og egne og andres grenser knyttet til
+  følelser, kropp, kjønn og seksualitet og drøfte hva man kan gjøre om grenser
+  blir brutt
 
-- [ ] **Samfunnsfag, 10.**: gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå
+- [ ] __Samfunnsfag, 10. trinn__: gjøre rede for fornorskningen av samene og de
+  nasjonale minoritetene og urettferdigheten de har blitt utsatt for, og
+  reflektere over hvilke konsekvenser det har hatt og har på individ- og
+  samfunnsnivå
 
-- [ ] **Mattematikk, 7.**: bruke programmering til å utforske data i tabellar og datasett
+- [ ] __Matematikk, 7. trinn__: bruke programmering til å utforske data i
+  tabeller og datasett
 
-- [ ] **Mattematikk, 8.**: utforske korleis algoritmar kan skapast, testast og forbetrast ved hjelp av programmering
+- [ ] __Matematikk, 8. trinn__: utforske hvordan algoritmer kan skapes, testes
+  og forbedres ved hjelp av programmering
 
 - [ ] **Kunst og håndverk, 7.**:  bruke programmering til å skape interaktivitet og visuelle uttrykk
 

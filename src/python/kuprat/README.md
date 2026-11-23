@@ -28,8 +28,8 @@ __Tidsbruk__: Enkelttime
 - [ ] __Norsk, 4. trinn__: skrive tekster med funksjonell håndskrift og med
       tastatur
 
-- [ ] __Programmering, 10.trinn__: bruke flere programmeringsspråk, deriblant
-      minst ett som er tekstbasert
+- [ ] __Programmering, 8.-10. trinn__: bruke flere programmeringsspråk,
+  deriblant minst ett som er tekstbasert
 
 ## Forslag til læringsmål {.challenge}
 

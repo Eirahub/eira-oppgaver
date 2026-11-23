@@ -28,7 +28,7 @@ __Tidsbruk__: Dobbelttime eller meir.
       koordinatsystemet
 
 - [ ] __Matematikk, 5. trinn__: lage og programmere algoritmar med bruk av
-      variablar, vilkår og løkker
+  variablar, vilkår og lykkjer
 
 - [ ] __Samfunnsfag, 4. trinn__: beskrive kultur- og naturlandskap i Noreg og
       samtale om korleis historiske og geografiske kjelder, inkludert kart, kan

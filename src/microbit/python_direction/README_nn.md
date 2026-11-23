@@ -23,7 +23,8 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske system som består av delar som verkar saman
 
-- [ ] __Naturfag, 10. trinn:__ bruke programmering til å utforske naturfaglige fenomen
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglege
+  fenomen
 
 - [ ] __Programmering, 10. trinn:__ bruke fleire programmeringsspråk, mellom dei minst eitt som er tekstbasert
 

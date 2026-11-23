@@ -33,18 +33,18 @@ __Tidsbruk__: En enkelttime
 - [ ] __Matematikk, 3.trinn__: beskrive likhet og ulikheter i sammenligning av
       størrelser, antall, uttrykk og tall og bruk likhets- og ulikhetstegn
 
-- [ ] __Naturfag, 7.trinn__: utforske, lage og programmere teknologiske
-      systemer som består av deler som virker sammen
+- [ ] __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
+  systemer som består av deler som virker sammen
 
-- [ ] __Naturfag, 10.trinn__: bruke programmering til å utforske naturfaglige
-      fenomener
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
+  fenomener
 
-- [ ] __Naturfag, 10.trinn__: utforske, forstå og lage teknologiske systemer
-      som består av en sender og en mottaker
+- [ ] __Naturfag, 10. trinn__: utforske, forstå og lage teknologiske systemer
+  som består av en sender og en mottaker
 
-- [ ] __Programmering, 10.trinn__: utvikle og feilsøke dataprogram som løser
-      definerte problemer, inkludert kontrollering eller simulering av fysiske
-      objekter
+- [ ] __Programmering, 8.-10. trinn__: utvikle og feilsøke dataprogram som løser
+  definerte problemer, inkludert kontrollering eller simulering av fysiske
+  objekter
 
 - [ ] __Teknologi og forskningslære, VG2__: utforske analoge og digitale
       signaler fra sensorer

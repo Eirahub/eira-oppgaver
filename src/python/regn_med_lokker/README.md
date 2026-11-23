@@ -22,9 +22,9 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10.trinn__: bruke grunnleggende prinsipper i
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
   programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
-   over bruken av disse
+  over bruken av disse
 
 - [ ] __Matematikk R2, VG3__: utforske rekursive sammenhenger ved å bruke
   programmering og presentere egne framgangsmåter

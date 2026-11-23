@@ -21,7 +21,8 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 5. trinn:__ diskutere tilfeldighet og sannsynlighet i spill og praktiske situasjoner og knytte det til brøk
+- [ ] __Matematikk, 5. trinn__: utforske og beskrive tilfeldighet og
+  sannsynlighet i spill og praktiske situasjoner og knytte det til brøk
 
 - [ ] __Matematikk, 9. trinn:__ simulere utfall i tilfeldige forsøk og beregne sannsynligheten for at noe skal inntreffe, ved å bruke programmering
 

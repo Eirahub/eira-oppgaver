@@ -27,7 +27,9 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 - [ ] __Matematikk, 10. trinn:__ utforske matematiske egenskaper og sammenhenger ved å bruke programmering
 
-- [ ] __Naturfag, 10. trinn:__ bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensinger
+- [ ] __Naturfag, 10. trinn__: bruke og lage modeller for å forutsi eller
+  beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes
+  styrker og begrensninger
 
 - [ ] __Naturfag, 10. trinn:__ bruke programmering til å utforske naturfaglige fenomener
 

@@ -30,19 +30,19 @@ __Tidsbruk__: En enkelttime
 - [ ] __Matematikk, 3.trinn__: eksperimentere med og forklare plasseringer i
       koordinatsystemet
 
-- [ ] __Matematikk, 5.trinn__: lage og programmere algoritmer med bruk av
-      variabler, vilkår og løkker
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
+  variabler, vilkår og løkker
 
 - [ ] __Matematikk, 6.trinn__: beskrive egenskaper ved og minimumsdefinisjoner
       av to- og tredimensjonale figurer og forklare hvilke egenskaper figurene
       har felles, og hvilke egenskaper som skiller dem fra hverandre
 
-- [ ] __Matematikk, 6.trinn__: bruke variabler, løkker, vilkår og funksjoner i
-      programmering til å utforske geometriske figurer og mønster
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
 
-- [ ] __Programmering, 10.trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som variabler, løkker, vilkår og funksjoner, og
-      reflektere over bruken av disse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

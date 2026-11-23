@@ -33,8 +33,8 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] __Engelsk, 10. trinn__: lese, diskutere og videreformidle innhold fra ulike
       typer tekster, inkludert selvvalgte tekster
 
-- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
-      interaktivitet og visuelle uttrykk
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
+  interaktivitet og visuelle uttrykk
 
 - [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringer i
       koordinatsystemet

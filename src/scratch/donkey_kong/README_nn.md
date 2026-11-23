@@ -36,11 +36,11 @@ __Tidsbruk__: Dobbelttime eller meir.
 - [ ] __Kunst og håndtverk, 2. trinn__: utforske ulike visuelle uttrykk og bygge
       vidare på andres idear i eige skapande arbeid
 
-- [ ] __Kunst og håndtverk, 7. trinn__: teikne form, flate og rom ved hjelp av
-      verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
+- [ ] __Kunst og handverk, 7. trinn__: teikne form, flate og rom ved hjelp av
+  verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
 
-- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
-      fenomen
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglege
+  fenomen
 
 - [ ] __Programmering, 10. trinn__: analysere problem, gjere dei om til 
       delproblem og gjere reie for korleis nokon av delproblema kan løysast med

@@ -35,11 +35,11 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] __Engelsk fordypning, 10. trinn__: utforske og presentere innhold, form og
       formål i spill, film og musikk
 
-- [ ] __Kunst og håndtverk, 2. trinn__: utforske ulike visuelle uttrykk og bygge
-      videre på andres ideer i eget skapende arbeid
+- [ ] __Kunst og håndverk, 2. trinn__: utforske ulike visuelle uttrykk og bygge
+  videre på andres ideer i eget skapende arbeid
 
-- [ ] __Kunst og håndtverk, 7. trinn__: tegne form, flate og rom ved hjelp av
-      virkemidler som kontraster, skygge, proporsjoner og perspektiv
+- [ ] __Kunst og håndverk, 7. trinn__: tegne form, flate og rom ved hjelp av
+  virkemidler som kontraster, skygge, proporsjoner og perspektiv
 
 - [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
       fenomener

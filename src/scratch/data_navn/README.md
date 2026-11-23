@@ -26,8 +26,8 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] __Matematikk, 7. årstrinn__: logge, sortere, presentere og lese data i
       tabeller og diagram og grunngi valget av framstilling
 
-- [ ] __Matematikk, 9. årstrinn__: beregne og vurdere sannsynlighet i statistikk
-      og spill
+- [ ] __Matematikk, 9. trinn__: beregne og vurdere sannsynlighet i statistikk og
+  spill
 
 - [ ] __Norsk, 7. årstrinn__: orientere seg i faglige kilder på bibliotek og
       digitalt, vurdere hvor pålitelige kildene er, og vise til kilder i egne

@@ -32,12 +32,11 @@ __Tidsbruk__: Dobbelttime eller meir.
       samfunn i den engelskspråklege verda og i Noreg og reflektere over
       identitet og kulturell tilhørighet
 
-- [ ] __Kunst og håndtverk, 4. årstrinn__: gjennomføre kunst- og designprosessar
-      ved å søka inspirasjon, utforske moglegheiter, gjere val og laga eigne
-      produkt
+- [ ] __Kunst og handverk, 4. trinn__: gjennomføre kunst- og designprosessar ved
+  å søkje inspirasjon, utforske moglegheiter, gjere val og lage eigne produkt
 
-- [ ] __Kunst og håndtverk, 7. årstrinn__: bruke digitale verktøy til å
-      planlegge og presentere prosessar og produkt
+- [ ] __Kunst og handverk, 7. trinn__: bruke digitale verktøy til å planleggje
+  og presentere prosessar og produkt
 
 - [ ] __Musikk, 7. årstrinn__: bruke teknologi og digitale verktøy til å skape,
       øve inn og omarbeide musikk

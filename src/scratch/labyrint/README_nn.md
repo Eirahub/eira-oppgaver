@@ -25,11 +25,11 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 5. årstrinn__: lage og programmere algoritmar med bruk av
-      variablar, vilkår og løkker
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmar med bruk av
+  variablar, vilkår og lykkjer
 
-- [ ] __Matematikk, 6. årstrinn__: bruke variablar, løkker, vilkår og
-      funksjonar i programmering til å utforska geometriske figurar og mønster
+- [ ] __Matematikk, 6. trinn__: bruke variablar, lykkjer, vilkår og funksjonar i
+  programmering til å utforske geometriske figurar og mønster
 
 - [ ] __Programmering, valgfag__: bruke grunnleggande prinsipp i programmering
       , slik som variablar, løkker, vilkår og funksjonar, og reflektere over

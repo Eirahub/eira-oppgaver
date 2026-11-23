@@ -22,7 +22,9 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Musikk, 4. trinn:__ eksperimentere med rytmar, melodiar og andre grunnelement, setja saman mønster til komposisjonar, også ved bruk av digitale verktøy, og beskrive arbeidsprosessar og resultat
+- [ ] __Musikk, 4. trinn__: eksperimenter med rytmar, melodiar og andre
+  grunnelement, setje saman mønster til komposisjonar, òg ved bruk av digitale
+  verktøy, og beskrive arbeidsprosessar og resultat
 
 - [ ] __Musikk, 7. trinn:__ bruke teknologi og digitale verktøy til å skape, øve inn og omarbeide musikk
 

@@ -33,8 +33,8 @@ __Tidsbruk__: Dobbelttime eller meir.
 - [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringar i
       koordinatsystemet
 
-- [ ] __Matematikk, 6. trinn__: bruke variablar, løkker, vilkår og funksjonar i
-      programmering til å utforske geometriske figurar og mønster
+- [ ] __Matematikk, 6. trinn__: bruke variablar, lykkjer, vilkår og funksjonar i
+  programmering til å utforske geometriske figurar og mønster
 
 - [ ] __Norsk, 2. trinn__: lage tekstar som kombinerer skrift med bilde
 
