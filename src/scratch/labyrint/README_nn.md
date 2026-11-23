@@ -31,12 +31,13 @@ __Tidsbruk__: Dobbelttime eller meir.
 - [ ] __Matematikk, 6. trinn__: bruke variablar, lykkjer, vilkår og funksjonar i
   programmering til å utforske geometriske figurar og mønster
 
-- [ ] __Programmering, valgfag__: bruke grunnleggande prinsipp i programmering
-      , slik som variablar, løkker, vilkår og funksjonar, og reflektere over
-      bruken av desse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
-- [ ] __Programmering, valgfag__: analysere problem, gjere dei om til
-      delproblem og gjere reie for korleis nokon av delproblema kan løysast med programmering
+- [ ] __Programmering, 8.-10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
 ## Forslag til læringsmål {.challenge}
 

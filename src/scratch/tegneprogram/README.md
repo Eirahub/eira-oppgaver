@@ -35,15 +35,15 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
   interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringer i
-      koordinatsystemet
+- [ ] __Matematikk, 3. trinn__: eksperimentere med, navngi og plassere punkter i
+  koordinatsystemet
 
-- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av  
-      variabler, vilkår og løkker
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
+  variabler, vilkår og løkker
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som variabler, løkker, vilkår og funksjoner, og
-      reflektere over bruken av disse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

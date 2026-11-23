@@ -23,22 +23,15 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Engelsk, 2. årstrinn__: tileigna seg ord og kulturell kunnskap gjennom
-      engelskspråkleg barnelitteratur og barnekultur
-
-- [ ] __Engelsk, 4. årstrinn__: utforske levemåtar og tradisjonar i ulike
-      samfunn i den engelskspråklege verda og i Noreg og reflektere over
-      identitet og kulturell tilhørighet
-
 - [ ] __Kunst og handverk, 4. trinn__: gjennomføre kunst- og designprosessar ved
   å søkje inspirasjon, utforske moglegheiter, gjere val og lage eigne produkt
 
 - [ ] __Kunst og handverk, 7. trinn__: bruke programmering til å skape
   interaktivitet og visuelle uttrykk
 
-- [ ] __Programmering, valgfag__: bruke grunnleggande prinsipp i programmering
-      , slik som variablar, løkker, vilkår og funksjonar, og reflektere over
-      bruken av desse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

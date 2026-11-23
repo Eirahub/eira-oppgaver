@@ -25,13 +25,6 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Engelsk, 2. årstrinn__: tilegne seg ord og kulturell kunnskap gjennom
-      engelskspråklig barnelitteratur og barnekultur
-
-- [ ] __Engelsk, 4. årstrinn__: utforske levemåter og tradisjoner i ulike
-      samfunn i den engelskspråklige verden og i Norge og reflektere over
-      identitet og kulturell tilhørighet
-
 - [ ] __Kunst og håndverk, 4. trinn__: gjennomføre kunst- og designprosesser ved
   å søke inspirasjon, utforske muligheter, gjøre valg og lage egne produkter
 

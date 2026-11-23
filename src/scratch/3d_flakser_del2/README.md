@@ -40,18 +40,14 @@ et lengre undervisningsopplegg.
 - [ ] __Kunst og håndverk, 7. trinn__: tegne form, flate og rom ved hjelp av
   virkemidler som kontraster, skygge, proporsjoner og perspektiv
 
-- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringer i       
-      koordinatsystemet
+- [ ] __Matematikk, 10. trinn__: utforske matematiske egenskaper og sammenhenger
+  ved å bruke programmering
 
-- [ ] __Matematikk, 7. trinn__: beskrive egenskaper ved og minimumsdefinisjoner
-      av to- og tredimensjonale figurer og forklare hvilke egenskaper figurene
-      har felles, og hvilke egenskaper som skiller dem fra hverandre
-
-- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og vurdere
-      spilldesign og egne spill
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+  vurdere spilldesign og egne spill
 
 - [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
-      fenomener
+  fenomener
 
 
 ## Forslag til læringsmål {.challenge}

@@ -30,15 +30,17 @@ __Tidsbruk__: Enkelttime
 - [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
   interaktivitet og visuelle uttrykk
 
-- [ ]  __Matematikk, 2. trinn__: utforske, tegne og beskrive geometriske figurer
+- [ ] __Matematikk, 2. trinn__: utforske, tegne og beskrive geometriske figurer
   fra sitt eget nærmiljø og argumentere for måter å sortere dem på etter
   egenskaper
 
-- [ ]  __Matematikk, 3. trinn__: lage og følge regler og trinnvise instruksjoner
+- [ ] __Matematikk, 3. trinn__: lage og følge regler og trinnvise instruksjoner
   i lek og spill knyttet til koordinatsystemet
 
-- [ ]  __Matematikk, 6. årstrinn__: utforske og beskrive symmetri og mønster
-       og utføre kongurensavbildinger med og uten koordinatsystem
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
+
+- [ ] __Matematikk, 6. trinn__: utforske og beskrive symmetri i mønstre
 
 ## Forslag til læringsmål {.challenge}
 

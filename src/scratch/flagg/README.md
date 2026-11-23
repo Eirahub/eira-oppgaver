@@ -41,15 +41,15 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] __Kunst og håndverk, 10. trinn__: visualisere form ved hjelp av
   frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
-- [ ] __Matematikk, 4. trinn__: utforske, beskrive og sammenligne egenskaper
-      ved to- og tredimensjonale figurer ved å bruke vinkler, kanter og hjørner
-
 - [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
   programmering til å utforske geometriske figurer og mønstre
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som variabler, løkker, vilkår og funksjoner, og
-      reflektere over bruken av disse
+- [ ] __Matematikk, 10. trinn__: utforske matematiske egenskaper og sammenhenger
+  ved å bruke programmering
+
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 
