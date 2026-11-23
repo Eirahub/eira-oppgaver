@@ -27,9 +27,12 @@ __Tidsbruk__: Dobbeltime.
 
 ## Kompetansemål {.challenge}
 
-Kompetansemål er ikke knyttet til oppgaven ennå. Hent eventuelle mål fra
-[læreplanen i informasjonsteknologi på
-udir.no](https://www.udir.no/lk20/inf01-02) som passer for gruppa.
+- [ ] __Informasjonsteknologi 1__: gjøre rede for og vurdere hvordan ulike typer
+  informasjon kan representeres digitalt og struktureres ved hjelp av ulike
+  datalagringsmetoder
+
+- [ ] __Informasjonsteknologi 2__: generalisere løsninger ved å utvikle og bruke
+  gjenbrukbar programkode
 
 ## Forslag til læringsmål {.challenge}
 

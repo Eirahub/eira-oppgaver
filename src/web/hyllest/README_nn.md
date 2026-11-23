@@ -19,12 +19,6 @@ I denne oppgåva skal elevane laga ei nettside med html og css. Dei skal laga ei
 
 ## Kompetansemål {.challenge}
 
-- [ ] **Tverrfaglige tema i LK20**: Demokrati og medborgarskap, Berekraftig utvikling
-
-- [ ] **Kjerneelementer i samfunnsfag**: Samfunnskritisk tenking og samanhengar, Berekraftige samfunn, Identitetsutvikling og fellesskap
-
-- [ ] **Kjerneelementer i norsk**: skriftleg skaping, språket som system og moglegheit,
-
 - [ ] __Samfunnsfag, 7. trinn__: reflektere over variasjoner i identiteter,
   seksuell orientering og kjønnsuttrykk og egne og andres grenser knyttet til
   følelser, kropp, kjønn og seksualitet og drøfte hva man kan gjøre om grenser
@@ -43,14 +37,8 @@ I denne oppgåva skal elevane laga ei nettside med html og css. Dei skal laga ei
 
 - [ ] **Kunst og håndverk, 7.**:  bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] **Engelsk, 7.**: skrive sammenhengende tekster, inkludert sammensatte, som gjenforteller, forteller, spør og uttrykker meninger og interesser, tilpasset mottaker
-
-- [ ] **Engelsk, 10.**: skrive formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, forteller og reflekterer tilpasset formål, mottaker og situasjon
-
-- [ ] **Norsk, 7.**: skrive tekster med tydelig struktur og mestre sentrale regler for rettskriving, ordbøying og tegnsetting
-
-- [ ] **Norsk, 10.**: skrive tekster med funksjonell tekstbinding og riktig tegnsetting og mestre rettskriving og ordbøying på hovedmål og sidemål
-
+- [ ] __Informasjonsteknologi 1__: utvikle nettsider ved hjelp av
+  markeringsspråk
 
 ## Forslag til læringsmål {.challenge}
 

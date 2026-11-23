@@ -22,9 +22,16 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-Kompetansemålene i den gamle lærerveiledningen var fra læreplanene før LK20, og
-er tatt ut. Hent eventuelle mål fra [LK20 på
-udir.no](https://www.udir.no/lk20/).
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
+
+- [ ] __Programmering, 8.-10. trinn__: utvikle og feilsøke dataprogram som løser
+  definerte problemer, inkludert kontrollering eller simulering av fysiske
+  objekter
+
+- [ ] __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
+  systemer som består av deler som virker sammen
 
 ## Forslag til læringsmål {.challenge}
 

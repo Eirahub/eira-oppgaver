@@ -23,6 +23,15 @@ __Tema__: Byggeverktøy, feilsøking, debugger
 
 __Tidsbruk__: Dobbeltime
 
+## Kompetansemål {.challenge}
+
+- [ ] __Informasjonsteknologi 2__: vurdere og bruke strategier for feilsøking og
+  testing av programkode
+
+- [ ] __Programmering, 8.-10. trinn__: utvikle og feilsøke dataprogram som løser
+  definerte problemer, inkludert kontrollering eller simulering av fysiske
+  objekter
+
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan lage og bygge et Gradle-prosjekt i IntelliJ.

@@ -24,9 +24,6 @@ __Tidsbruk__: En enkelttime, som en innledningsøkt til LEGO Mindstorms
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3.trinn__: bruke ulike måleenheter for lengde og masse i
-      praktiske situasjoner og grunngi valget av måleenhet
-
 - [ ] __Matematikk, 4. trinn__: utforske og bruke målings- og delingsdivisjon i
   praktiske situasjoner
 

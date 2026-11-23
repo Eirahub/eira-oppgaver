@@ -30,9 +30,6 @@ __Tidsbruk__: En enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3.trinn__: beskrive likhet og ulikheter i sammenligning av
-      størrelser, antall, uttrykk og tall og bruk likhets- og ulikhetstegn
-
 - [ ] __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
   systemer som består av deler som virker sammen
 
@@ -46,8 +43,11 @@ __Tidsbruk__: En enkelttime
   definerte problemer, inkludert kontrollering eller simulering av fysiske
   objekter
 
-- [ ] __Teknologi og forskningslære, VG2__: utforske analoge og digitale
-      signaler fra sensorer
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
+
+- [ ] __Matematikk, 3. trinn__: bruke likhets- og ulikhetstegn som relasjonelle
+  symboler for å sammenligne størrelser, mengder, uttrykk og tall
 
 ## Forslag til læringsmål {.challenge}
 

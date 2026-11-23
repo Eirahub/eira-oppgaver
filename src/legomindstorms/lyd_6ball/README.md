@@ -40,11 +40,8 @@ __Tidsbruk__: En enkelttime
   programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
   over bruken av disse
 
-- [ ] __Teknologi og forskningslære, VG2__: utforske analoge og digitale
-      signaler fra sensorer
-
-- [ ] __Teknologi og forskningslære, VG2__: gjennomføre forsøk med både induktiv
-      og deduktiv metode
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
 
 ## Forslag til læringsmål {.challenge}
 

@@ -25,9 +25,8 @@ __Tidsbruk__: Omtrent en time. Utfordringene kan ta en time til.
 
 ## Kompetansemål {.challenge}
 
-Kompetansemål er ikke knyttet til oppgaven ennå. Hent eventuelle mål fra
-[læreplanen i informasjonsteknologi på
-udir.no](https://www.udir.no/lk20/inf01-02) som passer for gruppa.
+- [ ] __Informasjonsteknologi 2__: vurdere og bruke strategier for feilsøking og
+  testing av programkode
 
 ## Forslag til læringsmål {.challenge}
 

@@ -53,12 +53,12 @@ __Tidsbruk__: En enkelttime
 - [ ] __Programmering, 8.-10. trinn__: planlegge og skape et digitalt produkt og
   vurdere dette med tanke på brukervennlighet
 
-- [ ] __Teknologi og design, 10.trinn__: grunngi valg av design, materialer,
-      verktøy og framgangsmåter, og reflektere over hvor trygge og bærekraftige
-      valgene er
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
 
-- [ ] __Teknologi og forskningslære, VG2__: utforske analoge og digitale
-      signaler fra sensorer
+- [ ] __Teknologi og design, 8.-10. trinn__: grunngi val av design, materialar,
+  verktøy og framgangsmåtar, og reflektere over kor trygge og berekraftige vala
+  er
 
 ## Forslag til læringsmål {.challenge}
 

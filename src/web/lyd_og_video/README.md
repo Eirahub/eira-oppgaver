@@ -28,13 +28,10 @@ __Tidsbruk__: Dobbeltime
 
 - [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Norsk, 10. trinn__: lage sammensatte tekster og begrunne valg av uttrykksformer
-
 - [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
-
-- [ ] __IT1, VG2:__ lagre og hente fram data og presentere dem på nettsider
+- [ ] __Informasjonsteknologi 1__: utvikle nettsider ved hjelp av
+  markeringsspråk
 
 ## Forslag til læringsmål {.challenge}
 

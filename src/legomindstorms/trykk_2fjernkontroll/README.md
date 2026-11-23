@@ -41,9 +41,6 @@ __Tidsbruk__: En enkelttime
   definerte problemer, inkludert kontrollering eller simulering av fysiske
   objekter
 
-- [ ] __Teknologi og forskningslære, VG2__: utforske analoge og digitale
-      signaler fra sensorer
-
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan forklare grunnideen bak en trykksensor.

@@ -35,9 +35,6 @@ __Tidsbruk__: Enkelttime
 - [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
   programmering til å utforske geometriske figurer og mønstre
 
-- [ ] __Matematikk, 9. trinn__: utforske egenskapene ved ulike polygoner og
-  forklare begrepene formlikhet og kongruens
-
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
   programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
   over bruken av disse

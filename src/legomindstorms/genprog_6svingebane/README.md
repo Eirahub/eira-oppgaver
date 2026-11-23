@@ -30,9 +30,6 @@ __Tidsbruk__: En enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3.trinn__: eksperimentere med og forklare plasseringer i
-      koordinatsystemet
-
 - [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
   variabler, vilkår og løkker
 

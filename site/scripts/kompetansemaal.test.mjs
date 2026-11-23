@@ -77,3 +77,17 @@ test('the data file has goals with code, subject, year, text and Udir link', () 
   const codes = new Set(data.maal.map((g) => g.kode));
   for (const g of data.utgatte) if (g.ny) assert.ok(codes.has(g.ny), `${g.kode} -> ${g.ny}`);
 });
+
+test('a plan Udir has on one written standard only links from files in the other one', () => {
+  const data = JSON.parse(fs.readFileSync(new URL('../src/data/kompetansemaal.json', import.meta.url), 'utf8'));
+  const real = makeIndex(data);
+  const only = (plan) => data.maal.find((g) => g.plan === plan);
+  for (const plan of ['PRG01-02', 'TPR01-02', 'MAT07-02']) {
+    const g = only(plan);
+    assert.equal(g.nb, g.nn, `${plan} has the same text on nb and nn`);
+    const readme = `## Kompetansemål\n\n- [ ] __${g.fag}, ${g.trinn}__: ${g.nb}\n`;
+    for (const lang of ['nb', 'nn']) {
+      assert.deepEqual(linkGoals(readme, real, lang).codes, [g.kode], `${plan} ${lang}`);
+    }
+  }
+});

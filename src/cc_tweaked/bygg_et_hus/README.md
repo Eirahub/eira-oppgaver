@@ -22,9 +22,15 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-Kompetansemålene i den gamle lærerveiledningen var fra læreplanene før LK20, og
-er tatt ut. Hent eventuelle mål fra [LK20 på
-udir.no](https://www.udir.no/lk20/).
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
+
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
+  variabler, vilkår og løkker
+
+- [ ] __Informasjonsteknologi 1__: utvikle prosedyreorienterte programmer med
+  prosedyrer med og uten parametre og returverdier
 
 ## Forslag til læringsmål {.challenge}
 

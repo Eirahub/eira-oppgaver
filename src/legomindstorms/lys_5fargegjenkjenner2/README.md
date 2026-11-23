@@ -43,11 +43,8 @@ __Tidsbruk__: En dobbeltime
   definerte problemer, inkludert kontrollering eller simulering av fysiske
   objekter
 
-- [ ] __Teknologi og forskningslære, VG2__: utforske analoge og digitale
-      signaler fra sensorer
-
-- [ ] __Teknologi og forskningslære, VG2__: planlegge og utføre reproduserbare
-      forsøk og vurdere hvor pålitelig resultatet er
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
 
 ## Forslag til læringsmål {.challenge}
 
