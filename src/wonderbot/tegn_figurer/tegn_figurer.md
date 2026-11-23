@@ -12,7 +12,9 @@ firkant. Nå lager du din egen kloss som kan kjøre alle mulige figurer:
 trekant, sekskant, åttekant og til og med en stjerne. Du skal finne ut hvor
 mye Dash må svinge i hvert hjørne.
 
-<!-- BILDE: Dash på gulvet ved siden av en sekskant av maskeringsteip -->
+![Illustrasjon av en robot som kjører en sekskant av teip på gulvet sett
+  ovenfra. I hvert hjørne svinger den 60 grader, fordi 360 delt på 6 er
+  60.](sekskant.png)
 
 Du trenger:
 

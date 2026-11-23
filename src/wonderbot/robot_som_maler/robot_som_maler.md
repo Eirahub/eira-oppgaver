@@ -14,7 +14,9 @@ mørkt.
 
 I denne oppgaven står Dash stille. Den bruker bare lys, lyd og hodet.
 
-<!-- BILDE: Dash med blått lys, og en hånd som skygger over en micro:bit -->
+![Illustrasjon av en micro:bit i skygge som måler lysnivå 30. Pilen går til
+  en robot med blått lys, der hodet peker mot mørkt på en
+  måleskala.](lysmaler.png)
 
 Du trenger:
 
