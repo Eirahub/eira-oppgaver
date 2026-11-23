@@ -33,7 +33,8 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal fra sensorer
+- [ ] __Naturfag, 4. trinn__: utforske observerbare størrelser som fart og
+  temperatur og knytte dem til energi
 
 ## Forslag til læringsmål {.challenge}
 

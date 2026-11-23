@@ -29,12 +29,14 @@ I denne oppgaven skal vi lære om radioblokkene og bruke det for å simulere smi
   beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes
   styrker og begrensninger
 
-- [ ] **Naturfag, 10. trinn**: utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker
-bruke programmering til å utforske naturfaglige fenomener
-
-
 - [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
   variabler, vilkår og løkker
+
+- [ ] __Naturfag, 10. trinn__: utforske, forstå og lage teknologiske systemer
+  som består av en sender og en mottaker
+
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
+  fenomener
 
 - [ ] **KRLE, 7. trinn**: utforske og beskrive egne og andres perspektiver i etiske dilemmaer knyttet til hverdags- og samfunnsutfordringer
 

@@ -33,9 +33,12 @@ __Tidsbruk__: Dobbelttime
 - [ ] __Naturfag, Vg1 SF__: vurdere og lage program som modellerer naturfaglege
   fenomen
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
-- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal frå sensorar
+- [ ] __Naturfag, 4. trinn__: utforske storleikar som lar seg observere, som
+  fart og temperatur, og knyte dei til energi
 
 ## Forslag til læringsmål {.challenge}
 

@@ -25,7 +25,8 @@ __Tidsbruk__: Dobbelttime
   grunnelement, setje saman mønster til komposisjonar, òg ved bruk av digitale
   verktøy, og beskrive arbeidsprosessar og resultat
 
-- [ ] __Musikk, 7. trinn:__ bruke teknologi og digitale verktøy til å skape, øve inn og omarbeide musikk
+- [ ] __Musikk, 7. trinn__: bruke teknologi og digitale verktøy til å skape, øve
+  inn og arbeide vidare med musikk
 
 - [ ] __Musikk, 10. trinn:__ skape og programmere musikalske forløp ved å eksperimentere med lyd frå ulike kjelder
 

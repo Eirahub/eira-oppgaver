@@ -40,13 +40,7 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Naturfag, VG1:__ vurdere og lage programmer som modellerer naturfaglige fenomener
 
-- [ ] __Naturfag, VG3 Påbygg:__ vurdere og lage programmer som modellerer naturfaglige fenomener
-
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
-
-- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
-
-- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
 
 ## Forslag til læringsmål {.challenge}
 
