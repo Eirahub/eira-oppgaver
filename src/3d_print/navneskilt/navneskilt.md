@@ -14,7 +14,10 @@ klubbens 3D-printer.
 Skiltet blir omtrent 8 cm langt, 2,5 cm høyt og et halvt centimeter tykt. Det
 tar omtrent 10 til 20 minutter å printe.
 
-<!-- BILDE: Ferdig printet navneskilt i PLA med navnet i opphøyde bokstaver -->
+![Den ferdige modellen i BlocksCAD: en flat plate med navnet Ola i
+opphøyde bokstaver](navneskilt_modell.png)
+
+<!-- BILDE: bytt til foto av ferdig print -->
 
 
 # Steg 1: Åpne BlocksCAD {.activity}
@@ -61,7 +64,8 @@ __Klikk på Gjengi (Render) under 3D-vinduet.__
 
 - [ ] Dra med musa i 3D-vinduet for å snu modellen. Bruk musehjulet for å zoome.
 
-<!-- BILDE: BlocksCAD med kube-klossen og en flat plate i 3D-vinduet -->
+![BlocksCAD med kube-klossen X 80, Y 25 og Z 3 i arbeidsområdet og en flat,
+rosa plate i 3D-vinduet](plate.png)
 
 
 # Steg 3: Lag teksten {.activity}
@@ -137,8 +141,9 @@ __Klikk på Gjengi (Render).__
   klossene lager. Den er skrevet i OpenSCAD. Finner du tallene 80, 25 og 3?
   Klikk på **Blocks** for å gå tilbake.
 
-<!-- BILDE: Ferdige klosser for navneskiltet: union med kube og translatere med
-3D tekst -->
+![Klossene for navneskiltet: union med kube i den øverste åpningen og
+translatere med 3D tekst Ola i pluss. I 3D-vinduet står Ola oppå
+platen.](navneskilt_klosser.png)
 
 
 # Steg 6: Lagre som STL {.activity}

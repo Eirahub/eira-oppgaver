@@ -16,8 +16,10 @@ minutter å printe.
 
 Det er lurt å ha gjort [Navneskilt](../navneskilt/navneskilt) først.
 
-<!-- BILDE: Ferdig printet nøkkelring med hull i den ene enden og fire prikker
-på rad -->
+![Den ferdige modellen i BlocksCAD: en brikke med hull i den ene enden og
+fire prikker på rad](nokkelring_modell.png)
+
+<!-- BILDE: bytt til foto av ferdig print -->
 
 
 # Steg 1: Lag brikken {.activity}
@@ -74,8 +76,8 @@ Sylinderen som skal skjæres bort, bør stikke litt ut over og under brikken. Er
 den nøyaktig like høy som brikken, kan det bli en tynn hinne igjen der hullet
 skulle vært.
 
-<!-- BILDE: Klossene forskjell, kube og translatere med sylinder, og brikken med
-hull i 3D-vinduet -->
+![Klossen forskjell med kube øverst og translatere med sylinder i minus. I
+3D-vinduet har brikken et rundt hull i den ene enden.](brikke_hull.png)
 
 
 # Steg 3: Lag én prikk {.activity}
@@ -105,11 +107,12 @@ ber BlocksCAD gjenta den. Hver gang flytter vi prikken 7 mm bortover.
 - [ ] Dra ut `tell med i fra 1 til 10 med 1` (count with i from 1 to 10 by 1)
   fra **Sløyfe** (Loops). Endre 10 til 4. Da går løkka fire ganger, og `i` er 1,
   2, 3 og 4.
+  La avkrysningsboksen `innhylling` stå av.
 
 - [ ] Dra `translatere`-klossen med prikken inn i løkka.
 
 - [ ] Nå skal `X` i `translatere` regne ut hvor prikken skal være. Dra en
-  regneblokk fra **Matte** (Math) inn i `X`-feltet og lag `10 + 7 × i`. Du
+  regneblokk fra **Matte** (Math) inn i `X`-feltet og lag `10 + 7 x i`. Du
   trenger to regneblokker inni hverandre, og variabelen `i` finner du under
   **Variabler** (Variables).
 
@@ -160,8 +163,9 @@ Sammen med en voksen:
 - [ ] Ikke ta på dysen eller platen. Vent til den voksne sier at nøkkelringen
   kan tas ut.
 
-<!-- BILDE: De ferdige klossene for nøkkelringen: union med forskjell og løkke
--->
+![De ferdige klossene for nøkkelringen: union med forskjell øverst og løkka
+tell med i fra 1 til 4 i pluss. I 3D-vinduet har brikken et hull og fire
+prikker på rad.](nokkelring_klosser.png)
 
 ## Utfordring {.challenge}
 

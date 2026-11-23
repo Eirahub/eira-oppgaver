@@ -23,7 +23,18 @@ __Tidsbruk__: 45 til 60 minutter, pluss 10 til 15 minutter printing
 
 ## Kompetansemål {.challenge}
 
-TODO for eier: ikke satt. Se [udir.no](https://www.udir.no/lk20/).
+- [ ] __Matematikk, 6. trinn__: måle radius, diameter og omkrins i sirklar og
+  utforske og forklare samanhengen mellom pi og diameteren i ein sirkel
+
+- [ ] __Matematikk, 6. trinn__: beskrive og utforske eigenskapar ved to- og
+  tredimensjonale figurar og forklare kva for eigenskapar figurane har til
+  felles, og kva for eigenskapar som skil figurane frå kvarandre
+
+- [ ] __Kunst og håndverk, 7. trinn__: bruke digitale verktøy til å planlegge og
+  presentere prosesser og produkter
+
+- [ ] __Kunst og håndverk, 10. trinn__: utvikle løsninger gjennom en stegvis
+  designprosess og vurdere holdbarhet, funksjon og estetisk uttrykk
 
 ## Forslag til vurderingskriterier {.challenge}
 
