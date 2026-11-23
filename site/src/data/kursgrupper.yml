@@ -18,6 +18,8 @@
   courses: [java]
 - title: Elektronikk og roboter
   courses: [arduino, legomindstorms, raspberry_pi]
+- title: 3D-printing
+  courses: [3d_print]
 - title: Apper
   courses: [appinventor]
 - title: Verktøy
