@@ -1,5 +1,5 @@
 // Videoene til nettsiden. De ligger som filer på GitHub-releasen «videoer», ikke i git.
-// Filnavnet er <kurs>-<hash>.mp4 (og .jpg for plakaten). Hashen regnes av manuset, alle
+// Filnavnet er <kurs>-<hash>.mp4 (<kurs>-lkk-<hash>.mp4 med SITE_PROFILE=lkk) (og .jpg for plakaten). Hashen regnes av manuset, alle
 // bildene det bruker, generatoren og HyperFrames-versjonen, så en endring gir et nytt navn.
 //
 //   node site/video/videoer.mjs            rendre og laste opp det som mangler, hente alt
@@ -13,6 +13,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import YAML from 'yaml';
+import { PROFIL, SUF } from './merke.mjs';
 
 const HERE = path.dirname(new URL(import.meta.url).pathname);
 const REPO = path.resolve(HERE, '..', '..');
@@ -39,11 +40,11 @@ function filesOf(manus) {
   return out;
 }
 
-const common = [path.join(HERE, 'lag.mjs'), path.join(SITE, 'profiles/lkk/public/lkk-logo.png'),
+const common = [path.join(HERE, 'lag.mjs'), path.join(HERE, 'merke.mjs'), path.join(SITE, 'profiles/lkk/public/lkk-logo.png'),
   path.join(SITE, 'public/fonts/baloo-2-latin-700-normal.woff2'), path.join(SITE, 'public/fonts/inter-latin-wght-normal.woff2')];
 
 function hashOf(files, extra = '') {
-  const h = crypto.createHash('sha256').update(`hyperframes@${HF_VERSION}\n${extra}`);
+  const h = crypto.createHash('sha256').update(`hyperframes@${HF_VERSION}\n${PROFIL}\n${extra}`);
   for (const f of files) h.update(path.relative(REPO, f)).update(read(f));
   return h.digest('hex').slice(0, 10);
 }
@@ -56,11 +57,11 @@ for (const f of fs.readdirSync(path.join(HERE, 'kurs')).filter((f) => f.endsWith
   const manus = YAML.parse(fs.readFileSync(manusFile, 'utf8'));
   const files = [manusFile, ...common, ...filesOf(manus).map(resolveSrc)];
   videos.push({
-    id: kurs, key: `${kurs}-${hashOf(files)}`,
+    id: kurs, key: `${kurs}${SUF}-${hashOf(files)}`,
     tekst: [...manus.skudd.map((s) => s.text), 'Hva vil du lage?'],
     kreditt: manus.kreditt ?? null,
     render: () => execFileSync('node', [path.join(HERE, 'lag.mjs'), '--render', kurs], { cwd: REPO, stdio: 'inherit', env: { ...process.env, HYPERFRAMES: HF } }),
-    out: path.join(HERE, 'build', 'out', `${kurs}.mp4`),
+    out: path.join(HERE, 'build', 'out', `${kurs}${SUF}.mp4`),
   });
 }
 {
@@ -68,18 +69,18 @@ for (const f of fs.readdirSync(path.join(HERE, 'kurs')).filter((f) => f.endsWith
   const imgs = [...src.matchAll(/img: '([^']+)'/g)].map(([, p]) => (p.startsWith('a:') ? path.join(HERE, 'assets', p.slice(2)) : path.join(REPO, 'src', p)));
   const files = [path.join(HERE, 'forside.mjs'), ...common.slice(1), path.join(HERE, 'assets/sk0.png'), path.join(HERE, 'assets/shark.png'), ...imgs];
   videos.push({
-    id: 'forside', key: `forside-${hashOf(files)}`, poster: 8,
+    id: 'forside', key: `forside${SUF}-${hashOf(files)}`, poster: 8,
     tekst: ['Alt starter med én kloss.', 'Scratch, Python, micro:bit, roboter, Minecraft, spill, nettsider, animasjon og elektronikk.', 'Hva vil du lage?'],
     kreditt: '«Dash & Dot Robots», Texas State Library and Archives Commission, CC BY 2.0, beskåret.',
     render: () => {
       execFileSync('node', [path.join(HERE, 'forside.mjs')], { cwd: REPO, stdio: 'inherit' });
-      const dir = path.join(HERE, 'build', 'forside'), raw = path.join(HERE, 'build', 'out', 'forside.raw.mp4');
+      const dir = path.join(HERE, 'build', 'forside' + SUF), raw = path.join(HERE, 'build', 'out', `forside${SUF}.raw.mp4`);
       fs.mkdirSync(path.dirname(raw), { recursive: true });
       execFileSync(HF.split(' ')[0], [...HF.split(' ').slice(1), 'render', '--quality', 'looks', '-o', raw], { cwd: dir, stdio: 'inherit' });
-      execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', raw, '-c:v', 'libx264', '-crf', '28', '-preset', 'slow', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', '-an', path.join(HERE, 'build', 'out', 'forside.mp4')]);
+      execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', raw, '-c:v', 'libx264', '-crf', '28', '-preset', 'slow', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', '-an', path.join(HERE, 'build', 'out', `forside${SUF}.mp4`)]);
       fs.rmSync(raw);
     },
-    out: path.join(HERE, 'build', 'out', 'forside.mp4'),
+    out: path.join(HERE, 'build', 'out', `forside${SUF}.mp4`),
   });
 }
 
