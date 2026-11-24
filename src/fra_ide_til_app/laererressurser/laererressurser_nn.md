@@ -53,7 +53,7 @@ at eleven har lært noko.
 | Kriterium | Låg måloppnåing | Middels måloppnåing | Høg måloppnåing |
 |---|---|---|---|
 | Behov og kundar | Problemet er gjetta. Få eller ingen intervju | Tre intervju og ei problemsetning som byggjer på dei | Problemsetning og jobbsetning med orda til kundane. Antakingar er lista og testa |
-| Forretningsidé og verdi | Ideen er skildra, men ikkje kven han er for | Verdiforslag og forretningsmodell er skildra | Kundeverdi og forretningsverdi er grunngitt, med kostnader og alternativ |
+| Forretningsidé og verdi | Ideen er skildra, men ikkje kven han er for | Jobben er vurdert. Verdiforslag og forretningsmodell er skildra | Jobben er viktig, vanskeleg og kjem igjen, med prov frå intervjua. Forretningsmodellen passar til jobben, med kostnader og alternativ |
 | Plan | `PLAN.md` manglar delar | `PLAN.md` er fylt ut, med MVP og ting som ikkje er med | Mål, antakingar og akseptansekriterium heng saman. MVP-en er så lita som mogleg |
 | Arbeid med KI | Kopierer svar utan å forstå dei | Gir tydelege promptar og kan forklare det meste av koden | Bruker plan, grenser og metapromptar, og kan forklare feil KI-en gjorde |
 | Kvalitet og testing | Appen er ikkje testa | Historiene er testa, òg på mobil | Testa med kundar, universell utforming og rutinar for endringar |

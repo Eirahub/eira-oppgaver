@@ -96,6 +96,11 @@ Når elevane testar med ekte kundar, har dei ansvar for ekte folk.
 - [ ] Ta ned appen og slett dataa når testen eller kurset er over, viss ikkje
   nokon tek over ansvaret.
 
+- [ ] Appar som koplar saman folk som ikkje kjenner kvarandre, til dømes for å
+  trene saman, selje brukt eller hjelpe heime hos andre, skal ikkje i ekte drift
+  i kurset utan at ein vaksen tek ansvar for moderering. Lag ein prototype med
+  testdata, eller ein versjon utan direkte kontakt.
+
 
 # Ungdomsbedrift og ekte drift {.activity}
 

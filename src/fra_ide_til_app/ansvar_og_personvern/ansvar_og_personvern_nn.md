@@ -75,6 +75,13 @@ love noko som ikkje stemmer. Prisen skal vere klar før kunden bestiller.
 - [ ] Sender appen e-post eller meldingar med reklame? Då må kunden ha sagt ja
   til det først.
 
+- [ ] Tener de pengar på lenkjer (affiliate) eller reklame? Merk tydeleg at det
+  er reklame. Er brukarane born og unge, er reglane for reklame strengare.
+
+- [ ] Bruker reklamen eller lenkjene sporing av brukarane, til dømes
+  informasjonskapslar? Det krev ofte samtykke. Sjekk hos Forbrukartilsynet og
+  Datatilsynet kva som gjeld.
+
 
 # Steg 4: Løyndomar og tryggleik {.activity}
 

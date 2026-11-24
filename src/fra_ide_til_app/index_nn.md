@@ -3,10 +3,11 @@ title: Frå idé til app med KI
 language: nn
 ---
 
-Har du ein idé til ei teneste, eller driv du ei ungdomsbedrift som treng ein
-app? I dette kurset går du frå eit ekte behov hos ein kunde til ein app som
-verkar og kan testast av kundane. Du skriv ikkje koden sjølv. Du beskriv appen
-så godt at ein KI kan byggje han. Det blir ofte kalla **vibe coding**.
+Ser du eit problem i samfunnet rundt deg, som at eldre fell utanfor digitalt,
+eller at idrettslaget manglar frivillige? Eller driv du ei ungdomsbedrift som
+treng ein app? I dette kurset går du frå eit ekte problem til ein app som verkar
+og kan testast av dei som har problemet. Du skriv ikkje koden sjølv. Du beskriv
+appen så godt at ein KI kan byggje han. Det blir ofte kalla **vibe coding**.
 
 Det viktigaste skjer før koden. Du finn eit problem, snakkar med kundar, lagar
 ein forretningsidé og ein plan. Så designar du appen i **Google Stitch** og

@@ -73,6 +73,13 @@ noe som ikke stemmer. Prisen skal være klar før kunden bestiller.
 - [ ] Sender appen e-post eller meldinger med reklame? Da må kunden ha sagt ja
   til det først.
 
+- [ ] Tjener dere penger på lenker (affiliate) eller reklame? Merk tydelig at
+  det er reklame. Er brukerne barn og unge, er reglene for reklame strengere.
+
+- [ ] Bruker reklamen eller lenkene sporing av brukerne, for eksempel
+  informasjonskapsler? Det krever ofte samtykke. Sjekk hos Forbrukertilsynet og
+  Datatilsynet hva som gjelder.
+
 
 # Steg 4: Hemmeligheter og sikkerhet {.activity}
 

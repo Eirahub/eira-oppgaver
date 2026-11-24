@@ -13,7 +13,10 @@ ikkje med appen. Vi startar med folk. Du skal finne eit ekte problem, snakke
 med tre moglege kundar og skrive problemet i éi setning.
 
 I heile kurset følgjer vi eit døme: **Sykkelvasken**, ei elevbedrift som vaskar
-og smører syklar i skulegarden. Du lagar din eigen idé ved sida av.
+og smører syklar i skulegarden. Du lagar din eigen idé ved sida av. Mange
+ungdomsbedrifter startar i staden med eit problem i samfunnet, som klede som
+blir kasta.
+Kurset verkar for begge.
 
 ![Illustrasjon av ei notatblokk med tre kundeintervju og ei setning om
 problemet understreka nedst](intervju_nn.png)
@@ -26,22 +29,44 @@ Penn og papir, eller ei tekstfil. Ingen konto og ingen app.
 # Steg 1: Kvar gneg det? {.activity}
 
 Eit godt problem er noko folk irriterer seg over, bruker tid på eller betaler
-for å sleppe.
+for å sleppe. Det kan vere eit problem for kundane til ei bedrift, eller eit
+problem i samfunnet, som at eldre fell utanfor digitalt.
 
 ## Sjekkliste {.check}
 
 - [ ] Skriv ned fem ting du, familien din eller lokale bedrifter synest er
   tungvint. Tenk på sal, service, bestilling, venting og oversikt.
 
+- [ ] Skriv ned tre problem i samfunnet rundt deg: på skulen, i nærmiljøet
+  eller blant ungdom. Tenk på miljø, helse, frivilligheit og
+  fritid.
+
 - [ ] Har du eller klassen ei ungdomsbedrift? Skriv ned kva som er tungvint i
   drifta: bestillingar, lager, kasse eller å nå kundane.
 
 - [ ] Vel eitt problem du har lyst til å jobbe med.
 
+- [ ] Er problemet stort, som kledeavfall? Gjer det mindre: Kven har problemet,
+  kvar og når? «Kledeavfall» kan til dømes bli «Elevar kjøper nye klede til
+  skuleballet og bruker dei éin gong».
+
 ## Døme {.tip}
 
 Sykkelvasken tek imot bestillingar på Snap og i friminutta. Dei gløymer
 avtalar, og to kundar kjem ofte på same tid.
+
+## Idear frå ungdomsbedrifter {.tip}
+
+| Problem i samfunnet | Gjort konkret | Idé |
+|---|---|---|
+| Kledeavfall | Elevar kjøper nye klede til skuleballet og bruker dei éin gong | Ein app der elevar leiger ut og lånar festklede av kvarandre |
+| Eldre fell utanfor digitalt | Besteforeldre får ikkje hjelp med mobilen når familien bur langt unna | Ei teneste der eldre bestiller ein ungdom som hjelper med mobilen |
+| Frivillige manglar | Idrettslaget får ikkje nok foreldre til dugnadsvakter | Ein app der foreldre tek og byter dugnadsvakter |
+| Lag og klassar treng pengar | Klassen sel dorull og samlar pant for å få råd til klassetur, og det tek mange kveldar | Ein app der handel via ei lenkje gir laget ein del av salet |
+
+Appar som koplar saman folk som ikkje kjenner kvarandre, som tenesta for eldre,
+har særleg høg risiko.
+Sjå [Tryggleik og risiko](../sikkerhet_og_risiko/sikkerhet_og_risiko_nn).
 
 
 # Steg 2: Snakk med tre kundar {.activity}
@@ -70,7 +95,9 @@ kva dei gjer i dag, ikkje om dei likar ideen din. Alle seier ja til ein idé.
   2. Korleis løyser du det i dag?
   3. Kva er det verste med det?
   4. Har du prøvd noko anna? Kvifor slutta du?
-  5. Om du kunne trylle, korleis skulle det vore?
+  5. Kor ofte skjer det?
+  6. Har du brukt pengar eller mykje tid på å løyse det? På kva?
+  7. Om du kunne trylle, korleis skulle det vore?
 
 - [ ] Ikkje skriv ned namn eller noko anna som viser kven dei er. Skriv
   «Kunde 1», «Kunde 2» og «Kunde 3».
@@ -108,6 +135,14 @@ og håpar det er ledig.
 
 Byt ut det som står i klammer. Legg aldri inn namn, passord eller
 personopplysningar om andre. Sjå kvifor promptane verkar, og lag dine eigne.
+
+- **Gjer eit samfunnsproblem konkret:**
+
+  ```
+  Eg vil løyse [problem i samfunnet]. Hjelp meg å gjere det konkret:
+  Kven har problemet mest, kvar og når skjer det, og kva gjer dei i dag?
+  Gi tre forslag, og still meg spørsmål før du vel.
+  ```
 
 - **Finn antakingane:**
 
