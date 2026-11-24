@@ -23,6 +23,10 @@ annerledes, men `PLAN.md`, reglene og «plan før kode» er de samme. Sjekk selv
 aldersgrense, pris og vilkår for verktøyet du velger. Er du under
 aldersgrensen, kan en forelder eller lærer stå som ansvarlig for kontoen.
 
+Appbyggere som Base44, Lovable og Bolt lager hele appen i nettleseren. Hva det
+betyr for pris, kode og data, står i steg 4 i [Hvilken type
+app?](../typer_apper/typer_apper)
+
 ## Før du starter {.tip}
 
 Du trenger [VS Code](../../vs_code/installer_vs_code/installer_vs_code) og

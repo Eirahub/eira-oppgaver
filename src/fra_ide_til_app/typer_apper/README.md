@@ -18,7 +18,7 @@ informasjonsteknologi
 
 __Anbefalte trinn__: Videregående
 
-__Tema__: Typer apper, forretningsmodeller, vilkår, kostnader
+__Tema__: Typer apper, appbyggere med KI, forretningsmodeller, vilkår, kostnader
 
 __Tidsbruk__: 60 til 90 minutter
 
