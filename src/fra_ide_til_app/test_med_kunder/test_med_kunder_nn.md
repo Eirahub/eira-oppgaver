@@ -19,10 +19,40 @@ ei liste med neste versjon](test_nn.png)
 
 Du treng ein MVP som verkar, frå [Bygg MVP-en](../bygg_mvp/bygg_mvp_nn), og han
 må liggje på GitHub, sjå [Del koden på
-GitHub](../../git/del_pa_github/del_pa_github).
+GitHub](../../git/del_pa_github/del_pa_github). Gjer [Tryggleik og
+risiko](../sikkerhet_og_risiko/sikkerhet_og_risiko_nn) og [Ansvar og
+personvern](../ansvar_og_personvern/ansvar_og_personvern_nn) først. No skal
+ekte folk bruke appen.
 
 
-# Steg 1: Publiser {.activity}
+# Steg 1: Klar til å publisere? {.activity}
+
+Før appen kjem ut til ekte kundar, sjekkar du at han er trygg nok. Dette er
+stega mange hoppar over, og som gjer at appar blir hacka den første veka.
+
+## Sjekkliste {.check}
+
+- [ ] Kva risikonivå er appen på? Er det skrive i `PLAN.md`?
+
+- [ ] Har du ei `RISIKO.md` med tiltak for dei største risikoane?
+
+- [ ] Ingen passord, API-nøklar eller andre løyndomar i koden eller i repoet.
+
+- [ ] Samlar appen inn personopplysningar? Då må personvernerklæringa liggje i
+  appen, og du må vite kvar dataa blir lagra og når dei blir sletta.
+
+- [ ] Bruker du oppdikta testdata eller ekte data? Ekte data berre når alt over
+  er på plass.
+
+- [ ] Er KI-laga innhald som kan mistydast, merkt?
+
+- [ ] Har ein vaksen som står som ansvarleg, sett gjennom dette viss du er
+  under aldersgrensa for tenestene?
+
+Kan du ikkje kryssa av alt? Rett det før du publiserer.
+
+
+# Steg 2: Publiser {.activity}
 
 For å teste med kundar treng du ei lenkje. **GitHub Pages** er gratis og passar
 godt til ein prototype.
@@ -43,14 +73,17 @@ godt til ein prototype.
 Det finst mange tenester for publisering, som GitHub Pages, Netlify, Vercel og
 Cloudflare Pages. Nokre gratisplanar er berre for test, skule eller privat
 bruk. Skal ungdomsbedrifta bruke appen til ekte sal, må du sjekke at vilkåra
-tillèt det. Det ser du på i [Kva type app?](../typer_apper/typer_apper_nn)
+tillèt det. Bruk det du fann i [Kva type app?](../typer_apper/typer_apper_nn)
 
 
-# Steg 2: La kundane teste {.activity}
+# Steg 3: La kundane teste {.activity}
 
 ## Sjekkliste {.check}
 
-- [ ] Send lenkja til tre kundar, gjerne dei same som du intervjua.
+- [ ] Send lenkja til tre kundar, gjerne dei same som du intervjua. Fortel
+  kva testen er til, at du skriv ned svara utan namn, og at dei kan seie nei
+  eller slutte når dei vil. Er ein testperson under 15 år, spør ein forelder
+  først.
 
 - [ ] Gi kvar kunde ei oppgåve, til dømes «Bestill vask i morgon». Sjå på medan
   dei gjer det, viss du kan. Ikkje hjelp.
@@ -65,7 +98,7 @@ tillèt det. Det ser du på i [Kva type app?](../typer_apper/typer_apper_nn)
 - [ ] Skriv ned svara utan namn.
 
 
-# Steg 3: Neste versjon {.activity}
+# Steg 4: Neste versjon {.activity}
 
 Du kan ikkje gjere alt kundane ønskjer. Vel det som betyr mest.
 
@@ -82,7 +115,7 @@ Du kan ikkje gjere alt kundane ønskjer. Vel det som betyr mest.
 - [ ] Flytt resten av ønska til **Seinare**.
 
 
-# Steg 4: Pitch {.activity}
+# Steg 5: Pitch {.activity}
 
 Ein **pitch** er ein kort presentasjon som skal få folk til å tru på ideen. Han
 kan brukast på messer, i konkurransar og når du skal få nye kundar.

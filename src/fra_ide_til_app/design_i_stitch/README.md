@@ -1,5 +1,5 @@
 ---
-title: Lærerveiledning - Design appen i Google Stitch
+title: Lærerveiledning - Design appen med KI
 author: Tor Einar Enne
 language: nb
 ---

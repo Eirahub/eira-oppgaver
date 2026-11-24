@@ -10,8 +10,9 @@ at en KI kan bygge den. Det kalles ofte **vibe coding**.
 
 Det viktigste skjer før koden. Du finner et problem, snakker med kunder, lager
 en forretningsidé og en plan. Så designer du appen i **Google Stitch** og
-bygger den med **Claude Code**. Til slutt lærer du hva som skal til for ulike
-typer apper, og hvilket ansvar du har når appen har ekte kunder.
+bygger den med **Claude Code**. Før ekte kunder får prøve appen, lærer du hva
+som skal til for ulike typer apper, hvilke risikoer de har, og hvilket ansvar
+du har.
 
 Kurset passer for videregående, særlig salg, service og reiseliv,
 entreprenørskap, markedsføring og elever som starter egen bedrift. Du trenger
@@ -42,6 +43,28 @@ Underveis i del 2 trenger du:
 
 Du trenger ikke kunne programmere, men du bør kunne kjenne igjen HTML, CSS og
 JavaScript.
+
+## Tilpass kurset til appen
+
+Ikke alle apper trenger alle stegene. Hvor mye du må gjøre, avhenger av
+risikonivået til appen. Du finner nivået i [Sikkerhet og
+risiko](sikkerhet_og_risiko/sikkerhet_og_risiko), steg 1 til 3, så de stegene
+tar alle.
+
+| Nivå | Eksempel | Dette kan du hoppe over eller korte ned |
+|---|---|---|
+| **1. Bare lokalt** | Spill eller kalkulator som ikke publiseres for andre | Sikkerhet og risiko steg 4 til 6 (skriv bare noen linjer i `RISIKO.md`). Ansvar og personvern steg 1, 2 og 6. Typer apper steg 2 og 3 hvis dere ikke selger noe |
+| **2. Åpen nettside** | Meny, prisliste, info om bedriften | Ansvar og personvern steg 1 og 2, så lenge appen ikke samler inn noe eller har sporing |
+| **3. Samler inn data** og høyere | Bestilling, påmelding, innlogging, betaling | Ingenting. Ta alle oppgavene |
+
+Dette tar alle, uansett nivå: Finn behovet, Forretningsidéen, Planen, Bygg
+MVP-en og steg 1 i Test med kunder, sjekken før publisering. Har appen ingen
+kunder som skal kjenne den igjen, for eksempel et verktøy bare for dere selv,
+kan dere også hoppe over Gi appen et eget uttrykk. Designet kan skisses på
+papir i stedet for med KI.
+
+Endrer appen seg, for eksempel ved at dere legger til et skjema, går den opp et
+nivå. Da tar du stegene du hoppet over. Er du i tvil om nivået, ta alt.
 
 ## Verktøy, vilkår og alder
 

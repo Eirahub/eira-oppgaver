@@ -43,8 +43,8 @@ historiene i `PLAN.md` og er sjekket for universell utforming.
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Forutsetninger__: [Kom i gang med Claude
-  Code](../kom_i_gang_claude_code/kom_i_gang_claude_code), [Git i VS
+- [ ] __Forutsetninger__: [Kom i gang med en
+  KI-kodeassistent](../kom_i_gang_claude_code/kom_i_gang_claude_code), [Git i VS
   Code](../../vs_code/git_i_vs_code/git_i_vs_code) og [Tilbake i
   tid](../../git/tidsreise/tidsreise).
 

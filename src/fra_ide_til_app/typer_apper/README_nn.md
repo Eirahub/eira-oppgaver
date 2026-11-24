@@ -44,7 +44,7 @@ Eleven kan grunngi valet av type app, har funne og sitert vilkåra til minst
 
 - [ ] __Føresetnader__:
   [Forretningsideen](../forretningsideen/forretningsideen_nn).
-  Oppgåva kan gjerast før eller etter del 2.
+  Oppgåva kan gjerast før del 2, men må gjerast før Test med kundar.
 
 - [ ] __Utstyr__: PC med nettlesar.
 

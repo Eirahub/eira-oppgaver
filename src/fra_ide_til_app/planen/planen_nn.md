@@ -143,12 +143,57 @@ Samle alt i éi fil. Denne fila gir du til KI-en seinare.
   - Lett å lese: god kontrast og store knappar
   ```
 
+# Steg 6: Fordel rollene {.activity}
+
+I eit programvareselskap lagar mange roller ein app saman. Når KI-en skriv
+koden, forsvinn ikkje dei andre rollene. Då er det de som har dei. Den
+vanlegaste feilen i vibe coding er å la KI-en vere utviklar og gløyme alle dei
+andre.
+
+| Rolle | Passar på | Viktigast i oppgåva |
+|---|---|---|
+| **Produktleiar** (product manager) | At appen løyser eit ekte behov. Bestemmer kva som blir bygd no, og kva som ventar | Finn behovet, Planen, Test med kundar |
+| **Designar** | At appen er lett å bruke og ser ut som bedrifta | Design appen med KI, Gi appen eit eige uttrykk |
+| **Promptskrivar** (prompt engineer) | At KI-en får tydelege beskjedar, nok samanheng og klare grenser | Kom i gang med ein KI-kodeassistent, Bygg MVP-en |
+| **Seniorutviklar** | At løysinga er enkel nok, at de forstår koden, og at alt er lagra i Git. Seier nei når KI-en lagar noko for komplisert | Planen steg 4, Bygg MVP-en |
+| **Testar** (QA engineer) | At kvar MVP-historie verkar, òg på mobil, for skjermlesar og når brukaren gjer noko uventa | Bygg MVP-en, Test med kundar |
+| **Tryggleikstestar** (pentester) | At appen toler åtak. Testar berre eigne system | Tryggleik og risiko |
+| **Drift** (DevOps engineer) | Publisering, domene, løyndomar, tryggleikskopi, kostnader, og å kunne gå tilbake når noko går gale | Kva type app?, Tryggleik og risiko steg 6, Test med kundar |
+| **Personvernansvarleg** | Personopplysningar, personvernerklæring og reglar | Ansvar og personvern |
+| **Sal og kundeservice** | Kontakt med kundane, pitch, spørsmål og klager | Forretningsideen, Test med kundar |
+
+## Sjekkliste {.check}
+
+- [ ] Jobbar de i gruppe? Gi kvar person éi eller to roller. Skriv namna i
+  `PLAN.md` under ei ny overskrift `## Roller`.
+
+- [ ] Jobbar du åleine? Du har alle rollene. Byt rolle med vilje: Når du er
+  ferdig med ei MVP-historie, gå gjennom ho som testar, og deretter som
+  tryggleikstestar.
+
+- [ ] Du kan be KI-en spele ei rolle, til dømes:
+
+  ```
+  Du er ein erfaren testar. Lag ei liste med ti ting som kan gå gale når
+  ein kunde bestiller i appen. Ikkje endre koden.
+  ```
+
+  KI-en kan hjelpe, men det er de som har ansvaret.
+
+## Tips {.protip}
+
+Den viktigaste rolla er ofte produktleiar, fordi ho seier nei. KI-en kan byggje
+nesten kva som helst på kort tid. Det betyr ikkje at appen treng det.
+
+
 ## Test deg sjølv {.flag}
 
 - [ ] Gi planen til ein medelev. Kan dei forklare deg kva appen gjer, utan at
   du seier noko?
 
 - [ ] Om dei spør om noko, manglar det i planen. Skriv det inn.
+
+- [ ] Veit alle i gruppa kva rolle dei har, og kva dei skal passe på?
 
 ## Lagre {.save}
 

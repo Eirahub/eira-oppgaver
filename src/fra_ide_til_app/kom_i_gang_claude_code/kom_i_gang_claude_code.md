@@ -1,5 +1,5 @@
 ---
-title: Kom i gang med Claude Code
+title: Kom i gang med en KI-kodeassistent
 author: Tor Einar Enne
 language: nb
 ---

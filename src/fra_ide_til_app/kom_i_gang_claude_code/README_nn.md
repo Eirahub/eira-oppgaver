@@ -1,5 +1,5 @@
 ---
-title: Lærarrettleiing - Kom i gang med Claude Code
+title: Lærarrettleiing - Kom i gang med ein KI-kodeassistent
 author: Tor Einar Enne
 translator: Tor Einar Enne
 language: nn
@@ -37,8 +37,8 @@ har lese og justert planen frå Claude Code før han vart godkjend.
 
 ## Føresetnader og utstyr {.challenge}
 
-- [ ] __Føresetnader__: [Design appen i Google
-  Stitch](../design_i_stitch/design_i_stitch_nn), [Installer VS
+- [ ] __Føresetnader__: [Design appen med
+  KI](../design_i_stitch/design_i_stitch_nn), [Installer VS
   Code](../../vs_code/installer_vs_code/installer_vs_code) og helst [Git i VS
   Code](../../vs_code/git_i_vs_code/git_i_vs_code).
 

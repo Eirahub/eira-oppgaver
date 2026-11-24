@@ -54,6 +54,16 @@ kva dei gjer i dag, ikkje om dei likar ideen din. Alle seier ja til ein idé.
 - [ ] Finn tre personar som har problemet. Det kan vere medelevar, lærarar,
   foreldre eller ein butikk.
 
+- [ ] Før du startar, sei dette med eigne ord:
+
+  ```
+  Eg lagar ein app i eit skuleprosjekt. Eg vil høyre korleis du gjer dette i
+  dag. Eg skriv ned svara utan namn, og bruker dei berre i prosjektet. Du
+  kan la vere å svare, eller stoppe når du vil. Er det greitt?
+  ```
+
+  Er personen under 15 år, spør ein forelder først.
+
 - [ ] Still desse spørsmåla, og skriv ned svara med deira eigne ord:
 
   1. Fortel om sist du opplevde dette. Kva skjedde?

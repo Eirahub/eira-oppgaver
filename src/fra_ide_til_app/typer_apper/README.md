@@ -43,7 +43,7 @@ Eleven kan begrunne valg av type app, har funnet og sitert vilkårene til minst
 
 - [ ] __Forutsetninger__:
   [Forretningsidéen](../forretningsideen/forretningsideen).
-  Oppgaven kan gjøres før eller etter del 2.
+  Oppgaven kan gjøres før del 2, men må gjøres før Test med kunder.
 
 - [ ] __Utstyr__: PC med nettleser.
 

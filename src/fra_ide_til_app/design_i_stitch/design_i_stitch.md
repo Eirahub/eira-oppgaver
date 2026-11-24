@@ -1,5 +1,5 @@
 ---
-title: Design appen i Google Stitch
+title: Design appen med KI
 author: Tor Einar Enne
 language: nb
 ---

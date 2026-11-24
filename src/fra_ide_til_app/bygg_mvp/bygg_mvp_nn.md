@@ -17,9 +17,9 @@ lagre i Git, neste steg](bygg_nn.png)
 
 ## Før du startar {.tip}
 
-Gjer [Kom i gang med Claude
-Code](../kom_i_gang_claude_code/kom_i_gang_claude_code_nn) først. Du bør kunne
-lage ein commit, sjå [Git i VS
+Gjer [Kom i gang med ein
+KI-kodeassistent](../kom_i_gang_claude_code/kom_i_gang_claude_code_nn) først.
+Du bør kunne lage ein commit, sjå [Git i VS
 Code](../../vs_code/git_i_vs_code/git_i_vs_code), og det hjelper å ha gjort
 [Feilsøking i VS Code](../../vs_code/feilsoking/feilsoking).
 

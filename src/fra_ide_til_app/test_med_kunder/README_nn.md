@@ -18,7 +18,8 @@ informasjonsteknologi
 
 __Tilrådde trinn__: Vidaregåande
 
-__Tema__: Publisering, brukartest, prioritering, pitch
+__Tema__: Sjekk før publisering, publisering, samtykke, brukartest,
+prioritering, pitch
 
 __Tidsbruk__: 2 til 3 timar, pluss tid til kundetest
 
@@ -41,7 +42,9 @@ byggjer på det kundane sa. Pitchen har alle fem delane og held tida.
 
 ## Føresetnader og utstyr {.challenge}
 
-- [ ] __Føresetnader__: [Bygg MVP-en](../bygg_mvp/bygg_mvp_nn), [Del koden på
+- [ ] __Føresetnader__: [Bygg MVP-en](../bygg_mvp/bygg_mvp_nn), [Tryggleik og
+  risiko](../sikkerhet_og_risiko/sikkerhet_og_risiko_nn), [Ansvar og
+  personvern](../ansvar_og_personvern/ansvar_og_personvern_nn), [Del koden på
   GitHub](../../git/del_pa_github/del_pa_github) og [Publiser ei nettside med
   GitHub Pages](../../git/github_pages/github_pages).
 

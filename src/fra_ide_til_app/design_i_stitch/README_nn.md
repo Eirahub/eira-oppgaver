@@ -1,5 +1,5 @@
 ---
-title: Lærarrettleiing - Design appen i Google Stitch
+title: Lærarrettleiing - Design appen med KI
 author: Tor Einar Enne
 translator: Tor Einar Enne
 language: nn

@@ -177,6 +177,35 @@ Bruk hendelsen i undervisningen. Hva gikk galt, hvilket tiltak ville stoppet
 det, og hva skriver eleven inn i `RISIKO.md` nå?
 
 
+# Mal: informasjon til foresatte {.activity}
+
+Tilpass teksten til kurset og verktøyene dere bruker, og send den før kurset.
+
+```
+Hei!
+
+I [fag/klubb] skal elevene ta kurset «Fra idé til app med KI». De finner et
+behov hos ekte kunder, planlegger en app og bygger den med hjelp av
+KI-verktøy. Målet er å lære å planlegge, vurdere risiko og ta ansvar, ikke
+bare å kode.
+
+Verktøy og kontoer
+Vi bruker [verktøy]. Noen verktøy har aldersgrense, og da står
+[lærer / forelder] som ansvarlig for kontoen. [Hvem betaler, og hva det
+koster, eller at alt er gratis.]
+
+Personvern
+Elevene skal ikke legge inn personopplysninger i KI-verktøy. Intervjuer og
+tester med kunder skjer uten navn. Apper som samler inn data, sjekkes av
+[lærer] før de tas i bruk, og dataene slettes når kurset er over.
+
+Hva vi ber dere om
+[Samtykke til konto / godkjenning av kostnad / ingenting.]
+
+Spørsmål kan sendes til [navn og kontakt].
+```
+
+
 # Vilkår endrer seg {.activity}
 
 Verktøy, priser, aldersgrenser og vilkår endrer seg raskere enn kurset blir

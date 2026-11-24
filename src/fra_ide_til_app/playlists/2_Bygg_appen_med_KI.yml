@@ -1,0 +1,9 @@
+sortindex: 2
+title:
+  nb: 'Bygg appen med KI'
+  nn: 'Bygg appen med KI'
+  en: 'Build the app with AI'
+lessons:
+  - kom_i_gang_claude_code
+  - bygg_mvp
+  - eget_uttrykk

@@ -18,10 +18,41 @@ en liste med neste versjon](test.png)
 
 Du trenger en MVP som virker, fra [Bygg MVP-en](../bygg_mvp/bygg_mvp), og den
 må ligge på GitHub, se [Del koden på
-GitHub](../../git/del_pa_github/del_pa_github).
+GitHub](../../git/del_pa_github/del_pa_github). Gjør [Sikkerhet og
+risiko](../sikkerhet_og_risiko/sikkerhet_og_risiko) og [Ansvar og
+personvern](../ansvar_og_personvern/ansvar_og_personvern) først. Nå skal ekte
+folk bruke appen.
 
 
-# Steg 1: Publiser {.activity}
+# Steg 1: Klar til å publisere? {.activity}
+
+Før appen kommer ut til ekte kunder, sjekker du at den er trygg nok. Dette er
+stegene mange hopper over, og som gjør at apper blir hacket den første uka.
+
+## Sjekkliste {.check}
+
+- [ ] Hvilket risikonivå er appen på? Er det skrevet i `PLAN.md`?
+
+- [ ] Har du en `RISIKO.md` med tiltak for de største risikoene?
+
+- [ ] Ingen passord, API-nøkler eller andre hemmeligheter i koden eller i
+  repoet.
+
+- [ ] Samler appen inn personopplysninger? Da må personvernerklæringen ligge i
+  appen, og du må vite hvor dataene lagres og når de slettes.
+
+- [ ] Bruker du oppdiktede testdata eller ekte data? Ekte data bare når alt over
+  er på plass.
+
+- [ ] Er KI-laget innhold som kan misforstås, merket?
+
+- [ ] Har en voksen som står som ansvarlig, sett gjennom dette hvis du er under
+  aldersgrensen for tjenestene?
+
+Kan du ikke krysse av alt? Rett det før du publiserer.
+
+
+# Steg 2: Publiser {.activity}
 
 For å teste med kunder trenger du en lenke. **GitHub Pages** er gratis og passer
 godt til en prototype.
@@ -42,15 +73,18 @@ godt til en prototype.
 Det finnes mange tjenester for publisering, som GitHub Pages, Netlify, Vercel
 og Cloudflare Pages. Noen gratisplaner er bare for test, skole eller privat
 bruk. Skal ungdomsbedriften bruke appen til ekte salg, må du sjekke at
-vilkårene tillater det. Det ser du på i [Hvilken type
+vilkårene tillater det. Bruk det du fant i [Hvilken type
 app?](../typer_apper/typer_apper)
 
 
-# Steg 2: La kundene teste {.activity}
+# Steg 3: La kundene teste {.activity}
 
 ## Sjekkliste {.check}
 
-- [ ] Send lenken til tre kunder, gjerne de samme som du intervjuet.
+- [ ] Send lenken til tre kunder, gjerne de samme som du intervjuet. Fortell
+  hva testen er til, at du skriver ned svarene uten navn, og at de kan si nei
+  eller slutte når de vil. Er en testperson under 15 år, spør en forelder
+  først.
 
 - [ ] Gi hver kunde en oppgave, for eksempel «Bestill vask i morgen». Se på mens
   de gjør det, hvis du kan. Ikke hjelp.
@@ -65,7 +99,7 @@ app?](../typer_apper/typer_apper)
 - [ ] Skriv ned svarene uten navn.
 
 
-# Steg 3: Neste versjon {.activity}
+# Steg 4: Neste versjon {.activity}
 
 Du kan ikke gjøre alt kundene ønsker. Velg det som betyr mest.
 
@@ -82,7 +116,7 @@ Du kan ikke gjøre alt kundene ønsker. Velg det som betyr mest.
 - [ ] Flytt resten av ønskene til **Senere**.
 
 
-# Steg 4: Pitch {.activity}
+# Steg 5: Pitch {.activity}
 
 En **pitch** er en kort presentasjon som skal få folk til å tro på idéen. Den
 kan brukes på messer, i konkurranser og når du skal få nye kunder.

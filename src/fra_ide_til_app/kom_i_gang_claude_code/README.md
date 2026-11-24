@@ -1,5 +1,5 @@
 ---
-title: Lærerveiledning - Kom i gang med Claude Code
+title: Lærerveiledning - Kom i gang med en KI-kodeassistent
 author: Tor Einar Enne
 language: nb
 ---
@@ -36,8 +36,8 @@ har lest og justert planen fra Claude Code før den ble godkjent.
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Forutsetninger__: [Design appen i Google
-  Stitch](../design_i_stitch/design_i_stitch), [Installer VS
+- [ ] __Forutsetninger__: [Design appen med
+  KI](../design_i_stitch/design_i_stitch), [Installer VS
   Code](../../vs_code/installer_vs_code/installer_vs_code) og helst [Git i VS
   Code](../../vs_code/git_i_vs_code/git_i_vs_code).
 

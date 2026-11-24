@@ -20,7 +20,7 @@ __Anbefalte trinn__: Videregående
 
 __Tema__: Brukerhistorier, MVP, skjermflyt, datalagring, personvern
 
-__Tidsbruk__: 90 minutter
+__Tidsbruk__: 90 til 120 minutter
 
 ## Kompetansemål {.challenge}
 
@@ -71,6 +71,9 @@ et begrunnet valg av lagring.
 
 - Lær elevene at alt de skriver i `PLAN.md` blir sendt til KI-en. Ingen navn,
   telefonnumre eller passord i planen.
+
+- Steg 6 fordeler rollene i et programvareteam. Det er der gruppearbeidet i
+  ungdomsbedriften organiseres. Rollene kan byttes underveis.
 
 ### Hva er testet
 

@@ -44,9 +44,9 @@ historiene i `PLAN.md` og er sjekka for universell utforming.
 
 ## Føresetnader og utstyr {.challenge}
 
-- [ ] __Føresetnader__: [Kom i gang med Claude
-  Code](../kom_i_gang_claude_code/kom_i_gang_claude_code_nn), [Git i VS
-  Code](../../vs_code/git_i_vs_code/git_i_vs_code) og [Tilbake i
+- [ ] __Føresetnader__: [Kom i gang med ein
+  KI-kodeassistent](../kom_i_gang_claude_code/kom_i_gang_claude_code_nn),
+  [Git i VS Code](../../vs_code/git_i_vs_code/git_i_vs_code) og [Tilbake i
   tid](../../git/tidsreise/tidsreise).
 
 - [ ] __Utstyr__: PC med VS Code, Git, nettlesar og Claude Code.
