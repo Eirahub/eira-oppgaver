@@ -35,6 +35,16 @@ Kurset passer fra 8. trinn og oppover.
   | Noen runder | Lag en quiz, Gloseøving, Budsjett for klasseturen, Memory-spill |
   | Avansert | Dashboard for treningslogg, Vaktliste for kiosken, Arkadespill med nivåer |
 
+- Flere prosjekter finner du i tre egne lister:
+
+  - **Skole og læring**: tidslinje, tankekart, mattetrener, graftegner,
+    studieplan og grunnstoffer.
+  - **Fortellinger som lærer bort**: meldingsfortelling, velg din egen
+    historie, escape room, minidrama og animert forklaring. Her skriver du
+    innholdet fra et fag selv, og KI-en lager appen.
+  - **Trender, hverdag og deling**: tier list, «Hvilken … er du?»-quiz, mitt
+    skoleår oppsummert, vanetracker, dagens ord, nedtelling og meme-lager.
+
 - Vil du lage en app som kunder skal bruke på nett, med innlogging eller
   betaling? Da passer [Fra idé til app med KI](../fra_ide_til_app/) bedre.
 
