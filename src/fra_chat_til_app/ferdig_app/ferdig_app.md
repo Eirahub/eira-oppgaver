@@ -80,9 +80,9 @@ Appen din er et eget program som virker uten internett, men den har grenser.
 - [ ] Hvem skal bruke appen? Holder det at den kjører på én PC, eller må mange
   bruke den samtidig?
 
-- [ ] Skal appen brukes i en ungdomsbedrift eller selges? Les lisensen til KIT
-  Apps først. Da kurset ble skrevet, krevde kommersiell bruk skriftlig
-  tillatelse fra Halison.
+- [ ] Skal appen brukes i en ungdomsbedrift eller selges? Det har du lov til
+  når du følger dette kurset, se [kursets forside](../). Teksten «Made with KIT
+  Apps by Halison.io» skal bli stående i gratisversjonen.
 
 - [ ] Trenger appen innlogging, betaling eller kunder på nett? Fortsett med [Fra
   idé til app med KI](../../fra_ide_til_app/finn_behovet/finn_behovet).

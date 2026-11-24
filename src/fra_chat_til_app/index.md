@@ -44,8 +44,8 @@ KI-tjenestene har aldersgrenser, og noen krever samtykke fra foresatte. Sjekk
 selv hva som gjelder for tjenesten du bruker. Er du under aldersgrensen, kan en
 forelder eller lærer stå som ansvarlig for kontoen.
 
-KIT Apps er laget av Halison. Les vilkårene før du bruker programmet til noe
-annet enn å lære. Da kurset ble skrevet (november 2026), sa lisensen at
-programmet ikke kan brukes til kommersielle formål uten skriftlig tillatelse,
-og at gratisversjonen setter teksten «Made with KIT Apps by Halison.io» på
-appene.
+KIT Apps er laget av Halison. Lisensen sier at programmet ikke kan brukes til
+kommersielle formål uten skriftlig tillatelse. Halison har gitt elever, skoler
+og ungdomsbedrifter som bruker dette kurset, tillatelse til å bruke KIT Apps
+også kommersielt, for eksempel til å selge en app i en ungdomsbedrift.
+Gratisversjonen setter teksten «Made with KIT Apps by Halison.io» på appene.

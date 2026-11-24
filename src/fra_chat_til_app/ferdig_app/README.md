@@ -50,8 +50,10 @@ Eleven kan forklare hva appen ikke kan, og når det trengs en annen løsning.
 - Installasjonsfilen er ikke signert, og Windows kan advare mot den. Sjekk
   skolens regler før elevene installerer på skole-PC-er.
 
-- Snakk om lisenser: Hva betyr det at et verktøy er gratis, men ikke for
-  kommersiell bruk? Hva betyr det for en ungdomsbedrift?
+- Snakk om lisenser: Lisensen til KIT Apps tillater ikke kommersiell bruk uten
+  skriftlig tillatelse. Halison har gitt den tillatelsen til elever, skoler og
+  ungdomsbedrifter som bruker kurset. Hva betyr det at et verktøy er gratis,
+  men ikke fritt til alt? Hva må man sjekke før man bruker et annet verktøy?
 
 - Elever som vil videre med innlogging, betaling eller kunder på nett, kan
   fortsette med [Fra idé til app med
