@@ -11,8 +11,9 @@ Nå har roboten planker og fakler. Den siste jobben er å bygge en liten hytte
 rundt deg og sette opp fakler, inne og ute. Til slutt setter du sammen alle
 fire oppgavene til ett program som kjører fra morgen til kveld.
 
-<!-- BILDE: En liten hytte av eikeplanker med en fakkel utenfor, i solnedgang
--->
+![Illustrasjon av en liten hytte av planker i solnedgang, vist i snitt. En
+spiller står inne ved siden av en fakkel, og det står fakler på bakken
+utenfor.](hytte.png)
 
 Fortsett i det samme prosjektet som i [Verksted](../verksted/verksted.html).
 

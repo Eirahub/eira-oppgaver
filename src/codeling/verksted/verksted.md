@@ -16,8 +16,9 @@ du trenger for natta:
 - trekull, ved å brenne stammer i ovnen
 - pinner og fakler
 
-<!-- BILDE: Et arbeidsbord og en ovn som henger i lufta, med roboten under
-ovnen -->
+![Illustrasjon av et arbeidsbord på bakken og en ovn som henger i lufta. En
+robot over ovnen legger i en stamme, en robot på siden legger i brensel, og
+en robot under ovnen får trekull. Til høyre står tre fakler.](ovn.png)
 
 Fortsett i det samme prosjektet som i
 [Grav stein](../grav_stein/grav_stein.html). Roboten må ha minst 24 stammer og

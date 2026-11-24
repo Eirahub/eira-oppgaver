@@ -10,7 +10,9 @@ language: nb
 For å lage en ovn trenger roboten 8 brostein. Stein ligger litt under bakken.
 Nå skal roboten grave en sjakt rett ned og telle hvor mye stein den finner.
 
-<!-- BILDE: En smal sjakt ned i bakken, med stein i veggene -->
+![Illustrasjon av en sjakt ned gjennom gress, jord og stein. Roboten er
+nederst i sjakten, og steinblokkene den har gravd, er nummerert fra 1 til
+5.](sjakt.png)
 
 Fortsett i det samme prosjektet som i
 [Hogg tre](../hogg_tre/hogg_tre.html).

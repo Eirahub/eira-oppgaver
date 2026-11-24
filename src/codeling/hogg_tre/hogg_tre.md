@@ -24,7 +24,9 @@ forrige oppgaven i den neste.
 I denne oppgaven får roboten til å finne eiketrær og hogge dem, til den har
 24 stammer.
 
-<!-- BILDE: Roboten svever ved siden av en eikestamme og hogger den -->
+![Illustrasjon av roboten som svever ved siden av en eikestamme. De to
+nederste blokkene i stammen er hogget, og en pil viser at roboten flyr
+oppover.](hogg_tre.png)
 
 Du bør ha gjort [Kom i gang](../kom_i_gang/kom_i_gang.html) og
 [Steinsti og trapp](../steinsti_og_trapp/steinsti_og_trapp.html) først.
