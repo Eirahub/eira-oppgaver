@@ -47,7 +47,8 @@ Et godt issue sier hva som skal gjøres, hvorfor, og når det er ferdig.
   - [ ] Svarer spilleren j, starter et nytt spill med et nytt tall
   ```
 
-- [ ] Trykk **Create**. Issuet får et nummer, for eksempel `#1`.
+- [ ] Trykk **Create** (noen steder heter knappen **Submit new issue**).
+  Issuet får et nummer, for eksempel `#1`.
 
 - [ ] Lag to issues til, for eksempel `Vis antall forsøk til slutt` og `Gi
   beskjed hvis spilleren skriver noe som ikke er et tall`.
@@ -77,14 +78,14 @@ del det opp i flere.
 
 ## Sjekkliste {.check}
 
-- [ ] Gå til fanen **Projects** i repoet og lag et nytt prosjekt. Velg
-  visningen **Board**.
+- [ ] Klikk på profilbildet ditt øverst til høyre, velg **Projects** og trykk
+  **New project**. Under **Start from scratch** velger du **Board**.
 
 - [ ] Gi prosjektet et navn, for eksempel `Gjett tallet`. Tavla har tre
   kolonner: **Todo**, **In Progress** og **Done**.
 
-- [ ] Legg til de tre issuene: trykk **Add item** nederst i **Todo**, skriv `#`
-  og velg issuene fra repoet.
+- [ ] Legg til de tre issuene: trykk **+** nederst i **Todo**, skriv `#`, velg
+  repoet `gjett_tallet` og så issuet.
 
 - [ ] Dra det issuet du skal jobbe med nå, til **In Progress**.
 
@@ -104,7 +105,7 @@ stedet for å bli halvferdige.
 - [ ] Lag en pull request. Skriv `Closes #1` i beskrivelsen, med nummeret til
   issuet.
 
-- [ ] Se på issuet. Pull requesten står nå i historikken til issuet.
+- [ ] Se på issuet. Pull requesten er nevnt i issuet.
 
 - [ ] Flett inn pull requesten.
 
