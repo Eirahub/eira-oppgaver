@@ -55,15 +55,15 @@ tar alle.
 
 | Nivå | Eksempel | Dette kan du hoppe over eller korte ned |
 |---|---|---|
-| **1. Bare lokalt** | Spill eller kalkulator som ikke publiseres for andre | Sikkerhet og risiko steg 4 til 6 (skriv bare noen linjer i `RISIKO.md`). Ansvar og personvern steg 1, 2 og 6. Typer apper steg 2 og 3 hvis dere ikke selger noe |
-| **2. Åpen nettside** | Meny, prisliste, info om bedriften | Ansvar og personvern steg 1 og 2, så lenge appen ikke samler inn noe eller har sporing |
+| **1. Bare lokalt** | Spill eller kalkulator som ikke publiseres for andre | Sikkerhet og risiko steg 4 til 6 (skriv bare noen linjer i `RISIKO.md`). Ansvar og personvern steg 1, 2 og 6. Typer apper steg 2 og 3 hvis dere ikke selger noe. Lagre data trygt |
+| **2. Åpen nettside** | Meny, prisliste, info om bedriften | Ansvar og personvern steg 1 og 2, så lenge appen ikke samler inn noe eller har sporing. Lagre data trygt, unntatt steg 5 |
 | **3. Samler inn data** og høyere | Bestilling, påmelding, innlogging, betaling | Ingenting. Ta alle oppgavene |
 
 Dette tar alle, uansett nivå: Finn behovet, Forretningsidéen, Planen, Bygg
-MVP-en og steg 1 i Test med kunder, sjekken før publisering. Har appen ingen
-kunder som skal kjenne den igjen, for eksempel et verktøy bare for dere selv,
-kan dere også hoppe over Gi appen et eget uttrykk. Designet kan skisses på
-papir i stedet for med KI.
+MVP-en, Test og kvalitet og steg 1 i Test med kunder, sjekken før publisering.
+Har appen ingen kunder som skal kjenne den igjen, for eksempel et verktøy bare
+for dere selv, kan dere også hoppe over Gi appen et eget uttrykk. Designet kan
+skisses på papir i stedet for med KI.
 
 Etter lansering trenger bare de som skal drive appen over tid.
 

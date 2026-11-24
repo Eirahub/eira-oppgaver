@@ -28,13 +28,15 @@ Planen tek utgangspunkt i éi økt på 90 minutt i veka, pluss litt arbeid mello
 | 6 | Design appen med KI | Kan gjerast på papir |
 | 7 | Kom i gang med ein KI-kodeassistent | Set av tid til kontoar og installasjon |
 | 8 og 9 | Bygg MVP-en | Ofte meir tid. Bruk lekser eller verkstad |
-| 10 | Gi appen eit eige uttrykk | |
-| 11 | Kva type app? | |
-| 12 | Tryggleik og risiko | |
-| 13 | Ansvar og personvern | |
-| 14 | Test med kundar, steg 1 til 3 | Kundetestane blir gjorde mellom øktene |
-| 15 | Test med kundar, steg 4 og 5 | Neste versjon og pitch |
-| 16 | Etter lansering | Gjerne igjen når bedrifta blir avvikla |
+| 10 | Test og kvalitet | Gjerne i par: éin byggjer, éin testar |
+| 11 | Gi appen eit eige uttrykk | |
+| 12 | Kva type app? | |
+| 13 | Tryggleik og risiko | |
+| 14 | Lagre data trygt | Hopp over når appen ikkje lagrar data som andre skal sjå |
+| 15 | Ansvar og personvern | |
+| 16 | Test med kundar, steg 1 til 3 | Kundetestane blir gjorde mellom øktene |
+| 17 | Test med kundar, steg 4 og 5 | Neste versjon og pitch |
+| 18 | Etter lansering | Gjerne igjen når bedrifta blir avvikla |
 
 **Kort variant utan teknikk (5 veker).** Passar i sal, service og reiseliv når
 de ikkje skal byggje appen: Finn behovet, Forretningsideen, Planen (utan steg
