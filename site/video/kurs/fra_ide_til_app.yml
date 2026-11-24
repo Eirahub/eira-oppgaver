@@ -1,0 +1,38 @@
+# Introvideo for Fra idé til app med KI. Felter og skuddtyper: se MANUS.md.
+skudd:
+  - src: src/fra_ide_til_app/forretningsideen/kundereise.png
+    H: 620
+    look: true
+    text: Ser du et problem som trenger en løsning?
+    glow: { x: 0.31, y: 0.24, color: "242, 193, 78" }
+  - src: src/fra_ide_til_app/design_i_stitch/stitch.png
+    H: 620
+    look: true
+    text: Gjør idéen til en app med KI.
+    glow: { x: 0.5, y: 0.69, color: "63, 157, 107" }
+  - src: src/fra_ide_til_app/sikkerhet_og_risiko/risiko.png
+    H: 620
+    look: true
+    text: Og lær å gjøre den trygg.
+    glow: { x: 0.85, y: 0.3, color: "224, 122, 63" }
+  - kind: code
+    code: |
+      # Regler for prosjektet
+
+      - Les PLAN.md og mappa design før du gjør noe.
+      - All tekst i appen er på norsk.
+      - Spør meg før du legger til noe som ikke står i PLAN.md.
+    text: Du skriver reglene KI-en følger.
+  - src: src/fra_ide_til_app/test_med_kunder/test.png
+    H: 620
+    look: true
+    text: Ekte kunder tester idéen din.
+    glow: { x: 0.5, y: 0.35, color: "63, 157, 107" }
+  - src: src/fra_ide_til_app/finn_behovet/intervju.png
+    H: 620
+    look: true
+    text: "Første steg: snakk med tre kunder."
+    glow: { x: 0.5, y: 0.88, color: "242, 193, 78" }
+  - kind: logo
+    course: web
+    text: Vil du forstå koden? Prøv Web.
