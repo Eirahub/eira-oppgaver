@@ -113,12 +113,12 @@ liten bedrift kan møte:
 
 | Hva | Hvem krever | Hva det kan koste |
 |---|---|---|
-| Overtredelsesgebyr for brudd på personvernreglene | Datatilsynet | Opptil 20 millioner euro eller 4 prosent av omsetningen. Små virksomheter får mindre, men også de kan få gebyr |
-| Erstatning | De som har lidd skade | Tapet og skaden de kan vise til |
+| Overtredelsesgebyr for brudd på personvernreglene | Datatilsynet | Opptil 20 millioner euro, eller 4 prosent av den globale årsomsetningen hvis det er høyere. Gebyret skal stå i forhold til bruddet, men også små virksomheter kan få gebyr |
+| Erstatning | De som har lidd skade | Økonomisk tap, og også skade som ikke er økonomisk |
 | Gebyr og tvangsmulkt for ulovlig markedsføring | Forbrukertilsynet | Pengebeløp, og krav om å stoppe |
 | Lengre angrerett | Kundene | Får kunden ikke vite om angreretten ved kjøp på nett, kan fristen bli forlenget med opptil 12 måneder |
 | Misbruk av en lekket nøkkel | Leverandøren av tjenesten | Regningen for bruken, som regel til den som eier kontoen |
-| Brudd på opphavsrett | Den som eier bildet, koden eller teksten | Vederlag og erstatning |
+| Brudd på opphavsrett | Den som eier bildet, koden eller teksten | Vederlag og erstatning, og dobbelt vederlag ved forsett eller grov uaktsomhet |
 | Tapte kunder og dårlig omdømme | Markedet | Salg som forsvinner, og tid til å rydde opp |
 
 Tabellen viser hva regelverket åpner for. Regler og beløp kan endre seg, og hva

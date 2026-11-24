@@ -115,12 +115,12 @@ lita bedrift kan møte:
 
 | Kva | Kven krev | Kva det kan koste |
 |---|---|---|
-| Lovbrotsgebyr for brot på personvernreglane | Datatilsynet | Opptil 20 millionar euro eller 4 prosent av omsetninga. Små verksemder får mindre, men òg dei kan få gebyr |
-| Erstatning | Dei som har lide skade | Tapet og skaden dei kan vise til |
+| Lovbrotsgebyr for brot på personvernreglane | Datatilsynet | Opptil 20 millionar euro, eller 4 prosent av den globale årsomsetninga viss det er høgare. Gebyret skal stå i forhold til brotet, men òg små verksemder kan få gebyr |
+| Erstatning | Dei som har lide skade | Økonomisk tap, og òg skade som ikkje er økonomisk |
 | Gebyr og tvangsmulkt for ulovleg marknadsføring | Forbrukartilsynet | Pengesum, og krav om å stoppe |
 | Lengre angrerett | Kundane | Får kunden ikkje vite om angreretten ved kjøp på nett, kan fristen bli forlengd med opptil 12 månader |
 | Misbruk av ein lekt nøkkel | Leverandøren av tenesta | Rekninga for bruken, som regel til den som eig kontoen |
-| Brot på opphavsrett | Den som eig biletet, koden eller teksten | Vederlag og erstatning |
+| Brot på opphavsrett | Den som eig biletet, koden eller teksten | Vederlag og erstatning, og dobbelt vederlag ved forsett eller grov aktløyse |
 | Tapte kundar og dårleg omdøme | Marknaden | Sal som forsvinn, og tid til å rydde opp |
 
 Tabellen viser kva regelverket opnar for. Reglar og beløp kan endre seg, og kva
