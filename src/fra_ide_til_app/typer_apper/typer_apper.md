@@ -99,7 +99,54 @@ selv det som handler om alder, pris og kommersiell bruk. KI-en kan ta feil.
 - [ ] Sammenlign med det dere gjør i dag uten app. Lønner det seg?
 
 
-# Steg 4: Hva sier du til KI-en? {.activity}
+# Steg 4: Appbygger eller egen kode? {.activity}
+
+Med en **appbygger** med KI, som Base44, Lovable eller Bolt, beskriver du appen
+i en chat og får den ferdig publisert, ofte med database og innlogging. Det går
+raskt, men appen bor hos tjenesten. Med en **kodeassistent**, som i dette
+kurset, har du koden selv og velger hvor den skal ligge.
+
+| | Appbygger | Kodeassistent og egen kode |
+|---|---|---|
+| Kom i gang | Svært raskt, alt i nettleseren | Må installere og lære litt mer |
+| Database, innlogging og publisering | Ofte innebygd | Du setter det opp selv |
+| Hvor appen bor | Hos tjenesten | Der du velger |
+| Hvis tjenesten endrer pris eller stenger | Vanskelig å flytte | Du tar koden med deg |
+| Hva du lærer | Å beskrive og teste | Også å lese og forstå koden |
+
+Gratisplanene har nesten alltid grenser, og det viktigste ligger ofte bak
+betaling. Dette er vanlige begrensninger:
+
+- Få meldinger eller kreditter i måneden. Retter du mange feil, går de fort.
+- Eget domene, å fjerne tjenestens logo og private prosjekter koster ofte.
+- Å ta med koden til GitHub kan kreve en dyrere plan.
+- Betaling fra kunder går via en betalingstjeneste som Stripe. Den tar en
+  andel av hvert salg, i tillegg til det appbyggeren koster.
+- Aldersgrensen kan være høyere enn for andre verktøy. Da kurset ble skrevet
+  (november 2026), krevde Base44 16 år i EU og EØS, og Lovable krevde 18 år.
+
+## Sjekkliste {.check}
+
+- [ ] Velger du en appbygger? Legg den til i tabellen fra steg 2.
+
+- [ ] Finn ut hva gratisplanen gir, og hva appen din trenger som koster penger:
+  database, innlogging, betaling, eget domene eller å ta med koden.
+
+- [ ] Kan du hente ut koden og flytte appen hvis dere slutter å betale?
+
+- [ ] Hvor lagres kundedataene? Står det ikke, spør tjenesten eller velg en
+  annen hvis appen samler inn personopplysninger.
+
+- [ ] Legg det appbyggeren koster, inn i kostnadstabellen fra steg 3.
+
+## Tips {.protip}
+
+En appbygger er fin til en rask prototype som kunder kan prøve. Planen, testene
+og sjekkene i dette kurset gjelder like mye der. Appbyggeren skriver koden, men
+ansvaret for kundedata og sikkerhet er fortsatt ditt.
+
+
+# Steg 5: Hva sier du til KI-en? {.activity}
 
 Typen app endrer hva du må be om. Skriv det i `PLAN.md` under **Krav**, så
 KI-en vet det fra starten.

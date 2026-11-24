@@ -19,7 +19,8 @@ informasjonsteknologi
 
 __Tilrådde trinn__: Vidaregåande
 
-__Tema__: Typar appar, forretningsmodellar, vilkår, kostnader
+__Tema__: Typar appar, appbyggjarar med KI, forretningsmodellar, vilkår,
+kostnader
 
 __Tidsbruk__: 60 til 90 minutt
 
