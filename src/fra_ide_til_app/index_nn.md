@@ -52,15 +52,15 @@ stega tek alle.
 
 | Nivå | Døme | Dette kan du hoppe over eller korte ned |
 |---|---|---|
-| **1. Berre lokalt** | Spel eller kalkulator som ikkje blir publisert for andre | Tryggleik og risiko steg 4 til 6 (skriv berre nokre linjer i `RISIKO.md`). Ansvar og personvern steg 1, 2 og 6. Typar appar steg 2 og 3 viss de ikkje sel noko |
-| **2. Open nettside** | Meny, prisliste, info om bedrifta | Ansvar og personvern steg 1 og 2, så lenge appen ikkje samlar inn noko eller har sporing |
+| **1. Berre lokalt** | Spel eller kalkulator som ikkje blir publisert for andre | Tryggleik og risiko steg 4 til 6 (skriv berre nokre linjer i `RISIKO.md`). Ansvar og personvern steg 1, 2 og 6. Typar appar steg 2 og 3 viss de ikkje sel noko. Lagre data trygt |
+| **2. Open nettside** | Meny, prisliste, info om bedrifta | Ansvar og personvern steg 1 og 2, så lenge appen ikkje samlar inn noko eller har sporing. Lagre data trygt, unnateke steg 5 |
 | **3. Samlar inn data** og høgare | Bestilling, påmelding, innlogging, betaling | Ingenting. Ta alle oppgåvene |
 
 Dette tek alle, uansett nivå: Finn behovet, Forretningsideen, Planen, Bygg
-MVP-en og steg 1 i Test med kundar, sjekken før publisering. Har appen ingen
-kundar som skal kjenne han att, til dømes eit verktøy berre for dykk sjølve,
-kan de òg hoppe over Gi appen eit eige uttrykk. Designet kan skissast på papir
-i staden for med KI.
+MVP-en, Test og kvalitet og steg 1 i Test med kundar, sjekken før publisering.
+Har appen ingen kundar som skal kjenne han att, til dømes eit verktøy berre for
+dykk sjølve, kan de òg hoppe over Gi appen eit eige uttrykk. Designet kan
+skissast på papir i staden for med KI.
 
 Etter lansering treng berre dei som skal drive appen over tid.
 

@@ -7,9 +7,9 @@ language: nb
 
 # Om oppgaven {.activity}
 
-Eleven bygger MVP-en med Claude Code i en fast løkke: ett steg, test, commit.
-Eleven øver på å beskrive feil, lese endringer, gå tilbake med Git og sjekke
-universell utforming.
+Eleven bygger MVP-en med en KI-kodeassistent i en fast løkke: én historie,
+plan, sjekk, commit og ny samtale. Eleven leser koden før de godkjenner den,
+øver på å beskrive feil, fører logg over KI-feil og går tilbake med Git.
 
 ## Oppgaven passer til: {.check}
 
@@ -17,8 +17,7 @@ __Fag__: Informasjonsteknologi, programmering, salg, service og reiseliv
 
 __Anbefalte trinn__: Videregående
 
-__Tema__: KI-assistert utvikling, testing, feilsøking, versjonskontroll,
-universell utforming
+__Tema__: KI-assistert utvikling, kodelesing, feilsøking, versjonskontroll
 
 __Tidsbruk__: 2 til 4 timer, gjerne over flere økter
 
@@ -27,9 +26,8 @@ __Tidsbruk__: 2 til 4 timer, gjerne over flere økter
 - [ ] __Informasjonsteknologi 2__: vurdere og bruke strategier for feilsøking og
   testing av programkode
 
-- [ ] __Informasjonsteknologi 1__: lagre og hente fram data, presentere data på
-  nettsider og reflektere over hvordan representasjonsform kan påvirke
-  tolkningen
+- [ ] __Informasjonsteknologi 2__: utforske og vurdere alternative løsninger
+  for design og implementering av et program
 
 - [ ] __Vg2 salg, service og reiseliv__: bruke digitale systemer og plattformer
   til å veilede, informere, kommunisere og følge opp kunder, brukere, gjester og
@@ -38,8 +36,8 @@ __Tidsbruk__: 2 til 4 timer, gjerne over flere økter
 ## Forslag til vurderingskriterier {.challenge}
 
 Git-historikken viser små steg med forståelige meldinger. Eleven kan vise én
-feil de fikk rettet, og forklare hvordan de beskrev den. MVP-en dekker
-historiene i `PLAN.md` og er sjekket for universell utforming.
+feil de fikk rettet, og forklare hvordan de beskrev den. `LOGG.md` viser hva
+KI-en gjorde feil. MVP-historiene i `PLAN.md` er krysset av.
 
 ## Forutsetninger og utstyr {.challenge}
 
@@ -70,8 +68,12 @@ historiene i `PLAN.md` og er sjekket for universell utforming.
   prøve, og sammenlign med løkka. Det gir en god samtale om kontroll og
   kvalitet.
 
-- Utfordringen sender kundedata ut av nettleseren. Bruk skolens godkjente
-  skjemaverktøy, og snakk om hvem som får se dataene.
+- Steg 2, å lese koden før man sier ja, er det viktigste i oppgaven. Be
+  eleven vise deg ett varselstegn de fant.
+
+- Testing og universell utforming er i [Test og
+  kvalitet](../test_og_kvalitet/test_og_kvalitet), og lagring av data i
+  [Lagre data trygt](../lagre_data/lagre_data).
 
 - Elevene kan bruke det KI-verktøyet de har valgt. Er eleven under
   aldersgrensen for verktøyet, står en forelder eller lærer som ansvarlig.

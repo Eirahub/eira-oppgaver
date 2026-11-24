@@ -170,8 +170,8 @@ andre.
 | **Produktleder** (product manager) | At appen løser et ekte behov. Bestemmer hva som bygges nå, og hva som venter | Finn behovet, Planen, Test med kunder |
 | **Designer** | At appen er lett å bruke og ser ut som bedriften | Design appen med KI, Gi appen et eget uttrykk |
 | **Promptskriver** (prompt engineer) | At KI-en får tydelige beskjeder, nok sammenheng og klare grenser | Kom i gang med en KI-kodeassistent, Bygg MVP-en |
-| **Seniorutvikler** | At løsningen er enkel nok, at dere forstår koden, og at alt er lagret i Git. Sier nei når KI-en lager noe for komplisert | Planen steg 4, Bygg MVP-en |
-| **Tester** (QA engineer) | At hver MVP-historie virker, også på mobil, for skjermleser og når brukeren gjør noe uventet | Bygg MVP-en, Test med kunder |
+| **Seniorutvikler** | At løsningen er enkel nok, at dere forstår koden, og at alt er lagret i Git. Sier nei når KI-en lager noe for komplisert | Planen steg 4, Bygg MVP-en, Lagre data trygt |
+| **Tester** (QA engineer) | At hver MVP-historie virker, også på mobil, for skjermleser og når brukeren gjør noe uventet | Test og kvalitet, Test med kunder |
 | **Sikkerhetstester** (pentester) | At appen tåler angrep. Tester bare egne systemer | Sikkerhet og risiko |
 | **Drift** (DevOps engineer) | Publisering, domene, hemmeligheter, sikkerhetskopi, kostnader, og å kunne gå tilbake når noe går galt | Hvilken type app?, Sikkerhet og risiko steg 6, Etter lansering |
 | **Personvernansvarlig** | Personopplysninger, personvernerklæring og regler | Ansvar og personvern |

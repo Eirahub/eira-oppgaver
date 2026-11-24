@@ -27,13 +27,15 @@ mellom øktene. Hele kurset tar 20 til 30 timer.
 | 6 | Design appen med KI | Kan gjøres på papir |
 | 7 | Kom i gang med en KI-kodeassistent | Sett av tid til kontoer og installasjon |
 | 8 og 9 | Bygg MVP-en | Ofte mer tid. Bruk lekser eller verksted |
-| 10 | Gi appen et eget uttrykk | |
-| 11 | Hvilken type app? | |
-| 12 | Sikkerhet og risiko | |
-| 13 | Ansvar og personvern | |
-| 14 | Test med kunder, steg 1 til 3 | Kundetestene gjøres mellom øktene |
-| 15 | Test med kunder, steg 4 og 5 | Neste versjon og pitch |
-| 16 | Etter lansering | Gjerne igjen når bedriften avvikles |
+| 10 | Test og kvalitet | Gjerne i par: én bygger, én tester |
+| 11 | Gi appen et eget uttrykk | |
+| 12 | Hvilken type app? | |
+| 13 | Sikkerhet og risiko | |
+| 14 | Lagre data trygt | Hopp over når appen ikke lagrer data som andre skal se |
+| 15 | Ansvar og personvern | |
+| 16 | Test med kunder, steg 1 til 3 | Kundetestene gjøres mellom øktene |
+| 17 | Test med kunder, steg 4 og 5 | Neste versjon og pitch |
+| 18 | Etter lansering | Gjerne igjen når bedriften avvikles |
 
 **Kort variant uten teknikk (5 uker).** Passer i salg, service og reiseliv når
 dere ikke skal bygge appen: Finn behovet, Forretningsidéen, Planen (uten steg
