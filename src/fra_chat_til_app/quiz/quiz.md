@@ -36,12 +36,14 @@ først.
 - [ ] Gi KI-en spørsmålene dine i neste melding, med riktig svar for hvert.
   Skriv dem selv, så du vet at de stemmer.
 
-- [ ] Kopier koden, trykk **New** i KIT Apps, lim inn og trykk **Run App**.
+- [ ] Kopier koden. Trykk **New** i KIT Apps, skriv et navn i **App Name**, lim
+  inn koden og trykk **Run App**. Appen lagres av seg selv.
 
 - [ ] Virker den ikke? Trykk **Copy a fix request for your AI** og lim det inn i
   chatten.
 
-- [ ] Trykk **Save** når appen virker.
+- [ ] Får du en ny versjon fra KI-en, trykker du **Edit**, bytter ut all koden
+  og trykker **Save Changes**.
 
 
 # Steg 2: Test appen {.activity}
@@ -84,8 +86,8 @@ og test igjen etter hver endring.
 
 ## Lagre {.save}
 
-Trykk **Save** i KIT Apps. Vil du ha appen som eget program, se [Gjør den til
-en ferdig app](../ferdig_app/ferdig_app).
+Appen ligger i lista i KIT Apps. Vil du ha den som eget program, se [Gjør den
+til en ferdig app](../ferdig_app/ferdig_app).
 
 
 ## Utfordring {.challenge}

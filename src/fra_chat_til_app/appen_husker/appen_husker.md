@@ -76,8 +76,8 @@ En turnering slutter, og en ny begynner.
 
 ## Tips {.protip}
 
-Lager du en ferdig app i neste oppgave, kan du også eksportere og importere
-dataene fra pakkepanelet i KIT Apps.
+KIT Apps kan også ta sikkerhetskopi av dataene til en app. Gå til fanen
+**Package** og trykk **Export data** eller **Import data**.
 
 
 # Steg 4: Hva skal appen ikke huske? {.activity}
@@ -106,7 +106,7 @@ data alle på laget skal se, og aldri til sensitive opplysninger.
 
 ## Lagre {.save}
 
-Trykk **Save** i KIT Apps.
+Endringene i appen er lagret når du har trykket **Save Changes**.
 
 
 ## Utfordring {.challenge}
