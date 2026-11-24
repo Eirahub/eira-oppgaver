@@ -8,9 +8,8 @@ language: nb
 # Introduksjon {.intro}
 
 Et tankekart der du skriver et tema i midten og drar ut idéer og begreper rundt.
-Fint til å planlegge en tekst, øve til prøve eller samle idéer i en gruppe. Du
-bygger det i runder. Denne appen bygger du i flere runder. Start lite, og legg
-til én ting om gangen.
+Fint til å planlegge en tekst, øve til prøve eller samle idéer i en gruppe.
+Denne appen bygger du i flere runder. Start lite, og legg til én ting om gangen.
 
 ![Illustrasjon av appen tankekart i et vindu](app.png)
 

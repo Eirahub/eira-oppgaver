@@ -8,8 +8,8 @@ language: nb
 # Introduksjon {.intro}
 
 Et escape room der du må løse oppgaver fra et fag for å finne kodene til låsene.
-Hvert rom har en gåte, og svaret låser opp neste rom. Du bygger det i runder.
-Denne appen bygger du i flere runder. Start lite, og legg til én ting om gangen.
+Hvert rom har en gåte, og svaret låser opp neste rom. Denne appen bygger du i
+flere runder. Start lite, og legg til én ting om gangen.
 
 ![Illustrasjon av appen digitalt escape room i et vindu](app.png)
 

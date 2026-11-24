@@ -9,8 +9,8 @@ language: nb
 
 Et ordspill der du har seks forsøk på å gjette et norsk ord med fem bokstaver.
 Etter hvert forsøk viser fargene hvilke bokstaver som er riktige og står riktig.
-Alle får samme ord samme dag. Du bygger det i runder. Denne appen bygger du i
-flere runder. Start lite, og legg til én ting om gangen.
+Alle får samme ord samme dag. Denne appen bygger du i flere runder. Start lite,
+og legg til én ting om gangen.
 
 ![Illustrasjon av appen dagens ord i et vindu](app.png)
 
