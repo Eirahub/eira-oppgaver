@@ -109,6 +109,10 @@ skoleoppgave. Da må noen eie den.
 
 - [ ] Ikke la elevene kjøre KI-verktøy med administratorrettigheter.
 
+- [ ] Elevene skal bare slå opp og teste egne domener og systemer. Ingen
+  skanning eller testing av skolens nett eller andres sider uten skriftlig
+  lov.
+
 - [ ] Sjekk at installasjonen virker på skolens maskiner før timen.
 
 - [ ] Lær elevene å bruke Git, så de alltid kan gå tilbake til en versjon som

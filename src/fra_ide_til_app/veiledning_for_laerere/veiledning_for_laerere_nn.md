@@ -113,6 +113,10 @@ skuleoppgåve. Då må nokon eige han.
 
 - [ ] Ikkje la elevane køyre KI-verktøy med administratorrettar.
 
+- [ ] Elevane skal berre slå opp og teste eigne domene og system. Inga
+  skanning eller testing av nettet til skulen eller sidene til andre utan
+  skriftleg lov.
+
 - [ ] Sjekk at installasjonen verkar på maskinene til skulen før timen.
 
 - [ ] Lær elevane å bruke Git, så dei alltid kan gå tilbake til ein versjon som

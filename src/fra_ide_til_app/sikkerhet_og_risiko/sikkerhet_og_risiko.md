@@ -141,11 +141,63 @@ KI-en kan hjelpe deg å finne hull, men den finner ikke alt, og den kan ta feil.
 
 - [ ] Rett de viktigste, og legg dem inn i risikovurderingen.
 
+
+# Steg 6: Hva kan andre se om appen din? {.activity}
+
+Når appen ligger på nett, kan hvem som helst finne ut mye om den. Roboter
+skanner hele internett hele tiden, og en ny nettside blir ofte funnet i løpet
+av minutter.
+
+- **DNS** er telefonkatalogen på nettet. Den kobler et domene, for eksempel
+  `sykkelvasken.no`, til en IP-adresse. Alle kan slå opp i DNS. Peker domenet
+  rett til en server dere driver selv, vet angripere hvor de skal lete.
+- **Underdomener** som `test.`, `admin.` eller `gammel.` blir også funnet,
+  blant annet fordi alle sertifikater for HTTPS havner i åpne logger. En glemt
+  testside med gammel kode er en vanlig vei inn.
+- **Åpne porter og tjenester** på en server, som en database eller et
+  adminpanel, kan finnes ved skanning.
+
+Bruker dere en publiseringstjeneste, som GitHub Pages, Netlify eller
+Cloudflare Pages, peker DNS til tjenesten og ikke til en egen server. Da tar
+tjenesten seg av mye av dette. Har dere egen server, er ansvaret deres.
+
+## Sjekkliste {.check}
+
+- [ ] Slå opp ditt eget domene, eller adressen appen er publisert på, i
+  terminalen:
+
+  ```
+  nslookup dittdomene.no
+  ```
+
+  Hvilken IP-adresse får du? Tilhører den publiseringstjenesten, eller en
+  server dere driver selv?
+
+- [ ] Søk opp ditt eget domene på [crt.sh](https://crt.sh). Hvilke underdomener
+  er synlige? Er noen gamle eller bare til testing? Ta dem ned.
+
+- [ ] Har dere egen server? Lag en liste over alt som er åpent mot internett,
+  og steng det som ikke må være åpent.
+
+- [ ] Skriv det du fant, inn i `RISIKO.md`.
+
+## Bare test det du eier {.tip}
+
+Å lete etter sikkerhetshull kalles **penetrasjonstesting**, eller pentesting.
+Det er en viktig jobb, men du kan bare teste systemer du eier, eller har fått
+skriftlig lov til å teste. Å prøve å komme inn i andres systemer uten lov er
+datainnbrudd og straffbart, også om det er «bare for å se». Skanning av andres
+systemer kan også bryte loven eller vilkårene deres. Vil du øve mer, finnes det
+lovlige øvingsmiljøer og konkurranser (CTF) laget for akkurat det.
+
+
 ## Test deg selv {.flag}
 
 - [ ] Kan du forklare en medelev hvorfor en sjekk i frontend ikke er nok?
 
 - [ ] Kan du si hvilket nivå appen din er på, og hva det betyr for dere?
+
+- [ ] Kan du forklare hva DNS viser om appen din, og hva du har lov til å teste?
 
 ## Lagre {.save}
 

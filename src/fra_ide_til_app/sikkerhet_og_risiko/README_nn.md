@@ -19,9 +19,9 @@ __Fag__: Sal, service og reiseliv, informasjonsteknologi
 __Tilrådde trinn__: Vidaregåande
 
 __Tema__: Frontend og backend, risikonivå, risikovurdering, tryggleikstiltak,
-personvern
+personvern, DNS og eksponering, lovleg testing
 
-__Tidsbruk__: 90 minutt
+__Tidsbruk__: 90 til 120 minutt
 
 ## Kompetansemål {.challenge}
 
@@ -73,6 +73,11 @@ for dei høgaste.
   forklare og vurdere, ikkje byggje.
 
 - Risikovurderinga passar godt saman med HMS-arbeid i sal og service.
+
+- Steg 6 handlar om kva andre kan sjå: DNS, IP-adresser, underdomene og opne
+  portar. Gjer det klart at elevane berre skal slå opp og teste eigne domene og
+  system. Inga skanning av nettet til skulen eller sidene til andre. Elevar som
+  vil lære meir om tryggleik, kan bruke lovlege øvingsmiljø og CTF-konkurransar.
 
 - Ta utgangspunkt i historia «laga på ei helg, hacka etter ei veke». La
   elevane finne slike innlegg sjølve, og plassere kvar feil på eit risikonivå.
