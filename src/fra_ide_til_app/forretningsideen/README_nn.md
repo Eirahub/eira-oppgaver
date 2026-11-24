@@ -18,9 +18,10 @@ marknadsføring og leiing
 
 __Tilrådde trinn__: Vidaregåande
 
-__Tema__: Kundereise, verdiforslag, forretningsmodell, berekraft
+__Tema__: Kundereise, jobs to be done, betalingsvilje, verdiforslag,
+forretningsmodell, berekraft
 
-__Tidsbruk__: 60 til 90 minutt
+__Tidsbruk__: 90 minutt
 
 ## Kompetansemål {.challenge}
 
@@ -39,9 +40,10 @@ __Tidsbruk__: 60 til 90 minutt
 
 ## Forslag til vurderingskriterium {.challenge}
 
-Kundereisa byggjer på intervjua. Verdiforslaget er kort og har minst tre ting
-appen ikkje skal gjere. Forretningsmodellen er grunngitt, og overslaget over
-kostnader tek med tid.
+Kundereisa byggjer på intervjua. Jobbsetninga bruker orda til kundane, og
+vurderinga av jobben er grunngitt med det kundane sa. Verdiforslaget er kort
+og har minst tre ting appen ikkje skal gjere. Forretningsmodellen passar til
+kor ofte jobben kjem, og overslaget over kostnader tek med tid.
 
 ## Føresetnader og utstyr {.challenge}
 
@@ -64,6 +66,10 @@ kostnader tek med tid.
 
 - Overslaget over kostnader blir meir nøyaktig i [Kva type
   app?](../typer_apper/typer_apper_nn). Her held det med eit grovt overslag.
+
+- Steg 2 er der mange idear bør endrast. Ein jobb som er liten, sjeldan eller
+  allereie løyst gratis, gir sjeldan ei bedrift som varer. Det er betre å
+  oppdage det no enn etter at appen er bygd.
 
 - Elevbedrifter kan bruke arbeidet direkte i forretningsplanen sin.
 

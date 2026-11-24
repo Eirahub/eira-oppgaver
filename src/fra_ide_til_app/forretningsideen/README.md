@@ -17,9 +17,10 @@ markedsføring og ledelse
 
 __Anbefalte trinn__: Videregående
 
-__Tema__: Kundereise, verdiforslag, forretningsmodell, bærekraft
+__Tema__: Kundereise, jobs to be done, betalingsvilje, verdiforslag,
+forretningsmodell, bærekraft
 
-__Tidsbruk__: 60 til 90 minutter
+__Tidsbruk__: 90 minutter
 
 ## Kompetansemål {.challenge}
 
@@ -38,9 +39,10 @@ __Tidsbruk__: 60 til 90 minutter
 
 ## Forslag til vurderingskriterier {.challenge}
 
-Kundereisen bygger på intervjuene. Verdiforslaget er kort og har minst tre ting
-appen ikke skal gjøre. Forretningsmodellen er begrunnet, og kostnadsanslaget
-tar med tid.
+Kundereisen bygger på intervjuene. Jobb-setningen bruker kundenes ord, og
+vurderingen av jobben er begrunnet med det kundene sa. Verdiforslaget er kort
+og har minst tre ting appen ikke skal gjøre. Forretningsmodellen passer til
+hvor ofte jobben kommer, og kostnadsanslaget tar med tid.
 
 ## Forutsetninger og utstyr {.challenge}
 
@@ -63,6 +65,10 @@ tar med tid.
 
 - Kostnadsanslaget blir mer nøyaktig i [Hvilken type
   app?](../typer_apper/typer_apper). Her holder det med et grovt anslag.
+
+- Steg 2 er der mange idéer bør endres. En jobb som er liten, sjelden eller
+  allerede løst gratis, gir sjelden en bedrift som varer. Det er bedre å oppdage
+  det nå enn etter at appen er bygd.
 
 - Elevbedrifter kan bruke arbeidet direkte i forretningsplanen sin.
 

@@ -79,6 +79,23 @@ det lågaste nivået som løyser problemet. Treng du eigentleg innlogging, eller
 held det med eit skjema?
 
 
+## Appar som koplar saman folk {.tip}
+
+Ein app der du finn nokon å trene med, sel brukt til folk du ikkje kjenner,
+eller bestiller hjelp heime, lèt framande ta kontakt med kvarandre. Då kjem det
+nye risikoar i tillegg til personvern: falske profilar, trakassering, vaksne som
+tek kontakt med born og deling av kvar ein er. Ein slik app er minst på nivå 4,
+og treng mellom anna:
+
+- aldersgrense og ein måte å vite kven brukarane er
+- blokkering og rapportering, og nokon som les rapportane kvar dag
+- inga nøyaktig posisjon
+- at kontakt berre skjer når begge har sagt ja
+
+Start gjerne med ein versjon der ingen kan kontakte kvarandre direkte, til
+dømes ei oversikt over tilbod, der ein vaksen formidlar kontakten.
+
+
 # Steg 3: Finn nivået til appen din {.activity}
 
 ## Sjekkliste {.check}
