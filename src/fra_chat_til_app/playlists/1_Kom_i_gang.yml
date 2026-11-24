@@ -1,0 +1,10 @@
+sortindex: 1
+title:
+  nb: 'Kom i gang'
+  nn: 'Kom i gang'
+  en: 'Getting started'
+lessons:
+  - forste_app
+  - forbedre_appen
+  - appen_husker
+  - ferdig_app
