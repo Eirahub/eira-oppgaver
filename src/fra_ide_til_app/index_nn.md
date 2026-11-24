@@ -60,4 +60,11 @@ Difor er det ein del av kurset at du sjølv sjekkar vilkåra for det du vel:
 Er du under aldersgrensa, kan ein forelder eller lærar opprette kontoen og stå
 som ansvarleg. Det er de sjølve som må sjekke at bruken er innanfor vilkåra.
 
+## For lærarar
+
+[Rettleiing for lærarar](veiledning_for_laerere/veiledning_for_laerere_nn) går
+gjennom risiko for elevar, kundar og skule, ansvar for kontoar, ungdomsbedrift i
+ekte drift, vurdering og kva du gjer viss noko går gale. Kvar oppgåve har i
+tillegg si eiga lærarrettleiing.
+
 Kurset er ikkje laga av eller godkjent av Google eller Anthropic.

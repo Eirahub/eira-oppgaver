@@ -58,6 +58,10 @@ merkte, og eit grunngitt val av lagring.
 
 ### Tips til rettleiarar
 
+- Les [Rettleiing for
+  lærarar](../veiledning_for_laerere/veiledning_for_laerere_nn) om risiko,
+  kontoar og ansvar i kurset før du startar.
+
 - Den vanlegaste feilen er ein MVP som er for stor. Spør: «Løyser appen
   problemet utan denne historia?» Om ja, flytt ho til **Seinare**.
 

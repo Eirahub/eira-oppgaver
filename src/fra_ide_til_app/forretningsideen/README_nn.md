@@ -55,6 +55,10 @@ kostnader tek med tid.
 
 ### Tips til rettleiarar
 
+- Les [Rettleiing for
+  lærarar](../veiledning_for_laerere/veiledning_for_laerere_nn) om risiko,
+  kontoar og ansvar i kurset før du startar.
+
 - Lista over kva appen ikkje skal gjere, er det viktigaste i oppgåva. Ein liten
   app blir ferdig. Ein stor app blir det sjeldan, heller ikkje med KI.
 

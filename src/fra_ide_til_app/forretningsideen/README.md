@@ -54,6 +54,10 @@ tar med tid.
 
 ### Tips til veiledere
 
+- Les [Veiledning for
+  lærere](../veiledning_for_laerere/veiledning_for_laerere) om risiko,
+  kontoer og ansvar i kurset før du starter.
+
 - Listen over hva appen ikke skal gjøre, er det viktigste i oppgaven. En liten
   app blir ferdig. En stor app blir det sjelden, heller ikke med KI.
 

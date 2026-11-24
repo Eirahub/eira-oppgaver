@@ -58,6 +58,10 @@ feil KI-en gjorde.
 
 ### Tips til veiledere
 
+- Les [Veiledning for
+  lærere](../veiledning_for_laerere/veiledning_for_laerere) om risiko,
+  kontoer og ansvar i kurset før du starter.
+
 - Oppgaven gir en innføring, ikke juridisk rådgivning. Elevbedrifter med ekte
   kundedata bør snakke med skolen om hvor dataene kan lagres.
 

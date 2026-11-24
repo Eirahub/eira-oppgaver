@@ -57,6 +57,10 @@ historiene i `PLAN.md` og er sjekka for universell utforming.
 
 ### Tips til rettleiarar
 
+- Les [Rettleiing for
+  lærarar](../veiledning_for_laerere/veiledning_for_laerere_nn) om risiko,
+  kontoar og ansvar i kurset før du startar.
+
 - Commit etter kvart steg er det som gjer at elevane tør å la KI-en endre ting.
   Sjekk Git-historikken undervegs.
 

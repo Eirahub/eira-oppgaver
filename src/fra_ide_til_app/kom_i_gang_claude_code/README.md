@@ -49,6 +49,10 @@ har lest og justert planen fra Claude Code før den ble godkjent.
 
 ### Tips til veiledere
 
+- Les [Veiledning for
+  lærere](../veiledning_for_laerere/veiledning_for_laerere) om risiko,
+  kontoer og ansvar i kurset før du starter.
+
 - Claude Code er bare et eksempel. Elevene kan bruke andre verktøy, som
   Gemini, GitHub Copilot eller ChatGPT. Stegene blir litt annerledes, men
   `PLAN.md`, reglene og «plan før kode» virker likt.

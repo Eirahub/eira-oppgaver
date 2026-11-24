@@ -54,6 +54,10 @@ Eleven kan grunngi valet av type app, har funne og sitert vilkåra til minst
 
 ### Tips til rettleiarar
 
+- Les [Rettleiing for
+  lærarar](../veiledning_for_laerere/veiledning_for_laerere_nn) om risiko,
+  kontoar og ansvar i kurset før du startar.
+
 - Oppgåva kan gjerast i sals- og servicefag utan dei tekniske oppgåvene.
 
 - Elevane på kurset byggjer berre webapp og eventuelt PWA. Native mobilapp,

@@ -57,6 +57,10 @@ et begrunnet valg av lagring.
 
 ### Tips til veiledere
 
+- Les [Veiledning for
+  lærere](../veiledning_for_laerere/veiledning_for_laerere) om risiko,
+  kontoer og ansvar i kurset før du starter.
+
 - Den vanligste feilen er en MVP som er for stor. Spør: «Løser appen problemet
   uten denne historien?» Hvis ja, flytt den til **Senere**.
 

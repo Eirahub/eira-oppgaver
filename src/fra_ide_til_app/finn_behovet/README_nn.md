@@ -51,6 +51,10 @@ ei problemsetning som byggjer på det fleire av kundane sa.
 
 ### Tips til rettleiarar
 
+- Les [Rettleiing for
+  lærarar](../veiledning_for_laerere/veiledning_for_laerere_nn) om risiko,
+  kontoar og ansvar i kurset før du startar.
+
 - Elevane vil gjerne starte med appen. Hald att. Kurset byggjer på at
   problemet er ekte.
 

@@ -50,6 +50,10 @@ og en problemsetning som bygger på det flere av kundene sa.
 
 ### Tips til veiledere
 
+- Les [Veiledning for
+  lærere](../veiledning_for_laerere/veiledning_for_laerere) om risiko,
+  kontoer og ansvar i kurset før du starter.
+
 - Elevene vil gjerne starte med appen. Hold igjen. Kurset bygger på at problemet
   er ekte.
 

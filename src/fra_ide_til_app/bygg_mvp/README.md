@@ -56,6 +56,10 @@ historiene i `PLAN.md` og er sjekket for universell utforming.
 
 ### Tips til veiledere
 
+- Les [Veiledning for
+  lærere](../veiledning_for_laerere/veiledning_for_laerere) om risiko,
+  kontoer og ansvar i kurset før du starter.
+
 - Commit etter hvert steg er det som gjør at elevene tør å la KI-en endre ting.
   Sjekk Git-historikken underveis.
 

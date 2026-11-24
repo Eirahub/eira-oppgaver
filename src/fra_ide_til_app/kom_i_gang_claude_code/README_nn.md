@@ -50,6 +50,10 @@ har lese og justert planen frå Claude Code før han vart godkjend.
 
 ### Tips til rettleiarar
 
+- Les [Rettleiing for
+  lærarar](../veiledning_for_laerere/veiledning_for_laerere_nn) om risiko,
+  kontoar og ansvar i kurset før du startar.
+
 - Claude Code er berre eit døme. Elevane kan bruke andre verktøy, som Gemini,
   GitHub Copilot eller ChatGPT. Stega blir litt annleis, men `PLAN.md`,
   reglane og «plan før kode» verkar likt.

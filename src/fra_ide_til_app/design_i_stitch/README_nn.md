@@ -50,6 +50,10 @@ Eleven har testa designet på ein kunde og retta minst éin ting ut frå testen.
 
 ### Tips til rettleiarar
 
+- Les [Rettleiing for
+  lærarar](../veiledning_for_laerere/veiledning_for_laerere_nn) om risiko,
+  kontoar og ansvar i kurset før du startar.
+
 - Stitch er berre eit døme. Elevane kan bruke andre verktøy, som Gemini,
   Figma eller Penpot. Øvinga i steg 1 verkar like godt med papirskisser.
 

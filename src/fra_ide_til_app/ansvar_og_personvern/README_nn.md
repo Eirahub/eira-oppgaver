@@ -60,6 +60,10 @@ feil KI-en gjorde.
 
 ### Tips til rettleiarar
 
+- Les [Rettleiing for
+  lærarar](../veiledning_for_laerere/veiledning_for_laerere_nn) om risiko,
+  kontoar og ansvar i kurset før du startar.
+
 - Oppgåva gir ei innføring, ikkje juridisk rådgiving. Elevbedrifter med ekte
   kundedata bør snakke med skulen om kvar dataa kan lagrast.
 

@@ -52,6 +52,10 @@ bygger på det kundene sa. Pitchen har alle fem delene og holder tiden.
 
 ### Tips til veiledere
 
+- Les [Veiledning for
+  lærere](../veiledning_for_laerere/veiledning_for_laerere) om risiko,
+  kontoer og ansvar i kurset før du starter.
+
 - Gratisplaner for publisering har ofte grenser for kommersiell bruk, og
   vilkårene endrer seg. Elevene sjekker selv om tjenesten de velger, passer
   til testing eller til ekte drift. Se [Hvilken type

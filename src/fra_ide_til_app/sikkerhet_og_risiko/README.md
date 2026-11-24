@@ -59,6 +59,10 @@ og tiltak for de høyeste.
 
 ### Tips til veiledere
 
+- Les [Veiledning for
+  lærere](../veiledning_for_laerere/veiledning_for_laerere) om risiko,
+  kontoer og ansvar i kurset før du starter.
+
 - Hovedpoenget er at krav og ansvar øker med nivået. Et lokalt gratisspill har
   få krav. En app med persondata eller betaling krever backend, avtaler og
   rutiner. Oppmuntre elevene til å velge det laveste nivået som løser

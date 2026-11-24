@@ -61,4 +61,11 @@ Derfor er det en del av kurset at du selv sjekker vilkårene for det du velger:
 Er du under aldersgrensen, kan en forelder eller lærer opprette kontoen og stå
 som ansvarlig. Det er dere selv som må sjekke at bruken er innenfor vilkårene.
 
+## For lærere
+
+[Veiledning for lærere](veiledning_for_laerere/veiledning_for_laerere) går
+gjennom risiko for elever, kunder og skole, ansvar for kontoer, ungdomsbedrift i
+ekte drift, vurdering og hva du gjør hvis noe går galt. Hver oppgave har i
+tillegg sin egen lærerveiledning.
+
 Kurset er ikke laget av eller godkjent av Google eller Anthropic.

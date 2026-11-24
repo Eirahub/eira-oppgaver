@@ -60,6 +60,10 @@ for dei høgaste.
 
 ### Tips til rettleiarar
 
+- Les [Rettleiing for
+  lærarar](../veiledning_for_laerere/veiledning_for_laerere_nn) om risiko,
+  kontoar og ansvar i kurset før du startar.
+
 - Hovudpoenget er at krav og ansvar aukar med nivået. Eit lokalt gratisspel har
   få krav. Ein app med persondata eller betaling krev backend, avtalar og
   rutinar. Oppmuntre elevane til å velje det lågaste nivået som løyser

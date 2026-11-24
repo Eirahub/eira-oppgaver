@@ -53,6 +53,10 @@ byggjer på det kundane sa. Pitchen har alle fem delane og held tida.
 
 ### Tips til rettleiarar
 
+- Les [Rettleiing for
+  lærarar](../veiledning_for_laerere/veiledning_for_laerere_nn) om risiko,
+  kontoar og ansvar i kurset før du startar.
+
 - Gratisplanar for publisering har ofte grenser for kommersiell bruk, og
   vilkåra endrar seg. Elevane sjekkar sjølve om tenesta dei vel, passar til
   testing eller til ekte drift. Sjå [Kva type

@@ -53,6 +53,10 @@ Eleven kan begrunne valg av type app, har funnet og sitert vilkårene til minst
 
 ### Tips til veiledere
 
+- Les [Veiledning for
+  lærere](../veiledning_for_laerere/veiledning_for_laerere) om risiko,
+  kontoer og ansvar i kurset før du starter.
+
 - Oppgaven kan gjøres i salgs- og servicefag uten de tekniske oppgavene.
 
 - Kursets elever bygger bare webapp og eventuelt PWA. Native mobilapp,

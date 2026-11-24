@@ -49,6 +49,10 @@ Eleven har testet designet på en kunde og rettet minst én ting ut fra testen.
 
 ### Tips til veiledere
 
+- Les [Veiledning for
+  lærere](../veiledning_for_laerere/veiledning_for_laerere) om risiko,
+  kontoer og ansvar i kurset før du starter.
+
 - Stitch er bare et eksempel. Elevene kan bruke andre verktøy, som Gemini,
   Figma eller Penpot. Øvelsen i steg 1 virker like godt med papirskisser.
 
