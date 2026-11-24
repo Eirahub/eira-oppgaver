@@ -49,7 +49,8 @@ husker](../appen_husker/appen_husker).
 ## Tips {.protip}
 
 Å lage en installasjonsfil virker bare på Windows. Gratisversjonen viser
-teksten «Made with KIT Apps by Halison.io» i appen.
+teksten «Made with KIT Apps by Halison.io» i appen. Med en gratis lisens for
+skoler og kodeklubber blir den borte, se [kursets forside](../).
 
 
 # Steg 3: Del appen {.activity}
@@ -81,8 +82,9 @@ Appen din er et eget program som virker uten internett, men den har grenser.
   bruke den samtidig?
 
 - [ ] Skal appen brukes i en ungdomsbedrift eller selges? Det har du lov til
-  når du følger dette kurset, se [kursets forside](../). Teksten «Made with KIT
-  Apps by Halison.io» skal bli stående i gratisversjonen.
+  når du følger dette kurset, se [kursets forside](../). I gratisversjonen skal
+  teksten «Made with KIT Apps by Halison.io» bli stående. Skoler, kodeklubber
+  og elever kan få en gratis lisens som tar den bort.
 
 - [ ] Trenger appen innlogging, betaling eller kunder på nett? Fortsett med [Fra
   idé til app med KI](../../fra_ide_til_app/finn_behovet/finn_behovet).

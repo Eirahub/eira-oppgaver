@@ -57,6 +57,11 @@ beskrev den. Eleven har skrevet ned minst én ting som ikke virket som ønsket.
 - Steg 2 er det viktigste. Elever som hopper rett til chatten, får ofte en app
   som gjør noe annet enn de ville.
 
+- Kodeklubber, skoler og elever får en gratis lisens til den betalte versjonen
+  av KIT Apps ved å kontakte Halison på hello@halison.io. Den tar bort teksten
+  «Made with KIT Apps by Halison.io» og gjør det mulig å slå av
+  bruksstatistikken i innstillingene.
+
 - Gratisversjonen av KIT Apps sender anonym bruksstatistikk.
   Nettleserinnstillingen «Do Not Track» slår det av. Se personvernerklæringen
   til Halison.

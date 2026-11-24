@@ -44,8 +44,15 @@ KI-tjenestene har aldersgrenser, og noen krever samtykke fra foresatte. Sjekk
 selv hva som gjelder for tjenesten du bruker. Er du under aldersgrensen, kan en
 forelder eller lærer stå som ansvarlig for kontoen.
 
-KIT Apps er laget av Halison. Lisensen sier at programmet ikke kan brukes til
-kommersielle formål uten skriftlig tillatelse. Halison har gitt elever, skoler
-og ungdomsbedrifter som bruker dette kurset, tillatelse til å bruke KIT Apps
-også kommersielt, for eksempel til å selge en app i en ungdomsbedrift.
+KIT Apps er laget av Halison. Tor Einar Enne står bak Halison og har også
+skrevet dette kurset.
+
+Lisensen til KIT Apps sier at programmet ikke kan brukes til kommersielle
+formål uten skriftlig tillatelse. Halison gir elever, skoler og ungdomsbedrifter
+som bruker dette kurset, tillatelse til å bruke KIT Apps også kommersielt, for
+eksempel til å selge en app i en ungdomsbedrift.
+
 Gratisversjonen setter teksten «Made with KIT Apps by Halison.io» på appene.
+Kodeklubber, skoler og elever som vil bruke KIT Apps, får en gratis lisens til
+den betalte versjonen, som tar bort teksten. Ta kontakt med Halison på
+hello@halison.io.
