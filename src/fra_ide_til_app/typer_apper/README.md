@@ -58,13 +58,12 @@ Eleven kan begrunne valg av type app, har funnet og sitert vilkårene til minst
 - Kursets elever bygger bare webapp og eventuelt PWA. Native mobilapp,
   desktopapp og SaaS forklares, men bygges ikke.
 
-- Tabellen over tjenester er sjekket mot vilkårene i november 2026. Vilkår,
-  priser og aldersgrenser endrer seg. La elevene finne dem selv. Det er en del
-  av læringen.
+- Kurset gir med vilje ingen fasit på vilkår, priser og aldersgrenser, fordi
+  de endrer seg. Å finne og lese vilkårene selv er en del av læringen.
 
 - Ekte betaling, innlogging og database krever avtaler og ansvar for
-  kundedata. For elever under 18 krever avtaler som regel samtykke fra
-  foresatte.
+  kundedata. Er eleven under aldersgrensen, står en forelder eller lærer som
+  ansvarlig.
 
 ### Hva er testet
 

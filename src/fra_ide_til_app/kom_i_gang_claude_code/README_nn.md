@@ -50,14 +50,15 @@ har lese og justert planen frå Claude Code før han vart godkjend.
 
 ### Tips til rettleiarar
 
-- Claude Code krev at brukaren er 18 år og har betalt abonnement eller
-  API-tilgang. Med elevar under 18 køyrer læraren Claude Code på storskjerm,
-  og elevane bestemmer kva han skal få beskjed om. Rollene kan byttast: éin
-  elev skriv beskjeden, éin les planen høgt, éin sjekkar mot `PLAN.md`.
+- Claude Code er berre eit døme. Elevane kan bruke andre verktøy, som Gemini,
+  GitHub Copilot eller ChatGPT. Stega blir litt annleis, men `PLAN.md`,
+  reglane og «plan før kode» verkar likt.
 
-- Gratis alternativ: KI-verktøyet skulen har godkjent, eller GitHub Copilot
-  Free i VS Code (krev GitHub-konto, 13 år). Stega blir litt annleis, men
-  `PLAN.md`, reglane og «plan før kode» verkar likt.
+- Elevane sjekkar sjølve aldersgrense, pris og vilkår. Er eleven under
+  aldersgrensa, kan ein forelder eller lærar stå som ansvarleg for kontoen.
+  Læraren kan òg køyre verktøyet på storskjerm medan elevane bestemmer kva det
+  skal få beskjed om. Rollene kan byttast: éin elev skriv beskjeden, éin les
+  planen høgt, éin sjekkar mot `PLAN.md`.
 
 - Sjekk at installasjonen verkar på maskinene til skulen før timen.
   Skulemaskiner kan stoppe skript i PowerShell.

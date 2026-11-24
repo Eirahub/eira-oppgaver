@@ -69,8 +69,8 @@ historiene i `PLAN.md` og er sjekket for universell utforming.
 - Utfordringen sender kundedata ut av nettleseren. Bruk skolens godkjente
   skjemaverktøy, og snakk om hvem som får se dataene.
 
-- Elever under 18 kan gjøre oppgaven med læreren ved tastaturet, eller med
-  GitHub Copilot Free eller skolens godkjente KI-verktøy.
+- Elevene kan bruke det KI-verktøyet de har valgt. Er eleven under
+  aldersgrensen for verktøyet, står en forelder eller lærer som ansvarlig.
 
 ### Hva er testet
 

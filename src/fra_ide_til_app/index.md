@@ -43,16 +43,22 @@ Underveis i del 2 trenger du:
 Du trenger ikke kunne programmere, men du bør kunne kjenne igjen HTML, CSS og
 JavaScript.
 
-## Aldersgrense og kontoer
+## Verktøy, vilkår og alder
 
-Google Stitch og Claude Code krever at du er 18 år. Claude Code krever i tillegg
-et betalt abonnement. Er du under 18, gjør du planen, designbeskrivelsen og
-beskjedene til KI-en selv, og en lærer eller en annen voksen kjører verktøyene
-for gruppa. Du kan også bruke KI-verktøyet skolen har godkjent, eller den
-gratis utgaven av GitHub Copilot (13 år).
+Kurset lærer deg en arbeidsmåte, ikke ett bestemt verktøy. Vi bruker Google
+Stitch og Claude Code som eksempler, men du kan like gjerne bruke andre, som
+Gemini, ChatGPT, GitHub Copilot, Figma eller Penpot. Prinsippene er de samme.
 
-Alt i kurset kan publiseres gratis med GitHub Pages. Gratis publisering er ofte
-bare for skole og privat bruk, ikke for en bedrift som selger noe. Det lærer du
-mer om i [Hvilken type app?](typer_apper/typer_apper)
+Verktøy, priser og vilkår endrer seg ofte, raskere enn kurset blir oppdatert.
+Derfor er det en del av kurset at du selv sjekker vilkårene for det du velger:
+
+- Hvor gammel må du være?
+- Hva koster det?
+- Kan du bruke det til det du skal lage, for eksempel salg i en
+  ungdomsbedrift?
+- Hva skjer med det du skriver inn?
+
+Er du under aldersgrensen, kan en forelder eller lærer opprette kontoen og stå
+som ansvarlig. Det er dere selv som må sjekke at bruken er innenfor vilkårene.
 
 Kurset er ikke laget av eller godkjent av Google eller Anthropic.

@@ -40,27 +40,37 @@ Start nesten alltid med ein webapp. Han er billegast, raskast å endre og verkar
 på alle einingar. Gjer han om til PWA viss kundane vil ha han på heimeskjermen.
 
 
-# Steg 2: Gratis for skule eller for bedrift? {.activity}
+# Steg 2: Sjekk vilkåra sjølv {.activity}
 
-Mange tenester er gratis, men nokre berre for privat bruk eller skuleprosjekt.
-Ei ungdomsbedrift som sel noko, driv kommersielt, òg utan overskot. Les
-vilkåra før du vel.
-
-| Teneste | Gratis til test og skule | Gratis til bedrift | Merk |
-|---|---|---|---|
-| GitHub Pages | Ja | Nei | Ikkje for nettbutikk eller nettsider som driv ei bedrift |
-| Vercel (Hobby) | Ja | Nei | Gratisplanen er berre for personleg, ikkje-kommersiell bruk |
-| Netlify (gratis) | Ja | Ja, innanfor grensene | 13 år. Gratisplanen kan endrast eller stoppast |
-| Skjema og rekneark i skulekontoen | Ja | Spør skulen | Skulen har avtale om personvern |
-
-Vilkåra endrar seg. Sjekk dei sjølv før appen blir teken i bruk.
+Mange tenester er gratis, men nokre berre for privat bruk, test eller
+skuleprosjekt. Ei ungdomsbedrift som sel noko, driv kommersielt, òg utan
+overskot. Vilkår, prisar og aldersgrenser endrar seg ofte. Difor kan ikkje
+kurset fortelje deg kva som gjeld. Det må du finne ut sjølv.
 
 ## Sjekkliste {.check}
 
-- [ ] Finn vilkåra til tenesta du vil bruke. Søk etter «commercial use» og
-  «minimum age».
+- [ ] Vel to eller tre tenester du kan bruke til å publisere appen, til dømes
+  GitHub Pages, Netlify, Vercel eller Cloudflare Pages. Ta òg med
+  KI-verktøya du bruker.
 
-- [ ] Skriv ned kva du fann, og kvar.
+- [ ] Finn vilkåra og prisane på nettsida til kvar teneste. Søk etter
+  «terms», «pricing», «commercial use» og «minimum age».
+
+- [ ] Fyll ut ein tabell:
+
+  | Teneste | Gratis? | Lov for bedrift? | Aldersgrense | Kvar fann du det? |
+  |---|---|---|---|---|
+  | | | | | |
+
+- [ ] Er du under aldersgrensa? Avtal kven som står som ansvarleg for
+  kontoen, til dømes ein forelder eller lærar.
+
+- [ ] Vel teneste, og skriv éi setning om kvifor.
+
+## Tips {.protip}
+
+Vilkåra er ofte lange og på engelsk. Du kan be ein KI oppsummere dei, men les
+sjølv det som handlar om alder, pris og kommersiell bruk. KI-en kan ta feil.
 
 
 # Steg 3: Kva kostar appen? {.activity}

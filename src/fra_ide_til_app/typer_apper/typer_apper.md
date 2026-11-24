@@ -39,27 +39,37 @@ Start nesten alltid med en webapp. Den er billigst, raskest å endre og virker
 på alle enheter. Gjør den om til PWA hvis kundene vil ha den på hjemskjermen.
 
 
-# Steg 2: Gratis for skole eller for bedrift? {.activity}
+# Steg 2: Sjekk vilkårene selv {.activity}
 
-Mange tjenester er gratis, men noen bare for privat bruk eller skoleprosjekter.
-En ungdomsbedrift som selger noe, driver kommersielt, også uten overskudd. Les
-vilkårene før du velger.
-
-| Tjeneste | Gratis til test og skole | Gratis til bedrift | Merk |
-|---|---|---|---|
-| GitHub Pages | Ja | Nei | Ikke for nettbutikk eller nettsider som driver en bedrift |
-| Vercel (Hobby) | Ja | Nei | Gratisplanen er bare for personlig, ikke-kommersiell bruk |
-| Netlify (gratis) | Ja | Ja, innenfor grensene | 13 år. Gratisplanen kan endres eller stoppes |
-| Skjema og regneark i skolekontoen | Ja | Spør skolen | Skolen har avtale om personvern |
-
-Vilkårene endrer seg. Sjekk dem selv før appen tas i bruk.
+Mange tjenester er gratis, men noen bare for privat bruk, test eller
+skoleprosjekter. En ungdomsbedrift som selger noe, driver kommersielt, også
+uten overskudd. Vilkår, priser og aldersgrenser endrer seg ofte. Derfor kan
+ikke kurset fortelle deg hva som gjelder. Det må du finne ut selv.
 
 ## Sjekkliste {.check}
 
-- [ ] Finn vilkårene til tjenesten du vil bruke. Søk etter «commercial use» og
-  «minimum age».
+- [ ] Velg to eller tre tjenester du kan bruke til å publisere appen, for
+  eksempel GitHub Pages, Netlify, Vercel eller Cloudflare Pages. Ta også med
+  KI-verktøyene du bruker.
 
-- [ ] Skriv ned hva du fant, og hvor.
+- [ ] Finn vilkårene og prisene på nettsiden til hver tjeneste. Søk etter
+  «terms», «pricing», «commercial use» og «minimum age».
+
+- [ ] Fyll ut en tabell:
+
+  | Tjeneste | Gratis? | Lov til bedrift? | Aldersgrense | Hvor fant du det? |
+  |---|---|---|---|---|
+  | | | | | |
+
+- [ ] Er du under aldersgrensen? Avtal hvem som står som ansvarlig for
+  kontoen, for eksempel en forelder eller lærer.
+
+- [ ] Velg tjeneste, og skriv én setning om hvorfor.
+
+## Tips {.protip}
+
+Vilkårene er ofte lange og på engelsk. Du kan be en KI oppsummere dem, men les
+selv det som handler om alder, pris og kommersiell bruk. KI-en kan ta feil.
 
 
 # Steg 3: Hva koster appen? {.activity}

@@ -15,11 +15,12 @@ testar det på ein kunde før det finst ei einaste linje kode.
 ![Illustrasjon av tre mobilskjermar for Vaskeplan: ledige tider, bestilling og
 stadfesting](stitch_nn.png)
 
-## Aldersgrense {.tip}
+## Verktøy og vilkår {.tip}
 
-Google Stitch krev ein Google-konto, og du må vere 18 år. Er du yngre, skriv
-du skildringa sjølv, og ein vaksen lagar designet for deg. Du kan òg teikne
-skjermane på papir eller i eit gratis verktøy som Penpot eller Excalidraw.
+Vi bruker Google Stitch som døme. Andre KI-verktøy for design, som Gemini,
+Figma eller Penpot, verkar på same måte, og du kan òg teikne på papir. Sjekk
+sjølv aldersgrense og vilkår for verktøyet du vel. Er du under aldersgrensa,
+kan ein forelder eller lærar stå som ansvarleg for kontoen.
 
 ## Før du startar {.tip}
 

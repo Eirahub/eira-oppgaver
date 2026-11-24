@@ -16,13 +16,13 @@ Claude Code, skriv reglar for prosjektet og får han til å lage ein plan.
 ![Illustrasjon av ein terminal der Claude Code viser ein plan i fem punkt og
 spør om han kan starte](terminal_nn.png)
 
-## Aldersgrense og konto {.tip}
+## Verktøy og vilkår {.tip}
 
-Claude Code krev at du er 18 år og har eit betalt abonnement hos Anthropic.
-Er du yngre, kan ein vaksen køyre Claude Code medan du bestemmer kva han skal
-gjere. Du kan òg bruke KI-verktøyet skulen har godkjent, eller den gratis
-utgåva av GitHub Copilot i VS Code (sjå [Utvidelser og
-KI](../../vs_code/utvidelser_og_ki/utvidelser_og_ki)).
+Vi bruker Claude Code som døme. Andre KI-verktøy for koding, som Gemini,
+GitHub Copilot eller ChatGPT, verkar på liknande måte. Stega blir litt
+annleis, men `PLAN.md`, reglane og «plan før kode» er dei same. Sjekk sjølv
+aldersgrense, pris og vilkår for verktøyet du vel. Er du under aldersgrensa,
+kan ein forelder eller lærar stå som ansvarleg for kontoen.
 
 ## Før du startar {.tip}
 

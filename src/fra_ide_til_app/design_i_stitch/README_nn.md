@@ -50,18 +50,14 @@ Eleven har testa designet på ein kunde og retta minst éin ting ut frå testen.
 
 ### Tips til rettleiarar
 
-- Google Stitch er eit forsøk frå Google Labs. Det krev at brukaren er 18 år,
-  og tilgjenge og knappar kan endre seg. Sjekk at det verkar før timen.
+- Stitch er berre eit døme. Elevane kan bruke andre verktøy, som Gemini,
+  Figma eller Penpot. Øvinga i steg 1 verkar like godt med papirskisser.
 
-- Elevar under 18 kan skrive skildringa sjølv, medan læraren køyrer Stitch på
-  storskjerm. Det gir ein god felles samtale om kvifor KI-en gjorde som han
-  gjorde.
+- Vilkår, alder og tilgjenge endrar seg. Elevane sjekkar sjølve kva som gjeld
+  for verktøyet dei vel. Er eleven under aldersgrensa, kan ein forelder eller
+  lærar stå som ansvarleg for kontoen.
 
-- Alternativ utan aldersgrense: papirskisser, Penpot eller Excalidraw. Øvinga
-  i steg 1 verkar like godt utan verktøy.
-
-- Bruk KI-verktøyet skulen har godkjent når det finst. Ikkje legg inn
-  personopplysningar i skildringane.
+- Ikkje legg inn personopplysningar i skildringane.
 
 ### Kva er testa
 

@@ -53,9 +53,10 @@ byggjer på det kundane sa. Pitchen har alle fem delane og held tida.
 
 ### Tips til rettleiarar
 
-- GitHub Pages er gratis, men vilkåra tillèt ikkje nettsider som driv ei
-  bedrift eller nettbutikk. Det er greitt for testing og skuleprosjekt. Sjå
-  [Kva type app?](../typer_apper/typer_apper_nn) for alternativ i ekte drift.
+- Gratisplanar for publisering har ofte grenser for kommersiell bruk, og
+  vilkåra endrar seg. Elevane sjekkar sjølve om tenesta dei vel, passar til
+  testing eller til ekte drift. Sjå [Kva type
+  app?](../typer_apper/typer_apper_nn)
 
 - Repoet på GitHub blir offentleg. Sjekk at det ikkje inneheld namn,
   telefonnummer eller intervjunotat.

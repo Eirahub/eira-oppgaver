@@ -19,7 +19,6 @@ en liste med neste versjon](test.png)
 Du trenger en MVP som virker, fra [Bygg MVP-en](../bygg_mvp/bygg_mvp), og den
 må ligge på GitHub, se [Del koden på
 GitHub](../../git/del_pa_github/del_pa_github).
-GitHub krever at du er 13 år.
 
 
 # Steg 1: Publiser {.activity}
@@ -40,10 +39,11 @@ godt til en prototype.
 
 ## Prototype eller bedrift? {.tip}
 
-GitHub Pages er ikke tillatt for nettbutikker eller nettsider som driver en
-bedrift. Til en test er det greit. Skal ungdomsbedriften bruke appen til ekte
-salg, må den ligge på en tjeneste som tillater det. Det ser du på i [Hvilken
-type app?](../typer_apper/typer_apper)
+Det finnes mange tjenester for publisering, som GitHub Pages, Netlify, Vercel
+og Cloudflare Pages. Noen gratisplaner er bare for test, skole eller privat
+bruk. Skal ungdomsbedriften bruke appen til ekte salg, må du sjekke at
+vilkårene tillater det. Det ser du på i [Hvilken type
+app?](../typer_apper/typer_apper)
 
 
 # Steg 2: La kundene teste {.activity}

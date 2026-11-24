@@ -69,8 +69,8 @@ historiene i `PLAN.md` og er sjekka for universell utforming.
 - Utfordringa sender kundedata ut av nettlesaren. Bruk skjemaverktøyet som
   skulen har godkjent, og snakk om kven som får sjå dataa.
 
-- Elevar under 18 kan gjere oppgåva med læraren ved tastaturet, eller med
-  GitHub Copilot Free eller KI-verktøyet som skulen har godkjent.
+- Elevane kan bruke det KI-verktøyet dei har valt. Er eleven under
+  aldersgrensa for verktøyet, står ein forelder eller lærar som ansvarleg.
 
 ### Kva er testa
 

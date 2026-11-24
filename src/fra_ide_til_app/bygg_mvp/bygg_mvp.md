@@ -17,9 +17,10 @@ lagre i Git, neste steg](bygg.png)
 ## Før du starter {.tip}
 
 Gjør [Kom i gang med Claude
-Code](../kom_i_gang_claude_code/kom_i_gang_claude_code) først. Du bør kunne lage en commit, se [Git i VS
-Code](../../vs_code/git_i_vs_code/git_i_vs_code), og det hjelper å ha gjort
-[Feilsøking i VS Code](../../vs_code/feilsoking/feilsoking).
+Code](../kom_i_gang_claude_code/kom_i_gang_claude_code) først. Du bør kunne
+lage en commit, se [Git i VS Code](../../vs_code/git_i_vs_code/git_i_vs_code),
+og det hjelper å ha gjort [Feilsøking i VS
+Code](../../vs_code/feilsoking/feilsoking).
 
 
 # Steg 1: Løkka {.activity}
