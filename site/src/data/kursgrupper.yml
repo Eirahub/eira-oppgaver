@@ -21,7 +21,7 @@
 - title: 3D-printing
   courses: [3d_print]
 - title: Apper
-  courses: [appinventor]
+  courses: [appinventor, fra_ide_til_app]
 - title: Verktøy
   courses: [vs_code]
 - title: Andre

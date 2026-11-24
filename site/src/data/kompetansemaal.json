@@ -8019,6 +8019,1136 @@
    "nb": "bruke kilder på en kritisk og etterrettelig måte og følge regler for personvern og opphavsrett",
    "nn": "bruke kilder på en kritisk og etterrettelig måte og følge regler for personvern og opphavsrett",
    "url": "https://www.udir.no/lk20/eng03-02/kompetansemaal-og-vurdering/kv13#KM195"
+  },
+  {
+   "kode": "KM2603",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Forretningsdrift",
+   "nb": "gjøre rede for regler og lovverk som er relevante for servicenæringen, og forklare hvordan de regulerer drift av virksomheter",
+   "nn": "gjere greie for reglar og lovverk som er relevante for servicenæringa, og forklare korleis dei regulerer drift av verksemder",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv241#KM2603"
+  },
+  {
+   "kode": "KM2624",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Forretningsdrift",
+   "nb": "beskrive ansvarsfordeling og hva de ulike rollene i en virksomhet innebærer, og utarbeide og presentere et organisasjonskart",
+   "nn": "beskrive ansvarsfordeling og kva dei ulike rollene i ei verksemd inneber, og utarbeide og presentere eit organisasjonskart",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv241#KM2624"
+  },
+  {
+   "kode": "KM2623",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Forretningsdrift",
+   "nb": "vurdere, kalkulere og tilpasse pris på et produkt med tanke på kostnader og markedssituasjon",
+   "nn": "vurdere, kalkulere og tilpasse pris på eit produkt med tanke på kostnader og marknadssituasjon",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv241#KM2623"
+  },
+  {
+   "kode": "KM2622",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Forretningsdrift",
+   "nb": "forklare og føre et enkelt regnskap, utarbeide budsjett og vurdere lønnsomheten",
+   "nn": "forklare og føre ein enkel rekneskap, utarbeide budsjett og vurdere lønnsemda",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv241#KM2622"
+  },
+  {
+   "kode": "KM2621",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Forretningsdrift",
+   "nb": "beskrive vareflyt og kvalitet i verdikjeden og vurdere dilemmaer knyttet til lønnsomhet og bærekraftig utvikling",
+   "nn": "beskrive vareflyt og kvalitet i verdikjeda og vurdere dilemma knytte til lønnsemd og berekraftig utvikling",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv241#KM2621"
+  },
+  {
+   "kode": "KM2619",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Forretningsdrift",
+   "nb": "gjennomføre en enkel risikovurdering og presentere tiltak som forebygger uønskede hendelser",
+   "nn": "gjennomføre ei enkel risikovurdering og presentere tiltak som førebyggjer uønskte hendingar",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv241#KM2619"
+  },
+  {
+   "kode": "KM2618",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Forretningsdrift",
+   "nb": "gjennomføre og dokumentere arbeid i samsvar med gjeldende regelverk for helse, miljø og sikkerhet",
+   "nn": "gjennomføre og dokumentere arbeid i samsvar med gjeldande regelverk for helse, miljø og tryggleik",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv241#KM2618"
+  },
+  {
+   "kode": "KM2620",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Forretningsdrift",
+   "nb": "følge en beredskapsplan og gjøre rede for funksjonen og formålet med beredskapsplaner",
+   "nn": "følgje ein beredskapsplan og gjere greie for funksjonen og formålet med beredskapsplanar",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv241#KM2620"
+  },
+  {
+   "kode": "KM2610",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Markedsføring og innovasjon",
+   "nb": "analysere forbrukeratferd i sammenheng med segmentering av målgrupper",
+   "nn": "analysere forbrukaråtferd i samanheng med segmentering av målgrupper",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv243#KM2610"
+  },
+  {
+   "kode": "KM2609",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Markedsføring og innovasjon",
+   "nb": "vurdere sentrale konkurransevirkemidler i sammenheng med profilen og lønnsomheten til virksomheter",
+   "nn": "vurdere sentrale konkurranseverkemiddel i samanheng med profilen og lønnsemda til verksemder",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv243#KM2609"
+  },
+  {
+   "kode": "KM2608",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Markedsføring og innovasjon",
+   "nb": "utvikle en forretningsidé og vurdere den i lys av bærekraftig utvikling",
+   "nn": "utvikle ein forretningsidé og vurdere han i lys av berekraftig utvikling",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv243#KM2608"
+  },
+  {
+   "kode": "KM2607",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Markedsføring og innovasjon",
+   "nb": "lage en enkel markedsplan og gjøre rede for valg av mål og virkemiddel",
+   "nn": "lage ein enkel marknadsplan og gjere greie for val av mål og verkemiddel",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv243#KM2607"
+  },
+  {
+   "kode": "KM2606",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Markedsføring og innovasjon",
+   "nb": "utforske hvordan teknologi og endringer i forbrukeratferd påvirker salg og servicerollen, og presentere tiltak og markedsføringsstrategier",
+   "nn": "utforske korleis teknologi og endringar i forbrukaråtferd påverkar sal og servicerolla, og presentere tiltak og marknadsføringsstrategiar",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv243#KM2606"
+  },
+  {
+   "kode": "KM2605",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Markedsføring og innovasjon",
+   "nb": "lage en markedsføringskampanje og gjøre rede for valg av virkemidler",
+   "nn": "lage ein marknadsføringskampanje og gjere greie for val av verkemiddel",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv243#KM2605"
+  },
+  {
+   "kode": "KM2604",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Markedsføring og innovasjon",
+   "nb": "selge et produkt og gjøre rede for salgsprosessen",
+   "nn": "selje eit produkt og gjere greie for salsprosessen",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv243#KM2604"
+  },
+  {
+   "kode": "KM2625",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Markedsføring og innovasjon",
+   "nb": "kjenne til og ta i bruk gjeldende regelverk for markedsføring og salg",
+   "nn": "kjenne til og nytte gjeldande regelverk for marknadsføring og sal",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv243#KM2625"
+  },
+  {
+   "kode": "KM2626",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Markedsføring og innovasjon",
+   "nb": "beskrive administrative funksjoner og rutiner i en virksomhet og drøfte hvordan disse påvirker kvaliteten og servicenivået",
+   "nn": "beskrive administrative funksjonar og rutinar i ei verksemd og drøfte korleis desse påverkar kvaliteten og servicenivået",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv243#KM2626"
+  },
+  {
+   "kode": "KM2617",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Kultur og samhandling",
+   "nb": "utforske hvordan ulik kultur og bakgrunn påvirker kommunikasjon og kundebehandling, og ta hensyn til dette i møte med kunder og gjester",
+   "nn": "utforske korleis ulike kulturar og bakgrunn påverkar kommunikasjon og kundebehandling og ta omsyn til dette i møte med kundar og gjestar",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv242#KM2617"
+  },
+  {
+   "kode": "KM2616",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Kultur og samhandling",
+   "nb": "planlegge og gjennomføre et arrangement og gjøre rede for betydningen av vertskapsrollen",
+   "nn": "planleggje og gjennomføre eit arrangement og gjere greie for betydninga av vertskapsrolla",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv242#KM2616"
+  },
+  {
+   "kode": "KM2615",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Kultur og samhandling",
+   "nb": "reflektere over ulike former for relasjonsbygging og forklare betydningen av nettverk",
+   "nn": "reflektere over ulike former for relasjonsbygging og forklare betydninga av nettverk",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv242#KM2615"
+  },
+  {
+   "kode": "KM2614",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Kultur og samhandling",
+   "nb": "reflektere over etiske dilemmaer i servicenæringen og vurdere virkemidler som kan fremme etiske og bærekraftige valg",
+   "nn": "reflektere over etiske dilemma i servicenæringa og vurdere verkemiddel som kan fremje etiske og berekraftige val",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv242#KM2614"
+  },
+  {
+   "kode": "KM2613",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Kultur og samhandling",
+   "nb": "håndtere klager og beskrive tiltak som forebygger konflikter",
+   "nn": "handtere klagar og beskrive tiltak som førebyggjer konfliktar",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv242#KM2613"
+  },
+  {
+   "kode": "KM2612",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Kultur og samhandling",
+   "nb": "gjøre rede for hvilken rolle servicemedarbeideren har i konflikt- og nødssituasjoner",
+   "nn": "gjere greie for kva rolle servicemedarbeidaren har i konflikt- og nødssituasjonar",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv242#KM2612"
+  },
+  {
+   "kode": "KM2611",
+   "plan": "SSR01-01",
+   "fag": "Vg1 salg, service og reiseliv",
+   "fagNn": "Vg1 sal, service og reiseliv",
+   "trinn": "Kultur og samhandling",
+   "nb": "gjøre rede for og vurdere hvordan partene i arbeidslivet samarbeider for å utvikle et bedre arbeidsliv",
+   "nn": "gjere greie for og vurdere korleis partane i arbeidslivet samarbeider for å utvikle eit betre arbeidsliv",
+   "url": "https://www.udir.no/lk20/ssr01-01/kompetansemaal-og-vurdering/kv242#KM2611"
+  },
+  {
+   "kode": "KM13065",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Økonomi og administrasjon",
+   "nb": "utvikle, presentere og vurdere en forretningsplan",
+   "nn": "utvikle, presentere og vurdere ein forretningsplan",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1011#KM13065"
+  },
+  {
+   "kode": "KM13061",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Økonomi og administrasjon",
+   "nb": "utforske trender og forretningsmodeller lokalt og reflektere over hvordan disse påvirker bærekraft og miljø",
+   "nn": "utforske trendar og forretningsmodellar lokalt og reflektere over korleis desse påverkar berekraft og miljø",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1011#KM13061"
+  },
+  {
+   "kode": "KM13066",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Økonomi og administrasjon",
+   "nb": "beskrive rekrutteringsprosesser og reflektere over forventninger til ansatte i ulike typer servicebedrifter",
+   "nn": "beskrive rekrutteringsprosessar og reflektere over forventningar til tilsette i ulike typar servicebedrifter",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1011#KM13066"
+  },
+  {
+   "kode": "KM13062",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Økonomi og administrasjon",
+   "nb": "beregne pris på et produkt eller en tjeneste og vurdere ulike former og strategier for kalkulasjon og prissetting",
+   "nn": "berekne pris på eit produkt eller ei teneste og vurdere ulike former og strategiar for kalkulasjon og prissetjing",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1011#KM13062"
+  },
+  {
+   "kode": "KM13067",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Økonomi og administrasjon",
+   "nb": "gjøre rede for ulike typer lønn og lønnskostnader",
+   "nn": "gjere greie for ulike typar lønn og lønnskostnader",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1011#KM13067"
+  },
+  {
+   "kode": "KM13068",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Økonomi og administrasjon",
+   "nb": "utarbeide og presentere regnskap og budsjett for en selvvalgt virksomhet eller et selvvalgt arrangement og kommentere budsjettavvik",
+   "nn": "utarbeide og presentere rekneskap og budsjett for ei sjølvvald verksemd eller eit sjølvvalt arrangement og kommentere budsjettavvik",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1011#KM13068"
+  },
+  {
+   "kode": "KM13060",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Økonomi og administrasjon",
+   "nb": "regne ut og bruke sentrale nøkkeltall og vurdere lønnsomheten ut fra dem",
+   "nn": "rekne ut og bruke sentrale nøkkeltal og vurdere lønnsemda ut frå dei",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1011#KM13060"
+  },
+  {
+   "kode": "KM13069",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Økonomi og administrasjon",
+   "nb": "beskrive ulike typer svinn, reflektere over konsekvensene av svinn og foreslå tiltak for å forebygge svinn",
+   "nn": "beskrive ulike typar svinn, reflektere over konsekvensane av svinn og foreslå tiltak for å førebyggje svinn",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1011#KM13069"
+  },
+  {
+   "kode": "KM13070",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Økonomi og administrasjon",
+   "nb": "reflektere over hvordan det tas hensyn til bærekraft i en verdikjede",
+   "nn": "reflektere over korleis berekraft blir teken omsyn til i ei verdikjede",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1011#KM13070"
+  },
+  {
+   "kode": "KM13063",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Økonomi og administrasjon",
+   "nb": "beskrive og følge regelverk som gjelder for servicebedrifter, og som regulerer forholdet til kunder, ansatte og næringsliv",
+   "nn": "beskrive og følgje regelverk som gjeld for servicebedrifter, og som regulerer forholdet til kundar, tilsette og næringsliv",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1011#KM13063"
+  },
+  {
+   "kode": "KM13064",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Økonomi og administrasjon",
+   "nb": "bruke digitale systemer og plattformer til å veilede, informere, kommunisere og følge opp kunder, brukere, gjester og kolleger",
+   "nn": "bruke digitale system og plattformer til å rettleie, informere, kommunisere og følgje opp kundar, brukarar, gjester og kollegaer",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1011#KM13064"
+  },
+  {
+   "kode": "KM13071",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Økonomi og administrasjon",
+   "nb": "drøfte hvilke krav og forventninger som stilles til et likeverdig og inkluderende yrkesfellesskap, og beskrive hvilke plikter og rettigheter arbeidsgiveren og arbeidstakeren har i arbeidslivet",
+   "nn": "drøfte kva krav og forventningar som blir stilte til eit likeverdig og inkluderande yrkesfellesskap, og beskrive kva plikter og rettar arbeidsgivaren og arbeidstakaren har i arbeidslivet",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1011#KM13071"
+  },
+  {
+   "kode": "KM13078",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Kommunikasjon og marknadsføring",
+   "nb": "gjøre rede for ulike merkevarer og utforske ulike markedsstrategier som bedrifter kan bruke",
+   "nn": "gjere greie for ulike merkevarer og utforske ulike marknadsstrategiar som bedrifter kan bruke",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1012#KM13078"
+  },
+  {
+   "kode": "KM13079",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Kommunikasjon og marknadsføring",
+   "nb": "gjøre rede for sammenhengen mellom ekstern, intern og interaktiv markedsføring",
+   "nn": "gjere greie for samanhengen mellom ekstern, intern og interaktiv marknadsføring",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1012#KM13079"
+  },
+  {
+   "kode": "KM13080",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Kommunikasjon og marknadsføring",
+   "nb": "presentere et produkt som representerer innovasjon og nyskaping, og gjøre rede for hvilken rolle lønnsomhet, klima og etiske forhold har spilt i utviklingen",
+   "nn": "presentere eit produkt som representerer innovasjon og nyskaping, og gjere greie for kva rolle lønnsemd, klima og etiske forhold har spelt i utviklinga",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1012#KM13080"
+  },
+  {
+   "kode": "KM13081",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Kommunikasjon og marknadsføring",
+   "nb": "planlegge, gjennomføre og evaluere et arrangement med tanke på lønnsomhet, bærekraft og sikkerhet",
+   "nn": "planleggje, gjennomføre og evaluere eit arrangement med tanke på lønnsemd, berekraft og sikkerheit",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1012#KM13081"
+  },
+  {
+   "kode": "KM13075",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Kommunikasjon og marknadsføring",
+   "nb": "utforske ulike reiselivsdestinasjoner og vurdere hvordan reiselivsvirksomhet påvirker bærekraftig utvikling",
+   "nn": "utforske ulike reiselivsdestinasjonar og vurdere korleis reiselivsverksemd påverkar berekraftig utvikling",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1012#KM13075"
+  },
+  {
+   "kode": "KM13082",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Kommunikasjon og marknadsføring",
+   "nb": "utvikle og gjennomføre en markedsundersøkelse og bruke resultatene i videre arbeid",
+   "nn": "utvikle og gjennomføre ei marknadsundersøking og bruke resultata i vidare arbeid",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1012#KM13082"
+  },
+  {
+   "kode": "KM13083",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Kommunikasjon og marknadsføring",
+   "nb": "planlegge og gjennomføre en markedsføringskampanje og presentere hvordan det er tatt hensyn til målgruppens forbrukeratferd og medievaner",
+   "nn": "planleggje og gjennomføre ein marknadsføringskampanje og presentere korleis forbrukaråtferda og medievanane til målgruppa er tekne omsyn til",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1012#KM13083"
+  },
+  {
+   "kode": "KM13076",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Kommunikasjon og marknadsføring",
+   "nb": "vurdere tiltak i salgskanaler som kan fremme salg, mersalg og gjensalg, og ta hensyn til dette i utviklingen av det indre og ytre salgsmiljøet",
+   "nn": "vurdere tiltak i salskanalar som kan fremje sal, meirsal og gjensal, og ta omsyn til dette i utviklinga av det indre og ytre salsmiljøet",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1012#KM13076"
+  },
+  {
+   "kode": "KM13073",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Kommunikasjon og marknadsføring",
+   "nb": "planlegge, gjennomføre og avslutte et salg og vurdere salgsprosessen med utgangspunkt i måloppnåelse, kundeopplevelse og bruk av egnede salgsteknikker",
+   "nn": "planleggje, gjennomføre og avslutte eit sal og vurdere salsprosessen med utgangspunkt i måloppnåing, kundeoppleving, og bruk av eigna salsteknikkar",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1012#KM13073"
+  },
+  {
+   "kode": "KM13077",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Kommunikasjon og marknadsføring",
+   "nb": "utvikle og presentere et helhetlig reiselivsprodukt og forklare hvordan ulike aktører samarbeider med og påvirker hverandre",
+   "nn": "utvikle og presentere eit heilskapleg reiselivsprodukt og forklare korleis ulike aktørar samarbeider med og påverkar kvarandre",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1012#KM13077"
+  },
+  {
+   "kode": "KM13084",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Kommunikasjon og marknadsføring",
+   "nb": "skape opplevelser av og formidle fortellinger om norsk og samisk kultur, natur og geografi",
+   "nn": "skape opplevingar av og formidle forteljingar om norsk og samisk kultur, natur og geografi",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1012#KM13084"
+  },
+  {
+   "kode": "KM13074",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Kommunikasjon og marknadsføring",
+   "nb": "utforske og vurdere hva vertskapsrollen har å si i ulike reiselivsaktiviteter",
+   "nn": "utforske og vurdere kva vertskapsrolla har å seie for ulike reiselivsaktivitetar",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1012#KM13074"
+  },
+  {
+   "kode": "KM13085",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Kommunikasjon og marknadsføring",
+   "nb": "reflektere over hvordan kultur, verdier og holdninger påvirker kommunikasjon mellom mennesker, og ta hensyn til dette i yrkesutøvelsen",
+   "nn": "reflektere over korleis kultur, verdiar og haldningar påverkar kommunikasjon mellom menneske, og ta omsyn til dette i yrkesutøvinga",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1012#KM13085"
+  },
+  {
+   "kode": "KM13072",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Kommunikasjon og marknadsføring",
+   "nb": "gjøre rede for servicerollen og utforske hvordan utøvelsen av den må tilpasses ulike mottakere i ulike situasjoner, og hvordan måten rollen blir utøvd på, kan påvirke omdømmet til bedrifter",
+   "nn": "gjere greie for servicerolla og utforske korleis utøvinga av servicerolla må tilpassast ulike mottakarar i ulike situasjonar, og korleis måten rolla blir utøvd på, kan påverke omdømmet til bedrifter",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1012#KM13072"
+  },
+  {
+   "kode": "KM13093",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Helse, miljø og sikkerheit",
+   "nb": "utarbeide en risikoanalyse med forslag til tiltak og gjøre rede for ulike former for risikovurdering",
+   "nn": "utarbeide ein risikoanalyse med forslag til tiltak og gjere greie for ulike former for risikovurdering",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1013#KM13093"
+  },
+  {
+   "kode": "KM13088",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Helse, miljø og sikkerheit",
+   "nb": "drøfte ulike trusselbilder for virksomheter og for samfunnet",
+   "nn": "drøfte ulike trusselbilete for verksemder og for samfunnet",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1013#KM13088"
+  },
+  {
+   "kode": "KM13086",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Helse, miljø og sikkerheit",
+   "nb": "utforske, forklare og bruke en beredskapsplan",
+   "nn": "utforske, forklare og bruke ein beredskapsplan",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1013#KM13086"
+  },
+  {
+   "kode": "KM13094",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Helse, miljø og sikkerheit",
+   "nb": "vurdere ulike fysiske, tekniske, manuelle og administrative sikkerhetstiltak",
+   "nn": "vurdere ulike fysiske, tekniske, manuelle og administrative sikkerheitstiltak",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1013#KM13094"
+  },
+  {
+   "kode": "KM13095",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Helse, miljø og sikkerheit",
+   "nb": "vurdere tiltak som kan forebygge konflikt, bruke ulike metoder for håndtering av konflikt- og nødssituasjoner og forklare hvordan utfordrende atferd og ens egen atferd kan påvirke situasjonen og sikkerheten",
+   "nn": "vurdere tiltak som kan førebyggje konflikt, bruke ulike metodar for handtering av konflikt- og nødssituasjonar og forklare korleis utfordrande åtferd og eins eiga åtferd kan påverke situasjonen og sikkerheita",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1013#KM13095"
+  },
+  {
+   "kode": "KM13087",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Helse, miljø og sikkerheit",
+   "nb": "utføre livreddende førstehjelp, ta ansvar for et skadested og reflektere over hva ens egen framferd har å si",
+   "nn": "utføre livreddande førstehjelp, ta ansvar for ein skadestad og reflektere over kva eiga framferd har å seie",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1013#KM13087"
+  },
+  {
+   "kode": "KM13089",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Helse, miljø og sikkerheit",
+   "nb": "gjøre rede for brannteori og planlegge, gjennomføre og evaluere en brannøvelse",
+   "nn": "gjere greie for brannteori og planleggje, gjennomføre og evaluere ei brannøving",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1013#KM13089"
+  },
+  {
+   "kode": "KM13090",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Helse, miljø og sikkerheit",
+   "nb": "undersøke helse-, miljø- og sikkerhetsarbeidet i en virksomhet og gjøre rede for hvordan ansvar og oppgaver er fordelt på de ulike rollene i virksomheten",
+   "nn": "undersøkje helse-, miljø- og sikkerheitsarbeidet i ei verksemd og gjere greie for korleis ansvar og oppgåver er fordelte mellom dei ulike rollene i verksemda",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1013#KM13090"
+  },
+  {
+   "kode": "KM13091",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Helse, miljø og sikkerheit",
+   "nb": "reflektere over hva yrkesetikk og bedriftskultur har å si innenfor servicefagene, og gjøre rede for etiske dilemmaer som kan oppstå i ulike arbeidssituasjoner",
+   "nn": "reflektere over kva yrkesetikk og bedriftskultur har å seie innanfor servicefaga, og gjere greie for etiske dilemma som kan oppstå i ulike arbeidssituasjonar",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1013#KM13091"
+  },
+  {
+   "kode": "KM13092",
+   "plan": "SSR02-01",
+   "fag": "Salg, service og reiseliv",
+   "fagNn": "Sal, service og reiseliv",
+   "trinn": "Helse, miljø og sikkerheit",
+   "nb": "reflektere over hva sikkerhet og personvern har å si for yrkesutøvelsen, og følge rutiner for sikkerhet og personvern i ulike informasjons- og kommunikasjonskanaler",
+   "nn": "reflektere over kva sikkerheit og personvern har å seie for yrkesutøvelsen, og følgje rutinar for sikkerheit og personvern i ulike informasjons- og kommunikasjonskanaler",
+   "url": "https://www.udir.no/lk20/ssr02-01/kompetansemaal-og-vurdering/kv1013#KM13092"
+  },
+  {
+   "kode": "KM11569",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 1",
+   "nb": "bruke kilder, teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger",
+   "nn": "bruke kjelder, teoriar og modellar i arbeid med faglege spørsmål, emne og problemstillingar",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885#KM11569"
+  },
+  {
+   "kode": "KM11557",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 1",
+   "nb": "utforske ulike kreativitetsprosesser og utvikle forretningsideer",
+   "nn": "utforske ulike kreativitetsprosessar og utvikle forretningsidear",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885#KM11557"
+  },
+  {
+   "kode": "KM11558",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 1",
+   "nb": "utforske og bruke ulike innovasjonsprosesser ved etablering av virksomheter",
+   "nn": "utforske og bruke ulike innovasjonsprosessar ved etablering av verksemder",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885#KM11558"
+  },
+  {
+   "kode": "KM11559",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 1",
+   "nb": "utvikle forretningsmodeller og vurdere opp mot bærekraftig utvikling",
+   "nn": "utvikle forretningsmodellar og vurdere opp mot berekraftig utvikling",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885#KM11559"
+  },
+  {
+   "kode": "KM11560",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 1",
+   "nb": "utforske og vurdere hvordan samhandling påvirker innovasjon og utvikling",
+   "nn": "utforske og vurdere korleis samhandling påverkar innovasjon og utvikling",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885#KM11560"
+  },
+  {
+   "kode": "KM11561",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 1",
+   "nb": "sammenligne og vurdere informasjon om markeder, kjøpsatferd og segmenter for å ta beslutninger",
+   "nn": "samanlikne og vurdere informasjon om marknader, kjøpsåtferd og segment for å ta avgjerder",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885#KM11561"
+  },
+  {
+   "kode": "KM11562",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 1",
+   "nb": "gjennomføre situasjonsanalyse, vurdere utviklingsmuligheter og sette mål i en oppstartsfase",
+   "nn": "gjennomføre situasjonsanalyse, vurdere utviklingsmoglegheiter og setje mål i ein oppstartsfase",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885#KM11562"
+  },
+  {
+   "kode": "KM11563",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 1",
+   "nb": "utforske og bruke ulike konkurransemidler i en oppstartsfase",
+   "nn": "utforske og bruke ulike konkurransemiddel i ein oppstartsfase",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885#KM11563"
+  },
+  {
+   "kode": "KM11564",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 1",
+   "nb": "vurdere og velge selskapsformer ut fra risiko og ansvar ved etablering",
+   "nn": "vurdere og velje selskapsformer ut frå risiko og ansvar ved etablering",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885#KM11564"
+  },
+  {
+   "kode": "KM11565",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 1",
+   "nb": "reflektere over hva som kjennetegner en god leder i etableringsfasen, og hvordan leder og medarbeidere samhandler og setter sammen gode team",
+   "nn": "reflektere over kva som kjenneteiknar ein god leiar i etableringsfasen, og korleis leiar og medarbeidarar samhandlar og set saman gode team",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885#KM11565"
+  },
+  {
+   "kode": "KM11566",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 1",
+   "nb": "beregne og vurdere pris og kapitalbehov, utarbeide budsjett og vurdere finansieringsmuligheter med tanke på risiko og ansvar for en ny virksomhet",
+   "nn": "berekne og vurdere pris og kapitalbehov, utarbeide budsjett og vurdere finansieringsmoglegheiter med tanke på risiko og ansvar for ei ny verksemd",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885#KM11566"
+  },
+  {
+   "kode": "KM11567",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 1",
+   "nb": "lese regnskap og nøkkeltall for å vurdere en virksomhets lønnsomhet",
+   "nn": "lese rekneskap og nøkkeltal for å vurdere lønnsemda til ei verksemd",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885#KM11567"
+  },
+  {
+   "kode": "KM11568",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 1",
+   "nb": "reflektere over hva entreprenøriell kompetanse er, og vurdere hva det har å si for utvikling av virksomheter",
+   "nn": "reflektere over kva entreprenøriell kompetanse er, og vurdere kva det har å seie for utvikling av verksemder",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885#KM11568"
+  },
+  {
+   "kode": "KM11582",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 2",
+   "nb": "bruke kilder, teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger",
+   "nn": "bruke kjelder, teoriar og modellar i arbeid med faglege spørsmål, emne og problemstillingar",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv886#KM11582"
+  },
+  {
+   "kode": "KM11570",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 2",
+   "nb": "utforske ulike innovasjonsprosesser og drøfte betydningen innovasjon har for videreutvikling av en virksomhet",
+   "nn": "utforske ulike innovasjonsprosessar og drøfte betydninga innovasjon har for vidareutvikling av ei verksemd",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv886#KM11570"
+  },
+  {
+   "kode": "KM11571",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 2",
+   "nb": "utforske og vurdere konsekvenser bærekraftig verdiskaping har for videreutvikling av en virksomhet",
+   "nn": "utforske og vurdere konsekvensar berekraftig verdiskaping har for vidareutvikling av ei verksemd",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv886#KM11571"
+  },
+  {
+   "kode": "KM11572",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 2",
+   "nb": "utforske og vurdere forretningsmodeller for å videreutvikle virksomheter",
+   "nn": "utforske og vurdere forretningsmodellar for å vidareutvikle verksemder",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv886#KM11572"
+  },
+  {
+   "kode": "KM11573",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 2",
+   "nb": "reflektere over hva samfunnsansvar innebærer, og utforske og sammenligne virksomheters samfunnsansvar lokalt og globalt",
+   "nn": "reflektere over kva samfunnsansvar inneber, og utforske og samanlikne samfunnsansvaret til verksemder lokalt og globalt",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv886#KM11573"
+  },
+  {
+   "kode": "KM11574",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 2",
+   "nb": "kartlegge og vurdere støtteordninger i videreutvikling av virksomheter nasjonalt og internasjonalt",
+   "nn": "kartleggje og vurdere støtteordningar i vidareutvikling av verksemder nasjonalt og internasjonalt",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv886#KM11574"
+  },
+  {
+   "kode": "KM11575",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 2",
+   "nb": "utforske og vurdere hvordan virksomheter kan bruke ulike vekst-, markeds- og konkurransestrategier ved videreutvikling",
+   "nn": "utforske og vurdere korleis verksemder kan bruke ulike vekst-, marknads- og konkurransestrategiar ved vidareutvikling",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv886#KM11575"
+  },
+  {
+   "kode": "KM11576",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 2",
+   "nb": "vurdere internasjonale forretningsmuligheter og sammenligne nasjonale og internasjonale forretningskulturer",
+   "nn": "vurdere internasjonale forretningsmoglegheiter og samanlikne nasjonale og internasjonale forretningskulturar",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv886#KM11576"
+  },
+  {
+   "kode": "KM11577",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 2",
+   "nb": "vurdere ulike lederstiler og drøfte hvordan ledere og medarbeidere kan påvirke utviklingen av virksomheter",
+   "nn": "vurdere ulike leiarstilar og drøfte korleis leiarar og medarbeidarar kan påverke utviklinga av verksemder",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv886#KM11577"
+  },
+  {
+   "kode": "KM11578",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 2",
+   "nb": "vurdere bruk av prosjekt og andre samarbeidsformer og betydningen nettverksbygging har i utvikling av virksomheter",
+   "nn": "vurdere bruk av prosjekt og andre samarbeidsformer og betydninga nettverksbygging har i utvikling av verksemder",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv886#KM11578"
+  },
+  {
+   "kode": "KM11579",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 2",
+   "nb": "vurdere behovet for organisasjonsutvikling i etablerte virksomheter",
+   "nn": "vurdere behovet for organisasjonsutvikling i etablerte verksemder",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv886#KM11579"
+  },
+  {
+   "kode": "KM11580",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 2",
+   "nb": "vurdere hvordan finansiering av kapitalbehov bidrar til framtidig lønnsomhet og verdiskaping for virksomheter",
+   "nn": "vurdere korleis finansiering av kapitalbehov bidreg til framtidig lønnsemd og verdiskaping for verksemder",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv886#KM11580"
+  },
+  {
+   "kode": "KM11581",
+   "plan": "ENT01-04",
+   "fag": "Entreprenørskap og bedriftsutvikling",
+   "fagNn": "Entreprenørskap og bedriftsutvikling",
+   "trinn": "Entreprenørskap og bedriftsutvikling 2",
+   "nb": "reflektere over og vurdere betydningen entreprenøriell kompetanse har for videreutvikling av en virksomhet",
+   "nn": "reflektere over og vurdere kva betydning entreprenøriell kompetanse har for vidareutvikling av ei verksemd",
+   "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv886#KM11581"
+  },
+  {
+   "kode": "KM11586",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 1",
+   "nb": "velge og bruke kilder, markedsførings- og ledelsesteorier og modeller i arbeid med faglige spørsmål, emner og dagsaktuelle problemstillinger",
+   "nn": "velje og bruke kjelder, marknadsførings- og leiingsteoriar og modellar i arbeid med faglege spørsmål, emne og dagsaktuelle problemstillingar",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887#KM11586"
+  },
+  {
+   "kode": "KM11584",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 1",
+   "nb": "vurdere forhold som påvirker forbrukeratferd, og reflektere over psykologiske, sosiale og kulturelle faktorer",
+   "nn": "vurdere forhold som påverkar forbrukaråtferd, og reflektere over psykologiske, sosiale og kulturelle faktorar",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887#KM11584"
+  },
+  {
+   "kode": "KM11583",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 1",
+   "nb": "utvikle forretningsideer og mål for virksomheten og vurdere aktuelle målgrupper",
+   "nn": "utvikle forretningsidear og mål for verksemda og vurdere aktuelle målgrupper",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887#KM11583"
+  },
+  {
+   "kode": "KM11585",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 1",
+   "nb": "bruke og utvikle markedsundersøkelser for å utforske og få innsikt i markeder og målgrupper",
+   "nn": "bruke og utvikle marknadsundersøkingar for å utforske og få innsikt i marknader og målgrupper",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887#KM11585"
+  },
+  {
+   "kode": "KM11594",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 1",
+   "nb": "gjennomføre situasjonsanalyser som grunnlag for beslutninger",
+   "nn": "gjennomføre situasjonsanalysar som grunnlag for avgjerder",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887#KM11594"
+  },
+  {
+   "kode": "KM11587",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 1",
+   "nb": "utforske produkt- og merkevarestrategier og vurdere hvordan virksomheter bruker produkter som konkurransemiddel",
+   "nn": "utforske produkt- og merkevarestrategiar og vurdere korleis verksemder bruker produkt som konkurransemiddel",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887#KM11587"
+  },
+  {
+   "kode": "KM11588",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 1",
+   "nb": "utforske ulike distribusjonsstrategier i markedsføring og vurdere hvordan virksomheter bruker distribusjon som konkurransemiddel",
+   "nn": "utforske ulike distribusjonsstrategiar i marknadsføring og vurdere korleis verksemder bruker distribusjon som konkurransemiddel",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887#KM11588"
+  },
+  {
+   "kode": "KM11589",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 1",
+   "nb": "utforske ulike prisstrategier og prissettingsmetoder og vurdere hvordan virksomheter bruker pris som konkurransemiddel",
+   "nn": "utforske ulike prisstrategiar og prissetjingsmetodar og vurdere korleis verksemder bruker pris som konkurransemiddel",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887#KM11589"
+  },
+  {
+   "kode": "KM11590",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 1",
+   "nb": "utforske ulike kommunikasjonsstrategier og vurdere hvordan virksomheter bruker markedskommunikasjon som konkurransemiddel",
+   "nn": "utforske ulike kommunikasjonsstrategiar og vurdere korleis verksemder bruker marknadskommunikasjon som konkurransemiddel",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887#KM11590"
+  },
+  {
+   "kode": "KM11591",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 1",
+   "nb": "planlegge mediemiks og utvikle innhold for ulike kanaler i markedskommunikasjon",
+   "nn": "planleggje mediemiks og utvikle innhald for ulike kanalar i marknadskommunikasjon",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887#KM11591"
+  },
+  {
+   "kode": "KM11592",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 1",
+   "nb": "utforske og vurdere hvordan virksomheter kombinerer bruk av konkurransemidler",
+   "nn": "utforske og vurdere korleis verksemder kombinerer bruk av konkurransemiddel",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887#KM11592"
+  },
+  {
+   "kode": "KM11595",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 1",
+   "nb": "reflektere over og vurdere rollen til personalet og ledelsen i gjennomføring av virksomhetens markedsføringsstrategi",
+   "nn": "reflektere over og vurdere rolla til personalet og leiinga i gjennomføringa av marknadsføringsstrategien til verksemda",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887#KM11595"
+  },
+  {
+   "kode": "KM11593",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 1",
+   "nb": "utforske og følge gjeldende regelverk for markedsføring og vurdere virksomhetens etiske ansvar",
+   "nn": "utforske og følgje gjeldande regelverk for marknadsføring og vurdere det etiske ansvaret til verksemda",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887#KM11593"
+  },
+  {
+   "kode": "KM11596",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 1",
+   "nb": "reflektere over sammenhengen mellom markedsføring og bærekraftig utvikling ut fra sosiale, økonomiske og miljømessige forhold",
+   "nn": "reflektere over samanhengen mellom marknadsføring og berekraftig utvikling ut frå sosiale, økonomiske og miljømessige forhold",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv887#KM11596"
+  },
+  {
+   "kode": "KM11608",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 2",
+   "nb": "velge og bruke kilder, markedsførings- og ledelsesteorier og modeller i arbeid med faglige spørsmål, emner og dagsaktuelle problemstillinger",
+   "nn": "velje og bruke kjelder, marknadsførings- og leiingsteoriar og modellar i arbeid med faglege spørsmål, emne og dagsaktuelle problemstillingar",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888#KM11608"
+  },
+  {
+   "kode": "KM11597",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 2",
+   "nb": "utvikle og vurdere visjoner, forretningsideer og overordnede mål",
+   "nn": "utvikle og vurdere visjonar, forretningsidear og overordna mål",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888#KM11597"
+  },
+  {
+   "kode": "KM11598",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 2",
+   "nb": "drøfte og begrunne ulike faktorer som påvirker målgruppevalg",
+   "nn": "drøfte og grunngi ulike faktorar som påverkar målgruppeval",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888#KM11598"
+  },
+  {
+   "kode": "KM11599",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 2",
+   "nb": "bruke situasjonsanalyse og bransjeanalyse og vurdere markedsstrategiske beslutninger",
+   "nn": "bruke situasjonsanalyse og bransjeanalyse og vurdere marknadsstrategiske avgjerder",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888#KM11599"
+  },
+  {
+   "kode": "KM11600",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 2",
+   "nb": "utvikle merkevarestrategier og vurdere posisjonering i merkevarebygging",
+   "nn": "utvikle merkevarestrategiar og vurdere posisjonering i merkevarebygging",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888#KM11600"
+  },
+  {
+   "kode": "KM11601",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 2",
+   "nb": "utvikle distribusjonsstrategier og vurdere påvirkning av makt og avhengighet i en verdikjede",
+   "nn": "utvikle distribusjonsstrategiar og vurdere påverking av makt og avhengnad i ei verdikjede",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888#KM11601"
+  },
+  {
+   "kode": "KM11602",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 2",
+   "nb": "drøfte ulike faktorer som påvirker prissetting, og utvikle prisstrategier",
+   "nn": "drøfte ulike faktorar som påverkar prissetjing, og utvikle prisstrategiar",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888#KM11602"
+  },
+  {
+   "kode": "KM11603",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 2",
+   "nb": "vurdere og utvikle kommunikasjonsstrategier, utforske dagsaktuelle kommunikasjonskanaler og planlegge mediemiks",
+   "nn": "vurdere og utvikle kommunikasjonsstrategiar, utforske dagsaktuelle kommunikasjonskanalar og planleggje mediemiks",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888#KM11603"
+  },
+  {
+   "kode": "KM11604",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 2",
+   "nb": "vurdere lederens rolle og funksjon i utviklingen av markedsstrategi og i internmarkedsføring",
+   "nn": "vurdere rolla og funksjonen til leiaren i utviklinga av marknadsstrategi og i internmarknadsføring",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888#KM11604"
+  },
+  {
+   "kode": "KM11605",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 2",
+   "nb": "utvikle og begrunne helhetlige markedsstrategier og drøfte etisk bruk av konkurransemidler",
+   "nn": "utvikle og grunngi heilskaplege marknadsstrategiar og drøfte etisk bruk av konkurransemiddel",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888#KM11605"
+  },
+  {
+   "kode": "KM11606",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 2",
+   "nb": "vurdere hvordan virksomheter kan utvikle helhetlig markedsmiks, og utforske ulike metoder for å måle effekten av markedsføringstiltakene",
+   "nn": "vurdere korleis verksemder kan utvikle heilskapleg marknadsmiks, og utforske ulike metodar for å måle effekten av marknadsføringstiltaka",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888#KM11606"
+  },
+  {
+   "kode": "KM11607",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 2",
+   "nb": "drøfte virksomheters samfunnsansvar ut fra et etisk, lovmessig og forretningsmessig perspektiv, og vurdere dette opp mot virksomhetens omdømme",
+   "nn": "drøfte samfunnsansvaret til verksemder ut frå eit etisk, lovmessig og forretningsmessig perspektiv, og vurdere dette opp mot omdømmet til verksemda",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888#KM11607"
+  },
+  {
+   "kode": "KM11609",
+   "plan": "MFL01-04",
+   "fag": "Markedsføring og ledelse",
+   "fagNn": "Marknadsføring og leiing",
+   "trinn": "Markedsføring og ledelse 2",
+   "nb": "vurdere bærekraftige valg for virksomheter med tanke på sosiale, økonomiske og miljømessige forhold",
+   "nn": "vurdere berekraftige val for verksemder med tanke på sosiale, økonomiske og miljømessige forhold",
+   "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888#KM11609"
   }
  ],
  "utgatte": [
