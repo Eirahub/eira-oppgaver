@@ -88,23 +88,60 @@ noe som ikke stemmer. Prisen skal være klar før kunden bestiller.
   eller nøkkelen.
 
 
-# Steg 5: Hva har KI-en laget? {.activity}
+# Steg 5: KI, merking og opphavsrett {.activity}
 
 KI-en kan ta feil, finne på ting og lage noe som ligner på andres arbeid.
+Reglene for KI er nye og endrer seg. Her er det viktigste å kjenne til, men
+sjekk selv hva som gjelder når du lager appen.
+
+**Merking av KI-innhold.** EUs KI-forordning (AI Act) krever blant annet at
+bilder, lyd og video som er laget eller endret med KI, og som ligner ekte
+personer, steder eller hendelser, merkes. Kravene gjelder i EU fra august 2026.
+Norge skal ta dem inn i en egen KI-lov. Uansett lov: lurer du folk til å tro at
+noe KI-laget er ekte, kan det være villedende markedsføring.
+
+**Opphavsrett til det KI-en lager.** I Norge krever opphavsrett «original og
+individuell skapende åndsinnsats» fra et menneske. Det er uklart hvor mye som
+er beskyttet når KI-en har gjort jobben, og da kan andre kanskje kopiere det
+fritt. Det du selv har skrevet, fotografert, valgt ut og satt sammen, står
+sterkere. Vilkårene til verktøyet bestemmer også hva du har lov til å bruke
+resultatet til.
+
+**Andres rettigheter.** Ikke be KI-en etterligne andres logo, merkevare,
+figurer eller kjente personer. Ikke last opp andres bilder, tekster eller
+musikk til en KI uten lov. Bilder av ekte personer, også KI-endrede, krever at
+personen har sagt ja.
+
+**Retusjert reklame.** I Norge må reklame merkes når kroppsfasong, størrelse
+eller hud er endret. Om det også gjelder personer som er helt laget av KI, må
+du sjekke hos Forbrukertilsynet.
 
 ## Sjekkliste {.check}
 
-- [ ] Har appen bilder eller tekst KI-en har laget? Skriv i appen at de er laget
-  med KI, hvis det kan misforstås.
-
-- [ ] Har KI-en brukt bilder, skrifttyper eller kode fra andre? Spør:
+- [ ] List opp alt i appen som er laget med KI: tekst, bilder, ikoner og kode.
+  Spør også:
 
   ```
   List opp alt i prosjektet som kommer fra andre, med lisens.
   ```
 
+- [ ] Kan noe av det forveksles med ekte personer, steder eller hendelser?
+  Merk det, for eksempel med «Bildet er laget med KI».
+
+- [ ] Ligner noe på andres logo, figurer eller merkevare? Bytt det ut.
+
+- [ ] Sjekk vilkårene til KI-verktøyet: Hvem eier resultatet, og kan du bruke
+  det i en bedrift?
+
 - [ ] Skriv tre setninger om hva KI-en gjorde feil i prosjektet ditt, og hvordan
   du fant det ut.
+
+## Tips {.protip}
+
+Er du i tvil, så merk det. Åpenhet om KI bygger tillit, og det er noe annet
+enn at appen ser generisk ut. Se [Gi appen et eget
+uttrykk](../eget_uttrykk/eget_uttrykk).
+
 
 # Steg 6: Hva koster det å bryte reglene? {.activity}
 

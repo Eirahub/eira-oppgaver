@@ -17,8 +17,8 @@ informasjonsteknologi
 
 __Anbefalte trinn__: Videregående
 
-__Tema__: Personvern og GDPR, markedsføringsregler, sikkerhet, kritisk bruk av
-KI
+__Tema__: Personvern og GDPR, markedsføringsregler, sikkerhet, merking av
+KI-innhold, opphavsrett, økonomiske konsekvenser
 
 __Tidsbruk__: 60 til 90 minutter
 

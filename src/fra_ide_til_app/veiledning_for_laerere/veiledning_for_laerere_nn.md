@@ -49,6 +49,7 @@ trengst.
 | Uventa kostnader | Abonnement blir fornya, eller bruk av KI eller tenar går over gratisgrensa | Ansvarleg vaksen godkjenner alt som kostar pengar. Sei opp etter kurset |
 | Kontoar som blir overtekne | Svake passord eller falske e-postar | Tofaktor på alle kontoar som publiserer eller lagrar data |
 | Opne repo | Intervjunotat, namn eller nøklar blir synlege for alle | Gå gjennom repoet før det blir gjort ope |
+| KI-innhald og rettane til andre | KI-laga innhald blir forveksla med ekte, eller liknar logoen, figurane eller personane til andre | Merk KI-innhald som kan mistydast. Bruk eigne bilete. Sjekk vilkår og samtykke |
 | Overtillit til KI | Eleven leverer noko som verkar, men som dei ikkje forstår, eller som har tryggleikshol | Krev at eleven kan forklare koden og kva KI-en gjorde feil |
 
 ## Tips {.tip}
@@ -181,3 +182,8 @@ kva skriv eleven inn i `RISIKO.md` no?
 Verktøy, prisar, aldersgrenser og vilkår endrar seg raskare enn kurset blir
 oppdatert. Kurset gir difor ingen fasit. Det er elevane og den ansvarlege
 vaksne som må sjekke kva som gjeld for det dei lagar, når dei lagar det.
+
+Det gjeld særleg reglane for KI. Då kurset vart skrive (november 2026), galdt
+krava til EU om merking av KI-innhald i EU, medan den norske KI-lova enno ikkje
+var vedteken. Kven som har opphavsrett til det KI lagar, er òg uavklart. Sjekk
+status på regjeringen.no og hos Datatilsynet og Forbrukartilsynet før kurset.

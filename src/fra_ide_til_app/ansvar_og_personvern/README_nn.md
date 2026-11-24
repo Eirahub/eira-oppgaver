@@ -19,8 +19,8 @@ informasjonsteknologi
 
 __Tilrådde trinn__: Vidaregåande
 
-__Tema__: Personvern og GDPR, reglar for marknadsføring, tryggleik, kritisk
-bruk av KI
+__Tema__: Personvern og GDPR, reglar for marknadsføring, tryggleik, merking av
+KI-innhald, opphavsrett, økonomiske konsekvensar
 
 __Tidsbruk__: 60 til 90 minutt
 
