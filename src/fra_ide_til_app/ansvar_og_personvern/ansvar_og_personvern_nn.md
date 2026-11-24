@@ -108,10 +108,49 @@ KI-en kan ta feil, finne på ting og lage noko som liknar på andre sitt arbeid.
 - [ ] Skriv tre setningar om kva KI-en gjorde feil i prosjektet ditt, og
   korleis du fann det ut.
 
+# Steg 6: Kva kostar det å bryte reglane? {.activity}
+
+Brot på reglane kan koste mykje meir enn appen tener. Dette er noko av det ei
+lita bedrift kan møte:
+
+| Kva | Kven krev | Kva det kan koste |
+|---|---|---|
+| Lovbrotsgebyr for brot på personvernreglane | Datatilsynet | Opptil 20 millionar euro eller 4 prosent av omsetninga. Små verksemder får mindre, men òg dei kan få gebyr |
+| Erstatning | Dei som har lide skade | Tapet og skaden dei kan vise til |
+| Gebyr og tvangsmulkt for ulovleg marknadsføring | Forbrukartilsynet | Pengesum, og krav om å stoppe |
+| Lengre angrerett | Kundane | Får kunden ikkje vite om angreretten ved kjøp på nett, kan fristen bli forlengd med opptil 12 månader |
+| Misbruk av ein lekt nøkkel | Leverandøren av tenesta | Rekninga for bruken, som regel til den som eig kontoen |
+| Brot på opphavsrett | Den som eig biletet, koden eller teksten | Vederlag og erstatning |
+| Tapte kundar og dårleg omdøme | Marknaden | Sal som forsvinn, og tid til å rydde opp |
+
+Tabellen viser kva regelverket opnar for. Reglar og beløp kan endre seg, og kva
+som gjeld for deg, må du sjekke sjølv hos Datatilsynet og Forbrukartilsynet.
+
+## Sjekkliste {.check}
+
+- [ ] Opne `RISIKO.md` frå [Tryggleik og
+  risiko](../sikkerhet_og_risiko/sikkerhet_og_risiko_nn). Skriv for kvar risiko
+  kva han kan koste: gebyr, erstatning, rekningar, tid og tapte kundar.
+
+- [ ] Samanlikn med det appen tener eller sparer i månaden. Løner det seg
+  framleis?
+
+- [ ] Kven betaler viss noko går gale: bedrifta, eleven eller den vaksne som
+  står som ansvarleg? Skriv det ned.
+
+- [ ] Kva kostar tiltaka? Tofaktor, færre data og ei god
+  personvernerklæring er nesten gratis samanlikna med eit brot.
+
+## Tips {.protip}
+
+Den billigaste personopplysninga er den du aldri samlar inn.
+
 ## Test deg sjølv {.flag}
 
 - [ ] Kan du forklare ein kunde kva appen gjer med opplysningane deira, på 30
   sekund?
+
+- [ ] Kan du nemne tre ting eit brot på reglane kan koste bedrifta?
 
 
 ## Utfordring {.challenge}

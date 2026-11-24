@@ -106,10 +106,49 @@ KI-en kan ta feil, finne på ting og lage noe som ligner på andres arbeid.
 - [ ] Skriv tre setninger om hva KI-en gjorde feil i prosjektet ditt, og hvordan
   du fant det ut.
 
+# Steg 6: Hva koster det å bryte reglene? {.activity}
+
+Brudd på reglene kan koste mye mer enn appen tjener. Dette er noe av det en
+liten bedrift kan møte:
+
+| Hva | Hvem krever | Hva det kan koste |
+|---|---|---|
+| Overtredelsesgebyr for brudd på personvernreglene | Datatilsynet | Opptil 20 millioner euro eller 4 prosent av omsetningen. Små virksomheter får mindre, men også de kan få gebyr |
+| Erstatning | De som har lidd skade | Tapet og skaden de kan vise til |
+| Gebyr og tvangsmulkt for ulovlig markedsføring | Forbrukertilsynet | Pengebeløp, og krav om å stoppe |
+| Lengre angrerett | Kundene | Får kunden ikke vite om angreretten ved kjøp på nett, kan fristen bli forlenget med opptil 12 måneder |
+| Misbruk av en lekket nøkkel | Leverandøren av tjenesten | Regningen for bruken, som regel til den som eier kontoen |
+| Brudd på opphavsrett | Den som eier bildet, koden eller teksten | Vederlag og erstatning |
+| Tapte kunder og dårlig omdømme | Markedet | Salg som forsvinner, og tid til å rydde opp |
+
+Tabellen viser hva regelverket åpner for. Regler og beløp kan endre seg, og hva
+som gjelder for deg, må du sjekke selv hos Datatilsynet og Forbrukertilsynet.
+
+## Sjekkliste {.check}
+
+- [ ] Åpne `RISIKO.md` fra [Sikkerhet og
+  risiko](../sikkerhet_og_risiko/sikkerhet_og_risiko). Skriv for hver risiko
+  hva den kan koste: gebyr, erstatning, regninger, tid og tapte kunder.
+
+- [ ] Sammenlign med det appen tjener eller sparer i måneden. Lønner det seg
+  fortsatt?
+
+- [ ] Hvem betaler hvis noe går galt: bedriften, eleven eller den voksne som
+  står som ansvarlig? Skriv det ned.
+
+- [ ] Hva koster tiltakene? Tofaktor, færre data og en god
+  personvernerklæring er nesten gratis sammenlignet med et brudd.
+
+## Tips {.protip}
+
+Den billigste personopplysningen er den du aldri samler inn.
+
 ## Test deg selv {.flag}
 
 - [ ] Kan du forklare en kunde hva appen gjør med opplysningene deres, på 30
   sekunder?
+
+- [ ] Kan du nevne tre ting et brudd på reglene kan koste bedriften?
 
 
 ## Utfordring {.challenge}

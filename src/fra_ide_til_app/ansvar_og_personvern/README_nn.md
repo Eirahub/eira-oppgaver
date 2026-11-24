@@ -33,6 +33,10 @@ __Tidsbruk__: 60 til 90 minutt
 - [ ] __Vg1 salg, service og reiseliv__: kjenne til og nytte gjeldande
   regelverk for marknadsføring og sal
 
+- [ ] __Vg1 salg, service og reiseliv__: gjere greie for reglar og lovverk som
+  er relevante for servicenæringa, og forklare korleis dei regulerer drift av
+  verksemder
+
 - [ ] __Markedsføring og ledelse 1__: utforske og følgje gjeldande regelverk for
   marknadsføring og vurdere det etiske ansvaret til verksemda
 

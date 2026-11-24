@@ -110,7 +110,8 @@ er, kor ille det blir, og kva du gjer for å hindre det.
   - KI-en har laga kode med eit tryggleikshol
 
 - [ ] Gi kvar ting ein poengsum frå 1 til 3 for **sannsyn** og for
-  **konsekvens**. Gong dei saman.
+  **konsekvens**. Gong dei saman. Tenk på konsekvens i kroner òg: gebyr,
+  erstatning, rekningar og tapte kundar.
 
   | Kva kan skje | Sannsyn | Konsekvens | Risiko | Tiltak |
   |---|---|---|---|---|

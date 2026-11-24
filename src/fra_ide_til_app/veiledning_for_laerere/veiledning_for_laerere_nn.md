@@ -134,6 +134,32 @@ difor prosessen, ikkje berre appen.
   personvern](../ansvar_og_personvern/README_nn).
 
 
+# Økonomisk ansvar {.activity}
+
+Brot på personvern, marknadsføringsreglar, vilkår eller opphavsrett kan koste
+pengar: gebyr frå Datatilsynet eller Forbrukartilsynet, erstatning til dei som
+vart ramma, rekningar for misbrukte kontoar og tapte kundar. Elevane reknar på
+dette i steg 6 i [Ansvar og
+personvern](../ansvar_og_personvern/ansvar_og_personvern_nn).
+
+## Sjekkliste {.check}
+
+- [ ] Avklar før kurset kven som ber det økonomiske ansvaret viss noko går
+  gale: skulen, ungdomsbedrifta, eleven eller den vaksne som står som
+  ansvarleg for kontoen.
+
+- [ ] Sørg for at den som står som ansvarleg, veit at ansvaret òg kan vere
+  økonomisk.
+
+- [ ] Set tak for bruk og betaling på alle kontoar som kan gi rekningar.
+
+- [ ] Hald appane på lågt risikonivå. Det er det enklaste tiltaket mot store
+  kostnader.
+
+- [ ] Ungdomsbedrifter har ofte eigne reglar og ordningar. Sjekk kva som gjeld
+  for bedrifta dykkar.
+
+
 # Viss noko går gale {.activity}
 
 | Kva skjedde | Gjer dette |

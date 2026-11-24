@@ -109,7 +109,8 @@ er, hvor ille det blir, og hva du gjør for å hindre det.
   - KI-en har laget kode med et sikkerhetshull
 
 - [ ] Gi hver ting en poengsum fra 1 til 3 for **sannsynlighet** og for
-  **konsekvens**. Gang dem sammen.
+  **konsekvens**. Gang dem sammen. Tenk på konsekvens i kroner også: gebyr,
+  erstatning, regninger og tapte kunder.
 
   | Hva kan skje | Sannsynlighet | Konsekvens | Risiko | Tiltak |
   |---|---|---|---|---|
