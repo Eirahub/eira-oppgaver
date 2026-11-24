@@ -48,8 +48,9 @@ feil KI-en gjorde.
 
 ## Føresetnader og utstyr {.challenge}
 
-- [ ] __Føresetnader__: [Planen](../planen/planen_nn). Steg 1 til 3 kan gjerast
-  utan app. Steg 4 og 5 krev [Bygg MVP-en](../bygg_mvp/bygg_mvp_nn).
+- [ ] __Føresetnader__: [Tryggleik og
+  risiko](../sikkerhet_og_risiko/sikkerhet_og_risiko_nn). Steg 1 til 3 kan
+  gjerast utan app. Steg 4 og 5 krev [Bygg MVP-en](../bygg_mvp/bygg_mvp_nn).
 
 - [ ] __Utstyr__: PC med nettlesar.
 

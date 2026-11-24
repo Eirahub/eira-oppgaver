@@ -39,6 +39,10 @@ brukarar](typer_nn.png)
 Start nesten alltid med ein webapp. Han er billegast, raskast å endre og verkar
 på alle einingar. Gjer han om til PWA viss kundane vil ha han på heimeskjermen.
 
+Typen app seier ikkje alt. Det som avgjer kor mykje backend, tryggleik og
+personvern du treng, er kva appen gjer med data og pengar. Det lærer du i
+[Tryggleik og risiko](../sikkerhet_og_risiko/sikkerhet_og_risiko_nn).
+
 
 # Steg 2: Sjekk vilkåra sjølv {.activity}
 

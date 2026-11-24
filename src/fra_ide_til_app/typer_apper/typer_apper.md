@@ -38,6 +38,10 @@ brukere](typer.png)
 Start nesten alltid med en webapp. Den er billigst, raskest å endre og virker
 på alle enheter. Gjør den om til PWA hvis kundene vil ha den på hjemskjermen.
 
+Typen app sier ikke alt. Det som avgjør hvor mye backend, sikkerhet og
+personvern du trenger, er hva appen gjør med data og penger. Det lærer du i
+[Sikkerhet og risiko](../sikkerhet_og_risiko/sikkerhet_og_risiko).
+
 
 # Steg 2: Sjekk vilkårene selv {.activity}
 

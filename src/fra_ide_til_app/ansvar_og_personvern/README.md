@@ -46,7 +46,8 @@ feil KI-en gjorde.
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Forutsetninger__: [Planen](../planen/planen). Steg 1 til 3 kan gjøres
+- [ ] __Forutsetninger__: [Sikkerhet og
+  risiko](../sikkerhet_og_risiko/sikkerhet_og_risiko). Steg 1 til 3 kan gjøres
   uten app. Steg 4 og 5 krever [Bygg MVP-en](../bygg_mvp/bygg_mvp).
 
 - [ ] __Utstyr__: PC med nettleser.
