@@ -94,6 +94,49 @@ fleire kundar.
 - [ ] Er ideen berekraftig? Skriv éi setning om korleis han påverkar miljø,
   folk eller økonomi.
 
+## Prompter du kan lære av {.protip}
+
+Byt ut det som står i klammer. Legg aldri inn namn, passord eller
+personopplysningar om andre. Sjå kvifor promptane verkar, og lag dine eigne.
+
+- **Kundeverdi og forretningsverdi:**
+
+  ```
+  Ut frå jobbsetninga [lim inn]: Kva er verdien for kunden (tid,
+  pengar, tryggleik, glede), og kva er verdien for bedrifta (inntekt,
+  kundar, omdøme)? Lag to lister, og merk det som er antakingar.
+  ```
+
+- **Veit eller trur?**
+
+  ```
+  Lag eit forretningsmodellkart (lean canvas) for ideen. Merk kvart
+  felt med «veit» eller «trur», og foreslå korleis vi kan teste det vi
+  berre trur.
+  ```
+
+- **Test verdiforslaget:**
+
+  ```
+  Her er verdiforslaget mitt: [lim inn]. Spel ein skeptisk kunde og
+  gi meg tre grunnar til ikkje å kjøpe. Ver ærleg, ikkje snill.
+  ```
+
+- **Sjå alternativa:**
+
+  ```
+  Kva tre måtar kan [tenesta] tene pengar på? Lag ein tabell med
+  fordelar, ulemper og kva det krev av oss. Ikkje vel for meg.
+  ```
+
+- **Lær av andre:**
+
+  ```
+  Sjå på framsida til [ei teneste du kjenner]. Forklar verdiforslaget
+  deira: kven er kunden, kva problem løyser dei, og korleis seier dei
+  det? Eg vil lære å skrive mitt eige, ikkje kopiere deira.
+  ```
+
 ## Test deg sjølv {.flag}
 
 - [ ] Les verdiforslaget høgt for ein av kundane frå intervjuet. Skjønar dei

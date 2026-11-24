@@ -192,6 +192,44 @@ systema til andre kan òg bryte lova eller vilkåra deira. Vil du øve meir, fin
 det lovlege øvingsmiljø og konkurransar (CTF) laga for akkurat det.
 
 
+## Prompter du kan lære av {.protip}
+
+Byt ut det som står i klammer. Legg aldri inn namn, passord eller
+personopplysningar om andre. Sjå kvifor promptane verkar, og lag dine eigne.
+
+- **Tenk som ein åtakar:**
+
+  ```
+  Du er ein erfaren pentestar. Gå gjennom koden til appen min og list
+  opp dei fem største tryggleikshola: korleis dei kan misbrukast, og
+  korleis eg rettar dei. Ikkje endre noko enno.
+  ```
+
+- **Lær eitt omgrep om gongen:**
+
+  ```
+  Forklar kva [XSS / SQL-injeksjon / lekt API-nøkkel] er, med eit
+  døme frå ein app som min. Korleis sjekkar eg om appen min har
+  problemet?
+  ```
+
+- **Lag ein trusselmodell:**
+
+  ```
+  Kven kunne ønskje å misbruke appen min? Kva ville dei gått etter, og
+  korleis? Lag ein tabell sortert etter kor sannsynleg det er.
+  ```
+
+- **Finn det du ikkje har tenkt på:**
+
+  ```
+  Kva spørsmål om tryggleik burde eg ha stilt deg, som eg ikkje har
+  stilt?
+  ```
+
+Be berre om hjelp til å teste din eigen app. Rolla som pentestar gjeld koden
+din, ikkje systema til andre.
+
 ## Test deg sjølv {.flag}
 
 - [ ] Kan du forklare ein medelev kvifor ein sjekk i frontend ikkje er nok?

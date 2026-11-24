@@ -114,6 +114,9 @@ Du kan ikkje gjere alt kundane ønskjer. Vel det som betyr mest.
 
 - [ ] Flytt resten av ønska til **Seinare**.
 
+- [ ] Gå gjennom **Antakingar vi må teste** i `PLAN.md`. Kva stemte, kva
+  stemte ikkje, og kva veit de framleis ikkje? Skriv det ved kvar antaking.
+
 
 # Steg 5: Pitch {.activity}
 
@@ -131,6 +134,32 @@ kan brukast på messer, i konkurransar og når du skal få nye kundar.
   5. **Neste steg**: kva de treng, og kva det kostar.
 
 - [ ] Øv på å halde han for klassen.
+
+## Prompter du kan lære av {.protip}
+
+Byt ut det som står i klammer. Legg aldri inn namn, passord eller
+personopplysningar om andre. Sjå kvifor promptane verkar, og lag dine eigne.
+
+- **Lag testen:**
+
+  ```
+  Lag tre oppgåver kundane skal løyse i appen, ut frå MVP-historiene i
+  PLAN.md. Oppgåvene skal ikkje avsløre kvar dei skal trykkje.
+  ```
+
+- **Sorter tilbakemeldingane:**
+
+  ```
+  Her er notata frå testane, utan namn: [lim inn]. Sorter dei i Feil,
+  Vanskeleg og Ønske. Ikkje legg til noko som ikkje står der.
+  ```
+
+- **Øv på pitchen:**
+
+  ```
+  Her er pitchen min: [lim inn]. Spel juryen i ein konkurranse for
+  elevbedrifter, og still dei tre vanskelegaste spørsmåla.
+  ```
 
 ## Test deg sjølv {.flag}
 

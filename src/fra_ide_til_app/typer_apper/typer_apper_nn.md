@@ -120,6 +120,43 @@ KI-en veit det frå starten.
   - **SaaS**: «Lag ein plan for innlogging, database og betaling, med kva kvar
     del kostar og kva ansvar eg får for kundedata. Ikkje skriv kode enno.»
 
+## Prompter du kan lære av {.protip}
+
+Byt ut det som står i klammer. Legg aldri inn namn, passord eller
+personopplysningar om andre. Sjå kvifor promptane verkar, og lag dine eigne.
+
+- **Forstå skilnaden:**
+
+  ```
+  Forklar skilnaden på ein webapp og ein PWA med eit døme frå
+  kvardagen. Kva kan ein PWA som ei vanleg nettside ikkje kan?
+  ```
+
+- **Reverse engineer eit val:**
+
+  ```
+  Kva type app er [kjend app]? Kvifor trur du dei valde det, og kva
+  ville det kosta dei å velje noko anna?
+  ```
+
+- **Les vilkåra:**
+
+  ```
+  Hjelp meg å lese vilkåra til [teneste]. Kva står om alder,
+  kommersiell bruk og pris? Siter teksten og sei kvar han står, så eg
+  kan sjekke sjølv.
+  ```
+
+- **Rekn på kostnadene:**
+
+  ```
+  Lag ein kostnadskalkyle per månad ut frå PLAN.md. Vis kva som kostar
+  med 10, 100 og 1000 kundar, og kva du har gjetta på.
+  ```
+
+KI-en kan ta feil om vilkår og prisar, og dei endrar seg. Sjekk alltid på
+dei eigne sidene til tenesta.
+
 ## Test deg sjølv {.flag}
 
 - [ ] Kan du forklare ein medelev kvifor ein SaaS er mykje meir arbeid enn ein

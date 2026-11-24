@@ -181,6 +181,36 @@ som gjeld for deg, må du sjekke sjølv hos Datatilsynet og Forbrukartilsynet.
 
 Den billigaste personopplysninga er den du aldri samlar inn.
 
+## Prompter du kan lære av {.protip}
+
+Byt ut det som står i klammer. Legg aldri inn namn, passord eller
+personopplysningar om andre. Sjå kvifor promptane verkar, og lag dine eigne.
+
+- **Første utkast til personvernerklæring:**
+
+  ```
+  Skriv eit utkast til personvernerklæring ut frå dette: [kva vi
+  samlar, kvifor, kvar det blir lagra, når det blir sletta]. Bruk
+  enkle ord. Merk det du er usikker på.
+  ```
+
+- **Finn villeiande påstandar:**
+
+  ```
+  Gå gjennom teksten i appen og finn påstandar som kan vere
+  villeiande marknadsføring. Forklar kvifor.
+  ```
+
+- **Spør om kjelda:**
+
+  ```
+  Kva seier reglane om [rett til sletting] for ei lita bedrift? Gi
+  lenkje til ei offisiell kjelde, og sei kva du er usikker på.
+  ```
+
+KI-en er ikkje jurist og kan ta feil. Bruk svaret som eit utkast, og sjekk hos
+Datatilsynet og Forbrukartilsynet.
+
 ## Test deg sjølv {.flag}
 
 - [ ] Kan du forklare ein kunde kva appen gjer med opplysningane deira, på 30

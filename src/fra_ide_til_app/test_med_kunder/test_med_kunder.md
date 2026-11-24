@@ -115,6 +115,9 @@ Du kan ikke gjøre alt kundene ønsker. Velg det som betyr mest.
 
 - [ ] Flytt resten av ønskene til **Senere**.
 
+- [ ] Gå gjennom **Antakelser vi må teste** i `PLAN.md`. Hvilke stemte, hvilke
+  stemte ikke, og hvilke vet dere fortsatt ikke? Skriv det ved hver antakelse.
+
 
 # Steg 5: Pitch {.activity}
 
@@ -132,6 +135,32 @@ kan brukes på messer, i konkurranser og når du skal få nye kunder.
   5. **Neste steg**: hva dere trenger, og hva det koster.
 
 - [ ] Øv på å holde den for klassen.
+
+## Prompter du kan lære av {.protip}
+
+Bytt ut det som står i klammer. Legg aldri inn navn, passord eller andres
+personopplysninger. Se hvorfor promptene virker, og lag dine egne.
+
+- **Lag testen:**
+
+  ```
+  Lag tre oppgaver kundene skal løse i appen, ut fra MVP-historiene i
+  PLAN.md. Oppgavene skal ikke avsløre hvor de skal trykke.
+  ```
+
+- **Sorter tilbakemeldingene:**
+
+  ```
+  Her er notatene fra testene, uten navn: [lim inn]. Sorter dem i
+  Feil, Vanskelig og Ønsker. Ikke legg til noe som ikke står der.
+  ```
+
+- **Øv på pitchen:**
+
+  ```
+  Her er pitchen min: [lim inn]. Spill juryen i en konkurranse for
+  elevbedrifter, og still de tre vanskeligste spørsmålene.
+  ```
 
 ## Test deg selv {.flag}
 

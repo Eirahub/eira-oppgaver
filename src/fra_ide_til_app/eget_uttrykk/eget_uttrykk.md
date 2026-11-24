@@ -169,6 +169,33 @@ En **stilguide** samler valgene, så alle i bedriften, og KI-en, gjør likt.
 - [ ] Sier de «det ser ut som noe en KI har laget»? Spør hva som ga dem det
   inntrykket, og rett det.
 
+## Prompter du kan lære av {.protip}
+
+Bytt ut det som står i klammer. Legg aldri inn navn, passord eller andres
+personopplysninger. Se hvorfor promptene virker, og lag dine egne.
+
+- **Reverse engineer en sterk merkevare:**
+
+  ```
+  Se på nettsiden til [en bedrift med tydelig stil]. Hva gjør at den
+  ikke ser generisk ut? List opp valgene de har gjort med farger,
+  skrift, bilder og tekst.
+  ```
+
+- **Finn KI-sporene:**
+
+  ```
+  Hvilke KI-spor finner du i denne teksten: [lim inn]? Forklar hvorfor
+  hvert av dem virker generisk.
+  ```
+
+- **Skriv med deres stemme:**
+
+  ```
+  Skriv om teksten så den følger tonen i STIL.md. Bruk ordene
+  kundene brukte: [sitater uten navn]. Ingen superlativer.
+  ```
+
 ## Test deg selv {.flag}
 
 - [ ] Kan du peke på tre ting i appen som bare passer for deres bedrift?

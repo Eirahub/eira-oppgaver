@@ -103,6 +103,64 @@ fordi bestillinger kommer på Snap og i friminuttene. I dag møter de bare opp
 og håper det er ledig.
 ```
 
+## Prompter du kan lære av {.protip}
+
+Bytt ut det som står i klammer. Legg aldri inn navn, passord eller andres
+personopplysninger. Se hvorfor promptene virker, og lag dine egne.
+
+- **Finn antakelsene:**
+
+  ```
+  Her er idéen min: [lim inn]. List opp antakelsene den bygger på, om
+  kundene, problemet, om de vil betale, og om vi kan lage det. Sorter
+  dem etter hvor farlig det er hvis de er feil.
+  ```
+
+- **Gjør antakelser til hypoteser:**
+
+  ```
+  Gjør de tre farligste antakelsene om til hypoteser vi kan teste:
+  «Vi tror at [kunde] [trenger X]. Vi vet det når [målbart tegn].»
+  Foreslå den billigste måten å teste hver av dem på.
+  ```
+
+- **Skriv en jobb-setning (JTBD):**
+
+  ```
+  Skriv en jobb-setning (jobs to be done) ut fra intervjuene: «Når
+  [situasjon], vil jeg [motivasjon], så jeg kan [resultat].» Bruk bare
+  det kundene sa: [notater uten navn].
+  ```
+
+Alle idéer bygger på antakelser. Målet med intervjuene er å finne ut hvilke
+som stemmer.
+
+- **Gjør intervjuet bedre:**
+
+  ```
+  Jeg skal intervjue [kundegruppe] om [problem]. Her er spørsmålene
+  mine: [lim inn]. Hvilke er ledende, eller kan besvares med ja eller
+  nei? Foreslå bedre spørsmål og forklar hvorfor de er bedre.
+  ```
+
+- **Øv før du intervjuer:**
+
+  ```
+  Spill en travel [kundetype] som har dette problemet: [problem].
+  Jeg intervjuer deg. Svar kort, som en ekte person. Etter fem
+  spørsmål gir du meg tilbakemelding på hvordan jeg intervjuet.
+  ```
+
+- **Lær av en ekspert:**
+
+  ```
+  Hvilke fem spørsmål ville en erfaren produktleder stilt om denne
+  problemsetningen: [lim inn]? Forklar hva hvert spørsmål avslører.
+  ```
+
+KI-en kan hjelpe deg å øve, men den er ikke en kunde. Svarene den gir, er
+gjetninger. Ekte behov finner du bare ved å snakke med ekte folk.
+
 ## Test deg selv {.flag}
 
 - [ ] Ville alle tre kundene kjent seg igjen i setningen?

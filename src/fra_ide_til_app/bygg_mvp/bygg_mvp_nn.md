@@ -122,6 +122,47 @@ Når MVP-en verkar, sjekkar du at han er god å bruke for alle.
 - [ ] Sjekk mot `PLAN.md`: er alle MVP-historiene med? Har det kome med noko
   som ikkje skulle vere der?
 
+## Prompter du kan lære av {.protip}
+
+Byt ut det som står i klammer. Legg aldri inn namn, passord eller
+personopplysningar om andre. Sjå kvifor promptane verkar, og lag dine eigne.
+
+- **Éi historie om gongen:**
+
+  ```
+  Bygg denne MVP-historia: [lim inn]. Lag ein plan først. Ikkje endre
+  andre delar av appen.
+  ```
+
+- **Forstå koden:**
+
+  ```
+  Forklar endringane du nettopp gjorde, steg for steg, som til ein
+  nybyrjar. Kva bør eg teste?
+  ```
+
+- **Feilsøk rett:**
+
+  ```
+  Når eg [gjer Y], skjer [X], men eg venta [Z]. Finn årsaka før du
+  rettar, og forklar kva som var gale.
+  ```
+
+- **Reverse engineer ein funksjon:**
+
+  ```
+  Sjå på [nettside med ein funksjon du vil lære, til dømes eit
+  bestillingsskjema]. Forklar korleis ein slik funksjon vanlegvis er
+  bygd, så eg forstår korleis han verkar. Ikkje kopier koden deira.
+  ```
+
+- **Lær av det som gjekk gale:**
+
+  ```
+  Kva burde eg ha skrive i prompten for at du skulle gjort dette
+  rett første gongen?
+  ```
+
 ## Lagre {.save}
 
 Lag ein commit med meldinga `MVP ferdig`.

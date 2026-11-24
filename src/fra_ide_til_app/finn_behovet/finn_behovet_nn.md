@@ -104,6 +104,64 @@ fordi bestillingar kjem på Snap og i friminutta. I dag møter dei berre opp
 og håpar det er ledig.
 ```
 
+## Prompter du kan lære av {.protip}
+
+Byt ut det som står i klammer. Legg aldri inn namn, passord eller
+personopplysningar om andre. Sjå kvifor promptane verkar, og lag dine eigne.
+
+- **Finn antakingane:**
+
+  ```
+  Her er ideen min: [lim inn]. List opp antakingane han byggjer på, om
+  kundane, problemet, om dei vil betale, og om vi kan lage det. Sorter
+  dei etter kor farleg det er viss dei er feil.
+  ```
+
+- **Gjer antakingar om til hypotesar:**
+
+  ```
+  Gjer dei tre farlegaste antakingane om til hypotesar vi kan teste:
+  «Vi trur at [kunde] [treng X]. Vi veit det når [målbart teikn].»
+  Foreslå den billegaste måten å teste kvar av dei på.
+  ```
+
+- **Skriv ei jobbsetning (JTBD):**
+
+  ```
+  Skriv ei jobbsetning (jobs to be done) ut frå intervjua: «Når
+  [situasjon], vil eg [motivasjon], så eg kan [resultat].» Bruk berre
+  det kundane sa: [notat utan namn].
+  ```
+
+Alle idear byggjer på antakingar. Målet med intervjua er å finne ut kva for
+nokre som stemmer.
+
+- **Gjer intervjuet betre:**
+
+  ```
+  Eg skal intervjue [kundegruppe] om [problem]. Her er spørsmåla
+  mine: [lim inn]. Kva for nokre er leiande, eller kan svarast på med
+  ja eller nei? Foreslå betre spørsmål og forklar kvifor dei er betre.
+  ```
+
+- **Øv før du intervjuar:**
+
+  ```
+  Spel ein travel [kundetype] som har dette problemet: [problem].
+  Eg intervjuar deg. Svar kort, som ein ekte person. Etter fem
+  spørsmål gir du meg tilbakemelding på korleis eg intervjua.
+  ```
+
+- **Lær av ein ekspert:**
+
+  ```
+  Kva fem spørsmål ville ein erfaren produktleiar stilt om denne
+  problemsetninga: [lim inn]? Forklar kva kvart spørsmål avslører.
+  ```
+
+KI-en kan hjelpe deg å øve, men han er ikkje ein kunde. Svara han gir, er
+gjetningar. Ekte behov finn du berre ved å snakke med ekte folk.
+
 ## Test deg sjølv {.flag}
 
 - [ ] Ville alle tre kundane kjent seg att i setninga?

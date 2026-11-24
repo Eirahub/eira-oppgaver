@@ -109,15 +109,25 @@ Samle alt i én fil. Denne fila gir du til KI-en senere.
   ## Problemet
   (problemsetningen)
 
+  ## Jobb-setning
+  Når ..., vil jeg ..., så jeg kan ...
+
   ## Verdiforslag
   (verdiforslaget)
+
+  ## Mål
+  (to eller tre mål vi kan måle, for eksempel antall bestillinger)
+
+  ## Antakelser vi må teste
+  - Vi tror at ... Vi vet det når ...
 
   ## Brukere
   - Kunde: ...
   - Vi som driver: ...
 
   ## MVP
-  - Som ... vil jeg ...
+  - Som ... vil jeg ..., så jeg kan ...
+    Ferdig når: Gitt ..., når ..., så ...
 
   ## Senere
   - ...
@@ -183,6 +193,76 @@ andre.
 Den viktigste rollen er ofte produktleder, fordi den sier nei. KI-en kan bygge
 nesten hva som helst på kort tid. Det betyr ikke at appen trenger det.
 
+
+## Prompter du kan lære av {.protip}
+
+Bytt ut det som står i klammer. Legg aldri inn navn, passord eller andres
+personopplysninger. Se hvorfor promptene virker, og lag dine egne.
+
+- **Visjon og mål:**
+
+  ```
+  Ut fra problemsetningen [lim inn]: Skriv en visjon i én setning og
+  tre målbare mål for de tre første månedene. Spør meg om det du ikke
+  vet.
+  ```
+
+- **Lag en PRD:**
+
+  ```
+  Lag en produktkravspesifikasjon (PRD) ut fra visjonen, målene og
+  jobb-setningen: problem, målgruppe, mål, hva som er med og ikke med,
+  krav, risikoer og åpne spørsmål. Ikke finn på noe. Skriv «ukjent»
+  der jeg ikke har sagt noe.
+  ```
+
+- **Epics, features og historier:**
+
+  ```
+  Del PRD-en opp i epics, features og brukerhistorier: «Som [bruker]
+  vil jeg [handling], så jeg kan [mål].» Gi hver historie
+  akseptansekriterier: «Gitt [situasjon], når [handling], så
+  [resultat].» Merk hvilke som hører til MVP-en.
+  ```
+
+- **Henger alt sammen?**
+
+  ```
+  Gå gjennom planen. Kan hver historie spores tilbake til et mål og en
+  jobb-setning? List opp historier uten grunn, mål uten historier og
+  antakelser vi ikke har testet.
+  ```
+
+Start ikke byggingen før planen henger sammen. Det er mye billigere å endre en
+setning i planen enn kode KI-en har skrevet.
+
+- **La KI-en spørre deg:**
+
+  ```
+  Her er PLAN.md: [lim inn]. Still meg spørsmål om det som mangler
+  eller er uklart, ett om gangen, før du foreslår noe.
+  ```
+
+- **Gjør MVP-en mindre:**
+
+  ```
+  Hvilke MVP-historier i planen kan jeg fjerne og fortsatt løse
+  problemet? Forklar hvorfor.
+  ```
+
+- **Forstå valgene:**
+
+  ```
+  Foreslå tre måter å lagre dataene i appen på, fra enklest til mest
+  avansert. Hva krever hver av sikkerhet, personvern og penger?
+  ```
+
+- **Få en seniorutvikler til å se på planen:**
+
+  ```
+  Du er en erfaren seniorutvikler. Gå gjennom planen og si hva du
+  ville vært bekymret for. Ikke skriv kode.
+  ```
 
 ## Test deg selv {.flag}
 

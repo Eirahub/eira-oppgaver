@@ -191,6 +191,44 @@ systemer kan også bryte loven eller vilkårene deres. Vil du øve mer, finnes d
 lovlige øvingsmiljøer og konkurranser (CTF) laget for akkurat det.
 
 
+## Prompter du kan lære av {.protip}
+
+Bytt ut det som står i klammer. Legg aldri inn navn, passord eller andres
+personopplysninger. Se hvorfor promptene virker, og lag dine egne.
+
+- **Tenk som en angriper:**
+
+  ```
+  Du er en erfaren pentester. Gå gjennom koden til appen min og list
+  opp de fem største sikkerhetshullene: hvordan de kan misbrukes, og
+  hvordan jeg retter dem. Ikke endre noe ennå.
+  ```
+
+- **Lær ett begrep om gangen:**
+
+  ```
+  Forklar hva [XSS / SQL-injeksjon / lekket API-nøkkel] er, med et
+  eksempel fra en app som min. Hvordan sjekker jeg om appen min har
+  problemet?
+  ```
+
+- **Lag en trusselmodell:**
+
+  ```
+  Hvem kunne ønske å misbruke appen min? Hva ville de gått etter, og
+  hvordan? Lag en tabell sortert etter hvor sannsynlig det er.
+  ```
+
+- **Finn det du ikke har tenkt på:**
+
+  ```
+  Hvilke spørsmål om sikkerhet burde jeg ha stilt deg, som jeg ikke
+  har stilt?
+  ```
+
+Be bare om hjelp til å teste din egen app. Rollen som pentester gjelder koden
+din, ikke andres systemer.
+
 ## Test deg selv {.flag}
 
 - [ ] Kan du forklare en medelev hvorfor en sjekk i frontend ikke er nok?

@@ -18,7 +18,8 @@ lagre i Git, neste steg](bygg.png)
 
 Gjør [Kom i gang med en
 KI-kodeassistent](../kom_i_gang_claude_code/kom_i_gang_claude_code) først.
-Du bør kunne lage en commit, se [Git i VS Code](../../vs_code/git_i_vs_code/git_i_vs_code),
+Du bør kunne lage en commit, se [Git i VS
+Code](../../vs_code/git_i_vs_code/git_i_vs_code),
 og det hjelper å ha gjort [Feilsøking i VS
 Code](../../vs_code/feilsoking/feilsoking).
 
@@ -120,6 +121,47 @@ Når MVP-en virker, sjekker du at den er god å bruke for alle.
 
 - [ ] Sjekk mot `PLAN.md`: er alle MVP-historiene med? Er det kommet med noe
   som ikke skulle være der?
+
+## Prompter du kan lære av {.protip}
+
+Bytt ut det som står i klammer. Legg aldri inn navn, passord eller andres
+personopplysninger. Se hvorfor promptene virker, og lag dine egne.
+
+- **Én historie om gangen:**
+
+  ```
+  Bygg denne MVP-historien: [lim inn]. Lag en plan først. Ikke endre
+  andre deler av appen.
+  ```
+
+- **Forstå koden:**
+
+  ```
+  Forklar endringene du nettopp gjorde, steg for steg, som til en
+  nybegynner. Hva bør jeg teste?
+  ```
+
+- **Feilsøk riktig:**
+
+  ```
+  Når jeg [gjør Y], skjer [X], men jeg forventet [Z]. Finn årsaken før
+  du retter, og forklar hva som var galt.
+  ```
+
+- **Reverse engineer en funksjon:**
+
+  ```
+  Se på [nettside med en funksjon du vil lære, for eksempel et
+  bestillingsskjema]. Forklar hvordan en slik funksjon vanligvis er
+  bygd, så jeg forstår hvordan den virker. Ikke kopier koden deres.
+  ```
+
+- **Lær av det som gikk galt:**
+
+  ```
+  Hva burde jeg ha skrevet i prompten for at du skulle gjort dette
+  riktig første gang?
+  ```
 
 ## Lagre {.save}
 

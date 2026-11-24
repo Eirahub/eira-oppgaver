@@ -118,6 +118,37 @@ Det er mye billigere å endre et design enn en ferdig app.
 
 - [ ] Skriv endringene fra kundetesten inn i `PLAN.md`.
 
+## Prompter du kan lære av {.protip}
+
+Bytt ut det som står i klammer. Legg aldri inn navn, passord eller andres
+personopplysninger. Se hvorfor promptene virker, og lag dine egne.
+
+- **Reverse engineer et design du liker:**
+
+  ```
+  Se på [nettside eller app du liker]. Forklar hvordan den er bygd
+  opp: oppsett, farger, skrift, avstand og hvordan den leder blikket.
+  Jeg vil lære prinsippene, ikke kopiere designet.
+  ```
+
+- **Få en designer til å se på designet:**
+
+  ```
+  Her er designet mitt [legg ved bilde]. Gå gjennom det som en
+  designer: Hva ser en kunde først? Hva er uklart? Hva er vanskelig å
+  trykke på med tommelen?
+  ```
+
+- **Gjør prompten din bedre:**
+
+  ```
+  Her er prompten jeg brukte til designet: [lim inn]. Hva mangler?
+  Skriv en bedre versjon og forklar hver endring.
+  ```
+
+Å lære av andres design er lov. Å kopiere design, tekst, bilder eller logo er
+ofte ikke det.
+
 ## Lagre {.save}
 
 Nå har du plan og design. I neste del bygger du appen.

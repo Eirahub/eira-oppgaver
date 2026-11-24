@@ -147,6 +147,54 @@ han. Claude Code har ein eigen **planmodus** for dette.
 - `/clear` startar ein ny samtale. Bruk det når han har gått seg vill.
 - `/exit` avsluttar.
 
+## Slik er ein god prompt bygd opp {.tip}
+
+Ein god prompt har ofte fem delar:
+
+1. **Mål**: kva du vil ha gjort.
+2. **Samanheng**: kven det er for, kvifor, og kva som finst frå før.
+3. **Grenser**: kva KI-en ikkje skal gjere, til dømes «Ikkje endre andre
+   filer».
+4. **Format**: korleis svaret skal sjå ut, til dømes ein tabell eller ein plan.
+5. **Sjekk**: be om ein plan eller spørsmål før KI-en gjer noko.
+
+Ein **metaprompt** er ein prompt om sjølve arbeidet eller læringa: Be KI-en
+forklare kva han gjorde, stille deg spørsmål, finne antakingar, eller gjere
+prompten din betre. Det er slik du lærer mest.
+
+## Prompter du kan lære av {.protip}
+
+Byt ut det som står i klammer. Legg aldri inn namn, passord eller
+personopplysningar om andre. Sjå kvifor promptane verkar, og lag dine eigne.
+
+- **Forstå prosjektet:**
+
+  ```
+  Forklar kva kvar fil i prosjektet gjer, som til ein som aldri har
+  programmert. Ikkje endre noko.
+  ```
+
+- **Lær terminalen:**
+
+  ```
+  Forklar kommandoen [kommando]: kva han gjer, kva som kan gå gale, og
+  korleis eg angrar.
+  ```
+
+- **Bli betre til å skrive promptar:**
+
+  ```
+  Når eg ber deg om noko i dette prosjektet, sei først kva som var
+  uklart i beskjeden min, og foreslå ein betre måte å seie det på.
+  ```
+
+- **Lag reglane ut frå planen:**
+
+  ```
+  Skriv ei CLAUDE.md ut frå PLAN.md. Ta berre med det som står i
+  planen, og spør meg om det som manglar.
+  ```
+
 ## Lagre {.save}
 
 Claude Code lagrar filene sjølv. Lag ein commit i Git no, så du kan gå tilbake
