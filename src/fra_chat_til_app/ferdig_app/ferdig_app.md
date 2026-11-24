@@ -36,7 +36,8 @@ husker](../appen_husker/appen_husker).
 
 ## Sjekkliste {.check}
 
-- [ ] Velg appen i lista og trykk **Package this canvas**.
+- [ ] Velg appen i lista. Gå til fanen **Package** øverst i lista, og trykk
+  **Finalize as app…**.
 
 - [ ] Fyll ut **App name**. Velg gjerne et **App icon** og en **Accent
   colour**.
@@ -48,8 +49,9 @@ husker](../appen_husker/appen_husker).
 
 ## Tips {.protip}
 
-Å lage en installasjonsfil virker bare på Windows. Gratisversjonen viser
-teksten «Made with KIT Apps by Halison.io» i appen. Med en gratis lisens for
+Å lage en installasjonsfil virker bare i KIT Apps for Windows, ikke i
+nettleseren. Gratisversjonen viser et kort «Built with KIT Apps»-bilde når
+appen starter. Med en gratis lisens for
 skoler og kodeklubber blir den borte, se [kursets forside](../).
 
 
@@ -57,8 +59,9 @@ skoler og kodeklubber blir den borte, se [kursets forside](../).
 
 ## Sjekkliste {.check}
 
-- [ ] Trykk **Share**. Der kan du kopiere en lenke som åpner appen i en
-  nettleser, eller lagre appen som én fil som andre kan hente inn i KIT Apps.
+- [ ] Trykk på del-ikonet øverst (**Share**). Under **Share the app** kan du
+  kopiere en lenke som åpner appen i en nettleser (**Copy share link**), eller
+  lagre appen som én fil som andre kan hente inn i KIT Apps (**Save file**).
 
 - [ ] Del med en medelev, og be dem teste appen.
 
@@ -95,7 +98,7 @@ Appen din er et eget program som virker uten internett, men den har grenser.
 
 ## Lagre {.save}
 
-Ta vare på installasjonsfilen, og trykk **Save** i KIT Apps.
+Ta vare på installasjonsfilen. Appen ligger også i lista i KIT Apps.
 
 
 ## Utfordring {.challenge}

@@ -91,7 +91,8 @@ chatten. Bruk oppdiktede lag, som `Lag A` og `Lag B`.
 
 ## Sjekkliste {.check}
 
-- [ ] I KIT Apps trykker du **New**, limer inn koden og trykker **Run App**.
+- [ ] I KIT Apps trykker du **New**. Skriv et navn i **App Name**, for eksempel
+  `Poengtavle`, lim inn koden og trykk **Run App**.
 
 - [ ] Appen vises. Prøv den: legg inn tre lag og gi dem poeng.
 
@@ -106,13 +107,16 @@ chatten. Bruk oppdiktede lag, som `Lag A` og `Lag B`.
   oppgave.
 
 
-# Steg 5: Lagre appen {.activity}
+# Steg 5: Appen er lagret {.activity}
+
+KIT Apps lagrer appen av seg selv når du trykker **Run App**. Den ligger i
+lista til venstre, under **Apps**.
 
 ## Sjekkliste {.check}
 
-- [ ] Trykk **Save**, og gi appen et navn, for eksempel `Poengtavle`.
+- [ ] Lukk KIT Apps og start det igjen. Finner du appen i lista?
 
-- [ ] Lukk KIT Apps og start det igjen. Finner du appen i lista til venstre?
+- [ ] Vil du gi den et annet navn? Trykk **Rename** under appen i lista.
 
 ## Lagre {.save}
 

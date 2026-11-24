@@ -61,5 +61,5 @@ Eleven kan forklare hva appen ikke kan, og når det trengs en annen løsning.
 
 ### Hva er testet
 
-Oppgaven er skrevet i november 2026 ut fra KIT Apps versjon 0.3.12. Den er ikke
-prøvd med elever ennå.
+Knappene er sjekket i KIT Apps i november 2026. Oppgaven er ikke prøvd med
+elever ennå.

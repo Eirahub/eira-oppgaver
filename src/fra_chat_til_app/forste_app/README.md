@@ -68,5 +68,5 @@ beskrev den. Eleven har skrevet ned minst én ting som ikke virket som ønsket.
 
 ### Hva er testet
 
-Oppgaven er skrevet i november 2026 ut fra KIT Apps versjon 0.3.12. Den er ikke
-prøvd med elever ennå.
+Promptene er kjørt med Claude Haiku og Claude Sonnet i november 2026, og
+appene startet uten feil i KIT Apps. Oppgaven er ikke prøvd med elever ennå.

@@ -33,8 +33,8 @@ den samme chatten du brukte da.
   appen skal si «Skriv et tall» i stedet. Gi meg hele filen på nytt.
   ```
 
-- [ ] Kopier den nye koden. Trykk **Edit code** i KIT Apps, bytt ut alt med den
-  nye koden, og kjør den.
+- [ ] Kopier den nye koden. Trykk **Edit** i KIT Apps, bytt ut alt med den nye
+  koden, og trykk **Save Changes**.
 
 ## Tips {.protip}
 
@@ -53,7 +53,7 @@ stedet for appen.
 
 - [ ] Lim det inn i chatten. Der står både feilmeldingen og koden din.
 
-- [ ] Kopier svaret inn i KIT Apps og kjør igjen.
+- [ ] Lim svaret inn med **Edit** og **Save Changes**, som i steg 1.
 
 - [ ] Virker det ikke etter tre forsøk? Be KI-en forklare feilen med enkle ord,
   og spør om det finnes en enklere måte å gjøre det på.
@@ -94,8 +94,6 @@ En endring kan ødelegge noe som virket før.
 
 - [ ] Velg én av forslagene og be KI-en gjøre den. Test igjen.
 
-- [ ] Trykk **Save** når du er fornøyd.
-
 ## Prompter du kan lære av {.protip}
 
 Bytt ut det som står i klammer.
@@ -122,8 +120,9 @@ Bytt ut det som står i klammer.
 
 ## Lagre {.save}
 
-Trykk **Save**. Gi gjerne appen et nytt navn med versjon, for eksempel
-`Poengtavle 2`, hvis du vil ta vare på den gamle.
+Endringene lagres når du trykker **Save Changes**. Vil du ta vare på en
+versjon som virker, trykker du **Duplicate** under appen i lista før du endrer
+den.
 
 
 ## Utfordring {.challenge}
