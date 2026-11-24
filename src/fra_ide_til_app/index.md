@@ -63,6 +63,8 @@ kunder som skal kjenne den igjen, for eksempel et verktøy bare for dere selv,
 kan dere også hoppe over Gi appen et eget uttrykk. Designet kan skisses på
 papir i stedet for med KI.
 
+Etter lansering trenger bare de som skal drive appen over tid.
+
 Endrer appen seg, for eksempel ved at dere legger til et skjema, går den opp et
 nivå. Da tar du stegene du hoppet over. Er du i tvil om nivået, ta alt.
 
@@ -88,7 +90,9 @@ som ansvarlig. Det er dere selv som må sjekke at bruken er innenfor vilkårene.
 
 [Veiledning for lærere](veiledning_for_laerere/veiledning_for_laerere) går
 gjennom risiko for elever, kunder og skole, ansvar for kontoer, ungdomsbedrift i
-ekte drift, vurdering og hva du gjør hvis noe går galt. Hver oppgave har i
-tillegg sin egen lærerveiledning.
+ekte drift, kodeklubber, vurdering og hva du gjør hvis noe går galt.
+[Lærerressurser](laererressurser/laererressurser) har plan for et semester,
+vurderingsrubrikk og eksempelsvar. Hver oppgave har i tillegg sin egen
+lærerveiledning.
 
 Kurset er ikke laget av eller godkjent av Google eller Anthropic.

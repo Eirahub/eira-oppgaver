@@ -62,6 +62,8 @@ kundar som skal kjenne han att, til dømes eit verktøy berre for dykk sjølve,
 kan de òg hoppe over Gi appen eit eige uttrykk. Designet kan skissast på papir
 i staden for med KI.
 
+Etter lansering treng berre dei som skal drive appen over tid.
+
 Endrar appen seg, til dømes ved at de legg til eit skjema, går han opp eit
 nivå. Då tek du stega du hoppa over. Er du i tvil om nivået, ta alt.
 
@@ -86,7 +88,9 @@ som ansvarleg. Det er de sjølve som må sjekke at bruken er innanfor vilkåra.
 
 [Rettleiing for lærarar](veiledning_for_laerere/veiledning_for_laerere_nn) går
 gjennom risiko for elevar, kundar og skule, ansvar for kontoar, ungdomsbedrift i
-ekte drift, vurdering og kva du gjer viss noko går gale. Kvar oppgåve har i
-tillegg si eiga lærarrettleiing.
+ekte drift, kodeklubbar, vurdering og kva du gjer viss noko går gale.
+[Lærarressursar](laererressurser/laererressurser_nn) har plan for eit semester,
+vurderingsrubrikk og døme på svar. Kvar oppgåve har i tillegg si eiga
+lærarrettleiing.
 
 Kurset er ikkje laga av eller godkjent av Google eller Anthropic.

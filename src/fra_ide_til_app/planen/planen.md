@@ -92,6 +92,10 @@ lagres. For en nybegynner er det tre muligheter:
 
 - [ ] Velg hvor dataene skal lagres i MVP-en. Start med det enkleste som virker.
 
+- [ ] Gjør et grovt overslag: Hva koster verktøy, publisering og lagring i
+  måneden, og hvor mange timer går med til drift? Kan det lønne seg? Du regner
+  mer nøyaktig i [Hvilken type app?](../typer_apper/typer_apper)
+
 
 # Steg 5: Skriv PLAN.md {.activity}
 
@@ -145,6 +149,9 @@ Samle alt i én fil. Denne fila gir du til KI-en senere.
   ## Lagring
   (nettleser, regneark eller server, og hvorfor)
 
+  ## Kostnad (grovt)
+  (per måned, og timer til drift)
+
   ## Krav
   - Norsk språk
   - Fungerer på mobil
@@ -166,9 +173,9 @@ andre.
 | **Seniorutvikler** | At løsningen er enkel nok, at dere forstår koden, og at alt er lagret i Git. Sier nei når KI-en lager noe for komplisert | Planen steg 4, Bygg MVP-en |
 | **Tester** (QA engineer) | At hver MVP-historie virker, også på mobil, for skjermleser og når brukeren gjør noe uventet | Bygg MVP-en, Test med kunder |
 | **Sikkerhetstester** (pentester) | At appen tåler angrep. Tester bare egne systemer | Sikkerhet og risiko |
-| **Drift** (DevOps engineer) | Publisering, domene, hemmeligheter, sikkerhetskopi, kostnader, og å kunne gå tilbake når noe går galt | Hvilken type app?, Sikkerhet og risiko steg 6, Test med kunder |
+| **Drift** (DevOps engineer) | Publisering, domene, hemmeligheter, sikkerhetskopi, kostnader, og å kunne gå tilbake når noe går galt | Hvilken type app?, Sikkerhet og risiko steg 6, Etter lansering |
 | **Personvernansvarlig** | Personopplysninger, personvernerklæring og regler | Ansvar og personvern |
-| **Salg og kundeservice** | Kontakt med kundene, pitch, spørsmål og klager | Forretningsidéen, Test med kunder |
+| **Salg og kundeservice** | Kontakt med kundene, pitch, spørsmål og klager | Forretningsidéen, Test med kunder, Etter lansering |
 
 ## Sjekkliste {.check}
 
@@ -207,7 +214,7 @@ personopplysninger. Se hvorfor promptene virker, og lag dine egne.
   vet.
   ```
 
-- **Lag en PRD:**
+- **Lag en PRD (for deg som vil gå videre):**
 
   ```
   Lag en produktkravspesifikasjon (PRD) ut fra visjonen, målene og
@@ -216,7 +223,7 @@ personopplysninger. Se hvorfor promptene virker, og lag dine egne.
   der jeg ikke har sagt noe.
   ```
 
-- **Epics, features og historier:**
+- **Epics, features og historier (for deg som vil gå videre):**
 
   ```
   Del PRD-en opp i epics, features og brukerhistorier: «Som [bruker]

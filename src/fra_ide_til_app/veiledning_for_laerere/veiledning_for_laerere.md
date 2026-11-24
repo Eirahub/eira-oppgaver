@@ -17,6 +17,20 @@ sjekker vilkår, alder og pris. Som lærer er din viktigste jobb å sørge for a
 de faktisk gjør det, og at en voksen står som ansvarlig der det trengs.
 
 
+# Slik er kurset bygd opp {.activity}
+
+- **Del 1, Fra behov til forretningsidé:** Uten konto og uten teknikk. Her
+  fordeler elevene også rollene i gruppa (Planen, steg 6).
+- **Del 2, Bygg appen med KI:** Elevene bygger appen. Her trengs kontoer.
+- **Del 3, Klar for ekte kunder:** Risiko, personvern og ansvar kommer før
+  kundene får prøve appen. Test med kunder starter med en sjekk før
+  publisering. Etter lansering handler om drift og avvikling.
+
+Kurssiden har en tabell over hva elevene kan hoppe over ut fra risikonivået til
+appen. Plan for et semester, vurderingsrubrikk og eksempelsvar finner du i
+[Lærerressurser](../laererressurser/laererressurser).
+
+
 # Før kurset {.activity}
 
 ## Sjekkliste {.check}
@@ -134,6 +148,9 @@ derfor prosessen, ikke bare appen.
 - [ ] Bruk vurderingsmappen som er beskrevet i lærerveiledningen til [Ansvar og
   personvern](../ansvar_og_personvern/README).
 
+- [ ] Bruk vurderingsrubrikken i
+  [Lærerressurser](../laererressurser/laererressurser).
+
 
 # Økonomisk ansvar {.activity}
 
@@ -204,6 +221,34 @@ Hva vi ber dere om
 
 Spørsmål kan sendes til [navn og kontakt].
 ```
+
+
+# Kurset i en kodeklubb {.activity}
+
+I en kodeklubb finnes det ingen skolekontoer, ingen godkjente verktøy fra
+skoleeier og ingen IT-avdeling. Da må klubben selv avklare det skolen ellers
+gjør.
+
+## Sjekkliste {.check}
+
+- [ ] Bestem hvem i klubben som er ansvarlig voksen for kurset.
+
+- [ ] Deltakere under aldersgrensen for et verktøy trenger at en forelder
+  oppretter kontoen og står som ansvarlig. Veiledere skal ikke dele egne
+  kontoer med deltakerne.
+
+- [ ] Deltakerne bruker ofte egne maskiner. Foresatte må godta at verktøy
+  installeres, og vite hva som koster penger.
+
+- [ ] Send informasjon til foresatte før kurset, se malen over.
+
+- [ ] Apper som samler inn data fra ekte kunder, krever en ansvarlig voksen,
+  enten fra klubben eller hjemme. Hold dere til nivå 1 til 3 og testdata hvis
+  ingen kan ta det ansvaret.
+
+- [ ] Klubben bør ha en egen e-post for spørsmål, ikke veiledernes private.
+
+- [ ] Avtal hva som skjer med prosjektene og dataene når kurset er over.
 
 
 # Vilkår endrer seg {.activity}

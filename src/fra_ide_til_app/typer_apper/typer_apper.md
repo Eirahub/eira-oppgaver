@@ -80,8 +80,8 @@ selv det som handler om alder, pris og kommersiell bruk. KI-en kan ta feil.
 
 ## Sjekkliste {.check}
 
-- [ ] Lag en tabell over kostnader per måned for din app. Ta med det som
-  gjelder:
+- [ ] Ta fram det grove overslaget i `PLAN.md`. Lag en tabell over kostnader
+  per måned for din app. Ta med det som gjelder:
 
   | Kostnad | Per måned |
   |---|---|

@@ -94,6 +94,10 @@ blir lagra. For ein nybyrjar er det tre moglegheiter:
 
 - [ ] Vel kvar dataa skal lagrast i MVP-en. Start med det enklaste som verkar.
 
+- [ ] Gjer eit grovt overslag: Kva kostar verktøy, publisering og lagring i
+  månaden, og kor mange timar går med til drift? Kan det løne seg? Du reknar
+  meir nøyaktig i [Kva type app?](../typer_apper/typer_apper_nn)
+
 
 # Steg 5: Skriv PLAN.md {.activity}
 
@@ -147,6 +151,9 @@ Samle alt i éi fil. Denne fila gir du til KI-en seinare.
   ## Lagring
   (nettlesar, rekneark eller tenar, og kvifor)
 
+  ## Kostnad (grovt)
+  (per månad, og timar til drift)
+
   ## Krav
   - Norsk språk
   - Fungerer på mobil
@@ -168,9 +175,9 @@ andre.
 | **Seniorutviklar** | At løysinga er enkel nok, at de forstår koden, og at alt er lagra i Git. Seier nei når KI-en lagar noko for komplisert | Planen steg 4, Bygg MVP-en |
 | **Testar** (QA engineer) | At kvar MVP-historie verkar, òg på mobil, for skjermlesar og når brukaren gjer noko uventa | Bygg MVP-en, Test med kundar |
 | **Tryggleikstestar** (pentester) | At appen toler åtak. Testar berre eigne system | Tryggleik og risiko |
-| **Drift** (DevOps engineer) | Publisering, domene, løyndomar, tryggleikskopi, kostnader, og å kunne gå tilbake når noko går gale | Kva type app?, Tryggleik og risiko steg 6, Test med kundar |
+| **Drift** (DevOps engineer) | Publisering, domene, løyndomar, tryggleikskopi, kostnader, og å kunne gå tilbake når noko går gale | Kva type app?, Tryggleik og risiko steg 6, Etter lansering |
 | **Personvernansvarleg** | Personopplysningar, personvernerklæring og reglar | Ansvar og personvern |
-| **Sal og kundeservice** | Kontakt med kundane, pitch, spørsmål og klager | Forretningsideen, Test med kundar |
+| **Sal og kundeservice** | Kontakt med kundane, pitch, spørsmål og klager | Forretningsideen, Test med kundar, Etter lansering |
 
 ## Sjekkliste {.check}
 
@@ -209,7 +216,7 @@ personopplysningar om andre. Sjå kvifor promptane verkar, og lag dine eigne.
   veit.
   ```
 
-- **Lag ein PRD:**
+- **Lag ein PRD (for deg som vil gå vidare):**
 
   ```
   Lag ein produktkravspesifikasjon (PRD) ut frå visjonen, måla og
@@ -218,7 +225,7 @@ personopplysningar om andre. Sjå kvifor promptane verkar, og lag dine eigne.
   der eg ikkje har sagt noko.
   ```
 
-- **Epics, features og historier:**
+- **Epics, features og historier (for deg som vil gå vidare):**
 
   ```
   Del PRD-en opp i epics, features og brukarhistorier: «Som [brukar]
