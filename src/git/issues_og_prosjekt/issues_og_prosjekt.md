@@ -82,7 +82,8 @@ del det opp i flere.
   **New project**. Under **Start from scratch** velger du **Board**.
 
 - [ ] Gi prosjektet et navn, for eksempel `Gjett tallet`. Tavla har tre
-  kolonner: **Todo**, **In Progress** og **Done**.
+  kolonner: **Todo**, **In Progress** og **Done**. Velger du en mal i stedet
+  for **Board**, får tavla andre kolonner.
 
 - [ ] Legg til de tre issuene: trykk **+** nederst i **Todo**, skriv `#`, velg
   repoet `gjett_tallet` og så issuet.
