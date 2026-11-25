@@ -43,6 +43,10 @@ Kurset passer fra 8. trinn og oppover.
   | 4 | Hvit hatt | Angrip og tett hullene i nettsiden Kiosken |
   | 5 | Finale | Pentestrapport og din egen CTF |
 
+- Er du lærer? Les [Veiledning for lærere - Laben og
+  Kiosken](veiledning_for_laerere/veiledning_for_laerere) før du starter. Der
+  står oppsett, test før timen, alle hullene i Kiosken og feilsøking.
+
 - Lager du apper selv? Del 4 passer godt sammen med [Fra idé til app med
   KI](../fra_ide_til_app/) og [Fra chat til app med KI](../fra_chat_til_app/).
 

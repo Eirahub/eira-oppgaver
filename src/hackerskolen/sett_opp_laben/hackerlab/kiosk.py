@@ -1,5 +1,7 @@
 # Hackerskolen: Kiosken, en øvingsapp med bevisste sikkerhetshull.
 # Kjør: python3 kiosk.py   og åpne http://127.0.0.1:8080
+#   python3 kiosk.py --nullstill   sletter kommentarene og starter med ny database
+#   python3 kiosk.py --port 8081   bruker en annen port hvis 8080 er opptatt
 # Appen svarer bare på din egen maskin (127.0.0.1). Ikke legg den ut på nett.
 #
 # Hullene er merket med «SÅRBAR». Finn dem først ved å angripe appen.
@@ -16,7 +18,7 @@ from urllib.parse import parse_qs, urlparse
 
 HER = os.path.dirname(os.path.abspath(__file__))
 DB = os.path.join(HER, "kiosk.db")
-PORT = 8080
+PORT = int(sys.argv[sys.argv.index("--port") + 1]) if "--port" in sys.argv else 8080
 
 
 def f(s):

@@ -3,6 +3,7 @@
 #   python3 sjekk.py status            se flaggboka og graden din
 #   python3 sjekk.py phishing          quiz: ekte eller falsk?
 #   python3 sjekk.py blått             sjekk om du har tettet hullene i Kiosken
+#   python3 sjekk.py blått --port 8081 hvis Kiosken kjører på en annen port
 import base64
 import hashlib
 import os
@@ -140,7 +141,8 @@ def phishing():
         print("Du trenger 5 riktige for flagget. Prøv igjen.")
 
 
-URL = "http://127.0.0.1:8080"
+PORT = sys.argv[sys.argv.index("--port") + 1] if "--port" in sys.argv else "8080"
+URL = "http://127.0.0.1:" + PORT
 
 
 def hent(sti, data=None):
@@ -157,7 +159,8 @@ def blått():
     try:
         hent("/")
     except OSError:
-        print("Får ikke kontakt med Kiosken. Start den med: python3 kiosk.py")
+        print(f"Får ikke kontakt med Kiosken på {URL}. Start den med: "
+              "python3 kiosk.py")
         return
     test = []
     _, side, _ = hent("/kjop", {"vare": "brus", "pris": "0", "antall": "1"})

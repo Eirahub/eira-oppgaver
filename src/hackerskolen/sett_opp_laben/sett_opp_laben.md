@@ -47,7 +47,9 @@ kommandoer i stedet for å klikke.
 
   På Windows skriver du `python --version`. Får du en feil, last ned Python
   fra [python.org](https://www.python.org/downloads/). På Windows huker du av
-  for **Add python.exe to PATH** under installasjonen.
+  for **Add python.exe to PATH** under installasjonen. På Mac kan du få
+  spørsmål om å installere utviklerverktøy. Svar ja. På Linux og Raspberry Pi
+  installerer du med `sudo apt install python3 git`.
 
 - [ ] Finn en terminal som snakker **bash**, språket hackere og servere bruker:
 
@@ -135,6 +137,53 @@ krøllparentesene betyr noe.
 
 Alt kjører på `127.0.0.1`. Det er en adresse som alltid betyr «denne maskinen».
 Ingen andre kan nå laben, og laben når ingen andre.
+
+
+# Steg 5: Slik bruker du laben {.activity}
+
+Noen deler av laben er **tjenester** som kjører til du stopper dem: Kiosken og
+den hemmelige tjenesten. Da er terminalen opptatt, og du trenger en til.
+
+## Sjekkliste {.check}
+
+- [ ] Prøv å starte Kiosken:
+
+  ```
+  python3 kiosk.py
+  ```
+
+  Terminalen skriver `Kiosken kjører på http://127.0.0.1:8080` og blir stående.
+
+- [ ] Åpne en **ny** terminal i mappa `hackerlab`. Der skriver du andre
+  kommandoer, som `python3 sjekk.py blått`, mens Kiosken kjører.
+
+- [ ] Gå tilbake til den første terminalen og stopp Kiosken med **Ctrl+C**.
+
+- [ ] Har du endret `kiosk.py`, må du stoppe Kiosken og starte den igjen før
+  endringen virker.
+
+| Vil du | Skriv |
+|---|---|
+| Se flaggboka og graden din | `python3 sjekk.py status` |
+| Lage oppdragene på nytt | `python3 lag_oppdrag.py` |
+| Tømme kommentarene i Kiosken | `python3 kiosk.py --nullstill` |
+| Starte helt på nytt | Slett mappa `hackerlab` og pakk ut zip-fila igjen |
+
+
+# Steg 6: Hvis noe ikke virker {.activity}
+
+| Problem | Løsning |
+|---|---|
+| `python3: command not found` | På Windows skriver du `python` |
+| `python` åpner Microsoft Store | Python er ikke installert riktig. Installer på nytt og huk av for **Add python.exe to PATH** |
+| `No such file or directory` | Du står i feil mappe. Skriv `pwd` for å se hvor du er, og `cd` til mappa `hackerlab` |
+| `Address already in use` | Kiosken kjører allerede i et annet vindu. Stopp den, eller bruk `python3 kiosk.py --port 8081` |
+| `Får ikke kontakt med Kiosken` | Start Kiosken i en annen terminal først |
+| `Det er ikke et flagg i Hackerskolen` | Ta med hele flagget, også `EIRA{` og `}`, og sett det i enkle anførselstegn |
+| Mappa `5_git_lekkasje` mangler | Installer Git og kjør `python3 lag_oppdrag.py` på nytt |
+
+Står du fortsatt fast, spør læreren. Lærere finner mer hjelp i [Veiledning
+for lærere](../veiledning_for_laerere/veiledning_for_laerere).
 
 ## Tips {.protip}
 
