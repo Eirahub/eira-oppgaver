@@ -1,0 +1,11 @@
+sortindex: 4
+title:
+  nb: 'Del 4: Hvit hatt'
+  nn: 'Del 4: Kvit hatt'
+  en: 'Part 4: White hat'
+lessons:
+  - alt_er_offentlig
+  - sql_injeksjon
+  - xss
+  - lekkede_hemmeligheter
+  - klar_for_publisering

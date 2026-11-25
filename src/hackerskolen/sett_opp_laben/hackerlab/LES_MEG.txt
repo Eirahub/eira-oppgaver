@@ -1,0 +1,13 @@
+HACKERSKOLEN - laben
+====================
+
+Oppgavene står på https://oppgaver.eirahub.no/hackerskolen/
+
+Start her:
+  python3 lag_oppdrag.py        lager oppdragene (på Windows: python)
+  python3 sjekk.py status       viser flaggboka og graden din
+
+Alt i laben kjører bare på din egen maskin (127.0.0.1).
+Angrip bare laben, og maskiner og sider du har lov til å angripe.
+
+Lisens: CC BY-SA 4.0, Eira og Tor Einar Enne.
