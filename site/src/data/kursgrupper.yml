@@ -24,4 +24,6 @@
   courses: [appinventor, fra_ide_til_app]
 - title: Verktøy
   courses: [vs_code]
+- title: Sikkerhet og hacking
+  courses: [hackerskolen, command_line]
 - title: Andre

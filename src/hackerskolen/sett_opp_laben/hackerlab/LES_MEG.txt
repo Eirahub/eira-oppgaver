@@ -1,0 +1,39 @@
+HACKERSKOLEN - laben
+====================
+
+Oppgavene står på https://oppgaver.eirahub.no/hackerskolen/
+Lærere: se «Veiledning for lærere - Laben og Kiosken» på samme side.
+
+Du trenger Python 3 og en terminal (Terminal på Mac og Linux,
+Git Bash på Windows). På Windows skriver du python i stedet for python3.
+
+KOM I GANG
+  python3 lag_oppdrag.py            godta kontrakten og lag oppdragene
+  python3 sjekk.py flagg 'EIRA{...}'  registrer et flagg
+  python3 sjekk.py status           se flaggboka og graden din
+
+TJENESTER (kjører til du trykker Ctrl+C, bruk en ny terminal ved siden av)
+  python3 kiosk.py                  Kiosken på http://127.0.0.1:8080
+  python3 kiosk.py --port 8081      hvis port 8080 er opptatt
+  python3 kiosk.py --nullstill      tøm kommentarene og start med ny database
+  python3 hemmelig_tjeneste.py      tjeneste på en hemmelig port
+
+SJEKKER
+  python3 sjekk.py phishing         quiz: ekte eller falsk?
+  python3 sjekk.py blått            har du tettet hullene i Kiosken?
+  python3 sjekk.py blått --port 8081
+
+FILER
+  lag_oppdrag.py         lager mappa «oppdrag»
+  sjekk.py               flaggbok, grader, quiz og sjekk av forsvaret
+  kiosk.py               nettside med bevisste hull, merket SÅRBAR
+  hemmelig_tjeneste.py   til portskanneren
+  filer/ferietur.jpg     bilde med GPS i metadataene
+
+Starte helt på nytt: slett mappa hackerlab og pakk ut zip-fila igjen.
+
+REGLER
+Alt i laben kjører bare på din egen maskin (127.0.0.1).
+Angrip bare laben, og maskiner og sider du har lov til å angripe.
+
+Lisens: CC BY-SA 4.0, Eira og Tor Einar Enne.
