@@ -84,6 +84,26 @@ for (const f of fs.readdirSync(path.join(HERE, 'kurs')).filter((f) => f.endsWith
   });
 }
 
+// ferdige filmer: et helt HyperFrames-prosjekt i film/<kurs>/ med film.yml (bare Eira-profilen)
+for (const kurs of PROFIL === 'eira' && fs.existsSync(path.join(HERE, 'film')) ? fs.readdirSync(path.join(HERE, 'film')).sort() : []) {
+  const dir = path.join(HERE, 'film', kurs);
+  const meta = YAML.parse(fs.readFileSync(path.join(dir, 'film.yml'), 'utf8'));
+  const files = fs.readdirSync(dir, { recursive: true }).map((f) => path.join(dir, f)).filter((f) => fs.statSync(f).isFile() && !f.includes('.hyperframes')).sort();
+  const out = path.join(HERE, 'build', 'out', `${kurs}.mp4`);
+  videos.push({
+    id: kurs, key: `${kurs}-${hashOf(files)}`, poster: meta.poster, tekst: meta.tekst, kreditt: meta.kreditt ?? null,
+    render: () => {
+      const raw = out.replace(/\.mp4$/, '.raw.mp4');
+      fs.mkdirSync(path.dirname(raw), { recursive: true });
+      execFileSync(HF.split(' ')[0], [...HF.split(' ').slice(1), 'render', '-o', raw], { cwd: dir, stdio: 'inherit' });
+      // filmen har lydeffekter, så lyden beholdes
+      execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', raw, '-c:v', 'libx264', '-crf', '28', '-preset', 'slow', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', '-c:a', 'aac', '-b:a', '128k', out]);
+      fs.rmSync(raw);
+    },
+    out,
+  });
+}
+
 if (process.argv.includes('--plan')) {
   // id og filnavn, for å laste opp videoer som er rendret lokalt
   console.log(JSON.stringify(Object.fromEntries(videos.map((v) => [v.id, v.key])), null, 2));

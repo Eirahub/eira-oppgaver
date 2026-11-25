@@ -87,3 +87,11 @@ satt dem sammen. Bildet må ha gjennomsiktig bakgrunn. Se `scratch.yml` og
 
 Bilder som ikke ligger i en oppgave, står i `assets/` med kilde i
 `assets/KILDER.md`.
+
+## Ferdige filmer
+
+Et kurs kan også ha en egen film i stedet for et manus: et helt
+HyperFrames-prosjekt i `film/<kurs>/` med `film.yml` (`tekst`, `poster`,
+`kreditt`). `videoer.mjs` rendrer det med `hyperframes render` og behandler
+det ellers som de andre videoene. Bare Eira-profilen får disse filmene.
+Hackerskolen har en slik film, laget med `film/hackerskolen/gen.mjs`.
