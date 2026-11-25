@@ -1,0 +1,44 @@
+<template>
+<style>
+  @font-face { font-family: "Baloo 2"; font-weight: 700; src: url("assets/fonts/baloo-2-latin-700-normal.woff2") format("woff2"); }
+  #root { position: absolute; inset: 0; background: #F5F2ED; overflow: hidden; }
+  .row1 { position: absolute; left: 0; right: 0; top: 200px; display: flex; justify-content: center; align-items: center; gap: 44px; }
+  #s-hat { width: 250px; height: 250px; }
+  #s-name { font: 700 150px/1 "Baloo 2", sans-serif; color: #1B1B1F; letter-spacing: -0.015em; }
+  #s-name span { display: inline-block; opacity: 0; }
+  #s-url { font: 500 44px/1.2 "Inter", sans-serif; color: #3D3D42; margin-top: 14px; clip-path: inset(0% 100% 0% 0%); }
+  #s-bar { position: absolute; left: 860px; top: 600px; width: 200px; height: 12px; border-radius: 6px; background: #FF8A4C; transform-origin: 50% 50%; }
+  .row2 { position: absolute; left: 192px; right: 192px; top: 680px; display: flex; align-items: center; justify-content: center; gap: 80px; opacity: 0; }
+  .lockup { display: flex; flex-direction: column; gap: 10px; color: #1E3A8A; }
+  .lockrow { display: flex; align-items: baseline; gap: 20px; }
+  .mark { font: 700 110px/1 "Baloo 2", sans-serif; letter-spacing: -0.015em; }
+  .kicker { font: 700 28px/1 "Inter", sans-serif; letter-spacing: 0.28em; text-transform: uppercase; color: #3D3D42; padding-bottom: 12px; }
+  .lockurl { font: 500 36px/1.2 "Inter", sans-serif; color: #3D3D42; }
+  .sep { width: 4px; height: 130px; background: #3D3D42; opacity: 0.25; border-radius: 2px; }
+  .lkk { height: 170px; width: auto; display: block; }
+</style>
+<div id="root" data-composition-id="slutt" data-width="1920" data-height="1080">
+  <div class="row1">
+    <img id="s-hat" src="assets/logo-black.png" alt="Hackerskolen-logo: en hatt med >_" />
+    <div><div id="s-name"><span>H</span><span>a</span><span>c</span><span>k</span><span>e</span><span>r</span><span>s</span><span>k</span><span>o</span><span>l</span><span>e</span><span>n</span></div>
+    <div id="s-url">oppgaver.eirahub.no/hackerskolen</div></div>
+  </div>
+  <div id="s-bar"></div>
+  <div class="row2" id="s-row2">
+    <div class="lockup"><div class="lockrow"><span class="mark">eira</span><span class="kicker">Ryfylke · Kodeklubb</span></div><span class="lockurl">eirahub.no</span></div>
+    <div class="sep"></div>
+    <img class="lkk" src="assets/lkk-logo.png" alt="Lær Kidsa Koding" />
+  </div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo('#s-hat', { y: -620, rotation: -24, scale: 1.3 }, { y: 0, rotation: 0, scale: 1, duration: 0.6, ease: 'expo.out' }, 0.0);
+  document.querySelectorAll('#s-name span').forEach((s, i) =>
+    tl.fromTo(s, { opacity: 0.3, filter: 'blur(4px)' }, { opacity: 1, filter: 'blur(0px)', duration: 0.12, ease: 'power2.out' }, 0.35 + i * 0.05));
+  tl.fromTo('#s-url', { clipPath: 'inset(0% 100% 0% 0%)' }, { clipPath: 'inset(0% 0% 0% 0%)', duration: 0.45, ease: 'power3.out' }, 1.0);
+  tl.fromTo('#s-bar', { scaleX: 0 }, { scaleX: 1, duration: 0.35, ease: 'expo.out' }, 1.5);
+  tl.fromTo('#s-row2', { opacity: 0, filter: 'blur(8px)' }, { opacity: 1, filter: 'blur(0px)', duration: 0.2, ease: 'power2.out' }, 1.7);
+  tl.set({}, {}, 4.5);
+  window.__timelines["slutt"] = tl;
+</script>
+</template>
