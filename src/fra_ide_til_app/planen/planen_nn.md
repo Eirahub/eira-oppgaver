@@ -8,6 +8,8 @@ language: nn
 
 # Introduksjon {.intro}
 
+**Fase:** Plan (definition). Sjå [Frå idé til produksjon](../fasene/fasene_nn).
+
 Ein KI byggjer nesten kva som helst, men han gjettar når du er utydeleg. Di
 betre planen er, di mindre gjettar han. I denne oppgåva skriv du `PLAN.md`:
 kven appen er for, kva skjermar han har, kva data han treng og kva som er den
@@ -23,13 +25,28 @@ og verdiforslaget frå
 [Forretningsideen](../forretningsideen/forretningsideen_nn).
 
 
-# Steg 1: Kva skal brukaren få gjort? {.activity}
+# Steg 1: Frå epos til brukarhistorie {.activity}
 
-Ei **brukarhistorie** er éin ting ein brukar skal få til, sett frå brukaren.
+Ein app er for mykje å tenkje på på éin gong. Difor deler ein arbeidet i nivå,
+frå stort til lite:
+
+- Eit **epos** (epic) er eit stort område appen skal hjelpe med, til dømes
+  «Bestilling».
+- Ein **funksjon** (feature) er ein del av eposet som brukaren merkar, til
+  dømes «Sjå ledige tider».
+- Ei **brukarhistorie** (user story) er éin ting ein brukar skal få til, sett
+  frå brukaren.
+- Ei **oppgåve** (task) er ein liten jobb som skal til for å lage historia, til
+  dømes «lag skjemaet». Oppgåvene finn du først når du byggjer.
 
 ## Sjekkliste {.check}
 
-- [ ] Skriv 3 til 6 brukarhistorier på forma:
+- [ ] Skriv 1 til 3 epos. Bruk verdiforslaget: kva er dei store tinga appen
+  lovar kunden?
+
+- [ ] Skriv 1 til 3 funksjonar under kvart epos.
+
+- [ ] Skriv 3 til 6 brukarhistorier under funksjonane, på forma:
 
   ```
   Som [kven] vil eg [gjere noko], så eg [får noko ut av det].
@@ -41,9 +58,16 @@ Ei **brukarhistorie** er éin ting ein brukar skal få til, sett frå brukaren.
 ## Døme {.tip}
 
 ```
-Som kunde vil eg sjå ledige tider, så eg slepp å møte opp til ingen nytte.
-Som kunde vil eg bestille ei tid med namn og sykkeltype.
-Som vaskar vil eg sjå bestillingane i dag, så vi veit kven som kjem.
+Epos: Bestilling
+  Funksjon: Sjå ledige tider
+    Som kunde vil eg sjå ledige tider, så eg slepp å møte opp til ingen
+    nytte.
+  Funksjon: Bestille tid
+    Som kunde vil eg bestille ei tid med namn og sykkeltype, så eg veit
+    at sykkelen blir vaska.
+Epos: Drift av vasken
+  Funksjon: Lista for i dag
+    Som vaskar vil eg sjå bestillingane i dag, så vi veit kven som kjem.
 ```
 
 
@@ -59,6 +83,24 @@ problemet godt nok til at kundane kan prøve han. Alt anna ventar.
 
 - [ ] Set **Seinare** ved resten. Ver streng. Ein MVP har sjeldan meir enn tre
   historier.
+
+- [ ] Skriv **Ikkje med** ved det appen ikkje skal gjere, til dømes dei tre
+  tinga frå verdiforslaget.
+
+- [ ] Skriv **akseptansekriterium** (acceptance criteria) for kvar
+  MVP-historie. Dei seier når historia er ferdig:
+
+  ```
+  Ferdig når: Gitt [situasjon], når [handling], så [resultat].
+  ```
+
+## Døme {.tip}
+
+```
+Som kunde vil eg sjå ledige tider, så eg slepp å møte opp til ingen nytte.
+Ferdig når: Gitt at to tider er bestilte i morgon, når eg opnar
+appen, så ser eg at dei to tidene er opptekne.
+```
 
 
 # Steg 3: Skjermar og flyt {.activity}
@@ -130,6 +172,10 @@ Samle alt i éi fil. Denne fila gir du til KI-en seinare.
   ## Brukarar
   - Kunde: ...
   - Vi som driv: ...
+
+  ## Epos og funksjonar
+  - Epos: ...
+    - Funksjon: ...
 
   ## MVP
   - Som ... vil eg ..., så eg kan ...
@@ -225,10 +271,11 @@ personopplysningar om andre. Sjå kvifor promptane verkar, og lag dine eigne.
   der eg ikkje har sagt noko.
   ```
 
-- **Epics, features og historier (for deg som vil gå vidare):**
+- **Epos, funksjonar og historier:**
 
   ```
-  Del PRD-en opp i epics, features og brukarhistorier: «Som [brukar]
+  Del planen opp i epos (epics), funksjonar (features) og
+  brukarhistorier: «Som [brukar]
   vil eg [handling], så eg kan [mål].» Gi kvar historie
   akseptansekriterium: «Gitt [situasjon], når [handling], så
   [resultat].» Merk kva som høyrer til MVP-en.
@@ -273,6 +320,41 @@ setning i planen enn kode KI-en har skrive.
   ville vore uroa for. Ikkje skriv kode.
   ```
 
+
+# Steg 7: Frå plan til tavle {.activity}
+
+No blir planen til arbeid. Kvar MVP-historie blir ei **sak** (issue) med
+«Ferdig når» i skildringa. Sakene legg du i ein **milepæl** (milestone) som
+heiter `MVP`, og på ei **prosjekttavle** (project board) med kolonnane `Todo`,
+`In Progress` og `Done`. Då ser du heile tida kva som er gjort, og kva som står
+att.
+
+Korleis du gjer det på GitHub, lærer du i [Planlegg med issues og
+prosjekttavle](../../git/issues_og_prosjekt/issues_og_prosjekt).
+
+## Sjekkliste {.check}
+
+- [ ] Skriv **ferdigdefinisjonen** (definition of done) i `PLAN.md` under
+  `## Ferdigdefinisjon`: kva må til før ei sak er ferdig? Sjå steg 2 i [Frå
+  idé til produksjon](../fasene/fasene_nn).
+
+- [ ] Lag éi sak per MVP-historie. Tittelen er historia, og skildringa er
+  «Ferdig når» som sjekkliste.
+
+- [ ] Legg sakene i milepælen `MVP`. Historiene under **Seinare** kan bli saker
+  utan milepæl.
+
+- [ ] Legg sakene i `Todo` på tavla, med den viktigaste øvst.
+
+- [ ] Jobbar de i gruppe? Gi kvar sak ein ansvarleg (assignee). Jobbar du
+  åleine, er alle sakene dine.
+
+## Har du ikkje GitHub-konto enno? {.tip}
+
+Lag tavla på eit ark med tre kolonnar, og skriv kvar sak på ein lapp. Du
+flyttar sakene til GitHub i [Bygg MVP-en](../bygg_mvp/bygg_mvp_nn). Du må vere
+13 år for å ha ein konto på GitHub.
+
 ## Test deg sjølv {.flag}
 
 - [ ] Gi planen til ein medelev. Kan dei forklare deg kva appen gjer, utan at
@@ -282,9 +364,26 @@ setning i planen enn kode KI-en har skrive.
 
 - [ ] Veit alle i gruppa kva rolle dei har, og kva dei skal passe på?
 
+- [ ] Kan du sjå på tavla kva sak du skal starte med?
+
 ## Lagre {.save}
 
 `PLAN.md` er det viktigaste du lagar i kurset. Ta godt vare på han.
+
+## Ferdig med fasen {.check}
+
+Dette er siste oppgåve i fasen **Plan**. Sjå [Frå idé til
+produksjon](../fasene/fasene_nn).
+
+- [ ] `PLAN.md` har ein MVP, oftast med maks 3 historier.
+
+- [ ] Kvar MVP-historie har «Ferdig når».
+
+- [ ] MVP er skild frå **Seinare** og **Ikkje med**.
+
+- [ ] Rollene er fordelte.
+
+- [ ] Historiene ligg som saker i ein milepæl, på GitHub eller på eit ark.
 
 
 ## Utfordring {.challenge}

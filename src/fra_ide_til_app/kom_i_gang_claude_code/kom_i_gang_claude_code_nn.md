@@ -8,6 +8,8 @@ language: nn
 
 # Introduksjon {.intro}
 
+**Fase:** MVP (build). Sjå [Frå idé til produksjon](../fasene/fasene_nn).
+
 **Claude Code** er ein KI som jobbar i prosjektmappa di. Han les filene, lagar
 nye, køyrer kommandoar og forklarer kva han gjer. Du seier kva du vil ha, og
 godkjenner det han føreslår. I denne oppgåva lærer du terminalen, installerer

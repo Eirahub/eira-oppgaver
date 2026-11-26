@@ -8,6 +8,8 @@ language: nn
 
 # Introduksjon {.intro}
 
+**Fase:** Test med kundar (alpha/beta). Sjå [Frå idé til produksjon](../fasene/fasene_nn).
+
 Ein app er ikkje ferdig før kundane har brukt han. I denne oppgåva publiserer
 du MVP-en, lèt tre kundar teste han, lagar neste versjon ut frå det dei sa, og
 presenterer appen i ein kort pitch.
@@ -107,10 +109,15 @@ Du kan ikkje gjere alt kundane ønskjer. Vel det som betyr mest.
 - [ ] Sorter tilbakemeldingane i tre grupper: **Feil**, **Vanskeleg** og
   **Ønske**.
 
+- [ ] Lag ei sak (issue) på GitHub for kvar feil og kvart punkt du vil gjere
+  noko med. Gi feil merkelappen (label) `bug`, og ting som er vanskelege eller
+  ønskte, merkelappen `enhancement`.
+
 - [ ] Rett alle feil. Vel dei to viktigaste frå **Vanskeleg**.
 
 - [ ] Skriv dei inn i `PLAN.md` som nye MVP-historier, og bygg dei med løkka
-  frå førre oppgåve.
+  frå [Bygg MVP-en](../bygg_mvp/bygg_mvp_nn): grein, pull request med
+  `Closes #N`, gjennomgang og fletting.
 
 - [ ] Flytt resten av ønska til **Seinare**.
 
@@ -168,6 +175,18 @@ personopplysningar om andre. Sjå kvifor promptane verkar, og lag dine eigne.
 ## Lagre {.save}
 
 Lag ein commit med meldinga `Versjon 2 etter kundetest`.
+
+## Ferdig med fasen {.check}
+
+Fasen **Test med kundar** er ferdig når:
+
+- [ ] Sjekken i steg 1 er gjord.
+
+- [ ] Tre kundar har testa appen.
+
+- [ ] Alt under **Feil** er retta, og sakene er lukka.
+
+- [ ] Ein vaksen har godkjent der det trengst.
 
 
 ## Utfordring {.challenge}

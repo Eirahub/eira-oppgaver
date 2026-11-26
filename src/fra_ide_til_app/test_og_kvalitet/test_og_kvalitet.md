@@ -7,6 +7,8 @@ language: nb
 
 # Introduksjon {.intro}
 
+**Fase:** MVP (build). Se [Fra idé til produksjon](../fasene/fasene).
+
 En app kan virke når du prøver den, og likevel feile for kundene. I denne
 oppgaven er du testeren. Du lager en testliste ut fra «Ferdig når», prøver det
 som kan gå galt, sjekker at alle kan bruke appen, og får en gjennomgang av

@@ -7,11 +7,13 @@ language: nb
 
 # Introduksjon {.intro}
 
+**Fase:** Lansering, drift og avvikling (release, operations, retirement). Se [Fra idé til produksjon](../fasene/fasene).
+
 En app er ikke ferdig når den er publisert. Kundene stiller spørsmål, noe går i
 stykker, og en dag skal appen kanskje legges ned. Mange apper som er laget med
 KI, blir glemt etter lanseringen, og da blir de en risiko. I denne oppgaven
-lager du rutiner for kundeservice, oppdateringer og sikkerhetskopi, og en plan
-for hvordan appen avsluttes.
+lanserer du versjon 1, lager rutiner for kundeservice, oppdateringer og
+sikkerhetskopi, og lager en plan for hvordan appen avsluttes.
 
 ![Illustrasjon av en sirkel med fire ikoner: kundeservice, oppdatering,
 sikkerhetskopi og avslutning, rundt en fil som heter DRIFT.md](drift.png)
@@ -23,16 +25,58 @@ kunder](../test_med_kunder/test_med_kunder). Oppgaven passer best når appen ska
 brukes over tid, for eksempel i en ungdomsbedrift.
 
 
-# Steg 1: Kundeservice og klager {.activity}
+# Steg 1: Lanser versjon 1 {.activity}
+
+Når feilene fra kundetesten er rettet, er appen klar for alle i målgruppen. Gi
+versjonen et navn, så dere vet hva som ble lansert, og kan finne den igjen.
+
+## Sjekkliste {.check}
+
+- [ ] Sjekk at alt som skal med, er flettet inn i `main`, og at appen virker på
+  lenken.
+
+- [ ] Bestem hvor kundene skal ta kontakt, og skriv det i appen. Bruk en
+  e-post eller et skjema for bedriften, ikke en privat konto.
+
+- [ ] Lag et versjonsmerke (tag) og en utgivelse (release) på GitHub. Åpne
+  repoet, velg `Releases` og `Draft a new release`. Skriv `v1.0` som ny tag,
+  gi utgivelsen en tittel og et par setninger om hva appen kan, og trykk
+  `Publish release`.
+
+- [ ] Liker du terminalen bedre, kan du lage versjonsmerket der i stedet:
+
+  ```
+  git tag v1.0
+  git push origin v1.0
+  ```
+
+- [ ] Vet du hvordan dere går tilbake til forrige versjon hvis en oppdatering
+  ødelegger noe? Les [Tilbake i tid](../../git/tidsreise/tidsreise).
+  Versjonsmerket viser nøyaktig hva som var med i `v1.0`.
+
+## Neste versjon {.tip}
+
+Små rettinger kan hete `v1.1`, `v1.2` og så videre. Store endringer kan hete
+`v2.0`.
+
+## Ferdig med fasen {.check}
+
+Fasen **Lansering** er ferdig når:
+
+- [ ] Versjonen er merket `v1.0`.
+
+- [ ] Kontaktstedet står i appen.
+
+- [ ] Du vet hvordan dere går tilbake til forrige versjon.
+
+
+# Steg 2: Kundeservice og klager {.activity}
 
 Når kundene bruker appen, kommer spørsmålene: Hvorfor kom ikke bekreftelsen?
 Kan jeg avbestille? Måten dere svarer på, betyr like mye for omdømmet som selve
 appen.
 
 ## Sjekkliste {.check}
-
-- [ ] Bestem hvor kundene skal ta kontakt, og skriv det i appen. Bruk en
-  e-post eller et skjema for bedriften, ikke en privat konto.
 
 - [ ] Bestem hvem som svarer, og hvor raskt. Skriv det i en ny fil som heter
   `DRIFT.md`.
@@ -47,13 +91,17 @@ appen.
 - [ ] Før en logg over henvendelser, uten navn: dato, hva det gjaldt, og hva
   dere gjorde. Mange like spørsmål betyr at appen bør endres.
 
+- [ ] Gjelder henvendelsen en feil eller et ønske? Lag en sak (issue) på
+  GitHub med merkelappen (label) `bug` eller `enhancement`, uten navn på
+  kunden.
+
 ## Tips {.protip}
 
 Kunder har rettigheter når de kjøper noe, for eksempel til å klage. Sjekk hos
 Forbrukerrådet hva som gjelder for det dere selger.
 
 
-# Steg 2: Oppdater trygt {.activity}
+# Steg 3: Oppdater trygt {.activity}
 
 Hver endring kan ødelegge noe som virket. Når ekte kunder bruker appen, trenger
 dere en fast rutine for endringer.
@@ -62,11 +110,14 @@ dere en fast rutine for endringer.
 
 - [ ] Skriv rutinen i `DRIFT.md`:
 
-  1. Lag endringen på en egen gren i Git.
+  1. Lag endringen på en egen gren (branch) i Git, ut fra en sak.
   2. Test de viktigste MVP-historiene, også på mobil.
-  3. Publiser.
-  4. Sjekk at appen virker etter publiseringen.
-  5. Virker den ikke? Gå tilbake til forrige versjon, se [Tilbake i
+  3. Lag en pull request med `Closes #N`, få den gjennomgått, og flett den
+     inn i `main`. Se [Samarbeid med pull
+     request](../../git/samarbeid/samarbeid).
+  4. Publiser, og gi versjonen et nytt versjonsmerke, for eksempel `v1.1`.
+  5. Sjekk at appen virker etter publiseringen.
+  6. Virker den ikke? Gå tilbake til forrige versjon, se [Tilbake i
      tid](../../git/tidsreise/tidsreise).
 
 - [ ] Før en endringslogg: dato, hva som er endret, og hvorfor.
@@ -75,7 +126,7 @@ dere en fast rutine for endringer.
   det finnes sikkerhetsoppdateringer.
 
 
-# Steg 3: Sikkerhetskopi og tilgang {.activity}
+# Steg 4: Sikkerhetskopi og tilgang {.activity}
 
 ## Sjekkliste {.check}
 
@@ -95,7 +146,7 @@ dere en fast rutine for endringer.
   ofte. Skriv det i `DRIFT.md`.
 
 
-# Steg 4: Følg med på målene {.activity}
+# Steg 5: Følg med på målene {.activity}
 
 ## Sjekkliste {.check}
 
@@ -108,8 +159,22 @@ dere en fast rutine for endringer.
 - [ ] Koster appen mer enn dere regnet med? Sammenlign med kostnadene i
   `PLAN.md`.
 
+## Ferdig med fasen {.check}
 
-# Steg 5: Avslutt appen ordentlig {.activity}
+Fasen **Drift** er ferdig når `DRIFT.md` har:
+
+- [ ] Hvem som svarer kundene, og hvor raskt.
+
+- [ ] Rutinen for oppdateringer.
+
+- [ ] En sikkerhetskopi dere har prøvd å hente tilbake.
+
+- [ ] Tofaktor på alle kontoer.
+
+- [ ] Mål og kostnader som dere ser på hver måned.
+
+
+# Steg 6: Avslutt appen ordentlig {.activity}
 
 Ungdomsbedrifter blir ofte avviklet når skoleåret er slutt. En app som bare blir
 liggende, kan lekke data, koste penger eller bli misbrukt av andre.
@@ -130,6 +195,18 @@ liggende, kan lekke data, koste penger eller bli misbrukt av andre.
 
 - [ ] Skal noen andre ta over appen? Skriv en overlevering i `DRIFT.md`: hva
   appen gjør, hvor alt ligger, og hvem som har hatt tilgang.
+
+## Ferdig med fasen {.check}
+
+Fasen **Avvikling** er ferdig når:
+
+- [ ] Kundene har fått beskjed.
+
+- [ ] Dataene er slettet, også kopier.
+
+- [ ] Nøkler og domene er tatt hånd om.
+
+- [ ] Overleveringen er skrevet.
 
 ## Prompter du kan lære av {.protip}
 

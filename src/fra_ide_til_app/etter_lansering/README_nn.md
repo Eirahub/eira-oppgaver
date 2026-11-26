@@ -8,7 +8,8 @@ language: nn
 
 # Om oppgåva {.activity}
 
-Eleven lagar rutinar for drift av appen: kundeservice og klagar, trygge
+Eleven lanserer versjon 1 med eit versjonsmerke (tag) og ei utgiving
+(release), og lagar rutinar for drift av appen: kundeservice og klagar, trygge
 oppdateringar, tryggleikskopi og tilgang, oppfølging av mål og ein plan for å
 avslutte appen. Alt blir samla i `DRIFT.md`.
 
@@ -66,9 +67,13 @@ tilgangar, og ein plan for avslutning.
   lærarar](../veiledning_for_laerere/veiledning_for_laerere_nn) om risiko,
   kontoar og ansvar i kurset før du startar.
 
-- Steg 1 og 4 kan gjerast i sals- og servicefag utan dei tekniske stega.
+- Steg 1 krev ein GitHub-konto for utgivinga (release). Har eleven ikkje
+  konto, kan læraren lage versjonsmerket, eller eleven kan bruke `git tag`
+  lokalt.
 
-- Steg 5 passar når ungdomsbedrifta blir avvikla. Sjekk at personopplysningar
+- Steg 2 og 5 kan gjerast i sals- og servicefag utan dei tekniske stega.
+
+- Steg 6 passar når ungdomsbedrifta blir avvikla. Sjekk at personopplysningar
   faktisk er sletta, òg i tryggleikskopiar og e-post.
 
 - Ekte klagar inneheld ofte personopplysningar. Elevane skal fjerne namn og

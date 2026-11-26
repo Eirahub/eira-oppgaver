@@ -21,8 +21,14 @@ trengst.
 
 # Slik er kurset bygd opp {.activity}
 
+Kurset startar med [Frå idé til produksjon](../fasene/fasene_nn), ei oversikt
+over fasane frå behov til avvikling. Den siste oppgåva i kvar fase sluttar med
+ferdigkriteria som sjekkliste (`Ferdig med fasen`). Bruk dei som punkt for
+undervegsvurdering, og sei gjerne at det er vanleg å gå tilbake ein fase.
+
 - **Del 1, Frå behov til forretningsidé:** Utan konto og utan teknikk. Her
-  fordeler elevane òg rollene i gruppa (Planen, steg 6).
+  fordeler elevane òg rollene i gruppa (Planen, steg 6). GitHub-konto er
+  valfritt: prosjekttavla i Planen kan òg lagast på eit ark.
 - **Del 2, Bygg appen med KI:** Elevane byggjer appen. Her trengst kontoar.
 - **Del 3, Klar for ekte kundar:** Risiko, personvern og ansvar kjem før
   kundane får prøve appen. Test med kundar startar med ein sjekk før

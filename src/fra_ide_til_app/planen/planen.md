@@ -7,6 +7,8 @@ language: nb
 
 # Introduksjon {.intro}
 
+**Fase:** Plan (definition). Se [Fra idé til produksjon](../fasene/fasene).
+
 En KI bygger nesten hva som helst, men den gjetter når du er utydelig. Jo bedre
 planen er, jo mindre gjetter den. I denne oppgaven skriver du `PLAN.md`: hvem
 appen er for, hvilke skjermer den har, hvilke data den trenger og hva som er
@@ -21,13 +23,28 @@ Du trenger problemsetningen fra [Finn behovet](../finn_behovet/finn_behovet) og
 verdiforslaget fra [Forretningsidéen](../forretningsideen/forretningsideen).
 
 
-# Steg 1: Hva skal brukeren få gjort? {.activity}
+# Steg 1: Fra epos til brukerhistorie {.activity}
 
-En **brukerhistorie** er én ting en bruker skal få til, sett fra brukeren.
+En app er for mye å tenke på på én gang. Derfor deler man arbeidet i nivåer,
+fra stort til lite:
+
+- Et **epos** (epic) er et stort område appen skal hjelpe med, for eksempel
+  «Bestilling».
+- En **funksjon** (feature) er en del av eposet som brukeren merker, for
+  eksempel «Se ledige tider».
+- En **brukerhistorie** (user story) er én ting en bruker skal få til, sett fra
+  brukeren.
+- En **oppgave** (task) er en liten jobb som skal til for å lage historien,
+  for eksempel «lag skjemaet». Oppgavene finner du først når du bygger.
 
 ## Sjekkliste {.check}
 
-- [ ] Skriv 3 til 6 brukerhistorier på formen:
+- [ ] Skriv 1 til 3 epos. Bruk verdiforslaget: hva er de store tingene appen
+  lover kunden?
+
+- [ ] Skriv 1 til 3 funksjoner under hvert epos.
+
+- [ ] Skriv 3 til 6 brukerhistorier under funksjonene, på formen:
 
   ```
   Som [hvem] vil jeg [gjøre noe], så jeg [får noe ut av det].
@@ -39,9 +56,15 @@ En **brukerhistorie** er én ting en bruker skal få til, sett fra brukeren.
 ## Eksempel {.tip}
 
 ```
-Som kunde vil jeg se ledige tider, så jeg slipper å møte opp forgjeves.
-Som kunde vil jeg bestille en tid med navn og sykkeltype.
-Som vasker vil jeg se dagens bestillinger, så vi vet hvem som kommer.
+Epos: Bestilling
+  Funksjon: Se ledige tider
+    Som kunde vil jeg se ledige tider, så jeg slipper å møte opp forgjeves.
+  Funksjon: Bestille tid
+    Som kunde vil jeg bestille en tid med navn og sykkeltype, så jeg vet
+    at sykkelen blir vasket.
+Epos: Drift av vasken
+  Funksjon: Dagens liste
+    Som vasker vil jeg se dagens bestillinger, så vi vet hvem som kommer.
 ```
 
 
@@ -57,6 +80,24 @@ problemet godt nok til at kundene kan prøve den. Alt annet venter.
 
 - [ ] Sett **Senere** ved resten. Vær streng. En MVP har sjelden mer enn tre
   historier.
+
+- [ ] Skriv **Ikke med** ved det appen ikke skal gjøre, for eksempel de tre
+  tingene fra verdiforslaget.
+
+- [ ] Skriv **akseptansekriterier** (acceptance criteria) for hver
+  MVP-historie. De sier når historien er ferdig:
+
+  ```
+  Ferdig når: Gitt [situasjon], når [handling], så [resultat].
+  ```
+
+## Eksempel {.tip}
+
+```
+Som kunde vil jeg se ledige tider, så jeg slipper å møte opp forgjeves.
+Ferdig når: Gitt at to tider er bestilt i morgen, når jeg åpner
+appen, så ser jeg at de to tidene er opptatt.
+```
 
 
 # Steg 3: Skjermer og flyt {.activity}
@@ -128,6 +169,10 @@ Samle alt i én fil. Denne fila gir du til KI-en senere.
   ## Brukere
   - Kunde: ...
   - Vi som driver: ...
+
+  ## Epos og funksjoner
+  - Epos: ...
+    - Funksjon: ...
 
   ## MVP
   - Som ... vil jeg ..., så jeg kan ...
@@ -223,10 +268,11 @@ personopplysninger. Se hvorfor promptene virker, og lag dine egne.
   der jeg ikke har sagt noe.
   ```
 
-- **Epics, features og historier (for deg som vil gå videre):**
+- **Epos, funksjoner og historier:**
 
   ```
-  Del PRD-en opp i epics, features og brukerhistorier: «Som [bruker]
+  Del planen opp i epos (epics), funksjoner (features) og
+  brukerhistorier: «Som [bruker]
   vil jeg [handling], så jeg kan [mål].» Gi hver historie
   akseptansekriterier: «Gitt [situasjon], når [handling], så
   [resultat].» Merk hvilke som hører til MVP-en.
@@ -271,6 +317,41 @@ setning i planen enn kode KI-en har skrevet.
   ville vært bekymret for. Ikke skriv kode.
   ```
 
+
+# Steg 7: Fra plan til tavle {.activity}
+
+Nå blir planen til arbeid. Hver MVP-historie blir en **sak** (issue) med
+«Ferdig når» i beskrivelsen. Sakene legger du i en **milepæl** (milestone)
+som heter `MVP`, og på en **prosjekttavle** (project board) med kolonnene
+`Todo`, `In Progress` og `Done`. Da ser du hele tiden hva som er gjort, og hva
+som gjenstår.
+
+Hvordan du gjør det på GitHub, lærer du i [Planlegg med issues og
+prosjekttavle](../../git/issues_og_prosjekt/issues_og_prosjekt).
+
+## Sjekkliste {.check}
+
+- [ ] Skriv **ferdig-definisjonen** (definition of done) i `PLAN.md` under
+  `## Ferdig-definisjon`: hva må til før en sak er ferdig? Se steg 2 i [Fra
+  idé til produksjon](../fasene/fasene).
+
+- [ ] Lag én sak per MVP-historie. Tittelen er historien, og beskrivelsen er
+  «Ferdig når» som sjekkliste.
+
+- [ ] Legg sakene i milepælen `MVP`. Historiene under **Senere** kan bli saker
+  uten milepæl.
+
+- [ ] Legg sakene i `Todo` på tavla, med den viktigste øverst.
+
+- [ ] Jobber dere i gruppe? Gi hver sak en ansvarlig (assignee). Jobber du
+  alene, er alle sakene dine.
+
+## Har du ikke GitHub-konto ennå? {.tip}
+
+Lag tavla på et ark med tre kolonner, og skriv hver sak på en lapp. Du flytter
+sakene til GitHub i [Bygg MVP-en](../bygg_mvp/bygg_mvp). Du må være 13 år for å
+ha en konto på GitHub.
+
 ## Test deg selv {.flag}
 
 - [ ] Gi planen til en medelev. Kan de forklare deg hva appen gjør, uten at du
@@ -280,9 +361,26 @@ setning i planen enn kode KI-en har skrevet.
 
 - [ ] Vet alle i gruppa hvilken rolle de har, og hva de skal passe på?
 
+- [ ] Kan du se på tavla hvilken sak du skal starte med?
+
 ## Lagre {.save}
 
 `PLAN.md` er det viktigste du lager i kurset. Ta godt vare på den.
+
+## Ferdig med fasen {.check}
+
+Dette er siste oppgave i fasen **Plan**. Se [Fra idé til
+produksjon](../fasene/fasene).
+
+- [ ] `PLAN.md` har en MVP, oftest med maks 3 historier.
+
+- [ ] Hver MVP-historie har «Ferdig når».
+
+- [ ] MVP er skilt fra **Senere** og **Ikke med**.
+
+- [ ] Rollene er fordelt.
+
+- [ ] Historiene ligger som saker i en milepæl, på GitHub eller på et ark.
 
 
 ## Utfordring {.challenge}

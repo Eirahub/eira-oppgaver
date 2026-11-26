@@ -8,6 +8,8 @@ language: nn
 
 # Introduksjon {.intro}
 
+**Fase:** MVP (build). Sjå [Frå idé til produksjon](../fasene/fasene_nn).
+
 Når mange lagar appar med KI, byrjar appane å likne på kvarandre. Folk lærer
 seg fort å kjenne att ein app som er «laga av KI på ein ettermiddag», og då
 stoler dei mindre på han. I denne oppgåva finn du KI-spora i appen din, lagar

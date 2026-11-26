@@ -22,8 +22,13 @@ ikkje kunne programmere.
 
 Ta oppgåvene i rekkjefølgje. Vel filteret **Oppgavesamlinger** for å sjå dei.
 
+Start med [Frå idé til produksjon](fasene/fasene_nn). Ho viser fasane appen går
+gjennom, kva du lagar i kvar fase, og når du er ferdig med han. Den siste
+oppgåva i kvar fase sluttar med ei sjekkliste, **Ferdig med fasen**.
+
 Del 1 gjer du med penn, papir og ei tekstfil. Du treng ingen forkunnskapar og
-ingen konto.
+ingen konto. Har du ein GitHub-konto, kan du leggje planen på ei prosjekttavle
+allereie i Planen, men eit ark held.
 
 Før del 2 bør du ha gjort:
 

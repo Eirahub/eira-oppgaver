@@ -8,6 +8,8 @@ language: nn
 
 # Introduksjon {.intro}
 
+**Fase:** Design og prototype (prototype). Sjå [Frå idé til produksjon](../fasene/fasene_nn).
+
 **Google Stitch** lagar skjermbilete av ein app ut frå ein tekst du skriv. I
 denne oppgåva lærer du å skrive ei god skildring, lagar designet for MVP-en og
 testar det på ein kunde før det finst ei einaste linje kode.
@@ -152,6 +154,17 @@ er ofte ikkje det.
 ## Lagre {.save}
 
 No har du plan og design. I neste del byggjer du appen.
+
+## Ferdig med fasen {.check}
+
+Dette er siste oppgåve i fasen **Design og prototype**. Sjå [Frå idé til
+produksjon](../fasene/fasene_nn).
+
+- [ ] Kvar MVP-historie kan gjerast i designet.
+
+- [ ] Éin kunde frå intervjuet har prøvd designet.
+
+- [ ] Endringane frå kundetesten står i `PLAN.md`.
 
 
 ## Utfordring {.challenge}

@@ -8,9 +8,10 @@ language: nn
 
 # Om oppgåva {.activity}
 
-Eleven skriv brukarhistorier, vel kva som er med i den minste versjonen som
-verkar (MVP), teiknar skjermar og flyt, vel lagring og samlar alt i `PLAN.md`.
-Planen er det eleven gir til KI-en i del 2.
+Eleven deler appen i epos, funksjonar og brukarhistorier, vel kva som er med
+i den minste versjonen som verkar (MVP), teiknar skjermar og flyt, vel lagring
+og samlar alt i `PLAN.md`. Til slutt blir MVP-historiene saker i ein milepæl på
+ei prosjekttavle. Planen er det eleven gir til KI-en i del 2.
 
 ## Oppgåva passar til: {.check}
 
@@ -75,6 +76,11 @@ merkte, og eit grunngitt val av lagring.
 
 - Steg 6 fordeler rollene i eit programvareteam. Det er der gruppearbeidet i
   ungdomsbedrifta blir organisert. Rollene kan bytast undervegs.
+
+- Steg 7 bruker saker og prosjekttavle på GitHub, som krev 13 år. Elevar utan
+  konto kan lage tavla på eit ark og flytte sakene til GitHub i del 2. Steg 7
+  byggjer på [Planlegg med issues og
+  prosjekttavle](../../git/issues_og_prosjekt/issues_og_prosjekt).
 
 ### Kva er testa
 

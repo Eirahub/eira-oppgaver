@@ -8,6 +8,8 @@ language: nn
 
 # Introduksjon {.intro}
 
+**Fase:** Idé (concept). Sjå [Frå idé til produksjon](../fasene/fasene_nn).
+
 No har du eit problem som kundane kjenner seg att i. I denne oppgåva gjer du
 det om til ein forretningsidé: kvar kan ein app hjelpe, er jobben stor nok til
 at nokon vil betale, kva lovar appen kunden, og korleis skal han løne seg?
@@ -227,16 +229,33 @@ personopplysningar om andre. Sjå kvifor promptane verkar, og lag dine eigne.
 
 ## Test deg sjølv {.flag}
 
-- [ ] Les verdiforslaget høgt for ein av kundane frå intervjuet. Skjønar dei
-  det med ein gong?
+- [ ] Les verdiforslaget høgt for alle tre kundane frå intervjuet, éin om
+  gongen. Skjønar dei det med ein gong?
 
-- [ ] Seier dei «Det hadde eg brukt», eller «Hm, kanskje»? Det første er eit
-  godt teikn.
+- [ ] Skriv ned kva kvar av dei seier. Seier dei «Det hadde eg brukt», eller
+  «Hm, kanskje»? Det første er eit godt teikn.
+
+- [ ] Sa ingen «Det hadde eg brukt»? Skriv verdiforslaget på nytt og prøv
+  igjen, eller gå tilbake til [Finn behovet](../finn_behovet/finn_behovet_nn).
+  Det er vanleg.
 
 ## Lagre {.save}
 
 Lagre kundereisa, verdiforslaget og forretningsmodellen. Neste oppgåve er å
 lage ein plan.
+
+## Ferdig med fasen {.check}
+
+Dette er siste oppgåve i fasen **Idé**. Sjå [Frå idé til
+produksjon](../fasene/fasene_nn).
+
+- [ ] Verdiforslaget er skrive.
+
+- [ ] Forretningsmodellen er skriven.
+
+- [ ] Alle tre kundane har høyrt verdiforslaget.
+
+- [ ] Minst éin av dei har sagt «Det hadde eg brukt».
 
 
 ## Utfordring {.challenge}
