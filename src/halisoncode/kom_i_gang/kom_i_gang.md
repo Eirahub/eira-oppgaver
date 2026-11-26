@@ -11,13 +11,19 @@ I Halison Code har du en liten robot i Minecraft-verdenen din. Roboten gjør bar
 det du forteller den. I denne oppgaven skal du lage roboten, åpne editoren og
 skrive ditt første program. Programmet får roboten til å gå, snu seg og si hei.
 
-<!-- BILDE: Roboten står på gresset i en flat verden og sier "Hei!" i en
-snakkeboble. -->
+![Roboten står på gresset i en flat verden og sier "Hei!" i en snakkeboble.](robot_hei.jpg)
 
 
 # Steg 1: Lag roboten {.activity}
 
 Først trenger vi en verden og en robot.
+
+## Står Minecraft på engelsk? {.tip}
+
+Navnene i oppgavene er fra norsk Minecraft, med engelsk i parentes. Vil du ha
+Minecraft på norsk, trykk `Options...` og `Language...` på startskjermen, velg
+`Norsk bokmål (Norge)` og trykk `Done`. Roboten svarer foreløpig på engelsk, for
+eksempel `Kintro spawned, facing south`.
 
 ## Sjekkliste {.check}
 
@@ -36,8 +42,7 @@ Først trenger vi en verden og en robot.
 
 - [ ] Roboten dukker opp ved føttene dine. Den ser samme vei som deg.
 
-<!-- BILDE: Chatten med /robot spawn skrevet inn, og roboten ved føttene til
-spilleren. -->
+![Chatten nederst med /robot spawn skrevet inn, og roboten rett foran spilleren.](chat_robot_spawn.jpg)
 
 ## Tips {.tip}
 

@@ -15,8 +15,7 @@ Til slutt sier det god morgen når en ny dag begynner.
 
 Du bør ha gjort oppgaven [Kom i gang](../kom_i_gang/kom_i_gang.html) først.
 
-<!-- BILDE: Chatten i Minecraft med meldingen "Diamanter: 3" etter at spilleren
-har knust diamantmalm. -->
+![Spilleren ser på en diamantmalm, og nederst i chatten står meldingen "Diamanter: 3".](diamanter.jpg)
 
 
 # Før du starter {.activity}

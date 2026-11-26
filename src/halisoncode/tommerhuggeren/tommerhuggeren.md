@@ -14,8 +14,7 @@ så lenge noe er sant, og hvordan du lager din egen **funksjon**.
 
 Du bør ha gjort oppgaven [Speideren](../speideren/speideren.html) først.
 
-<!-- BILDE: Roboten står ved en stubbe der et eiketre stod, og en ny
-eikestikling er plantet. -->
+![Roboten ved siden av en ny eikestikling der stammen stod. Løvet fra treet henger igjen i lufta over.](stikling.jpg)
 
 
 # Før du starter {.activity}

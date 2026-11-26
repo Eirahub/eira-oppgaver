@@ -15,8 +15,7 @@ hus i akkurat den størrelsen du vil.
 Du bør ha gjort oppgaven [Steinsti og
 trapp](../steinsti_og_trapp/steinsti_og_trapp.html) først.
 
-<!-- BILDE: Et lite hus av eikeplanker med glassvinduer og en åpning til dør,
-bygget av roboten. -->
+![Et lite hus av eikeplanker med en åpning til dør og et glassvindu, bygget av roboten. Roboten står ved hjørnet.](hus.jpg)
 
 
 # Før du starter {.activity}

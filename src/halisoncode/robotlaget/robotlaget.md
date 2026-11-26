@@ -16,8 +16,7 @@ til kista. Mens Baerer går hjem, kan Hugger finne neste tre. Du lærer å styre
 Du bør ha gjort oppgaven [Skogsroboten](../skogsroboten/skogsroboten.html)
 først.
 
-<!-- BILDE: To roboter med navneskilt over hodet, Hugger ved et tre og Baerer på
-vei mot en kiste. -->
+![To roboter. Den ene står ved et tre og sier "Jeg er Hugger". Den andre står ved en kiste og sier "Jeg er Baerer".](robotlaget.jpg)
 
 
 # Før du starter {.activity}

@@ -14,8 +14,7 @@ ikke gjøre dette selv. Installasjonen tar omtrent ti minutter.
 Halison Code er en mod til **Minecraft Java Edition**. Den virker ikke i
 Minecraft for nettbrett, mobil, konsoll eller Education Edition.
 
-<!-- BILDE: Roboten står i en Minecraft-verden, med editoren åpen i nettleseren
-ved siden av. -->
+![Til venstre står roboten i Minecraft og sier "Hei!". Til høyre er editoren åpen i nettleseren med programmet robot si "Hei!".](installasjon.jpg)
 
 
 # Steg 1: Dette trenger du {.activity}
@@ -87,13 +86,19 @@ spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/play
 
 - [ ] Start Minecraft med profilen til modlasteren.
 
-- [ ] Lag en ny verden: velg `Kreativ` og gjerne verdentypen `Flat`. Da er det
+- [ ] Sett Minecraft til norsk: `Options...`, `Language...`, velg `Norsk bokmål
+  (Norge)` og trykk `Done`. Da heter menyene det samme som i oppgavene.
+  Meldingene fra roboten er foreløpig på engelsk.
+
+- [ ] Lag en ny verden: velg `Kreativ` og gjerne verdentypen `Superflat`. Da er det
   lett å se hva roboten gjør, og roboten får blokker gratis.
 
 - [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter. En
   liten robot dukker opp ved føttene dine.
 
 - [ ] Skriv `/halisoncode` i chatten. Nettleseren åpner Halison Code-editoren.
+  Den bruker samme språk som nettleseren. Du kan bytte med `Språk` nederst på
+  startsiden til editoren.
 
 - [ ] Skriv `/gamerule halisoncode:pause_on_lost_focus false`. Da går ikke
   spillet på pause når eleven bytter til nettleseren, og eleven ser hva roboten

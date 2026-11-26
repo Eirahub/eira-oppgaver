@@ -16,8 +16,7 @@ hvor dypt roboten har gått.
 Du bør ha gjort oppgaven [Tømmerhuggeren](../tommerhuggeren/tommerhuggeren.html)
 først.
 
-<!-- BILDE: En smal sjakt rett ned i bakken, med glødestein i veggen og roboten
-helt nederst på grunnfjellet. -->
+![Utsikt rett ned i en smal sjakt som roboten har gravd. Langt der nede står roboten på grunnfjellet.](sjakt.jpg)
 
 
 # Før du starter {.activity}

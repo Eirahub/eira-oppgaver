@@ -16,8 +16,7 @@ trengs. Til slutt lager du en **funksjon med en parameter**, så du kan skrive
 Du bør ha gjort oppgaven [Steinsti og
 trapp](../steinsti_og_trapp/steinsti_og_trapp.html) først.
 
-<!-- BILDE: En smal bro av eikeplanker over en dal, med roboten på den andre
-siden. -->
+![En smal bro av eikeplanker over en dyp kløft, med roboten på broen og fjell i bakgrunnen.](bro.jpg)
 
 
 # Før du starter {.activity}

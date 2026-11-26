@@ -19,7 +19,7 @@ Du bør ha gjort oppgavene
 [Tømmerhuggeren](../tommerhuggeren/tommerhuggeren.html), [Bygg et
 hus](../bygg_et_hus/bygg_et_hus.html) og [Lageret](../lageret/lageret.html).
 
-<!-- BILDE: Solnedgang over en skog, og et lite plankehus med lys i vinduet. -->
+![Et lite plankehus i skumringen, med lys inne bak døråpningen.](hus_kveld.jpg)
 
 
 # Oppdraget {.activity}

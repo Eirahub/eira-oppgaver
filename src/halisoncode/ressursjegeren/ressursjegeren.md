@@ -19,8 +19,7 @@ Du bør ha gjort oppgavene [Skogsroboten](../skogsroboten/skogsroboten.html) og
 
 først.
 
-<!-- BILDE: Roboten i en mørk hule med fakler, foran en vegg med kullmalm og
-jernmalm. En kiste står på gulvet bak den. -->
+![Roboten i en hule med fakler på veggene, foran en vegg med kullmalm og jernmalm. En kiste står på gulvet.](hule.jpg)
 
 
 # Før du starter {.activity}

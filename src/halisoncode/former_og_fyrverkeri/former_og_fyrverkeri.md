@@ -14,8 +14,7 @@ lar du **tilfeldige posisjoner** spre fargerike kuler på himmelen.
 
 Du bør ha gjort oppgaven [Kom i gang](../kom_i_gang/kom_i_gang.html) først.
 
-<!-- BILDE: En glasskule med en ring av fakler rundt, stråler av glødestein
-oppover og fargerike ullkuler i lufta over. -->
+![En glasskule med en ring av fakler rundt, stråler av glødestein oppover og store ullkuler i rødt, gult og lyseblått i lufta over.](former.jpg)
 
 
 # Før du starter {.activity}
