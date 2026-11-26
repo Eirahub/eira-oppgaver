@@ -14,7 +14,8 @@ programmet i **JavaScript**, og du lærer å regne med **posisjoner** og bruke
 **lister**.
 
 Du bør ha gjort oppgavene
-[Tømmerhuggeren](../tommerhuggeren/tommerhuggeren.html) og [Lageret](../lageret/lageret.html) først.
+[Tømmerhuggeren](../tommerhuggeren/tommerhuggeren.html) og
+[Lageret](../lageret/lageret.html) først.
 
 <!-- BILDE: Roboten på vei hjem fra skogen med inventaret fullt av stammer, og
 en stubbe der treet stod. -->
