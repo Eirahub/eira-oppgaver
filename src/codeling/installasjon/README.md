@@ -1,5 +1,5 @@
 ---
-title: Lærerveiledning - Installere Codeling
+title: Lærerveiledning - Installere Halison Code
 author: Tor Einar Enne
 language: nb
 ---
@@ -8,9 +8,9 @@ language: nb
 # Om oppgaven {.activity}
 
 Dette er en veiledning for den voksne som gjør maskinene klare. Elevene trenger
-ikke installere selv. Codeling er en mod til Minecraft Java Edition som gir
+ikke installere selv. Halison Code er en mod til Minecraft Java Edition som gir
 elevene en robot de programmerer i nettleseren. Veiledningen går gjennom
-nedlasting av Codeling-filen, installasjon av en modlaster (Fabric eller
+nedlasting av Halison Code-filen, installasjon av en modlaster (Fabric eller
 NeoForge), og en test i en ny verden.
 
 ## Oppgaven passer til: {.check}
@@ -45,16 +45,16 @@ dette en del av en undervisning for eldre elever, kan de ha disse målene:
 ## Forslag til vurderingskriterier {.challenge}
 
 Ikke aktuelt for elevene. For den voksne: alle maskiner starter Minecraft med
-modlasteren, og `/robot spawn` og `/codeling` virker.
+modlasteren, og `/robot spawn` og `/halisoncode` virker.
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Spill__: Minecraft Java Edition. Codeling virker ikke i Bedrock,
+- [ ] __Spill__: Minecraft Java Edition. Halison Code virker ikke i Bedrock,
   Education Edition, på mobil, nettbrett eller konsoll. Eleven trenger en konto
   som eier spillet, eller du kan bruke én felles konto etter lokale regler.
 
-- [ ] __Versjoner__: Spillerveiledningen til Codeling nevner Minecraft 26.3 og
-  1.21.1. Sjekk veiledningen for gjeldende versjoner før du laster ned.
+- [ ] __Versjoner__: Spillerveiledningen til Halison Code nevner Minecraft 26.3
+  og 1.21.1. Sjekk veiledningen for gjeldende versjoner før du laster ned.
 
 - [ ] __Modlaster__: Fabric Loader (med Fabric API) eller NeoForge. Veiledningen
   sier at Fabric Loader må være 0.20.1 eller nyere, og angir
@@ -80,26 +80,27 @@ modlasteren, og `/robot spawn` og `/codeling` virker.
 
 ## Før timen {.check}
 
-- [ ] Installer alle maskiner på forhånd, og prøv `/robot spawn` og `/codeling`
-  på hver av dem.
+- [ ] Installer alle maskiner på forhånd, og prøv `/robot spawn` og
+  `/halisoncode` på hver av dem.
 
-- [ ] Bruk samme Minecraft-versjon og samme Codeling-fil overalt. Ulike
+- [ ] Bruk samme Minecraft-versjon og samme Halison Code-fil overalt. Ulike
   versjoner kan ikke spille sammen.
 
 - [ ] Hvis du har et nettverk som blokkerer nettsider, sjekk at nettleseren på
-  maskinen kan åpne editoren når `/codeling` er skrevet.
+  maskinen kan åpne editoren når `/halisoncode` er skrevet.
 
 ## Steg 1: Filene {.check}
 
-- [ ] Codeling-filen heter `codeling-<modlaster>-<minecraftversjon>-...jar`.
-  Velg filen som matcher både modlaster og versjon.
+- [ ] Halison Code-filen heter
+  `halisoncode-<modlaster>-<minecraftversjon>-...jar`. Velg filen som matcher
+  både modlaster og versjon.
 
-- [ ] Last ned fra utgivelsessida til Codeling på GitHub, under Assets.
+- [ ] Last ned fra utgivelsessida til Halison Code på GitHub, under Assets.
 
 ## Steg 2: Modlaster {.check}
 
 - [ ] Følg installasjonsprogrammet for modlasteren. Trinnene står i
-  spillerveiledningen til Codeling.
+  spillerveiledningen til Halison Code.
 
 - [ ] Start profilen modlasteren lager i Minecraft Launcher én gang, så
   mappa `mods` blir laget.
@@ -117,15 +118,15 @@ modlasteren, og `/robot spawn` og `/codeling` virker.
 - [ ] Lag en ny verden i Kreativ, helst Flat. Da ser eleven roboten tydelig, og
   den får blokker gratis.
 
-- [ ] Skriv `/robot spawn` og `/codeling`. Se at roboten kommer og at editoren
-  åpnes.
+- [ ] Skriv `/robot spawn` og `/halisoncode`. Se at roboten kommer og at
+  editoren åpnes.
 
 ## Vanlige problemer {.protip}
 
-- `/codeling` finnes ikke: Codeling er ikke lastet. Sjekk at filen ligger i
-  `mods` og at riktig profil er startet.
+- `/halisoncode` finnes ikke: Halison Code er ikke lastet. Sjekk at filen ligger
+  i `mods` og at riktig profil er startet.
 
-- "Editor link expired": Minecraft er startet på nytt. Skriv `/codeling` på
+- "Editor link expired": Minecraft er startet på nytt. Skriv `/halisoncode` på
   nytt.
 
 - "Not in a world": åpne en verden først.
@@ -151,10 +152,10 @@ modlasteren, og `/robot spawn` og `/codeling` virker.
 
 # Eksterne ressurser {.activity}
 
-- [Codeling på GitHub](https://github.com/Eirahub/MinecraftCodeling): kode og
-  utgivelser.
+- [Halison Code på GitHub](https://github.com/halisonworks/mod-halisoncode):
+  kode og utgivelser.
 
-- [Veiledning for spillere](https://github.com/Eirahub/MinecraftCodeling/blob/main/docs/player/guide-nb.md):
+- [Veiledning for spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md):
   installasjon og alle robotkommandoer.
 
 - [Fabric](https://fabricmc.net/use/installer/): installasjonsprogram.

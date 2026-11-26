@@ -7,9 +7,9 @@ language: nb
 
 # Introduksjon {.intro}
 
-I Codeling har du en liten robot i Minecraft-verdenen din. Roboten gjør bare det
-du forteller den. I denne oppgaven skal du lage roboten, åpne editoren og skrive
-ditt første program. Programmet får roboten til å gå, snu seg og si hei.
+I Halison Code har du en liten robot i Minecraft-verdenen din. Roboten gjør bare
+det du forteller den. I denne oppgaven skal du lage roboten, åpne editoren og
+skrive ditt første program. Programmet får roboten til å gå, snu seg og si hei.
 
 <!-- BILDE: Roboten står på gresset i en flat verden og sier "Hei!" i en
 snakkeboble. -->
@@ -21,8 +21,8 @@ Først trenger vi en verden og en robot.
 
 ## Sjekkliste {.check}
 
-- [ ] Start Minecraft med Codeling, og åpne en verden i `Kreativ` modus. En flat
-  verden er fin, da står ingenting i veien.
+- [ ] Start Minecraft med Halison Code, og åpne en verden i `Kreativ` modus. En
+  flat verden er fin, da står ingenting i veien.
 
 - [ ] Trykk `T` for å åpne chatten. Skriv `/robot spawn` og trykk Enter.
 
@@ -39,11 +39,11 @@ nyttig hvis den har gått langt bort.
 
 # Steg 2: Åpne editoren {.activity}
 
-Programmene skriver du i nettleseren, i Codeling-editoren.
+Programmene skriver du i nettleseren, i Halison Code-editoren.
 
 ## Sjekkliste {.check}
 
-- [ ] Trykk `T` igjen, skriv `/codeling` og trykk Enter. Nettleseren åpner
+- [ ] Trykk `T` igjen, skriv `/halisoncode` og trykk Enter. Nettleseren åpner
   editoren.
 
 - [ ] Trykk på `Nytt prosjekt` og gi prosjektet et navn, for eksempel `Første
@@ -101,7 +101,8 @@ ned.
 
 - [ ] Til slutt: dra `robot si` inn nederst, og skriv `Hei!` i feltet.
 
-![Programmet: flytt fremover 3, snu høyre, flytt fremover 2, si Hei!](program_hei.png)
+![Programmet: flytt fremover 3, snu høyre, flytt fremover 2, si
+Hei!](program_hei.png)
 
 ## Test prosjektet {.flag}
 

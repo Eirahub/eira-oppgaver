@@ -46,7 +46,7 @@ bruker samme konto.
 
 ## Tips {.tip}
 
-Skal barnet senere bruke modder, for eksempel i kurset Codeling, trenger det
+Skal barnet senere bruke modder, for eksempel i kurset Halison Code, trenger det
 Java Edition på en datamaskin.
 
 

@@ -29,8 +29,8 @@ bygge stygge hus. Det gjør alle.
   kanskje den viktigste. Gjør den gjerne tidlig, hvis barnet ditt allerede
   spiller.
 
-- Når du er ferdig, kan barnet gå videre til kurset [Codeling](../codeling), der
-  man programmerer en robot inne i Minecraft.
+- Når du er ferdig, kan barnet gå videre til kurset [Halison Code](../codeling),
+  der man programmerer en robot inne i Minecraft.
 
 Kurset er ikke laget av eller godkjent av Mojang eller Microsoft. Minecraft er
 et varemerke som tilhører Mojang Synergies AB.
