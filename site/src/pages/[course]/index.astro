@@ -12,6 +12,12 @@ export function getStaticPaths() {
 const { c } = Astro.props;
 const v = video(c.course);
 const infoHtml = renderMarkdown(c.infoBody, `/${c.course}/`);
+// The intro (text before the first heading) is always shown; the rest folds away.
+const cut = c.infoBody.search(/^#/m);
+const introMd = cut < 0 ? c.infoBody : c.infoBody.slice(0, cut);
+const restMd = cut < 0 ? '' : c.infoBody.slice(cut);
+const introHtml = introMd.trim() ? renderMarkdown(introMd, `/${c.course}/`) : '';
+const restHtml = restMd.trim() ? renderMarkdown(restMd, `/${c.course}/`) : '';
 const LEVELS = { 1: 'Introduksjon', 2: 'Nybegynner', 3: 'Erfaren', 4: 'Ekspert', 0: 'Uten nivå' };
 const listed = c.lessons.filter((l) => l.indexed && mainFile(l));
 const byTitle = (a, b) => ((a.pos ?? 1e9) - (b.pos ?? 1e9)) || mainFile(a).title.localeCompare(mainFile(b).title, 'nb');
@@ -31,10 +37,11 @@ const groups = Object.keys(filterKeys)
   <h1>{c.title}</h1>
   {v && <CourseVideo v={v} id={c.course} />}
 
-  {c.infoBody.trim() && (
+  {introHtml && <div class="course-intro" set:html={introHtml} />}
+  {restHtml && (
     <details class="course-info">
-      <summary>Informasjon om kurset</summary>
-      <div class="content" data-content set:html={infoHtml} />
+      <summary>{introHtml ? 'Mer om kurset' : 'Informasjon om kurset'}</summary>
+      <div class="content" data-content set:html={restHtml} />
       <span data-content-end hidden></span>
     </details>
   )}

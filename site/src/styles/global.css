@@ -162,6 +162,7 @@ a.external::after { content: " ↗" / " (ekstern side)"; }
 details > summary { cursor: pointer; min-height: 44px; padding: var(--space-3) var(--space-4); font-weight: 600; color: var(--brand-primary); }
 details[open] > summary { border-bottom: 1px solid var(--border-card); }
 .course-info > .content { padding: 0 var(--space-5) var(--space-4); }
+.course-intro { max-width: 46rem; }
 .playlist summary { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
 .playlist summary::before { content: "▸"; }
 .playlist[open] summary::before { content: "▾"; }
