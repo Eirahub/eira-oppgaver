@@ -1,7 +1,7 @@
 ---
 title: "Feilsøking: Sorteringsalgoritme"
 author: "Øyvind Stengrundet og Carl A. Myrland"
-language: "nb"
+language: nb
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Julegaverace med Beebot"
 author: "Sigurd Schaathun"
-language: "nb"
+language: nb
 ---
 
 

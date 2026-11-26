@@ -1,7 +1,7 @@
 ---
 title: "Feilsøking: Smelt snømennene 2"
 author: "Carl A. Myrland"
-language: "nb"
+language: nb
 ---
 
 

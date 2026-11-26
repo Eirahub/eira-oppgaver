@@ -1,7 +1,7 @@
 ---
 title: "Jenter og teknologi"
 author: "Béatrice Bieuville"
-language: "nn"
+language: nn
 ---
 
 

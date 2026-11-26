@@ -1,7 +1,7 @@
 ---
 title: "Nettside: Hyllest"
 author: "Béatrice Bieuville"
-language: "nn"
+language: nn
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Fjernkontrollert julepynt"
 author: "Béatrice Bieuville"
-language: "nn"
+language: nn
 ---
 
 

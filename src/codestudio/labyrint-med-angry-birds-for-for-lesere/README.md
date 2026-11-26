@@ -1,7 +1,7 @@
 ---
 title: "Kodetimen: Labyrint med Angry Birds (før-lesere)"
 author: "Carl A. Myrland"
-language: "nb"
+language: nb
 ---
 
 

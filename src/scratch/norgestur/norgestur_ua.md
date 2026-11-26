@@ -3,7 +3,7 @@ title: Тур Норвегією
 level: 3
 author: Гейр Арне Хьєлле
 translator: Ольга Ковб Сергій Шумський
-language: UA
+language: ua
 ---
 
 

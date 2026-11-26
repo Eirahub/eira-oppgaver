@@ -2,7 +2,7 @@
 title: "Bugfixing: Smelt snømennene!"
 author: "[c4creativity](https://scratch.mit.edu/users/c4creativity)"
 translator: "Carl A. Myrland"
-language: "nb"
+language: nb
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: "PXT: Julepynt"
 author: "Béatrice Bieuville"
-language: "nn"
+language: nn
 ---
 
 # Introduksjon {.intro}
