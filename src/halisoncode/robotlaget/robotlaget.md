@@ -138,6 +138,7 @@ function hoggTre() {
     let hugger = robots.get("Hugger")
     while (hugger.detect(AgentDetection.Block, SixDirection.Forward)) {
         hugger.destroy(SixDirection.Forward)
+        hugger.destroy(SixDirection.Up)
         hugger.move(SixDirection.Up, 1)
     }
     while (!(hugger.detect(AgentDetection.Block, SixDirection.Down))) {
@@ -251,8 +252,25 @@ Baerer skal ha et hjem rett over en kiste. Da legger den alt ned i kista.
 
 ## Sjekkliste {.check}
 
-- [ ] Sett ut en kiste på bakken. Stå oppå kista og skriv `/robot spawn Baerer`.
-  Skriv så `/robot sethome Baerer`. Nå er hjemmet til Baerer oppå kista.
+- [ ] Sett ut en kiste på bakken. Still deg rett foran kista og se mot den.
+  Skriv `/robot spawn Baerer`.
+
+- [ ] Kjør dette programmet én gang. Baerer flytter seg opp på kista og gjør
+  den plassen til hjemmet sitt:
+
+```javascript
+let baerer = robots.get("Baerer")
+baerer.move(SixDirection.Up, 1)
+baerer.move(SixDirection.Forward, 1)
+baerer.setHome()
+```
+
+## Tips {.tip}
+
+Ikke stå oppå kista når du skriver `/robot spawn`. En kiste er litt lavere enn
+en vanlig blokk, så roboten havner inni kista i stedet for oppå den.
+
+## Sjekkliste {.check}
 
 - [ ] Lag en funksjon til:
 

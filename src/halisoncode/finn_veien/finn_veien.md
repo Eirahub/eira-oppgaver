@@ -66,7 +66,10 @@ dit, også rundt hindringer.
 - [ ] Under den: `robot flytt fremover med 5`, `robot snu venstre` og `robot
   flytt fremover med 5`.
 
-- [ ] Til slutt: `robot gå hjem`.
+- [ ] Til slutt skal roboten gå hjem. `robot gå hjem` er en rund blokk som
+  svarer om den kom fram, så den må ligge inni en annen blokk. Åpne
+  `Variabler`, lag en variabel `hjemme`, og legg `sett hjemme til` nederst.
+  Dra `robot gå hjem` inn i den.
 
 ## Test prosjektet {.flag}
 
@@ -96,7 +99,8 @@ sør fra deg.
 - [ ] Dra `når chatkommando` fra kategorien `Spiller` ut på arbeidsflaten.
   Skriv `hit` i feltet.
 
-- [ ] Legg `robot gå til` inn i den. Bruk posisjonen `~1 ~0 ~0`, så roboten
+- [ ] Lag en variabel `fram`. Legg `sett fram til` inn i `når chatkommando`, og
+  dra `robot gå til` inn i den. Bruk posisjonen `~1 ~0 ~0`, så roboten
   stiller seg ved siden av deg og ikke oppå deg.
 
 - [ ] Trykk `Kjør`. Programmet venter nå på chatten.
@@ -113,9 +117,9 @@ __Gå et stykke bort, trykk `T` og skriv `hit`.__
 
 ## Tips {.protip}
 
-`robot gå til` svarer **sann** når den kom fram, og **usann** når den ikke fant
-noen vei. Legg den i en `hvis` fra `Logikk`, og la roboten si `Jeg finner deg
-ikke` når svaret er usant.
+`robot gå til` svarer `sant` når den kom fram, og `usant` når den ikke fant
+noen vei. Svaret ligger nå i `fram`. Legg til en `hvis` fra `Logikk` som sjekker
+`fram`, og la roboten si `Jeg finner deg ikke` når svaret er `usant`.
 
 
 # Steg 3: Labyrinten {.activity}
@@ -137,8 +141,9 @@ kan gjøre i en ekte labyrint.
 - [ ] Gå inn i åpningen på nordsiden av labyrinten, se inn i den, og skriv
   `/robot spawn`.
 
-- [ ] Lag et nytt prosjekt med `robot følg sti av eikeplanker hold venstre` og
-  `robot si Jeg er ute!` under.
+- [ ] Lag et nytt prosjekt og en variabel `stopp`. Legg `sett stopp til` i
+  `ved start`, og dra `robot følg sti av eikeplanker hold venstre` inn i den.
+  Legg `robot si Jeg er ute!` under.
 
 ## Test prosjektet {.flag}
 
@@ -165,7 +170,7 @@ shapes.maze(pos(2, 0, 2), 15, 15, Block.StoneBricks, Block.OakPlanks, 42)
 ```
 
 ```javascript
-agent.followPath(Block.OakPlanks, TurnDirection.Left)
+let stopp = agent.followPath(Block.OakPlanks, TurnDirection.Left)
 agent.say("Jeg er ute!")
 ```
 

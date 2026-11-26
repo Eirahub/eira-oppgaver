@@ -100,8 +100,10 @@ __Tidsbruk__: En til to timer.
 - "Jeg finner ingen vei dit": malmen ligger inni steinen uten luft rundt.
   Roboten graver ikke vei, den går bare dit det er åpent.
 
-- Roboten går ikke hjem: eleven har ikke skrevet `/robot sethome`, eller hjemmet
-  er langt unna.
+- Roboten går ikke hjem, eller legger ingenting i kista: hjemmet er ikke satt
+  oppå kista. Eleven må stå foran kista, ikke oppå den, når roboten lages, og
+  kjøre programmet som flytter roboten opp og setter hjemmet. Står eleven oppå
+  kista, havner roboten inni kista.
 
 - Programmet stopper ofte med "Farlig!": en fiendtlig skapning er i nærheten.
   Bruk `/difficulty peaceful`.

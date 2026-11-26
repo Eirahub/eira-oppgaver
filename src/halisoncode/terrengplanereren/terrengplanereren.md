@@ -206,6 +206,10 @@ __Kjør programmet.__
 ligger sørøst for deg. `groundHeight` bryr seg ikke om tallet i midten. Den
 svarer med høyden i verden, som du ser i `F3`.
 
+`groundHeight` svarer med den øverste blokken som ikke er luft eller løv, også
+om den svever. Står det en flytende blokk over tomta, blir den regnet som
+bakken der.
+
 
 # Steg 5: Gjør tomta flat {.activity}
 

@@ -179,8 +179,9 @@ __Kjør programmet på et nytt sted i fjellet.__
 
 ## Tips {.tip}
 
-Finner du ikke restblokken i `Matematikk`, skriv `rest` i søkefeltet over
-kategoriene. I JavaScript skrives rest med `%`: `teller % 8`.
+Restblokken ligger i `Matematikk`, men heter foreløpig `remainder of` på
+engelsk. Finner du den ikke, skriv `remainder` i søkefeltet over kategoriene. I
+JavaScript skrives rest med `%`: `teller % 8`.
 
 
 # Steg 5: Tunnel fra chatten {.activity}
@@ -249,7 +250,7 @@ player.onChat("tunnel", function (num1, num2, num3) {
 - [ ] Lag tunnelen tre blokker høy. Hva må du endre i den lille løkka?
 
 - [ ] Inne i fjellet kan det være lava. Stopp roboten før lava med `robot er
-  trygt fremover`. Bruk `gjenta hvis` i stedet for `gjenta lengde ganger`, og en
+  trygt fremover`. Bruk `så lenge` i stedet for `gjenta lengde ganger`, og en
   `teller` som sjekker lengden.
 
 - [ ] Legg skinner i gulvet av tunnelen. Gi roboten `skinne` i plass 2.

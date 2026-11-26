@@ -96,7 +96,7 @@ __Tidsbruk__: En til to timer.
   målingen.
 
 - Roboten bygger ingenting: sjekk `robot velg plass 1`, og at `robot hjelp
-  plasser ved flytting` står til `sann`.
+  plasser ved flytting` står til `sant`.
 
 
 # Eksterne ressurser {.activity}

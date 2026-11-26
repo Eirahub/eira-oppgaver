@@ -81,12 +81,12 @@ lenge det er en blokk foran roboten.
 
 ## Sjekkliste {.check}
 
-- [ ] Fra `Løkker`, dra `gjenta hvis` inn i `ved start`, før `robot ødelegg`.
+- [ ] Fra `Løkker`, dra `så lenge` inn i `ved start`, før `robot ødelegg`.
 
 - [ ] Sett betingelsen til `robot oppdag blokk fremover`.
 
-- [ ] Flytt `robot ødelegg fremover` inn i løkka, og legg til `robot flytt opp
-  med 1` under den.
+- [ ] Flytt `robot ødelegg fremover` inn i løkka. Legg til `robot ødelegg opp`
+  og `robot flytt opp med 1` under den.
 
 ## Test prosjektet {.flag}
 
@@ -100,8 +100,10 @@ __Plant deg foran et nytt tre, skriv `/robot spawn` og trykk `Kjør`.__
 
 ## Tips {.protip}
 
-Løkka stopper når det er luft foran roboten. Toppen av treet har løv, og
-roboten hogger løvet også. Det er greit, for løv kan gi stiklinger og epler.
+`robot ødelegg opp` trengs fordi løvet henger over roboten når den kommer
+høyt opp, og da kommer den ikke videre. Løkka stopper når det er luft foran
+roboten. Toppen av treet har løv, og roboten hogger løvet også. Det er greit,
+for løv kan gi stiklinger og epler.
 
 
 # Steg 3: Ned igjen {.activity}
@@ -110,7 +112,7 @@ Nå henger roboten oppe i lufta. Den skal ned til bakken.
 
 ## Sjekkliste {.check}
 
-- [ ] Under den første løkka, legg en ny `gjenta hvis`. Betingelsen er
+- [ ] Under den første løkka, legg en ny `så lenge`. Betingelsen er
   `ikke robot oppdag blokk ned`. `ikke` finner du i `Logikk`.
 
 - [ ] Inni den: `robot flytt ned med 1`.
@@ -176,6 +178,7 @@ __Gå til et tre, skriv `/robot spawn` og så `hogg` i chatten.__
 function hoggTre() {
     while (agent.detect(AgentDetection.Block, SixDirection.Forward)) {
         agent.destroy(SixDirection.Forward)
+        agent.destroy(SixDirection.Up)
         agent.move(SixDirection.Up, 1)
     }
     while (!(agent.detect(AgentDetection.Block, SixDirection.Down))) {

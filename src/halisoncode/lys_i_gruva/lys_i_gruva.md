@@ -96,14 +96,14 @@ Gangen er helt mørk innerst. Roboten går inn gjennom åpningen.
 # Steg 2: Gå til veggen {.activity}
 
 Roboten vet ikke hvor lang gangen er. Den skal gå så lenge det ikke er en vegg
-foran den. Da bruker vi `gjenta hvis`, som er en **mens-løkke**: Den gjentar så
+foran den. Da bruker vi `så lenge`, som er en **mens-løkke**: Den gjentar så
 lenge betingelsen er sann.
 
 ## Sjekkliste {.check}
 
 - [ ] Ta bort blokkene fra steg 1.
 
-- [ ] Dra `gjenta hvis` fra `Løkker` inn i `ved start`.
+- [ ] Dra `så lenge` fra `Løkker` inn i `ved start`.
 
 - [ ] Betingelsen: `ikke` fra `Logikk`, med `robot oppdag blokk fremover` inni.
 
@@ -163,7 +163,7 @@ når det er trygt.
 
 ## Sjekkliste {.check}
 
-- [ ] Dra `og` fra `Logikk` inn i `gjenta hvis`. Flytt `ikke robot oppdag blokk
+- [ ] Dra `og` fra `Logikk` inn i `så lenge`. Flytt `ikke robot oppdag blokk
   fremover` til venstre side.
 
 - [ ] På høyre side: `robot er trygt fremover`.

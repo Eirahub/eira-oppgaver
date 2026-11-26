@@ -7,7 +7,7 @@ language: nb
 
 # Om oppgaven {.activity}
 
-Elevene lar roboten gå gjennom en mørk gang med en mens-løkke (`gjenta hvis`)
+Elevene lar roboten gå gjennom en mørk gang med en mens-løkke (`så lenge`)
 til den kommer til en vegg eller lava. Inni løkka bruker de `robot lysnivå` og
 en `hvis` til å sette en fakkel der det er mørkt. Til slutt lager de en funksjon
 med lysgrensen som parameter, og teller faklene.

@@ -83,10 +83,10 @@ __Tidsbruk__: To til tre timer, gjerne i par.
 ## Løsningsforslag {.check}
 
 - [ ] Chatkommandoen `fort` lagrer `x`, `y` og `z` fra `player.position()` og
-  kaller `agent.setHome()`. `byggLag()` bygger en ring med
-  `blocks.fill(Block.Cobblestone, world(x - 7, y + lag, z - 7), world(x + 7, y
-
-  + lag, z + 7), FillOperation.Outline)`, og fyller porten med luft etterpå.
+  kaller `agent.setHome()`. `byggLag()` fyller en firkant fra
+  `world(x - 7, y + lag, z - 7)` til `world(x + 7, y + lag, z + 7)` med stein,
+  fyller det som er inni (`x - 6` til `x + 6`) med luft, og fyller porten med
+  luft etterpå.
     `hentStein()` graver med `agent.destroy` og `agent.move` i en `while
     (gameplay.timeOfDay() < 10000)`, og går hjem med `agent.goHome()`.
     `gameplay.onDayStart` kaller `hentStein()` og `byggLag()` så lenge `lag` er

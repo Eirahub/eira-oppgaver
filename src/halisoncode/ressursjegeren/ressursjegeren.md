@@ -72,10 +72,19 @@ gjennom stein, men roboten kan bare gå dit det finnes en vei.
 - [ ] Sett fakler i hula, og skriv `/difficulty peaceful`. Da kommer det ingen
   fiendtlige skapninger.
 
-- [ ] Sett ut en kiste på gulvet. Stå oppå kista og skriv `/robot spawn`. Skriv
-  så `/robot sethome`. Nå er hjemmet til roboten oppå kista.
+- [ ] Sett ut en kiste på gulvet. Still deg rett foran kista, se mot den, og
+  skriv `/robot spawn`. Ikke stå oppå kista, for da havner roboten inni den.
 
-- [ ] Lag et nytt prosjekt, gå til fanen `JavaScript` og skriv:
+- [ ] Lag et nytt prosjekt, gå til fanen `JavaScript` og kjør dette én gang.
+  Roboten flytter seg opp på kista og gjør den plassen til hjemmet sitt:
+
+```javascript
+agent.move(SixDirection.Up, 1)
+agent.move(SixDirection.Forward, 1)
+agent.setHome()
+```
+
+- [ ] Slett koden, og skriv i stedet:
 
 ```javascript
 let kull = agent.findNearest(Block.CoalOre, 24)

@@ -108,13 +108,13 @@ der roboten var, for hvert steg den tar. Nå bruker vi det til å lage en bro.
 - [ ] Øverst i `ved start`: `robot gi eikeplanker antall 64 i plass 1` og `robot
   velg plass 1`.
 
-- [ ] Nederst: `robot hjelp plasser ved flytting sann`.
+- [ ] Nederst: `robot hjelp plasser ved flytting sant`.
 
 - [ ] Så `robot flytt fremover med`, og dra `bredde` inn i feltet for antall.
 
 - [ ] Så `robot flytt opp med 1`.
 
-- [ ] Til slutt `robot hjelp plasser ved flytting usann`.
+- [ ] Til slutt `robot hjelp plasser ved flytting usant`.
 
 ## Test prosjektet {.flag}
 

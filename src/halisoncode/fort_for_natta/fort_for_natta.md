@@ -101,7 +101,7 @@ Dette har du lært før, og litt nytt:
 
 | Hva                      | Kode                                                            |
 | ------------------------ | --------------------------------------------------------------- |
-| Bygge en ring av blokker | `blocks.fill(Block.Cobblestone, a, b, FillOperation.Outline)`   |
+| Bygge en ring av blokker | to `blocks.fill`: først hele firkanten, så luft inni            |
 | Lage port                | `blocks.fill(Block.Air, a, b, FillOperation.Replace)`           |
 | Bygge med byggeren       | `builder.mark()`, `builder.move` og `builder.fill` fra Byggeren |
 | Sette en fakkel          | `blocks.place(Block.Torch, p)`                                  |
@@ -114,8 +114,10 @@ Dette har du lært før, og litt nytt:
 
 ## Tips {.tip}
 
-- Med `FillOperation.Outline` blir boksen bare vegger, uten gulv og tak. Er
-  boksen én blokk høy, blir det én ring av muren.
+- En ring lager du med to fyll. Fyll først hele firkanten med stein, og fyll
+  så det som er inni med luft. Da står bare kanten igjen.
+  `FillOperation.Outline` og `Hollow` hjelper ikke når boksen er én blokk
+  høy, for da er hele boksen kant, og du får en fylt firkant.
 
 - `pos` er målt fra føttene dine. Om morgenen står du kanskje et annet sted, og
   da havner muren feil. Lagre midten av fortet én gang, og bruk nøyaktige
