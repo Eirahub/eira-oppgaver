@@ -51,6 +51,7 @@ Dette har du lært før:
 | Hva | Kode |
 |---|---|
 | Hogge en hel stamme | `hoggTre()` fra Tømmerhuggeren |
+| Finne, hogge og hente et tre | `hentTre()` fra Skogsroboten |
 | Lage planker | `agent.craft(Item.OakPlanks, 4)` og `agent.canCraft` |
 | Bygge en hul boks | `blocks.fill(Block.OakPlanks, a, b, FillOperation.Hollow)` |
 | Lage dør | `blocks.fill(Block.Air, a, b, FillOperation.Replace)` |
@@ -60,7 +61,8 @@ Dette har du lært før:
 ## Tips {.tip}
 
 - `/robot spawn` flytter roboten til deg. Løp til et tre, skriv `/robot spawn`
-  og så `hogg`.
+  og så `hogg`. Eller la roboten finne trærne selv med `skog` fra
+  Skogsroboten.
 
 - I overlevelse bygger `blocks.fill` med plankene i robotens inventar. Har den
   for få, stopper den og sier hva som mangler.

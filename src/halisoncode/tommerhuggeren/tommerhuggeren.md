@@ -158,7 +158,8 @@ player.onChat("hogg", function (num1, num2, num3) {
   La roboten si tallet til slutt.
 
 - [ ] Bruk `robot finn nærmeste stammer innen 16` og `robot gå til`, så roboten
-  finner treet selv.
+  finner treet selv. Oppgaven [Skogsroboten](../skogsroboten/skogsroboten.html)
+  viser hvordan.
 
 - [ ] Lag en treplantasje: en rad med stiklinger som roboten hogger en etter
   en når de har vokst.
