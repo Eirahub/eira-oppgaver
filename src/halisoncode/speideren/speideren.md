@@ -14,8 +14,7 @@ dens, og den forteller deg hva den finner. Du lærer om **sensorer**,
 
 Du bør ha gjort oppgaven [Finn veien](../finn_veien/finn_veien.html) først.
 
-<!-- BILDE: Utsikt fra robotkameraet høyt over en skog, med "Robot camera"
-øverst til venstre. -->
+![Utsikt fra robotkameraet høyt over en skog, med "Robot camera: Kintro" øverst til venstre.](robotkamera.jpg)
 
 
 # Før du starter {.activity}

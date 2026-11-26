@@ -15,8 +15,7 @@ om å sjekke om noe er mulig før du gjør det.
 Du bør ha gjort oppgaven [Tømmerhuggeren](../tommerhuggeren/tommerhuggeren.html)
 først.
 
-<!-- BILDE: Roboten står foran en kiste og en arbeidsbenk, og kista er full av
-planker og pinner. -->
+![Roboten står mellom en arbeidsbenk og en kiste som den har satt ut.](lageret.jpg)
 
 
 # Før du starter {.activity}

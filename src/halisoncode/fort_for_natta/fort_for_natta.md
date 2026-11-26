@@ -22,8 +22,7 @@ er opp til deg.
 Du bør ha gjort oppgavene [Hus før natta](../hus_for_natten/hus_for_natten.html)
 og [Byggeren](../byggeren/byggeren.html).
 
-<!-- BILDE: Et lite plankehus inne i en firkantet steinmur med en port og fakler
-på toppen, i skumringen. -->
+![Et lite plankehus inne i en firkantet mur av brostein med fakler på toppen, i skumringen.](fort.jpg)
 
 
 # Før du starter {.activity}

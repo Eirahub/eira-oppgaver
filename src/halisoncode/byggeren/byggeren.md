@@ -18,8 +18,7 @@ Skilpadda tegner en strek når den går, og byggeren legger blokker.
 
 Du bør ha gjort oppgaven [Bygg et hus](../bygg_et_hus/bygg_et_hus.html) først.
 
-<!-- BILDE: Et lite slott av steinmurstein med fire tårn og murer mellom, på en
-flat verden. -->
+![Et slott av steinmurstein med fire tårn og murer mellom, i en flat verden.](slott.jpg)
 
 
 # Før du starter {.activity}
@@ -141,8 +140,7 @@ legger vi firkant-løkka **inni** en ny løkke.
 - [ ] Under firkant-løkka, men fortsatt inni den store løkka: `bygger flytt opp
   med 1`.
 
-<!-- BILDE: Programmet med gjenta 4 ganger rundt firkant-løkka og bygger flytt
-opp med 1. -->
+![Programmet: bygger flytt fremover med 2, og gjenta 4 ganger med firkant-løkka og bygger flytt opp med 1 inni.](program_mur.png)
 
 ## Test prosjektet {.flag}
 

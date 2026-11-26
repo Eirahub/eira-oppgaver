@@ -15,8 +15,7 @@ stoppe før veggen eller lava.
 Du bør ha gjort oppgaven [Gruve til
 grunnfjell](../gruve_til_grunnfjell/gruve_til_grunnfjell.html) først.
 
-<!-- BILDE: En lang, mørk gruvegang der fakler på gulvet lyser opp med jevne
-mellomrom, og roboten innerst. -->
+![En lang, smal gruvegang der fakler på gulvet lyser opp med jevne mellomrom.](gruvegang.jpg)
 
 
 # Før du starter {.activity}

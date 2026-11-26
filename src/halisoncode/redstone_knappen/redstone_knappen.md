@@ -14,8 +14,7 @@ roboten å snu når noe står i veien.
 
 Du bør ha gjort oppgaven [Kom i gang](../kom_i_gang/kom_i_gang.html) først.
 
-<!-- BILDE: Roboten på gresset med en rad steinknapper på bakken ved siden av
-seg, og en steinblokk foran. -->
+![Roboten på gresset med tre steinknapper og en spak på bakken ved siden av seg, og en steinblokk.](knapper.jpg)
 
 
 # Før du starter {.activity}

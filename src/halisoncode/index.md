@@ -33,3 +33,8 @@ litt Minecraft før.
 
 Halison Code er ikke laget av eller godkjent av Microsoft, Mojang eller
 MakeCode-teamet. Minecraft er et varemerke som tilhører Mojang Synergies AB.
+
+Skjermbildene i oppgavene er tatt i Minecraft med Halison Code. Grafikken i
+Minecraft tilhører Mojang og er ikke dekket av lisensen CC BY-SA 4.0 som
+gjelder oppgavetekstene. Skjermbildene brukes etter retningslinjene til
+Mojang.

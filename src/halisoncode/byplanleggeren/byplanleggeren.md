@@ -19,8 +19,7 @@ roboten hopper over en tomt: det er fordi du selv har satt noe i veien.
 Du bør ha gjort oppgavene [Bygg et hus](../bygg_et_hus/bygg_et_hus.html) og
 [Terrengplanereren](../terrengplanereren/terrengplanereren.html) først.
 
-<!-- BILDE: En gate av grus med fire like hus på rad, og en tom tomt med et
-steintårn der roboten hoppet over. -->
+![Tre like hus av eikeplanker langs en gate av grus. På den fjerde tomta står et steintårn, så der hoppet roboten over.](gate.jpg)
 
 
 # Før du starter {.activity}

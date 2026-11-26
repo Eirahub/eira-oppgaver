@@ -13,8 +13,7 @@ lærer om **posisjoner**, og om svar som er sanne eller usanne.
 
 Du bør ha gjort oppgaven [Kom i gang](../kom_i_gang/kom_i_gang.html) først.
 
-<!-- BILDE: Roboten står i utgangen av en labyrint av steinmursteiner og sier
-"Jeg er ute!". -->
+![En labyrint av steinmurstein sett ovenfra, og roboten som står i utgangen.](labyrint.jpg)
 
 
 # Før du starter {.activity}

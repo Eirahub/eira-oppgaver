@@ -16,8 +16,7 @@ hele tomta flat. Du skriver programmet i **JavaScript** og bruker **lister**,
 Du bør ha gjort oppgavene [Bygg et hus](../bygg_et_hus/bygg_et_hus.html) og
 [Lageret](../lageret/lageret.html) først.
 
-<!-- BILDE: En kvadratisk, helt flat tomt med jord midt i et kupert landskap, og
-roboten som står ved kanten. -->
+![En kvadratisk, helt flat tomt med jord midt i et kupert landskap. Der bakken var høyere, er tomta gravd inn i bakken.](tomt.jpg)
 
 
 # Før du starter {.activity}

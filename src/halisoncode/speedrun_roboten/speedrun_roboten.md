@@ -22,8 +22,7 @@ Du bør ha gjort oppgavene [Skogsroboten](../skogsroboten/skogsroboten.html),
 [Lageret](../lageret/lageret.html) og
 [Tunnelboreren](../tunnelboreren/tunnelboreren.html).
 
-<!-- BILDE: En kiste full av planker, fakler og kister, og en klokke som viser
-at tiden er ute. -->
+![En kiste med planker, fakler, kister, en arbeidsbenk, pinner, stammer, brostein og kull.](kiste.jpg)
 
 
 # Før du starter {.activity}

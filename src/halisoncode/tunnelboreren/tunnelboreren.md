@@ -16,8 +16,7 @@ chatten.
 Du bør ha gjort oppgaven [Gruve til
 grunnfjell](../gruve_til_grunnfjell/gruve_til_grunnfjell.html) først.
 
-<!-- BILDE: Åpningen av en bred tunnel inn i et steinfjell, med fakler på gulvet
-innover. -->
+![En bred tunnel inn i fjellet med en fakkel på gulvet, og roboten innerst.](tunnel.jpg)
 
 
 # Før du starter {.activity}
@@ -118,7 +117,7 @@ andre løkka.
   flytt opp med 1`, `robot ødelegg fremover`, `robot flytt ned med 1` og `robot
   snu venstre`.
 
-<!-- BILDE: Programmet med gjenta 10 ganger, og gjenta 2 ganger inni. -->
+![Programmet: gjenta 10 ganger med robot ødelegg og robot flytt, og gjenta 2 ganger inni.](program_tunnel.png)
 
 ## Test prosjektet {.flag}
 

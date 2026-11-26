@@ -13,8 +13,7 @@ de samme blokkene mange ganger.
 
 Du bør ha gjort oppgaven [Kom i gang](../kom_i_gang/kom_i_gang.html) først.
 
-<!-- BILDE: En trapp av eikeplanker og en firkantet sti av brostein, bygget av
-roboten. -->
+![En trapp av eikeplanker som går skrått opp mot himmelen, og en firkantet sti av brostein ved siden av, bygget av roboten.](steinsti_og_trapp.jpg)
 
 
 # Før du starter {.activity}

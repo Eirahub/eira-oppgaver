@@ -16,8 +16,7 @@ Du bør ha gjort oppgavene
 [Tømmerhuggeren](../tommerhuggeren/tommerhuggeren.html) og
 [Lageret](../lageret/lageret.html) først.
 
-<!-- BILDE: Roboten på vei hjem fra skogen med inventaret fullt av stammer, og
-en stubbe der treet stod. -->
+![Roboten på vei hjem over gresset. Bak den henger løvet igjen der den hogde et tre.](skogsroboten.jpg)
 
 
 # Før du starter {.activity}
