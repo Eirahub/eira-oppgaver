@@ -127,7 +127,7 @@ a.external::after { content: " ↗" / " (ekstern side)"; }
 .lead { font-size: var(--fs-body-lg); color: var(--ink-2); }
 .section-title { margin-top: var(--space-7); }
 .course-grid { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--space-4); grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); }
-@media (max-width: 40rem) { .course-grid { grid-template-columns: 1fr 1fr; gap: var(--space-3); } .course-name { font-size: var(--fs-body); } }
+@media (max-width: 40rem) { .course-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--space-3); } .course-name { font-size: var(--fs-body); overflow-wrap: break-word; hyphens: auto; } }
 .course-card {
   display: flex; flex-direction: column; align-items: center; gap: var(--space-2); height: 100%;
   padding: var(--space-5) var(--space-3); text-align: center; text-decoration: none; color: var(--ink);
@@ -163,6 +163,7 @@ details > summary { cursor: pointer; min-height: 44px; padding: var(--space-3) v
 details[open] > summary { border-bottom: 1px solid var(--border-card); }
 .course-info > .content { padding: 0 var(--space-5) var(--space-4); }
 .course-intro { max-width: 46rem; }
+.course-intro, .course-info > .content { overflow-wrap: anywhere; }
 .playlist summary { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
 .playlist summary::before { content: "▸"; }
 .playlist[open] summary::before { content: "▾"; }
@@ -196,8 +197,8 @@ details[open] > summary { border-bottom: 1px solid var(--border-card); }
 
 /* ---------- Kompetansemål (/kompetansemaal) ---------- */
 .km-filter { display: flex; flex-wrap: wrap; gap: var(--space-3) var(--space-5); margin: var(--space-4) 0; }
-.km-filter label { display: flex; flex-direction: column; gap: var(--space-1); font-weight: 600; }
-.km-filter select { min-height: 44px; min-width: 14rem; padding: var(--space-2) var(--space-3); border: 2px solid var(--brand-primary); border-radius: var(--radius-card); background: var(--surface-raised); color: var(--ink); font: inherit; font-weight: 400; }
+.km-filter label { max-width: 100%; display: flex; flex-direction: column; gap: var(--space-1); font-weight: 600; }
+.km-filter select { min-height: 44px; min-width: min(14rem, 100%); max-width: 100%; padding: var(--space-2) var(--space-3); border: 2px solid var(--brand-primary); border-radius: var(--radius-card); background: var(--surface-raised); color: var(--ink); font: inherit; font-weight: 400; }
 .km-fag > h2 { margin-top: var(--space-6); }
 .km-trinn { background: var(--surface-raised); border-radius: var(--radius-card); box-shadow: var(--shadow-card); padding: var(--space-2) var(--space-4) var(--space-3); margin-bottom: var(--space-5); }
 .km-trinn h3 { margin: var(--space-3) 0 var(--space-1); scroll-margin-top: var(--space-4); }
@@ -215,6 +216,7 @@ a.km-udir::after { content: " ↗" / ""; }
 .lesson { max-width: 52rem; }
 .lesson-header h1 { display: flex; align-items: center; gap: var(--space-3); }
 .lesson-header h1 .level-icon { width: 40px; height: 40px; }
+.lesson-header h1 > span { min-width: 0; }
 .byline { margin: var(--space-1) 0; color: var(--ink-2); font-style: italic; }
 .lesson-actions { display: flex; flex-wrap: wrap; gap: var(--space-3) var(--space-5); align-items: center; margin: var(--space-4) 0; }
 .variants { display: inline-flex; flex-wrap: wrap; gap: var(--space-3); }
@@ -243,6 +245,10 @@ a.km-udir::after { content: " ↗" / ""; }
 /* ---------- Lesson content (markdown from ../src) ---------- */
 .lesson-content { overflow-wrap: anywhere; }
 .lesson-content figure { margin: var(--space-4) 0; }
+/* Embedded HTML with fixed widths (inline width:480px, canvas, iframe) must not widen the page */
+.lesson-content div, .lesson-content canvas, .lesson-content iframe, .lesson-content video, .lesson-content img { max-width: 100%; }
+.lesson-content canvas, .lesson-content img { height: auto; }
+h1, h2 { overflow-wrap: break-word; hyphens: auto; }
 .lesson-content img { border-radius: 4px; }
 .lesson-content h1 { font-size: 1.75rem; }
 .lesson-content h2 { font-size: 1.4rem; }
