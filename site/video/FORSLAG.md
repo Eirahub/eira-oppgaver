@@ -12,7 +12,7 @@ Code Club World-lisens telles ikke med, men kursene de ligger i får video.
 | Gruppe | Kurs |
 |---|---|
 | Lær Kidsa Koding (12) | appinventor, arduino, codestudio, command_line, diverse, legomindstorms, microbit, processing, python, scratch, uten_datamaskin, web |
-| Eira (10) | cc_tweaked, codeling, datamaskin, java, ki_veiledere, minecraft_foreldre, minecraft_mod, multimc, vs_code, wonderbot |
+| Eira (10) | cc_tweaked, halisoncode, datamaskin, java, ki_veiledere, minecraft_foreldre, minecraft_mod, multimc, vs_code, wonderbot |
 
 **Slik merkes et Eira-kurs:** det avledes. Et kurs er Eira-laget når mappen
 ikke finnes under `src/` i kodeklubben/oppgaver. CI henter

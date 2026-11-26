@@ -28,7 +28,7 @@ Halison Code er en mod, og modder lastes inn av et lite program som heter
 ## Sjekkliste {.check}
 
 - [ ] Følg [installasjonsveiledningen for
-  Halison Code](../../codeling/installasjon/installasjon.html) steg for steg.
+  Halison Code](../../halisoncode/installasjon/installasjon.html) steg for steg.
 
 - [ ] Start Minecraft med Fabric-profilen, og sjekk at spillet starter.
 
@@ -45,7 +45,7 @@ kilder du stoler på.
 ## Sjekkliste {.check}
 
 - [ ] Sett deg sammen med barnet, og åpne oppgaven [Kom i
-  gang](../../codeling/kom_i_gang/kom_i_gang.html).
+  gang](../../halisoncode/kom_i_gang/kom_i_gang.html).
 
 - [ ] La barnet lese og gjøre oppgaven selv. Hjelp bare når det står fast.
 
