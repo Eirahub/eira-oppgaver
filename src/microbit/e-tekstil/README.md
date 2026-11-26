@@ -1,7 +1,7 @@
 ---
 title: "PXT: eTekstil: Tekstil og elektronikk!"
 author: "Carl A. Myrland"
-language: "nb"
+language: nb
 ---
 
 

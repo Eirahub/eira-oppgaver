@@ -2,7 +2,7 @@
 title: "Eggedosisrobot"
 author: "[Espen Clausen](https://espenec.wordpress.com/2019/10/22/lage-eggedosis)"
 translator: "Carl A. Myrland"
-language: "nb"
+language: nb
 ---
 
 # Om oppgaven {.activity}

@@ -1,7 +1,7 @@
 ---
 title: "Algoritmia"
 author: "Sergio Daroca Fernández"
-language: "nb"
+language: nb
 ---
 
 ## ![Algoritmia logoen](./Algoritmia.png)

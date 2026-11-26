@@ -2,7 +2,7 @@
 title: "Усунення несправностей: Розтопити Сніговикіа 2"
 author: "Карл А. Мірланд"
 translator: "Кнут Ірвін"
-language: "ua"
+language: ua
 ---
 
 

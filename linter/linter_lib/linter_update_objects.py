@@ -60,15 +60,11 @@ def create_keys_and_tags_file():
 
 
 def update_keys_and_tags_if_needed():
-    # If either the file keys_and_tags does not exists
-    # or if filtertags has been updated, create new keys and tags
-    if not PATH_2_KEYS_AND_TAGS.is_file():
-        create_keys_and_tags_file()
-    else:
-        last_modified_date_filtertag = PATH_2_FILTERTAGS.stat().st_mtime
-        last_modified_date_keys_tags = PATH_2_KEYS_AND_TAGS.stat().st_mtime
-        if last_modified_date_filtertag > last_modified_date_keys_tags:
-            create_keys_and_tags_file()
+    # Always rebuild: keys.yml is small, and file times after a git checkout
+    # say nothing about which file is newer, so the cache went stale.
+    # shortcut: linter_defaults has already loaded the old pickle, so a change
+    # in keys.yml takes effect from the next run; load keys.yml there to fix it.
+    create_keys_and_tags_file()
 
 
 def update_file_info_if_needed():

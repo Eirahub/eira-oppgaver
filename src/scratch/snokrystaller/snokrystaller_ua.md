@@ -2,7 +2,7 @@
 title: Сніжинки
 author: "[Espen Claussen](https://espenec.wordpress.com/2020/11/29/undervisningsopplegg-tegne-snofnugg-i-scratch)"
 translator: "Marichka"
-language: "UA"
+language: ua
 ---
 # Вступ {.intro}
 

@@ -2,7 +2,7 @@
 title: "Dansefest"
 author: "[Code.org](https://curriculum.code.org/hoc/unplugged/4)"
 translator: "Carl A. Myrland"
-language: "nb"
+language: nb
 ---
 
 

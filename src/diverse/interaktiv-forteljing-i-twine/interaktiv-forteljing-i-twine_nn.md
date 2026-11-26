@@ -1,7 +1,7 @@
 ---
 title: "Twine: Interaktiv forteljing"
 author: "Béatrice Bieuville"
-language: "nn"
+language: nn
 ---
 
 

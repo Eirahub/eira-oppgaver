@@ -1,7 +1,7 @@
 ---
 title: "Robotdyra"
 author: "Læringsverksted Drammen og Carl A. Myrland"
-language: "nb"
+language: nb
 ---
 
 

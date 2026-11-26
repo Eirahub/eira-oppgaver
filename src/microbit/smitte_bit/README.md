@@ -1,7 +1,7 @@
 ---
 title: "PXT: Smitte:Bit"
 author: "Sigurd Schaathun"
-language: "nb"
+language: nb
 ---
 
 

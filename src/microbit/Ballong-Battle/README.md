@@ -1,7 +1,7 @@
 ---
 title: "PXT: BallongBattle"
 author: "Sigurd Schaathun"
-language: "nb"
+language: nb
 ---
 
 

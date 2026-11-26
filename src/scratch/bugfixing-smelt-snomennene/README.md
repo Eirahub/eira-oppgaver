@@ -1,7 +1,7 @@
 ---
 title: "Bugfiksing: Smelt snømennene!"
 author: "Carl A. Myrland"
-language: "nb"
+language: nb
 ---
 
 

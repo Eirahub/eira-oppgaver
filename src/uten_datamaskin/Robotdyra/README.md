@@ -1,7 +1,7 @@
 ---
 title: "Robotdyra"
 author: "Carl A. Myrland"
-language: "nb"
+language: nb
 ---
 
 # Om oppgaven {.activity}

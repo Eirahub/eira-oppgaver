@@ -1,7 +1,7 @@
 ---
 title: "PXT: Nattlys"
 author: "Béatrice Bieuville"
-language: "nn"
+language: nn
 ---
 
 
