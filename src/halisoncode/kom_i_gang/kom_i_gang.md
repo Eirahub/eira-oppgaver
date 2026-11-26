@@ -30,6 +30,10 @@ Først trenger vi en verden og en robot.
 
 - [ ] Trykk `T` for å åpne chatten. Skriv `/robot spawn` og trykk Enter.
 
+- [ ] Skriv `/gamerule halisoncode:pause_on_lost_focus false` i chatten. Da går
+  ikke spillet på pause når du bytter til editoren, og du ser hva roboten gjør
+  mens du jobber. Du trenger bare gjøre det én gang i hver verden.
+
 - [ ] Roboten dukker opp ved føttene dine. Den ser samme vei som deg.
 
 <!-- BILDE: Chatten med /robot spawn skrevet inn, og roboten ved føttene til
@@ -69,6 +73,8 @@ Programmene skriver du i nettleseren, i Halison Code-editoren.
 
 - Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
   spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
+  Har du ikke skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør
+  det nå. Du kan også trykke `F3` + `P` i Minecraft.
 
 - Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
   et program, trykk stoppknappen i editoren eller skriv `/robot stop`.

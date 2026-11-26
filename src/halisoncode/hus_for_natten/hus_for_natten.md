@@ -33,6 +33,10 @@ Du bør ha gjort oppgavene
 - [ ] Skriv `/robot spawn` i chatten, og `/halisoncode` for å åpne editoren.
   Klokka går.
 
+- [ ] Skriv `/gamerule halisoncode:pause_on_lost_focus false` i chatten. Da går
+  ikke spillet på pause når du bytter til editoren, og du ser hva roboten gjør
+  mens du jobber. Du trenger bare gjøre det én gang i hver verden.
+
 - [ ] Huset skal ha fire vegger, tak, en åpning til dør og lys inni.
 
 - [ ] Du er ferdig når du står inne i huset før `tid på døgnet` er 12000.
@@ -56,6 +60,8 @@ Du bør ha gjort oppgavene
 
 - Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
   spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
+  Har du ikke skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør
+  det nå. Du kan også trykke `F3` + `P` i Minecraft.
 
 - Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
   et program, trykk stoppknappen i editoren eller skriv `/robot stop`.

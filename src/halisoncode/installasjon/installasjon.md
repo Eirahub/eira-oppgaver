@@ -95,6 +95,10 @@ spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/play
 
 - [ ] Skriv `/halisoncode` i chatten. Nettleseren åpner Halison Code-editoren.
 
+- [ ] Skriv `/gamerule halisoncode:pause_on_lost_focus false`. Da går ikke
+  spillet på pause når eleven bytter til nettleseren, og eleven ser hva roboten
+  gjør. Det gjelder bare denne verdenen.
+
 ## Test prosjektet {.flag}
 
 - [ ] Ser du roboten i spillet og editoren i nettleseren? Da er alt klart, og
@@ -109,6 +113,7 @@ spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/play
 | "Editor link expired" | Minecraft er startet på nytt. Skriv `/halisoncode` igjen. |
 | "Not in a world" | Åpne en verden først, og trykk Kjør igjen. |
 | "Robot is not loaded" | Skriv `/robot spawn`, eller gå nærmere roboten. |
+| Spillet går på pause når du bytter til nettleseren | Skriv `/gamerule halisoncode:pause_on_lost_focus false`, eller trykk `F3` + `P`. |
 | Roboten venter, og loggen sier "Minecraft is paused" | Gå tilbake til spillet og lukk pausemenyen. |
 
 Flere feilmeldinger står i [veiledningen for
