@@ -84,6 +84,10 @@ Programmene skriver du i nettleseren, i Halison Code-editoren.
 - Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
   et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
 
+- Prosjektet lagres av seg selv i nettleseren på denne datamaskinen. Vil du ha
+  det med til en annen maskin, trykk lagre-knappen ved siden av prosjektnavnet
+  nederst i editoren. Da får du en `.mkcd`-fil.
+
 
 # Steg 3: Få roboten til å gå {.activity}
 
@@ -159,7 +163,39 @@ Programmet blir langt, og du skriver det samme fire ganger. I neste oppgave
 lærer du en lurere måte: en løkke.
 
 
-# Programmet i JavaScript {.activity}
+# Steg 6: Lagre prosjektet {.activity}
+
+Editoren lagrer prosjektet av seg selv i nettleseren. Det ligger bare i denne
+nettleseren på denne datamaskinen. Vil du ha det med deg, lagrer du det som en
+fil.
+
+## Sjekkliste {.check}
+
+- [ ] Nederst i editoren står `Uten navn`. Klikk der og skriv et navn, for
+  eksempel `Kom i gang`.
+
+- [ ] Trykk lagre-knappen rett ved siden av navnet. Nettleseren laster ned en
+  fil som slutter på `.mkcd`.
+
+- [ ] Trykk på huset øverst til høyre for å gå til startsiden. Ligger prosjektet
+  ditt under `Mine prosjekter`?
+
+## Test prosjektet {.flag}
+
+__Åpne filen igjen.__
+
+- [ ] På startsiden, trykk `Hent inn` og så `Hent inn en fil ...`. Velg
+  `.mkcd`-filen du lastet ned.
+
+- [ ] Kommer programmet ditt tilbake?
+
+## Tips {.protip}
+
+Bruker skolen maskiner som blir nullstilt, eller bytter du maskin neste gang?
+Lagre filen på et sted du har med deg, for eksempel en minnepinne eller
+skylagringen til skolen.
+
+
 
 Øverst i editoren kan du bytte fra `Blokker` til `JavaScript`. Da ser du det
 samme programmet skrevet som tekst:
