@@ -162,6 +162,7 @@ a.external::after { content: " ↗" / " (ekstern side)"; }
 details > summary { cursor: pointer; min-height: 44px; padding: var(--space-3) var(--space-4); font-weight: 600; color: var(--brand-primary); }
 details[open] > summary { border-bottom: 1px solid var(--border-card); }
 .course-info > .content { padding: 0 var(--space-5) var(--space-4); }
+.course-intro { max-width: 46rem; }
 .playlist summary { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
 .playlist summary::before { content: "▸"; }
 .playlist[open] summary::before { content: "▾"; }
@@ -245,8 +246,15 @@ a.km-udir::after { content: " ↗" / ""; }
 .lesson-content img { border-radius: 4px; }
 .lesson-content h1 { font-size: 1.75rem; }
 .lesson-content h2 { font-size: 1.4rem; }
-.lesson-content table { border-collapse: collapse; margin: var(--space-4) 0; display: block; overflow-x: auto; }
-.lesson-content th, .lesson-content td { border: 1px solid var(--border-card); padding: var(--space-2) var(--space-3); text-align: left; }
+/* Tables: scroll sideways when too wide, never break words mid-letter */
+.lesson-content table, .course-info table { border-collapse: collapse; margin: var(--space-4) 0; display: block; max-width: 100%; overflow-x: auto; }
+.lesson-content th, .lesson-content td, .course-info th, .course-info td { border: 1px solid var(--border-card); padding: var(--space-2) var(--space-3); text-align: left; vertical-align: top; overflow-wrap: normal; hyphens: auto; }
+.lesson-content td code, .course-info td code { white-space: nowrap; }
+@media (max-width: 40rem) {
+  .lesson-content table, .course-info table { font-size: var(--fs-body-sm); }
+  .lesson-content th, .lesson-content td, .course-info th, .course-info td { padding: var(--space-1) var(--space-2); }
+  .course-info > .content { padding: 0 var(--space-3) var(--space-3); }
+}
 .lesson-content pre { background: var(--surface-raised); border: 1px solid var(--border-card); border-radius: 8px; padding: var(--space-3) var(--space-4); overflow-x: auto; line-height: 1.45; }
 .lesson-content :not(pre) > code { background: var(--brand-primary-tint); border-radius: 4px; padding: 0.1em 0.35em; }
 .lesson-content section { margin: var(--space-5) 0; }

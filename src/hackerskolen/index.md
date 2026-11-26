@@ -3,27 +3,27 @@ title: Hackerskolen
 language: nb
 ---
 
+På film er hacking grønn tekst, hettegensere og 30 sekunder til du er inne.
+I virkeligheten er det nysgjerrighet, puslespill og tålmodighet. I
+**Hackerskolen** lærer du å tenke som en hacker, så du kan forsvare det du
+lager selv.
+
+Du blir rekrutt i det oppdiktede sikkerhetsbyrået **Byrå 404** og går opp i
+grad fra **Rekrutt** til **Hvit hatt**. Alt skjer i en lab på din egen maskin,
+for den første regelen for en hvit hatt er: **Du angriper bare det du har lov
+til.** Kurset passer fra 8. trinn og oppover.
+
+## Om kurset
+
 Neo ser koden bak verden i *The Matrix*. Lisbeth Salander finner alt om alle
 i *Millennium*. Elliot i *Mr. Robot* tar ned et helt selskap fra et lite
 rom i New York. Og i *Hackers* fra 1995 rulleskøyter de rundt og roper «Hack
-the planet!».
+the planet!». Ekte hacking er tregere, men kanskje enda kulere: Du finner
+hull ingen andre har sett, og du er den som tetter dem.
 
-På film er hacking grønn tekst, hettegensere og 30 sekunder til du er inne.
-I virkeligheten er det nysgjerrighet, puslespill og tålmodighet. Og det er
-kanskje enda kulere: Du finner hull ingen andre har sett, og du er den som
-tetter dem.
-
-I **Hackerskolen** lærer du å tenke som en hacker, så du kan forsvare det du
-lager selv. Du blir rekrutt i det oppdiktede sikkerhetsbyrået **Byrå 404**,
-løser oppdrag, finner flagg og går opp i grad fra **Rekrutt** til **Hvit
-hatt**. Underveis lærer du terminalen, passord, nettverk og de vanligste
-hullene i nettsider. Til slutt angriper du en øvingsapp, tetter hullene og
-skriver en ekte pentestrapport.
-
-Alt skjer på din egen maskin, i en lab som følger med kurset. Det er den
-første regelen for en hvit hatt: **Du angriper bare det du har lov til.**
-
-Kurset passer fra 8. trinn og oppover.
+Underveis løser du oppdrag og finner flagg. Du lærer terminalen, passord,
+nettverk og de vanligste hullene i nettsider. Til slutt angriper du en
+øvingsapp, tetter hullene og skriver en ekte pentestrapport.
 
 ## Hvordan komme i gang
 
