@@ -10,31 +10,31 @@ language: nb
 Mange barn som liker Minecraft, vil før eller siden endre selve spillet. Det er
 et naturlig neste steg, og det er programmering.
 
-I denne oppgaven installerer du **Codeling**, en mod som gir barnet en liten
+I denne oppgaven installerer du **Halison Code**, en mod som gir barnet en liten
 robot i Minecraft-verdenen. Barnet programmerer roboten med blokker, slik som i
 Scratch, eller med JavaScript eller Python. Roboten går, bygger, graver og
 hogger trær. Du skal ikke programmere selv. Din jobb er å gjøre klar maskinen og
 se på.
 
-Codeling krever **Minecraft Java Edition** på en datamaskin. Den virker ikke på
-konsoll, nettbrett eller mobil.
+Halison Code krever **Minecraft Java Edition** på en datamaskin. Den virker ikke
+på konsoll, nettbrett eller mobil.
 
 
-# Steg 1: Installer Fabric og Codeling {.activity}
+# Steg 1: Installer Fabric og Halison Code {.activity}
 
-Codeling er en mod, og modder lastes inn av et lite program som heter
+Halison Code er en mod, og modder lastes inn av et lite program som heter
 **Fabric**. Installasjonen tar omtrent ti minutter.
 
 ## Sjekkliste {.check}
 
 - [ ] Følg [installasjonsveiledningen for
-  Codeling](../../codeling/installasjon/installasjon.html) steg for steg.
+  Halison Code](../../codeling/installasjon/installasjon.html) steg for steg.
 
 - [ ] Start Minecraft med Fabric-profilen, og sjekk at spillet starter.
 
 ## Tips {.tip}
 
-Fabric og Codeling hentes fra de offisielle sidene som står i
+Fabric og Halison Code hentes fra de offisielle sidene som står i
 installasjonsveiledningen. Det er det samme prinsippet som i oppgaven [Trygt
 spill](../trygt_spill/trygt_spill.html): modder er programmer, og skal komme fra
 kilder du stoler på.
@@ -65,7 +65,7 @@ roboten gjøre det programmet sier, med en gang.
 
 # Steg 3: Veien videre {.activity}
 
-Codeling er én vei inn. Når barnet vil mer, finnes det flere:
+Halison Code er én vei inn. Når barnet vil mer, finnes det flere:
 
 - **ComputerCraft:** Moden CC: Tweaked gir datamaskiner og roboter (turtles) i
   spillet, som programmeres i språket Lua. Den finnes på
@@ -94,7 +94,7 @@ installerer modder, setter opp servere og leser feilmeldinger lenge før de har
 hørt ordet programmering. Lysten kommer av at de vil bygge noe i en verden de
 allerede bryr seg om.
 
-Når barnet programmerer roboten i Codeling, ser det med en gang at koden gjør
-noe i den verdenen. Det er en sterk drivkraft. Du trenger ikke kunne programmere
-selv for å hjelpe. Det holder å være nysgjerrig, spørre hva programmet gjør, og
-la barnet forklare.
+Når barnet programmerer roboten i Halison Code, ser det med en gang at koden
+gjør noe i den verdenen. Det er en sterk drivkraft. Du trenger ikke kunne
+programmere selv for å hjelpe. Det holder å være nysgjerrig, spørre hva
+programmet gjør, og la barnet forklare.

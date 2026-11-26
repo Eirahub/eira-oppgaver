@@ -1,5 +1,5 @@
 ---
-title: Installere Codeling
+title: Installere Halison Code
 author: Tor Einar Enne
 indexed: false
 language: nb
@@ -11,8 +11,8 @@ language: nb
 Denne veiledningen er for en voksen som gjør datamaskinen klar. Elevene trenger
 ikke gjøre dette selv. Installasjonen tar omtrent ti minutter.
 
-Codeling er en mod til **Minecraft Java Edition**. Den virker ikke i Minecraft
-for nettbrett, mobil, konsoll eller Education Edition.
+Halison Code er en mod til **Minecraft Java Edition**. Den virker ikke i
+Minecraft for nettbrett, mobil, konsoll eller Education Edition.
 
 <!-- BILDE: Roboten står i en Minecraft-verden, med editoren åpen i nettleseren
 ved siden av. -->
@@ -26,23 +26,27 @@ ved siden av. -->
 
 - [ ] En nettleser: Chrome, Edge eller Firefox.
 
-- [ ] Codeling-filen (en `.jar`-fil) for Minecraft-versjonen og modlasteren din.
-  Filene ligger under **Assets** på [siste utgivelse av
-  Codeling](https://github.com/Eirahub/MinecraftCodeling/releases/latest).
+- [ ] Halison Code-filen (en `.jar`-fil) for Minecraft-versjonen og modlasteren
+  din. Filene ligger under **Assets** øverst på [utgivelsessiden til
+  Halison Code](https://github.com/halisonworks/mod-halisoncode/releases).
   Filnavnet sier hvilken modlaster og Minecraft-versjon filen er laget for, for
-  eksempel `codeling-<modlaster>-<minecraftversjon>-...jar`.
+  eksempel `halisoncode-<modlaster>-<minecraftversjon>-...jar`.
 
 ## Tips {.protip}
 
 Velg samme Minecraft-versjon på alle maskinene i klasserommet, og bruk samme
-versjon av Codeling overalt. Ulike versjoner kan ikke spille sammen.
+versjon av Halison Code overalt. Ulike versjoner kan ikke spille sammen.
+
+Til og med versjon 0.0.5 het moden Codeling. Har du den fra før, fjerner du
+den gamle filen fra `mods`. Roboter og prosjekter fra Codeling blir ikke med
+over, så kopier JavaScript-koden du vil ta vare på, til en tekstfil først.
 
 
 # Steg 2: Installer en modlaster {.activity}
 
-En modlaster er programmet som laster inn modder i Minecraft. Codeling virker
-med modlasterne som står i [veiledningen for
-spillere](https://github.com/Eirahub/MinecraftCodeling/blob/main/docs/player/guide-nb.md#installere).
+En modlaster er programmet som laster inn modder i Minecraft. Halison Code
+virker med modlasterne som står i [veiledningen for
+spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md#installere).
 
 ## Sjekkliste {.check}
 
@@ -50,7 +54,7 @@ spillere](https://github.com/Eirahub/MinecraftCodeling/blob/main/docs/player/gui
 
 - [ ] Følg installasjonsprogrammet til modlasteren du velger. Trinnene for hver
   modlaster står i [veiledningen for
-  spillere](https://github.com/Eirahub/MinecraftCodeling/blob/main/docs/player/guide-nb.md#installere).
+  spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md#installere).
 
 - [ ] Åpne Minecraft Launcher og start profilen modlasteren laget. Lukk spillet
   igjen når menyen vises. Da lages mappa `mods`.
@@ -61,7 +65,7 @@ spillere](https://github.com/Eirahub/MinecraftCodeling/blob/main/docs/player/gui
 ## Sjekkliste {.check}
 
 - [ ] Sjekk i [veiledningen for
-  spillere](https://github.com/Eirahub/MinecraftCodeling/blob/main/docs/player/guide-nb.md#installere)
+  spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md#installere)
   om modlasteren din trenger flere filer, for eksempel et eget API-bibliotek.
   Last dem ned for samme Minecraft-versjon.
 
@@ -73,7 +77,7 @@ spillere](https://github.com/Eirahub/MinecraftCodeling/blob/main/docs/player/gui
 
   - Linux: `~/.minecraft/mods`
 
-- [ ] Legg `.jar`-filen til Codeling i mappa, sammen med eventuelle filer
+- [ ] Legg `.jar`-filen til Halison Code i mappa, sammen med eventuelle filer
   modlasteren krever.
 
 
@@ -89,7 +93,7 @@ spillere](https://github.com/Eirahub/MinecraftCodeling/blob/main/docs/player/gui
 - [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter. En
   liten robot dukker opp ved føttene dine.
 
-- [ ] Skriv `/codeling` i chatten. Nettleseren åpner Codeling-editoren.
+- [ ] Skriv `/halisoncode` i chatten. Nettleseren åpner Halison Code-editoren.
 
 ## Test prosjektet {.flag}
 
@@ -99,13 +103,13 @@ spillere](https://github.com/Eirahub/MinecraftCodeling/blob/main/docs/player/gui
 
 # Hvis noe går galt {.activity}
 
-| Problem                                              | Hva du gjør                                                                                        |
-| ---------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| `/codeling` finnes ikke                              | Codeling er ikke lastet. Sjekk at filen ligger i `mods` og at du startet profilen til modlasteren. |
-| "Editor link expired"                                | Minecraft er startet på nytt. Skriv `/codeling` igjen.                                             |
-| "Not in a world"                                     | Åpne en verden først, og trykk Kjør igjen.                                                         |
-| "Robot is not loaded"                                | Skriv `/robot spawn`, eller gå nærmere roboten.                                                    |
-| Roboten venter, og loggen sier "Minecraft is paused" | Gå tilbake til spillet og lukk pausemenyen.                                                        |
+| Problem | Hva du gjør |
+| --- | --- |
+| `/halisoncode` finnes ikke | Halison Code er ikke lastet. Sjekk at filen ligger i `mods` og at du startet profilen til modlasteren. |
+| "Editor link expired" | Minecraft er startet på nytt. Skriv `/halisoncode` igjen. |
+| "Not in a world" | Åpne en verden først, og trykk Kjør igjen. |
+| "Robot is not loaded" | Skriv `/robot spawn`, eller gå nærmere roboten. |
+| Roboten venter, og loggen sier "Minecraft is paused" | Gå tilbake til spillet og lukk pausemenyen. |
 
 Flere feilmeldinger står i [veiledningen for
-spillere](https://github.com/Eirahub/MinecraftCodeling/blob/main/docs/player/guide-nb.md#feilsøking).
+spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md#feilsøking).

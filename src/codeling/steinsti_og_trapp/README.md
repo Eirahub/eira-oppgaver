@@ -59,8 +59,8 @@ __Tidsbruk__: Omtrent en time. Dobbelttime med utfordringene.
 
 - [ ] __Forutsetninger__: Oppgaven Kom i gang.
 
-- [ ] __Utstyr__: Codeling installert, Minecraft Java Edition i Kreativ modus.
-  Se oppgaven Installere Codeling.
+- [ ] __Utstyr__: Halison Code installert, Minecraft Java Edition i Kreativ
+  modus. Se oppgaven Installere Halison Code.
 
 - [ ] __Kreativ modus__: Kommandoen `robot gi` virker bare i Kreativ. I
   overlevelse må roboten få blokkene på en annen måte.
@@ -128,8 +128,8 @@ __Tidsbruk__: Omtrent en time. Dobbelttime med utfordringene.
 
 # Eksterne ressurser {.activity}
 
-- [Codeling på GitHub](https://github.com/Eirahub/MinecraftCodeling): kode og
-  utgivelser.
+- [Halison Code på GitHub](https://github.com/halisonworks/mod-halisoncode):
+  kode og utgivelser.
 
-- [Veiledning for spillere](https://github.com/Eirahub/MinecraftCodeling/blob/main/docs/player/guide-nb.md):
+- [Veiledning for spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md):
   robotkommandoene.

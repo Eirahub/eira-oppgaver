@@ -7,7 +7,7 @@ language: nb
 
 # Om oppgaven {.activity}
 
-Elevene lager en robot i Minecraft, åpner Codeling-editoren i nettleseren og
+Elevene lager en robot i Minecraft, åpner Halison Code-editoren i nettleseren og
 skriver sitt første program med blokker. De får roboten til å gå, snu seg og si
 hei, og går i en firkant. Til slutt ser de det samme programmet som
 JavaScript. Oppgaven introduserer sekvens, rekkefølge og feilsøking.
@@ -60,9 +60,9 @@ __Tidsbruk__: Omtrent en time. Dobbelttime hvis elevene tar utfordringene.
 - [ ] __Forutsetninger__: Ingen forkunnskaper i programmering. Det hjelper å ha
   spilt litt Minecraft.
 
-- [ ] __Installasjon__: Codeling må være installert før timen, se oppgaven
-  Installere Codeling. Minecraft Java Edition og en modlaster som Fabric eller
-  NeoForge er påkrevd.
+- [ ] __Installasjon__: Halison Code må være installert før timen, se oppgaven
+  Installere Halison Code. Minecraft Java Edition og en modlaster som Fabric
+  eller NeoForge er påkrevd.
 
 - [ ] __Maskiner__: Windows, macOS eller Linux. Nettbrett og mobil fungerer
   ikke.
@@ -95,7 +95,7 @@ __Tidsbruk__: Omtrent en time. Dobbelttime hvis elevene tar utfordringene.
 
 ## Steg 2: Editoren {.check}
 
-- [ ] `/codeling` åpner nettleseren. Lenken virker bare på denne maskinen og
+- [ ] `/halisoncode` åpner nettleseren. Lenken virker bare på denne maskinen og
   bare mens Minecraft kjører.
 
 - [ ] Hjelp elevene å plassere vinduene side om side. Pausemenyen i Minecraft
@@ -144,8 +144,8 @@ __Tidsbruk__: Omtrent en time. Dobbelttime hvis elevene tar utfordringene.
 
 # Eksterne ressurser {.activity}
 
-- [Codeling på GitHub](https://github.com/Eirahub/MinecraftCodeling): kode og
-  utgivelser.
+- [Halison Code på GitHub](https://github.com/halisonworks/mod-halisoncode):
+  kode og utgivelser.
 
-- [Veiledning for spillere](https://github.com/Eirahub/MinecraftCodeling/blob/main/docs/player/guide-nb.md):
+- [Veiledning for spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md):
   alle robotkommandoer.
