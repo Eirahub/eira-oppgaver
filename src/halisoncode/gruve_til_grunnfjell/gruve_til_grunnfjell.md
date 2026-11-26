@@ -20,6 +20,36 @@ først.
 helt nederst på grunnfjellet. -->
 
 
+# Før du starter {.activity}
+
+## Sjekkliste {.check}
+
+- [ ] Start Minecraft med Halison Code. Åpne en vanlig verden i `Kreativ`
+  modus (Creative) med juksekoder på (Allow Commands: ON). Den må ha trær og
+  fjell, så ikke velg `Superflat`.
+
+- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter.
+  Roboten dukker opp ved føttene dine og ser samme vei som deg.
+
+- [ ] Trykk `T` igjen, skriv `/halisoncode` og trykk Enter. Editoren åpnes i
+  nettleseren. Trykk `Nytt prosjekt`.
+
+## Slik bytter du mellom Minecraft og editoren {.tip}
+
+- Du lager programmet i nettleseren og ser roboten i Minecraft. Bytt vindu med
+  `Alt` + `Tab` (på Mac `Cmd` + `Tab`). Hold inne `Alt` og trykk `Tab` til
+  Minecraft er valgt, og slipp.
+
+- Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
+  kjører fra nettleseren, så la editoren stå åpen.
+
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
+  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
+
+- Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
+  et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
+
+
 # Steg 1: Grav ett steg {.activity}
 
 Roboten graver ned ved å knuse blokken under seg og så flytte ned.
@@ -35,6 +65,8 @@ Roboten graver ned ved å knuse blokken under seg og så flytte ned.
 ## Test prosjektet {.flag}
 
 __Trykk på `Kjør`.__
+
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
 
 - [ ] Har roboten gravd ett hull og gått ned i det?
 
@@ -74,6 +106,8 @@ bunnen.
 
 __Trykk på `Kjør` og se gjennom `/robot camera follow`.__
 
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
+
 - [ ] Stopper roboten på grunnfjellet?
 
 - [ ] Hvor stor ble `dybde`? Legg til `robot si dybde` etter løkka for å se.
@@ -102,6 +136,8 @@ Dypt nede er det lava. Roboten skal stoppe og si fra før den graver inn i den.
 ## Test prosjektet {.flag}
 
 __Lag en dam av lava i `Kreativ`, sett roboten over den og kjør.__
+
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
 
 - [ ] Stopper roboten før lavaen?
 

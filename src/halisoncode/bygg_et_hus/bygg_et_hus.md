@@ -19,6 +19,36 @@ trapp](../steinsti_og_trapp/steinsti_og_trapp.html) først.
 bygget av roboten. -->
 
 
+# Før du starter {.activity}
+
+## Sjekkliste {.check}
+
+- [ ] Start Minecraft med Halison Code. Åpne en flat verden i `Kreativ` modus
+  (Creative) med juksekoder på (Allow Commands: ON). Velg `Superflat` under
+  `Verdenstype` (World Type).
+
+- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter.
+  Roboten dukker opp ved føttene dine og ser samme vei som deg.
+
+- [ ] Trykk `T` igjen, skriv `/halisoncode` og trykk Enter. Editoren åpnes i
+  nettleseren. Trykk `Nytt prosjekt`.
+
+## Slik bytter du mellom Minecraft og editoren {.tip}
+
+- Du lager programmet i nettleseren og ser roboten i Minecraft. Bytt vindu med
+  `Alt` + `Tab` (på Mac `Cmd` + `Tab`). Hold inne `Alt` og trykk `Tab` til
+  Minecraft er valgt, og slipp.
+
+- Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
+  kjører fra nettleseren, så la editoren stå åpen.
+
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
+  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
+
+- Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
+  et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
+
+
 # Steg 1: En boks {.activity}
 
 `fyll med` fra kategorien `Blokker` fyller en hel boks mellom to hjørner. Med
@@ -26,9 +56,7 @@ bygget av roboten. -->
 
 ## Sjekkliste {.check}
 
-- [ ] Åpne en flat verden i `Kreativ`. Skriv `/robot spawn`.
-
-- [ ] Lag et nytt prosjekt. Dra `fyll med` inn i `ved start`.
+- [ ] Dra `fyll med` inn i `ved start`.
 
 - [ ] Velg `eikeplanker`. Sett det første hjørnet til `~1 ~-1 ~1` og det andre
   til `~7 ~3 ~7`. Velg `hul` til slutt.
@@ -36,6 +64,8 @@ bygget av roboten. -->
 ## Test prosjektet {.flag}
 
 __Trykk på `Kjør`.__
+
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
 
 - [ ] Står det en stor boks av planker ved siden av deg?
 
@@ -63,6 +93,8 @@ Huset har ingen vei inn. Vi lager en åpning ved å fylle med **luft**.
 
 __Riv det gamle huset med `/fill` eller bygg et nytt et annet sted, og kjør.__
 
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
+
 - [ ] Kan du gå inn i huset?
 
 
@@ -78,6 +110,8 @@ __Riv det gamle huset med `/fill` eller bygg et nytt et annet sted, og kjør.__
 ## Test prosjektet {.flag}
 
 __Kjør programmet på et nytt sted.__
+
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
 
 - [ ] Har huset vinduer og lys?
 
@@ -107,6 +141,8 @@ Nå skal du kunne bestemme størrelsen fra chatten. Da trenger funksjonen
 ## Test prosjektet {.flag}
 
 __Skriv `hus 9 7` i chatten. Gå et annet sted og skriv `hus 5 12`.__
+
+- [ ] Trykk `Kjør` i editoren først. Bytt så til Minecraft med `Alt` + `Tab`.
 
 - [ ] Blir husene like store som du ba om?
 

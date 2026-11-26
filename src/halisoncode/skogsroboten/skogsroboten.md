@@ -21,6 +21,36 @@ Du bør ha gjort oppgavene
 en stubbe der treet stod. -->
 
 
+# Før du starter {.activity}
+
+## Sjekkliste {.check}
+
+- [ ] Start Minecraft med Halison Code. Åpne en vanlig verden i `Kreativ`
+  modus (Creative) med juksekoder på (Allow Commands: ON). Den må ha trær og
+  fjell, så ikke velg `Superflat`.
+
+- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter.
+  Roboten dukker opp ved føttene dine og ser samme vei som deg.
+
+- [ ] Trykk `T` igjen, skriv `/halisoncode` og trykk Enter. Editoren åpnes i
+  nettleseren. Trykk `Nytt prosjekt`.
+
+## Slik bytter du mellom Minecraft og editoren {.tip}
+
+- Du lager programmet i nettleseren og ser roboten i Minecraft. Bytt vindu med
+  `Alt` + `Tab` (på Mac `Cmd` + `Tab`). Hold inne `Alt` og trykk `Tab` til
+  Minecraft er valgt, og slipp.
+
+- Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
+  kjører fra nettleseren, så la editoren stå åpen.
+
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
+  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
+
+- Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
+  et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
+
+
 # Steg 1: Finn treet {.activity}
 
 `agent.findNearestCategory` leter etter den nærmeste blokken av en type. Med
@@ -46,6 +76,8 @@ if (tre) {
 ## Test prosjektet {.flag}
 
 __Trykk på `Kjør`.__
+
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
 
 - [ ] Hvilken posisjon sier roboten? Se på koordinatene med `F3`. Stemmer det?
 
@@ -73,6 +105,8 @@ if (!agent.moveTo(tre)) {
 ## Test prosjektet {.flag}
 
 __Kjør igjen.__
+
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
 
 - [ ] Går roboten bort til treet?
 
@@ -124,6 +158,8 @@ function snuMot(mål: Position) {
 
 __Kjør igjen, fra et annet sted.__
 
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
+
 - [ ] Ser roboten mot stammen nå, uansett hvilken side den kom fra?
 
 ## Tips {.protip}
@@ -146,6 +182,8 @@ Nå kan du bruke det du laget i Tømmerhuggeren.
 ## Test prosjektet {.flag}
 
 __Kjør programmet.__
+
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
 
 - [ ] Hogger roboten hele stammen og kommer ned igjen?
 
@@ -171,6 +209,8 @@ for (let p of ting) {
 ## Test prosjektet {.flag}
 
 __Kjør programmet ved et nytt tre.__
+
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
 
 - [ ] Plukker roboten opp stiklinger og epler?
 
@@ -204,6 +244,8 @@ player.onChat("skog", function (num1, num2, num3) {
 ## Test prosjektet {.flag}
 
 __Skriv `skog 3` i chatten.__
+
+- [ ] Trykk `Kjør` i editoren først. Bytt så til Minecraft med `Alt` + `Tab`.
 
 - [ ] Henter roboten tre trær og kommer hjem hver gang?
 

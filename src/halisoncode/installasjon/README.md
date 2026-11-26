@@ -123,6 +123,14 @@ modlasteren, og `/robot spawn` og `/halisoncode` virker.
 
 ## Vanlige problemer {.protip}
 
+- Roboten står stille etter at eleven byttet vindu: Minecraft er på pause.
+  Trykk `Tilbake til spillet`. `F3` + `P` slår av pause når vinduet mister
+  fokus, og `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele
+  verdenen.
+
+- Chatkommandoen virker ikke: programmet må kjøre og editoren stå åpen. Trykk
+  `Kjør` i editoren før eleven bytter til Minecraft.
+
 - `/halisoncode` finnes ikke: Halison Code er ikke lastet. Sjekk at filen ligger
   i `mods` og at riktig profil er startet.
 

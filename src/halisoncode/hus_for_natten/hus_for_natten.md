@@ -30,7 +30,8 @@ Du bør ha gjort oppgavene
 - [ ] Lag en ny verden i `Overlevelse`, med juksekoder på. Da kan du skrive
   `/time set 0` for å prøve igjen fra morgenen.
 
-- [ ] Skriv `/robot spawn`. Klokka går.
+- [ ] Skriv `/robot spawn` i chatten, og `/halisoncode` for å åpne editoren.
+  Klokka går.
 
 - [ ] Huset skal ha fire vegger, tak, en åpning til dør og lys inni.
 
@@ -42,6 +43,22 @@ Du bør ha gjort oppgavene
   selv, eller få av deg.
 
 - Du får hjelpe til, men det er roboten som skal gjøre det meste av jobben.
+
+
+## Slik bytter du mellom Minecraft og editoren {.tip}
+
+- Du lager programmet i nettleseren og ser roboten i Minecraft. Bytt vindu med
+  `Alt` + `Tab` (på Mac `Cmd` + `Tab`). Hold inne `Alt` og trykk `Tab` til
+  Minecraft er valgt, og slipp.
+
+- Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
+  kjører fra nettleseren, så la editoren stå åpen.
+
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
+  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
+
+- Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
+  et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
 
 
 # Verktøykassa {.activity}

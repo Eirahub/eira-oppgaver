@@ -17,6 +17,36 @@ Du bør ha gjort oppgaven [Kom i gang](../kom_i_gang/kom_i_gang.html) først.
 "Jeg er ute!". -->
 
 
+# Før du starter {.activity}
+
+## Sjekkliste {.check}
+
+- [ ] Start Minecraft med Halison Code. Åpne en flat verden i `Kreativ` modus
+  (Creative) med juksekoder på (Allow Commands: ON). Velg `Superflat` under
+  `Verdenstype` (World Type).
+
+- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter.
+  Roboten dukker opp ved føttene dine og ser samme vei som deg.
+
+- [ ] Trykk `T` igjen, skriv `/halisoncode` og trykk Enter. Editoren åpnes i
+  nettleseren. Trykk `Nytt prosjekt`.
+
+## Slik bytter du mellom Minecraft og editoren {.tip}
+
+- Du lager programmet i nettleseren og ser roboten i Minecraft. Bytt vindu med
+  `Alt` + `Tab` (på Mac `Cmd` + `Tab`). Hold inne `Alt` og trykk `Tab` til
+  Minecraft er valgt, og slipp.
+
+- Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
+  kjører fra nettleseren, så la editoren stå åpen.
+
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
+  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
+
+- Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
+  et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
+
+
 # Steg 1: Hjemme {.activity}
 
 Roboten kan huske ett sted som hjemmet sitt. Etterpå finner den veien tilbake
@@ -24,9 +54,7 @@ dit, også rundt hindringer.
 
 ## Sjekkliste {.check}
 
-- [ ] Åpne en verden i `Kreativ` modus og skriv `/robot spawn` i chatten.
-
-- [ ] Lag et nytt prosjekt i editoren. Dra `robot sett hjem` fra kategorien
+- [ ] Dra `robot sett hjem` fra kategorien
   `Robot` inn i `ved start`.
 
 - [ ] Under den: `robot flytt fremover med 5`, `robot snu venstre` og `robot
@@ -37,6 +65,8 @@ dit, også rundt hindringer.
 ## Test prosjektet {.flag}
 
 __Trykk på `Kjør`.__
+
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
 
 - [ ] Går roboten ut og kommer tilbake?
 
@@ -68,6 +98,8 @@ sør fra deg.
 ## Test prosjektet {.flag}
 
 __Gå et stykke bort, trykk `T` og skriv `hit`.__
+
+- [ ] Trykk `Kjør` i editoren først. Bytt så til Minecraft med `Alt` + `Tab`.
 
 - [ ] Kommer roboten til deg?
 
@@ -105,6 +137,8 @@ kan gjøre i en ekte labyrint.
 ## Test prosjektet {.flag}
 
 __Trykk på `Kjør`.__
+
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
 
 - [ ] Kommer roboten ut på sørsiden?
 

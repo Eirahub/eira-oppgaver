@@ -21,8 +21,12 @@ Først trenger vi en verden og en robot.
 
 ## Sjekkliste {.check}
 
-- [ ] Start Minecraft med Halison Code, og åpne en verden i `Kreativ` modus. En
-  flat verden er fin, da står ingenting i veien.
+- [ ] Start Minecraft med Halison Code. Velg `Enspiller` (Singleplayer) og
+  `Lag ny verden` (Create New World).
+
+- [ ] Sett `Spillmodus` (Game Mode) til `Kreativ` (Creative), og sjekk at
+  juksekoder (Allow Commands) er på. Under `Verden` (World), velg
+  `Superflat`. Trykk `Lag ny verden`.
 
 - [ ] Trykk `T` for å åpne chatten. Skriv `/robot spawn` og trykk Enter.
 
@@ -54,10 +58,20 @@ Programmene skriver du i nettleseren, i Halison Code-editoren.
 
 ![Editoren med tomt prosjekt og kategorien Robot markert](editor_tom.png)
 
-## Tips {.protip}
+## Slik bytter du mellom Minecraft og editoren {.tip}
 
-Plasser vinduene slik at du ser både Minecraft og nettleseren. Da ser du hva
-roboten gjør mens programmet kjører.
+- Du lager programmet i nettleseren og ser roboten i Minecraft. Bytt vindu med
+  `Alt` + `Tab` (på Mac `Cmd` + `Tab`). Hold inne `Alt` og trykk `Tab` til
+  Minecraft er valgt, og slipp.
+
+- Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
+  kjører fra nettleseren, så la editoren stå åpen.
+
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
+  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
+
+- Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
+  et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
 
 
 # Steg 3: Få roboten til å gå {.activity}
@@ -76,6 +90,8 @@ Robotblokkene ligger i kategorien `Robot`, som er grønn.
 ## Test prosjektet {.flag}
 
 __Trykk på `Kjør`-knappen under simulatoren.__
+
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
 
 - [ ] Se i Minecraft. Går roboten 3 blokker fremover?
 
@@ -107,6 +123,8 @@ Hei!](program_hei.png)
 ## Test prosjektet {.flag}
 
 __Trykk på `Kjør`.__
+
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
 
 - [ ] Roboten går 3 blokker, snur seg mot høyre, går 2 blokker og sier `Hei!`.
 

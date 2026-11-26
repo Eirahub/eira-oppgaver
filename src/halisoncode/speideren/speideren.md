@@ -18,6 +18,36 @@ Du bør ha gjort oppgaven [Finn veien](../finn_veien/finn_veien.html) først.
 øverst til venstre. -->
 
 
+# Før du starter {.activity}
+
+## Sjekkliste {.check}
+
+- [ ] Start Minecraft med Halison Code. Åpne en vanlig verden i `Kreativ`
+  modus (Creative) med juksekoder på (Allow Commands: ON). Den må ha trær og
+  fjell, så ikke velg `Superflat`.
+
+- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter.
+  Roboten dukker opp ved føttene dine og ser samme vei som deg.
+
+- [ ] Trykk `T` igjen, skriv `/halisoncode` og trykk Enter. Editoren åpnes i
+  nettleseren. Trykk `Nytt prosjekt`.
+
+## Slik bytter du mellom Minecraft og editoren {.tip}
+
+- Du lager programmet i nettleseren og ser roboten i Minecraft. Bytt vindu med
+  `Alt` + `Tab` (på Mac `Cmd` + `Tab`). Hold inne `Alt` og trykk `Tab` til
+  Minecraft er valgt, og slipp.
+
+- Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
+  kjører fra nettleseren, så la editoren stå åpen.
+
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
+  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
+
+- Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
+  et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
+
+
 # Steg 1: Se med robotens øyne {.activity}
 
 Roboten har et kamera. Du kan se gjennom det når du vil.
@@ -52,6 +82,8 @@ Roboten flyr fra start. Den faller ikke, selv om det er luft under den.
 
 __Trykk på `Kjør`.__
 
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
+
 - [ ] Følger kameraet roboten mens den flyr?
 
 - [ ] Hva skjer hvis roboten treffer et fjell eller et høyt tre?
@@ -85,6 +117,8 @@ tall eller en tekst.
 
 __Trykk på `Kjør`.__
 
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
+
 - [ ] Hvilket biom landet roboten i?
 
 
@@ -110,6 +144,8 @@ velge hva den skal si.
 ## Test prosjektet {.flag}
 
 __Kjør programmet både om dagen og om natten.__
+
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
 
 - [ ] Sier roboten noe annet når det er mørkt?
 
