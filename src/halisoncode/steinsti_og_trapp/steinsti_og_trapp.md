@@ -17,6 +17,42 @@ Du bør ha gjort oppgaven [Kom i gang](../kom_i_gang/kom_i_gang.html) først.
 roboten. -->
 
 
+# Før du starter {.activity}
+
+## Sjekkliste {.check}
+
+- [ ] Start Minecraft med Halison Code. Åpne en flat verden i `Kreativ` modus
+  (Creative) med juksekoder på (Allow Commands: ON). Velg `Superflat` under
+  `Verdenstype` (World Type).
+
+- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter.
+  Roboten dukker opp ved føttene dine og ser samme vei som deg.
+
+- [ ] Trykk `T` igjen, skriv `/halisoncode` og trykk Enter. Editoren åpnes i
+  nettleseren. Trykk `Nytt prosjekt`.
+
+- [ ] Skriv `/gamerule halisoncode:pause_on_lost_focus false` i chatten. Da går
+  ikke spillet på pause når du bytter til editoren, og du ser hva roboten gjør
+  mens du jobber. Du trenger bare gjøre det én gang i hver verden.
+
+## Slik bytter du mellom Minecraft og editoren {.tip}
+
+- Du lager programmet i nettleseren og ser roboten i Minecraft. Bytt vindu med
+  `Alt` + `Tab` (på Mac `Cmd` + `Tab`). Hold inne `Alt` og trykk `Tab` til
+  Minecraft er valgt, og slipp.
+
+- Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
+  kjører fra nettleseren, så la editoren stå åpen.
+
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
+  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
+  Har du ikke skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør
+  det nå. Du kan også trykke `F3` + `P` i Minecraft.
+
+- Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
+  et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
+
+
 # Steg 1: Gi roboten blokker {.activity}
 
 Roboten bygger med blokkene den har i inventaret sitt. Den har 27 plasser,
@@ -55,6 +91,8 @@ legger en blokk under seg.
 
 __Trykk på `Kjør`.__
 
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
+
 - [ ] Ligger det en planke under roboten nå?
 
 
@@ -76,6 +114,8 @@ flytt fremover og plasser ned](program_trapp.png)
 ## Test prosjektet {.flag}
 
 __Gå litt unna roboten, skriv `/robot spawn` og trykk `Kjør`.__
+
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
 
 - [ ] Bygger roboten en trapp med ti trinn?
 
@@ -99,8 +139,8 @@ sti.
 - [ ] Legg til en `gjenta 4 ganger` med `robot flytt fremover med 3` og `robot
   snu venstre` inni.
 
-- [ ] Etter løkka: `robot hjelp plasser ved flytting usann`, så roboten slutter å
-  bygge.
+- [ ] Etter løkka: `robot hjelp plasser ved flytting usann`, så roboten slutter
+  å bygge.
 
 ![Programmet for steinstien: gjenta 4 ganger med flytt fremover 3 og snu
 venstre](program_sti.png)
@@ -108,6 +148,8 @@ venstre](program_sti.png)
 ## Test prosjektet {.flag}
 
 __Trykk på `Kjør`.__
+
+- [ ] Bytt til Minecraft med `Alt` + `Tab` og se på roboten.
 
 - [ ] Lager roboten en firkantet sti av brostein?
 
