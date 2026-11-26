@@ -81,7 +81,7 @@ lenge det er en blokk foran roboten.
 
 ## Sjekkliste {.check}
 
-- [ ] Fra `Løkker`, dra `mens` inn i `ved start`, før `robot ødelegg`.
+- [ ] Fra `Løkker`, dra `gjenta hvis` inn i `ved start`, før `robot ødelegg`.
 
 - [ ] Sett betingelsen til `robot oppdag blokk fremover`.
 
@@ -110,8 +110,8 @@ Nå henger roboten oppe i lufta. Den skal ned til bakken.
 
 ## Sjekkliste {.check}
 
-- [ ] Under den første løkka, legg en ny `mens`. Betingelsen er `ikke robot
-  oppdag blokk ned`. `ikke` finner du i `Logikk`.
+- [ ] Under den første løkka, legg en ny `gjenta hvis`. Betingelsen er
+  `ikke robot oppdag blokk ned`. `ikke` finner du i `Logikk`.
 
 - [ ] Inni den: `robot flytt ned med 1`.
 

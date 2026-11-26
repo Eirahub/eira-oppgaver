@@ -90,8 +90,8 @@ bunnen.
 
 ## Sjekkliste {.check}
 
-- [ ] Vi vil stoppe på bunnen, så `gjenta for alltid` passer ikke. Dra `mens`
-  fra `Løkker` inn i `ved start`.
+- [ ] Vi vil stoppe på bunnen, så `gjenta for alltid` passer ikke. Dra
+  `gjenta hvis` fra `Løkker` inn i `ved start`.
 
 - [ ] Fra `Variabler`, lag en variabel `dybde`. Legg `sett dybde til 0` før
   løkka.
@@ -106,7 +106,7 @@ bunnen.
 
 - [ ] Løkka trenger en betingelse som blir usann på bunnen. Lag en variabel
   `graver`, sett den til `sann` før løkka, og bruk `graver` som betingelse i
-  `mens`. Inni `hvis` setter du `graver` til `usann`.
+  `gjenta hvis`. Inni `hvis` setter du `graver` til `usann`.
 
 ## Test prosjektet {.flag}
 
