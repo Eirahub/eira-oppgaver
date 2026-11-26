@@ -90,9 +90,10 @@ Dette har du lært før:
 - I overlevelse bygger `blocks.fill` med plankene i robotens inventar. Har den
   for få, stopper den og sier hva som mangler.
 
-- Regn ut hvor mange planker huset trenger før du begynner å hogge. En hul boks
-  på 5 ganger 4 ganger 5 trenger 5 · 4 · 5 - 3 · 2 · 3 = 82 planker. Én stamme
-  gir 4 planker.
+- Regn ut hvor mange planker huset trenger før du begynner å hogge. Boksen fra
+  `~1 ~-1 ~1` til `~5 ~3 ~5` er 5 ganger 5 ganger 5 blokker, med gulvet nede i
+  bakken. Hul trenger den 5 · 5 · 5 - 3 · 3 · 3 = 98 planker. Én stamme gir 4
+  planker, så det blir 25 stammer.
 
 - Et lite hus er bedre enn et halvferdig stort hus.
 
@@ -136,14 +137,20 @@ Minecraft er 24000 tikk, og det går 20 tikk i sekundet.
 
 # Del 4: Når noe går galt {.activity}
 
-Programmet stopper hvis roboten ikke klarer noe. I JavaScript kan du fange
-feilen og gjøre noe annet:
+Programmet stopper hvis roboten ikke klarer noe, for eksempel hvis huset er
+for langt unna. I JavaScript kan du fange feilen og gjøre noe annet.
+
+Går roboten tom for planker, stopper den bare å bygge, uten feil. Tell derfor
+blokkene etterpå:
 
 ```javascript
 try {
     blocks.fill(Block.OakPlanks, pos(1, -1, 1), pos(5, 3, 5), FillOperation.Hollow)
 } catch (e) {
-    player.say("Huset ble ikke ferdig: " + e)
+    player.say("Huset ble ikke bygget: " + e)
+}
+if (agent.countSolid(pos(1, -1, 1), pos(5, 3, 5)) < 98) {
+    player.say("Huset ble ikke ferdig. Roboten trenger flere planker.")
 }
 ```
 

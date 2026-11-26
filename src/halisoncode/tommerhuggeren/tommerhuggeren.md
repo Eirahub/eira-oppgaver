@@ -133,8 +133,9 @@ En god tømmerhugger planter nytt. Da kan roboten hogge på samme sted senere.
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til `robot gi eikestikling antall 1 i plass 27`. I `Kreativ` får
-  roboten en stikling, i overlevelse må den ha en fra løvet.
+- [ ] Legg til `robot gi eikestikling antall 1 i plass 27`. Det virker bare i
+  `Kreativ`. I overlevelse stopper programmet på denne blokka, og da må roboten
+  bruke en stikling den har fått fra løvet.
 
 - [ ] `robot velg plass 27`.
 

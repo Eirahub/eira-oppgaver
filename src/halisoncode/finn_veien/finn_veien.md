@@ -133,8 +133,8 @@ kan gjøre i en ekte labyrint.
   `ved start`.
 
 - [ ] Velg hjørnet `~2 ~0 ~2`, bredde `15`, lengde `15`, vegger av
-  `steinmurstein` og gulv av `eikeplanker`. Trykk på `+` og skriv `42` som
-  frø.
+  `steinmurstein` og gulv av `eikeplanker`. Frøet `42` står der allerede. Med
+  samme frø blir labyrinten lik hver gang.
 
 - [ ] Trykk `Kjør`. En labyrint dukker opp ved siden av deg.
 
@@ -142,7 +142,8 @@ kan gjøre i en ekte labyrint.
   `/robot spawn`.
 
 - [ ] Lag et nytt prosjekt og en variabel `stopp`. Legg `sett stopp til` i
-  `ved start`, og dra `robot følg sti av eikeplanker hold venstre` inn i den.
+  `ved start`, og dra `robot følg sti` inn i den. Trykk på `+` på blokka to
+  ganger, og velg `eikeplanker` og `venstre`.
   Legg `robot si Jeg er ute!` under.
 
 ## Test prosjektet {.flag}

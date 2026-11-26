@@ -79,8 +79,10 @@ __Tidsbruk__: Én til tre timer, gjerne i par.
 
 - [ ] `hogg` fra Tømmerhuggeren uten `setItem`, `planker` med `while
   (agent.canCraft(Item.OakPlanks, 4))`, og `hus` med `blocks.fill(...,
-  FillOperation.Hollow)` og en åpning av luft. En hul boks på 5 ganger 4 ganger
-  5 trenger 82 planker, altså 21 stammer, omtrent fire til fem trær.
+  FillOperation.Hollow)` og en åpning av luft. Boksen fra `~1 ~-1 ~1` til
+  `~5 ~3 ~5` trenger 98 planker, altså 25 stammer. Et eiketre gir ofte bare 4
+  til 6 stammer, så det blir fem til seks trær. Går plankene ut, bygger roboten
+  så langt den kommer, uten feilmelding. Programmet må telle blokkene etterpå.
 
 ## Vanlige problemer {.protip}
 
