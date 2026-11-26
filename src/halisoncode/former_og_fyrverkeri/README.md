@@ -82,7 +82,7 @@ __Tidsbruk__: Omtrent en time.
 ## Vanlige problemer {.protip}
 
 - Roboten står stille etter at eleven byttet vindu: Minecraft er på pause. Trykk
-  `Tilbake til spillet`. `F3` + `P` slår av pause når vinduet mister fokus, og
+  `Fortsett spill`. `F3` + `P` slår av pause når vinduet mister fokus, og
   `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele verdenen.
 
 - Ingenting bygges: roboten er for langt unna. Skriv `/robot spawn`.

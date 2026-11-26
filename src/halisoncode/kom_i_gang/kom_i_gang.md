@@ -21,11 +21,11 @@ Først trenger vi en verden og en robot.
 
 ## Sjekkliste {.check}
 
-- [ ] Start Minecraft med Halison Code. Velg `Enspiller` (Singleplayer) og
+- [ ] Start Minecraft med Halison Code. Velg `Enkeltspiller` (Singleplayer) og
   `Lag ny verden` (Create New World).
 
 - [ ] Sett `Spillmodus` (Game Mode) til `Kreativ` (Creative), og sjekk at
-  juksekoder (Allow Commands) er på. Under `Verden` (World), velg
+  `Tillat kommandoer` (Allow Commands) er `PÅ`. Under `Verden` (World), velg
   `Superflat`. Trykk `Lag ny verden`.
 
 - [ ] Trykk `T` for å åpne chatten. Skriv `/robot spawn` og trykk Enter.
@@ -71,10 +71,10 @@ Programmene skriver du i nettleseren, i Halison Code-editoren.
 - Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
   kjører fra nettleseren, så la editoren stå åpen.
 
-- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
-  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
-  Har du ikke skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør
-  det nå. Du kan også trykke `F3` + `P` i Minecraft.
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Fortsett spill`
+  (Back to Game). Roboten står stille så lenge spillet er på pause. Har du ikke
+  skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør det nå. Du kan
+  også trykke `F3` + `P` i Minecraft.
 
 - Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
   et program, trykk stoppknappen i editoren eller skriv `/robot stop`.

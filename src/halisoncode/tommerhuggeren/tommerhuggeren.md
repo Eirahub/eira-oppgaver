@@ -22,12 +22,12 @@ eikestikling er plantet. -->
 
 ## Sjekkliste {.check}
 
-- [ ] Start Minecraft med Halison Code. Åpne en vanlig verden i `Kreativ`
-  modus (Creative) med juksekoder på (Allow Commands: ON). Den må ha trær og
+- [ ] Start Minecraft med Halison Code. Åpne en vanlig verden i `Kreativ` modus
+  (Creative) med `Tillat kommandoer` på (Allow Commands). Den må ha trær og
   fjell, så ikke velg `Superflat`.
 
-- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter.
-  Roboten dukker opp ved føttene dine og ser samme vei som deg.
+- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter. Roboten
+  dukker opp ved føttene dine og ser samme vei som deg.
 
 - [ ] Trykk `T` igjen, skriv `/halisoncode` og trykk Enter. Editoren åpnes i
   nettleseren. Trykk `Nytt prosjekt`.
@@ -45,10 +45,10 @@ eikestikling er plantet. -->
 - Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
   kjører fra nettleseren, så la editoren stå åpen.
 
-- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
-  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
-  Har du ikke skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør
-  det nå. Du kan også trykke `F3` + `P` i Minecraft.
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Fortsett spill`
+  (Back to Game). Roboten står stille så lenge spillet er på pause. Har du ikke
+  skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør det nå. Du kan
+  også trykke `F3` + `P` i Minecraft.
 
 - Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
   et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
@@ -100,10 +100,10 @@ __Plant deg foran et nytt tre, skriv `/robot spawn` og trykk `Kjør`.__
 
 ## Tips {.protip}
 
-`robot ødelegg opp` trengs fordi løvet henger over roboten når den kommer
-høyt opp, og da kommer den ikke videre. Løkka stopper når det er luft foran
-roboten. Toppen av treet har løv, og roboten hogger løvet også. Det er greit,
-for løv kan gi stiklinger og epler.
+`robot ødelegg opp` trengs fordi løvet henger over roboten når den kommer høyt
+opp, og da kommer den ikke videre. Løkka stopper når det er luft foran roboten.
+Toppen av treet har løv, og roboten hogger løvet også. Det er greit, for løv kan
+gi stiklinger og epler.
 
 
 # Steg 3: Ned igjen {.activity}
@@ -112,8 +112,8 @@ Nå henger roboten oppe i lufta. Den skal ned til bakken.
 
 ## Sjekkliste {.check}
 
-- [ ] Under den første løkka, legg en ny `så lenge`. Betingelsen er
-  `ikke robot oppdag blokk ned`. `ikke` finner du i `Logikk`.
+- [ ] Under den første løkka, legg en ny `så lenge`. Betingelsen er `ikke robot
+  oppdag blokk ned`. `ikke` finner du i `Logikk`.
 
 - [ ] Inni den: `robot flytt ned med 1`.
 
@@ -141,8 +141,7 @@ En god tømmerhugger planter nytt. Da kan roboten hogge på samme sted senere.
 
 - [ ] `robot plasser fremover`. Stiklingen havner der stammen stod.
 
-- [ ] Til slutt `robot velg plass 1`, så den bygger med vanlige blokker
-  igjen.
+- [ ] Til slutt `robot velg plass 1`, så den bygger med vanlige blokker igjen.
 
 
 # Steg 5: En funksjon {.activity}
@@ -198,12 +197,12 @@ player.onChat("hogg", function (num1, num2, num3) {
 
 ## Utfordring {.challenge}
 
-- [ ] Lag en variabel `blokker` som teller hvor mange blokker roboten hogger.
-  La roboten si tallet til slutt.
+- [ ] Lag en variabel `blokker` som teller hvor mange blokker roboten hogger. La
+  roboten si tallet til slutt.
 
 - [ ] Bruk `robot finn nærmeste stammer innen 16` og `robot gå til`, så roboten
   finner treet selv. Oppgaven [Skogsroboten](../skogsroboten/skogsroboten.html)
   viser hvordan.
 
-- [ ] Lag en treplantasje: en rad med stiklinger som roboten hogger en etter
-  en når de har vokst.
+- [ ] Lag en treplantasje: en rad med stiklinger som roboten hogger en etter en
+  når de har vokst.

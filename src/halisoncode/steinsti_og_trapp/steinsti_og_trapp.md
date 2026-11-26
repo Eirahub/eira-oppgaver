@@ -22,11 +22,11 @@ roboten. -->
 ## Sjekkliste {.check}
 
 - [ ] Start Minecraft med Halison Code. Åpne en flat verden i `Kreativ` modus
-  (Creative) med juksekoder på (Allow Commands: ON). Velg `Superflat` under
+  (Creative) med `Tillat kommandoer` på (Allow Commands). Velg `Superflat` under
   `Verdenstype` (World Type).
 
-- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter.
-  Roboten dukker opp ved føttene dine og ser samme vei som deg.
+- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter. Roboten
+  dukker opp ved føttene dine og ser samme vei som deg.
 
 - [ ] Trykk `T` igjen, skriv `/halisoncode` og trykk Enter. Editoren åpnes i
   nettleseren. Trykk `Nytt prosjekt`.
@@ -44,10 +44,10 @@ roboten. -->
 - Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
   kjører fra nettleseren, så la editoren stå åpen.
 
-- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
-  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
-  Har du ikke skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør
-  det nå. Du kan også trykke `F3` + `P` i Minecraft.
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Fortsett spill`
+  (Back to Game). Roboten står stille så lenge spillet er på pause. Har du ikke
+  skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør det nå. Du kan
+  også trykke `F3` + `P` i Minecraft.
 
 - Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
   et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
@@ -108,8 +108,8 @@ En trapp med ti trinn ville trengt 30 blokker. I stedet bruker vi en løkke.
 
 - [ ] Endre `4` til `10`.
 
-![Programmet for trappa: gi eikeplanker, gjenta 10 ganger med flytt opp,
-flytt fremover og plasser ned](program_trapp.png)
+![Programmet for trappa: gi eikeplanker, gjenta 10 ganger med flytt opp, flytt
+fremover og plasser ned](program_trapp.png)
 
 ## Test prosjektet {.flag}
 

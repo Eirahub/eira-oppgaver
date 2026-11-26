@@ -9,8 +9,8 @@ language: nb
 
 Elevene lærer å bruke en løkke (`gjenta`) til å få roboten til å bygge en trapp
 med ti trinn og en firkantet sti av brostein. De gir roboten blokker, velger
-blokk i inventaret og slår på funksjonen som legger en blokk for hvert steg.
-Til slutt ser de trappen som JavaScript med en `for`-løkke.
+blokk i inventaret og slår på funksjonen som legger en blokk for hvert steg. Til
+slutt ser de trappen som JavaScript med en `for`-løkke.
 
 ## Oppgaven passer til: {.check}
 
@@ -45,8 +45,7 @@ __Tidsbruk__: Omtrent en time. Dobbelttime med utfordringene.
 
 - [ ] Elevene kan bruke roboten til å bygge med blokker fra inventaret.
 
-- [ ] Elevene kan se at en `for`-løkke i JavaScript gjør det samme som
-  `gjenta`.
+- [ ] Elevene kan se at en `for`-løkke i JavaScript gjør det samme som `gjenta`.
 
 ## Forslag til vurderingskriterier {.challenge}
 
@@ -73,8 +72,7 @@ __Tidsbruk__: Omtrent en time. Dobbelttime med utfordringene.
 
 ## Før timen {.check}
 
-- [ ] Prøv programmet selv. Kjør trappa og stien i en flat verden med nok
-  plass.
+- [ ] Prøv programmet selv. Kjør trappa og stien i en flat verden med nok plass.
 
 - [ ] Be elevene gå litt unna roboten og skrive `/robot spawn` før hvert nytt
   forsøk, så det ikke blir trangt.
@@ -84,32 +82,31 @@ __Tidsbruk__: Omtrent en time. Dobbelttime med utfordringene.
 - [ ] Elever glemmer å kjøre `robot gi`. Høyreklikk på roboten for å se
   inventaret.
 
-- [ ] Blokkene i oppgaven er eikeplanker og brostein. Andre blokker virker
-  også, men sjekk hvilke navn blokken har i editoren.
+- [ ] Blokkene i oppgaven er eikeplanker og brostein. Andre blokker virker også,
+  men sjekk hvilke navn blokken har i editoren.
 
 ## Steg 2 og 3: Trinn og løkke {.check}
 
 - [ ] La elevene først bygge ett trinn for hånd og telle blokkene, så ser de
   hvorfor løkka lønner seg.
 
-- [ ] Elever drar bare én av de tre blokkene inn i løkka. Da får de en
-  uventet trapp. Kjør sammen og se hva som skjer.
+- [ ] Elever drar bare én av de tre blokkene inn i løkka. Da får de en uventet
+  trapp. Kjør sammen og se hva som skjer.
 
 - [ ] Hvis roboten ikke bygger, sjekk at den har blokker i plassen den bruker.
 
 ## Steg 4: Sti {.check}
 
-- [ ] Gå gjennom hva `plasser ved flytting` gjør, og hvorfor den må slås av
-  til slutt. Glemmer eleven det, bygger roboten videre i neste program.
+- [ ] Gå gjennom hva `plasser ved flytting` gjør, og hvorfor den må slås av til
+  slutt. Glemmer eleven det, bygger roboten videre i neste program.
 
 - [ ] Be elevene gjette hva stien blir før de kjører.
 
 ## Vanlige problemer {.protip}
 
-- Roboten står stille etter at eleven byttet vindu: Minecraft er på pause.
-  Trykk `Tilbake til spillet`. `F3` + `P` slår av pause når vinduet mister
-  fokus, og `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele
-  verdenen.
+- Roboten står stille etter at eleven byttet vindu: Minecraft er på pause. Trykk
+  `Fortsett spill`. `F3` + `P` slår av pause når vinduet mister fokus, og
+  `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele verdenen.
 
 - Chatkommandoen virker ikke: programmet må kjøre og editoren stå åpen. Trykk
   `Kjør` i editoren før eleven bytter til Minecraft.
@@ -139,5 +136,6 @@ __Tidsbruk__: Omtrent en time. Dobbelttime med utfordringene.
 - [Halison Code på GitHub](https://github.com/halisonworks/mod-halisoncode):
   kode og utgivelser.
 
-- [Veiledning for spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md):
+- [Veiledning for
+  spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md):
   robotkommandoene.

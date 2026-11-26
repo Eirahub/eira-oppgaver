@@ -9,9 +9,9 @@ language: nb
 
 Diamanter ligger dypt nede, nesten helt ved grunnfjellet i bunnen av verden. Å
 grave dit tar lang tid, og det kan være farlig. Derfor sender vi roboten. Den
-graver en sjakt rett ned, passer seg for lava, setter lys i veggen og kommer
-opp igjen. Du lærer å bruke **hvis** inni en **løkke**, og en **teller** som
-husker hvor dypt roboten har gått.
+graver en sjakt rett ned, passer seg for lava, setter lys i veggen og kommer opp
+igjen. Du lærer å bruke **hvis** inni en **løkke**, og en **teller** som husker
+hvor dypt roboten har gått.
 
 Du bør ha gjort oppgaven [Tømmerhuggeren](../tommerhuggeren/tommerhuggeren.html)
 først.
@@ -24,12 +24,12 @@ helt nederst på grunnfjellet. -->
 
 ## Sjekkliste {.check}
 
-- [ ] Start Minecraft med Halison Code. Åpne en vanlig verden i `Kreativ`
-  modus (Creative) med juksekoder på (Allow Commands: ON). Den må ha trær og
+- [ ] Start Minecraft med Halison Code. Åpne en vanlig verden i `Kreativ` modus
+  (Creative) med `Tillat kommandoer` på (Allow Commands). Den må ha trær og
   fjell, så ikke velg `Superflat`.
 
-- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter.
-  Roboten dukker opp ved føttene dine og ser samme vei som deg.
+- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter. Roboten
+  dukker opp ved føttene dine og ser samme vei som deg.
 
 - [ ] Trykk `T` igjen, skriv `/halisoncode` og trykk Enter. Editoren åpnes i
   nettleseren. Trykk `Nytt prosjekt`.
@@ -47,10 +47,10 @@ helt nederst på grunnfjellet. -->
 - Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
   kjører fra nettleseren, så la editoren stå åpen.
 
-- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
-  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
-  Har du ikke skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør
-  det nå. Du kan også trykke `F3` + `P` i Minecraft.
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Fortsett spill`
+  (Back to Game). Roboten står stille så lenge spillet er på pause. Har du ikke
+  skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør det nå. Du kan
+  også trykke `F3` + `P` i Minecraft.
 
 - Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
   et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
@@ -90,8 +90,8 @@ bunnen.
 
 ## Sjekkliste {.check}
 
-- [ ] Vi vil stoppe på bunnen, så `gjenta for alltid` passer ikke. Dra
-  `så lenge` fra `Løkker` inn i `ved start`.
+- [ ] Vi vil stoppe på bunnen, så `gjenta for alltid` passer ikke. Dra `så
+  lenge` fra `Løkker` inn i `ved start`.
 
 - [ ] Fra `Variabler`, lag en variabel `dybde`. Legg `sett dybde til 0` før
   løkka.
@@ -105,8 +105,8 @@ bunnen.
 - [ ] Inni `ellers`: `robot flytt ned med 1` og `endre dybde med 1`.
 
 - [ ] Løkka trenger en betingelse som blir usann på bunnen. Lag en variabel
-  `graver`, sett den til `sant` før løkka, og bruk `graver` som betingelse i
-  `så lenge`. Inni `hvis` setter du `graver` til `usant`.
+  `graver`, sett den til `sant` før løkka, og bruk `graver` som betingelse i `så
+  lenge`. Inni `hvis` setter du `graver` til `usant`.
 
 ## Test prosjektet {.flag}
 
@@ -158,8 +158,8 @@ blir mørkt. Glødestein lyser og trenger ingenting å henge på.
 - [ ] Gi roboten glødestein: `robot gi glødestein antall 64 i plass 2`, før
   løkka.
 
-- [ ] I `ellers`-delen, etter `robot flytt ned med 1`, legg en `hvis` med
-  `robot lysnivå < 8`.
+- [ ] I `ellers`-delen, etter `robot flytt ned med 1`, legg en `hvis` med `robot
+  lysnivå < 8`.
 
 - [ ] Inni: `robot ødelegg fremover`, `robot velg plass 2`, `robot plasser
   fremover` og `robot velg plass 1`.
@@ -184,8 +184,8 @@ opp.
 
 ## Tips {.protip}
 
-Hvorfor ikke `robot flytt opp med dybde`? Fordi en flytting er høyst 64
-blokker. Sjakta er dypere enn det.
+Hvorfor ikke `robot flytt opp med dybde`? Fordi en flytting er høyst 64 blokker.
+Sjakta er dypere enn det.
 
 
 # Programmet i JavaScript {.activity}

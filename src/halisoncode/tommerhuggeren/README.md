@@ -29,8 +29,8 @@ __Tidsbruk__: En til to timer.
   variabler, vilkår og løkker
 
 - [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som variabler, løkker, vilkår og funksjoner, og
-  reflektere over bruken av disse
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 - [ ] __Programmering, 8.-10. trinn__: utvikle og feilsøke dataprogram som løser
   definerte problemer, inkludert kontrollering eller simulering av fysiske
@@ -81,10 +81,9 @@ __Tidsbruk__: En til to timer.
 
 ## Vanlige problemer {.protip}
 
-- Roboten står stille etter at eleven byttet vindu: Minecraft er på pause.
-  Trykk `Tilbake til spillet`. `F3` + `P` slår av pause når vinduet mister
-  fokus, og `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele
-  verdenen.
+- Roboten står stille etter at eleven byttet vindu: Minecraft er på pause. Trykk
+  `Fortsett spill`. `F3` + `P` slår av pause når vinduet mister fokus, og
+  `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele verdenen.
 
 - Chatkommandoen virker ikke: programmet må kjøre og editoren stå åpen. Trykk
   `Kjør` i editoren før eleven bytter til Minecraft.
@@ -97,5 +96,6 @@ __Tidsbruk__: En til to timer.
 
 # Eksterne ressurser {.activity}
 
-- [Veiledning for spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md):
+- [Veiledning for
+  spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md):
   alle robotkommandoer.

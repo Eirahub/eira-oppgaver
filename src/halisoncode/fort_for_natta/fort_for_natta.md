@@ -31,8 +31,8 @@ på toppen, i skumringen. -->
 ## Sjekkliste {.check}
 
 - [ ] Start Minecraft med Halison Code. Åpne verdenen fra Hus før natta, eller
-  lag en ny vanlig verden i `Overlevelse` (Survival) med juksekoder på (Allow
-  Commands: ON). Den må ha trær og fjell, så ikke velg `Superflat`.
+  lag en ny vanlig verden i `Overlevelse` (Survival) med `Tillat kommandoer` på
+  (Allow Commands). Den må ha trær og fjell, så ikke velg `Superflat`.
 
 - [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter. Roboten
   dukker opp ved føttene dine og ser samme vei som deg.
@@ -53,7 +53,7 @@ på toppen, i skumringen. -->
 - Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
   kjører fra nettleseren, så la editoren stå åpen.
 
-- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til spillet`
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Fortsett spill`
   (Back to Game). Roboten står stille så lenge spillet er på pause. Har du ikke
   skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør det nå. Du kan
   også trykke `F3` + `P` i Minecraft.
@@ -114,10 +114,10 @@ Dette har du lært før, og litt nytt:
 
 ## Tips {.tip}
 
-- En ring lager du med to fyll. Fyll først hele firkanten med stein, og fyll
-  så det som er inni med luft. Da står bare kanten igjen.
-  `FillOperation.Outline` og `Hollow` hjelper ikke når boksen er én blokk
-  høy, for da er hele boksen kant, og du får en fylt firkant.
+- En ring lager du med to fyll. Fyll først hele firkanten med stein, og fyll så
+  det som er inni med luft. Da står bare kanten igjen. `FillOperation.Outline`
+  og `Hollow` hjelper ikke når boksen er én blokk høy, for da er hele boksen
+  kant, og du får en fylt firkant.
 
 - `pos` er målt fra føttene dine. Om morgenen står du kanskje et annet sted, og
   da havner muren feil. Lagre midten av fortet én gang, og bruk nøyaktige

@@ -9,8 +9,8 @@ language: nb
 
 Elevene lager en robot i Minecraft, åpner Halison Code-editoren i nettleseren og
 skriver sitt første program med blokker. De får roboten til å gå, snu seg og si
-hei, og går i en firkant. Til slutt ser de det samme programmet som
-JavaScript. Oppgaven introduserer sekvens, rekkefølge og feilsøking.
+hei, og går i en firkant. Til slutt ser de det samme programmet som JavaScript.
+Oppgaven introduserer sekvens, rekkefølge og feilsøking.
 
 ## Oppgaven passer til: {.check}
 
@@ -40,8 +40,8 @@ __Tidsbruk__: Omtrent en time. Dobbelttime hvis elevene tar utfordringene.
 - [ ] Elevene kan sette sammen blokker i riktig rekkefølge så roboten gjør det
   de vil.
 
-- [ ] Elevene kan forklare at et program kjøres én kommando av gangen,
-  ovenfra og ned.
+- [ ] Elevene kan forklare at et program kjøres én kommando av gangen, ovenfra
+  og ned.
 
 - [ ] Elevene kan feilsøke et program ved å endre tall og rekkefølge.
 
@@ -65,9 +65,8 @@ __Tidsbruk__: Omtrent en time. Dobbelttime hvis elevene tar utfordringene.
   eller NeoForge er påkrevd.
 
 - [ ] __Maskiner__: Windows, macOS eller Linux. Nettbrett og mobil fungerer
-  ikke.
-  Elevene trenger både Minecraft og en nettleser åpen samtidig, så en maskin med
-  nok minne og to vinduer side om side er best.
+  ikke. Elevene trenger både Minecraft og en nettleser åpen samtidig, så en
+  maskin med nok minne og to vinduer side om side er best.
 
 - [ ] __Nett__: Nettleseren åpner editoren lokalt fra Minecraft. Sjekk at
   nettverket ikke blokkerer det.
@@ -123,10 +122,9 @@ __Tidsbruk__: Omtrent en time. Dobbelttime hvis elevene tar utfordringene.
 
 ## Vanlige problemer {.protip}
 
-- Roboten står stille etter at eleven byttet vindu: Minecraft er på pause.
-  Trykk `Tilbake til spillet`. `F3` + `P` slår av pause når vinduet mister
-  fokus, og `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele
-  verdenen.
+- Roboten står stille etter at eleven byttet vindu: Minecraft er på pause. Trykk
+  `Fortsett spill`. `F3` + `P` slår av pause når vinduet mister fokus, og
+  `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele verdenen.
 
 - Chatkommandoen virker ikke: programmet må kjøre og editoren stå åpen. Trykk
   `Kjør` i editoren før eleven bytter til Minecraft.
@@ -136,8 +134,8 @@ __Tidsbruk__: Omtrent en time. Dobbelttime hvis elevene tar utfordringene.
 
 - Roboten er langt unna: `/robot spawn` flytter den til eleven.
 
-- Programmet kjører og eleven vil avbryte: stoppknappen i editoren eller
-  `/robot stop` i chatten.
+- Programmet kjører og eleven vil avbryte: stoppknappen i editoren eller `/robot
+  stop` i chatten.
 
 
 # Variasjoner {.activity}
@@ -155,5 +153,6 @@ __Tidsbruk__: Omtrent en time. Dobbelttime hvis elevene tar utfordringene.
 - [Halison Code på GitHub](https://github.com/halisonworks/mod-halisoncode):
   kode og utgivelser.
 
-- [Veiledning for spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md):
+- [Veiledning for
+  spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md):
   alle robotkommandoer.

@@ -9,8 +9,8 @@ language: nb
 
 Etter en dag med hogging og graving er inventaret fullt av alt mulig. Nå skal
 roboten lage ting av det den har, og rydde det inn i en kiste. Denne gangen
-skriver du programmet i **JavaScript**. Du lærer om **plasser** i inventaret,
-og om å sjekke om noe er mulig før du gjør det.
+skriver du programmet i **JavaScript**. Du lærer om **plasser** i inventaret, og
+om å sjekke om noe er mulig før du gjør det.
 
 Du bør ha gjort oppgaven [Tømmerhuggeren](../tommerhuggeren/tommerhuggeren.html)
 først.
@@ -24,11 +24,11 @@ planker og pinner. -->
 ## Sjekkliste {.check}
 
 - [ ] Start Minecraft med Halison Code. Åpne en flat verden i `Kreativ` modus
-  (Creative) med juksekoder på (Allow Commands: ON). Velg `Superflat` under
+  (Creative) med `Tillat kommandoer` på (Allow Commands). Velg `Superflat` under
   `Verdenstype` (World Type).
 
-- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter.
-  Roboten dukker opp ved føttene dine og ser samme vei som deg.
+- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter. Roboten
+  dukker opp ved føttene dine og ser samme vei som deg.
 
 - [ ] Trykk `T` igjen, skriv `/halisoncode` og trykk Enter. Editoren åpnes i
   nettleseren. Trykk `Nytt prosjekt`.
@@ -46,10 +46,10 @@ planker og pinner. -->
 - Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
   kjører fra nettleseren, så la editoren stå åpen.
 
-- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
-  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
-  Har du ikke skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør
-  det nå. Du kan også trykke `F3` + `P` i Minecraft.
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Fortsett spill`
+  (Back to Game). Roboten står stille så lenge spillet er på pause. Har du ikke
+  skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør det nå. Du kan
+  også trykke `F3` + `P` i Minecraft.
 
 - Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
   et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
@@ -123,8 +123,8 @@ en arbeidsbenk ved siden av roboten.
 agent.craft(Item.Chest, 1)
 ```
 
-- [ ] Kjør. Fikk roboten laget kista? Nei, den trenger en arbeidsbenk ved
-  siden av seg. Da vet du at oppskriften er stor.
+- [ ] Kjør. Fikk roboten laget kista? Nei, den trenger en arbeidsbenk ved siden
+  av seg. Da vet du at oppskriften er stor.
 
 - [ ] Sett ut arbeidsbenken først. I `Kreativ` kan du gi den rett i plass 27:
 
@@ -198,17 +198,16 @@ player.onChat("lager", function (num1, num2, num3) {
 ## Tips {.protip}
 
 Kom tilbake fra jobb med `agent.goHome()`, og still roboten foran kista med
-`agent.setHome()` når den står der. Da kan tømmerhuggeren og lagerroboten
-jobbe sammen.
-
+`agent.setHome()` når den står der. Da kan tømmerhuggeren og lagerroboten jobbe
+sammen.
 
 ## Utfordring {.challenge}
 
 - [ ] Gjør samme programmet i Python. Trykk på `Python` øverst og se hvordan
   navnene endrer seg.
 
-- [ ] Lag to kister: én for planker og én for alt annet. Bruk
-  `agent.storeItems` med riktig plass.
+- [ ] Lag to kister: én for planker og én for alt annet. Bruk `agent.storeItems`
+  med riktig plass.
 
 - [ ] Lag `jernhakke` når roboten har jern. Hva trenger den, og hvor lager den
   det?

@@ -25,8 +25,8 @@ roboten som står ved kanten. -->
 ## Sjekkliste {.check}
 
 - [ ] Start Minecraft med Halison Code. Åpne en vanlig verden i `Kreativ` modus
-  (Creative) med juksekoder på (Allow Commands: ON). Den må ha trær og fjell, så
-  ikke velg `Superflat`.
+  (Creative) med `Tillat kommandoer` på (Allow Commands). Den må ha trær og
+  fjell, så ikke velg `Superflat`.
 
 - [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter. Roboten
   dukker opp ved føttene dine og ser samme vei som deg.
@@ -47,7 +47,7 @@ roboten som står ved kanten. -->
 - Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
   kjører fra nettleseren, så la editoren stå åpen.
 
-- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til spillet`
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Fortsett spill`
   (Back to Game). Roboten står stille så lenge spillet er på pause. Har du ikke
   skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør det nå. Du kan
   også trykke `F3` + `P` i Minecraft.
@@ -207,8 +207,8 @@ ligger sørøst for deg. `groundHeight` bryr seg ikke om tallet i midten. Den
 svarer med høyden i verden, som du ser i `F3`.
 
 `groundHeight` svarer med den øverste blokken som ikke er luft eller løv, også
-om den svever. Står det en flytende blokk over tomta, blir den regnet som
-bakken der.
+om den svever. Står det en flytende blokk over tomta, blir den regnet som bakken
+der.
 
 
 # Steg 5: Gjør tomta flat {.activity}

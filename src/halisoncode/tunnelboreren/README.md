@@ -84,7 +84,7 @@ __Tidsbruk__: En til to timer.
 ## Vanlige problemer {.protip}
 
 - Roboten står stille etter at eleven byttet vindu: Minecraft er på pause. Trykk
-  `Tilbake til spillet`. `F3` + `P` slår av pause når vinduet mister fokus, og
+  `Fortsett spill`. `F3` + `P` slår av pause når vinduet mister fokus, og
   `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele verdenen.
 
 - Chatkommandoen virker ikke: programmet må kjøre og editoren stå åpen. Trykk

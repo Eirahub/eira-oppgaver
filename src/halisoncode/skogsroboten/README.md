@@ -7,10 +7,10 @@ language: nb
 
 # Om oppgaven {.activity}
 
-Elevene lager en robot som finner det nærmeste treet selv, går dit, snur seg
-mot stammen, hogger den, plukker opp det som falt ned og går hjem. Oppgaven er
-i JavaScript og bygger på Tømmerhuggeren og Lageret. Den mest krevende delen er
-å regne ut hvilken vei roboten må se, ut fra to posisjoner og en vinkel.
+Elevene lager en robot som finner det nærmeste treet selv, går dit, snur seg mot
+stammen, hogger den, plukker opp det som falt ned og går hjem. Oppgaven er i
+JavaScript og bygger på Tømmerhuggeren og Lageret. Den mest krevende delen er å
+regne ut hvilken vei roboten må se, ut fra to posisjoner og en vinkel.
 
 ## Oppgaven passer til: {.check}
 
@@ -27,8 +27,8 @@ __Tidsbruk__: En til to timer.
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som variabler, løkker, vilkår og funksjoner, og
-  reflektere over bruken av disse
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 - [ ] __Programmering, 8.-10. trinn__: analysere problemer, gjøre dem om til
   delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
@@ -88,10 +88,9 @@ __Tidsbruk__: En til to timer.
 
 ## Vanlige problemer {.protip}
 
-- Roboten står stille etter at eleven byttet vindu: Minecraft er på pause.
-  Trykk `Tilbake til spillet`. `F3` + `P` slår av pause når vinduet mister
-  fokus, og `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele
-  verdenen.
+- Roboten står stille etter at eleven byttet vindu: Minecraft er på pause. Trykk
+  `Fortsett spill`. `F3` + `P` slår av pause når vinduet mister fokus, og
+  `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele verdenen.
 
 - Chatkommandoen virker ikke: programmet må kjøre og editoren stå åpen. Trykk
   `Kjør` i editoren før eleven bytter til Minecraft.
@@ -108,5 +107,6 @@ __Tidsbruk__: En til to timer.
 
 # Eksterne ressurser {.activity}
 
-- [Veiledning for spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md):
+- [Veiledning for
+  spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md):
   alle robotkommandoer.
