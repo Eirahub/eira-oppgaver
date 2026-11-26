@@ -81,6 +81,11 @@ __Tidsbruk__: Omtrent en time.
 
 ## Vanlige problemer {.protip}
 
+- Programmene er borte: de lagres i nettleseren på maskinen eleven brukte.
+  Åpne editoren i samme nettleser, eller hent inn `.mkcd`-filen eleven lagret
+  med `Hent inn` på startsiden. På maskiner som nullstilles, må elevene lagre
+  prosjektet som fil før timen slutter.
+
 - Roboten står stille etter at eleven byttet vindu: Minecraft er på pause. Trykk
   `Fortsett spill`. `F3` + `P` slår av pause når vinduet mister fokus, og
   `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele verdenen.

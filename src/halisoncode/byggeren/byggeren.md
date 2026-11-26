@@ -56,6 +56,10 @@ Du bør ha gjort oppgaven [Bygg et hus](../bygg_et_hus/bygg_et_hus.html) først.
 - Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
   et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
 
+- Prosjektet lagres av seg selv i nettleseren på denne datamaskinen. Vil du ha
+  det med til en annen maskin, trykk lagre-knappen ved siden av prosjektnavnet
+  nederst i editoren. Da får du en `.mkcd`-fil.
+
 
 # Steg 1: Byggeren går og legger blokker {.activity}
 
