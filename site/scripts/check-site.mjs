@@ -16,7 +16,7 @@ const MUST_EXIST = [
   '/', '/404', '/om-oppgavene', '/kompetansemaal',
   '/scratch/', '/scratch/astrokatt/astrokatt', '/scratch/astrokatt/README', '/scratch/astrokatt/astrokatt_nn',
   '/python/', '/microbit/', '/minecraft_foreldre/',
-  '/codeling/', '/java/', '/minecraft_mod/', '/ki_veiledere/', '/datamaskin/', '/wonderbot/',
+  '/halisoncode/', '/java/', '/minecraft_mod/', '/ki_veiledere/', '/datamaskin/', '/wonderbot/',
 ];
 
 if (!fs.existsSync(DIST)) {

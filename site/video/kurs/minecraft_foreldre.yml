@@ -26,5 +26,5 @@ skudd:
     pan: { scale: 1.3, from: [0.5, 0.45], to: [0.55, 0.38] }
     term: { word: spillmodus, x: 0.755, y: 0.335 }
   - kind: logo
-    course: codeling
+    course: halisoncode
     text: "Neste: Halison Code, koding i Minecraft."
