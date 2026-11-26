@@ -38,7 +38,7 @@ __Tidsbruk__: En til to timer.
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ] Elevene kan forklare forskjellen på `gjenta 10 ganger` og `mens`.
+- [ ] Elevene kan forklare forskjellen på `gjenta 10 ganger` og `så lenge`.
 
 - [ ] Elevene kan bruke `ikke` i en betingelse.
 

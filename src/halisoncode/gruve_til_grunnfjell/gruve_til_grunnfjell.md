@@ -90,8 +90,8 @@ bunnen.
 
 ## Sjekkliste {.check}
 
-- [ ] Vi vil stoppe på bunnen, så `gjenta for alltid` passer ikke. Dra `mens`
-  fra `Løkker` inn i `ved start`.
+- [ ] Vi vil stoppe på bunnen, så `gjenta for alltid` passer ikke. Dra
+  `så lenge` fra `Løkker` inn i `ved start`.
 
 - [ ] Fra `Variabler`, lag en variabel `dybde`. Legg `sett dybde til 0` før
   løkka.
@@ -105,8 +105,8 @@ bunnen.
 - [ ] Inni `ellers`: `robot flytt ned med 1` og `endre dybde med 1`.
 
 - [ ] Løkka trenger en betingelse som blir usann på bunnen. Lag en variabel
-  `graver`, sett den til `sann` før løkka, og bruk `graver` som betingelse i
-  `mens`. Inni `hvis` setter du `graver` til `usann`.
+  `graver`, sett den til `sant` før løkka, og bruk `graver` som betingelse i
+  `så lenge`. Inni `hvis` setter du `graver` til `usant`.
 
 ## Test prosjektet {.flag}
 
@@ -134,7 +134,7 @@ Dypt nede er det lava. Roboten skal stoppe og si fra før den graver inn i den.
 
 - [ ] Betingelsen: `robot oppdag væske ned` `=` `lava`.
 
-- [ ] Inni: `robot si Lava! Jeg stopper.` og `sett graver til usann`.
+- [ ] Inni: `robot si Lava! Jeg stopper.` og `sett graver til usant`.
 
 - [ ] Den gamle `robot ødelegg ned` og resten skal bare kjøre når det ikke er
   lava. Bruk `ellers` i den nye `hvis`, og flytt dem dit.

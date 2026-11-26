@@ -134,12 +134,12 @@ sti.
 
 - [ ] Legg til `robot velg plass 1`, så roboten bygger med brosteinen.
 
-- [ ] Legg til `robot hjelp plasser ved flytting sann`.
+- [ ] Legg til `robot hjelp plasser ved flytting sant`.
 
 - [ ] Legg til en `gjenta 4 ganger` med `robot flytt fremover med 3` og `robot
   snu venstre` inni.
 
-- [ ] Etter løkka: `robot hjelp plasser ved flytting usann`, så roboten slutter
+- [ ] Etter løkka: `robot hjelp plasser ved flytting usant`, så roboten slutter
   å bygge.
 
 ![Programmet for steinstien: gjenta 4 ganger med flytt fremover 3 og snu
