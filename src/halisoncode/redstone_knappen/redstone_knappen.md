@@ -23,7 +23,7 @@ seg, og en steinblokk foran. -->
 ## Sjekkliste {.check}
 
 - [ ] Start Minecraft med Halison Code. Åpne en flat verden i `Kreativ` modus
-  (Creative) med juksekoder på (Allow Commands: ON). Velg `Superflat` under
+  (Creative) med `Tillat kommandoer` på (Allow Commands). Velg `Superflat` under
   `Verdenstype` (World Type).
 
 - [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter. Roboten
@@ -45,7 +45,7 @@ seg, og en steinblokk foran. -->
 - Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
   kjører fra nettleseren, så la editoren stå åpen.
 
-- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til spillet`
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Fortsett spill`
   (Back to Game). Roboten står stille så lenge spillet er på pause. Har du ikke
   skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør det nå. Du kan
   også trykke `F3` + `P` i Minecraft.

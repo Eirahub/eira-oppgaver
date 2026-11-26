@@ -1,5 +1,5 @@
 ---
-title: 'Utfordring: Hus før natta'
+title: "Utfordring: Hus før natta"
 author: Tor Einar Enne
 language: nb
 ---
@@ -16,9 +16,8 @@ Her får du ikke steg for steg. Du får oppdraget, verktøyene og noen tips. Res
 er opp til deg.
 
 Du bør ha gjort oppgavene
-[Tømmerhuggeren](../tommerhuggeren/tommerhuggeren.html),
-[Bygg et hus](../bygg_et_hus/bygg_et_hus.html) og
-[Lageret](../lageret/lageret.html).
+[Tømmerhuggeren](../tommerhuggeren/tommerhuggeren.html), [Bygg et
+hus](../bygg_et_hus/bygg_et_hus.html) og [Lageret](../lageret/lageret.html).
 
 <!-- BILDE: Solnedgang over en skog, og et lite plankehus med lys i vinduet. -->
 
@@ -27,8 +26,8 @@ Du bør ha gjort oppgavene
 
 ## Sjekkliste {.check}
 
-- [ ] Lag en ny verden i `Overlevelse`, med juksekoder på. Da kan du skrive
-  `/time set 0` for å prøve igjen fra morgenen.
+- [ ] Lag en ny verden i `Overlevelse`, med `Tillat kommandoer` på. Da kan du
+  skrive `/time set 0` for å prøve igjen fra morgenen.
 
 - [ ] Skriv `/robot spawn` i chatten, og `/halisoncode` for å åpne editoren.
   Klokka går.
@@ -43,11 +42,10 @@ Du bør ha gjort oppgavene
 
 ## Regler {.protip}
 
-- Roboten får ikke bruke `agent.setItem`. Alt den bygger med, må den hogge
-  selv, eller få av deg.
+- Roboten får ikke bruke `agent.setItem`. Alt den bygger med, må den hogge selv,
+  eller få av deg.
 
 - Du får hjelpe til, men det er roboten som skal gjøre det meste av jobben.
-
 
 ## Slik bytter du mellom Minecraft og editoren {.tip}
 
@@ -58,10 +56,10 @@ Du bør ha gjort oppgavene
 - Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
   kjører fra nettleseren, så la editoren stå åpen.
 
-- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
-  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
-  Har du ikke skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør
-  det nå. Du kan også trykke `F3` + `P` i Minecraft.
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Fortsett spill`
+  (Back to Game). Roboten står stille så lenge spillet er på pause. Har du ikke
+  skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør det nå. Du kan
+  også trykke `F3` + `P` i Minecraft.
 
 - Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
   et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
@@ -71,28 +69,28 @@ Du bør ha gjort oppgavene
 
 Dette har du lært før:
 
-| Hva | Kode |
-|---|---|
-| Hogge en hel stamme | `hoggTre()` fra Tømmerhuggeren |
-| Finne, hogge og hente et tre | `hentTre()` fra Skogsroboten |
-| Lage planker | `agent.craft(Item.OakPlanks, 4)` og `agent.canCraft` |
-| Bygge en hul boks | `blocks.fill(Block.OakPlanks, a, b, FillOperation.Hollow)` |
-| Lage dør | `blocks.fill(Block.Air, a, b, FillOperation.Replace)` |
-| Hvor mye tid er igjen | `gameplay.timeOfDay()`, 0 er soloppgang og 12000 solnedgang |
-| Kjøre noe fra chatten | `player.onChat("hus", function (num1, num2, num3) { })` |
+| Hva                          | Kode                                                        |
+| ---------------------------- | ----------------------------------------------------------- |
+| Hogge en hel stamme          | `hoggTre()` fra Tømmerhuggeren                              |
+| Finne, hogge og hente et tre | `hentTre()` fra Skogsroboten                                |
+| Lage planker                 | `agent.craft(Item.OakPlanks, 4)` og `agent.canCraft`        |
+| Bygge en hul boks            | `blocks.fill(Block.OakPlanks, a, b, FillOperation.Hollow)`  |
+| Lage dør                     | `blocks.fill(Block.Air, a, b, FillOperation.Replace)`       |
+| Hvor mye tid er igjen        | `gameplay.timeOfDay()`, 0 er soloppgang og 12000 solnedgang |
+| Kjøre noe fra chatten        | `player.onChat("hus", function (num1, num2, num3) { })`     |
 
 ## Tips {.tip}
 
 - `/robot spawn` flytter roboten til deg. Løp til et tre, skriv `/robot spawn`
-  og så `hogg`. Eller la roboten finne trærne selv med `skog` fra
-  Skogsroboten.
+  og så `hogg`. Eller la roboten finne trærne selv med `skog` fra Skogsroboten.
 
 - I overlevelse bygger `blocks.fill` med plankene i robotens inventar. Har den
   for få, stopper den og sier hva som mangler.
 
-- Regn ut hvor mange planker huset trenger før du begynner å hogge. En hul boks
-  på 5 ganger 4 ganger 5 trenger 5 · 4 · 5 - 3 · 2 · 3 = 82 planker. Én stamme
-  gir 4 planker.
+- Regn ut hvor mange planker huset trenger før du begynner å hogge. Boksen fra
+  `~1 ~-1 ~1` til `~5 ~3 ~5` er 5 ganger 5 ganger 5 blokker, med gulvet nede i
+  bakken. Hul trenger den 5 · 5 · 5 - 3 · 3 · 3 = 98 planker. Én stamme gir 4
+  planker, så det blir 25 stammer.
 
 - Et lite hus er bedre enn et halvferdig stort hus.
 
@@ -136,14 +134,20 @@ Minecraft er 24000 tikk, og det går 20 tikk i sekundet.
 
 # Del 4: Når noe går galt {.activity}
 
-Programmet stopper hvis roboten ikke klarer noe. I JavaScript kan du fange
-feilen og gjøre noe annet:
+Programmet stopper hvis roboten ikke klarer noe, for eksempel hvis huset er for
+langt unna. I JavaScript kan du fange feilen og gjøre noe annet.
+
+Går roboten tom for planker, stopper den bare å bygge, uten feil. Tell derfor
+blokkene etterpå:
 
 ```javascript
 try {
     blocks.fill(Block.OakPlanks, pos(1, -1, 1), pos(5, 3, 5), FillOperation.Hollow)
 } catch (e) {
-    player.say("Huset ble ikke ferdig: " + e)
+    player.say("Huset ble ikke bygget: " + e)
+}
+if (agent.countSolid(pos(1, -1, 1), pos(5, 3, 5)) < 98) {
+    player.say("Huset ble ikke ferdig. Roboten trenger flere planker.")
 }
 ```
 
@@ -155,7 +159,6 @@ __Spill hele utfordringen fra en ny verden.__
 
 - [ ] Hvor mange minutter hadde du igjen?
 
-
 ## Utfordring {.challenge}
 
 - [ ] Gjør det på færre minutter. Hva tok lengst tid, og kan roboten gjøre mer?
@@ -165,5 +168,4 @@ __Spill hele utfordringen fra en ny verden.__
 
 - [ ] Prøv i Python i stedet for JavaScript.
 
-- [ ] Klarer du det i en verden der det er vanskelig å finne trær, som en
-  ørken?
+- [ ] Klarer du det i en verden der det er vanskelig å finne trær, som en ørken?

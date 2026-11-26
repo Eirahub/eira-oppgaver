@@ -7,11 +7,10 @@ language: nb
 
 # Introduksjon {.intro}
 
-I Tømmerhuggeren måtte du selv stille roboten foran treet. Nå skal roboten
-klare seg alene. Den finner det nærmeste treet, går dit, snur seg mot stammen,
-hogger den, plukker opp det som falt ned, og kommer hjem igjen. Du skriver
-programmet i **JavaScript**, og du lærer å regne med **posisjoner** og bruke
-**lister**.
+I Tømmerhuggeren måtte du selv stille roboten foran treet. Nå skal roboten klare
+seg alene. Den finner det nærmeste treet, går dit, snur seg mot stammen, hogger
+den, plukker opp det som falt ned, og kommer hjem igjen. Du skriver programmet i
+**JavaScript**, og du lærer å regne med **posisjoner** og bruke **lister**.
 
 Du bør ha gjort oppgavene
 [Tømmerhuggeren](../tommerhuggeren/tommerhuggeren.html) og
@@ -25,12 +24,12 @@ en stubbe der treet stod. -->
 
 ## Sjekkliste {.check}
 
-- [ ] Start Minecraft med Halison Code. Åpne en vanlig verden i `Kreativ`
-  modus (Creative) med juksekoder på (Allow Commands: ON). Den må ha trær og
+- [ ] Start Minecraft med Halison Code. Åpne en vanlig verden i `Kreativ` modus
+  (Creative) med `Tillat kommandoer` på (Allow Commands). Den må ha trær og
   fjell, så ikke velg `Superflat`.
 
-- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter.
-  Roboten dukker opp ved føttene dine og ser samme vei som deg.
+- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter. Roboten
+  dukker opp ved føttene dine og ser samme vei som deg.
 
 - [ ] Trykk `T` igjen, skriv `/halisoncode` og trykk Enter. Editoren åpnes i
   nettleseren. Trykk `Nytt prosjekt`.
@@ -48,10 +47,10 @@ en stubbe der treet stod. -->
 - Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
   kjører fra nettleseren, så la editoren stå åpen.
 
-- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
-  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
-  Har du ikke skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør
-  det nå. Du kan også trykke `F3` + `P` i Minecraft.
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Fortsett spill`
+  (Back to Game). Roboten står stille så lenge spillet er på pause. Har du ikke
+  skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør det nå. Du kan
+  også trykke `F3` + `P` i Minecraft.
 
 - Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
   et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
@@ -121,8 +120,8 @@ __Kjør igjen.__
 
 # Steg 3: Snu mot stammen {.activity}
 
-Roboten må se mot treet før den kan hogge. Vi regner ut hvilken vei treet er,
-og snur roboten til den ser den veien.
+Roboten må se mot treet før den kan hogge. Vi regner ut hvilken vei treet er, og
+snur roboten til den ser den veien.
 
 `agent.getOrientation()` sier hvilken vei roboten ser, i grader: sør er 0, vest
 90, nord 180 og øst -90. Vi gjør om alle vinklene til tall fra 0 til 359, så er
@@ -225,8 +224,8 @@ __Kjør programmet ved et nytt tre.__
 ## Tips {.tip}
 
 Løv som ikke blir hogd, råtner bort av seg selv litt etter litt, og da faller
-det mer. Vent noen sekunder før radaren, med `loops.pause(5000)`, så får
-roboten med seg mer.
+det mer. Vent noen sekunder før radaren, med `loops.pause(5000)`, så får roboten
+med seg mer.
 
 
 # Steg 6: Kom hjem {.activity}
@@ -254,7 +253,6 @@ __Skriv `skog 3` i chatten.__
 - [ ] Trykk `Kjør` i editoren først. Bytt så til Minecraft med `Alt` + `Tab`.
 
 - [ ] Henter roboten tre trær og kommer hjem hver gang?
-
 
 ## Utfordring {.challenge}
 

@@ -22,11 +22,11 @@ Du bør ha gjort oppgaven [Kom i gang](../kom_i_gang/kom_i_gang.html) først.
 ## Sjekkliste {.check}
 
 - [ ] Start Minecraft med Halison Code. Åpne en flat verden i `Kreativ` modus
-  (Creative) med juksekoder på (Allow Commands: ON). Velg `Superflat` under
+  (Creative) med `Tillat kommandoer` på (Allow Commands). Velg `Superflat` under
   `Verdenstype` (World Type).
 
-- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter.
-  Roboten dukker opp ved føttene dine og ser samme vei som deg.
+- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter. Roboten
+  dukker opp ved føttene dine og ser samme vei som deg.
 
 - [ ] Trykk `T` igjen, skriv `/halisoncode` og trykk Enter. Editoren åpnes i
   nettleseren. Trykk `Nytt prosjekt`.
@@ -44,10 +44,10 @@ Du bør ha gjort oppgaven [Kom i gang](../kom_i_gang/kom_i_gang.html) først.
 - Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
   kjører fra nettleseren, så la editoren stå åpen.
 
-- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
-  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
-  Har du ikke skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør
-  det nå. Du kan også trykke `F3` + `P` i Minecraft.
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Fortsett spill`
+  (Back to Game). Roboten står stille så lenge spillet er på pause. Har du ikke
+  skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør det nå. Du kan
+  også trykke `F3` + `P` i Minecraft.
 
 - Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
   et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
@@ -60,16 +60,15 @@ dit, også rundt hindringer.
 
 ## Sjekkliste {.check}
 
-- [ ] Dra `robot sett hjem` fra kategorien
-  `Robot` inn i `ved start`.
+- [ ] Dra `robot sett hjem` fra kategorien `Robot` inn i `ved start`.
 
 - [ ] Under den: `robot flytt fremover med 5`, `robot snu venstre` og `robot
   flytt fremover med 5`.
 
 - [ ] Til slutt skal roboten gå hjem. `robot gå hjem` er en rund blokk som
-  svarer om den kom fram, så den må ligge inni en annen blokk. Åpne
-  `Variabler`, lag en variabel `hjemme`, og legg `sett hjemme til` nederst.
-  Dra `robot gå hjem` inn i den.
+  svarer om den kom fram, så den må ligge inni en annen blokk. Åpne `Variabler`,
+  lag en variabel `hjemme`, og legg `sett hjemme til` nederst. Dra `robot gå
+  hjem` inn i den.
 
 ## Test prosjektet {.flag}
 
@@ -96,12 +95,12 @@ sør fra deg.
 
 ## Sjekkliste {.check}
 
-- [ ] Dra `når chatkommando` fra kategorien `Spiller` ut på arbeidsflaten.
-  Skriv `hit` i feltet.
+- [ ] Dra `når chatkommando` fra kategorien `Spiller` ut på arbeidsflaten. Skriv
+  `hit` i feltet.
 
 - [ ] Lag en variabel `fram`. Legg `sett fram til` inn i `når chatkommando`, og
-  dra `robot gå til` inn i den. Bruk posisjonen `~1 ~0 ~0`, så roboten
-  stiller seg ved siden av deg og ikke oppå deg.
+  dra `robot gå til` inn i den. Bruk posisjonen `~1 ~0 ~0`, så roboten stiller
+  seg ved siden av deg og ikke oppå deg.
 
 - [ ] Trykk `Kjør`. Programmet venter nå på chatten.
 
@@ -117,8 +116,8 @@ __Gå et stykke bort, trykk `T` og skriv `hit`.__
 
 ## Tips {.protip}
 
-`robot gå til` svarer `sant` når den kom fram, og `usant` når den ikke fant
-noen vei. Svaret ligger nå i `fram`. Legg til en `hvis` fra `Logikk` som sjekker
+`robot gå til` svarer `sant` når den kom fram, og `usant` når den ikke fant noen
+vei. Svaret ligger nå i `fram`. Legg til en `hvis` fra `Logikk` som sjekker
 `fram`, og la roboten si `Jeg finner deg ikke` når svaret er `usant`.
 
 
@@ -133,17 +132,17 @@ kan gjøre i en ekte labyrint.
   `ved start`.
 
 - [ ] Velg hjørnet `~2 ~0 ~2`, bredde `15`, lengde `15`, vegger av
-  `steinmurstein` og gulv av `eikeplanker`. Trykk på `+` og skriv `42` som
-  frø.
+  `steinmurstein` og gulv av `eikeplanker`. Frøet `42` står der allerede. Med
+  samme frø blir labyrinten lik hver gang.
 
 - [ ] Trykk `Kjør`. En labyrint dukker opp ved siden av deg.
 
 - [ ] Gå inn i åpningen på nordsiden av labyrinten, se inn i den, og skriv
   `/robot spawn`.
 
-- [ ] Lag et nytt prosjekt og en variabel `stopp`. Legg `sett stopp til` i
-  `ved start`, og dra `robot følg sti av eikeplanker hold venstre` inn i den.
-  Legg `robot si Jeg er ute!` under.
+- [ ] Lag et nytt prosjekt og en variabel `stopp`. Legg `sett stopp til` i `ved
+  start`, og dra `robot følg sti` inn i den. Trykk på `+` på blokka to ganger,
+  og velg `eikeplanker` og `venstre`. Legg `robot si Jeg er ute!` under.
 
 ## Test prosjektet {.flag}
 
@@ -176,11 +175,10 @@ agent.say("Jeg er ute!")
 
 ## Utfordring {.challenge}
 
-- [ ] Lag en chatkommando `hjem` som får roboten til å gå hjem, og en `sett`
-  som flytter hjemmet til der roboten står.
+- [ ] Lag en chatkommando `hjem` som får roboten til å gå hjem, og en `sett` som
+  flytter hjemmet til der roboten står.
 
 - [ ] Lag en labyrint på 31 ganger 31. Roboten stopper etter 256 blokker. Bruk
   en løkke så den fortsetter til den er ute.
 
-- [ ] Kapp med en venn: hvem kommer først gjennom labyrint 42, du eller
-  roboten?
+- [ ] Kapp med en venn: hvem kommer først gjennom labyrint 42, du eller roboten?

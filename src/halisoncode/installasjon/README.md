@@ -30,8 +30,9 @@ mange maskiner laster ned samtidig.
 ## Kompetansemål {.challenge}
 
 Kompetansemål er ikke knyttet til denne oppgaven. Den er en praktisk
-forberedelse til kurset. Hent eventuelle mål fra
-[læreplanverket på udir.no](https://www.udir.no/laring-og-trivsel/lareplanverket/) for oppgavene som følger.
+forberedelse til kurset. Hent eventuelle mål fra [læreplanverket på
+udir.no](https://www.udir.no/laring-og-trivsel/lareplanverket/) for oppgavene
+som følger.
 
 ## Forslag til læringsmål {.challenge}
 
@@ -57,20 +58,19 @@ modlasteren, og `/robot spawn` og `/halisoncode` virker.
   og 1.21.1. Sjekk veiledningen for gjeldende versjoner før du laster ned.
 
 - [ ] __Modlaster__: Fabric Loader (med Fabric API) eller NeoForge. Veiledningen
-  sier at Fabric Loader må være 0.20.1 eller nyere, og angir
-  minste NeoForge-versjon for hver Minecraft-versjon. Sjekk den nåværende
-  teksten.
+  sier at Fabric Loader må være 0.20.1 eller nyere, og angir minste
+  NeoForge-versjon for hver Minecraft-versjon. Sjekk den nåværende teksten.
 
-- [ ] __Java__: Den vanlige Minecraft Launcher følger med riktig Java. Brukes
-  en annen launcher som MultiMC, må du velge Java selv, se kurset Test moden
-  med MultiMC.
+- [ ] __Java__: Den vanlige Minecraft Launcher følger med riktig Java. Brukes en
+  annen launcher som MultiMC, må du velge Java selv, se kurset Test moden med
+  MultiMC.
 
 - [ ] __Maskin__: Windows, macOS eller Linux. Oppgaven oppgir ikke krav til
   minne. Minecraft er avhengig av et par GB ledig minne, så test på en
   representativ maskin.
 
-- [ ] __Nettleser__: Chrome, Edge eller Firefox. Editoren åpnes i nettleseren
-  og lenken virker bare på maskinen der Minecraft kjører.
+- [ ] __Nettleser__: Chrome, Edge eller Firefox. Editoren åpnes i nettleseren og
+  lenken virker bare på maskinen der Minecraft kjører.
 
 - [ ] __Tilgang__: Rettigheter til å installere programmer og skrive i
   `.minecraft`. Skolens IT må ofte hjelpe til.
@@ -102,8 +102,8 @@ modlasteren, og `/robot spawn` og `/halisoncode` virker.
 - [ ] Følg installasjonsprogrammet for modlasteren. Trinnene står i
   spillerveiledningen til Halison Code.
 
-- [ ] Start profilen modlasteren lager i Minecraft Launcher én gang, så
-  mappa `mods` blir laget.
+- [ ] Start profilen modlasteren lager i Minecraft Launcher én gang, så mappa
+  `mods` blir laget.
 
 ## Steg 3: Mappa mods {.check}
 
@@ -123,10 +123,9 @@ modlasteren, og `/robot spawn` og `/halisoncode` virker.
 
 ## Vanlige problemer {.protip}
 
-- Roboten står stille etter at eleven byttet vindu: Minecraft er på pause.
-  Trykk `Tilbake til spillet`. `F3` + `P` slår av pause når vinduet mister
-  fokus, og `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele
-  verdenen.
+- Roboten står stille etter at eleven byttet vindu: Minecraft er på pause. Trykk
+  `Fortsett spill`. `F3` + `P` slår av pause når vinduet mister fokus, og
+  `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele verdenen.
 
 - Chatkommandoen virker ikke: programmet må kjøre og editoren stå åpen. Trykk
   `Kjør` i editoren før eleven bytter til Minecraft.
@@ -148,11 +147,11 @@ modlasteren, og `/robot spawn` og `/halisoncode` virker.
 
 # Variasjoner {.activity}
 
-- La en eldre elev eller en voksen i klubben installere selv som en
-  introduksjon til modder og modlastere.
+- La en eldre elev eller en voksen i klubben installere selv som en introduksjon
+  til modder og modlastere.
 
-- La en elev lage en egen sjekkliste for installasjonen og teste den på en
-  annen maskin.
+- La en elev lage en egen sjekkliste for installasjonen og teste den på en annen
+  maskin.
 
 - Se kurset Test moden med MultiMC hvis dere vil ha flere instanser på samme
   maskin.
@@ -163,7 +162,8 @@ modlasteren, og `/robot spawn` og `/halisoncode` virker.
 - [Halison Code på GitHub](https://github.com/halisonworks/mod-halisoncode):
   kode og utgivelser.
 
-- [Veiledning for spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md):
+- [Veiledning for
+  spillere](https://github.com/halisonworks/mod-halisoncode/blob/develop/docs/player/guide-nb.md):
   installasjon og alle robotkommandoer.
 
 - [Fabric](https://fabricmc.net/use/installer/): installasjonsprogram.

@@ -83,21 +83,20 @@ __Tidsbruk__: To til tre timer, gjerne i par.
 ## Løsningsforslag {.check}
 
 - [ ] Chatkommandoen `fort` lagrer `x`, `y` og `z` fra `player.position()` og
-  kaller `agent.setHome()`. `byggLag()` fyller en firkant fra
-  `world(x - 7, y + lag, z - 7)` til `world(x + 7, y + lag, z + 7)` med stein,
-  fyller det som er inni (`x - 6` til `x + 6`) med luft, og fyller porten med
-  luft etterpå.
-    `hentStein()` graver med `agent.destroy` og `agent.move` i en `while
-    (gameplay.timeOfDay() < 10000)`, og går hjem med `agent.goHome()`.
-    `gameplay.onDayStart` kaller `hentStein()` og `byggLag()` så lenge `lag` er
-    mindre enn 3, og setter fakler på toppen når muren er ferdig.
+  kaller `agent.setHome()`. `byggLag()` fyller en firkant fra `world(x - 7, y +
+  lag, z - 7)` til `world(x + 7, y + lag, z + 7)` med stein, fyller det som er
+  inni (`x - 6` til `x + 6`) med luft, og fyller porten med luft etterpå.
+  `hentStein()` graver med `agent.destroy` og `agent.move` i en `while
+  (gameplay.timeOfDay() < 10000)`, og går hjem med `agent.goHome()`.
+  `gameplay.onDayStart` kaller `hentStein()` og `byggLag()` så lenge `lag` er
+  mindre enn 3, og setter fakler på toppen når muren er ferdig.
 
 - [ ] En ring på 15 ganger 15 trenger 56 blokker per lag, altså 168 for tre lag.
 
 ## Vanlige problemer {.protip}
 
 - Roboten står stille etter at eleven byttet vindu: Minecraft er på pause. Trykk
-  `Tilbake til spillet`. `F3` + `P` slår av pause når vinduet mister fokus, og
+  `Fortsett spill`. `F3` + `P` slår av pause når vinduet mister fokus, og
   `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele verdenen.
 
 - Ingenting skjer om morgenen: programmet må kjøre og editoren stå åpen hele

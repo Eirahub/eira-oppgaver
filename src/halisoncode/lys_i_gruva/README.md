@@ -7,9 +7,9 @@ language: nb
 
 # Om oppgaven {.activity}
 
-Elevene lar roboten gå gjennom en mørk gang med en mens-løkke (`så lenge`)
-til den kommer til en vegg eller lava. Inni løkka bruker de `robot lysnivå` og
-en `hvis` til å sette en fakkel der det er mørkt. Til slutt lager de en funksjon
+Elevene lar roboten gå gjennom en mørk gang med en mens-løkke (`så lenge`) til
+den kommer til en vegg eller lava. Inni løkka bruker de `robot lysnivå` og en
+`hvis` til å sette en fakkel der det er mørkt. Til slutt lager de en funksjon
 med lysgrensen som parameter, og teller faklene.
 
 ## Oppgaven passer til: {.check}
@@ -85,7 +85,7 @@ __Tidsbruk__: En til to timer.
 ## Vanlige problemer {.protip}
 
 - Roboten står stille etter at eleven byttet vindu: Minecraft er på pause. Trykk
-  `Tilbake til spillet`. `F3` + `P` slår av pause når vinduet mister fokus, og
+  `Fortsett spill`. `F3` + `P` slår av pause når vinduet mister fokus, og
   `/gamerule halisoncode:pause_on_lost_focus false` gjør det for hele verdenen.
 
 - Chatkommandoen virker ikke: programmet må kjøre og editoren stå åpen. Trykk

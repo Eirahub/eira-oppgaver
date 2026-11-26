@@ -24,11 +24,11 @@ bygget av roboten. -->
 ## Sjekkliste {.check}
 
 - [ ] Start Minecraft med Halison Code. Åpne en flat verden i `Kreativ` modus
-  (Creative) med juksekoder på (Allow Commands: ON). Velg `Superflat` under
+  (Creative) med `Tillat kommandoer` på (Allow Commands). Velg `Superflat` under
   `Verdenstype` (World Type).
 
-- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter.
-  Roboten dukker opp ved føttene dine og ser samme vei som deg.
+- [ ] Trykk `T` for å åpne chatten, skriv `/robot spawn` og trykk Enter. Roboten
+  dukker opp ved føttene dine og ser samme vei som deg.
 
 - [ ] Trykk `T` igjen, skriv `/halisoncode` og trykk Enter. Editoren åpnes i
   nettleseren. Trykk `Nytt prosjekt`.
@@ -46,10 +46,10 @@ bygget av roboten. -->
 - Trykk alltid på `Kjør` i editoren **før** du bytter til Minecraft. Programmet
   kjører fra nettleseren, så la editoren stå åpen.
 
-- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Tilbake til
-  spillet` (Back to Game). Roboten står stille så lenge spillet er på pause.
-  Har du ikke skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør
-  det nå. Du kan også trykke `F3` + `P` i Minecraft.
+- Viser Minecraft pausemenyen når du kommer tilbake, trykk `Fortsett spill`
+  (Back to Game). Roboten står stille så lenge spillet er på pause. Har du ikke
+  skrevet `/gamerule halisoncode:pause_on_lost_focus false`, gjør det nå. Du kan
+  også trykke `F3` + `P` i Minecraft.
 
 - Er roboten borte eller langt unna, skriv `/robot spawn` igjen. Vil du stoppe
   et program, trykk stoppknappen i editoren eller skriv `/robot stop`.
@@ -108,8 +108,8 @@ __Riv det gamle huset med `/fill` eller bygg et nytt et annet sted, og kjør.__
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til `plasser glass ved ~1 ~1 ~4` og `plasser glass ved ~7 ~1 ~4`.
-  Det blir et vindu på hver side.
+- [ ] Legg til `plasser glass ved ~1 ~1 ~4` og `plasser glass ved ~7 ~1 ~4`. Det
+  blir et vindu på hver side.
 
 - [ ] Legg til `plasser fakkel ved ~4 ~0 ~4`, så det er lyst inne.
 
@@ -183,5 +183,5 @@ player.onChat("hus", function (num1, num2, num3) {
 
 - [ ] Plasser døra midt på veggen, uansett hvor bredt huset er.
 
-- [ ] Bygg en hel landsby: et `gjenta`-løkke som setter fem hus på rad, med
-  litt plass mellom.
+- [ ] Bygg en hel landsby: et `gjenta`-løkke som setter fem hus på rad, med litt
+  plass mellom.
