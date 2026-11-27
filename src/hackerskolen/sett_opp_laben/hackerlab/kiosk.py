@@ -1,5 +1,5 @@
 # Hackerskolen: Kiosken, en øvingsapp med bevisste sikkerhetshull.
-# Kjør: python3 kiosk.py   og åpne http://127.0.0.1:8080
+# Kjør: python3 kiosk.py   og åpne http://www.kiosken.localhost:8080
 #   python3 kiosk.py --nullstill   sletter kommentarene og starter med ny database
 #   python3 kiosk.py --port 8081   bruker en annen port hvis 8080 er opptatt
 # Appen svarer bare på din egen maskin (127.0.0.1). Ikke legg den ut på nett.
@@ -19,6 +19,8 @@ from urllib.parse import parse_qs, urlparse
 HER = os.path.dirname(os.path.abspath(__file__))
 DB = os.path.join(HER, "kiosk.db")
 PORT = int(sys.argv[sys.argv.index("--port") + 1]) if "--port" in sys.argv else 8080
+# På Eira-laptopene kjører Kiosken som en tjeneste bak http://www.kiosken.localhost
+URL = os.environ.get("KIOSK_URL") or f"http://www.kiosken.localhost:{PORT}"
 
 
 def f(s):
@@ -215,5 +217,18 @@ if __name__ == "__main__":
         os.remove(DB)
         print("Databasen er nullstilt.")
     database()
-    print(f"Kiosken kjører på http://127.0.0.1:{PORT}  (Ctrl+C stopper)")
-    ThreadingHTTPServer(("127.0.0.1", PORT), Kiosk).serve_forever()
+    # På Windows lar SO_REUSEADDR to programmer dele porten. Da merker ingen
+    # at Kiosken kjører fra før, så det slås av der.
+    ThreadingHTTPServer.allow_reuse_address = os.name != "nt"
+    try:
+        server = ThreadingHTTPServer(("127.0.0.1", PORT), Kiosk)
+    except OSError:
+        print(f"Port {PORT} er opptatt, så Kiosken kjører kanskje allerede.")
+        print("På Eira-laptopene starter den av seg selv. Åpne "
+              "http://www.kiosken.localhost")
+        print("Ellers: stopp den andre Kiosken, eller bruk "
+              "python3 kiosk.py --port 8081")
+        sys.exit(1)
+    print(f"Kiosken kjører på {URL}  (Ctrl+C stopper)")
+    print(f"Virker ikke adressen? Bruk http://127.0.0.1:{PORT}, det er samme side.")
+    server.serve_forever()

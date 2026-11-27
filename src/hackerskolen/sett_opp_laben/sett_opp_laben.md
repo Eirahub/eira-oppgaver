@@ -31,6 +31,12 @@ Gjør [Hvit hatt](../hvit_hatt/hvit_hatt) først. Du trenger en PC med Windows,
 Mac eller Linux, eller en Raspberry Pi. Er det en skole-PC, spør læreren før du
 installerer noe.
 
+## Laptop fra Eira? {.tip}
+
+Da er laben allerede satt opp. Mappa `hackerlab` ligger klar, og Kiosken
+kjører på [http://www.kiosken.localhost](http://www.kiosken.localhost). Hopp over steg 1 og 2. Åpne
+**Terminal**, skriv `cd hackerlab`, og gå rett til steg 3.
+
 
 # Steg 1: Python og en terminal {.activity}
 
@@ -120,6 +126,17 @@ python3 sjekk.py status
 Du har 16 flagg å finne. Med 4 blir du **Analytiker**, med 8 **Pentester**,
 og med 13 **Hvit hatt**.
 
+## Bytter du maskin? {.save}
+
+Flaggboka ligger på maskinen. Neste gang kan du sitte ved en annen. Derfor
+viser `python3 sjekk.py status` en **fremgangskode** nederst, for eksempel
+`K7QM2`. Skriv den ned på slutten av hver time. På den nye maskinen henter du
+flaggene dine med:
+
+```
+python3 sjekk.py hent K7QM2
+```
+
 ## Tips {.protip}
 
 Sett alltid flagget i enkle anførselstegn (`'`). Ellers kan terminalen tro at
@@ -138,6 +155,10 @@ krøllparentesene betyr noe.
 Alt kjører på `127.0.0.1`. Det er en adresse som alltid betyr «denne maskinen».
 Ingen andre kan nå laben, og laben når ingen andre.
 
+Kiosken åpner du på `http://www.kiosken.localhost:8080`. Alle navn som slutter på
+`.localhost` betyr også «denne maskinen». Nettleseren spør ingen andre om
+hvor de er, så navnet virker bare hos deg.
+
 
 # Steg 5: Slik bruker du laben {.activity}
 
@@ -152,7 +173,7 @@ den hemmelige tjenesten. Da er terminalen opptatt, og du trenger en til.
   python3 kiosk.py
   ```
 
-  Terminalen skriver `Kiosken kjører på http://127.0.0.1:8080` og blir stående.
+  Terminalen skriver `Kiosken kjører på http://www.kiosken.localhost:8080` og blir stående.
 
 - [ ] Åpne en **ny** terminal i mappa `hackerlab`. Der skriver du andre
   kommandoer, som `python3 sjekk.py blått`, mens Kiosken kjører.
@@ -162,9 +183,16 @@ den hemmelige tjenesten. Da er terminalen opptatt, og du trenger en til.
 - [ ] Har du endret `kiosk.py`, må du stoppe Kiosken og starte den igjen før
   endringen virker.
 
+## På en laptop fra Eira {.tip}
+
+Kiosken og den hemmelige tjenesten kjører allerede når du logger inn. Kiosken
+ligger på [http://www.kiosken.localhost](http://www.kiosken.localhost), uten `:8080`, og starter på nytt av
+seg selv når du lagrer `kiosk.py`. Du trenger ikke starte eller stoppe noe.
+
 | Vil du | Skriv |
 |---|---|
 | Se flaggboka og graden din | `python3 sjekk.py status` |
+| Hente flaggene dine på en annen maskin | `python3 sjekk.py hent KODE` |
 | Lage oppdragene på nytt | `python3 lag_oppdrag.py` |
 | Tømme kommentarene i Kiosken | `python3 kiosk.py --nullstill` |
 | Starte helt på nytt | Slett mappa `hackerlab` og pakk ut zip-fila igjen |
@@ -177,7 +205,9 @@ den hemmelige tjenesten. Da er terminalen opptatt, og du trenger en til.
 | `python3: command not found` | På Windows skriver du `python` |
 | `python` åpner Microsoft Store | Python er ikke installert riktig. Installer på nytt og huk av for **Add python.exe to PATH** |
 | `No such file or directory` | Du står i feil mappe. Skriv `pwd` for å se hvor du er, og `cd` til mappa `hackerlab` |
-| `Address already in use` | Kiosken kjører allerede i et annet vindu. Stopp den, eller bruk `python3 kiosk.py --port 8081` |
+| `Port 8080 er opptatt` | Kiosken kjører allerede. På en laptop fra Eira starter den av seg selv, så bare åpne `http://www.kiosken.localhost`. Ellers: stopp den i det andre vinduet, eller bruk `python3 kiosk.py --port 8081` |
+| `Kiosken svarer ikke` i nettleseren | Du har kanskje en feil i `kiosk.py`. Kjør `python3 kiosk.py` for å se feilmeldingen |
+| `www.kiosken.localhost` åpner ikke | Noen nettlesere kjenner ikke navnet. Bruk `http://127.0.0.1:8080`, det er samme side |
 | `Får ikke kontakt med Kiosken` | Start Kiosken i en annen terminal først |
 | `Det er ikke et flagg i Hackerskolen` | Ta med hele flagget, også `EIRA{` og `}`, og sett det i enkle anførselstegn |
 | Mappa `5_git_lekkasje` mangler | Installer Git og kjør `python3 lag_oppdrag.py` på nytt |
