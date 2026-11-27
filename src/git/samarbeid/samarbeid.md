@@ -106,17 +106,20 @@ rask å godkjenne.
   review** øverst i **Files changed**. Skriv en kort melding, velg **Approve**
   og trykk **Submit review** nederst. Nå har du godkjent (approve) endringen.
 
-## Kan ikke godkjenne? {.tip}
-
-Den som har laget pull requesten, kan ikke godkjenne den selv. Da er
-**Approve** grått. Det er gjennomgåeren som godkjenner. I eldre visninger
-heter knappen **Review changes** i stedet for **Submit review**.
+  ![Vinduet Finish your review med meldingen Ser bra ut! og valget Approve
+  merket, og knappen Submit review nederst](godkjenn.png)
 
 - [ ] **Produkteier:** gå til **Conversation**. Der står det at endringen er
   godkjent. Trykk **Merge pull request** og så **Confirm merge**.
 
 - [ ] **Alle:** bytt til `main` i VS Code og trykk **Sync Changes**. Da henter
   (pull) dere det nye, og alle har telleren.
+
+## Kan ikke godkjenne? {.tip}
+
+Den som har laget pull requesten, kan ikke godkjenne den selv. Da er
+**Approve** grått. Det er gjennomgåeren som godkjenner. I eldre visninger
+heter knappen **Review changes** i stedet for **Submit review**.
 
 ## Hva ser en gjennomgåer etter? {.protip}
 
