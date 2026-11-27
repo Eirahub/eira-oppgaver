@@ -8,6 +8,8 @@ language: nn
 
 # Introduksjon {.intro}
 
+**Fase:** Behov (discovery). Sjå [Frå idé til produksjon](../fasene/fasene_nn).
+
 Dei fleste appar som feilar, løyser eit problem ingen har. Difor startar vi
 ikkje med appen. Vi startar med folk. Du skal finne eit ekte problem, snakke
 med tre moglege kundar og skrive problemet i éi setning.
@@ -206,6 +208,17 @@ gjetningar. Ekte behov finn du berre ved å snakke med ekte folk.
 ## Lagre {.save}
 
 Lagre notata og setninga. Du treng dei i neste oppgåve.
+
+## Ferdig med fasen {.check}
+
+Dette er siste oppgåve i fasen **Behov**. Sjå [Frå idé til
+produksjon](../fasene/fasene_nn).
+
+- [ ] Tre kundar er intervjua.
+
+- [ ] Problemsetninga bruker orda til kundane.
+
+- [ ] Alle tre kundane kjenner seg att i problemsetninga.
 
 
 ## Utfordring {.challenge}

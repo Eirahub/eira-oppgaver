@@ -140,3 +140,7 @@ telefonnumre i koden. Velg *private* til du vet at alt i repoet kan deles.
 
 - [ ] Lær om trygge utvidelser og KI-assistenter i [Utvidelser og
   KI](../utvidelser_og_ki/utvidelser_og_ki.html).
+
+- [ ] Jobb på hver din gren (branch) i [Grener](../../git/grener/grener), og
+  samarbeid med andre i [Samarbeid med pull
+  request](../../git/samarbeid/samarbeid).

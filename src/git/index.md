@@ -9,8 +9,9 @@ uten å ødelegge det som virker, og jobbe sammen med andre på samme prosjekt.
 som programmerer, bruker Git.
 
 I dette kurset bruker du Git fra VS Code. Du lærer å se og angre endringer, å
-lage grener, å dele prosjektet på GitHub, å samarbeide med pull requests og å
-publisere en nettside med GitHub Pages.
+lage grener, å dele prosjektet på GitHub, å samarbeide med pull requests, å
+planlegge med saker og prosjekttavle, å jobbe som et team med roller som
+byttes, og å publisere en nettside med GitHub Pages.
 
 Kurset passer fra 8. trinn og oppover.
 
@@ -26,8 +27,8 @@ Kurset passer fra 8. trinn og oppover.
 
 Git på din egen maskin krever ingen konto. For å bruke GitHub må du være 13 år
 eller eldre. Er du yngre, kan du gjøre [Tilbake i tid](tidsreise/tidsreise) og
-[Prøv en idé på en gren](grener/grener). De tre siste oppgavene kan du gjøre
-sammen med en voksen som har konto.
+[Prøv en idé på en gren](grener/grener), bortsett fra det siste steget. De
+andre oppgavene kan du gjøre sammen med en voksen som har konto.
 
 GitHub er eid av Microsoft. Kurset er ikke laget av eller godkjent av GitHub
 eller Microsoft.

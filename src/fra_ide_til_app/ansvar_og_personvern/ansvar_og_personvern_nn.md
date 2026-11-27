@@ -8,6 +8,8 @@ language: nn
 
 # Introduksjon {.intro}
 
+**Fase:** Test med kundar (alpha/beta). Sjå [Frå idé til produksjon](../fasene/fasene_nn).
+
 Når appen har ekte kundar, har du ansvar for dei. Du må passe på
 opplysningane deira, vere ærleg når du sel, og vite kva KI-en har laga for
 deg. I denne oppgåva går du gjennom appen din med ei sjekkliste og skriv ei

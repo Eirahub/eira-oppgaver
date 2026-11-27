@@ -7,6 +7,8 @@ language: nb
 
 # Introduksjon {.intro}
 
+**Fase:** Idé (concept). Se [Fra idé til produksjon](../fasene/fasene).
+
 Nå har du et problem som kundene kjenner seg igjen i. I denne oppgaven gjør du
 det om til en forretningsidé: hvor kan en app hjelpe, er jobben stor nok til at
 noen vil betale, hva lover appen kunden, og hvordan skal den lønne seg?
@@ -226,16 +228,33 @@ personopplysninger. Se hvorfor promptene virker, og lag dine egne.
 
 ## Test deg selv {.flag}
 
-- [ ] Les verdiforslaget høyt for en av kundene fra intervjuet. Skjønner de det
-  med en gang?
+- [ ] Les verdiforslaget høyt for alle tre kundene fra intervjuet, én om
+  gangen. Skjønner de det med en gang?
 
-- [ ] Sier de «Det hadde jeg brukt», eller «Hm, kanskje»? Det første er et godt
-  tegn.
+- [ ] Skriv ned hva hver av dem sier. Sier de «Det hadde jeg brukt», eller «Hm,
+  kanskje»? Det første er et godt tegn.
+
+- [ ] Sa ingen «Det hadde jeg brukt»? Skriv verdiforslaget på nytt og prøv
+  igjen, eller gå tilbake til [Finn behovet](../finn_behovet/finn_behovet). Det
+  er vanlig.
 
 ## Lagre {.save}
 
 Lagre kundereisen, verdiforslaget og forretningsmodellen. Neste oppgave er å
 lage en plan.
+
+## Ferdig med fasen {.check}
+
+Dette er siste oppgave i fasen **Idé**. Se [Fra idé til
+produksjon](../fasene/fasene).
+
+- [ ] Verdiforslaget er skrevet.
+
+- [ ] Forretningsmodellen er skrevet.
+
+- [ ] Alle tre kundene har hørt verdiforslaget.
+
+- [ ] Minst én av dem har sagt «Det hadde jeg brukt».
 
 
 ## Utfordring {.challenge}

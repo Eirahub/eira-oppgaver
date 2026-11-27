@@ -8,11 +8,13 @@ language: nn
 
 # Introduksjon {.intro}
 
+**Fase:** Lansering, drift og avvikling (release, operations, retirement). Sjå [Frå idé til produksjon](../fasene/fasene_nn).
+
 Ein app er ikkje ferdig når han er publisert. Kundane stiller spørsmål, noko går
 i stykke, og ein dag skal appen kanskje leggjast ned. Mange appar som er laga
 med KI, blir gløymde etter lanseringa, og då blir dei ein risiko. I denne
-oppgåva lagar du rutinar for kundeservice, oppdateringar og tryggleikskopi, og
-ein plan for korleis appen blir avslutta.
+oppgåva lanserer du versjon 1, lagar rutinar for kundeservice, oppdateringar og
+tryggleikskopi, og lagar ein plan for korleis appen blir avslutta.
 
 ![Illustrasjon av ein sirkel med fire ikon: kundeservice, oppdatering,
 tryggleikskopi og avslutning, rundt ei fil som heiter DRIFT.md](drift_nn.png)
@@ -24,15 +26,58 @@ kundar](../test_med_kunder/test_med_kunder_nn). Oppgåva passar best når appen
 skal brukast over tid, til dømes i ei ungdomsbedrift.
 
 
-# Steg 1: Kundeservice og klagar {.activity}
+# Steg 1: Lanser versjon 1 {.activity}
+
+Når feila frå kundetesten er retta, er appen klar for alle i målgruppa. Gi
+versjonen eit namn, så de veit kva som blei lansert, og kan finne han igjen.
+
+## Sjekkliste {.check}
+
+- [ ] Sjekk at alt som skal med, er fletta inn i `main`, og at appen verkar på
+  lenka.
+
+- [ ] Bestem kvar kundane skal ta kontakt, og skriv det i appen. Bruk ei
+  e-postadresse eller eit skjema for bedrifta, ikkje ein privat konto.
+
+- [ ] Lag eit versjonsmerke (tag) og ei utgiving (release) på GitHub. Opne
+  repoet og trykk `Releases` til høgre. Trykk `Create a new release` (har du
+  laga ei før, heiter han `Draft a new release`). Trykk `Select tag`, skriv
+  `v1.0`, trykk `Create new tag` og så `Create`. Gi utgivinga ein tittel og
+  eit par setningar om kva appen kan, og trykk `Publish release`.
+
+- [ ] Likar du terminalen betre, kan du lage versjonsmerket der i staden:
+
+  ```
+  git tag v1.0
+  git push origin v1.0
+  ```
+
+- [ ] Veit du korleis de går tilbake til førre versjon viss ei oppdatering
+  øydelegg noko? Les [Tilbake i tid](../../git/tidsreise/tidsreise).
+  Versjonsmerket viser nøyaktig kva som var med i `v1.0`.
+
+## Neste versjon {.tip}
+
+Små rettingar kan heite `v1.1`, `v1.2` og så vidare. Store endringar kan heite
+`v2.0`.
+
+## Ferdig med fasen {.check}
+
+Fasen **Lansering** er ferdig når:
+
+- [ ] Versjonen er merkt `v1.0`.
+
+- [ ] Kontaktstaden står i appen.
+
+- [ ] Du veit korleis de går tilbake til førre versjon.
+
+
+# Steg 2: Kundeservice og klagar {.activity}
 
 Når kundane bruker appen, kjem spørsmåla: Kvifor kom ikkje stadfestinga? Kan eg
 avbestille? Måten de svarar på, betyr like mykje for omdømet som sjølve appen.
 
 ## Sjekkliste {.check}
-
-- [ ] Bestem kvar kundane skal ta kontakt, og skriv det i appen. Bruk ei
-  e-postadresse eller eit skjema for bedrifta, ikkje ein privat konto.
 
 - [ ] Bestem kven som svarar, og kor raskt. Skriv det i ei ny fil som heiter
   `DRIFT.md`.
@@ -47,13 +92,17 @@ avbestille? Måten de svarar på, betyr like mykje for omdømet som sjølve appe
 - [ ] Før ein logg over førespurnader, utan namn: dato, kva det galdt, og kva
   de gjorde. Mange like spørsmål betyr at appen bør endrast.
 
+- [ ] Gjeld førespurnaden ein feil eller eit ønske? Lag ei sak (issue) på
+  GitHub med merkelappen (label) `bug` eller `enhancement`, utan namn på
+  kunden.
+
 ## Tips {.protip}
 
 Kundar har rettar når dei kjøper noko, til dømes til å klage. Sjekk hos
 Forbrukarrådet kva som gjeld for det de sel.
 
 
-# Steg 2: Oppdater trygt {.activity}
+# Steg 3: Oppdater trygt {.activity}
 
 Kvar endring kan øydeleggje noko som verka. Når ekte kundar bruker appen,
 treng de ein fast rutine for endringar.
@@ -62,11 +111,14 @@ treng de ein fast rutine for endringar.
 
 - [ ] Skriv rutinen i `DRIFT.md`:
 
-  1. Lag endringa på ei eiga grein i Git.
+  1. Lag endringa på ei eiga grein (branch) i Git, ut frå ei sak.
   2. Test dei viktigaste MVP-historiene, òg på mobil.
-  3. Publiser.
-  4. Sjekk at appen verkar etter publiseringa.
-  5. Verkar han ikkje? Gå tilbake til førre versjon, sjå [Tilbake i
+  3. Lag ein pull request med `Closes #N`, få han gjennomgått, og flett han
+     inn i `main`. Sjå [Samarbeid med pull
+     request](../../git/samarbeid/samarbeid).
+  4. Publiser, og gi versjonen eit nytt versjonsmerke, til dømes `v1.1`.
+  5. Sjekk at appen verkar etter publiseringa.
+  6. Verkar han ikkje? Gå tilbake til førre versjon, sjå [Tilbake i
      tid](../../git/tidsreise/tidsreise).
 
 - [ ] Før ein endringslogg: dato, kva som er endra, og kvifor.
@@ -75,7 +127,7 @@ treng de ein fast rutine for endringar.
   det finst tryggleiksoppdateringar.
 
 
-# Steg 3: Tryggleikskopi og tilgang {.activity}
+# Steg 4: Tryggleikskopi og tilgang {.activity}
 
 ## Sjekkliste {.check}
 
@@ -95,7 +147,7 @@ treng de ein fast rutine for endringar.
   ofte. Skriv det i `DRIFT.md`.
 
 
-# Steg 4: Følg med på måla {.activity}
+# Steg 5: Følg med på måla {.activity}
 
 ## Sjekkliste {.check}
 
@@ -107,8 +159,22 @@ treng de ein fast rutine for endringar.
 
 - [ ] Kostar appen meir enn de rekna med? Samanlikn med kostnadene i `PLAN.md`.
 
+## Ferdig med fasen {.check}
 
-# Steg 5: Avslutt appen skikkeleg {.activity}
+Fasen **Drift** er ferdig når `DRIFT.md` har:
+
+- [ ] Kven som svarar kundane, og kor raskt.
+
+- [ ] Rutinen for oppdateringar.
+
+- [ ] Ein tryggleikskopi de har prøvd å hente tilbake.
+
+- [ ] Tofaktor på alle kontoar.
+
+- [ ] Mål og kostnader som de ser på kvar månad.
+
+
+# Steg 6: Avslutt appen skikkeleg {.activity}
 
 Ungdomsbedrifter blir ofte avvikla når skuleåret er slutt. Ein app som berre
 blir liggjande, kan lekkje data, koste pengar eller bli misbrukt av andre.
@@ -129,6 +195,18 @@ blir liggjande, kan lekkje data, koste pengar eller bli misbrukt av andre.
 
 - [ ] Skal nokon andre ta over appen? Skriv ei overlevering i `DRIFT.md`: kva
   appen gjer, kvar alt ligg, og kven som har hatt tilgang.
+
+## Ferdig med fasen {.check}
+
+Fasen **Avvikling** er ferdig når:
+
+- [ ] Kundane har fått beskjed.
+
+- [ ] Dataa er sletta, òg kopiar.
+
+- [ ] Nøklar og domene er tekne hand om.
+
+- [ ] Overleveringa er skriven.
 
 ## Prompter du kan lære av {.protip}
 

@@ -7,6 +7,8 @@ language: nb
 
 # Introduksjon {.intro}
 
+**Fase:** MVP (build). Se [Fra idé til produksjon](../fasene/fasene).
+
 Når mange lager apper med KI, begynner appene å ligne på hverandre. Folk lærer
 seg fort å kjenne igjen en app som er «laget av KI på en ettermiddag», og da
 stoler de mindre på den. I denne oppgaven finner du KI-sporene i appen din,

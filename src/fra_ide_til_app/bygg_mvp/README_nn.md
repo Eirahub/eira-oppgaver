@@ -8,9 +8,11 @@ language: nn
 
 # Om oppgåva {.activity}
 
-Eleven byggjer MVP-en med ein KI-kodeassistent i ei fast løkke: éi historie,
-plan, sjekk, commit og ny samtale. Eleven les koden før dei godkjenner han,
-øver på å beskrive feil, fører logg over KI-feil og går tilbake med Git.
+Eleven byggjer MVP-en med ein KI-kodeassistent i ei fast løkke: éi sak
+(issue), ei grein (branch), plan, sjekk, commit, pull request med `Closes #N`,
+kodegjennomgang (code review), fletting og ny samtale. Eleven les koden før dei
+godkjenner han, øver på å beskrive feil, fører logg over KI-feil og går tilbake
+med Git.
 
 ## Oppgåva passar til: {.check}
 
@@ -61,6 +63,11 @@ kva KI-en gjorde feil. MVP-historiene i `PLAN.md` er kryssa av.
 
 - Commit etter kvart steg er det som gjer at elevane tør å la KI-en endre ting.
   Sjekk Git-historikken undervegs.
+
+- Jobbar elevane i par eller gruppe, går ein annan enn den som bygde, gjennom
+  pull requesten. Ein elev som jobbar åleine, går gjennom sin eigen. Greiner og
+  pull request er forklarte i [Prøv en idé på en gren](../../git/grener/grener)
+  og [Samarbeid med pull request](../../git/samarbeid/samarbeid).
 
 - Når ein elev sit fast: be dei lese meldinga si høgt. Ofte er ho utydeleg.
 

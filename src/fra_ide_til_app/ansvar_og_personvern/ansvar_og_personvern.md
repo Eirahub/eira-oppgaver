@@ -7,6 +7,8 @@ language: nb
 
 # Introduksjon {.intro}
 
+**Fase:** Test med kunder (alpha/beta). Se [Fra idé til produksjon](../fasene/fasene).
+
 Når appen har ekte kunder, har du ansvar for dem. Du må passe på
 opplysningene deres, være ærlig når du selger, og vite hva KI-en har laget for
 deg. I denne oppgaven går du gjennom appen din med en sjekkliste og skriver en

@@ -7,7 +7,8 @@ language: nb
 
 # Om oppgaven {.activity}
 
-Eleven lager rutiner for drift av appen: kundeservice og klager, trygge
+Eleven lanserer versjon 1 med et versjonsmerke (tag) og en utgivelse
+(release), og lager rutiner for drift av appen: kundeservice og klager, trygge
 oppdateringer, sikkerhetskopi og tilgang, oppfølging av mål og en plan for å
 avslutte appen. Alt samles i `DRIFT.md`.
 
@@ -64,9 +65,13 @@ tilganger, og en plan for avslutning.
   lærere](../veiledning_for_laerere/veiledning_for_laerere) om risiko,
   kontoer og ansvar i kurset før du starter.
 
-- Steg 1 og 4 kan gjøres i salgs- og servicefag uten de tekniske stegene.
+- Steg 1 krever en GitHub-konto for utgivelsen (release). Har eleven ikke
+  konto, kan læreren lage versjonsmerket, eller eleven kan bruke `git tag`
+  lokalt.
 
-- Steg 5 passer når ungdomsbedriften avvikles. Sjekk at personopplysninger
+- Steg 2 og 5 kan gjøres i salgs- og servicefag uten de tekniske stegene.
+
+- Steg 6 passer når ungdomsbedriften avvikles. Sjekk at personopplysninger
   faktisk er slettet, også i sikkerhetskopier og e-post.
 
 - Ekte klager inneholder ofte personopplysninger. Elevene skal fjerne navn og

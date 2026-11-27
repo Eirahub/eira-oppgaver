@@ -8,6 +8,8 @@ language: nn
 
 # Introduksjon {.intro}
 
+**Fase:** MVP (build). Sjå [Frå idé til produksjon](../fasene/fasene_nn).
+
 Mange appar må hugse noko: bestillingar, påmeldingar eller brukarar. Kvar dataa
 blir lagra, bestemmer kven som ser dei, kva det kostar, og kva som kan gå gale.
 Mange appar som er laga med KI på ei helg, blir hacka fordi dataa ligg ope. I
@@ -183,6 +185,17 @@ personopplysningar om andre. Sjå kvifor promptane verkar, og lag dine eigne.
 ## Lagre {.save}
 
 Lag ein commit med meldinga `Lagring av data`.
+
+## Ferdig med fasen {.check}
+
+Fasen **MVP** er ferdig når:
+
+- [ ] Alle MVP-sakene er lukka.
+
+- [ ] `main` verkar.
+
+- [ ] Du har gått gjennom `TEST.md` frå [Test og
+  kvalitet](../test_og_kvalitet/test_og_kvalitet_nn).
 
 
 ## Utfordring {.challenge}

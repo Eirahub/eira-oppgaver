@@ -8,6 +8,8 @@ language: nn
 
 # Introduksjon {.intro}
 
+**Fase:** Test med kundar (alpha/beta). Sjå [Frå idé til produksjon](../fasene/fasene_nn).
+
 Eit gratisspel som berre køyrer i nettlesaren, og ein nettbutikk med innlogging
 og betaling, er begge appar. Men dei har heilt ulik risiko. Di meir appen veit
 om folk, og di meir pengar det handlar om, di meir må du byggje og passe på. I

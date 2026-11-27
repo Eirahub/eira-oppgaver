@@ -7,6 +7,8 @@ language: nb
 
 # Introduksjon {.intro}
 
+**Fase:** MVP (build). Se [Fra idé til produksjon](../fasene/fasene).
+
 Nå bygger du appen, én MVP-historie om gangen. KI-en skriver koden, men du har
 de andre rollene: Du bestemmer hva som bygges, leser koden før du sier ja, og
 sjekker at den virker. Etter hver historie lagrer du en versjon i Git. Når noe
@@ -21,25 +23,37 @@ lagre i Git, neste steg](bygg.png)
 Gjør [Kom i gang med en
 KI-kodeassistent](../kom_i_gang_claude_code/kom_i_gang_claude_code) først.
 Du trenger `PLAN.md` med MVP-historier og «Ferdig når», og en `CLAUDE.md`. Du
-bør kunne lage en commit, se [Git i VS
+bør kunne lage en innsjekking (commit), se [Git i VS
 Code](../../vs_code/git_i_vs_code/git_i_vs_code), og det hjelper å ha gjort
 [Feilsøking i VS Code](../../vs_code/feilsoking/feilsoking).
 
 
 # Steg 1: Løkka {.activity}
 
-Du gjentar de samme fire tingene for hver MVP-historie:
+Du gjentar de samme tingene for hver MVP-historie, slik mange utviklere gjør
+på jobb:
 
-1. **Be om ett steg**: én historie fra `PLAN.md`, med en plan først.
-2. **Sjekk**: les endringene og prøv «Ferdig når» i nettleseren.
-3. **Lagre** med en commit hvis det virker.
-4. **Neste steg**: kryss av historien og start en ny samtale.
+1. **Sak**: historien ligger som en sak (issue) på GitHub, for eksempel `#12`.
+2. **Gren**: lag en gren (branch) for saken, så `main` alltid virker.
+3. **Bygg**: Claude Code bygger historien, med en plan først.
+4. **Sjekk**: les endringene og prøv «Ferdig når» i nettleseren.
+5. **Lagre** med en commit hvis det virker.
+6. **Pull request**: send grenen til GitHub, gå gjennom endringene og flett
+   (merge) dem inn i `main`.
 
 ## Sjekkliste {.check}
 
+- [ ] Finn saken for den første historien. Ligger ikke historiene som saker
+  ennå, se [Planlegg med issues og
+  prosjekttavle](../../git/issues_og_prosjekt/issues_og_prosjekt).
+
+- [ ] Lag en gren med nummeret til saken i navnet, for eksempel
+  `feature/12-ledige-tider`, og bytt til den. Se [Prøv en idé på en
+  gren](../../git/grener/grener).
+
 - [ ] Start Claude Code i prosjektmappa med `claude`, og slå på plan-modus.
 
-- [ ] Velg den første historien i `PLAN.md`, og skriv:
+- [ ] Skriv:
 
   ```
   Bygg denne MVP-historien: [lim inn historien og «Ferdig når»].
@@ -55,6 +69,19 @@ Du gjentar de samme fire tingene for hver MVP-historie:
 
 - [ ] Virker det? Lag en commit med en melding som sier hva som er nytt, for
   eksempel `Liste over ledige tider`.
+
+- [ ] Send grenen (push) til GitHub, og lag en pull request. Skriv `Closes #12`
+  i beskrivelsen, så lukkes saken når pull requesten blir flettet. Se
+  [Samarbeid med pull request](../../git/samarbeid/samarbeid).
+
+- [ ] Gjør en kodegjennomgang (code review) under `Files changed`. Jobber dere
+  i gruppe, er det en annen enn den som bygde, som går gjennom og godkjenner
+  (approve). Jobber du alene, går du gjennom din egen pull request og skriver
+  kommentarer med `Comment`. Du kan ikke godkjenne din egen pull request, så
+  du fletter uten `Approve`.
+
+- [ ] Flett med `Merge pull request`. Bytt til `main` i VS Code, og hent (pull)
+  den nye versjonen.
 
 - [ ] Kryss av historien i `PLAN.md`. Skriv `/clear` før neste historie.
 

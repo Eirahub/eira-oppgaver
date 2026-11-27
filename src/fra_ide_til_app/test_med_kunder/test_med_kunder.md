@@ -7,6 +7,8 @@ language: nb
 
 # Introduksjon {.intro}
 
+**Fase:** Test med kunder (alpha/beta). Se [Fra idé til produksjon](../fasene/fasene).
+
 En app er ikke ferdig før kundene har brukt den. I denne oppgaven publiserer du
 MVP-en, lar tre kunder teste den, lager neste versjon ut fra det de sa, og
 presenterer appen i en kort pitch.
@@ -108,10 +110,15 @@ Du kan ikke gjøre alt kundene ønsker. Velg det som betyr mest.
 - [ ] Sorter tilbakemeldingene i tre grupper: **Feil**, **Vanskelig** og
   **Ønsker**.
 
+- [ ] Lag en sak (issue) på GitHub for hver feil og hvert punkt du vil gjøre
+  noe med. Gi feil merkelappen (label) `bug`, og ting som er vanskelige eller
+  ønsket, merkelappen `enhancement`.
+
 - [ ] Rett alle feil. Velg de to viktigste fra **Vanskelig**.
 
 - [ ] Skriv dem inn i `PLAN.md` som nye MVP-historier, og bygg dem med løkka
-  fra forrige oppgave.
+  fra [Bygg MVP-en](../bygg_mvp/bygg_mvp): gren, pull request med `Closes #N`,
+  gjennomgang og fletting.
 
 - [ ] Flytt resten av ønskene til **Senere**.
 
@@ -169,6 +176,18 @@ personopplysninger. Se hvorfor promptene virker, og lag dine egne.
 ## Lagre {.save}
 
 Lag en commit med meldingen `Versjon 2 etter kundetest`.
+
+## Ferdig med fasen {.check}
+
+Fasen **Test med kunder** er ferdig når:
+
+- [ ] Sjekken i steg 1 er gjort.
+
+- [ ] Tre kunder har testet appen.
+
+- [ ] Alt under **Feil** er rettet, og sakene er lukket.
+
+- [ ] En voksen har godkjent der det trengs.
 
 
 ## Utfordring {.challenge}

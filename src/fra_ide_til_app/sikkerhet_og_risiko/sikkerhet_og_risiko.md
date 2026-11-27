@@ -7,6 +7,8 @@ language: nb
 
 # Introduksjon {.intro}
 
+**Fase:** Test med kunder (alpha/beta). Se [Fra idé til produksjon](../fasene/fasene).
+
 Et gratisspill som bare kjører i nettleseren, og en nettbutikk med innlogging
 og betaling, er begge apper. Men de har helt ulik risiko. Jo mer appen vet om
 folk, og jo mer penger det handler om, jo mer må du bygge og passe på. I denne

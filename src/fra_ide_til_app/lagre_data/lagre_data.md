@@ -7,6 +7,8 @@ language: nb
 
 # Introduksjon {.intro}
 
+**Fase:** MVP (build). Se [Fra idé til produksjon](../fasene/fasene).
+
 Mange apper må huske noe: bestillinger, påmeldinger eller brukere. Hvor dataene
 lagres, bestemmer hvem som ser dem, hva det koster, og hva som kan gå galt.
 Mange apper som er laget med KI på en helg, blir hacket fordi dataene ligger
@@ -182,6 +184,17 @@ personopplysninger. Se hvorfor promptene virker, og lag dine egne.
 ## Lagre {.save}
 
 Lag en commit med meldingen `Lagring av data`.
+
+## Ferdig med fasen {.check}
+
+Fasen **MVP** er ferdig når:
+
+- [ ] Alle MVP-sakene er lukket.
+
+- [ ] `main` virker.
+
+- [ ] Du har gått gjennom `TEST.md` fra [Test og
+  kvalitet](../test_og_kvalitet/test_og_kvalitet).
 
 
 ## Utfordring {.challenge}

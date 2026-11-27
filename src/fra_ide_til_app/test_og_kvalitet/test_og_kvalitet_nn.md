@@ -8,6 +8,8 @@ language: nn
 
 # Introduksjon {.intro}
 
+**Fase:** MVP (build). Sjå [Frå idé til produksjon](../fasene/fasene_nn).
+
 Ein app kan verke når du prøver han, og likevel feile for kundane. I denne
 oppgåva er du testaren. Du lagar ei testliste ut frå «Ferdig når», prøver det
 som kan gå gale, sjekkar at alle kan bruke appen, og får ein gjennomgang av

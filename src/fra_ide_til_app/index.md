@@ -24,8 +24,13 @@ ikke kunne programmere.
 
 Ta oppgavene i rekkefølge. Velg filteret **Oppgavesamlinger** for å se dem.
 
+Start med [Fra idé til produksjon](fasene/fasene). Den viser fasene appen går
+gjennom, hva du lager i hver fase, og når du er ferdig med den. Den siste
+oppgaven i hver fase slutter med en sjekkliste, **Ferdig med fasen**.
+
 Del 1 gjør du med penn, papir og en tekstfil. Du trenger ingen forkunnskaper
-og ingen konto.
+og ingen konto. Har du en GitHub-konto, kan du legge planen på en
+prosjekttavle allerede i Planen, men et ark holder.
 
 Før del 2 bør du ha gjort:
 

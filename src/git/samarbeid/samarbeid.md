@@ -8,68 +8,76 @@ language: nb
 # Introduksjon {.intro}
 
 Når flere jobber på samme prosjekt, kan ikke alle endre `main` samtidig. Hver
-person lager en gren og ber om å få den flettet inn. Det heter en **pull
-request**. Andre kan lese endringen, kommentere og godkjenne den før den kommer
-inn.
+person lager en gren (branch) og ber om å få den flettet inn (merge). Det heter
+en **pull request**. Andre kan lese endringen, kommentere og godkjenne den før
+den kommer inn. Det heter en **kodegjennomgang** (code review).
 
-Dere er to som jobber sammen. Den ene eier repoet og kalles **eier** her. Den
-andre kalles **hjelper**. Begge trenger en GitHub-konto.
+Dere er to eller tre som jobber sammen, med hver sin rolle:
+
+- **Produkteier** (product owner) eier repoet og bestemmer hva som skal lages.
+- **Utvikler** (developer) lager endringen på en gren.
+- **Gjennomgåer** (reviewer) leser endringen og godkjenner den.
+
+Er dere bare to, er produkteieren også gjennomgåer. I steg 5 bytter dere
+roller. Alle trenger en GitHub-konto.
 
 ![En pull request på github.com med tittelen Tell antall forsøk, en
 beskrivelse og en kommentar på en kodelinje](pull_request.png)
 
 ## Aldersgrense {.tip}
 
-Begge må være 13 år eller eldre for å ha en konto på GitHub. Er en av dere
-yngre, kan en voksen være den andre.
+Alle må være 13 år eller eldre for å ha en konto på GitHub. Er en av dere
+yngre, kan en voksen ta en av rollene.
 
 
-# Steg 1: Inviter hjelperen {.activity}
+# Steg 1: Inviter de andre {.activity}
 
 ## Sjekkliste {.check}
 
-- [ ] **Eier:** åpne repoet `gjett_tallet` fra [Del koden på
+- [ ] **Produkteier:** åpne repoet `gjett_tallet` fra [Del koden på
   GitHub](../del_pa_github/del_pa_github) på github.com.
 
-- [ ] **Eier:** gå til **Settings**, så **Collaborators**, og trykk **Add
-  people**. Skriv brukernavnet til hjelperen.
+- [ ] **Produkteier:** gå til **Settings**, så **Collaborators**, og trykk
+  **Add people**. Skriv brukernavnet til de andre, én om gangen.
 
-- [ ] **Hjelper:** du får en invitasjon på e-post og på github.com. Godta den.
+- [ ] **Utvikler og gjennomgåer:** dere får en invitasjon på e-post og på
+  github.com. Godta den.
 
-- [ ] **Hjelper:** klon repoet i VS Code med **Ctrl** + **Shift** + **P** og
-  `Git: Clone`, som i steg 5 i forrige oppgave.
+- [ ] **Utvikler og gjennomgåer:** klon (clone) repoet i VS Code med **Ctrl** +
+  **Shift** + **P** og `Git: Clone`, som i steg 5 i forrige oppgave.
 
 
-# Steg 2: Hjelperen lager en gren {.activity}
+# Steg 2: Utvikleren lager en gren {.activity}
 
 ## Sjekkliste {.check}
 
-- [ ] **Hjelper:** lag en gren som heter `teller`, som i [Prøv en idé på en
-  gren](../grener/grener).
+- [ ] **Utvikler:** lag en gren som heter `feature/teller`, som i [Prøv en idé
+  på en gren](../grener/grener).
 
-- [ ] **Hjelper:** få spillet til å telle forsøk. Legg `forsok = 0` over `while
-  True:`, `forsok = forsok + 1` rett under `input`-linja, og bytt
+- [ ] **Utvikler:** få spillet til å telle forsøk. Legg `forsok = 0` over
+  `while True:`, `forsok = forsok + 1` rett under `input`-linja, og bytt
   `print("Riktig!")` med:
 
   ```python
           print("Riktig! Du brukte", forsok, "forsøk")
   ```
 
-- [ ] **Hjelper:** kjør programmet, lag en commit og trykk **Publish Branch**.
-  Grenen ligger nå på GitHub.
+- [ ] **Utvikler:** kjør programmet, lag en innsjekking (commit) og trykk
+  **Publish Branch**. Da sender (push) du grenen til GitHub.
 
 
 # Steg 3: Lag en pull request {.activity}
 
 ## Sjekkliste {.check}
 
-- [ ] **Hjelper:** åpne repoet på github.com. Det står en gul boks med `teller
-  had recent pushes`. Trykk **Compare & pull request**.
+- [ ] **Utvikler:** åpne repoet på github.com. Det står en gul boks med
+  `feature/teller had recent pushes`. Trykk **Compare & pull request**.
 
-- [ ] **Hjelper:** skriv en tittel, for eksempel `Tell antall forsøk`, og en
+- [ ] **Utvikler:** skriv en tittel, for eksempel `Tell antall forsøk`, og en
   setning om hva du har gjort og hvorfor.
 
-- [ ] **Hjelper:** trykk **Create pull request**.
+- [ ] **Utvikler:** til høyre, under **Reviewers**, velg gjennomgåeren. Trykk
+  **Create pull request**.
 
 ## En god pull request {.tip}
 
@@ -81,72 +89,161 @@ rask å godkjenne.
 
 ## Sjekkliste {.check}
 
-- [ ] **Eier:** åpne fanen **Pull requests** på github.com og klikk på den nye.
+- [ ] **Gjennomgåer:** åpne fanen **Pull requests** på github.com og klikk på
+  den nye.
 
-- [ ] **Eier:** gå til **Files changed**. Der ser du hva hjelperen har endret.
+- [ ] **Gjennomgåer:** gå til **Files changed**. Der ser du hva utvikleren har
+  endret.
 
-- [ ] **Eier:** hold musa over en linje og trykk på **+**. Skriv en kommentar,
-  for eksempel et spørsmål eller ros, og trykk **Add single comment**.
+- [ ] **Gjennomgåer:** hold musa over en linje og trykk på **+**. Skriv en
+  kommentar, for eksempel et spørsmål eller ros, og trykk **Comment**.
 
-- [ ] **Hjelper:** svar på kommentaren. Må noe rettes, retter du det i VS Code,
-  lager en commit og trykker **Sync Changes**. Den nye commiten dukker opp i
-  pull requesten.
+- [ ] **Utvikler:** svar på kommentaren. Må noe rettes, retter du det i VS
+  Code, lager en commit og trykker **Sync Changes**. Den nye commiten dukker
+  opp i pull requesten.
 
-- [ ] **Eier:** når alt er bra, gå til **Conversation** og trykk **Merge pull
-  request** og så **Confirm merge**.
+- [ ] **Gjennomgåer:** når alt er bra, trykk den grønne knappen **Submit
+  review** øverst i **Files changed**. Skriv en kort melding, velg **Approve**
+  og trykk **Submit review** nederst. Nå har du godkjent (approve) endringen.
 
-- [ ] **Begge:** bytt til `main` i VS Code og trykk **Sync Changes**. Nå har
-  begge telleren.
+  ![Vinduet Finish your review med meldingen Ser bra ut! og valget Approve
+  merket, og knappen Submit review nederst](godkjenn.png)
+
+- [ ] **Produkteier:** gå til **Conversation**. Der står det at endringen er
+  godkjent. Trykk **Merge pull request** og så **Confirm merge**.
+
+- [ ] **Alle:** bytt til `main` i VS Code og trykk **Sync Changes**. Da henter
+  (pull) dere det nye, og alle har telleren.
+
+## Kan ikke godkjenne? {.tip}
+
+Den som har laget pull requesten, kan ikke godkjenne den selv. Da er
+**Approve** grått. Det er gjennomgåeren som godkjenner. I eldre visninger
+heter knappen **Review changes** i stedet for **Submit review**.
+
+## Hva ser en gjennomgåer etter? {.protip}
+
+Kjører koden? Gjør den det tittelen sier? Er navnene lette å forstå? Si hva
+som er bra, og spør i stedet for å bestemme. Det er koden som gjennomgås, ikke
+personen.
 
 
-# Steg 5: Begge endrer samtidig {.activity}
+# Steg 5: Bytt roller og gjennomgå i VS Code {.activity}
 
-Nå lager dere en konflikt på GitHub og løser den.
+Nå bytter dere roller. Den som var gjennomgåer, blir utvikler, og den som var
+utvikler, blir gjennomgåer. Er dere tre, blir den som var utvikler,
+produkteier. Denne gangen gjør gjennomgåeren alt i VS Code.
 
 ## Sjekkliste {.check}
 
-- [ ] **Eier:** lag en gren `velkommen`. Legg til `print("Velkommen!")` på linja
-  over `while True:`. Publiser og lag en pull request.
+- [ ] **Utvikler:** lag en gren `feature/ha-det`. Legg til `print("Ha det
+  bra!")` nederst i fila, uten innrykk. Lag en commit, trykk **Publish
+  Branch** og lag en pull request som i steg 3.
 
-- [ ] **Hjelper:** lag en gren `hei` fra `main`. Legg til `print("Hei!")` på den
-  samme linja. Publiser og lag en pull request.
+- [ ] **Gjennomgåer:** i VS Code, åpne **Extensions** med
+  **Ctrl** + **Shift** + **X**. Søk etter `GitHub Pull Requests` fra GitHub og
+  trykk **Install**.
 
-- [ ] **Eier:** flett inn `velkommen`.
+- [ ] **Gjennomgåer:** klikk på GitHub-ikonet i sidelinja til venstre og logg
+  inn med GitHub-kontoen din når VS Code ber om det.
 
-- [ ] Pull requesten fra `hei` sier nå **This branch has conflicts that must be
-  resolved**.
+- [ ] **Gjennomgåer:** under **Pull Requests** finner du pull requesten fra
+  utvikleren. Klikk på den. Beskrivelsen åpnes, og fila som er endret, står i
+  lista.
 
-- [ ] **Hjelper:** skriv denne linja i terminalen én gang. Den sier at Git skal
+- [ ] **Gjennomgåer:** klikk på fila. Da ser du det gamle og det nye ved siden
+  av hverandre. Hold musa over en linje, trykk på **+** og skriv en kommentar.
+
+- [ ] **Gjennomgåer:** vil du prøve koden, trykk **Checkout** i beskrivelsen.
+  Da bytter VS Code til grenen, og du kan kjøre programmet.
+
+- [ ] **Gjennomgåer:** nederst i beskrivelsen skriver du en kort melding og
+  velger **Approve**. Er det din egen pull request, står bare **Comment**
+  der.
+
+- [ ] **Produkteier:** flett inn pull requesten på github.com. Alle trykker
+  **Sync Changes** på `main`.
+
+![Pull requesten Si ha det til slutt åpnet i VS Code. Til venstre står den
+under Pull Requests med fila gjett_tallet.py, og til høyre er beskrivelsen
+med knappen Checkout og feltet for kommentarer](pr_i_vs_code.png)
+
+
+# Steg 6: Begge endrer samtidig {.activity}
+
+Nå lager dere en flettekonflikt (merge conflict) på GitHub og løser den. I dette
+steget er dere begge utviklere. Kall dere A og B.
+
+## Sjekkliste {.check}
+
+- [ ] **A:** lag en gren `feature/velkommen`. Legg til `print("Velkommen!")` på
+  linja over `while True:`. Publiser og lag en pull request.
+
+- [ ] **B:** lag en gren `feature/hei` fra `main`. Legg til `print("Hei!")` på
+  den samme linja. Publiser og lag en pull request.
+
+- [ ] **B:** godkjenn pull requesten til A. **A:** flett den inn.
+
+- [ ] Pull requesten fra `feature/hei` sier nå **This branch has conflicts that
+  must be resolved**.
+
+- [ ] **B:** skriv denne linja i terminalen én gang. Den sier at Git skal
   flette når grenene har gått hver sin vei:
 
   ```
   git config --global pull.rebase false
   ```
 
-- [ ] **Hjelper:** i VS Code, på grenen `hei`: trykk **...** i **Source
+- [ ] **B:** i VS Code, på grenen `feature/hei`: trykk **...** i **Source
   Control**, velg **Pull, Push** og så **Pull from...**. Velg `origin/main`.
 
-- [ ] **Hjelper:** løs konflikten som i steg 5 i [Prøv en idé på en
+- [ ] **B:** løs konflikten som i steg 5 i [Prøv en idé på en
   gren](../grener/grener). Behold gjerne begge linjene. Lag en commit og trykk
   **Sync Changes**.
 
-- [ ] **Eier:** pull requesten har ikke lenger konflikt. Flett den inn.
+- [ ] **A:** pull requesten har ikke lenger konflikt. Godkjenn den, og flett
+  den inn.
 
 ## Test prosjektet {.flag}
 
 - [ ] **Begge:** bytt til `main`, trykk **Sync Changes** og kjør programmet.
-  Telleren og begge hilsenene skal være med.
+  Telleren, avskjeden og begge hilsenene skal være med.
 
 
-# Utfordring {.challenge}
+# Steg 7: Forgrening {.activity}
 
-- [ ] Lag et **issue** på GitHub, en sak som sier hva som bør lages. Det kan
-  være "Spør om spilleren vil spille igjen". Lag en pull request som løser den,
-  og skriv `Fixes #1` i beskrivelsen. Hva skjer med issuet når pull requesten
-  flettes inn?
+Til nå har dere vært invitert til repoet. Vil du hjelpe til i et prosjekt der
+du ikke er invitert, lager du en **forgrening** (fork). Det er din egen kopi av
+hele repoet, på din konto. Der kan du lage grener og endre det du vil. Når du
+er fornøyd, lager du en pull request tilbake til det opprinnelige repoet. Det
+er eierne som bestemmer om den flettes inn.
+
+## Sjekkliste {.check}
 
 - [ ] Finn et åpent prosjekt på GitHub med merkelappen `good first issue`. Hva
   ber de om hjelp til?
 
-- [ ] Neste oppgave: [Publiser en nettside med GitHub
-  Pages](../github_pages/github_pages).
+- [ ] Øverst til høyre i repoet står knappen **Fork**. Trykk på den og så
+  **Create fork**. Nå har du en kopi under ditt eget brukernavn.
+
+- [ ] Du trenger ikke endre noe. Slett kopien under **Settings** nederst, i
+  **Danger Zone**, hvis du ikke vil ha den.
+
+## Les reglene først {.tip}
+
+Mange prosjekter har en fil som heter `CONTRIBUTING.md`. Der står det hvordan
+de vil ha hjelp. Les den før du lager en pull request.
+
+
+# Utfordring {.challenge}
+
+- [ ] Lag en sak (issue) på GitHub som sier hva som bør lages. Det kan være
+  "Spør om spilleren vil spille igjen". Lag en pull request som løser den, og
+  skriv `Closes #1` i beskrivelsen, med nummeret på saken. Hva skjer med saken
+  når pull requesten flettes inn?
+
+- [ ] Gjør steg 2 til 4 én gang til, med nye roller. Hvem har ikke vært
+  gjennomgåer ennå?
+
+- [ ] Neste oppgave: [Planlegg med issues og
+  prosjekttavle](../issues_og_prosjekt/issues_og_prosjekt).

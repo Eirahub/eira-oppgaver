@@ -7,6 +7,8 @@ language: nb
 
 # Introduksjon {.intro}
 
+**Fase:** Test med kunder (alpha/beta). Se [Fra idé til produksjon](../fasene/fasene).
+
 «App» kan bety mye: en nettside, noe du installerer fra App Store, et program på
 PC-en eller en tjeneste bedrifter betaler for hver måned. I denne oppgaven lærer
 du forskjellen, hva hver type krever, og hva den koster. Til slutt regner du ut

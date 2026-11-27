@@ -19,8 +19,14 @@ de faktisk gjør det, og at en voksen står som ansvarlig der det trengs.
 
 # Slik er kurset bygd opp {.activity}
 
+Kurset starter med [Fra idé til produksjon](../fasene/fasene), en oversikt over
+fasene fra behov til avvikling. Den siste oppgaven i hver fase slutter med
+ferdigkriteriene som sjekkliste (`Ferdig med fasen`). Bruk dem som punkter for
+underveisvurdering, og si gjerne at det er vanlig å gå tilbake en fase.
+
 - **Del 1, Fra behov til forretningsidé:** Uten konto og uten teknikk. Her
-  fordeler elevene også rollene i gruppa (Planen, steg 6).
+  fordeler elevene også rollene i gruppa (Planen, steg 6). GitHub-konto er
+  valgfritt: prosjekttavla i Planen kan også lages på et ark.
 - **Del 2, Bygg appen med KI:** Elevene bygger appen. Her trengs kontoer.
 - **Del 3, Klar for ekte kunder:** Risiko, personvern og ansvar kommer før
   kundene får prøve appen. Test med kunder starter med en sjekk før

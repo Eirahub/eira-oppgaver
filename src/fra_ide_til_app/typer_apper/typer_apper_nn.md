@@ -8,6 +8,8 @@ language: nn
 
 # Introduksjon {.intro}
 
+**Fase:** Test med kundar (alpha/beta). Sjå [Frå idé til produksjon](../fasene/fasene_nn).
+
 «App» kan bety mykje: ei nettside, noko du installerer frå App Store, eit
 program på PC-en eller ei teneste bedrifter betaler for kvar månad. I denne
 oppgåva lærer du skilnaden, kva kvar type krev, og kva han kostar. Til slutt
