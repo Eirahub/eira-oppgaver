@@ -60,12 +60,12 @@ akseptansekriterier (acceptance criteria): «Gitt ... når ... så ...».
 
 - [ ] Les forslagene. Velg den historien som passer best for prosjektet deres.
 
-<!-- BILDE: Chatten i VS Code med tre foreslåtte brukerhistorier for eposet
-Poeng i spillet -->
+![Chatten i VS Code med tre brukerhistorier for eposet Poeng i spillet, hver
+med to akseptansekriterier som begynner med Gitt](chat_historier.png)
 
 ## Vurder forslaget {.check}
 
-- [ ] Er det en ekte bruker i historien, og en grunn til at hun vil ha det?
+- [ ] Er det en ekte bruker i historien, og en grunn til at brukeren vil ha det?
 
 - [ ] Kan akseptansekriteriene sjekkes med ja eller nei?
 
@@ -103,8 +103,9 @@ ut fra endringene dine.
 - [ ] Rett meldingen så den er kort og presis, for eksempel `Legg til
   poengteller`. Trykk så `Commit`.
 
-<!-- BILDE: Source Control i VS Code med stjerneknappen Generate Commit Message
-i meldingsfeltet ringet inn -->
+![Source Control i VS Code med meldingen Legg til poengsystem for gjett spill
+laget av Copilot, og hjelpeteksten Generate Commit Message over
+stjerneknappen](generate_commit_message.png)
 
 ## Utkast, ikke fasit {.tip}
 
@@ -127,10 +128,11 @@ gjennomgåeren (reviewer) hva som er gjort og hvordan det kan testes.
 - [ ] Trykk på ikonet for **GitHub Pull Requests** i stripa til venstre, og
   velg `Create Pull Request`.
 
-- [ ] Trykk på stjerneknappen ved tittelen for å la Copilot lage tittel og
-  beskrivelse.
+- [ ] Trykk på stjerneknappen i tittelfeltet. Den heter `Generate with
+  Copilot`, og lager både tittel og beskrivelse.
 
-- [ ] Les utkastet og rett det. Beskrivelsen skal ha:
+- [ ] Les utkastet og rett det. Copilot skriver ofte på engelsk, så skriv det
+  om på norsk hvis teamet skriver norsk. Beskrivelsen skal ha:
 
   - hva som er endret, med dine egne ord
 
@@ -140,12 +142,12 @@ gjennomgåeren (reviewer) hva som er gjort og hvordan det kan testes.
     flettes
 
 - [ ] Skriv i beskrivelsen at du har brukt KI, og til hva. Da vet
-  gjennomgåeren hva hun bør se ekstra nøye på.
+  gjennomgåeren hva den bør se ekstra nøye på.
 
 - [ ] Trykk `Create`.
 
-<!-- BILDE: Visningen Create Pull Request i VS Code med en beskrivelse laget av
-Copilot og Closes #12 nederst -->
+![Visningen Create Pull Request i VS Code. Copilot har skrevet tittelen og
+beskrivelsen på engelsk, og Closes #12 står nederst](pr_beskrivelse.png)
 
 ## Uten utvidelsen {.tip}
 

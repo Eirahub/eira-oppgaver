@@ -155,13 +155,15 @@ produkteier. Denne gangen gjør gjennomgåeren alt i VS Code.
   Da bytter VS Code til grenen, og du kan kjøre programmet.
 
 - [ ] **Gjennomgåer:** nederst i beskrivelsen skriver du en kort melding og
-  velger **Approve**.
+  velger **Approve**. Er det din egen pull request, står bare **Comment**
+  der.
 
 - [ ] **Produkteier:** flett inn pull requesten på github.com. Alle trykker
   **Sync Changes** på `main`.
 
-<!-- BILDE: Pull requesten feature/ha-det åpnet i VS Code med GitHub Pull
-Requests-utvidelsen, med beskrivelsen og knappene Checkout og Approve -->
+![Pull requesten Si ha det til slutt åpnet i VS Code. Til venstre står den
+under Pull Requests med fila gjett_tallet.py, og til høyre er beskrivelsen
+med knappen Checkout og feltet for kommentarer](pr_i_vs_code.png)
 
 
 # Steg 6: Begge endrer samtidig {.activity}
