@@ -76,7 +76,9 @@ på jobb:
 
 - [ ] Gjør en kodegjennomgang (code review) under `Files changed`. Jobber dere
   i gruppe, er det en annen enn den som bygde, som går gjennom og godkjenner
-  (approve). Jobber du alene, går du gjennom din egen pull request.
+  (approve). Jobber du alene, går du gjennom din egen pull request og skriver
+  kommentarer med `Comment`. Du kan ikke godkjenne din egen pull request, så
+  du fletter uten `Approve`.
 
 - [ ] Flett med `Merge pull request`. Bytt til `main` i VS Code, og hent (pull)
   den nye versjonen.

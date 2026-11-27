@@ -96,16 +96,21 @@ rask å godkjenne.
   endret.
 
 - [ ] **Gjennomgåer:** hold musa over en linje og trykk på **+**. Skriv en
-  kommentar, for eksempel et spørsmål eller ros, og trykk **Add single
-  comment**.
+  kommentar, for eksempel et spørsmål eller ros, og trykk **Comment**.
 
 - [ ] **Utvikler:** svar på kommentaren. Må noe rettes, retter du det i VS
   Code, lager en commit og trykker **Sync Changes**. Den nye commiten dukker
   opp i pull requesten.
 
-- [ ] **Gjennomgåer:** når alt er bra, trykk **Review changes** øverst i
-  **Files changed**. Velg **Approve**, skriv en kort melding og trykk
-  **Submit review**. Nå har du godkjent (approve) endringen.
+- [ ] **Gjennomgåer:** når alt er bra, trykk den grønne knappen **Submit
+  review** øverst i **Files changed**. Skriv en kort melding, velg **Approve**
+  og trykk **Submit review** nederst. Nå har du godkjent (approve) endringen.
+
+## Kan ikke godkjenne? {.tip}
+
+Den som har laget pull requesten, kan ikke godkjenne den selv. Da er
+**Approve** grått. Det er gjennomgåeren som godkjenner. I eldre visninger
+heter knappen **Review changes** i stedet for **Submit review**.
 
 - [ ] **Produkteier:** gå til **Conversation**. Der står det at endringen er
   godkjent. Trykk **Merge pull request** og så **Confirm merge**.

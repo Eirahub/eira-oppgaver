@@ -21,9 +21,9 @@ Dere er 3 eller 4 på laget, og rollene byttes:
 - **Gjennomgåer** (reviewer) leser og tester endringen før den flettes inn.
   Alle er gjennomgåer på saken til en annen.
 
-<!-- BILDE: Prosjekttavla til et team med fire saker i milepælen Versjon 2,
-fordelt på kolonnene Todo, In Progress og Done, med profilbildet til den som
-har ansvaret på hver lapp -->
+![Prosjekttavla Gjett tallet filtrert på milepælen Versjon 2, med én sak i
+Todo, to i In Progress og én i Done, og profilbildet til den som har ansvaret
+på hver lapp](tavle.jpg)
 
 ## Før dere starter {.tip}
 

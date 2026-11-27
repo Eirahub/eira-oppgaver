@@ -40,9 +40,10 @@ versjonen eit namn, så de veit kva som blei lansert, og kan finne han igjen.
   e-postadresse eller eit skjema for bedrifta, ikkje ein privat konto.
 
 - [ ] Lag eit versjonsmerke (tag) og ei utgiving (release) på GitHub. Opne
-  repoet, vel `Releases` og `Draft a new release`. Skriv `v1.0` som ny tag,
-  gi utgivinga ein tittel og eit par setningar om kva appen kan, og trykk
-  `Publish release`.
+  repoet og trykk `Releases` til høgre. Trykk `Create a new release` (har du
+  laga ei før, heiter han `Draft a new release`). Trykk `Select tag`, skriv
+  `v1.0`, trykk `Create new tag` og så `Create`. Gi utgivinga ein tittel og
+  eit par setningar om kva appen kan, og trykk `Publish release`.
 
 - [ ] Likar du terminalen betre, kan du lage versjonsmerket der i staden:
 

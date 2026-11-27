@@ -78,15 +78,18 @@ den opp i flere.
 
 ## Sjekkliste {.check}
 
-- [ ] Klikk på profilbildet ditt øverst til høyre, velg **Projects** og trykk
-  **New project**. Under **Start from scratch** velger du **Board**.
+- [ ] Åpne repoet, gå til fanen **Projects** og trykk **New project**. Under
+  **Start from scratch** velger du **Board**.
 
-- [ ] Gi prosjektet et navn, for eksempel `Gjett tallet`. Tavla har tre
-  kolonner: **Todo**, **In Progress** og **Done**. Velger du en mal i stedet
-  for **Board**, får tavla andre kolonner.
+- [ ] Gi prosjektet et navn, for eksempel `Gjett tallet`. La **Import items
+  from repository** være krysset av, og trykk **Create project**. Da kommer de
+  åpne sakene i repoet med på tavla av seg selv.
 
-- [ ] Legg til de tre sakene: trykk **+** nederst i **Todo**, skriv `#`, velg
-  repoet `gjett_tallet` og så saken.
+- [ ] Tavla har tre kolonner: **Todo**, **In Progress** og **Done**. Velger du
+  en mal i stedet for **Board**, får tavla andre kolonner.
+
+- [ ] Mangler en sak, trykk **+** i **Todo**, skriv `#`, velg repoet
+  `gjett_tallet` og så saken.
 
 - [ ] Dra den saken du skal jobbe med nå, til **In Progress**.
 
