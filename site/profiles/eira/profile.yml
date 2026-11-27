@@ -23,7 +23,6 @@ nav:
   - { label: Om oppgavene, href: /om-oppgavene }
 
 hero:
-  eyebrow: Gratis oppgaver
   title: Lær å programmere
   lead: >-
     Oppgaver i Scratch, Python, micro:bit og mye mer, til kodeklubben, skolen og
@@ -71,7 +70,7 @@ tokens:
   --surface-raised: "#FFFFFF"
   --ink: "#1B1B1F"
   --ink-2: "#3D3D42"
-  --ink-3: "#75757B"
+  --ink-3: "#6A6A70"
   --header-bg: "#1E3A8A"
   --header-ink: "#FFFFFF"
   --shadow-card: 0 2px 12px rgba(30, 58, 138, 0.10)

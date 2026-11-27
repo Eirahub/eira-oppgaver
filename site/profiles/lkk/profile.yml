@@ -29,7 +29,6 @@ nav:
   - { label: Bidra, href: "https://www.kidsakoder.no/bidra/" }
 
 hero:
-  eyebrow: Lær Kidsa Koding
   title: Oppgaver
   lead: >-
     Oppgaver for barn og unge i alle aldre som ønsker å lære programmering. Alt

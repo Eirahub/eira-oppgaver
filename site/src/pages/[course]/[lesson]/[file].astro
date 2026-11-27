@@ -32,7 +32,6 @@ const issue = `${profile.issueUrl}?title=${encodeURIComponent(`Problem med ${c.t
   <article class="lesson" lang={htmlLang} data-pagefind-body={f.isReadme ? undefined : ''}>
     {!f.isReadme && <span hidden data-pagefind-filter="Kurs" data-pagefind-meta="kurs">{c.title}</span>}
     <header class="lesson-header">
-      {f.isReadme && <p class="eyebrow" lang="nb">Lærerveiledning</p>}
       <h1>
         {lesson.level > 0 && <img class="level-icon" src={`/graphics/level-${lesson.level}.svg`} alt={`Nivå ${lesson.level}`} width="40" height="40" />}
         <span>{f.title}</span>

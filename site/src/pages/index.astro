@@ -22,7 +22,6 @@ const slug = (s) => `gruppe-${s.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 ---
 <Base>
   <section class="hero">
-    <p class="eyebrow">{profile.hero.eyebrow}</p>
     <h1>{profile.hero.title}</h1>
     <div class="lead" set:html={renderMarkdown(profile.hero.lead)} />
     {v && <CourseVideo v={v} id="forside" />}

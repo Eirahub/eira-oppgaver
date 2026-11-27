@@ -25,7 +25,6 @@
      (profiles/<name>/profile.yml, written into <head> by Base.astro). */
   --font-mono: ui-monospace, "Cascadia Code", Consolas, "Liberation Mono", monospace;
 
-  --fs-eyebrow: 0.75rem;
   --fs-body-sm: 0.9375rem;
   --fs-body: 1.0625rem;
   --fs-body-lg: 1.25rem;
@@ -72,7 +71,6 @@ main.wrap { padding-bottom: var(--space-7); min-height: 60vh; }
 .skip-link { position: absolute; left: var(--space-4); top: -100px; background: var(--surface-raised); padding: var(--space-2) var(--space-4); z-index: 10; }
 .skip-link:focus { top: var(--space-2); }
 
-.eyebrow { font-weight: 700; font-size: var(--fs-eyebrow); letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-3); margin: 0; }
 
 .button {
   display: inline-flex; align-items: center; gap: var(--space-2);
@@ -109,7 +107,7 @@ main.wrap { padding-bottom: var(--space-7); min-height: 60vh; }
 .mode-toggle[aria-pressed="true"] { background: var(--header-ink); color: var(--header-bg); }
 .mode-toggle[aria-pressed="true"]::before { background: radial-gradient(circle at 70% 50%, currentColor 32%, transparent 36%); }
 html:not([data-mode="teacher"]) .teacher-only { display: none !important; }
-.teacher-info { background: var(--surface-raised); border-left: 6px solid var(--brand-primary); border-radius: var(--radius-card); box-shadow: var(--shadow-card); padding: var(--space-1) var(--space-5) var(--space-3); margin-top: var(--space-5); max-width: 52rem; }
+.teacher-info { background: var(--surface-raised); border-radius: var(--radius-card); box-shadow: var(--shadow-card); padding: var(--space-1) var(--space-5) var(--space-3); margin-top: var(--space-5); max-width: 52rem; }
 .teacher-info h2 { margin-top: var(--space-3); }
 .lesson-readme { font-size: var(--fs-body-sm); white-space: nowrap; }
 a.external::after { content: " ↗" / " (ekstern side)"; }
@@ -262,6 +260,8 @@ h1, h2 { overflow-wrap: break-word; hyphens: auto; }
   .course-info > .content { padding: 0 var(--space-3) var(--space-3); }
 }
 .lesson-content pre { background: var(--surface-raised); border: 1px solid var(--border-card); border-radius: 8px; padding: var(--space-3) var(--space-4); overflow-x: auto; line-height: 1.45; }
+/* github.css gives built-ins #e36209, only 3.5:1 on white. */
+.lesson-content .hljs-built_in, .lesson-content .hljs-symbol { color: #953800; }
 .lesson-content :not(pre) > code { background: var(--brand-primary-tint); border-radius: 4px; padding: 0.1em 0.35em; }
 .lesson-content section { margin: var(--space-5) 0; }
 .lesson-content li { margin: var(--space-2) 0; }

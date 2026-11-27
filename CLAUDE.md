@@ -131,6 +131,11 @@ Windows-fiksene (`os.replace`, `indexed` i `KEYS_YML`) er med i dette repoet.
 ## Regler
 
 - Tankestrek (U+2014) er forbudt i all tekst.
+- Ikke KI-preg på sidene: ingen farget kant på én side av kort, bokser eller
+  listepunkter (`border-left` og lignende over 1px), og ingen liten etikett med
+  store, sperrede bokstaver over en overskrift. Fremhev med bakgrunn,
+  overskrift eller ikon. `npm test` i `site/` sjekker dette
+  (`scripts/ki-kjennetegn.test.mjs`).
 - Ingen hemmeligheter i repoet. Les aldri `.env`.
 - Eira-profilen kommer fra
   `C:\Users\torei\Documents\Repos\04-customer-products\design-system-eira`
