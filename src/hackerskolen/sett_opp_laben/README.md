@@ -55,6 +55,10 @@ Laben kjører, og eleven har registrert det første flagget i flaggboka.
 - Laben lytter bare på `127.0.0.1`, så elevene kan ikke angripe hverandres
   maskiner over nettet. Det er med vilje.
 
+- Bytter elevene maskin mellom timene, ber du dem skrive ned fremgangskoden
+  fra `python3 sjekk.py status` på slutten av timen. Med
+  `python3 sjekk.py hent KODE` får de flaggene tilbake på en annen maskin.
+
 - Flaggene er kodet i kildekoden, og sjekkeren har bare hasher. En elev som
   leser seg fram til et flagg i koden, har også gjort noe lærerikt. Snakk om
   det.

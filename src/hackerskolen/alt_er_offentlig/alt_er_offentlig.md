@@ -20,7 +20,7 @@ FRA:   K, Byrå 404
 TIL:   Pentester
 EMNE:  Oppdrag Kiosken
 
-Kunden har signert. Omfang: Kiosken på 127.0.0.1:8080. Ikke noe
+Kunden har signert. Omfang: Kiosken på www.kiosken.localhost:8080. Ikke noe
 annet. Finn så mange hull du kan, og skriv ned alt.
 
 Hilsen K
@@ -38,13 +38,15 @@ vil vite mer.
 
 ## Sjekkliste {.check}
 
-- [ ] Start Kiosken i terminalen, fra mappa `hackerlab`:
+- [ ] Start Kiosken i terminalen, fra mappa `hackerlab`. På en laptop fra Eira
+  kjører den allerede, så da hopper du over dette.
 
   ```
   python3 kiosk.py
   ```
 
-- [ ] Åpne [http://127.0.0.1:8080](http://127.0.0.1:8080) i nettleseren.
+- [ ] Åpne [http://www.kiosken.localhost:8080](http://www.kiosken.localhost:8080) i nettleseren. På en
+  laptop fra Eira er adressen [http://www.kiosken.localhost](http://www.kiosken.localhost).
 
 - [ ] Bli kjent med siden som en vanlig kunde. Kjøp en bolle. Les
   kommentarene.

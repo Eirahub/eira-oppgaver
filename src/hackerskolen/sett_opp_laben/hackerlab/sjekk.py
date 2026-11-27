@@ -1,6 +1,7 @@
 # Hackerskolen: flaggbok, grader og sjekker.
 #   python3 sjekk.py flagg EIRA{...}   registrer et flagg
 #   python3 sjekk.py status            se flaggboka og graden din
+#   python3 sjekk.py hent KODE         hent flaggene dine fra en annen maskin
 #   python3 sjekk.py phishing          quiz: ekte eller falsk?
 #   python3 sjekk.py blått             sjekk om du har tettet hullene i Kiosken
 #   python3 sjekk.py blått --port 8081 hvis Kiosken kjører på en annen port
@@ -17,6 +18,7 @@ HER = os.path.dirname(os.path.abspath(__file__))
 BOK = os.path.join(HER, "flaggbok.txt")
 
 # Bare hasher av flaggene står her, så fila avslører dem ikke.
+# Rekkefølgen brukes i fremgangskoden. Nye flagg legges til nederst.
 FLAGG = {
     "954f4ebf": "Velkommen til laben",
     "12f51cf5": "Skjulte filer",
@@ -45,6 +47,45 @@ def kort(flagg):
     return hashlib.sha256(flagg.encode()).hexdigest()[:8]
 
 
+# Fremgangskoden: ett bit per flagg og 8 bit kontrollsum, skrevet med 32 tegn
+# uten I, O, 0 og 1, så den er lett å skrive av.
+KODETEGN = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"
+
+
+def kontroll(bits):
+    return hashlib.sha256(f"eira{bits}".encode()).digest()[0]
+
+
+def fremgangskode(har):
+    bits = sum(1 << i for i, h in enumerate(FLAGG) if h in har)
+    tall = bits << 8 | kontroll(bits)
+    lengde = (len(FLAGG) + 8 + 4) // 5
+    return "".join(KODETEGN[(tall >> (5 * i)) & 31]
+                   for i in reversed(range(lengde)))
+
+
+def hent_kode(kode):
+    kode = kode.strip().upper().replace("-", "").replace(" ", "")
+    if not kode or any(t not in KODETEGN for t in kode):
+        print("Det er ikke en fremgangskode. Den har bare bokstaver og tall, "
+              "som K7QM2.")
+        return
+    tall = 0
+    for t in kode:
+        tall = tall << 5 | KODETEGN.index(t)
+    bits = tall >> 8
+    if tall & 255 != kontroll(bits) or bits >> len(FLAGG):
+        print("Koden stemmer ikke. Sjekk at du har skrevet den av riktig.")
+        return
+    har = funnet()
+    nye = [h for i, h in enumerate(FLAGG) if bits >> i & 1 and h not in har]
+    with open(BOK, "a", encoding="utf-8") as fil:
+        for h in nye:
+            fil.write(h + "\n")
+    print(f"Hentet {len(nye)} flagg fra koden.")
+    status()
+
+
 def funnet():
     if not os.path.exists(BOK):
         return []
@@ -67,6 +108,11 @@ def status():
         print(f"\n{neste[0] - len(har)} flagg til neste grad.")
     else:
         print("\nDu har alle gradene. Godt jobba, hvit hatt.")
+    if har:
+        kode = fremgangskode(har)
+        print(f"\nFremgangskode: {kode}")
+        print("Skriv den ned. På en annen maskin henter du flaggene med:")
+        print(f"  python3 sjekk.py hent {kode}")
 
 
 def registrer(flagg):
@@ -205,11 +251,13 @@ if __name__ == "__main__":
         registrer(" ".join(a[1:]))
     elif a[:1] == ["status"]:
         status()
+    elif len(a) >= 2 and a[0] == "hent":
+        hent_kode("".join(a[1:]))
     elif a[:1] == ["phishing"]:
         phishing()
     elif a[:1] in (["blått"], ["blatt"]):
         blått()
     else:
         print(__doc__ or "", end="")
-        print("Bruk: python3 sjekk.py flagg EIRA{...} | status | phishing | "
-              "blått")
+        print("Bruk: python3 sjekk.py flagg EIRA{...} | status | hent KODE | "
+              "phishing | blått")

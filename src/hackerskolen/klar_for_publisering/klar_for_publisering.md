@@ -76,7 +76,8 @@ resten.
   `KIOSK_JS`. Husk også `% f(...)` på slutten. En rabattkode må sjekkes på
   serveren.
 
-- [ ] Start Kiosken på nytt, og kjør `python3 sjekk.py blått` igjen.
+- [ ] Start Kiosken på nytt, og kjør `python3 sjekk.py blått` igjen. På en
+  laptop fra Eira starter Kiosken på nytt av seg selv når du lagrer.
 
 ## Flagg {.flag}
 
@@ -97,7 +98,7 @@ hvilken linje som er feil.
   minutter.
 
 - [ ] Blått lag har tettet Kiosken på sin maskin. Rødt lag får sitte ved
-  maskinen og prøve alt de kan, bare mot `127.0.0.1:8080` på den maskinen.
+  maskinen og prøve alt de kan, bare mot `www.kiosken.localhost:8080` på den maskinen.
 
 - [ ] Rødt lag skriver ned hvert forsøk, og om det virket.
 
